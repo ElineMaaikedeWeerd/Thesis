@@ -1,0 +1,170 @@
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
+% Thesis - Ian Huston
+% $Id: thesis.tex,v 1.2 2009/12/17 18:16:48 ith Exp $
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+%\pdfoutput=1
+
+\documentclass[
+%  twoside,
+PhD, % Change to PhD to change text at bottom of title page
+DIC=off,
+12pt,
+bibliography=totoc, % Include bibliography in contents
+listof = totoc, % Include lists of figures and tables in contents
+index= totoc, % Include index in contents
+onehalfspacing, % onehalfspacing or doublespacing
+a4paper %letterpaper
+% doublespacing
+%,openright
+]
+{icldt}
+
+\usepackage{graphicx}
+
+%\usepackage[square, numbers, sort&compress]{natbib}
+\usepackage[]{natbib}
+%\bibliographystyle{JHEP}
+\bibliographystyle{mnras}
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
+
+% Journals
+\newcommand{\apj}{ApJ}
+\newcommand{\apjs}{ApJS}
+\newcommand{\apjl}{ApJL}
+\newcommand{\aap}{A{\&}A}
+\newcommand{\aaps}{A{\&}AS}
+\newcommand{\mnras}{MNRAS}
+\newcommand{\aj}{AJ}
+\newcommand{\araa}{ARAA}
+\newcommand{\pasp}{PASP}
+\newcommand{\pasj}{PASJ}
+\newcommand{\jcap}{JCAP}
+\newcommand{\na}{New Astronomy}
+\newcommand{\physrep}{Phys. Rep.}
+\newcommand{\prd}{Phys. Rev. D}
+\newcommand{\azh}{Astron. Zh.}
+\newcommand{\nat}{Nature}
+\newcommand{\nar}{New Astronomy Reviews}
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
+% IH formatting package
+% CVSon for cvs revision number in footers
+% CVSoff is default-
+%\usepackage[%CVSon, % CVS version in footers
+            %labels, % show labels
+	        %todos, % show todos (requires todonotes package)
+            %hyperref % Use hyperref for links
+%            ]{ihformat}
+
+\pagestyle{headings}
+\usepackage{hyperref}
+\usepackage[title]{appendix}
+            
+\hypersetup{colorlinks = true, linkcolor=blue}
+            
+%\usepackage[style=ieee-alphabetic]{biblatex}
+
+% Redefine CVSRevision for this section
+% \renewcommand{\CVSrevision}{\version$Id: thesis.tex,v 1.2 2009/12/17 18:16:48 ith Exp $}
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
+
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
+% Include list
+% Put in all the files that you want to compile each time.
+% You must run with all the files added at least once to get the correct reference
+% aux and toc files.
+%\includeonly{
+%abstract_corrected,
+%acknowledgements,
+%C1_Intro,
+%C2_CPT,
+%C3_History,
+%C4_zeta2,
+%C6_iso2,
+%C5_quench,
+%C7_palatini,
+%C9_conclusions,
+%AppendixA,
+%AppendixB
+%}
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
+%dodgy addition...
+\makeatletter
+%% change \numberline so that it will print "Appendix A"
+\newcommand\appendix@numberline[1]{}%\autodot\ } %#1} %\appendixname\  }
+\g@addto@macro\appendix{%
+  \addtocontents{toc}{
+    \let\protect\numberline\protect\appendix@numberline}%
+}
+\makeatother
+%end dodgy addition
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% % % custom commands 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+% Title page is input not included to remove extra page.
+\input{tex/title}
+
+% % % % % % % % % % % % % % % % % % % % % % % % % 
+% Abstract
+\include{tex/abstract}
+% % % % % % % % % % % % % % % % % % % % % % % % %
+
+% % % % % % % % % % % % % % % % % % % % % % % % % 
+% Acknowledgements
+\include{tex/acknowledgements}
+% % % % % % % % % % % % % % % % % % % % % % % % % 
+
+
+% % % % % % % % % % % % % % % % % % % % % % % % % 
+% Table of contents and figures
+% % % % % % % % % % % % % % % % % % % % % % % % % 
+\tableofcontents
+
+% Set one half spacing now that thesis proper is starting.
+\onehalfspacing
+% % % % % % % % % % % % % % % % % % % % % % % % % 
+
+% Include files for each chapter here using 
+\include{tex/chapter_1}
+\include{tex/chapter_2}
+\include{tex/appendix}
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % 
+% Start single space again for bibliography
+\begin{singlespace}
+% % % % % % % % % % % % % % % % % % % % % % % % % 
+
+% Bibliography
+% Put your bibliography file here
+\bibliography{bib/thesis_bib}
+% 
+% This bibtex style file puts entries in alphabetical order and treats arxiv
+% references correctly.
+%\bibliographystyle{abbrvnat}
+%\bibliographystyle{unsrt}
+%\bibliographystyle{./utphys-ih}
+%\bibliographystyle{ieeetr} %cth one I found in order of appearence
+%\bibliographystyle{plainnat}
+
+
+% % % % % % % % % % % % % % % % % % % % % % % % % 
+
+\end{singlespace}
+
+\listoffigures 
+\listoftables 
+
+
+% % % % % % % % % % % % % % % % % % % % % % % % % 
+\end{document}
