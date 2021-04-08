@@ -17,13 +17,141 @@
   {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
   mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
 
-\bibitem[\protect\citeauthoryear{Einstein}{Einstein}{1915}]{Einstein:1915ca}
-Einstein A.,  1915, Sitzungsber. Preuss. Akad. Wiss. Berlin (Math. Phys.),
-  1915, 844
+\bibitem[\protect\citeauthoryear{Abramo \& Bertacca}{Abramo \&
+  Bertacca}{2017}]{Abramo:2017xnp}
+Abramo L.~R.,  Bertacca D.,  2017, \mn@doi [Physical Review D]
+  {10.1103/physrevd.96.123535}, 96
 
-\bibitem[\protect\citeauthoryear{Einstein}{Einstein}{1916}]{Einstein:1916vd}
-Einstein A.,  1916, \mn@doi [Annalen Phys.] {10.1002/andp.200590044,
-  10.1002/andp.19163540702}, 49, 769
+\bibitem[\protect\citeauthoryear{Bertacca}{Bertacca}{2015}]{Bertacca:2014hwa}
+Bertacca D.,  2015, \mn@doi [Class. Quant. Grav.]
+  {10.1088/0264-9381/32/19/195011}, 32, 195011
+
+\bibitem[\protect\citeauthoryear{Bertacca, Maartens  \& Clarkson}{Bertacca
+  et~al.}{2014}]{Bertacca:2014dra}
+Bertacca D.,  Maartens R.,   Clarkson C.,  2014, \mn@doi [JCAP]
+  {10.1088/1475-7516/2014/09/037}, 09, 037
+
+\bibitem[\protect\citeauthoryear{Bonvin}{Bonvin}{2014}]{Bonvin:2014owa}
+Bonvin C.,  2014, \mn@doi [Class. Quant. Grav.]
+  {10.1088/0264-9381/31/23/234002}, 31, 234002
+
+\bibitem[\protect\citeauthoryear{Camera, Fonseca, Maartens  \& Santos}{Camera
+  et~al.}{2018}]{Camera:2018jys}
+Camera S.,  Fonseca J.,  Maartens R.,   Santos M.~G.,  2018, \mn@doi [Mon. Not.
+  Roy. Astron. Soc.] {10.1093/mnras/sty2284}, 481, 1251
+
+\bibitem[\protect\citeauthoryear{Challinor \& Lewis}{Challinor \&
+  Lewis}{2011}]{Challinor:2011bk}
+Challinor A.,  Lewis A.,  2011, \mn@doi [Phys. Rev. D]
+  {10.1103/PhysRevD.84.043516}, 84, 043516
+
+\bibitem[\protect\citeauthoryear{Desjacques, Jeong  \& Schmidt}{Desjacques
+  et~al.}{2018}]{Desjacques:2016bnm}
+Desjacques V.,  Jeong D.,   Schmidt F.,  2018, \mn@doi [Phys. Rept.]
+  {10.1016/j.physrep.2017.12.002}, 733, 1
+
+\bibitem[\protect\citeauthoryear{Di~Dio \& Seljak}{Di~Dio \&
+  Seljak}{2019}]{DiDio:2018zmk}
+Di~Dio E.,  Seljak U.,  2019, \mn@doi [JCAP] {10.1088/1475-7516/2019/04/050},
+  04, 050
+
+\bibitem[\protect\citeauthoryear{Di~Dio, Durrer, Marozzi  \& Montanari}{Di~Dio
+  et~al.}{2014}]{DiDio:2014lka}
+Di~Dio E.,  Durrer R.,  Marozzi G.,   Montanari F.,  2014, \mn@doi [JCAP]
+  {10.1088/1475-7516/2014/12/017}, 12, 017
+
+\bibitem[\protect\citeauthoryear{Di~Dio, Durrer, Maartens, Montanari  \&
+  Umeh}{Di~Dio et~al.}{2019}]{DiDio:2018unb}
+Di~Dio E.,  Durrer R.,  Maartens R.,  Montanari F.,   Umeh O.,  2019, \mn@doi
+  [JCAP] {10.1088/1475-7516/2019/04/053}, 04, 053
+
+\bibitem[\protect\citeauthoryear{Fonseca, Maartens  \& Santos}{Fonseca
+  et~al.}{2018}]{Fonseca:2018hsu}
+Fonseca J.,  Maartens R.,   Santos M.~G.,  2018, \mn@doi [Mon. Not. Roy.
+  Astron. Soc.] {10.1093/mnras/sty1702}, 479, 3490
+
+\bibitem[\protect\citeauthoryear{Hall \& Bonvin}{Hall \&
+  Bonvin}{2017}]{Hall:2016bmm}
+Hall A.,  Bonvin C.,  2017, \mn@doi [Phys. Rev. D]
+  {10.1103/PhysRevD.95.043530}, 95, 043530
+
+\bibitem[\protect\citeauthoryear{Jolicoeur, Umeh, Maartens  \&
+  Clarkson}{Jolicoeur et~al.}{2017}]{Jolicoeur:2017nyt}
+Jolicoeur S.,  Umeh O.,  Maartens R.,   Clarkson C.,  2017, \mn@doi [JCAP]
+  {10.1088/1475-7516/2017/09/040}, 09, 040
+
+\bibitem[\protect\citeauthoryear{Jolicoeur, Umeh, Maartens  \&
+  Clarkson}{Jolicoeur et~al.}{2018}]{Jolicoeur:2017eyi}
+Jolicoeur S.,  Umeh O.,  Maartens R.,   Clarkson C.,  2018, \mn@doi [JCAP]
+  {10.1088/1475-7516/2018/03/036}, 03, 036
+
+\bibitem[\protect\citeauthoryear{Jolicoeur, Allahyari, Clarkson, Larena, Umeh
+  \& Maartens}{Jolicoeur et~al.}{2019}]{Jolicoeur:2018blf}
+Jolicoeur S.,  Allahyari A.,  Clarkson C.,  Larena J.,  Umeh O.,   Maartens R.,
+   2019, \mn@doi [JCAP] {10.1088/1475-7516/2019/03/004}, 03, 004
+
+\bibitem[\protect\citeauthoryear{Kaiser}{Kaiser}{1987}]{Kaiser:1987qv}
+Kaiser N.,  1987, Mon. Not. Roy. Astron. Soc., 227, 1
+
+\bibitem[\protect\citeauthoryear{Lewis, Challinor  \& Lasenby}{Lewis
+  et~al.}{2000}]{Lewis:1999bs}
+Lewis A.,  Challinor A.,   Lasenby A.,  2000, \mn@doi [Astrophys. J.]
+  {10.1086/309179}, 538, 473
+
+\bibitem[\protect\citeauthoryear{McDonald}{McDonald}{2009}]{McDonald:2009dh}
+McDonald P.,  2009, \mn@doi [JCAP] {10.1088/1475-7516/2009/11/026}, 11, 026
+
+\bibitem[\protect\citeauthoryear{Nan, Yamamoto  \& Hikage}{Nan
+  et~al.}{2018}]{Nan:2017oaq}
+Nan Y.,  Yamamoto K.,   Hikage C.,  2018, \mn@doi [JCAP]
+  {10.1088/1475-7516/2018/07/038}, 07, 038
+
+\bibitem[\protect\citeauthoryear{Raccanelli, Bertacca, Jeong, Neyrinck  \&
+  Szalay}{Raccanelli et~al.}{2018}]{Raccanelli:2016avd}
+Raccanelli A.,  Bertacca D.,  Jeong D.,  Neyrinck M.~C.,   Szalay A.~S.,  2018,
+  \mn@doi [Phys. Dark Univ.] {10.1016/j.dark.2017.12.003}, 19, 109
+
+\bibitem[\protect\citeauthoryear{Scoccimarro, Couchman  \& Frieman}{Scoccimarro
+  et~al.}{1999}]{Scoccimarro:1999ed}
+Scoccimarro R.,  Couchman H. M.~P.,   Frieman J.~A.,  1999, \mn@doi [The
+  Astrophysical Journal] {10.1086/307220}, 517, 531–540
+
+\bibitem[\protect\citeauthoryear{Tansella, Bonvin, Durrer, Ghosh  \&
+  Sellentin}{Tansella et~al.}{2018}]{Tansella:2017rpi}
+Tansella V.,  Bonvin C.,  Durrer R.,  Ghosh B.,   Sellentin E.,  2018, \mn@doi
+  [JCAP] {10.1088/1475-7516/2018/03/019}, 03, 019
+
+\bibitem[\protect\citeauthoryear{Tellarini, Ross, Tasinato  \& Wands}{Tellarini
+  et~al.}{2016}]{Tellarini:2016sgp}
+Tellarini M.,  Ross A.~J.,  Tasinato G.,   Wands D.,  2016, \mn@doi [Journal of
+  Cosmology and Astroparticle Physics] {10.1088/1475-7516/2016/06/014}, 2016,
+  014–014
+
+\bibitem[\protect\citeauthoryear{Umeh, Maartens  \& Santos}{Umeh
+  et~al.}{2016}]{Umeh:2015gza}
+Umeh O.,  Maartens R.,   Santos M.,  2016, \mn@doi [JCAP]
+  {10.1088/1475-7516/2016/03/061}, 03, 061
+
+\bibitem[\protect\citeauthoryear{Umeh, Jolicoeur, Maartens  \& Clarkson}{Umeh
+  et~al.}{2017}]{Umeh:2016nuh}
+Umeh O.,  Jolicoeur S.,  Maartens R.,   Clarkson C.,  2017, \mn@doi [JCAP]
+  {10.1088/1475-7516/2017/03/034}, 03, 034
+
+\bibitem[\protect\citeauthoryear{Verde, Heavens, Matarrese  \&
+  Moscardini}{Verde et~al.}{1998}]{Verde:1998zr}
+Verde L.,  Heavens A.~F.,  Matarrese S.,   Moscardini L.,  1998, \mn@doi
+  [Monthly Notices of the Royal Astronomical Society]
+  {10.1046/j.1365-8711.1998.01937.x}, 300, 747–756
+
+\bibitem[\protect\citeauthoryear{Yankelevich \& Porciani}{Yankelevich \&
+  Porciani}{2019}]{Yankelevich:2018uaz}
+Yankelevich V.,  Porciani C.,  2019, \mn@doi [Mon. Not. Roy. Astron. Soc.]
+  {10.1093/mnras/sty3143}, 483, 2078
+
+\bibitem[\protect\citeauthoryear{Yoo \& Zaldarriaga}{Yoo \&
+  Zaldarriaga}{2014}]{Yoo:2014sfa}
+Yoo J.,  Zaldarriaga M.,  2014, \mn@doi [Phys. Rev. D]
+  {10.1103/PhysRevD.90.023513}, 90, 023513
 
 \makeatother
 \end{thebibliography}

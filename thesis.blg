@@ -4,50 +4,50 @@ The top-level auxiliary file: thesis.aux
 The style file: mnras.bst
 A level-1 auxiliary file: tex/abstract.aux
 A level-1 auxiliary file: tex/acknowledgements.aux
-A level-1 auxiliary file: tex/chapter_1.aux
+A level-1 auxiliary file: tex/dipole.aux
 A level-1 auxiliary file: tex/chapter_2.aux
 A level-1 auxiliary file: tex/appendix.aux
 Database file #1: bib/thesis_bib.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 2 entries,
+You've used 28 entries,
             2881 wiz_defined-function locations,
-            739 strings with 6285 characters,
-and the built_in function-call counts, 861 in all, are:
-= -- 76
-> -- 47
-< -- 8
-+ -- 23
-- -- 4
-* -- 89
-:= -- 142
+            966 strings with 12338 characters,
+and the built_in function-call counts, 14109 in all, are:
+= -- 1196
+> -- 1058
+< -- 76
++ -- 443
+- -- 172
+* -- 1686
+:= -- 2279
 add.period$ -- 0
-call.type$ -- 2
-change.case$ -- 4
-chr.to.int$ -- 2
-cite$ -- 2
-duplicate$ -- 42
-empty$ -- 45
-format.name$ -- 8
-if$ -- 145
+call.type$ -- 28
+change.case$ -- 56
+chr.to.int$ -- 28
+cite$ -- 28
+duplicate$ -- 635
+empty$ -- 616
+format.name$ -- 252
+if$ -- 2440
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 2
-newline$ -- 19
-num.names$ -- 12
-pop$ -- 9
+missing$ -- 28
+newline$ -- 97
+num.names$ -- 216
+pop$ -- 117
 preamble$ -- 1
-purify$ -- 8
+purify$ -- 112
 quote$ -- 0
-skip$ -- 28
+skip$ -- 389
 stack$ -- 0
-substring$ -- 56
-swap$ -- 12
-text.length$ -- 8
+substring$ -- 917
+swap$ -- 360
+text.length$ -- 112
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 18
+type$ -- 252
 warning$ -- 0
-while$ -- 16
+while$ -- 222
 width$ -- 0
-write$ -- 32
+write$ -- 292

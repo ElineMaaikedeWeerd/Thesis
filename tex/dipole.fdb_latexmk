@@ -1,0 +1,17 @@
+# Fdb version 3
+["pdflatex"] 1617876717 "dipole.tex" "dipole.pdf" "dipole" 1617876718
+  "/etc/texmf/web2c/texmf.cnf" 1603368878 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm" 1136768653 1332 f817c21a1ba54560425663374f1b651a ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm" 1136768653 1336 3125ccb448c1a09074e3aa4a9832f130 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1603369170 4770781 1ed1abab22da9c3e2cc82e4db562318b ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1603369201 8256833 dba6938440f79102e012f0d9a13ce548 ""
+  "dipole.aux" 1617876675 5566 dfdac6b698cf79ac06d62d6706a33113 ""
+  "dipole.tex" 1617876717 24057 c31c52ec4f75838d9f5f87bec96d368b ""
+  (generated)
+  "dipole.log"
+  "dipole.pdf"

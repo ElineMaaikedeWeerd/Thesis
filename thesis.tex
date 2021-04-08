@@ -26,26 +26,31 @@ a4paper %letterpaper
 %\bibliographystyle{JHEP}
 \bibliographystyle{mnras}
 
+%%further packages:
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{bm}
+\usepackage[T1]{fontenc}
+
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
 
 % Journals
-\newcommand{\apj}{ApJ}
-\newcommand{\apjs}{ApJS}
-\newcommand{\apjl}{ApJL}
-\newcommand{\aap}{A{\&}A}
-\newcommand{\aaps}{A{\&}AS}
-\newcommand{\mnras}{MNRAS}
-\newcommand{\aj}{AJ}
-\newcommand{\araa}{ARAA}
-\newcommand{\pasp}{PASP}
-\newcommand{\pasj}{PASJ}
-\newcommand{\jcap}{JCAP}
-\newcommand{\na}{New Astronomy}
-\newcommand{\physrep}{Phys. Rep.}
-\newcommand{\prd}{Phys. Rev. D}
-\newcommand{\azh}{Astron. Zh.}
-\newcommand{\nat}{Nature}
-\newcommand{\nar}{New Astronomy Reviews}
+% \newcommand{\apj}{ApJ}
+% \newcommand{\apjs}{ApJS}
+% \newcommand{\apjl}{ApJL}
+% \newcommand{\aap}{A{\&}A}
+% \newcommand{\aaps}{A{\&}AS}
+% \newcommand{\mnras}{MNRAS}
+% \newcommand{\aj}{AJ}
+% \newcommand{\araa}{ARAA}
+% \newcommand{\pasp}{PASP}
+% \newcommand{\pasj}{PASJ}
+% \newcommand{\jcap}{JCAP}
+% \newcommand{\na}{New Astronomy}
+% \newcommand{\physrep}{Phys. Rep.}
+% \newcommand{\prd}{Phys. Rev. D}
+% \newcommand{\azh}{Astron. Zh.}
+% \newcommand{\nat}{Nature}
+% \newcommand{\nar}{New Astronomy Reviews}
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
 % IH formatting package
@@ -106,6 +111,23 @@ a4paper %letterpaper
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 % % % custom commands 
 
+%maths
+\renewcommand{\mathbf}{\bm}
+\newcommand{\n}{\bm {n}}
+\renewcommand{\k}{\bm {k}}
+\newcommand{\x}{\bm {x}}
+\newcommand{\ka}{\bm {k}_1}
+\newcommand{\kb}{\bm {k}_2}
+\newcommand{\kc}{\bm {k}_3}
+\newcommand{\ko}{\mathcal{K}}
+\newcommand{\kt}{\mathcal{K}^{(2)}}
+\newcommand{\ks}{\bm {k}_S}
+\newcommand{\kl}{\bm {k}_L}
+\newcommand{\ep}{\varepsilon}
+\newcommand{\p}{\partial}
+\newcommand{\cH}{\mathcal{H}}
+
+\def\i{\mathrm{i\,}}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -136,7 +158,7 @@ a4paper %letterpaper
 % % % % % % % % % % % % % % % % % % % % % % % % % 
 
 % Include files for each chapter here using 
-\include{tex/chapter_1}
+\include{tex/dipole}
 \include{tex/chapter_2}
 \include{tex/appendix}
 
