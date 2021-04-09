@@ -1,0 +1,98 @@
+Here we present the derivation of the analytic result \ref{eq:sumformula}, that is, exact integration of:
+\begin{equation} X_{\ell m}^{ab} = \int_0^{2\pi} \diff\varphi\, \int_{-1}^1 \diff\mu_1\, (\i \mu_1)^a (\i \mu_2)^b \,Y_{\ell m}^*(\mu_1,\varphi).
+\end{equation}
+We will calculate this for $m\geq0$, as for negative $m$ we can use the result
+\begin{equation}
+X_{\ell, -m}^{ab} = (-1)^{a+b+m} X_{\ell m}^{ab*}\,,
+\end{equation}
+which follows on using the complex conjugate of the standard orthonormal spherical harmonics,
+\begin{align}
+Y_{\ell m}^* &= (-1)^m Y_{\ell, -m} \nonumber\\
+&= \sqrt{\frac{2 \ell + 1}{4 \pi}} \sqrt{\frac{(\ell - m )!}{(\ell + m )!}} P_\ell^m(\mu) e^{-\i m \varphi}.
+\end{align}
+
+To perform this integral analytically, first use the binomial expansion to expand the \(\mu_i\) dependence in the integrand, 
+\begin{equation}
+( \i \mu_1)^a \left(\i \sqrt{1-\mu_1^2} \sin\theta \sin\varphi + \i \mu_1 \cos\theta \right)^b,
+\end{equation}
+as
+\begin{align}
+(\i \mu_2)^b &= \i^b \sum_{g=0}^b \binom{b}{g} (\mu_1 \cos\theta)^{b-g} \left(\sqrt{1-\mu_1^2}\sin\theta \sin\varphi\right)^g \nonumber\\
+& =\i^b \sum_{g=0}^b \binom{b}{g} \mu_1^{b-g} \left(\sqrt{1-\mu_1^2}\right)^g \cos\theta^{b-g} \sin\theta^g \sin\varphi^g. 
+\end{align}
+Now the separability of the angular parts of the integrand has been made explicit. Inserting this expansion backinto the integral we get, 
+\begin{align}
+&\sum_{g=0}^b \i^{a+b} \cos^{b-g}\theta \sin^g\theta \binom{b}{g} \int_0^{2\pi}\diff\varphi\, \int_{-1}^1 \diff\mu_1\, \mu_1^{a+b-g} \left(1-\mu_1^2\right)^{g/2} \sin^g\varphi Y_{\ell m}^*(\mu_1,\varphi),
+\end{align}
+where the factors that are independent of integration angles \(\mu_1,\,\varphi\) have been taken out of the integral (note that \(\theta = \theta_{12}\) as per our convention used throughout this paper). 
+
+In what follows will drop the subscript on \(\mu_1 = \mu\) for convenience. Using the standard definition of the spherial harmonics, the integral then becomes,
+\begin{equation}
+	\sum_{g=0}^b \i^{a+b} \cos^{b-g}\theta \sin^g\theta \binom{b}{g} \sqrt{\frac{2\ell+1}{4 \pi}} \sqrt{\frac{(\ell-m)!}{(\ell+m)!}}\int_0^{2\pi}\diff\varphi\, \int_{-1}^1 \diff\mu\, \mu^{a+b-g} (1-\mu^2)^{g/2} \sin^g\varphi P_\ell^m(\mu) e^{-\i m \varphi},
+\end{equation}
+and hence can easily be split into two parts. The associated Legendre polynomials \(P_\ell^m\) can be expressed as 
+\begin{equation}
+P_\ell^m(\mu) = (-1)^m (1-\mu^2)^{m/2} \frac{\diff^m}{\diff\mu^m} P_\ell(\mu), 
+\end{equation}
+i.e. as full derivatives of the Legendre polynomials. These in turn can be expressed as a sum 
+\begin{equation}
+P_\ell(\mu) =2^\ell \sum_{h=0}^\ell \mu^\ell \binom{\ell}{h} \binom{\frac{1}{2}(\ell+h-1)}{\ell}.
+\end{equation}
+Using the Legendre polynomials in this form and substituting in,
+\begin{align}
+	&\int_{-1}^1 \diff\mu\, \mu^{a+b-g} \left(1-\mu^2\right)^{g/2} P_\ell^m(\mu) \nonumber \\
+	&= (-1)^m 2^\ell \sum_{h=0}^\ell \binom{\ell}{h} \binom{\frac{1}{2}(\ell+h-1)}{\ell} \int_{-1}^1 \diff\mu\, \mu^{a+b-g} \left(1-\mu^2\right)^{g/2}  (1-\mu^2)^{m/2} \frac{\diff^m}{\diff\mu^m} \mu^\ell \nonumber \\
+	&= (-1)^m 2^\ell \sum_{h=0}^\ell \binom{\ell}{h} \binom{\frac{1}{2}(\ell+h-1)}{\ell} \frac{h!}{(h-m)!} \frac{1}{2} \left(1+ (-1)^{a+b-g+h-m}\right) \Gamma\left[\frac{1}{2}(a+b-g+h-m-1)\right] \Gamma\left[\frac{1}{2} (g+m+2)\right] \nonumber \\
+	&\times  \left\{ \Gamma\left[\frac{1}{2} (a+b+h+3)\right] \right\}^{-1},
+\end{align}
+where \(m \geq h\), so that above result may be written as
+\begin{align}
+	&(-1)^m 2^\ell \sum_{h=m}^\ell \binom{\ell}{h} \binom{\frac{1}{2}(\ell+h-1)}{\ell} \frac{h!}{(h-m)!} \frac{1}{2} \left(1+ (-1)^{a+b-g+h-m}\right) \Gamma\left[\frac{1}{2}(a+b-g+h-m-1)\right] \Gamma\left[\frac{1}{2} (g+m+2)\right] \nonumber \\
+	&\times  \left\{ \Gamma\left[\frac{1}{2} (a+b+h+3)\right] \right\}^{-1}.
+\end{align}
+Evaluating now the integral over \(\varphi\), which is, 
+\begin{align}
+	&\int_0^{2\pi} \diff\varphi\, \sin^g \varphi e^{-\i m \varphi} \nonumber \\
+	& = \frac{1}{(2 \i)^g} \sum_{n=0}^g \binom{g}{n} (-1)^n \int_0^{2\pi}\diff\varphi\,  e^{\i (g-m-2n )\varphi} \nonumber \\
+	&= \frac{1}{(2 \i)^g}  \sum_{n=0}^g \binom{g}{n} (-1)^n (2 \pi) \delta_{g-m-2n, 0}.
+\end{align}
+
+The Kronecker \(\delta\) picks out one of the terms in the sum, \(g-m-2n=0 \to n = \frac{g-m}{2}\), so 
+\begin{equation}
+	\int_0^{2\pi} \diff\varphi\, \sin^g \varphi e^{-\i m \varphi} = \frac{1}{(2 \i )^g} \binom{g}{\frac{1}{2}(g-m)} 2 \pi (-1)^{\frac{g-m}{2}},
+\end{equation}
+if \(g-m\) is even, in which case \((-1)^{\frac{g-m}{2}} = 1\), so
+\begin{equation}
+	\int_0^{2\pi} \diff\varphi\, \sin^g \varphi e^{- \i m \varphi} = 2^{-g} \i^g (-1)^g \binom{g}{\frac{1}{2}(g-m)} 2 \pi, 
+\end{equation}
+for \(g+m \) even, zero otherwise. 
+
+Putting the results from both integrals together, 
+\begin{align}
+	&\int_0^{2\pi} \diff\varphi\, \int_{-1}^1 \diff\mu_1\, (\i \mu_1)^a (\i \mu_2)^b \,Y_{\ell m}^*(\mu_1,\varphi) = \sum_{g=0}^b \i^{a+b} \cos^{b-g}\theta \sin^g\theta \binom{b}{g} \sqrt{\frac{2\ell+1}{4 \pi}} \sqrt{\frac{(\ell-m)!}{(\ell+m)!}} \times \left\{(-1)^m 2^\ell \sum_{h=m}^\ell \binom{\ell}{h} \right. \nonumber \\
+	&\left. \binom{\frac{1}{2}(\ell+h-1)}{\ell} \frac{h!}{(h-m)!}  \frac{1}{2} \left(1+ (-1)^{a+b-g+h-m}\right) \Gamma\left[\frac{1}{2}(a+b-g+h-m-1)\right] \Gamma\left[\frac{1}{2} (g+m+2)\right]  \times \right. \nonumber \\
+	&\left.  \left[\Gamma\left[\frac{1}{2} (a+b+h+3)\right] \right\}^{-1} \right]\times \left\{  2^{-g} \i^g (-1)^g \binom{g}{\frac{1}{2}(g-m)} 2 \pi\right\}.
+\end{align}
+Simplifying the above result,
+\begin{align}
+	&\sum_{p=m}^{\frac{1}{2}(b+m)} \i^{a+b+m} \cos^{b-2p+m}\theta \sin^{2p-m}\theta \frac{b!}{(2p-m)! (b-2p+m)!} \sqrt{\frac{\pi (2\ell+1) (\ell-m)!}{(\ell+m)!}} \sum_{q=m}^\ell 2^\ell \frac{\ell!}{q! (\ell-q)!} \nonumber \\
+	& \frac{(\frac{1}{2}(\ell+q-1))!}{\ell!(\frac{1}{2}(\ell+q-1)-l)!} \frac{q!}{(q-m)!} 2^{-1} (1+(-1)^{a+b+q}) \Gamma\left[\frac{1}{2} (a+b-2p+q+1)\right] \Gamma\left[\frac{1}{2}(2p+2)\right]\times \nonumber \\
+	& \frac{(2p-m)!}{(\frac{1}{2}(2p-2m))! (2p-m - \frac{1}{2}(2p-2m))!} \times \left\{ \Gamma\left[\frac{1}{2}(a+b+q+3)\right] \right\}^{-1},
+\end{align}
+collecting terms, and after cancellations some cancellations obtain, 
+\begin{align}
+	&\sum_{p=m}^{\frac{1}{2}(b+m)} \sum_{q=m}^\ell 2^{\ell+m-1} \i^{a+b+m} \cos^{b-2p+m}\theta \sin^{2p-m}\theta  \sqrt{\frac{\pi (2\ell+1) (\ell-m)!}{(\ell+m)!}} b! \left(\frac{1}{2}(\ell+q-1)\right)! \left(\frac{1}{2}(a+b-2p+q-1)\right)! \times \nonumber \\
+	& \left(1+(-1)^{a+b+g}\right) \times \left[ 4^p (p-m)! (b+m-2p)! (\ell-q)! \left(\frac{1}{2}(-\ell+q-1)\right)! (q-m)! \left(\frac{1}{2}(a+b+q+1)\right)! \right]^{-1},
+\end{align}
+where we have used \(\Gamma(n)=(n-1)!\) to rewrite the gamma functions in terms of factorials, that this is non-zero only if \(\frac{1}{2}(g-m)\) is even, and that \((-1)^{w}=1\) if \(w\) is even. The final analytic expression for \(m>0\) hence is,  
+\begin{align}
+\int_0^{2\pi}{\rm d}\varphi\,& \int_{-1}^{1}{\rm d}\mu_1\,(\i\mu_1)^a\left(\i\sqrt{1-\mu_1^2} \sin\theta \sin\varphi + \i\mu_1\cos\theta\right)^b \, Y^*_{\ell m} (\mu_1,\varphi)  = 2^{\ell+m-1}\i^{a+b+m}\sqrt{\frac{\pi(2\ell+1)(\ell-m)!}{(\ell+m)!}} \nonumber \\
+&\times
+\sum_{p=m}^{\frac{1}{2}(b+m)}\sum_{q=m}^{\ell}
+\frac{\left[1+(-1)^{a+b+q}\right]\,b!\,\cos^{b+m-2p}\theta\sin^{2p-m}\theta}{4^p(b+m-2p)!(\ell-q)!(p-m)!(q-m)!}
+\frac{\Gamma\left[\frac{1}{2}(q+\ell+1)\right]}{\Gamma\left[\frac{1}{2}(q-\ell+1)\right]}
+\frac{\Gamma\left[\frac{1}{2}(a+b +q-2p+1)\right]}{\Gamma\left[\frac{1}{2}(a+b+q+3)\right]}.
+\end{align}
+Note that in the above we have kept the expression in terms of gamma functions, but this can easily be reverted back to the factorial notation.
+
+

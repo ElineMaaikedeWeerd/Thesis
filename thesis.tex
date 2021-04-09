@@ -23,13 +23,15 @@ a4paper %letterpaper
 
 %\usepackage[square, numbers, sort&compress]{natbib}
 \usepackage[]{natbib}
-%\bibliographystyle{JHEP}
+% \bibliographystyle{JHEP}
 \bibliographystyle{mnras}
 
 %%further packages:
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{bm}
 \usepackage[T1]{fontenc}
+\usepackage{siunitx} %get the units in correct format? if I can figure out how to.. 
+\usepackage{mathtools}
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
 
@@ -63,10 +65,11 @@ a4paper %letterpaper
 %            ]{ihformat}
 
 \pagestyle{headings}
-\usepackage{hyperref}
 \usepackage[title]{appendix}
-            
-\hypersetup{colorlinks = true, linkcolor=blue}
+\usepackage{hyperref}
+\usepackage{silence}
+
+% \hypersetup{colorlinks = true, linkcolor=blue}
             
 %\usepackage[style=ieee-alphabetic]{biblatex}
 
@@ -80,20 +83,20 @@ a4paper %letterpaper
 % Put in all the files that you want to compile each time.
 % You must run with all the files added at least once to get the correct reference
 % aux and toc files.
-%\includeonly{
-%abstract_corrected,
-%acknowledgements,
-%C1_Intro,
-%C2_CPT,
-%C3_History,
-%C4_zeta2,
-%C6_iso2,
-%C5_quench,
-%C7_palatini,
-%C9_conclusions,
-%AppendixA,
-%AppendixB
-%}
+% \includeonly{
+% tex/abstract,
+% tex/acknowledgements,
+% tex/dipole,
+% %C2_CPT,
+% %C3_History,
+% %C4_zeta2,
+% %C6_iso2,
+% %C5_quench,
+% %C7_palatini,
+% %C9_conclusions,
+% %AppendixA,
+% %AppendixB
+% }
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
 %dodgy addition...
@@ -111,6 +114,9 @@ a4paper %letterpaper
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 % % % custom commands 
 
+\allowdisplaybreaks %%%breaks align over pages
+\sisetup{parse-numbers = false}
+
 %maths
 \renewcommand{\mathbf}{\bm}
 \newcommand{\n}{\bm {n}}
@@ -126,19 +132,47 @@ a4paper %letterpaper
 \newcommand{\ep}{\varepsilon}
 \newcommand{\p}{\partial}
 \newcommand{\cH}{\mathcal{H}}
+\newcommand{\ud}{\mathrm{d}}
+%\newcommand{\HH}{\mathcal{H}}
+\newcommand{\fnl}{f_\text{NL}}
 
+\newcommand{\diff}{\,\mathrm{d}}
+\newcommand*\mean[1]{\bar{#1}}
+\DeclareSIUnit\erg{erg}
+
+\newcommand{\HH}{\mathcal{H}}
+\newcommand{\Perp}{\mathcal{P}}
+\newcommand{\Tr}{\rm Tr}
+\newcommand{\Det}{\rm Det}
+\newcommand{\Em}{\mathcal{E}_m}
+\newcommand{\M}{\mathcal{M}}
+\newcommand{\D}{\mathcal{D}}
+\newcommand{\Q}{\mathcal{Q}}
+\newcommand{\F}{\mathcal{ F}}
+\newcommand{\red}[1]{{\color{red}{#1}}}
+\newcommand{\pink}[1]{{\color{magenta}{#1}}}
 \def\i{\mathrm{i\,}}
+
+\DeclarePairedDelimiter\evaluat{.}{\rvert}
+\reDeclarePairedDelimiterInnerWrapper\evaluat{star}{%
+    \mathopen{}\mathclose\bgroup #1\hskip -\nulldelimiterspace \relax
+    #2\aftergroup\egroup #3%
+}
+
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
-
+\hypersetup{pageanchor=false}
 % Title page is input not included to remove extra page.
+
 \input{tex/title}
 
 % % % % % % % % % % % % % % % % % % % % % % % % % 
 % Abstract
+\pagenumbering{roman}
 \include{tex/abstract}
 % % % % % % % % % % % % % % % % % % % % % % % % %
 
@@ -156,10 +190,12 @@ a4paper %letterpaper
 % Set one half spacing now that thesis proper is starting.
 \onehalfspacing
 % % % % % % % % % % % % % % % % % % % % % % % % % 
-
+\hypersetup{pageanchor=true}
+\clearpage
+\pagenumbering{arabic}
 % Include files for each chapter here using 
 \include{tex/dipole}
-\include{tex/chapter_2}
+% \include{tex/chapter_2}
 \include{tex/appendix}
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % 

@@ -104,7 +104,7 @@
  \AtEndOfClass{\renewcommand{\titlepagestyle}{plain}}}
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{scrreprt}}
 \ExecuteOptions{%
- onehalfspacing,titlepagenumber=on,university,PhD,declaration=on,a4paper,12pt,oneside,DIC=off}
+ onehalfspacing,titlepagenumber=off,university,PhD,declaration=on,a4paper,12pt,oneside,DIC=off}
 \ProcessOptions\relax
 \newcommand*{\supervisor}[1]{\gdef\@supervisor{#1}}
 \newcommand*{\college}[1]{\gdef\@college{#1}}
@@ -166,7 +166,7 @@
  \ifx\@declaration\@empty\else{
  \cleardoublepage
  \chapter*{Declaration}
- \thispagestyle{plain}
+ \thispagestyle{empty} %change to plain if want page number on declaration
  \@declaration
  \par\vspace{3cm}
  %\hfill\@author %cth i think this adds my name again under the declaration
