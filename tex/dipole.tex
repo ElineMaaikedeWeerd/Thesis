@@ -40,7 +40,7 @@ While the Doppler contribution to $P_g$ is $O((\cH/k)^{2})$,  the Doppler contri
 A natural question is: what about the galaxy bispectrum? In the standard `Newtonian' approximation, with only RSD, the galaxy bispectrum for a single tracer at fixed redshift has no dipole, and only has even multipoles~\citep{Scoccimarro:1999ed,Nan:2017oaq}. But
 with a lightcone corrected galaxy density contrast, the 3-point correlator, even for a {\em single} tracer, will no longer be an even function of $\k_a\!\cdot\n \,(a=1,2,3)$. In order to compute the consequent contribution to the galaxy bispectrum, \eqref{dopf} is not sufficient: we need its second-order generalisation, $\delta_g \to \delta_g+\delta^{(2)}_g/2$.
 
-\subsection*{Relativistic contributions to the galaxy bispectrum}
+\section{Relativistic contributions to the galaxy bispectrum}
 
 At second order, the Doppler correction in  \eqref{dopf} generalises to $A\, \bm{v}^{(2)}\!\cdot\n$, but there are also quadratic coupling terms. The couplings involve not only the Doppler effect but also radial gradients of the potential (`gravitational redshift'), volume distortion effects, and second-order corrections to the density contrast. Most of these contributions are small, but those that scale as $(\cH/k)\delta^2$ are not, even on equality scales. Except on super-equality scales we can often neglect any terms $O((\cH/k)^{2})$ and higher, which makes the calculation considerably simpler. 
 
@@ -106,7 +106,7 @@ P(k_{1})P(k_{2}) +\text{2 c.p.}
 \end{align}
 Since \eqref{d2} scales as $\cH/k$ it is purely imaginary, as all these contributions have at least one $\k$ projected along the line of sight~-- i.e.,  they contain odd powers of $\mu_a$'s. This means that {\em the leading relativistic correction in the observed galaxy Fourier bispectrum of a single tracer is a purely imaginary addition to the Newtonian approximation.} On larger scales, terms $O((\cH/k)^{2})$ and higher appear in both the real and imaginary parts, with the kernels given in~\citet{Umeh:2016nuh,Jolicoeur:2017nyt,Jolicoeur:2017eyi,Jolicoeur:2018blf}. (We include these in our plots below.)
 
-\subsection*{Extracting the dipole}
+\section{Extracting the dipole}
 
 The bispectrum can be considered as a function of
 $k_1,k_2,k_3,\mu_1, \mu_2,\mu_3$ and $\varphi$, which is the azimuthal angle giving the orientation of the triangle  relative to $\n$. In order to extract the dipole it is easiest to write $\mu_3=-(k_1\mu_1+k_2\mu_2)/k_3$, so that we can write $B_g = \sum_{i,j} \mathcal{B}_{ij}(\i\mu_1)^i(\i\mu_2)^j$, where $i,j=0\ldots6$ which factors out the angular dependence multiplying real coefficients $\mathcal{B}_{ij}$ with no angular dependence. Then,
@@ -144,7 +144,7 @@ where each matrix element corresponds to a particular combination of $i,j$,
 where the matrix indices run over the values $i=0\ldots6, j=0\ldots6$, with powers above 3 not written above; these are polynomials in $\mu$ up to order 6. From this we can read off the terms from $\mathcal{K}_\text{D}$ contribute to differing $m=0,\pm1$. In particular, if $i+j$ is even~-- i.e., the real part of the bispectrum~--  there is no contribution: only the imaginary terms, corresponding to $i+j$ odd, contribute. For the monopole, only $i+j$ even contribute. Therefore, at $O(\cH/k)$, \emph{the monopole of the bispectrum is the Newtonian part, while the dipole is purely from the relativistic corrections.  The presence of the dipole is therefore a `smoking gun' signal for the leading relativistic correction to the bispectrum.} At order $O((\cH/k)^{2})$, relativistic terms appear in the monopole, which were considered in \citet{Umeh:2016nuh,Jolicoeur:2017nyt,Jolicoeur:2017eyi,Jolicoeur:2018blf}.\\
 
 
-\subsection*{Squeezed, equilateral and flattened limits}
+\section{Squeezed, equilateral and flattened limits}
 
 It is relatively straightforward to understand the type of dipole generated in different triangular configurations in our conventions. In particular, for the $O(\cH/k)$ relativistic dipole:
 \begin{itemize}
@@ -225,7 +225,7 @@ The type of dipole extracted from this term is seen as follows. To this order we
  
 
 
-\subsection*{The dipole in intensity mapping and galaxy surveys}
+\section{The dipole in intensity mapping and galaxy surveys}
 
 We now consider the amplitude of the dipole relevant for upcoming galaxy surveys, which have different bias parameters. We consider two different types of survey: an SKA intensity mapping of 21\,cm radio emission, as well as a Euclid-like optical/infrared spectroscopic survey.
 An intensity map of the 21cm emission of neutral hydrogen (HI) in the post-reionization Universe records the total emission in galaxies containing HI, without detecting individual galaxies. There is an equivalence between the brightness temperature contrast and number count contrast~\citep{Umeh:2015gza}. For IM we use the bias parameters at $z=1$, 
@@ -238,7 +238,7 @@ In Fig.~\eqref{snakcjnsdlkcans} we show how changing the scale of a fixed triang
 In Fig.~\eqref{sankcjnakjdcs} we change the shape with fixed $k_1=k_2$ for both galaxy and IM surveys. We confirm our analytical results that the equilateral limit is zero, as well as the other limits. For triangles between right-angle and flattened the dipole is more than 10\% of the monopole, and the signal is largest in the flattened case~-- except in the extreme squeezed limit (not shown). 
 
 
-\subsection*{Conclusions}
+\section{Conclusions}
 
 We have shown for the first time that the relativistic galaxy bispectrum has a leading correction which is a local dipole with respect to the observers line of sight. In contrast to the power spectrum, this dipole exists even for a single tracer. We have shown analytically how the dipole is generated for the leading terms, and numerically we have included all local contributions, which show up above the equality scale. We have neglected integrated terms which will also contribute to the dipole, but their inclusion in a Fourier space bispectrum is non-trivial. Local relativistic corrections will induce all multipoles up to $\ell=8$ at every $m$, in contrast to the Newtonian case which only induces even $\ell=0,2,4$. We will investigate these new multipoles in a forthcoming publication. 
 
