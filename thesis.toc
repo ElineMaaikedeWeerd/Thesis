@@ -1,9 +1,10 @@
 \contentsline {chapter}{Abstract}{i}{chapter*.2}%
 \contentsline {chapter}{Acknowledgements}{ii}{chapter*.4}%
 \contentsline {chapter}{\numberline {1}Dipole of the Galaxy Bispectrum}{1}{chapter.1}%
-\contentsline {chapter}{\numberline {A}First Appendix}{11}{appendix.a.A}%
-\contentsline {chapter}{\numberline {B}Second Appendix}{12}{appendix.a.B}%
-\contentsline {section}{\numberline {B.1}Appendix section}{12}{section.a.B.1}%
-\contentsline {chapter}{\nonumberline Bibliography}{13}{chapter*.11}%
-\contentsline {chapter}{\nonumberline List of Figures}{15}{chapter*.12}%
-\contentsline {chapter}{\nonumberline List of Tables}{16}{chapter*.13}%
+\contentsline {chapter}{\numberline {2}Multipoles of the Bispectrum}{11}{chapter.2}%
+\contentsline {chapter}{\numberline {A}First Appendix}{22}{appendix.a.A}%
+\contentsline {chapter}{\numberline {B}Second Appendix}{23}{appendix.a.B}%
+\contentsline {section}{\numberline {B.1}Appendix section}{23}{section.a.B.1}%
+\contentsline {chapter}{\nonumberline Bibliography}{24}{chapter*.19}%
+\contentsline {chapter}{\nonumberline List of Figures}{26}{chapter*.20}%
+\contentsline {chapter}{\nonumberline List of Tables}{27}{chapter*.21}%

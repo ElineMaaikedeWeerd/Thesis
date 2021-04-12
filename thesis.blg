@@ -5,48 +5,54 @@ The style file: mnras.bst
 A level-1 auxiliary file: tex/abstract.aux
 A level-1 auxiliary file: tex/acknowledgements.aux
 A level-1 auxiliary file: tex/dipole.aux
+A level-1 auxiliary file: tex/multipoles.aux
 A level-1 auxiliary file: tex/appendix.aux
 Database file #1: bib/thesis_bib.bib
+Repeated entry---line 254 of file bib/thesis_bib.bib
+ : @article{DiDio:2018unb
+ :                       ,
+I'm skipping whatever remains of this entry
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 28 entries,
+You've used 42 entries,
             2881 wiz_defined-function locations,
-            965 strings with 12321 characters,
-and the built_in function-call counts, 14109 in all, are:
-= -- 1196
-> -- 1058
-< -- 76
-+ -- 443
-- -- 172
-* -- 1686
-:= -- 2279
+            1087 strings with 15697 characters,
+and the built_in function-call counts, 21659 in all, are:
+= -- 1842
+> -- 1651
+< -- 110
++ -- 666
+- -- 288
+* -- 2591
+:= -- 3496
 add.period$ -- 0
-call.type$ -- 28
-change.case$ -- 56
-chr.to.int$ -- 28
-cite$ -- 28
-duplicate$ -- 635
-empty$ -- 616
-format.name$ -- 252
-if$ -- 2440
-int.to.chr$ -- 1
+call.type$ -- 42
+change.case$ -- 84
+chr.to.int$ -- 41
+cite$ -- 42
+duplicate$ -- 956
+empty$ -- 923
+format.name$ -- 408
+if$ -- 3771
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 28
-newline$ -- 97
-num.names$ -- 216
-pop$ -- 117
+missing$ -- 42
+newline$ -- 139
+num.names$ -- 328
+pop$ -- 170
 preamble$ -- 1
-purify$ -- 112
+purify$ -- 168
 quote$ -- 0
-skip$ -- 389
+skip$ -- 588
 stack$ -- 0
-substring$ -- 917
-swap$ -- 360
-text.length$ -- 112
+substring$ -- 1444
+swap$ -- 556
+text.length$ -- 168
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 252
+type$ -- 378
 warning$ -- 0
-while$ -- 222
+while$ -- 332
 width$ -- 0
-write$ -- 292
+write$ -- 432
+(There was 1 error message)

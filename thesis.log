@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.10.22)  9 APR 2021 15:45
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.10.22)  12 APR 2021 10:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -542,7 +542,7 @@ LaTeX Info: Redefining \GenericWarning on input line 433.
 LaTeX Info: Redefining \GenericError on input line 601.
 ) (./thesis.aux
 (./tex/abstract.aux) (./tex/acknowledgements.aux) (./tex/dipole.aux)
-(./tex/appendix.aux))
+(./tex/multipoles.aux) (./tex/appendix.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 167.
@@ -556,7 +556,8 @@ LaTeX Font Info:    ... okay on input line 167.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 167.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
 67.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 167.
@@ -776,58 +777,107 @@ File: fig/figuresv2-02.png Graphic file (type bmp)
 File: fig/figuresv2-01.png Graphic file (type bmp)
 <fig/figuresv2-01.png>
  [7] [8] [9]) [10]
+\openout2 = `tex/multipoles.aux'.
+
+ (./tex/multipoles.tex
+chapter 2.
+[11
+
+
+
+] [12]
+Overfull \hbox (9.34445pt too wide) detected at line 34
+[][]\OML/cmm/m/it/12 B[]\OT1/cmr/m/n/12 (\OML/cmm/b/it/12 k[]\OML/cmm/m/it/12 ;
+ \OML/cmm/b/it/12 k[]\OML/cmm/m/it/12 ; \OML/cmm/b/it/12 k[]\OT1/cmr/m/n/12 ) =
+ \OMS/cmsy/m/n/12 K[]\OT1/cmr/m/n/12 (\OML/cmm/b/it/12 k[]\OT1/cmr/m/n/12 )\OMS
+/cmsy/m/n/12 K[]\OT1/cmr/m/n/12 (\OML/cmm/b/it/12 k[]\OT1/cmr/m/n/12 )\OMS/cmsy
+/m/n/12 K[]\OT1/cmr/m/n/12 (\OML/cmm/b/it/12 k[]\OML/cmm/m/it/12 ; \OML/cmm/b/i
+t/12 k[]\OML/cmm/m/it/12 ; \OML/cmm/b/it/12 k[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/1
+2 P\OT1/cmr/m/n/12 (\OML/cmm/b/it/12 k[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 P\OT1
+/cmr/m/n/12 (\OML/cmm/b/it/12 k[]\OT1/cmr/m/n/12 )[]\OML/cmm/m/it/12 ;
+ []
+
+[13] [14]
+Overfull \hbox (80.44954pt too wide) detected at line 92
+[]
+ []
+
+[15]
+Overfull \hbox (7.7113pt too wide) in paragraph at lines 101--102
+[]\T1/lmr/m/n/12 At sec-ond or-der, the GR bias model, which cor-rects the New-
+to-nian bias model []
+ []
+
+
+Overfull \hbox (23.1548pt too wide) detected at line 113
+[]
+ []
+
+[16]
+File: fig/fig.pdf Graphic file (type pdf)
+<use fig/fig.pdf>
+ [17] [18] [19]
+Overfull \hbox (69.51956pt too wide) detected at line 237
+[]
+ []
+
+[20]) [21]
 \openout2 = `tex/appendix.aux'.
 
  (./tex/appendix.tex
 chapter A.
-[11
+[22
 
 
 
 ]
 chapter B.
-) [12
+) [23
 
 ] (./thesis.bbl
 chapter without number
 Missing character: There is no – in font ec-lmr12!
-Missing character: There is no – in font ec-lmr12!
-[13
+[24
 
 
 ]
 Missing character: There is no – in font ec-lmr12!
-) [14] (./thesis.lof)
+Missing character: There is no – in font ec-lmr12!
+Missing character: There is no – in font ec-lmr12!
+Missing character: There is no – in font ec-lmr12!
+Missing character: There is no – in font ec-lmr12!
+Missing character: There is no – in font ec-lmr12!
+) [25] (./thesis.lof)
 \tf@lof=\write5
 \openout5 = `thesis.lof'.
 
- [15
+ [26
 
 ] (./thesis.lot)
 \tf@lot=\write6
 \openout6 = `thesis.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 228.
- [16
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 230.
+ [27
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 228.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 230.
  (./thesis.aux
 (./tex/abstract.aux) (./tex/acknowledgements.aux) (./tex/dipole.aux)
-(./tex/appendix.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 228.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 228.
+(./tex/multipoles.aux) (./tex/appendix.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 230.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 230.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 228.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 230.
  ) 
 Here is how much of TeX's memory you used:
- 17255 strings out of 479819
- 310469 string characters out of 5895845
- 685246 words of memory out of 5000000
- 34099 multiletter control sequences out of 15000+600000
+ 17348 strings out of 479819
+ 312480 string characters out of 5895845
+ 691246 words of memory out of 5000000
+ 34184 multiletter control sequences out of 15000+600000
  590972 words of font info for 107 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 52i,13n,76p,10102b,955s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 52i,14n,76p,10102b,953s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (21 pages, 70712 bytes).
+Output written on thesis.xdv (32 pages, 135784 bytes).
