@@ -22,7 +22,7 @@ a4paper %letterpaper
 \usepackage{graphicx}
 
 %\usepackage[square, numbers, sort&compress]{natbib}
-\usepackage[]{natbib}
+\usepackage{natbib}
 % \bibliographystyle{JHEP}
 \bibliographystyle{mnras}
 
@@ -32,6 +32,8 @@ a4paper %letterpaper
 \usepackage[T1]{fontenc}
 \usepackage{siunitx} %get the units in correct format? if I can figure out how to.. 
 \usepackage{mathtools}
+\usepackage{subcaption}
+\usepackage{xcolor}
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
 
@@ -111,11 +113,16 @@ a4paper %letterpaper
 %end dodgy addition
 
 
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 % % % custom commands 
 
 \allowdisplaybreaks %%%breaks align over pages
 \sisetup{parse-numbers = false}
+\DeclareSIUnit\erg{erg}
+\DeclareSIUnit\parsec{pc}
 
 %maths
 \renewcommand{\mathbf}{\bm}
@@ -133,25 +140,34 @@ a4paper %letterpaper
 \newcommand{\p}{\partial}
 \newcommand{\cH}{\mathcal{H}}
 \newcommand{\ud}{\mathrm{d}}
-%\newcommand{\HH}{\mathcal{H}}
 \newcommand{\fnl}{f_\text{NL}}
-
 \newcommand{\diff}{\,\mathrm{d}}
 \newcommand*\mean[1]{\bar{#1}}
-\DeclareSIUnit\erg{erg}
-
 \newcommand{\HH}{\mathcal{H}}
 \newcommand{\Perp}{\mathcal{P}}
-\newcommand{\Tr}{\rm Tr}
+\newcommand{\Tr}{\mathrm{Tr}}
 \newcommand{\Det}{\rm Det}
 \newcommand{\Em}{\mathcal{E}_m}
 \newcommand{\M}{\mathcal{M}}
 \newcommand{\D}{\mathcal{D}}
 \newcommand{\Q}{\mathcal{Q}}
 \newcommand{\F}{\mathcal{ F}}
+\renewcommand\i{\mathrm{i\,}}
+\newcommand{\pin}{\Phi_{\mathrm{in}}}
+\newcommand{\vpin}{\varphi_{\mathrm{in}}}
+\renewcommand{\v}{\bm{v}}
+\newcommand{\q}{\bm{q}}
+\newcommand{\degree}{^\circ}
+\renewcommand{\ng}{{\mathrm{nG}}}
+\renewcommand{\in}{{\mathrm{in}}}
+\newcommand{\on}{(1)}
+\newcommand{\tw}{(2)}
+%
+%colours:
 \newcommand{\red}[1]{{\color{red}{#1}}}
 \newcommand{\pink}[1]{{\color{magenta}{#1}}}
-\def\i{\mathrm{i\,}}
+\newcommand{\blue}[1]{{\color{magenta}{#1}}}
+\newcommand{\bro}[1]{{\color{black}{#1}}}
 
 \DeclarePairedDelimiter\evaluat{.}{\rvert}
 \reDeclarePairedDelimiterInnerWrapper\evaluat{star}{%
@@ -194,8 +210,15 @@ a4paper %letterpaper
 \clearpage
 \pagenumbering{arabic}
 % Include files for each chapter here using 
+%
+\include{tex/introgeneral}
+%
+\include{tex/introbisp}
+%
+\include{tex/png_bisp}
+%
 \include{tex/dipole}
-
+%
 \include{tex/multipoles}
 % \include{tex/chapter_2}
 \include{tex/appendix}

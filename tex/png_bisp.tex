@@ -6,3 +6,385 @@ Next-generation galaxy and 21cm intensity mapping surveys will rely on a combina
 generate new contributions to this primordial non-Gaussian signal, arising from: (1)~a coupling of first-order scale-dependent bias with first-order relativistic observational effects, and (2)~linearly evolved non-Gaussianity in the second-order velocity and metric potentials which appear in relativistic observational effects.}
 Our analysis allows for a consistent separation of the relativistic  `contamination' from the primordial signal, in order to avoid biasing the measurements by using an incorrect theoretical model. We show that the bias from using a Newtonian analysis of the squeezed bispectrum could be $\Delta \fnl\sim 5$ for a Stage IV H$\alpha$ survey.
 
+\section{Introduction}
+
+Galaxy number counts are distorted by projection effects that arise from observing on the past lightcone. {The dominant perturbative effect on sub-Hubble  scales is from redshift-space distortions (RSD) \cite{Sargent:1977,Kaiser:1987qv}, 
+which constitute the standard Newtonian approximation to projection effects. Lensing magnification produces the best-known relativistic correction to RSD \cite{Villumsen:1995ar}, but there are further relativistic effects \cite{Yoo:2009au,Yoo:2010ni,Challinor:2011bk,Bonvin:2011bg}.
+The basic idea is the following. The number of sources, $\ud \mathbb{N} $,  {above the luminosity threshold} that are counted by the observer in a solid angle element about unit direction $\n$ and in a redshift interval about a central redshift $z$, is given by 
+\begin{equation} \label{dn}
+\ud \mathbb{N} =N_g\, \ud z\,\ud\Omega_{\n}=  n_g\, \ud {\cal V} \,. 
+\end{equation}
+The second equality relates the observed quantities to those measured in the rest frame of the source.
+$N_g$ is the number that is counted by the observer per redshift per solid angle, while 
+$ n_g$ is the number per proper volume, which is not observed by the observer but is the quantity that would be measured at the source. Similarly,  $\ud {\cal V}$ is not the observed volume element but the corresponding proper volume element at the source.  
+
+Then the observed number density contrast, $\Delta_g=(N_g-\bar{N}_g)/\bar{N}_g$, is related to the proper number density contrast at the source, $\delta_g=(n_g-\bar{n}_g)/\bar{n}_g$, by volume, redshift and {luminosity} perturbations. 
+At first order  in Poisson gauge,  the gauge-independent relation \eqref{dn} leads to
+\begin{align}
+ \Delta_g&=\delta_g +\,\mbox{RSD +  lensing effect + other relativistic effects} \notag\\
+\label{obdel}
+&= \delta_g - \frac{1}{{\cal H}}\n \cdot \bm\nabla \big(\v  \cdot \n \big) + 2(1-{\cal Q})\kappa +  A\big(\v  \cdot \n \big)+B \Psi + \int\! \ud \chi\,C\Psi' +\int\! \ud \chi\,E\Psi \,.
+\end{align}
+Here ${\cal H}=\ud\ln a/\ud \eta=(\ln a)'$ is the conformal Hubble rate, $\v=\bm{\nabla} V$ is the peculiar velocity ($V$ is not to be confused with the often-used alternative $v=|\v|$), $\kappa$ is the integrated lensing convergence,  ${\cal Q}$ is the magnification bias, $\chi$ is the comoving line-of-sight distance and the integrals are from source to observer. 
+The perturbed metric is given by
+\begin{equation} \label{pds}
+a^{-2}\ud s^2=-\big(1+2\Phi \big)\ud \eta^2+ \big(1-2\Psi \big)\ud \x^2\,,
+\end{equation}
+and we have assumed $\Phi=\Psi$. The time-dependent factors $A,B,C,E$ in \eqref{obdel} correspond respectively to Doppler, Sachs-Wolfe, integrated Sachs-Wolfe and time-delay effects. In Fourier space the Doppler term scales as $\partial V \propto ({\cal H}/k)\delta_m$, while the remaining terms scale as $\Psi \propto ({\cal H}/k)^2\delta_m$. Thus the other relativistic effects are suppressed on sub-Hubble scales, unlike the lensing effect, which scales as $\partial^2 \Psi \propto \delta_m$.
+
+{The case of 21cm intensity mapping follows from the number count expressions  by using the `dictionary' given in \cite{Hall:2012wd,Alonso:2015uua,Fonseca:2015laa} at first order and in \cite{Umeh:2015gza,DiDio:2015bua,Jolicoeur:2020eup} at second order.}
+
+The physical definition of linear Gaussian galaxy bias is in the joint matter-galaxy rest frame, which corresponds to the comoving gauge (`C gauge'),\footnote{In the $\Lambda$CDM model  the comoving and synchronous gauges coincide.} so that (omitting luminosity dependence for brevity), 
+\begin{equation} \label{b1}
+\delta_{g{\mathrm{C}}}(a,\x)=b_1(a)\delta_{m{\mathrm{C}}}(a,\x)\,.
+\end{equation}
+This relation is gauge-independent because C gauge corresponds to the physical rest frame.
+When transforming to other gauges, $\delta_g$ is in general no longer proportional to $\delta_m$ \cite{Challinor:2011bk,Bruni:2011ta,Jeong:2011as}. For example,  in the Poisson gauge of  \eqref{obdel} and~\eqref{pds}, 
+\begin{equation} \label{b1pg}
+\delta_g =b_1\delta_{m{\mathrm{C}}} + (3-b_e){\cal H}V\,,\quad b_e = \frac{\partial \ln (a^3\bar{n}_g)}{\partial \ln a}\,,
+\end{equation}
+where $b_e$ is known as the evolution bias, which encodes the non-conservation of the background comoving galaxy number density. The velocity potential $V$ scales as $\Psi$ by the {Euler} equation, $ V\propto  \Psi \propto ({\cal H}/k)^2\delta_m$, and therefore
+the gauge correction $(3-b_e){\cal H}V$ is only non-negligible on Hubble scales and may be neglected in a Newtonian approximation. 
+
+Local  primordial non-Gaussianity (PNG) generates scale-dependent linear bias, with constant parameter $\fnl$ 
+\cite{Dalal:2007cu,Matarrese:2008nc}:
+\begin{equation} \label{b1ng}
+ b_{1}(a)~\to~ b_1(a)+3\,\delta_{\mathrm{crit}}\Omega_{m0}H_0^2 \, \frac{\big[b_1(a)-1 \big]}{D(a)}\, 
+ g_{\in}\, \frac{\fnl}{T(k)k^2}\,.
+\end{equation}
+The threshold density contrast for collapse is usually taken to be $\delta_{\mathrm{crit}}=1.686$, and the growth factor $D$  is normalised to 1 today ($a_0=1$), i.e. $\delta_m(a,\k)=D(a)\delta_{m0}(\k) $. The growth suppression factor for the potential $\Psi$ is $g=D/a$, which is thus also normalised as $g_0=1$, with initial value $g_{\in}$ deep in the matter era,  and $T$ is the  transfer function. Note that \eqref{b1ng} follows the CMB convention
+%\footnote{In this convention, the $g_{\in}$ factor can be removed if $D$ is normalised as $D_{\in}=a_{\in}$; see e.g.  \cite{Desjacques:2016bnm}.} 
+for $\fnl$ \cite{Baldauf:2010vn,Desjacques:2016bnm};  $g_{\in}$ can be removed from \eqref{b1ng} if $D$ is normalised as $D_{\in}=a_{\in}$.  
+In a $\Lambda$CDM model we have the useful relation \cite{Villa:2015ppa}
+\begin{equation} \label{ggin}
+\frac{g_{\in}}{g}= \frac{3}{5}\Big(1+ \frac{2f}{3\Omega_m} \Big),
+\end{equation}
+where the growth rate of linear matter perturbations, $f=\ud \ln D/\ud \ln a$, is very well approximated by $f(a)=\Omega_m(a)^{0.545}$. 
+
+The PNG component of galaxy bias in \eqref{b1ng} 
+scales as $H_0^2/k^2$ on ultra-large scales, i.e. above the equality scale, $k< k_{\mathrm{eq}}$, where $T\approx 1$. It
+is strongly suppressed on scales $k\gg k_{\mathrm{eq}}$ by $T(k)$. PNG has a similar impact on the power spectrum to the impact of ultra-large-scale relativistic effects. This means that relativistic effects contaminate the primordial signal --  leading to  biases if a Newtonian approximation is used to model the galaxy power spectrum (see \cite{Bruni:2011ta, Jeong:2011as, Camera:2014sba}). 
+The relativistic galaxy power spectrum has been used to analyse and predict the capability of future galaxy and intensity mapping surveys to
+measure the local PNG parameter $\fnl$, while avoiding the bias  that is inherent in a Newtonian analysis (see e.g. \cite{Bruni:2011ta, Jeong:2011as, LopezHonorez:2011cy, Yoo:2012se, Raccanelli:2013dza,Camera:2014bwa, Camera:2014sba, Raccanelli:2015vla, Alonso:2015uua, Alonso:2015sfa, Fonseca:2015laa, Fonseca:2016xvi, Abramo:2017xnp, Lorenz:2017iez, Fonseca:2018hsu, Ballardini:2019wxj, Grimm:2020ays, Bernal:2020pwq, Wang:2020ibf}).  
+
+The tree-level bispectrum requires the number counts
+in redshift space up to second order.
+In the Newtonian approximation, the projection effects are the second-order RSD terms (see e.g. \cite{Tellarini:2016sgp}). The relativistic corrections
+ to RSD at second-order  are extremely complicated, since they involve quadratic couplings of all the first-order terms, as well as introducing new terms that do not enter at first order, such as the {transverse peculiar velocity}, the lensing deflection angle and the lensing shear  \cite{Bertacca:2014dra, Bertacca:2014wga, Yoo:2014sfa, DiDio:2014lka, Bertacca:2014hwa}.   {There are further relativistic corrections that are not projection effects. Firstly,
+ the Newtonian model of second-order galaxy bias in the comoving frame requires a relativistic correction, unlike the first-order bias (see Section~\ref{sdb}). Secondly,
+ and similar to the first-order case, the second-order galaxy bias relation needs  relativistic gauge corrections  when using non-comoving gauges such as the Poisson gauge. These are second-order extensions of equations like \eqref{b1pg}.}  
+{In summary, the second-order relativistic corrections to the galaxy bispectrum in the Gaussian case are: 
+\begin{itemize}
+\item
+relativistic projection corrections to the Newtonian RSD  \cite{Bertacca:2014dra, Bertacca:2014wga, Yoo:2014sfa, DiDio:2014lka, Bertacca:2014hwa};
+\item
+relativistic corrections to the Newtonian bias model in the comoving frame at second order, which were only recently derived  \cite{Umeh:2019qyd, Umeh:2019jqg};
+\item  
+ relativistic gauge corrections to the second-order number density when using non-comoving gauges   \cite{Bertacca:2014dra, Bertacca:2014wga}. 
+ \end{itemize}}
+
+As in the case of the power spectrum, local PNG affects the bispectrum on very large scales, which is also where the relativistic effects are strongest. This leads again to a contamination of the primordial signal by relativistic effects, necessitating a relativistic analysis. A Gaussian primordial universe could be mistakenly interpreted as non-Gaussian if a Newtonian model is used for the bispectrum in analysis of the data, as shown by 
+\cite{Kehagias:2015tda,Umeh:2016nuh,Jolicoeur:2017nyt,Koyama:2018ttg}. 
+
+{There are important differences between the power spectrum and bispectrum:
+\begin{itemize}
+%\item
+%The relativistic signal in the tree-level  bispectrum can reach smaller scales than in the tree-level power spectrum, because of the coupling of ultra-long to short modes in the 3-point correlations. 
+\item
+At first order, there is no relativistic correction to the bias model in comoving gauge -- the relativistic correction arises at second order \cite{Umeh:2019qyd, Umeh:2019jqg}. Therefore the tree-level bispectrum contains a relativistic correction to the bias model, but the tree-level power spectrum does not.
+\item
+There is no PNG signal in the primordial {\em matter} power spectrum at tree level, so that the local PNG signal in the tree-level galaxy power spectrum is sourced only by scale-dependent bias. 
+\item
+By contrast, local PNG in the galaxy bispectrum is sourced by scale-dependent bias, by the primordial matter bispectrum {and by RSD at second order (see \cite{Tellarini:2016sgp} and Section \ref{ss-mvp} below)}.
+\item
+ Second-order relativistic {corrections to RSD}  induce new local PNG effects in the bispectrum, via~(1) a coupling of first-order scale-dependent bias to first-order relativistic projection effects,  and {(2)~the linearly evolved PNG in second-order velocity and metric potentials, which appear in relativistic projection effects (absent in the standard Newtonian analysis)}. 
+\end{itemize}}
+
+Since local PNG affects the power spectrum and bispectrum differently, a Newtonian analysis could mistakenly identify inconsistencies between the power spectrum and bispectrum $\fnl$ measurements, which could wrongly lead to an inference of hidden systematics or deviations from general relativity.}
+
+PNG in the galaxy bispectrum has been extensively investigated in the Newtonian approximation. Most work has used the Fourier bispectrum, implicitly incorporating a plane-parallel assumption (see e.g. 
+\cite{Verde:1999ij,Scoccimarro:2003wn,Sefusatti:2006pa,Sefusatti:2007ih,Giannantonio:2009,Baldauf:2010vn,Tellarini:2015faa,Tellarini:2016sgp,Desjacques:2016bnm,Watkinson:2017zbs,Majumdar:2017tdm,Karagiannis:2018jdt,Yankelevich:2018uaz,Sarkar:2019ojl,Karagiannis:2019jjx,Bharadwaj:2020wkc,Karagiannis:2020dpq, MoradinezhadDizgah:2020whw}) and we follow this approximation.
+Our previous work \cite{Umeh:2016nuh} included the local (non-integrated) relativistic effects in the Fourier bispectrum for the first time. This was extended by our work \cite{Jolicoeur:2017nyt, Jolicoeur:2017eyi, Jolicoeur:2018blf,Clarkson:2018dwn,Maartens:2019yhx,deWeerd:2019cae, Jolicoeur:2020eup, Umeh:2020cag}, all in the case of primordial Gaussianity. 
+Here we incorporate local PNG into the relativistic bispectrum. This involves applying the recent results of \cite{Umeh:2019qyd, Umeh:2019jqg} on relativistic corrections to the second-order galaxy bias model. {In addition, we derive the new local  PNG terms induced by  a coupling of first-order scale-dependent bias and first-order relativistic projection effects and by linearly evolved second-order relativistic projection effects.}
+
+The paper is structured as follows. Section~\ref{ss-mvp} reviews the relativistic correction to the 
+galaxy bias, including  the case of local PNG. In addition, we show how the linearly evolved second-order metric and velocity potentials carry a primordial non-Gaussian signal, which is imprinted in the bispectrum by relativistic projection effects. In Section~\ref{sec3}, after presenting the relativistic correction to the matter bispectrum, we discuss the number density contrast in redshift space, which brings into play the relativistic projection effects. We combine the various results to derive the relativistic galaxy bispectrum, including all local PNG effects, and we show examples of the galaxy bispectrum for a Stage IV H$\alpha$ spectroscopic survey. We summarise and conclude in Section~\ref{sec4}.
+%
+%\newpage
+~\\ \noindent {\textbf{\em Conventions used:}} 
+%
+We assume  a flat $\Lambda$CDM model, based on general relativity and perturbed up to second order, in which the matter is pressure-free and irrotational on perturbative scales. Generalisations to allow dynamical dark energy and relativistic modified gravity are straightforward, but are not included. For numerical calculations, we use the Planck 2018 best-fit parameters \cite{Aghanim:2018eyx}.
+Perturbed quantities are expanded as
+$X+X^{\tw}/2$, and may be split as  $X_{\mathrm{N}}+X_{\mathrm{GR}}+X_{\mathrm{nG}}$, 
+and similarly at second order, where N denotes the Newtonian approximation, GR denotes the relativistic correction and  nG denotes the local PNG contribution. {GR corrections are highlighted in \blue{magenta}.}
+%
+Our definition of the metric potentials in \eqref{pds} leads to the first-order Poisson equation 
+\begin{equation} \label{pe1}
+\nabla^2 \Psi= + \frac{3}{2}\Omega_m{\cal H}^2\,\delta_{\mathrm{C}} \,,
+\end{equation}
+where  $ \Phi= \Psi$ in $\Lambda$CDM. Here and in the remainder of the paper, we omit the subscript $m$ on the matter density contrast for brevity.
+At second order, the perturbed metric in Poisson gauge is given by
+\begin{equation} \label{pds2}
+a^{-2}\ud s^2=-\big[1+2\Psi + \Phi^{\tw}\big]\ud \eta^2+ \big[1-2\Psi -  \Psi^{\tw}\big]\ud \x^2\,.
+\end{equation}
+\bro{Here we have neglected the relativistic vector and tensor modes that are generated by scalar mode coupling, so that we only consider the relativistic scalar contribution to the bispectrum. This approximation is justified by the fact that the relativistic vector contribution to the bispectrum is typically 2 orders of magnitude below the relativistic scalar contribution on observable scales, while the relativistic tensor contribution is typically an order of magnitude below that of the vector contribution (see \cite{Jolicoeur:2018blf}).}
+%
+%The comoving curvature perturbation ${\cal R}$ generated in the primordial inflationary era,  is gauge invariant and constant in time on super-Hubble scales.  On these scales, it is related to the primordial potential as ${\cal R}^{\on}(\x)=5 \Psi^{\on}_{\rm p}(\x)/3$.
+%following \citep{Villa:2015ppa}, with $\Phi$ and $\Psi$ interchanged.
+%--------------------------------------------------------------------------
+%
+%
+\section{Local primordial non-Gaussianity in the galaxy bias}
+\label{sdb}
+%
+Local PNG is defined as a simple form of nonlinearity in the primordial curvature perturbation, which is local in configuration space. In terms of the gravitational potential {deep in the matter era}, we have
+%\footnote{{We have omitted an additional non-local term: see \cite{Umeh:2019jqg} for details.}} 
+\begin{equation}
+-\Big[\Psi_{\in}(\x) + \frac{1}{2} \Psi^{\tw}_{\in}(\x)\Big] = \varphi_{\in}(\x) + \fnl\big[\varphi_{\in}(\x)^{2}  - \big\langle \varphi_{\in}^{2} \big\rangle\big],
+%\tilde{f}_{\rm NL}\,\nabla^{-2} \big(\partial_i\varphi_{\rm p} \partial^i\varphi_{\rm p}\big)  - \big\langle \mbox{2nd order terms} \big\rangle .}
+\label{e1.1} 
+\end{equation}
+where $\varphi_{\in}$ is the first-order Gaussian part.
+The standard definition of $\fnl$ uses a convention for $\Psi$ that is different to ours, with a minus on the right of the Poisson equation \eqref{pe1}. In order to keep the standard sign of $\fnl$, we made a sign change on the left of \eqref{e1.1}.
+($\fnl$  in  \cite{Villa:2015ppa,Koyama:2018ttg, Umeh:2019jqg} is  of opposite sign to the standard sign that we use.) 
+%
+\subsection{First-order bias}
+%
+In~\eqref{e1.1}, the Gaussian part of the potential deep in the matter era {(but after decoupling)} is {related to the linear primordial potential by the transfer function:
+\begin{equation} \label{vpe}
+\varphi_{\in}(\k)=T(k)\,\varphi_{\mathrm{p}}(\k) {\quad \mbox{for}\quad a_{\mathrm{p}}\ll a_{\mathrm{eq}} \ll a_{\in} \,. }
+\end{equation}
+{Here $\varphi_{\mathrm{p}}(\k)=-9
+\Psi(a_{\mathrm{p}},\k)/10$, where  the factor 9/10 ensures conservation of the curvature perturbation on super-Hubble scales.}
+After equality, the potential evolves with the growth suppression factor, so that
+\begin{equation}\label{pottp}
+{\varphi(a,\k) = \frac{g(a)}{g_{\in}}  \varphi_{\in}(\k) \quad \mbox{for}\quad a\geq a_{\in}> {a_{\mathrm{dec}}}\,.}
+\end{equation}
+\begin{figure}[!h]
+\centering
+\includegraphics[width=.49\textwidth, angle=0]{fig/Mplot.pdf}
+\caption{{${\cal M}^{-1}= \varphi_{\mathrm{p}}/\delta^{\on}_{\mathrm{C}}$ at $z=1$.}}
+\label{mplot}
+\end{figure}
+
+We relate the late-time matter density contrast  to the primordial potential via the Poisson equation \eqref{pe1}, using \eqref{ggin}, \eqref{vpe} and \eqref{pottp}:
+\begin{align} \label{alpha}
+\delta_{\mathrm{C}}(a,\k)=  {\cal M} (a,k)  \varphi_{\mathrm{p}} (\k) \quad \mbox{where} \quad 
+{{\cal M} (a,k)  = \frac{10}{3\cH(a)^2\big[3\Omega_m(a) +2f(a) \big]}\,k^2 \, T(k)}\,.
+% = {2 \over 3\Omega_{m0} H_0^2 }\,{D(a)\over g_{\in}}\,T(k)\,k^2\,.
+\end{align}
+This relation is illustrated in Fig. \ref{mplot}. 
+{The matter and number density contrasts can be written as 
+\begin{equation} \label{dcng}
+\delta_{\mathrm{C}}= \delta_{\mathrm{C,N}} \quad \mbox{and}\quad
+\delta_{g\mathrm{C}}= \delta_{g\mathrm{C,N}}+ \delta_{g\mathrm{C,nG}} \,.
+\end{equation}
+This follows since there is no GR correction to either contrast and no PNG in the Gaussian matter density contrast:}
+\begin{equation} \label{dgro1}
+\blue{\delta_{{\mathrm{C,GR}}} = 0 =\delta_{g{\mathrm{C,GR}}}}\,,\quad \delta_{{\mathrm{C,nG}}} =0\,.
+%\qquad \delta_{g{\rm C}}=\delta_{g{\rm C,N}}=\delta_{g{\rm C,GR}}\,.
+\end{equation}
+Then it follows that}
+\begin{equation}\label{dg1b}
+\delta_{g{\mathrm{C}}}= \delta_{g \mathrm{C,N}}+ \delta_{g{\mathrm{C,nG}}}=   b_{10}\,\delta_{\mathrm{C}}+ b_{01}\,\varphi_{\mathrm{p}}\,, 
+\end{equation}
+where the Gaussian and non-Gaussian  bias coefficients are 
+\begin{equation}
+\label{bias1}
+b_{10}= b_1\,,\quad
+b_{01}= 2\fnl \delta_{\mathrm{crit}}(b_{10}-1)\,.
+\end{equation}
+The relations \eqref{alpha}--\eqref{bias1} then recover \eqref{b1ng}.
+
+{At first order,  there is {\em no} GR correction to the  bias relation  expressed in the matter-galaxy rest frame. This is no longer true at second order.
+
+The first-order metric  potential is Gaussian by \eqref{e1.1} and has no GR correction by \eqref{dgro1} and  the Poisson equation. From the Euler equation ($V'+{\cal H}V=- \Psi$) it follows that the velocity also has no GR and no PNG corrections:
+\begin{equation} \label{pvo1}
+\Psi=\Psi_{\mathrm{N}}\,,\qquad V=V_{\mathrm{N}}\,.
+\end{equation}
+%
+\subsection{Second-order bias: {Newtonian} approximation}
+%
+At second order, the  galaxy bias is {physically} defined in comoving gauge, {but any gauge may be used in general relativity. Standard Newtonian perturbation theory is often given in an Eulerian frame, and so it is useful for comparison}  to express the  bias in a suitable Eulerian frame. We use Poisson gauge here, following~\cite{Umeh:2016nuh,Tram:2016cpy, Jolicoeur:2017nyt, Jolicoeur:2017eyi, Jolicoeur:2018blf,Clarkson:2018dwn,Maartens:2019yhx,deWeerd:2019cae}, but with the galaxy and matter density contrasts in total-matter gauge (`T gauge').}  {The total-matter gauge is a convenient  Eulerian choice  for the density contrasts, since it has the same spatial coordinates as the Poisson gauge at first order and the same time-slicing as the comoving gauge at first and second orders~\cite{Bartolo:2015qva,Villa:2015ppa,Tram:2016cpy}. 
+As a result, at first order
+the total-matter density contrasts coincide with those of the comoving gauge: 
+$\delta_{{\mathrm{T}}}=\delta_{{\mathrm{C}}}$, $\delta_{g{\mathrm{T}}}=\delta_{g{\mathrm{C}}}$, 
+and we can rewrite  \eqref{dg1b} as 
+\begin{align}
+\delta_{g{\mathrm{T}}} &={\delta_{g \mathrm{T,N}} + \delta_{g{\mathrm{T,nG}}}} \\
+&=b_{10}\,\delta_{\mathrm{T}}+ b_{01}\,\varphi_{\mathrm{p}}={\Big(b_{10} + \frac{b_{01}}{{\cal M}} \Big) \delta_{\mathrm{T}}}\,.
+ \label{dg1bt}
+\end{align}
+
+ 
+At second order, the total-matter and Poisson matter density contrasts agree in the Newtonian approximation: 
+$\delta_{\mathrm{T,N}}^{\tw}=\delta^{\tw}_{\mathrm{N}}$, while the comoving and total-matter Newtonian density contrasts are related via a purely spatial gauge transformation \cite{Bertacca:2015mca,Villa:2015ppa, Jolicoeur:2017nyt,Umeh:2019qyd}: 
+\begin{equation} \label{ttc2}
+{\delta_{\mathrm{T,N}}^{\tw}} = {\delta_{\mathrm{C,N}}^{\tw}}+2\xi^i\partial_i \delta_{{\mathrm{C}}} \,,\quad {\delta_{g\mathrm{T,N}}^{\tw}} = {\delta_{g\mathrm{C,N}}^{\tw}}+2\xi^i\partial_i \delta_{{g\mathrm{C}}} \,, 
+\end{equation}
+where
+\begin{equation} \label{xi}
+\xi^i = \partial^i \nabla^{-2}\delta_{{\mathrm{C}}} = \partial^i \nabla^{-2}\delta_{{\mathrm{T}}} \,.
+\end{equation}
+(The GR parts of the second-order density contrasts in comoving and total-matter gauges are equal; see below.)
+
+{For the small scales involved in local clustering of matter density, the Poisson equation at second order has the same Newtonian form as at first order.
+%\footnote{Relativistic corrections to the Poisson equation \cite{Bruni:2013qta,Bartolo:2015qva,Umeh:2019jqg} are related to the relativistic corrections that we describe in the following.}
+ {Then we can extend~\eqref{alpha} up to second order to define the linearly evolved local PNG part of the density contrast, whose nonlinearity is purely primordial: 
+\begin{equation} \label{alpha1a}
+\delta_{\mathrm{T,nG}}^{\tw}={\cal M} \,\varphi_{\mathrm{p}}^{(2)} = 2\fnl  \,{\cal M} \,\varphi_{\mathrm{p}}*\varphi_{\mathrm{p}}\,,
+\end{equation}
+where the $*$ denotes a convolution in Fourier space.
+%Thus 
+%\be \label{alpha1a}
+%\delta_{\rm T}+ {1\over 2}\,{\delta_{\rm T,nG}^{\tw}} = {\cal M}\big( \varphi_{\rm p} +\fnl \,\varphi_{\rm p}*\varphi_{\rm p}\big),
+%\ee
+This leads to
+\begin{equation} \label{alpha2}
+\delta_{\mathrm{T,nG}}^{\tw}= 2\fnl \,{\cal M} (a,k)\int \frac{\ud \k'}{(2\pi)^3}\, \frac{\delta_{\mathrm{T}}(a,\k')}{{\cal M} (a,k')}\, \frac{\delta_{\mathrm{T}}(a,\k-\k')}{{\cal M} (a,|\k-\k'|)}\,.
+\end{equation}
+
+In order to include the nonlinearity due to gravitational evolution, we add the standard Newtonian  contribution for Gaussian initial conditions to the local PNG part:}  
+\begin{align} \label{alpha3}
+%\delta_{\rm T,N}^{\tw}(a,\k)&=& 
+&\delta_{\mathrm{T,{N}}}^{\tw}(a,\k) + \delta_{\mathrm{T,nG}}^{\tw}(a,\k)  
+\\ \notag 
+&{}= \int \frac{\ud \k'}{(2\pi)^3}\, \bigg[{F_{2}}(a,\k',\k-\k') +  2\fnl \,\frac{{\cal M} (a,k)}{{\cal M} (a,k')\, {\cal M} (a,|\k-\k'|)} \bigg] \delta_{\mathrm{T}}(a,\k')\,\delta_{\mathrm{T}}(a,\k-\k') \,.
+\end{align}
+The standard Newtonian mode-coupling kernel
+%\footnote{Our perturbative convention leads to an $F_2$ that is twice the $F_2$ in the alternative convention.} 
+for $\Lambda$CDM is~\cite{Villa:2015ppa}:
+\begin{equation}
+F_{2}(a,\bm{k}_{1},\bm{k}_{2}) = 1 + \frac{F(a)}{D(a)^2} + \Big(\frac{k_1}{k_2}+ \frac{k_2}{k_1}\Big)\hat{\k}_1\cdot \hat{\k}_2 +\bigg[1 - \frac{F(a)}{D(a)^2}\bigg]\big( \hat{\k}_1\cdot \hat{\k}_2\big)^2\,,\label{f2k}
+\end{equation}
+where $F$ is the second-order growth factor.  The Einstein--de Sitter relation $F/D^2=3/7$ is a very good approximation in $\Lambda$CDM. We use this approximation, in which $F_2$ is effectively time independent.}
+
+At second order, the standard Newtonian bias model, including tidal bias in the Gaussian part and all local PNG contributions, is given by (see~\cite{Desjacques:2016bnm} for a comprehensive treatment):
+\begin{align}
+\delta^{\tw}_{g{\mathrm{T,{N}}}} +\delta_{g\mathrm{T,nG}}^{\tw} &= b_{10}\, {\delta^{\tw}_{{\mathrm{T,{N}}}}}+ b_{20} \big(\delta_{{\mathrm{T}}}\big)^2   + b_s\,s^2 
+\notag \\
+& +b_{10}\, \delta_{\mathrm{T,nG}}^{\tw} + b_{11}\, \delta_{{\mathrm{T}}}\,\varphi_{\mathrm{p}} +  b_{{n}}\, \xi^i\,\partial_i\,\varphi_{\mathrm{p}}+b_{02} \big(\varphi_{\mathrm{p}}\big)^2\,. \label{dg2bn}
+\end{align}
+The (Eulerian) bias parameters in the case of Gaussian initial conditions are in the first line on the right-hand side:  the  linear and quadratic biases, $b_{10}$ and $b_{20}$, and the tidal bias $b_s$, where  
+\begin{equation} \label{ts}
+s^2=s_{ij}s^{ij}\,, \quad s_{ij} =\Big(\partial_i \partial_j - \frac{1}{3}\delta_{ij}\nabla^2 \Big){\nabla^{-2}\delta_{\mathrm{T}}} 
+\,.
+\end{equation}
+The second line of~\eqref{dg2bn} contains the local PNG contribution, with three new bias parameters $b_{11}, b_{{n}}, b_{02}$. The first term is the {primordial dark matter contribution}, from~\eqref{alpha3}; note that $\tilde\delta^{\tw}_{{\mathrm{T,N}}}$ is proportional to $\fnl$.
+{The $b_{11}, b_n$ terms scale as $(\cH^2/k^2)\,(\delta_{\mathrm{T}})^2$, while the $b_{02}$ term is $\mathcal{O}(\cH^4/k^4)$.}
+ The new bias parameters vanish when $\fnl=0$; in the presence of local PNG, they are given by~\cite{Tellarini:2015faa, Desjacques:2016bnm,Umeh:2019jqg}: 
+\begin{align}
+b_{11} &= 4\fnl \Big[\delta_{\mathrm{crit}}\,b_{20}+\Big(\frac{13}{21}\delta_{\mathrm{crit}}-1 \Big) (b_{10}-1)+1\Big] 
+\,, \label{b11}
+\\
+b_{{n}} &= 4\fnl \Big[ \delta_{\mathrm{crit}}(1-b_{10}) +1\Big] \,,  \label{bxi}
+\\
+b_{02} &= 4\fnl^2 \delta_{\mathrm{crit}}\Big[\delta_{\mathrm{crit}}\,b_{20}-2\Big( \frac{4}{21}\delta_{\mathrm{crit}}+1 \Big) (b_{10}-1)\Big]. \label{b02}
+\end{align}
+Note that the expressions for the bias coefficients in~\eqref{b11}--\eqref{b02}, as well as for $b_{01}$ in~\eqref{bias1}, are based on a universal halo mass function. {(For recent work on the limits of the universality assumption, see~\cite{Barreira:2020kvh,Barreira:2020ekm}.)} 
+%
+\subsection{Second-order bias: {relativistic corrections}}
+%
+{The relativistic second-order galaxy bias model has been derived in
+\cite{Umeh:2019qyd} (Gaussian case) and \cite{Umeh:2019jqg} (with local PNG). {The key feature to bear in mind is the following:
+ \begin{quote} 
+{\em GR corrections in the galaxy number density contrast $\delta^{\tw}_{g{\mathrm{T}}}$ do not change the galaxy bias terms in \eqref{dg2bn}, which contain all the local PNG effects.}
+\end{quote}
+This separation between GR effects and local PNG in the number density can be understood as follows. 
+\begin{itemize}
+\item
+The intrinsic  nonlinearity of GR  modulates the galaxy number density  via large-scale modes. 
+However,  this does not affect small-scale clustering: GR effects do {\em not} modulate the variance of small-scale density modes~\cite{Koyama:2018ttg,Dai:2015jaa,dePutter:2015vga}.
+\item
+By contrast, local PNG imprints a primordial long-short coupling that induces a long-mode modulation of the variance and thus changes the galaxy bias.
+\end{itemize}
+As a consequence, we expect that relativistic corrections to the bias relation should be independent of  non-Gaussianity and apply only on ultra-large scales  (for a different view, see~\cite{Matarrese:2020why}). 
+These two features are consistent with the behaviour of~\eqref{dg2bn} under change of gauge:
+ \begin{quote} 
+{\em The Newtonian bias relation~\eqref{dg2bn} is gauge-independent only on small scales.\\
+Relativistic
+corrections to~\eqref{dg2bn}  are needed to enforce gauge-independence of the bias relation on ultra-large scales.}
+\end{quote}
+
+As shown in~\cite{Umeh:2019qyd,Umeh:2019jqg}, gauge-independence requires the addition to~\eqref{dg2bn} of the relativistic part of the second-order matter density contrast. The relativistic modes are super-Hubble at equality and arise from nonlinear GR corrections to the Newtonian Poisson equation~\cite{Bruni:2013qta,Bartolo:2015qva,Villa:2015ppa,Tram:2016cpy}: 
+\begin{align} \label{dtgr2}
+\blue{\delta_{\mathrm{C,GR}}^{\tw}=\delta_{\mathrm{T,GR}}^{\tw} =
+\frac{20}{3}\, \delta_{{\mathrm{T}}}\,{\hat{\varphi}_{\mathrm{in}}} 
+- \frac{5}{3}\, \xi^i\,\partial_i \, {\hat\varphi_{\mathrm{in}}} \equiv \delta^{\tw}_{g{\mathrm{T,GR}}}}\,. 
+\end{align}
+Here $\hat\varphi_{\mathrm{in}}$ is the ultra-large scale potential deep in the matter era, 
+\begin{equation} \label{hatv}
+ \hat\varphi_{\mathrm{in}}(\k) =  \varphi_{\mathrm{in}}\big(\k\, | \, k<k_{\mathrm{eq}}\big) \,.
+\end{equation}
+When we relate $\hat\varphi_{\mathrm{in}}$ to the density contrast today, via \eqref{vpe} and \eqref{alpha}, we need to impose $T=1$ on the transfer function, by \eqref{hatv}.}
+
+The relativistic second-order galaxy bias model of~\cite{Umeh:2019jqg} can  be written in T-gauge as
+\begin{equation}
+\delta^{\tw}_{g{\mathrm{T}}} = \delta^{\tw}_{g{\mathrm{T,N}}}+ \delta_{g\mathrm{T,nG}}^{\tw} +\blue{\delta^{\tw}_{g{\mathrm{T,GR}}}}
+\,,
+\label{dg2b1}
+\end{equation}
+where
+\begin{align}
+\delta^{\tw}_{g{\mathrm{T,N}}} &= b_{10}\, \delta^{\tw}_{{\mathrm{T,N}}}+ b_{20} \big(\delta_{{\mathrm{T}}}\big)^2   + b_s\,s^2 \,,
+\label{dg2b2}\\
+\delta_{g\mathrm{T,nG}}^{\tw} &= b_{10}\,  \delta_{\mathrm{T,nG}}^{\tw}
+ + b_{11}\, \delta_{{\mathrm{T}}}\,\varphi_{\mathrm{p}} +  b_{{n}}\, \xi^i\,\partial_i\,\varphi_{\mathrm{p}}+b_{02} \big(\varphi_{\mathrm{p}}\big)^2,
+\label{dg2b3} \\
+\blue{\delta^{\tw}_{g{\mathrm{T,GR}}}}&\blue{=} \blue{\frac{20}{3}\, \delta_{{\mathrm{T}}}\,\hat\varphi_{{\mathrm{in}}} - \frac{5}{3}\, \xi^i\,\partial_i\,\hat\varphi_{{\mathrm{in}}}} \,. \label{dg2b}
+\end{align}
+Here~\eqref{dg2b2} and~\eqref{dg2b3} recover the Newtonian relation~\eqref{dg2bn}.  
+%highlighted in \blue{magenta}. 
+
+{Both the local PNG and GR terms scale as  $(\cH^2/k^2)\,(\delta_{\mathrm{T}})^2$, {so that the GR correction {\em cannot} be neglected.
+Although they are of the same order of magnitude, there is a key distinction between them:} 
+ {local PNG induces a short-long mode coupling, and thus affects the primordial potential $\varphi_{\mathrm{p}}$ on small scales, while the GR corrections affect only the ultra-large-scale primordial  modes.} In the absence of local PNG, i.e. for $\fnl=0$, the GR terms  survive
+and constitute the relativistic bias correction in the case of Gaussian initial conditions, as derived in \cite{Umeh:2019qyd}.
+
+
+Finally, we transform \eqref{dg1bt} and \eqref{dg2b1} to Poisson gauge: 
+\begin{align}
+\delta_{g}&= \delta_{g{\mathrm{T}}}  + \blue{(3-b_e){\cal H} V}\,,\label{dg1bp}
+\\ \label{dg2bp}
+\delta^{\tw}_{g} &= \delta^{\tw}_{g{\mathrm{T}}} +\blue{(3-b_e){\cal H}V^{\tw} + \Big[ (b_e-3){\cal H}'+(b_e-3)(b_e-4){\cal H}^2 +b_e'{\cal H}\Big]\big( V\big)^2}
+\notag \\
+&\blue{{}+ 2(3-b_e){\cal H} V\,\delta_{g{\mathrm{T}}} - 2V\,\delta_{g{\mathrm{T}}}'
++2(3-b_e){\cal H} V\,\Psi}\,,
+\end{align}
+{where the GR corrections in {magenta} scale as $(\cH^2/k^2)\,\delta_{\mathrm{T}}$ at first order, and as $(\cH^2/k^2)\,(\delta_{\mathrm{T}})^2$ or $(\cH^4/k^4)\,(\delta_{\mathrm{T}})^2$ at second order.}
+For \eqref{dg2bp} we followed \cite{Bertacca:2014wga,  Jolicoeur:2017nyt,deWeerd:2019cae}, but we significantly  simplified their expressions, using the first-order Euler equation $V'+{\cal H}V=- \Psi$ and the {relation 
+\begin{equation}\label{vpsi}
+ V = - \frac{2f}{3\Omega_m\cH}\, \Psi\,, 
+\end{equation}
+which follows from the continuity equation, $\delta_{\mathrm{T}}'=-\nabla^2 V$, and the Poisson equation.}  We also included the evolution bias terms that are omitted in \cite{Umeh:2019jqg}.
+%
+\subsection{{Second-order metric and velocity potentials}} \label{ss-mvp}
+bob
+%
+%--------------------------------------------------------------------------
+%
+%
+\section{Local primordial non-Gaussianity in the relativistic bispectrum}\label{sec3}
+\vspace*{0.5cm}
+\subsection{Matter bispectrum}
+Love comes quietly 
+%
+\subsection{{Observed number density}}\label{ss-ond}
+Finally, drops 
+about me, on me, 
+in the old ways.
+%
+\subsection{Galaxy bispectrum}
+What did I know
+%
+\subsection{Numerical examples}
+Thinking myself
+%
+%
+%---------------------------------------------------------------------------
+%
+%
+\section{Conclusions}\label{sec4}
+Able to go 
+Alone all the way 
+%---------------------------------------------------------------------------

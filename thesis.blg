@@ -4,55 +4,96 @@ The top-level auxiliary file: thesis.aux
 The style file: mnras.bst
 A level-1 auxiliary file: tex/abstract.aux
 A level-1 auxiliary file: tex/acknowledgements.aux
+A level-1 auxiliary file: tex/introgeneral.aux
+A level-1 auxiliary file: tex/introbisp.aux
+A level-1 auxiliary file: tex/png_bisp.aux
 A level-1 auxiliary file: tex/dipole.aux
 A level-1 auxiliary file: tex/multipoles.aux
 A level-1 auxiliary file: tex/appendix.aux
 Database file #1: bib/thesis_bib.bib
-Repeated entry---line 254 of file bib/thesis_bib.bib
- : @article{DiDio:2018unb
- :                       ,
-I'm skipping whatever remains of this entry
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 42 entries,
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Aghanim:2018eyx
+while executing---line 1822 of file mnras.bst
+Warning--empty journal in Aghanim:2018eyx
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Aghanim:2018eyx
+while executing---line 1822 of file mnras.bst
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Jolicoeur:2020eup
+while executing---line 1822 of file mnras.bst
+Warning--empty journal in Jolicoeur:2020eup
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Jolicoeur:2020eup
+while executing---line 1822 of file mnras.bst
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Karagiannis:2020dpq
+while executing---line 1822 of file mnras.bst
+Warning--empty journal in Karagiannis:2020dpq
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Karagiannis:2020dpq
+while executing---line 1822 of file mnras.bst
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry MoradinezhadDizgah:2020whw
+while executing---line 1822 of file mnras.bst
+Warning--empty journal in MoradinezhadDizgah:2020whw
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry MoradinezhadDizgah:2020whw
+while executing---line 1822 of file mnras.bst
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Umeh:2020cag
+while executing---line 1822 of file mnras.bst
+Warning--empty journal in Umeh:2020cag
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Umeh:2020cag
+while executing---line 1822 of file mnras.bst
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Villumsen:1995ar
+while executing---line 1822 of file mnras.bst
+Warning--empty journal in Villumsen:1995ar
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Villumsen:1995ar
+while executing---line 1822 of file mnras.bst
+You've used 96 entries,
             2881 wiz_defined-function locations,
-            1087 strings with 15697 characters,
-and the built_in function-call counts, 21659 in all, are:
-= -- 1842
-> -- 1651
-< -- 110
-+ -- 666
-- -- 288
-* -- 2591
-:= -- 3496
+            1488 strings with 27549 characters,
+and the built_in function-call counts, 49019 in all, are:
+= -- 4028
+> -- 3872
+< -- 238
++ -- 1601
+- -- 666
+* -- 5924
+:= -- 7967
 add.period$ -- 0
-call.type$ -- 42
-change.case$ -- 84
-chr.to.int$ -- 41
-cite$ -- 42
-duplicate$ -- 956
-empty$ -- 923
-format.name$ -- 408
-if$ -- 3771
-int.to.chr$ -- 2
+call.type$ -- 96
+change.case$ -- 192
+chr.to.int$ -- 93
+cite$ -- 102
+duplicate$ -- 2184
+empty$ -- 2105
+format.name$ -- 926
+if$ -- 8441
+int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 42
-newline$ -- 139
-num.names$ -- 328
-pop$ -- 170
+missing$ -- 96
+newline$ -- 301
+num.names$ -- 750
+pop$ -- 435
 preamble$ -- 1
-purify$ -- 168
+purify$ -- 384
 quote$ -- 0
-skip$ -- 588
+skip$ -- 1311
 stack$ -- 0
-substring$ -- 1444
-swap$ -- 556
-text.length$ -- 168
+substring$ -- 3060
+swap$ -- 1278
+text.length$ -- 384
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 378
-warning$ -- 0
-while$ -- 332
+type$ -- 864
+warning$ -- 6
+while$ -- 750
 width$ -- 0
-write$ -- 432
-(There was 1 error message)
+write$ -- 960
+(There were 12 error messages)
