@@ -96,6 +96,10 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -307,6 +311,12 @@ INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmri12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbxi10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT fig/Mplot.pdf
+INPUT fig/Q_k0_1_noShotnoise1.pdf
+INPUT fig/Q_k0_1_noShotnoise2.pdf
+INPUT fig/redB_lineandlake_v3.pdf
+INPUT fig/multipoles_allpanels_v3.pdf
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmri8.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmri7.tfm
 OUTPUT tex/dipole.aux
 INPUT tex/dipole.tex
 INPUT tex/dipole.tex
@@ -360,6 +370,10 @@ INPUT tex/appendix.tex
 INPUT tex/appendix.tex
 INPUT tex/app_betacoeff.tex
 INPUT tex/app_betacoeff.tex
+INPUT tex/app_betatables.tex
+INPUT tex/app_betatables.tex
+INPUT tex/app_upsiloncoeff.tex
+INPUT tex/app_upsiloncoeff.tex
 INPUT tex/app_sumderiv.tex
 INPUT tex/app_sumderiv.tex
 INPUT tex/app_kabpres.tex

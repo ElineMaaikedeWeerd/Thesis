@@ -1,0 +1,239 @@
+% \begin{longtable}{| p{.20\textwidth} | p{.80\textwidth} |} 
+% \caption{Your caption here}\\
+% \hline
+% foo & bar \\ \hline 
+% foo & bar \\ \hline
+% foo & bar \\ \hline
+% foo & bar \\ \hline
+% foo & bar \\ \hline
+% foo & bar \\ \hline
+% foo & bar \\ \hline
+% foo & bar \\ \hline
+% foo & bar \\ \hline
+% foo & bar \\ \hline
+% foo & bar \\ \hline
+%  % needs to go inside longtable environment
+% \label{tabc1}
+% \end{longtable}
+
+\begingroup
+\tiny
+\begin{longtable}{| c | c | c | c |} 
+\caption{ {Individual terms in the observed $\Delta_g^{(2)}(a,\bm{x})$ [see \eqref{eq:SecondorderNewtonian}, \eqref{odg2}] for $\fnl=0$ are shown in column 1. The related $\beta_I$ functions in \eqref{e2.23} are listed in column 2. The Fourier-space kernels ${\cal F}$  corresponding to column 1, given by 
+$ \int \!{\ud \k'}\, {\cal F}(\k',\k-\k')\delta_{\mathrm{T}}(\k')\delta_{\mathrm{T}}(\k-\k')/(2\pi)^3$, are shown in column~3. Column 4 gives
+the coefficients of the terms in $\Delta_g^{(2)}$ (column 1). The line-of-sight derivative is $\partial_\|=\bm{n}\!\cdot\!\bm{\nabla}$ and $\Phi=\Psi$.
+The superscript (1) on first-order quantities has been omitted and N denotes Newtonian. This table updates the one in \cite{Jolicoeur:2017nyt}.}} \label{tabc1} \\
+\hline 
+&  &  & \\
+TERM & $~~\beta~~$ & FOURIER KERNEL    & COEFFICIENT \\ 
+&  &  & \\ \hline \hline
+&  &  & \\
+%%----------------------- Newtonian
+$\delta^{(2)}_{\mathrm{T,{N}}}$ & N & $F_{2}(\!\bm{k}_{1},\!\bm{k}_{2}\!)$ & $b_{10}$ \\ 
+&  &  & \\
+%%-----------------------
+${\big(\delta_{\mathrm{T}}\big)^2}$ & N & 1 & $b_{20}$ \\ 
+&  &  & \\
+%%-----------------------
+${s^2}$ & N & $S_2(\!\bm{k}_{1},\!\bm{k}_{2}\!)$ & $b_{s}$ \\ 
+&  &  & \\
+%%-----------------------
+$\partial_{\parallel}^{2}V^{(2)}_{{\mathrm{N}}}$ & N & $f^{2}\cH \mu_{3}^{2}G_{2}(\!\bm{k}_{1},\!\bm{k}_{2}\!)$ & $-1/\cH$ \\ 
+&  &  & \\
+%%-----------------------
+$\delta_{\mathrm{T}}\partial_{\parallel}^{2}V$ & N & $-f\cH \big(\mu_{1}^{2} + \mu_{2}^{2}\big)/2 $ & $-2b_{10}/\cH$ \\
+&  &  & \\ 
+%%-----------------------
+$\partial_{\parallel}V \partial_{\parallel}\delta_{\mathrm{T}}$ & N\ & $-f\cH {{\mu_{1}\mu_{2}\big(k_{1}^{2} + k_{2}^{2}\big)}/{\big(2k_{1}k_{2}\big)}}$& $-2b_{10}/\cH$ \\ 
+&  &  & \\
+%%-----------------------
+$\partial_{\parallel}V \partial_{\parallel}^{3}V $  & N & $f^{2} \cH^2{{\big(\mu_{1}\mu_{2}^{3}k_{2}^{2} + \mu_{2}\mu_{1}^{3}k_{1}^{2}\big)}/{\big(k_{1}k_{2}\big)}}$ & $ {2}/{\cH^{2}}$  \\
+&  &  & \\ 
+%%-----------------------
+$\big[\partial_{\parallel}^{2}V\big]^{2}$  & N &$f^{2}\cH^2 \,\mu_{1}^{2}\mu_{2}^{2}$ & ${2}/{\cH^{2}}$ \\ 
+&  &  & \\
+\hline 
+&  &  & \\
+%%----------------------- beta_{1}, beta_{2}
+$\big(\Psi\big)^{2}$ & $\beta_{1}$ & ${9}\Omega_{m}^{2}\cH^{4}/{\big(4k_{1}^{2}k_{2}^{2}\big)}$ & $\mathcal{A}_{1}$ \\ 
+&  &  & \\
+%%-----------------------
+${\Psi V}$ & $\beta_{1}$ & $-{3}\Omega_{m}\cH^{3}f/{\big(2k_{1}^{2}k_{2}^{2}\big)}$  & $\mathcal{A}_{2}$ \\ 
+&  &  & \\
+%%-----------------------
+$VV' $ & $\beta_{1}$  & ${ f\cH^{3}\big(3\Omega_{m}-2f\big)/{\big(2k_{1}^{2}k_{2}^{2}\big)} }$ & $ (b_{e}-3)\cH$ \\ 
+&  &  & \\
+%%-----------------------
+$\big(V\big)^{2}$ & $\beta_{1}$ & $f^{2} \cH^{2}/{\big(k_{1}^{2}k_{2}^{2}\big)}$ & $(b_{e}-3)^{2}\cH^2+{b_{e}'\cH} +(b_{e}-3){\cH'} $ \\ 
+&  &  & \\
+%%-----------------------
+${V^{(2)}_{\mathrm{GR}}}$ & $\beta_1,\beta_2$ & $-3\Omega_{m}\cH^{3}\big[3 -2 E_{2}(\!\bm{k}_{1},\!\bm{k}_{2},\!\bm{k}_{3}\!)\big]/\big(4k_{1}^{2}k_{2}^{2}\big)$ & $(3-b_{e})\cH$ \\
+&  &  & \\
+%%-----------------------
+${\Phi^{(2)}_{\mathrm{GR}}}$ & $\beta_1,\beta_2$ & $3\Omega_{m}\cH^{4}\big[{f-\mathcal{C}_1 + \mathcal{C}_1} E_{2}(\!\bm{k}_{1},\!\bm{k}_{2},\!\bm{k}_{3}\!)\big]/\big(2k_{1}^{2}k_{2}^{2}\big)$ & $1-b_e+2\Q+\mathcal{R}$ \\
+&  &  & \\
+%%-----------------------
+${\Psi^{(2)}_{\mathrm{GR}}}$ & $\beta_1,\beta_2$ & $3\Omega_{m}\cH^{4}\big[{\mathcal{C}_1-3f+2f^2 +2 f} E_{2}(\!\bm{k}_{1},\!\bm{k}_{2},\!\bm{k}_{3}\!)\big]/\big(2k_{1}^{2}k_{2}^{2}\big)$ & $2\big(\Q - 1\big)$ \\
+&  &  & \\
+%%-----------------------
+${\Psi^{(2)\prime}_{\mathrm{GR}}}$ & $\beta_1,\beta_2$ & $3\Omega_{m}\cH^{5}\big[{\mathcal{C}_2 +  \mathcal{C}_{3}} E_{2}(\!\bm{k}_{1},\!\bm{k}_{2},\!\bm{k}_{3}\!)\big]/\big(2k_{1}^{2}k_{2}^{2}\big)$ & ${1}/{\cH}$ \\
+%%-----------------------
+&  &  & \\
+\hline 
+&  &  & \\
+%%----------------------- beta_{3}
+$V\partial_{\parallel}V $ & $\beta_{3}$ & $ \mathrm{i}\,f^{2}\cH^{2}
+{\big(\mu_{1}k_{1} + \mu_{2}k_{2}\big)}/{\big(2k_{1}^{2}k_{2}^{2}\big)}$ &  $\mathcal{A}_{3}$ \\ 
+&  &  & \\
+%%-----------------------
+$\Psi\partial_{\parallel}V$ & $\beta_{3}$ & $-{\i}\,3f\Omega_{m}\cH^{3}\,{\big(\mu_{1}k_{1} + \mu_{2}k_{2}\big)}/{\big(4k_{1}^{2}k_{2}^{2}\big)}$ & $\mathcal{A}_{4}$ \\ 
+&  &  & \\
+%%-----------------------
+$\Psi\partial_{\parallel}\Phi$ & $\beta_{3}$ & ${\i}\,9\Omega_{m}^{2}\cH^{4}{\big(\mu_{1}k_{1} + \mu_{2}k_{2}\big)}/{\big(8k_{1}^{2}k_{2}^{2}\big)}$ & ${2}(f-2+2\mathcal{Q})/{\cH}$  \\ 
+&  &  & \\
+\hline
+&  &  & \\ 
+%%----------------------- beta_{4}, beta_{5}
+${\partial_{\parallel}V^{(2)}_{\mathrm{GR}}}$ & $\beta_{4},\beta_{5}$ & $-\mathrm{i}\,3\Omega_{m}\cH^{3}\big[3 -2 E_{2}(\!\bm{k}_{1},\!\bm{k}_{2},\!\bm{k}_{3}\!)\big]\mu_3 k_3/\big(4k_{1}^{2}k_{2}^{2}\big)$ & $b_{e}-2Q-\mathcal{R}$ \\
+&  &  & \\
+\hline
+&  &  & \\ 
+%%----------------------- beta_{6}
+${\Psi^{(2)}_{\mathrm{N}}=\Phi^{(2)}_{\mathrm{N}}}$ & $\beta_{6}$ & $-{3}\Omega_{m}{\cH^{2}}F_{2}(\!\bm{k}_{1},\!\bm{k}_{2}\!)/{\big(2k_{3}^{2}\big)}$ & $4\mathcal{Q}-1-b_{e}+\mathcal{R}$ \\
+&  &  & \\ 
+%%-----------------------
+${\Psi_{\mathrm{N}}^{(2)\prime} = \Phi_{\mathrm{N}}^{(2)\prime}}$  & $\beta_{6}$ & $-{3}\Omega_{m}{\cH^{3}}(2f-1)F_{2}(\!\bm{k}_{1},\!\bm{k}_{2}\!)/{\big(2k_{3}^{2}\big)}$ & ${1}/{\cH}$ \\
+&  &  & \\ 
+\hline\
+&  &  & \\ 
+%%----------------------- beta_{7}
+$V^{(2)}_{\mathrm{N}}$ & $\beta_{7}$ & $f{\cH}G_{2}(\!\bm{k}_{1},\!\bm{k}_{2}\!)/{k_{3}^{2}}$ & $(3-b_{e})\cH$ \\ 
+&  &  & \\
+\hline 
+&  &  & \\
+%%----------------------- beta_{8}
+$\big(\partial_{\parallel}V\big)^{2} $ & $\beta_{8}$ & $-f^{2}\cH^{2}{\mu_{1}\mu_{2}}/{\big(k_{1}k_{2}\big)}$ & $\mathcal{A}_{5}$ \\
+&  &  & \\ 
+%%-----------------------
+$\partial_{\parallel}V\partial_{\parallel}\Psi$ & $\beta_{8}$ & ${3}f\Omega_{m}\cH^{3}{\mu_{1}\mu_{2}/{\big(2k_{1}k_{2}\big)}}$ & ${2}(2-f-2\mathcal{Q})/{\cH}$ \\
+&  &  & \\ 
+\hline
+&  &  & \\ 
+%%----------------------- beta_{9}, beta_{10}
+${\partial_{\parallel}^{2}V^{(2)}_{\mathrm{GR}}}$ & $\beta_{9},\beta_{10}$ & $\mathrm{i}\,3\Omega_{m}\cH^{3}\big[3 -2 E_{2}(\!\bm{k}_{1},\!\bm{k}_{2},\!\bm{k}_{3}\!)\big]\mu_3^{2} k_3^{2}/\big(4k_{1}^{2}k_{2}^{2}\big)$ & $-1/\cH$ \\
+&  &  & \\ 
+\hline
+&  &  & \\ 
+%%----------------------- beta_{11}
+$\partial_{i}V\,\partial^{i}V$ & $\beta_{11}$ & $-f^{2}\cH^{2}\,{\bm{k}_1\!\cdot\! \bm{k}_2}/{\big(k_{1}^{2}k_{2}^{2}\big)}$  & $ b_{e} -1- 2\mathcal{Q} - \mathcal{R}$ \\ 
+&  &  & \\
+%%-----------------------
+$\partial_{i}V\partial^{i}\Psi$  &$\beta_{11}$ & $3f\Omega_{m}\cH^{3} \,{\bm{k}_{1}\!\cdot\! \bm{k}_{2}}/{\big(2k_{1}^{2}k_{2}^{2}\big)} $ & ${2}/{\cH}$  \\
+&  &  & \\ 
+\hline 
+&  &  & \\
+%%----------------------- beta_{12}
+${\Psi\delta_{\mathrm{T}}}$ & $\beta_{12}$ &$-{3}\Omega_{m}\cH^{2}{\big(k_{1}^{2}+k_{2}^{2}\big)}/{\big(4k_{1}^{2}k_{2}^{2}\big)} $& $2b_{10}\big(4\mathcal{Q}+\mathcal{R} -2-b_{e}\big) -{\mathcal{S}}$  \\ 
+&  &  & \\
+%%-----------------------
+${V \delta_{\mathrm{T}}}$& $\beta_{12}$ & $f\cH{\big(k_{1}^{2}+k_{2}^{2}\big)}/{\big(2k_{1}^{2}k_{2}^{2}\big)} $  & $b_{10}' + 2b_{10}\big(3-b_e-f\big)\cH$ \\ 
+&  &  & \\
+\hline 
+&  &  & \\
+%%----------------------- delta2-gr
+{$\delta^{(2)}_{{g \mathrm{T,GR}}}$}& ${\beta_{11},\beta_{12}}$ & {$\big(3\Omega_m+2f\big)\cH^2\big[\bm{k}_{1}\cdot\!\bm{k}_{2}-2\big(k_1^2+k_2^2\big)\big]/\big(2k_{1}k_{2}\big)$} & 1 \\
+&  &  & \\ 
+\hline
+&  &  & \\
+%%----------------------- beta_{13}
+$\Psi \partial^{2}_{\parallel}V$ & $\beta_{13}$ & ${3}f\Omega_{m}\cH^{3}{\big(\mu_{1}^{2}k_{1}^{2} + \mu_{2}^{2}k_{2}^{2}\big)}/{\big(4k_{1}^{2}k_{2}^{2}\big)}$ &${2}\big[{1}-2f+2b_{e}-{6}\mathcal{Q}-2{\cal R}-\big({\cH'}/{\cH^{2}}\big)\big]/{\cH}$ \\ 
+&  &  & \\
+%%-----------------------
+$\Psi\partial_{\parallel}^{2}\Psi $ & $\beta_{13}$ & $- {9}\Omega_{m}^2\cH^{4}{\big(\mu_{1}^{2}k_{1}^{2} + \mu_{2}^{2}k_{2}^{2}\big)}/{\big(4k_{1}^{2}k_{2}^{2}\big)}$ & $-{2}/{\cH^{2}}$  \\ 
+&  &  & \\
+%%-----------------------
+$V\partial_{\parallel}^{2}V$ &$\beta_{13}$ & $-f^2\cH^{3}{\big(\mu_{1}^{2}k_{1}^{2} + \mu_{2}^{2}k_{2}^{2}\big)}/{\big(2k_{1}^{2}k_{2}^{2}\big)}$ & ${2}(b_{e}-3)/{\cH}$ \\ 
+&  &  & \\
+%%----------------------- beta_{14}
+$\Psi\partial_{\parallel}\delta_{\mathrm{T}}$ &$\beta_{14}$ & $-{\i}\,3\Omega_{m}\cH^2 {\big(\mu_{1}k_{1}^{3} + \mu_{2}k_{2}^{3}\big)}/{\big(4k_{1}^{2}k_{2}^{2}\big)}$& ${2}b_{10}/{\cH}$ \\ 
+&  &  & \\
+\hline
+&  &  & \\
+%%----------------------- beta_{15}
+$\partial_{i}V\partial_{\parallel}\partial^{i}V $ & $\beta_{15}$ &$ -\mathrm{i}\,f^2\cH^2 \bm{k}_{1}\!\cdot\! \bm{k}_{2}{\big(\mu_{1}k_{1} + \mu_{2}k_{2}\big)}/{\big(2k_{1}^{2}k_{2}^{2}\big)}$ & $-{4}/{\cH}$ \\ 
+&  &  & \\
+\hline 
+&  &  & \\
+%%----------------------- beta_{16}
+${\delta_{\mathrm{T}}\partial_{\parallel}V}$ & $\beta_{16}$ & $\mathrm{i}\,f\cH{\big(\mu_{1}k_{2} + \mu_{2}k_{1}\big)}/{\big(2k_{1}k_{2}\big)}$ & $2b_{10}\big(f+b_e-2\Q-\mathcal{R}\big)+{\mathcal{S}}$  \\ 
+&  &  & \\
+\hline
+&  &  & \\ 
+%%----------------------- beta_{17}
+$\Phi\partial_{\parallel}^{3}V$ & $\beta_{17}$ & ${\i}\,3f\Omega_{m}\cH^3 {\big(\mu_{1}^{3}k_{1}^{3} + \mu_{2}^{3}k_{2}^{3}\big)}/{\big(4k_{1}^{2}k_{2}^{2}\big)}$ & $-{2}/{\cH^{2}}$ \\ 
+&  &  & \\
+\hline 
+&  &  & \\
+%%----------------------- beta_{18}
+$\partial_{\parallel}V\partial^{2}_{\parallel}V$ & $\beta_{18}$ & $-\mathrm{i}\,f^{2}\cH^2 {{\big(\mu_{1}\mu_{2}^{2}k_{2} +\mu_{2}\mu_{1}^{2}k_{1}\big) }/{\big(2k_{1}k_{2}\big)}}$ & ${2}\big[3-2b_{e}+{4}\mathcal{Q}+2{\cal R}+\big({\cH'}/{\cH^{2}}\big)\big]/{\cH}$ \\ 
+&  &  & \\
+%%-----------------------
+$\partial_{\parallel}V\partial^{2}_{\parallel}\Psi$ & $\beta_{18}$ & ${\i}\,3f\Omega_{m}\cH^3{{\big(\mu_{1}\mu_{2}^{2}k_{2} +\mu_{2}\mu_{1}^{2}k_{1}\big) }/{\big(4k_{1}k_{2}\big)}}$ & ${2}/{\cH^{2}}$ \\ 
+&  &  & \\
+\hline 
+&  &  & \\
+%%----------------------- beta_{19}
+$\partial_{\parallel}{V_{\mathrm{N}}^{(2)}}$& $\beta_{19}$ & $\mathrm{i}\,f\cH \,{\mu_{3}}G_{2}(\!\bm{k}_{1},\!\bm{k}_{2}\!)/{k_{3}}$ & $b_{e}-2Q-\mathcal{R}$ \\
+&  &  & \\ 
+\hline
+\end{longtable}
+\endgroup
+
+\noindent Here the ${\cal C}$ functions in the Fourier kernels are
+\begin{align}
+{\mathcal{C}_{1}} &= 2f - f^2 -3\Omega_m\;, \label{e7} \\
+%\mathcal{C}_{2} &=& \frac{1}{2}\big(3\Omega_m -2f +2f^{2}\big)\;, \label{e8}\\
+%\mathcal{C}_{3} &=& \frac{1}{2}\big(3\Omega_m + f - f^{2}\big)\;, \label{e9}\\
+\mathcal{C}_{2} &= 2f-1+ \big(1-f\big)\bigg[6\Omega_m + f\big(1-2f\big) - 2f\frac{\cH'}{\cH^{2}}\bigg] \;, \label{e10} \\
+%\mathcal{C}_{5} &=& \frac{1}{2}\big(2f-1\big)\;, \label{e11} \\
+\mathcal{C}_{3} &= 2 f\bigg(2f-1+\frac{\cH'}{\cH^{2}}\bigg) +2 \frac{f'}{\cH}\;, \label{e12} 
+\end{align}
+the 
+${\cal A}$ functions in the coefficients are 
+\begin{align}
+\mathcal{A}_{1} &= {-3} +2f\bigg({2}-2b_{e}+{4}\mathcal{Q}+\frac{4(1-\mathcal{Q})}{\chi\cH} +\frac{2\cH'}{\cH^{2}}\bigg) -\frac{2f'}{\cH} +b_{e}^{2}+ 6b_{e}-8b_{e}\mathcal{Q}+4\mathcal{Q} \nonumber \\
+& +16\mathcal{Q}^{2} -16\frac{\partial \mathcal{Q}}{\partial \ln{L}} -8\frac{\mathcal{Q}'}{\cH} + \frac{b_{e}'}{\cH}+\frac{2}{\chi^{2}\cH^{2}}\bigg(1-\mathcal{Q}+2\mathcal{Q}^{2}-2\frac{\partial \mathcal{Q}}{\partial \ln{{L}}}\bigg)  \nonumber\\ 
+& - \frac{2}{\chi\cH}\bigg[4+2b_{e}-2b_{e}\mathcal{Q}-4\mathcal{Q}+8\mathcal{Q}^{2}-\frac{3\cH'}{\cH^{2}}(1-\mathcal{Q})- 8\frac{\partial \mathcal{Q}}{\partial \ln{{L}}} - 2\frac{\mathcal{Q}'}{\cH}\bigg] \nonumber \\
+& + \frac{\cH'}{\cH^{2}}\bigg(-8-2b_{e}+{8}\mathcal{Q}+\frac{3\cH'}{\cH^{2}}\bigg) - \frac{\cH''}{\cH^{3}}\;, \label{e2} 
+\end{align}
+\begin{align}
+\mathcal{A}_{2} &= 2\cH\bigg[-\frac{15}{2}+f(3-b_{e})-\frac{3}{2}b_{e}-2b_{e}\frac{(1-\mathcal{Q})}{\chi\cH}+\frac{b_{e}'}{\cH}+b_{e}^{2}-4b_{e}\mathcal{Q}+12\mathcal{Q}+\frac{6(1-\mathcal{Q})}{\chi\cH} \nonumber \\
+&&\qquad -2\bigg(2-\frac{1}{\chi\cH}\bigg)\frac{\mathcal{Q}'}{\cH}\bigg]\;, \label{e4} \\
+\mathcal{A}_{3} &= 2\cH\bigg[-3+4b_{e}+\frac{2b_{e}(1-\mathcal{Q})}{\chi\cH}-b_{e}^{2}+2b_{e}\mathcal{Q} -6\mathcal{Q}-\frac{b_{e}'}{\cH}-\frac{6(1-\mathcal{Q})}{\chi\cH} \nonumber \\
+& \qquad +2\bigg(1-\frac{1}{\chi\cH}\bigg)\frac{\mathcal{Q}'}{\cH}\bigg]\;, \label{e3} 
+\\ 
+\mathcal{A}_{4} &= 4 +2f\bigg[-3+f+2b_{e}-3\mathcal{Q}-\frac{4(1-\mathcal{Q})}{\chi\cH}-\frac{2\cH'}{\cH^{2}}\bigg] +\frac{2f'}{\cH}-6b_{e}-2b_{e}^{2}+12b_{e}\mathcal{Q}-{8}\mathcal{Q} \nonumber\\
+& -16\mathcal{Q}^{2}+16\frac{\partial \mathcal{Q}}{\partial \ln{{L}}} +12\frac{\mathcal{Q}'}{\cH} -2\frac{b_{e}'}{\cH} -\frac{4}{\chi^{2}\cH^{2}}\bigg(1-\mathcal{Q}+2\mathcal{Q}^{2}-2\frac{\partial \mathcal{Q}}{\partial \ln{{L}}}\bigg)  \nonumber \\
+& - \frac{4}{\chi \cH}\bigg(-1 -2b_{e}+2b_{e}\mathcal{Q}+\mathcal{Q}-6\mathcal{Q}^{2}+\frac{3\cH'}{\cH^{2}}(1-\mathcal{Q}) +6\frac{\partial \mathcal{Q}}{\partial \ln{{L}}} + 2\frac{\mathcal{Q}'}{\cH}\bigg)  \nonumber \\
+& + \frac{2\cH'}{\cH^{2}}\bigg(3+2b_{e}-6\mathcal{Q}-\frac{3\cH'}{\cH^{2}}\bigg) + \frac{2\cH''}{\cH^{3}}\;, \label{e5}\\
+\mathcal{A}_{5} &=  -4-b_{e}+b_{e}^{2}-4b_{e}\mathcal{Q}+ {6}\mathcal{Q}+4\mathcal{Q}^{2}-4\frac{\partial \mathcal{Q}}{\partial \ln{{L}}} - 4\frac{\mathcal{Q}'}{\cH} + \frac{b_{e}'}{\cH} \nonumber \\
+& + \frac{2}{\chi^{2}\cH^{2}}\bigg(1-\mathcal{Q}+2\mathcal{Q}^{2}-2\frac{\partial \mathcal{Q}}{\partial \ln{{L}}}\bigg) \nonumber \\
+& + \frac{2}{\chi\cH}\bigg[3-2b_{e}+2b_{e}\mathcal{Q}-3\mathcal{Q}-4\mathcal{Q}^{2}+\frac{3\cH'}{\cH^{2}}(1-\mathcal{Q}) + 4\frac{\partial \mathcal{Q}}{\partial \ln{{L}}} + 2\frac{\mathcal{Q}'}{\cH}\bigg]  \nonumber \\
+& + \frac{\cH'}{\cH^{2}}\bigg(3-2b_{e}+{4}\mathcal{Q}+\frac{3\cH'}{\cH^{2}}\bigg) - \frac{\cH''}{\cH^{3}}\;, \label{e6} 
+\end{align}
+and the functions ${\cal R}, {\cal S}$ in the coefficients are
+\begin{align}
+\mathcal{R} &= \frac{2(1-\mathcal{Q})}{\chi\cH}+\frac{\cH'}{\cH^{2}}\;, \label{e1}\\
+\mathcal{S} &= 4\bigg(2-\frac{1}{\chi\cH}\bigg)\frac{\partial b_{10}}{\partial \ln{{L}}}\;. \label{e1'}
+\end{align}
+
+The magnification bias is defined by \cite{Alonso:2015uua,DiDio:2015bua,Maartens:2019yhx}:
+\begin{equation}
+%b_e={\partial \ln n_g^{\rm com} \over \partial \ln a}\,, \quad 
+{\cal Q}= - \frac{\partial \ln \bar{n}_g}{\partial \ln L}\Bigg|_{\mathrm{c}}\,,
+\end{equation}
+where $L$ is the background luminosity and the derivative is evaluated at the flux cut. Similarly,  $\partial b_{10} / \partial \ln L$ is understood to be evaluated at the flux cut.
+We use a short-hand notation for the second luminosity derivative of $\bar{n}_g$:
+\begin{equation}
+\frac{\partial {\cal Q}}{\partial \ln L}\equiv - \frac{\partial^2 \ln \bar{n}_g}{\partial (\ln L)^2}\Bigg|_{\mathrm{c}}\,.
+\end{equation}

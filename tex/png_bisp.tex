@@ -160,7 +160,7 @@ After equality, the potential evolves with the growth suppression factor, so tha
 \begin{equation}\label{pottp}
 {\varphi(a,\k) = \frac{g(a)}{g_{\in}}  \varphi_{\in}(\k) \quad \mbox{for}\quad a\geq a_{\in}> {a_{\mathrm{dec}}}\,.}
 \end{equation}
-\begin{figure}[!h]
+\begin{figure}[ht]
 \centering
 \includegraphics[width=.49\textwidth, angle=0]{fig/Mplot.pdf}
 \caption{{${\cal M}^{-1}= \varphi_{\mathrm{p}}/\delta^{\on}_{\mathrm{C}}$ at $z=1$.}}
@@ -530,16 +530,252 @@ Line 4 arises from the {\em coupling of $\delta_{\mathrm{T,nG}}$  to first-order
 }
 %
 \subsection{Galaxy bispectrum}
-What did I know
+%
+At leading order the observed galaxy bispectrum is defined by \citep{Umeh:2016nuh}
+\begin{equation}
+ 2\big \langle \Delta_{g}({\bm{k}_{1}}) \Delta_{g}({\bm{k}_{2}}) \Delta_{g}^{(2)}({\bm{k}_{3}}) \big \rangle + \mbox{2 cp} =(2\pi)^{3} B_{g}(\bm{k}_{1},\bm{k}_{2},\bm{k}_{3})\delta^{\mathrm{Dirac}}(\bm{k}_{1}+\bm{k}_{2}+\bm{k}_{3})\,, \label{e2.13_1} 
+\end{equation}
+where here, and below, we  omit the time dependence for brevity and we assume equal-time correlations.
+The bispectrum can be written in terms of Fourier kernels as
+\begin{equation} \label{bisker}
+ B_{g}(\bm{k}_{1},\bm{k}_{2},\bm{k}_{3}) = \mathcal{K}(\k_1)\, \mathcal{K}(\k_2)\, \mathcal{K}^{(2)}(\k_1,\k_2,\k_3)\,P(k_1)P(k_2)  + \mbox{2 cp},
+\end{equation}
+where
+\begin{align}
+\Delta_{g}(\k) &= \mathcal{K}(\k) \, \delta_{\mathrm{T}}(\k)\,,\label{k1} \\
+\Delta_{g}^{(2)}(\k_3) &= \int \frac{\ud\k_1}{(2\pi)^3}\,\ud \k_2\, \delta^{\mathrm{Dirac}}(\bm{k}_{1}+\bm{k}_{2}-\bm{k}_{3})\, \mathcal{K}^{(2)}(\k_1,\k_2,\k_3)\, \delta_{\mathrm{T}}(\k_1)\,  \delta_{\mathrm{T}}(\k_2)  .\label{k2}
+\end{align}
+
+ In \citep{Jolicoeur:2017eyi}, the Newtonian and GR kernels   are presented, including all local relativistic effects, from projection, evolution and bias, but in the case of Gaussian initial conditions. Here we have updated these results and extended them to include the effects of local PNG. From Section \ref{ss-ond},  we find the following kernels.
+
+%----------------------------------
+\begin{itemize}
+\item
+At {\bfseries first order}, using \eqref{d1n}--\eqref{eq:linearGR} and \eqref{k1}:
+\begin{align}
+\mathcal{K}_{\mathrm{N}}(\bm{k}_{a}) &= b_{10}+f\mu_a^{2}\,,
+\label{kn} \\ 
+\blue{\mathcal{K}_{\mathrm{GR}}(\bm{k}_{a})} &\blue{=} \blue{\mathrm{i}\,\mu_{a} \frac{\gamma_{1}}{k_{a}} + \frac{\gamma_{2}}{k_{a}^{2}}}\,,  \label{e2.21}\\
+\mathcal{K}_{\mathrm{nG}}(\bm{k}_a) &= \frac{b_{01}}{{\cal M}(k_a)}\,, \label{e2.14} 
+\end{align}
+where   $\mu_a=\hat{\k}_a\cdot\n$ and \blue{
+\begin{align}
+\frac{\gamma_{1}}{\cH} &= f\bigg[b_{e}-2\Q-\frac{2(1-\Q)}{\chi \cH} - \frac{\cH'}{\cH^{2}}\bigg], 
+\label{gam1}\\
+\frac{\gamma_{2}}{\cH^{2}} &= f(3-b_{e})+\frac{3}{2}\Omega_{m}\bigg[2+b_{e}-f-4\Q-\frac{2(1-\Q)}{\chi \cH}-\frac{\cH'}{\cH^{2}}\bigg] . \label{e2.22}
+\end{align}}
+
+\item
+The  {\bfseries second-order Newtonian part} follows from \eqref{eq:SecondorderNewtonian}  and \eqref{k2} (see e.g. \cite{Tellarini:2016sgp}): 
+\begin{align}
+\mathcal{K}^{(2)}_{\mathrm{N}}(\bm{k}_{1}, \bm{k}_{2},\bm{k}_3) &= b_{10}F_{2}(\bm{k}_{1}, \bm{k}_{2}) + b_{20} + f\mu_{3}^{2}G_{2}(\bm{k}_{1}, \bm{k}_{2}) + b_{s}S_{2}(\bm{k}_{1}, \bm{k}_{2}) 
+ \label{e2.15}\\ &
++b_{10}{f \big(\mu_1k_1+\mu_2k_2\big)\Big(\frac{\mu_1}{k_1} + \frac{\mu_2}{k_2} \Big)} 
++  f^2 \frac{\mu_1\mu_2}{k_1k_2}\big( \mu_1k_1+\mu_2k_2\big)^2 ,
+\nonumber 
+\end{align}
+where
+\begin{align}
+G_{2}(\bm{k}_{1},\bm{k}_{2}) &= \frac{F'}{DD'}+ \Big( \frac{k_1}{k_2}+ \frac{k_2}{k_1}\Big)\hat{\k}_1\cdot \hat{\k}_2 +\bigg(2 - \frac{F'}{DD'}\bigg)\big( \hat{\k}_1\cdot \hat{\k}_2\big)^2\,, \label{g2k}
+\\
+S_{2}(\bm{k}_{1}, \bm{k}_{2}) &= \big( \hat{\k}_1\cdot \hat{\k}_2\big)^2- \frac{1}{3}\,. \label{e2.18}
+\end{align}
+Since we use the approximation $F/D^2=3/7$ in $F_2$,  we have $F'/(DD')=6/7$ in $G_2$.
+
+%--------------------------------------
+\item
+The {\bfseries second-order relativistic part} follows from \eqref{odg2} and \eqref{k2} (see \citep{Jolicoeur:2017eyi}, with some errors that are corrected here):\blue{ 
+\begin{align}
+\mathcal{K}^{(2)}_{\mathrm{GR}}(\bm{k}_{1}, \bm{k}_{2}, \bm{k}_{3}) &= \frac{1}{k_{1}^{2}k_{2}^{2}}\Bigg\{\beta_{1} {+ E_{2}(\bm{k}_{1}, \bm{k}_{2},\bm{k}_3)\,\beta_2}  
+\label{e2.23} \\
+&
+\qquad \quad + {\i}\bigg[\left(\mu_{1}k_{1} + \mu_{2}k_{2}\right)\beta_{3}  {+ {\mu_{3}k_{3}{\Big(\beta_4+E_{2}(\bm{k}_{1}, \bm{k}_{2},\bm{k}_3)\,\beta_5 \Big)}}}\bigg]   \nonumber \\
+& \qquad \quad   + \frac{k_{1}^2k_{2}^2}{k_{3}^2} \Big[{F_{2}(\bm{k}_{1}, \bm{k}_{2})}\,\beta_{6} + {G_{2}(\bm{k}_{1}, \bm{k}_{2})}\,\beta_{7} \Big] + \left(\mu_{1}k_{1}\mu_{2}k_{2}\right)\beta_{8}  
+\nonumber \\
+& 
+\qquad \quad +{{\mu_{3}^{2}k_{3}^{2}{\Big[\beta_9+ E_{2}(\bm{k}_{1}, \bm{k}_{2},\bm{k}_3)\,\beta_{10} \Big]}}} + \left(\bm{k}_{1}\cdot \bm{k}_{2}\right)\beta_{11} 
+\nonumber \\
+&
+ \qquad \quad 
++ \left(k_{1}^{2} + k_{2}^{2}\right)\beta_{12}+ \left(\mu_{1}^{2}k_{1}^{2} + \mu_{2}^{2}k_{2}^{2}\right)\beta_{13} 
+\nonumber \\
+& 
+\qquad \quad+ {\i}\bigg[\left(\mu_{1}k_{1}^{3} + \mu_{2}k_{2}^{3}\right)\beta_{14} + \left(\mu_{1}k_{1} + \mu_{2}k_{2}\right)\left(\bm{k}_{1} \cdot \bm{k}_{2}\right)\beta_{15}
+\nonumber \\
+& 
+\qquad \quad    + k_{1}k_{2}\left(\mu_{1}k_{2} + \mu_{2}k_{1}\right)\beta_{16}+ \left(\mu_{1}^{3}k_{1}^{3}+ \mu_{2}^{3}k_{2}^{3}\right)\beta_{17}
+ \nonumber \\ \notag
+& 
+\qquad \quad   + \mu_{1}\mu_{2}k_{1}k_{2}\left(\mu_{1}k_{1} + \mu_{2}k_{2}\right)\beta_{18}
++ \mu_{3}\frac{k_{1}^{2}k_{2}^{2}}{k_{3}}\,{G_{2}(\bm{k}_{1}, \bm{k}_{2})}\,\beta_{19}\bigg]\Bigg\}, 
+\end{align}}
+where
+\begin{equation}
+E_{2}(\bm{k}_{1}, \bm{k}_{2},\bm{k}_3)=\frac{k_{1}^{2}k_{2}^{2}}{k_{3}^{4}}
+\bigg[3+2\bigg(\frac{k_{1}}{k_{2}} + \frac{k_{2}}{k_{1}}\bigg) \hat{\k}_1\cdot \hat{\k}_2 + \big( \hat{\k}_1\cdot \hat{\k}_2\big)^2\bigg]\,. %\label{e2.24}
+\end{equation}
+The kernel \eqref{e2.23} is derived from the many terms in $\Delta_g^{(2)}(\x)$, as given in  \cite{Bertacca:2014dra, Bertacca:2014hwa} (we neglect the integrated terms). For convenience, in Table \ref{tabc1},  Appendix~\ref{app_pnga},  we summarise  which terms in $\Delta_g^{(2)}(\x)$ contribute to which of the terms in  \eqref{e2.23}. The time-dependent functions $\beta_{I}$ are also given in Appendix REF APPENDIX.
+ 
+\item
+The {\bfseries second-order local PNG part}  follows from \eqref{ngdg2}:
+\begin{align}
+\mathcal{K}^{(2)}_{\mathrm{nG}}(\bm{k}_{1},\bm{k}_{2},\bm{k}_{3}) &= {2}\,f_{\mathrm{NL}}\big(b_{10}+f\mu_{3}^{2}\big)\frac{{\cal M}_{3}}{{\cal M}_{1}{\cal M}_{2}} 
++ fb_{01}\big(\mu_1k_1+\mu_2k_2\big) \bigg(\frac{\mu_1}{k_1{\cal M}_{2}} + \frac{\mu_2}{k_2 {\cal M}_{1}} \bigg)
+\notag 
+\\  &
++ b_{n}{N}_{2}(\bm{k}_{1},\bm{k}_{2})  + \frac{b_{11}}{2}\bigg(\frac{1}{{\cal M}_{1}} + \frac{1}{{\cal M}_{2}}\bigg) 
++\frac{b_{02}}{{\cal M}_{1}{\cal M}_{2}} 
+\notag \\ &
+\blue{{}+\frac{{\cal M}_3}{{\cal M}_{1}{\cal M}_{2}}\bigg( \frac{\Upsilon_{1}}{k_3^2} + \mathrm{i}\,\frac{\mu_{3}}{k_3}\,\Upsilon_{2} \bigg) 
++{\Upsilon_{3}} \bigg(\frac{1}{k_{1}^{2}{\cal M}_{2}} + \frac{1}{k_{2}^{2}{\cal M}_{1}}\bigg) }
+\nonumber \\
+ &
+\blue{{} + \i\,\bigg[{\Upsilon_{4}}\bigg(\frac{\mu_{1}k_{1}}{k_2^2{\cal M}_{1}} + \frac{\mu_{2}k_{2}}{k_1^2{\cal M}_{2}}\bigg)  
+ +{\Upsilon_{5}} \bigg(\frac{\mu_{1}}{k_1{\cal M}_{2}} + \frac{\mu_{2}}{k_2{\cal M}_{1}}\bigg) \bigg] ,} \label{e2.35} 
+\end{align}
+where ${\cal M}_a \equiv {\cal M}(k_a)$ and
+\begin{equation}
+N_{2}(\bm{k}_{1},\bm{k}_{2}) = \frac{1}{2} \bigg(\frac{k_1}{k_2{\cal M}_1 }+ \frac{k_2}{k_1{\cal M}_2 } \bigg) \hat{\k}_1\cdot \hat{\k}_2 . \label{n2k}
+\end{equation}
+%{[RM: The old $\Upsilon_3$ is {\em zero} since that term was the $O(2)$ Kaiser term in line 1; thus $\Upsilon_{4,5,6} \to \Upsilon_{3,4,5}$.  $\Upsilon_{1,2}$ and their kernels are corrected in  App. B. Table 3 also wrongly has $\Phi^{(2)}_{\rm nG} \neq \Psi^{(2)}_{\rm nG}$ and $\Phi^{(2)\prime}_{\rm nG}$ was wrong [see \eqref{p2ngp}]. Note: Villa-Rampf $\fnl$ terms are only valid for $T=1$.]}
+
+
+In the first line of \eqref{e2.35}, the first term is a sum of the  matter density term in line 2 of \eqref{dg2bn} and the linearly evolved PNG part of the second-order RSD term [line 1 of  \eqref{ngdg2}]. The second term is the quadratic RSD term from line 3 of \eqref{ngdg2}. 
+
+The second line gives the scale-dependent bias contribution from \eqref{dg2bn}. The first two lines recover the Newtonian approximation (see \cite{Tellarini:2015faa}). 
+
+Lines 3 and 4 in {magenta} are the PNG contributions that arise from relativistic projection effects, as explained in Section \ref{ss-ond}. 
+These projection terms in the non-Gaussian kernel involve new time-dependent functions $\Upsilon_I$, which are given in Appendix REFERENCE APPENDIX.
+{The terms in $\Delta_g^{(2)}(\x)$ corresponding to those in \eqref{e2.35}, lines 3 and 4, are summarised in Table \ref{tabc3}, Appendix REFERENCE APPENDIX.}
+
+{The Newtonian terms scale as $(\cH^2/k^2)\,(\delta_{\mathrm{T}})^2$ except for the $b_{02}$ term which scales as $(\cH^4/k^4)\,(\delta_{\mathrm{T}})^2$. The relativistic $\Upsilon_1, \Upsilon_3$ terms scale as $(\cH^4/k^4)\,(\delta_{\mathrm{T}})^2$, while the $\Upsilon_2, \Upsilon_4, \Upsilon_5$ terms are  ${\cal O}(\cH^3/k^3)$.}
+
+Note that $\Upsilon_1,\Upsilon_2$ are proportional to $\fnl$, and $\Upsilon_3,\Upsilon_4,\Upsilon_5$ are  proportional to $b_{01}$ (which itself is proportional to $\fnl$).
+
+For Gaussian initial conditions, $\mathcal{K}^{(2)}_{\mathrm{nG}}$ vanishes: 
+\begin{equation}
+\fnl=0~~\Rightarrow~~b_{01}=b_n=b_{11}=b_{02}=\Upsilon_I=0 ~~\Rightarrow~~ \mathcal{K}^{(2)}_{\mathrm{nG}}(\bm{k}_{1}, \bm{k}_{2}, \bm{k}_{3})=0\,.
+\end{equation}
+
+\end{itemize}
 %
 \subsection{Numerical examples}
-Thinking myself
+{The GR corrections to the Newtonian bispectrum, for both Gaussian and local PNG cases, are sensitive to the following astrophysical parameters of the tracer: Gaussian bias $b_{10}$, PNG bias $b_{01}$,  and magnification bias ${\cal Q}$, together with  their first derivatives in time and luminosity; evolution bias $b_e$ and its first  time derivative. This can be seen from the kernels presented above,  with the details given in Appendices \ref{app_pnga} and \ref{app_pngb}.} 
+
+In order to illustrate the GR corrections, we need to use physically self-consistent values for these parameters, as well as for the second-order Newtonian clustering bias parameters $b_{20}$ and $b_s$.  
+For a Stage IV H$\alpha$ spectroscopic survey, similar to Euclid,  we use \cite{Maartens:2019yhx} for the  clustering biases, evolution bias and magnification bias. {We neglect the luminosity derivatives of first-order clustering bias and magnification bias. For the PNG biases $b_{11}, b_n, b_{02}$ we use \eqref{b11}--\eqref{b02}.}
+
+We start by showing the contribution of GR corrections to
+the monopole of the reduced   bispectrum,
+\begin{equation} \label{redb}
+Q^{00}_g(k_1,k_2,k_3) = \frac{ B^{00}_g(k_1,k_2,k_3)}{P(k_1)P(k_2)+ P(k_3)P(k_1)+ P(k_2)P(k_3) }\,,
+\end{equation}
+where \cite{deWeerd:2019cae}
+\begin{equation} \label{monob}
+B^{\ell m}_g(k_1,k_2,k_3)= \int_0^{2\pi} \ud\phi \int_{-1}^1 \ud\mu_1 B_g(k_1,k_2,k_3,\mu_1,\phi)\,Y^*_{\ell m}(\mu_1,\phi) \,.
+\end{equation}
+Here $\phi,\mu_1$ determine the orientation of the triangle relative to the line of sight. 
+Figure \ref{qmono} shows the monopole
+for squeezed configurations. We use fixed equal sides 
+$k_1=k_2=0.1\,h$/Mpc and varying long mode $k_3<k_1=k_2$. The isosceles triangle is increasingly squeezed as $k_3$ decreases. 
+The left panel shows the Newtonian approximation (dash-dot lines) and the right panel shows the monopole without the GR bias correction \eqref{dg2b}. 
+%{Note that the $\Upsilon_2, \Upsilon_4, \Upsilon_5$ terms  in  \eqref{e2.35} do not contribute to the monopole, so that the GR correction to the local PNG kernel scales as $(\cH^4/k^4)\,(\delta_{\rm T})^2$ -- and is thus suppressed relative to the dominant Newtonian terms, which are $\mathcal{O}(\cH^2/k^2)$.}  
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{fig/Q_k0_1_noShotnoise1.pdf}
+\includegraphics[width=0.49\textwidth]{fig/Q_k0_1_noShotnoise2.pdf}
+\caption{ {Monopole of the reduced bispectrum for a Stage IV H$\alpha$ survey at $z=1$,  for various $\fnl$, with $k_1=k_2=0.1\,h$/Mpc. 
+Shading indicates the 1$\sigma$ uncertainty (neglecting shot noise) for the $\fnl=0$ case (solid blue curve).
+{\em Left:} Comparing the full relativistic monopole to the Newtonian approximation (dash-dot curves).   {\em Right:} Comparing the full relativistic monopole to the monopole without the GR correction to second-order  galaxy bias, \eqref{dtgr2} (dashed curves). }}
+\label{qmono}
+\end{figure}
+
+The shading in Figure \ref{qmono} is defined by the {cosmic variance limited} error $\sigma_{B}$ on the $\fnl=0$ monopole, given by \cite{Gagrani:2016rfy}: 
+\begin{equation}
+{\big(\sigma_{B}\big)^2=\frac{{\cal V}^{\,\mathrm{com}}}{\pi k_1k_2 k_3\, \Delta k}\,
+\int \ud \mu_1\, \ud \phi \,P_g(k_1,\mu_1) \,P_g(k_2,\mu_2)\, P_g(k_3,\mu_3)}
+\,,\label{sigb}
+\end{equation}
+where the galaxy power spectrum, from \eqref{kn}--\eqref{e2.14}, is
+\begin{equation}
+{P_g(k_a,\mu_a)=  \left| b_{10}
+%+{b_{01} \over {\cal M}(k_a)} 
++f\mu_a^2+ \frac{\gamma_2}{k_a^2} +{\i}\,\mu_a \frac{\gamma_1}{k_a}\right|^2P(k_a)}\,. \label{pg0}
+% \bigg[P^0_g(k_1)+ {1 \over n_g^{\rm com}} \bigg]  \bigg[P^0_g(k_2)+ {1 \over n_g^{\rm com}} \bigg]  \bigg[P^0_g(k_3)+ {1 \over n_g^{\rm com}} \bigg],
+\end{equation}
+In \eqref{sigb}, ${\cal V}^{\,\mathrm{com}}$ is the comoving volume of the redshift bin, $\Delta k$ is chosen as the fundamental mode, $2\pi ({\cal V}^{\,\mathrm{com}})^{-1/3}$, $k_1=k_2=0.1\,h$/Mpc, and \cite{Clarkson:2018dwn} $\mu_2=\mu_1\cos\theta_{12}+\sqrt{1-\mu_1^2}\sin\theta_{12}\,\cos\phi$, $\mu_3=-(k_1\mu_1+k_2\mu_2)/k_3$. Here $\theta_{12}$ is the {tail-to-tail} angle between $\k_1$ and $\k_2$, so that the squeezed limit is $\theta_{12}=\pi$.
+
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=\textwidth]{fig/redB_lineandlake_v3.pdf}
+\caption{Monopole of reduced bispectrum for isosceles triangles, as in Figure \ref{qmono}. {\em Left:} As a function of $\fnl$, for various values of $\theta\equiv\theta_{12}$, where $\theta=\pi$ is the squeezed limit. Dashed curves indicate negative values. {\em Right:} 2D colour map  as a function of $\fnl$ and $\theta/\pi$.}\label{rb2d}
+\end{figure}
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\textwidth]{fig/multipoles_allpanels_v3.pdf}
+\caption{First few nonzero multipoles for fixed triangle shape as a function of $k_3$, with {$\fnl=10$ (solid) and $\fnl=0$} (dashed).
+{\em Left:} Equilateral configuration, $k_1=k_2=k_3$. {\em Middle:} Flattened configuration, $k_1=k_2\approx k_3/2$, with $\theta_{12}=2\degree$. {\em Right:} Squeezed configuration with $\theta_{12}=178\degree$ and $k_1=k_2=k_3/(2\sin \theta_{12})\approx 14\, k_3$.}
+\label{eqfl}
+\end{figure}
+
+The effect of $\fnl$ is strongest in the monopole and competes with the GR contribution on ultra-large scales, since they both affect the Newtonian Gaussian bispectrum at ${\cal O}(\mathcal{H}^{2} / k^{2})$. We see this in Figure \ref{qmono} left panel, which shows the monopole of the reduced bispectrum for an increasingly squeezed isosceles triangle. 
+In the Gaussian case (blue) we see that the Newtonian reduced monopole (dot-dash blue) becomes negative when the long mode is close to the Hubble scale, due to the effects of second-order galaxy bias.
+The Gaussian GR correction to the Newtonian approximation is negative for super-equality long modes until close to the Hubble scale (this was pointed out in  \cite{Jolicoeur:2018blf}). GR effects drive the reduced monopole (solid blue) below zero for $H_0 \lesssim k_3\lesssim 0.002\,h$/Mpc  (the locations of the zero-crossings  are dependent on the Gaussian bias parameters, evolution bias and magnification bias). 
+
+As $\fnl$ is increased above zero, the amplitude of the Newtonian reduced monopole (dot-dash curves) increases monotonically. When GR effects are taken into account, the reduced monopole is pushed upwards, but remains negative on observable scales for $\fnl \lesssim 5$, until it becomes always positive for $\fnl>5$   -- the precise turnaround value of $\fnl$ depends on astrophysical parameters. This means that for  $\fnl \lesssim 5$, 
+local PNG {\em decreases} the amplitude of the reduced monopole on observable scales, in contrast to the Newtonian approximation. Comparing the green solid and blue dot-dash curves shows that {\em the Newtonian approximation is very close to the true reduced monopole with $\fnl \sim 5$}. For a universe with $\fnl \sim 5$, a Newtonian analysis of the squeezed bispectrum would conclude that the primordial universe is Gaussian. Similarly, a universe with $\fnl \sim 10$ would appear to have $\fnl \sim 5$ in a Newtonian approximation.
+%For $\fnl>5$, local PNG and GR corrections act in the same direction. 
+
+The GR contribution to the monopole is made up of: ${\cal O}(\mathcal{H}^{2} / k^{2})$ Gaussian projection terms, ${\cal O}(\mathcal{H}^{2} / k^{2})$  second-order galaxy bias correction (the same for Gaussian and PNG cases) and ${\cal O}(\mathcal{H}^{4} / k^{4})$ second-order local PNG contributions from GR projection effects.  The last contribution is effectively negligible on observable scales.
+In the right panel of Figure \ref{qmono} we show that the GR bias correction is dominated by the Gaussian GR projection terms:  the effect of removing the GR correction to second-order galaxy bias is small. Note that the GR bias correction has a similar effect to a small negative value of $\fnl$.
+
+In Figure \ref{rb2d}  we include  negative $\fnl$ and explore how  local PNG changes the monopole of the reduced bispectrum as we approach the squeezed limit, $\theta_{12}\to\pi$. For $\fnl\geq0$, the results provide a different perspective on Figure \ref{qmono} left panel. For negative $\fnl$, local PNG and GR effects act together to drive the monopole negative, so that the zero-crossing of the monopole occurs for smaller $\theta_{12}$, equivalently larger $k_3$. 
+%This new effect would not be present without the inclusion of the GR contribution.
+
+Figure \ref{eqfl} shows the effect of $\fnl$ on
+the first three multipoles of the relativistic galaxy bispectrum, also including equilateral and flattened triangle shapes.
+ In general, the Newtonian RSD effect induces only even multipoles, while the GR corrections modify the even multipoles and induce new odd multipoles. We show here the $m=0$  dipole (absent without GR corrections) and quadrupole (mainly Newtonian), compared to the monopole. 
+ 
+ For the equilateral shape (left panel), the dipole vanishes exactly in the Gaussian case  \cite{Clarkson:2018dwn,deWeerd:2019cae} and nonzero $\fnl$ does not changes this result. The effect of $\fnl$ on the quadrupole is very similar to the case of the monopole. 
+ 
+ For the flattened shape (middle panel), the dipole is the dominant part of the bispectrum for $0.002 \lesssim k_3/(h {\mathrm{Mpc}}^{-1})\lesssim 0.01$, and we see that $\fnl>0$ increases this effect further. The dipole $B_g^{1m}$ is purely relativistic: it vanishes in the Newtonian approximation  \cite{Clarkson:2018dwn,Maartens:2019yhx,Jolicoeur:2020eup}. 
+ 
+ Finally, in the squeezed case (right panel), the effect on the monopole of  $\fnl=10$ is consistent with Figure \ref{qmono}. The quadrupole has a similar behaviour, and dominates the dipole. It is interesting that the three multipoles are approximately equal at scales near $k= 0.002\,h$/Mpc. Once again, this value is sensitive to astrophysical parameters.
 %
-%
+%\SI{0.1}{\mega\parsec\tothe{-1}}
 %---------------------------------------------------------------------------
 %
 %
 \section{Conclusions}\label{sec4}
-Able to go 
-Alone all the way 
+Upcoming galaxy surveys  and 21cm intensity mapping surveys will deliver high-precision cosmological measurements and constraints, based on a combination of the power spectrum and bispectrum. This advance demands a commensurate advance in theoretical precision. Here we contribute to the development of theoretical precision by deriving for the first time the local relativistic corrections to the tree-level redshift-space bispectrum in the presence of local primordial non-Gaussianity (PNG).
+
+At first order in perturbations, there are no relativistic corrections to the comoving matter and galaxy density contrasts -- and therefore no correction to the galaxy clustering bias relation.  There are also no relativistic corrections to the velocity and metric potentials.  Consequently, there is no relativistic contribution to local PNG. The only relativistic correction is to the Newtonian projection effect, i.e. standard redshift-space distortions (RSD). 
+
+At second-order, relativistic corrections go beyond projection effects to alter the galaxy bias relation and local PNG in the galaxy bispectrum. In summary, there are: 
+\begin{itemize}
+\item
+relativistic projection corrections to the Newtonian RSD at first and second order;
+\item
+relativistic corrections to the Newtonian bias model in the comoving frame at second order;
+\item
+ second-order relativistic projection  corrections to the local PNG carried by Newtonian RSD -- from a coupling of first-order scale-dependent bias to first-order relativistic projection effects,  and from the linearly evolved local PNG in second-order velocity and metric potentials. 
+ \end{itemize}
+
+Our previous work \cite{Umeh:2016nuh,Jolicoeur:2017nyt, Jolicoeur:2017eyi, Jolicoeur:2018blf,Clarkson:2018dwn,Maartens:2019yhx,deWeerd:2019cae, Jolicoeur:2020eup} presented local (non-integrated) relativistic effects in the case of primordial Gaussianity and without the relativistic correction to galaxy bias. We have made corrections to these earlier results. In addition,  we have presented for the first time the galaxy bispectrum with relativistic corrections to galaxy clustering bias and new local PNG contributions that are encoded in relativistic projection effects.
+Our main results are given  in Fourier space in \eqref{e2.15}--\eqref{e2.35}, with further details in Appendices \ref{app_pnga} and \ref{app_pngb}.
+
+In Figures \ref{qmono} and \ref{rb2d}  we show examples of the squeezed monopole of the  reduced relativistic bispectrum for a Stage IV H$\alpha$ survey similar to Euclid, using physical models for the astrophysical parameters (clustering biases, evolution bias, magnification bias). These figures reveal various interesting relativistic features. In particular, they show  the bias in the estimate of $\fnl$ from using a Newtonian analysis. This bias is given by
+\begin{equation}
+\fnl^{\mathrm{Newt}} = \fnl + \Delta \fnl\,.
+\end{equation}
+For the Stage IV survey at $z=1$, the bias can be roughly estimated by eye as $\Delta \fnl\sim 5$, for the long mode above the equality scale. Although the precise level of bias is sensitive to astrophysical parameters and redshift, the point is that next-generation precision demands that relativistic corrections are included in the bispectrum.
+
+\bro{In common with nearly all work on the Fourier-space bispectrum with RSD and PNG, we implicitly make a flat-sky assumption, based on the fixed global direction $\bm n$.  
+As a consequence, wide-angle correlations are not included, so that the flat-sky analysis loses accuracy as $\theta$ increases, where $\theta$ is the maximum opening angle to 
+the three-point correlations at the given redshift. This leads to a systematic bias in the separation of observational effects from the PNG signal, and therefore in the best-fit value  of $\fnl$.
+ Including wide-angle effects  is a key target for future work. 
+Corrections to the global flat-sky analysis of  the Fourier bispectrum can be made by using a local or `moving' line of sight  \cite{Scoccimarro:2015bla,Sugiyama:2018yzo,Shirasaki:2020vkk}.
+However, corrections of this type are approximate and do not incorporate all the wide-angle effects. Ultimately, one needs to use the full-sky 3-point correlation function or the full-sky angular bispectrum (see e.g. \cite{Kehagias:2015tda, DiDio:2016gpd, DiDio:2018unb, Durrer:2020orn}) to properly include all wide-angle correlations. A major problem is that both of these alternatives are computationally more intensive. }
 %---------------------------------------------------------------------------

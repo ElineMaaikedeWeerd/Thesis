@@ -190,6 +190,11 @@ Di~Dio E.,  Perrier H.,  Durrer R.,  Marozzi G.,  Moradinezhad~Dizgah A.,
 Di~Dio E.,  Durrer R.,  Maartens R.,  Montanari F.,   Umeh O.,  2019, \mn@doi
   [JCAP] {10.1088/1475-7516/2019/04/053}, 04, 053
 
+\bibitem[\protect\citeauthoryear{Durrer, Jalilvand, Kothari, Maartens  \&
+  Montanari}{Durrer et~al.}{2020}]{Durrer:2020orn}
+Durrer R.,  Jalilvand M.,  Kothari R.,  Maartens R.,   Montanari F.,  2020,
+  \mn@doi [JCAP] {10.1088/1475-7516/2020/12/003}, 12, 003
+
 \bibitem[\protect\citeauthoryear{Fonseca, Camera, Santos  \& Maartens}{Fonseca
   et~al.}{2015}]{Fonseca:2015laa}
 Fonseca J.,  Camera S.,  Santos M.,   Maartens R.,  2015, \mn@doi [Astrophys.
@@ -204,6 +209,11 @@ Fonseca J.,  Maartens R.,   Santos M.~G.,  2017, \mn@doi [Mon. Not. Roy.
   et~al.}{2018}]{Fonseca:2018hsu}
 Fonseca J.,  Maartens R.,   Santos M.~G.,  2018, \mn@doi [Mon. Not. Roy.
   Astron. Soc.] {10.1093/mnras/sty1702}, 479, 3490
+
+\bibitem[\protect\citeauthoryear{Gagrani \& Samushia}{Gagrani \&
+  Samushia}{2017}]{Gagrani:2016rfy}
+Gagrani P.,  Samushia L.,  2017, \mn@doi [Mon. Not. Roy. Astron. Soc.]
+  {10.1093/mnras/stx135}, 467, 928
 
 \bibitem[\protect\citeauthoryear{Giannantonio \& Porciani}{Giannantonio \&
   Porciani}{2010}]{Giannantonio:2009}
@@ -359,6 +369,10 @@ Raccanelli A.,  Bertacca D.,  Jeong D.,  Neyrinck M.~C.,   Szalay A.~S.,  2018,
 Sarkar D.,  Majumdar S.,   Bharadwaj S.,  2019, \mn@doi [Mon. Not. Roy. Astron.
   Soc.] {10.1093/mnras/stz2799}, 490, 2880
 
+\bibitem[\protect\citeauthoryear{Scoccimarro}{Scoccimarro}{2015}]{Scoccimarro:2015bla}
+Scoccimarro R.,  2015, \mn@doi [Phys. Rev. D] {10.1103/PhysRevD.92.083532}, 92,
+  083532
+
 \bibitem[\protect\citeauthoryear{Scoccimarro, Couchman  \& Frieman}{Scoccimarro
   et~al.}{1999}]{Scoccimarro:1999ed}
 Scoccimarro R.,  Couchman H. M.~P.,   Frieman J.~A.,  1999, \mn@doi [The
@@ -379,8 +393,13 @@ Sefusatti E.,  Komatsu E.,  2007, \mn@doi [Phys. Rev. D]
 Sefusatti E.,  Crocce M.,  Pueblas S.,   Scoccimarro R.,  2006, \mn@doi [Phys.
   Rev. D] {10.1103/PhysRevD.74.023522}, 74, 023522
 
+\bibitem[\protect\citeauthoryear{Shirasaki, Sugiyama, Takahashi  \&
+  Kitaura}{Shirasaki et~al.}{2021}]{Shirasaki:2020vkk}
+Shirasaki M.,  Sugiyama N.~S.,  Takahashi R.,   Kitaura F.-S.,  2021, \mn@doi
+  [Phys. Rev. D] {10.1103/PhysRevD.103.023506}, 103, 023506
+
 \bibitem[\protect\citeauthoryear{Sugiyama, Saito, Beutler  \& Seo}{Sugiyama
-  et~al.}{2018}]{Sugiyama_2018}
+  et~al.}{2018}]{Sugiyama:2018yzo}
 Sugiyama N.~S.,  Saito S.,  Beutler F.,   Seo H.-J.,  2018, \mn@doi [Monthly
   Notices of the Royal Astronomical Society] {10.1093/mnras/sty3249}, 484,
   364–384
