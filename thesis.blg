@@ -9,6 +9,9 @@ A level-1 auxiliary file: tex/introbisp.aux
 A level-1 auxiliary file: tex/png_bisp.aux
 A level-1 auxiliary file: tex/dipole.aux
 A level-1 auxiliary file: tex/multipoles.aux
+A level-1 auxiliary file: tex/snr_euclid.aux
+A level-1 auxiliary file: tex/snr_ska.aux
+A level-1 auxiliary file: tex/fishers.aux
 A level-1 auxiliary file: tex/appendix.aux
 Database file #1: bib/thesis_bib.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -57,7 +60,7 @@ Warning--empty journal in Villumsen:1995ar
 while executing---line 1822 of file mnras.bst
 You've used 96 entries,
             2881 wiz_defined-function locations,
-            1488 strings with 27549 characters,
+            1491 strings with 27597 characters,
 and the built_in function-call counts, 49019 in all, are:
 = -- 4028
 > -- 3872

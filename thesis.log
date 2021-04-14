@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.10.22)  13 APR 2021 15:35
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.10.22)  14 APR 2021 11:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -584,7 +584,8 @@ LaTeX Info: Redefining \GenericError on input line 601.
 ) (./thesis.aux
 (./tex/abstract.aux) (./tex/acknowledgements.aux) (./tex/introgeneral.aux)
 (./tex/introbisp.aux) (./tex/png_bisp.aux) (./tex/dipole.aux)
-(./tex/multipoles.aux) (./tex/appendix.aux))
+(./tex/multipoles.aux) (./tex/snr_euclid.aux) (./tex/snr_ska.aux)
+(./tex/fishers.aux) (./tex/appendix.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 183.
@@ -821,21 +822,44 @@ Overfull \hbox (5.6455pt too wide) detected at line 253
  []
 
 [12] [13]
-Overfull \hbox (3.89293pt too wide) in paragraph at lines 304--307
+Overfull \hbox (3.89293pt too wide) in paragraph at lines 303--306
 \T1/lmr/m/it/12 Relativistic cor-rec-tions to [] are needed to en-force gauge-i
 ndependence
  []
 
-[14] [15]) [16]
+[14] [15] [16] [17]
+Overfull \hbox (6.06021pt too wide) detected at line 484
+[]
+ []
+
+[18]
+Overfull \hbox (82.68813pt too wide) detected at line 506
+[]
+ []
+
+
+Overfull \hbox (19.02782pt too wide) in paragraph at lines 517--518
+\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12 H[]\OML/cmm/m/it/12 =k[]\OT1/cmr/m/n/12 ) (\O
+ML/cmm/m/it/12 ^^N[]\OT1/cmr/m/n/12 )[]$ \T1/lmr/m/n/12 and dom-i-nate the GR c
+or-rec-tion terms, which scale as $\OT1/cmr/m/n/12 i(\OMS/cmsy/m/n/12 H[]\OML/c
+mm/m/it/12 =k[]\OT1/cmr/m/n/12 ) (\OML/cmm/m/it/12 ^^N[]\OT1/cmr/m/n/12 )[]$
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 525--526
+
+ []
+
+) [20]
 \openout2 = `tex/dipole.aux'.
 
  (./tex/dipole.tex
 chapter 4.
-[17
+[21
 
 
 
-] [18] [19]
+] [22] [23]
 Overfull \hbox (104.6805pt too wide) detected at line 92
 []
  []
@@ -845,7 +869,7 @@ Overfull \hbox (401.85654pt too wide) detected at line 106
 []
  []
 
-[20]
+[24]
 Overfull \hbox (133.9866pt too wide) detected at line 142
 [][] [] \OT1/cmr/m/n/12 d
 ([]\OML/cmm/m/it/12 ^^V[]\OT1/cmr/m/n/12 )[]([]\OML/cmm/m/it/12 ^^V[]\OT1/cmr/m
@@ -858,7 +882,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--145
 
  []
 
-[21]
+[25]
 Overfull \hbox (31.10748pt too wide) in paragraph at lines 177--181
 \T1/lmr/m/n/12 the squeezed limit of the cyclic sum [], the terms $\OMS/cmsy/m/
 n/12 K[]\OT1/cmr/m/n/12 (\OML/cmm/b/it/12 k[]\OML/cmm/m/it/12 ; \OML/cmm/b/it/1
@@ -867,21 +891,21 @@ nd $\OMS/cmsy/m/n/12 K[]\OT1/cmr/m/n/12 (\OML/cmm/b/it/12 k[]\OML/cmm/m/it/12 ;
  \OML/cmm/b/it/12 k[]\OML/cmm/m/it/12 ; \OML/cmm/b/it/12 k[]\OT1/cmr/m/n/12 )$
  []
 
-[22]
+[26]
 File: fig/figuresv2-02.png Graphic file (type bmp)
 <fig/figuresv2-02.png>
 File: fig/figuresv2-01.png Graphic file (type bmp)
 <fig/figuresv2-01.png>
- [23] [24] [25]) [26]
+ [27] [28] [29]) [30]
 \openout2 = `tex/multipoles.aux'.
 
  (./tex/multipoles.tex
 chapter 5.
-[27
+[31
 
 
 
-] [28] [29]
+] [32] [33]
 Overfull \hbox (9.34445pt too wide) detected at line 34
 [][]\OML/cmm/m/it/12 B[]\OT1/cmr/m/n/12 (\OML/cmm/b/it/12 k[]\OML/cmm/m/it/12 ;
  \OML/cmm/b/it/12 k[]\OML/cmm/m/it/12 ; \OML/cmm/b/it/12 k[]\OT1/cmr/m/n/12 ) =
@@ -893,7 +917,7 @@ t/12 k[]\OML/cmm/m/it/12 ; \OML/cmm/b/it/12 k[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/1
 /cmr/m/n/12 (\OML/cmm/b/it/12 k[]\OT1/cmr/m/n/12 )[]\OML/cmm/m/it/12 ;
  []
 
-[30] [31]
+[34] [35]
 Overfull \hbox (80.44954pt too wide) detected at line 92
 []
  []
@@ -909,15 +933,15 @@ Overfull \hbox (23.1548pt too wide) detected at line 113
 []
  []
 
-[32]
+[36]
 File: fig/fig.pdf Graphic file (type pdf)
 <use fig/fig.pdf>
- [33] [34] [35]
+ [37] [38] [39]
 Overfull \hbox (69.51956pt too wide) detected at line 237
 []
  []
 
-[36]
+[40]
 Overfull \hbox (23.3996pt too wide) detected at line 269
 [][]\OMS/cmsy/m/n/12 K[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 K[]\OT1/cmr/m/n/12 
 (\OML/cmm/m/it/12 k[]; ^^V[]\OT1/cmr/m/n/12 )\OMS/cmsy/m/n/12 K[]\OT1/cmr/m/n/1
@@ -928,7 +952,7 @@ ML/cmm/m/it/12 ^^V[]\OT1/cmr/m/n/12 )[]([]\OML/cmm/m/it/12 ^^V[]\OT1/cmr/m/n/12
 /m/n/12 ) \OML/cmm/m/it/12 ;
  []
 
-[37]
+[41]
 Overfull \hbox (42.67815pt too wide) in paragraph at lines 278--279
 []\T1/lmr/m/n/12 To present $\OMS/cmsy/m/n/12 K[]\OT1/cmr/m/n/12 (\OML/cmm/m/it
 /12 k[]; k[]; k[]\OT1/cmr/m/n/12 )$ \T1/lmr/m/n/12 we will show pow-ers of $\OM
@@ -937,25 +961,25 @@ S/cmsy/m/n/12 K[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 k[]; k[]; k[]\OT1/cmr/m/n/12
  ) =
  []
 
-[38]
+[42]
 Overfull \hbox (37.66858pt too wide) detected at line 371
 []
  []
 
-[39]
+[43]
 Overfull \hbox (228.3925pt too wide) detected at line 437
 []
  []
 
-[40]
+[44]
 File: fig/overview.pdf Graphic file (type pdf)
 <use fig/overview.pdf>
- [41]
+ [45]
 Overfull \hbox (215.4458pt too wide) detected at line 484
 [][] [] \OT1/cmr/m/n/12 + []
  []
 
-[42] [43] [44] [45] [46] [47]
+[46] [47] [48] [49] [50] [51]
 File: fig/totP_Euclid_sq2.pdf Graphic file (type pdf)
 <use fig/totP_Euclid_sq2.pdf>
 File: fig/totP_IM_sq2.pdf Graphic file (type pdf)
@@ -968,27 +992,27 @@ File: fig/totP_euclid_equi2.pdf Graphic file (type pdf)
 <use fig/totP_euclid_equi2.pdf>
 File: fig/totP_IM_equi2.pdf Graphic file (type pdf)
 <use fig/totP_IM_equi2.pdf>
- [48
+ [52
 
-] [49]
+] [53]
 File: fig/triangles_all_k001_Euclid.png Graphic file (type bmp)
 <fig/triangles_all_k001_Euclid.png>
 File: fig/triangles_all_k01_Euclid.png Graphic file (type bmp)
 <fig/triangles_all_k01_Euclid.png>
- [50]
+ [54]
 File: fig/triangles_all_k001_IM.png Graphic file (type bmp)
 <fig/triangles_all_k001_IM.png>
 File: fig/triangles_all_k01_IM.png Graphic file (type bmp)
 <fig/triangles_all_k01_IM.png>
- [51]
+ [55]
 File: fig/redB_k01.pdf Graphic file (type pdf)
 <use fig/redB_k01.pdf>
 File: fig/redB_k001.pdf Graphic file (type pdf)
 <use fig/redB_k001.pdf>
- [52]
+ [56]
 File: fig/fnofz.pdf Graphic file (type pdf)
 <use fig/fnofz.pdf>
- [53
+ [57
 
 
 
@@ -999,7 +1023,34 @@ LaTeX Font Info:    Trying to load font information for T1+lmss on input line 6
 
 (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [54]) [55]
+) [58]) [59]
+\openout2 = `tex/snr_euclid.aux'.
+
+ (./tex/snr_euclid.tex
+chapter 6.
+) [60
+
+
+
+]
+\openout2 = `tex/snr_ska.aux'.
+
+ (./tex/snr_ska.tex
+chapter 7.
+) [61
+
+
+
+]
+\openout2 = `tex/fishers.aux'.
+
+ (./tex/fishers.tex
+chapter 8.
+) [62
+
+
+
+]
 \openout2 = `tex/appendix.aux'.
 
  (./tex/appendix.tex
@@ -1009,13 +1060,13 @@ Overfull \hbox (65.27815pt too wide) detected at line 58
 []
  []
 
-[56
+[63
 
 
 
-] [57]) [58]
+] [64]) [65]
 chapter B.
-(./tex/app_sumderiv.tex [59
+(./tex/app_sumderiv.tex [66
 
 ]
 Overfull \hbox (74.2801pt too wide) detected at line 32
@@ -1036,7 +1087,7 @@ Overfull \hbox (154.44664pt too wide) detected at line 52
 []
  []
 
-[60]
+[67]
 Overfull \hbox (144.04547pt too wide) detected at line 75
 []
  []
@@ -1046,7 +1097,7 @@ Overfull \hbox (53.8083pt too wide) detected at line 81
 []
  []
 
-[61]
+[68]
 Overfull \hbox (144.34372pt too wide) detected at line 86
 []
  []
@@ -1056,98 +1107,99 @@ Overfull \hbox (117.42311pt too wide) detected at line 95
 []
  []
 
-) [62]
+) [69]
 chapter C.
 (./tex/app_kabpres.tex
 Overfull \hbox (24.22433pt too wide) detected at line 38
 []
  []
 
-[63
+[70
 
-] [64]
+] [71]
 Overfull \hbox (106.37213pt too wide) detected at line 77
 []
  []
 
-[65]
+[72]
 Overfull \hbox (104.08089pt too wide) detected at line 109
 []
  []
 
-[66]
+[73]
 Overfull \hbox (141.72049pt too wide) detected at line 132
 []
  []
 
-[67] [68]) [69]
+[74] [75]) [76]
 chapter D.
 (./tex/app_sqlim.tex
 Overfull \hbox (108.90007pt too wide) detected at line 33
 []
  []
 
-)) [70
+)) [77
 
 ] (./thesis.bbl
 chapter without number
 Missing character: There is no – in font ec-lmr12!
-[71
+[78
 
 
-] [72]
+] [79]
 Missing character: There is no – in font ec-lmr12!
 Missing character: There is no – in font ec-lmr12!
- [73]
+ [80]
 Missing character: There is no – in font ec-lmr12!
 Missing character: There is no – in font ec-lmr12!
 Missing character: There is no – in font ec-lmr12!
 Missing character: There is no – in font ec-lmr12!
- [74]) [75] (./thesis.lof
+ [81]) [82] (./thesis.lof
 Overfull \hbox (1.25926pt too wide) in paragraph at lines 11--11
  [][] [][]\T1/lmr/m/n/12 Normalised to-tal power for squeezed con-fig-u-ra-tion
  for Euclid-like (left) 
  []
 
-[76
+[83
 
 ])
 \tf@lof=\write5
 \openout5 = `thesis.lof'.
 
- [77] (./thesis.lot)
+ [84] (./thesis.lot)
 \tf@lot=\write6
 \openout6 = `thesis.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 253.
- [78
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 259.
+ [85
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 253.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 259.
  (./thesis.aux (./tex/abstract.aux)
 (./tex/acknowledgements.aux) (./tex/introgeneral.aux) (./tex/introbisp.aux)
 (./tex/png_bisp.aux) (./tex/dipole.aux) (./tex/multipoles.aux)
+(./tex/snr_euclid.aux) (./tex/snr_ska.aux) (./tex/fishers.aux)
 (./tex/appendix.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 253.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 253.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 259.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 259.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 253.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 259.
  )
 (\end occurred inside a group at level 4)
 
 ### simple group (level 4) entered at line 459 ({)
-### simple group (level 3) entered at line 339 ({)
+### simple group (level 3) entered at line 338 ({)
 ### simple group (level 2) entered at line 288 ({)
 ### simple group (level 1) entered at line 208 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 19338 strings out of 479819
- 346148 string characters out of 5895845
- 735771 words of memory out of 5000000
- 36105 multiletter control sequences out of 15000+600000
+ 19393 strings out of 479819
+ 346920 string characters out of 5895845
+ 737351 words of memory out of 5000000
+ 36139 multiletter control sequences out of 15000+600000
  606717 words of font info for 122 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 52i,15n,76p,10102b,1422s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 52i,15n,76p,10102b,1428s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (84 pages, 445760 bytes).
+Output written on thesis.xdv (91 pages, 470360 bytes).

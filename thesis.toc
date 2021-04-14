@@ -9,28 +9,31 @@
 \contentsline {subsection}{\numberline {3.2.2}Second-order bias: {Newtonian} approximation}{11}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}Second-order bias: {relativistic corrections}}{14}{subsection.3.2.3}%
 \contentsline {subsection}{\numberline {3.2.4}Second-order metric and velocity potentials}{16}{subsection.3.2.4}%
-\contentsline {section}{\numberline {3.3}Local primordial non-Gaussianity in the relativistic bispectrum}{16}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Matter bispectrum}{16}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Observed number density}{16}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Galaxy bispectrum}{16}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Numerical examples}{16}{subsection.3.3.4}%
-\contentsline {section}{\numberline {3.4}Conclusions}{16}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Dipole of the Galaxy Bispectrum}{17}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Relativistic contributions to the galaxy bispectrum}{18}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Extracting the dipole}{21}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Squeezed, equilateral and flattened limits}{22}{section.4.3}%
-\contentsline {section}{\numberline {4.4}The dipole in intensity mapping and galaxy surveys}{25}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Conclusions}{25}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Multipoles of the Bispectrum}{27}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Introduction}{27}{section.5.1}%
-\contentsline {section}{\numberline {5.2}The relativistic bispectrum}{29}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Extracting the multipoles}{33}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Analysis}{41}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Conclusion}{54}{section.5.5}%
-\contentsline {chapter}{\numberline {A}Beta coefficients}{56}{appendix.a.A}%
-\contentsline {chapter}{\numberline {B}Derivation of sum formula}{59}{appendix.a.B}%
-\contentsline {chapter}{\numberline {C}Presentation of kernel coefficients}{63}{appendix.a.C}%
-\contentsline {chapter}{\numberline {D}Squeezed limit of multipoles}{70}{appendix.a.D}%
-\contentsline {chapter}{\nonumberline Bibliography}{71}{chapter*.21}%
-\contentsline {chapter}{\nonumberline List of Figures}{76}{chapter*.22}%
-\contentsline {chapter}{\nonumberline List of Tables}{78}{chapter*.23}%
+\contentsline {section}{\numberline {3.3}Local primordial non-Gaussianity in the relativistic bispectrum}{17}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Matter bispectrum}{17}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Observed number density}{18}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Galaxy bispectrum}{20}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Numerical examples}{20}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}Conclusions}{20}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Dipole of the Galaxy Bispectrum}{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Relativistic contributions to the galaxy bispectrum}{22}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Extracting the dipole}{25}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Squeezed, equilateral and flattened limits}{26}{section.4.3}%
+\contentsline {section}{\numberline {4.4}The dipole in intensity mapping and galaxy surveys}{29}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Conclusions}{29}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Multipoles of the Bispectrum}{31}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introduction}{31}{section.5.1}%
+\contentsline {section}{\numberline {5.2}The relativistic bispectrum}{33}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Extracting the multipoles}{37}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Analysis}{45}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Conclusion}{58}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Detectability in Spectroscopic Surveys}{60}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Detectability in IM Surveys}{61}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Fisher Forecasts}{62}{chapter.8}%
+\contentsline {chapter}{\numberline {A}Beta coefficients}{63}{appendix.a.A}%
+\contentsline {chapter}{\numberline {B}Derivation of sum formula}{66}{appendix.a.B}%
+\contentsline {chapter}{\numberline {C}Presentation of kernel coefficients}{70}{appendix.a.C}%
+\contentsline {chapter}{\numberline {D}Squeezed limit of multipoles}{77}{appendix.a.D}%
+\contentsline {chapter}{\nonumberline Bibliography}{78}{chapter*.21}%
+\contentsline {chapter}{\nonumberline List of Figures}{83}{chapter*.22}%
+\contentsline {chapter}{\nonumberline List of Tables}{85}{chapter*.23}%

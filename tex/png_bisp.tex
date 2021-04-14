@@ -285,8 +285,7 @@ Note that the expressions for the bias coefficients in~\eqref{b11}--\eqref{b02},
 %
 \subsection{Second-order bias: {relativistic corrections}}
 %
-{The relativistic second-order galaxy bias model has been derived in
-\cite{Umeh:2019qyd} (Gaussian case) and \cite{Umeh:2019jqg} (with local PNG). {The key feature to bear in mind is the following:
+{The relativistic second-order galaxy bias model has been derived in~\cite{Umeh:2019qyd} (Gaussian case) and~\cite{Umeh:2019jqg} (with local PNG). {The key feature to bear in mind is the following:
  \begin{quote} 
 {\em GR corrections in the galaxy number density contrast $\delta^{\tw}_{g{\mathrm{T}}}$ do not change the galaxy bias terms in \eqref{dg2bn}, which contain all the local PNG effects.}
 \end{quote}
@@ -359,7 +358,48 @@ For \eqref{dg2bp} we followed \cite{Bertacca:2014wga,  Jolicoeur:2017nyt,deWeerd
 which follows from the continuity equation, $\delta_{\mathrm{T}}'=-\nabla^2 V$, and the Poisson equation.}  We also included the evolution bias terms that are omitted in \cite{Umeh:2019jqg}.
 %
 \subsection{{Second-order metric and velocity potentials}} \label{ss-mvp}
-bob
+%
+{At second order,  the number density contrast has a GR correction in addition to a PNG correction, as shown in~\eqref{dg2b1}.
+ Unlike the  first-order case, the metric and velocity potentials at second order also have nonzero GR and PNG corrections:
+\begin{align}
+\Psi^{\tw} &= \Psi^{\tw}_{{\mathrm{N}}}+\blue{\Psi^{\tw}_{{\mathrm{GR}}}}+ \Psi^{\tw}_{{\mathrm{nG}}}\,, \\
+\Phi^{\tw} &= \Psi^{\tw}_{{\mathrm{N}}}+\blue{\Phi^{\tw}_{{\mathrm{GR}}}}+ \Psi^{\tw}_{{\mathrm{nG}}}\,, \\
+V^{\tw} &= V^{\tw}_{{\mathrm{N}}}+\blue{V^{\tw}_{{\mathrm{GR}}}}+ V^{\tw}_{{\mathrm{nG}}}\,,
+\end{align}
+where we note that 
+\begin{equation} \label{potnng}
+\Phi^{\tw}_{{\mathrm{N}}}=\Psi^{\tw}_{{\mathrm{N}}} \quad \mbox{and} \quad \Phi^{\tw}_{{\mathrm{nG}}}=\Psi^{\tw}_{{\mathrm{nG}}}\,.
+\end{equation}
+ The GR corrections are derived in~\citep{Villa:2015ppa} (which only considers modes $k<k_{\mathrm{eq}}$). Here we derive the PNG contributions, which include modes $k > k_{\mathrm{eq}}$.
+
+The PNG corrections to metric and velocity potentials are linearly evolved, i.e., their nonlinearity is purely primordial, the same as in the case of the density contrast. They follow from  constraint and energy conservation equations applied to the linearly evolved PNG part of the matter density contrast, $\delta^{\tw}_{{\mathrm{T,{nG}}}}$. As we argued in deriving \eqref{alpha2}, $\delta^{\tw}_{{\mathrm{T,{nG}}}}$ obeys the linear Newtonian Poisson equation. The same applies to the linearly evolved $ \Psi^{\tw}_{{\mathrm{nG}}}$. From the Newtonian Poisson equation we find that
+\begin{align}
+ \Psi^{\tw}_{{\mathrm{nG}}}(a,\k) &= - \frac{3\Omega_m(a) \cH(a)^2}{2 k^2}\, \delta^{\tw}_{{\mathrm{T,{nG}}}}(a,\k) 
+%= -3\fnl \,\Omega_m  \,{{\cal M}(k_3)\cH^2 \over k_3^2}\,\big(\varphi_{\rm p} * \varphi_{\rm p}\big)(\k_3)
+ \notag\\ \label{ps2ng}
+ &= - \frac{10}{3}\fnl\,\bigg[1 + \frac{2f(a)}{3\Omega_m(a)} \bigg]^{-1} \, T(k)\,\big(\varphi_{\mathrm{p}} * \varphi_{\mathrm{p}}\big)(\k)\,,
+\end{align}
+where we used~\eqref{alpha} and~\eqref{alpha2}.
+
+{By~\eqref{ps2ng}, $\Psi^{\tw}_{{\mathrm{nG}}}$ grows as $(1+2f/3\Omega_m)^{-1}$, and thus
+\begin{equation} \label{p2ngp}
+\Psi^{\tw \prime}_{{\mathrm{nG}}} = - \frac{2f}{\big(3\Omega_m+2f \big)} \bigg( \frac{f'}{f}+\cH + 2 \frac{\cH'}{\cH } \bigg)
+\, \Psi^{\tw}_{{\mathrm{nG}}}\,.
+\end{equation}}
+
+The first-order linear equation~\eqref{vpsi}, based on energy conservation and the Poisson equation, extends to second order for the linearly evolved PNG parts of the velocity and the potential. This determines the PNG part of the velocity:
+\begin{equation} \label{v2ng}
+V^{\tw}_{{\mathrm{nG}}} = - \frac{2f}{3\Omega_m\cH }\,\Psi^{\tw}_{{\mathrm{nG}}}\,.
+\end{equation}
+The linearly evolved PNG part of the second-order RSD term then follows as
+\begin{equation} \label{k2ng}
+\partial_\|^2V^{\tw}_{{\mathrm{nG}}}(a,\k) = -2\fnl\,\cH(a) f(a)\mu^2\, {\cal M}(a,k) \,\big(\varphi_{\mathrm{p}} * \varphi_{\mathrm{p}} \big)(\k) \,,
+\end{equation}
+where $\partial_{\parallel}=\bm{n}\cdot\bm{\nabla}$ and  $\mu=\hat{\k}\cdot\n$.
+Finally, the first-order linear relation $\Phi=\Psi$ extends to second order for the linearly evolved PNG part of $\Phi^{\tw}$, giving the second equality of~\eqref{potnng}.}
+%\be \label{ph2ng}
+%\Phi^{\tw}_{{\rm nG}} = \Psi^{\tw}_{{\rm nG}}\,.
+%\ee
 %
 %--------------------------------------------------------------------------
 %
@@ -367,12 +407,127 @@ bob
 \section{Local primordial non-Gaussianity in the relativistic bispectrum}\label{sec3}
 \vspace*{0.5cm}
 \subsection{Matter bispectrum}
-Love comes quietly 
+%
+{The primordial contribution of matter, independent of halo formation,  is given by the Newtonian approximation \eqref{alpha3},  corrected by the GR contribution in \eqref{dtgr2}:
+\begin{equation}
+\delta^{\tw}_{{\mathrm{T}}} = \delta^{\tw}_{{\mathrm{T,N}}} + {\delta^{\tw}_{{\mathrm{T,nG}}}} + \blue{ \frac{20}{3}\, \delta_{{\mathrm{T}}}\,{\hat\varphi_{{\mathrm{in}}}} - \frac{5}{3}\, \xi^i\,\partial_i\,{\hat\varphi_{{\mathrm{in}}}}}\,. \label{dm2b}
+\end{equation}
+The kernels in Fourier space corresponding to the GR terms in~\eqref{dm2b} are:
+\begin{equation}
+\delta_{{\mathrm{T}}}\,{\hat\varphi_{\mathrm{in}}}~\rightarrow~- \frac{\big(k_1^2+ k_2^2\big)}{2 k_1^2 k_2^2}\,,\quad
+ \xi^i\,\partial_i\,{\hat\varphi_{\mathrm{in}}} ~\rightarrow~ - \frac{{\k}_1\cdot {\k}_2}{k_1^2 k_2^2} \,.
+\end{equation}
+Then the  tree-level matter bispectrum  $\big\langle \delta_{\mathrm T}\, \delta_{\mathrm T}\,\delta^{\tw}_{\mathrm{T}} \big \rangle$ at equal times is  given  by 
+\begin{align}
+B_m(\bm{k}_{1},\bm{k}_{2},\bm{k}_{3}) &= \bigg\{ F_{2}(\bm{k}_{1},\bm{k}_{2})
++{2\fnl} \frac{{\cal M}(k_3)}{{\cal M}(k_1) {\cal M}(k_2)}
+\notag\\
+&-\blue{\big(3\Omega_m+2f\big) \cH^2 \, \frac{\big[2\big(k_1^2+ k_2^2\big) - {\k}_1\cdot {\k}_2 \big]}{2k_1^2 k_2^2}} \bigg\}
+P(k_{1})P(k_{2}) + \mbox{2 cp}\,, \label{e1.11} 
+\end{align} 
+where  we  omit the time dependence for brevity, and `cp' denotes cyclic permutation. 
+Here
+$P\equiv P_{\mathrm{T}}$ is the linear matter power spectrum and}
+\begin{equation}
+\frac{{\cal M}(k_3)}{{\cal M}(k_1) {\cal M}(k_2)} = \frac{3}{10} \big(3\Omega_m+2f \big)
+\cH^2\, \frac{T(k_3)}{T(k_1) T(k_2)}\, \frac{k_3^2}{k_1^2 k_2^2}\,.
+\end{equation}
+%Here and below we consider the equal-time correlations and omit the time dependence for brevity. 
+The standard Newtonian result (see e.g.~\cite{Tellarini:2015faa}) is modified in GR by the magenta terms in~\eqref{e1.11}. 
+For Gaussian initial conditions, the GR correction is suppressed by $\cH^2/k^2$ relative to the Newtonian approximation, but {\em in the non-Gaussian case, the GR correction is of the same order of magnitude as the local PNG term.}
+
+%
+%{A further Gaussian GR correction to the matter bispectrum arises from the effects of radiation on sub-equality modes \cite{Tram:2016cpy}. Radiation changes the initial conditions deep in the matter era and its interaction with baryons imprints a BAO signal in the dark matter bispectrum. This correction can be determined numerically using a second-order Einstein-Boltzmann code. However, an analytical approximation is derived in the squeezed limit in \cite{Tram:2016cpy}, and shown to be accurate also for non-squeezed configurations. This analytical formula leads to an additional contribution with kernel
+%\be
+%-\big(3\Omega_m +2f\big){\cH^2\over k_3^2}\Big( 1+ {\cH^2\over k_3^2}\Big)\Big[1+ {\partial \ln \delta_{\rm T}(k_3)\over \partial \ln k_3}\Big]\, { \big(k_1^2-k_2^2\big)^2 \over 2k_1^2k_2^2}.
+%\ee
+%We do not include this correction since it is negligible except when the long mode is super-Hubble today.}
+ 
+% {Beyond tree-level, a relativistic treatment of the matter bispectrum is given in \cite{Castiblanco:2018qsd}. A possible 1-loop extension for the relativistic galaxy bispectrum in the Gaussian limit is discussed in  \cite{Calles:2019prs}.}
 %
 \subsection{{Observed number density}}\label{ss-ond}
-Finally, drops 
-about me, on me, 
-in the old ways.
+%
+The observed number density contrast is $\Delta_{g}+ \Delta_{g}^{(2)}/2$, which modifies the source  quantity $\delta_{g}+ \delta_{g}^{(2)}/2$ by RSD and other redshift space effects. It  can be split into {Newtonian, relativistic and non-Gaussian parts as follows. 
+\begin{itemize}
+\item
+The {\bfseries first order} parts are:
+\begin{align}
+ \Delta_{g{\mathrm{N}}} &= b_{10}\delta_{{\mathrm{T,N}}} - \frac{1}{\HH}  \partial_{\|}^2 V\,, \label{d1n} \\ 
+ \Delta_{g\mathrm{nG}} &= b_{01} \varphi_{\mathrm{p}}\,,
+ \label{eq:linearNewtonian}
+\\
+\blue{\Delta_{g{\mathrm{GR}}}} &\blue{=} \blue{\Big[ b_e   - 2 \mathcal{Q}  + \frac{2\left( \mathcal{Q}-1 \right)}{\chi \HH} - \frac{\HH'}{\HH^2} \Big]\big( \partial_{\|} V-  \Psi\big)}
+\notag\\
+& \blue{+\,(2 \mathcal{Q} -1)  \Psi   + \frac{1}{\HH} \Psi' + (3- b_e )\HH V}\,.
+\,\label{eq:linearGR}
+\end{align}
+Recall that $\delta_{\mathrm{T}}$, $V$ and $\Psi$ have no GR and no PNG corrections, by \eqref{dgro1} and \eqref{pvo1}.
+
+\item
+The {\bfseries second-order Newtonian} part of the observed number density contrast is formed from the density contrast and RSD terms and their couplings:
+\begin{align} 
+\Delta^{{{({2})}}}_{g{\mathrm{N}}}
+  &= \delta_{g\mathrm{T,N}}^{{{({2})}}} - \frac{1}{\mathcal{H}}\partial_{\parallel}^{2}V^{{{({2})}}}_{\mathrm{N}}
+  \notag\\
+& - 2\frac{b_{10}}{\mathcal{H}} \bigg[\delta_{\mathrm{T}}\,\partial_{\parallel}^{2}V + \partial_{\parallel}V\,\partial_{\parallel}\delta_{\mathrm{T}}\bigg]
+  + \frac{2}{\mathcal{H}^{2}}\bigg[\big(\partial_{\parallel}^{2}V\big)^{2} + \partial_{\parallel}V\,\partial_{\parallel}^{3}V\bigg]. \label{eq:SecondorderNewtonian}
+ \end{align}
+ 
+\item
+  The {\bfseries second-order relativistic} part is  \cite{Jolicoeur:2017nyt,Jolicoeur:2017eyi}:\blue{
+\begin{align}
+\Delta_{g\mathrm{GR}}^{(2)} &= \delta^{\tw}_{g{\mathrm{T,GR}}} 
+- \frac{1}{\mathcal{H}}\partial_{\parallel}^{2}V_{\mathrm{GR}}^{(2)}+ \bigg[b_{e} - 2\mathcal{Q} +\frac{2(\mathcal{Q} -1)}{\chi\mathcal{H}}- \frac{\mathcal{H}'}{\mathcal{H}^{2}} \bigg]\left[\partial_{\parallel}V^{(2)}_{\mathrm{N+GR}} -\Phi^{(2)}_{\mathrm{N+GR}} \right] \notag \\
+& +2(\mathcal{Q}-1)\Psi^{(2)}_{\mathrm{N+GR}}  +\Phi^{(2)}_{\mathrm{N+GR}} + \frac{1}{\mathcal{H}}\Psi^{(2)\prime}_{\mathrm{N+GR}} +(3-b_e){\cal H}V^{\tw}_{\mathrm{N+GR}} \nonumber \\
+\label{odg2}
+& +\mbox{very many terms quadratic in first-order  quantities,}
+\end{align}}
+where 
+\begin{equation}
+V_{\mathrm{N+GR}}^{(2)}\equiv V_{\mathrm{N}}^{(2)}+\blue{V_{\mathrm{GR}}^{(2)}}\,, 
+\end{equation}
+and similarly for the metric potentials.
+
+The Newtonian parts of the metric potentials $\Psi^{\tw}, \Phi^{\tw}$ appear in the GR part of $\Delta_{g}^{(2)}$ because there is {\em no Newtonian projection effect involving these potentials}. For the velocity potential, the Newtonian part $V^{(2)}_{\mathrm{N}}$ is present only in the RSD term in \eqref{eq:SecondorderNewtonian}; the remaining velocity terms occur {\em only in the GR part} of $\Delta_{g}^{(2)}$ and therefore   $V^{(2)}_{\mathrm{N}}$ is included in the GR terms.
+
+The  quadratic terms in \eqref{odg2} are given in full by \cite{Jolicoeur:2017nyt}. For convenience,  Appendix REFERENCE APPENDIX presents all of the terms in  \eqref{odg2}, correcting some errors in \cite{Jolicoeur:2017nyt}. 
+
+\item
+ The {\bfseries second-order local PNG} part is 
+ \begin{align}
+\Delta_{g\mathrm{nG}}^{(2)} &= \delta^{\tw}_{g{\mathrm{T,nG}}} 
+- \frac{1}{\mathcal{H}}\partial_{\parallel}^{2}V_{\mathrm{nG}}^{(2)}\notag \\
+& + \blue{\bigg[b_{e} - 2\mathcal{Q} +\frac{2(\mathcal{Q}-1)}{\chi\mathcal{H}}- \frac{\mathcal{H}'}{\mathcal{H}^{2}} \bigg]\!\!\left[\partial_{\parallel}V^{(2)}_{\mathrm{nG}} -\Psi^{(2)}_{\mathrm{nG}} \right]
+ +(2\mathcal{Q}-1)\Psi^{(2)}_{\mathrm{nG}} + \frac{1}{\mathcal{H}}\Psi^{(2)\prime}_{\mathrm{nG}} +(3-b_e){\cal H}V^{\tw}_{\mathrm{nG}}}
+ \nonumber \\
+\label{ngdg2}
+&- 2\frac{b_{01}}{\mathcal{H}}\bigg(\varphi_{\mathrm{p}}\,\partial_{\parallel}^{2}V + \partial_{\parallel}V\,\partial_{\parallel}\varphi_{\mathrm{p}}\bigg) \notag\\
+& + \blue{b_{01} \Big(c_1 \Psi \varphi_{\mathrm{p}} + c_2 V \varphi_{\mathrm{p}}+c_3 \varphi_{\mathrm{p}} \partial_{\parallel}V + c_4 \Psi \partial_{\parallel}\varphi_{\mathrm{p}} \Big)}\,.
+\end{align}
+In this expression,  lines 1 and 2 contain the linearly evolved second-order terms  whose nonlinearity is purely primordial. Lines 3 and 4 contain the quadratic coupling terms. 
+
+Line 1 is the Newtonian density + RSD  part, given by \eqref{dg2bn} and  \eqref{k2ng}. 
+
+Line 2 arises from {\em GR projection terms that are absent in the Newtonian approximation:} these terms are given by \eqref{potnng}--\eqref{k2ng}. 
+
+Line 3 arises from the first quadratic RSD term  in line 2 of \eqref{eq:SecondorderNewtonian}, given by the coupling of $\delta_{\mathrm{T,nG}}$ to velocity gradients.
+
+Line 4 arises from the {\em coupling of $\delta_{\mathrm{T,nG}}$  to first-order GR projection terms.}  The  coefficients $c_I(a)$ are explicitly given below and in Appendix REFERENCE APPENDIX.
+
+{Apart from the $b_{02}$ term in $\delta^{\tw}_{g{\mathrm{T,nG}}}$, the Newtonian terms in \eqref{ngdg2} scale as $(\cH^2/k^2)\,(\delta_{\mathrm{T}})^2$  and dominate the  GR correction terms, which scale as ${\mathrm{i}}(\cH^3/k^3)\,(\delta_{\mathrm{T}})^2$ or $(\cH^4/k^4)\,(\delta_{\mathrm{T}})^2$.}
+
+%\newpage
+{In summary  the local PNG part at second order has the following origins:
+\begin{itemize}
+\item[\bfseries *] the primordial matter density contrast;
+\item[\bfseries *]  the scale-dependent bias; 
+\item[\bfseries *]  the linearly evolved second-order projection effects in velocity and metric potentials -- from RSD and from GR corrections;
+\item[\bfseries *]  the coupling of first-order scale-dependent bias with first-order projection effects -- from RSD and from GR corrections. \\
+
+\end{itemize} }
+
+\end{itemize}
+}
 %
 \subsection{Galaxy bispectrum}
 What did I know
