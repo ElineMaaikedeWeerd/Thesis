@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.10.22)  14 APR 2021 21:02
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.10.22)  15 APR 2021 16:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -265,15 +265,8 @@ Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 209.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
-2.
-
-(/usr/share/texmf/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-))
-(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2020-02-14 L3 programming layer (loader) 
 
@@ -284,20 +277,44 @@ File: l3backend-xdvipdfmx.def 2020-02-03 L3 backend support: xdvipdfmx
 \g__pdf_backend_object_int=\count190
 \g__pdf_backend_annotation_int=\count191
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2020-02-14 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count192
 \g__xparse_grabber_int=\count193
 \l__xparse_m_args_int=\count194
 \l__xparse_v_nesting_int=\count195
 )
+Package: fontspec 2020/02/03 v2.7h Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2020/02/03 v2.7h Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count196
+\l__fontspec_language_int=\count197
+\l__fontspec_strnum_int=\count198
+\l__fontspec_tmp_int=\count199
+\l__fontspec_tmpa_int=\count266
+\l__fontspec_tmpb_int=\count267
+\l__fontspec_tmpc_int=\count268
+\l__fontspec_em_int=\count269
+\l__fontspec_emdef_int=\count270
+\l__fontspec_strong_int=\count271
+\l__fontspec_strongdef_int=\count272
+\l__fontspec_tmpa_dim=\dimen154
+\l__fontspec_tmpb_dim=\dimen155
+\l__fontspec_tmpc_dim=\dimen156
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2020/01/15 v2.7u A comprehensive (SI) units package
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen154
+\col@sep=\dimen157
 \ar@mcellbox=\box50
-\extrarowheight=\dimen155
+\extrarowheight=\dimen158
 \NC@list=\toks21
 \extratabsurround=\skip69
 \backup@length=\skip70
@@ -307,39 +324,39 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 Package: l3keys2e 2020-02-14 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box52
-\l__siunitx_tmp_dim=\dimen156
-\l__siunitx_tmp_int=\count196
-\l__siunitx_number_mantissa_length_int=\count197
-\l__siunitx_number_uncert_length_int=\count198
-\l__siunitx_round_int=\count199
-\l__siunitx_process_decimal_int=\count266
-\l__siunitx_process_uncertainty_int=\count267
-\l__siunitx_process_fixed_int=\count268
-\l__siunitx_process_integer_min_int=\count269
-\l__siunitx_process_precision_int=\count270
-\l__siunitx_group_min_int=\count271
+\l__siunitx_tmp_dim=\dimen159
+\l__siunitx_tmp_int=\count273
+\l__siunitx_number_mantissa_length_int=\count274
+\l__siunitx_number_uncert_length_int=\count275
+\l__siunitx_round_int=\count276
+\l__siunitx_process_decimal_int=\count277
+\l__siunitx_process_uncertainty_int=\count278
+\l__siunitx_process_fixed_int=\count279
+\l__siunitx_process_integer_min_int=\count280
+\l__siunitx_process_precision_int=\count281
+\l__siunitx_group_min_int=\count282
 \l__siunitx_angle_marker_box=\box53
 \l__siunitx_angle_unit_box=\box54
-\l__siunitx_angle_marker_dim=\dimen157
-\l__siunitx_angle_unit_dim=\dimen158
-\l__siunitx_unit_int=\count272
-\l__siunitx_unit_denominator_int=\count273
-\l__siunitx_unit_numerator_int=\count274
-\l__siunitx_unit_prefix_int=\count275
-\l__siunitx_unit_prefix_base_int=\count276
-\l__siunitx_unit_prefix_gram_int=\count277
-\l__siunitx_number_product_int=\count278
+\l__siunitx_angle_marker_dim=\dimen160
+\l__siunitx_angle_unit_dim=\dimen161
+\l__siunitx_unit_int=\count283
+\l__siunitx_unit_denominator_int=\count284
+\l__siunitx_unit_numerator_int=\count285
+\l__siunitx_unit_prefix_int=\count286
+\l__siunitx_unit_prefix_base_int=\count287
+\l__siunitx_unit_prefix_gram_int=\count288
+\l__siunitx_number_product_int=\count289
 \c__siunitx_one_fill_skip=\skip71
 \l__siunitx_table_unit_align_skip=\skip72
-\l__siunitx_table_exponent_dim=\dimen159
-\l__siunitx_table_integer_dim=\dimen160
-\l__siunitx_table_mantissa_dim=\dimen161
-\l__siunitx_table_marker_dim=\dimen162
-\l__siunitx_table_result_dim=\dimen163
-\l__siunitx_table_uncert_dim=\dimen164
-\l__siunitx_table_fill_pre_dim=\dimen165
-\l__siunitx_table_fill_post_dim=\dimen166
-\l__siunitx_table_fill_mid_dim=\dimen167
+\l__siunitx_table_exponent_dim=\dimen162
+\l__siunitx_table_integer_dim=\dimen163
+\l__siunitx_table_mantissa_dim=\dimen164
+\l__siunitx_table_marker_dim=\dimen165
+\l__siunitx_table_result_dim=\dimen166
+\l__siunitx_table_uncert_dim=\dimen167
+\l__siunitx_table_fill_pre_dim=\dimen168
+\l__siunitx_table_fill_post_dim=\dimen169
+\l__siunitx_table_fill_mid_dim=\dimen170
 \l__siunitx_table_pre_box=\box55
 \l__siunitx_table_post_box=\box56
 \l__siunitx_table_mantissa_box=\box57
@@ -355,15 +372,15 @@ Package: mathtools 2020/01/17 v1.23 mathematical typesetting tools
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count279
-\calc@Bcount=\count280
-\calc@Adimen=\dimen168
-\calc@Bdimen=\dimen169
+\calc@Acount=\count290
+\calc@Bcount=\count291
+\calc@Adimen=\dimen171
+\calc@Bdimen=\dimen172
 \calc@Askip=\skip75
 \calc@Bskip=\skip76
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count281
+\calc@Ccount=\count292
 \calc@Cskip=\skip77
 )
 (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
@@ -373,15 +390,15 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count282
-\l_MT_multwidth_dim=\dimen170
+\g_MT_multlinerow_int=\count293
+\l_MT_multwidth_dim=\dimen173
 \origjot=\skip78
-\l_MT_shortvdotswithinadjustabove_dim=\dimen171
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen172
-\l_MT_above_intertext_sep=\dimen173
-\l_MT_below_intertext_sep=\dimen174
-\l_MT_above_shortintertext_sep=\dimen175
-\l_MT_below_shortintertext_sep=\dimen176
+\l_MT_shortvdotswithinadjustabove_dim=\dimen174
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen175
+\l_MT_above_intertext_sep=\dimen176
+\l_MT_below_intertext_sep=\dimen177
+\l_MT_above_shortintertext_sep=\dimen178
+\l_MT_below_shortintertext_sep=\dimen179
 )
 (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
@@ -392,21 +409,21 @@ Package: caption 2020/01/03 v3.4h Customizing captions (AR)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen177
-\captionmargin@=\dimen178
-\captionwidth=\dimen179
-\caption@tempdima=\dimen180
-\caption@indent=\dimen181
-\caption@parindent=\dimen182
-\caption@hangindent=\dimen183
+\captionmargin=\dimen180
+\captionmargin@=\dimen181
+\captionwidth=\dimen182
+\caption@tempdima=\dimen183
+\caption@indent=\dimen184
+\caption@parindent=\dimen185
+\caption@hangindent=\dimen186
 Package caption Info: KOMA-Script document class detected.
 )
 Package caption Info: KOMA-Script document class.
-\c@caption@flags=\count283
-\c@continuedfloat=\count284
+\c@caption@flags=\count294
+\c@continuedfloat=\count295
 )
-\c@subfigure=\count285
-\c@subtable=\count286
+\c@subfigure=\count296
+\c@subtable=\count297
 )
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
@@ -430,28 +447,28 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTright=\skip80
 \LTpre=\skip81
 \LTpost=\skip82
-\LTchunksize=\count287
-\LTcapwidth=\dimen184
+\LTchunksize=\count298
+\LTcapwidth=\dimen187
 \LT@head=\box59
 \LT@firsthead=\box60
 \LT@foot=\box61
 \LT@lastfoot=\box62
-\LT@cols=\count288
-\LT@rows=\count289
-\c@LT@tables=\count290
-\c@LT@chunks=\count291
+\LT@cols=\count299
+\LT@rows=\count300
+\c@LT@tables=\count301
+\c@LT@chunks=\count302
 \LT@p@ftn=\toks22
 )
-Class scrreprt Info: longtable captions redefined on input line 38.
+Class scrreprt Info: longtable captions redefined on input line 39.
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count292
-\c@@ppsavesec=\count293
-\c@@ppsaveapp=\count294
+\c@@pps=\count303
+\c@@ppsavesec=\count304
+\c@@ppsaveapp=\count305
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
@@ -491,9 +508,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
-\@linkdim=\dimen185
-\Hy@linkcounter=\count295
-\Hy@pagecounter=\count296
+\@linkdim=\dimen188
+\Hy@linkcounter=\count306
+\Hy@pagecounter=\count307
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
@@ -504,7 +521,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count297
+\Hy@SavedSpaceFactor=\count308
 Package hyperref Info: Hyper figures OFF on input line 4547.
 Package hyperref Info: Link nesting OFF on input line 4552.
 Package hyperref Info: Hyper index ON on input line 4555.
@@ -512,14 +529,14 @@ Package hyperref Info: Plain pages OFF on input line 4562.
 Package hyperref Info: Backreferencing OFF on input line 4567.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4800.
-\c@Hy@tempcnt=\count298
+\c@Hy@tempcnt=\count309
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5159.
-\XeTeXLinkMargin=\dimen186
+\XeTeXLinkMargin=\dimen189
 
 (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -528,9 +545,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count299
-\Field@Width=\dimen187
-\Fld@charsize=\dimen188
+\Fld@menulength=\count310
+\Field@Width=\dimen190
+\Fld@charsize=\dimen191
 Package hyperref Info: Hyper figures OFF on input line 6430.
 Package hyperref Info: Link nesting OFF on input line 6435.
 Package hyperref Info: Hyper index ON on input line 6438.
@@ -544,9 +561,9 @@ LaTeX Info: Redefining \pageref on input line 6504.
 (/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count300
-\c@Item=\count301
-\c@Hfootnote=\count302
+\Hy@abspage=\count311
+\c@Item=\count312
+\c@Hfootnote=\count313
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
@@ -561,10 +578,10 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \pdfm@box=\box63
-\c@Hy@AnnotLevel=\count303
-\HyField@AnnotCount=\count304
-\Fld@listcount=\count305
-\c@bookmark@seq@number=\count306
+\c@Hy@AnnotLevel=\count314
+\HyField@AnnotCount=\count315
+\Fld@listcount=\count316
+\c@bookmark@seq@number=\count317
 
 (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -584,23 +601,23 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (/usr/share/texlive/texmf-dist/tex/latex/silence/silence.sty
 Package: silence 2012/07/02 v1.5b Selective filtering of warnings and error mes
 sages
-\sl@Save=\count307
-\sl@StateNumber=\count308
-\sl@MessageCount=\count309
-\sl@Casualties=\count310
+\sl@Save=\count318
+\sl@StateNumber=\count319
+\sl@MessageCount=\count320
+\sl@Casualties=\count321
 \sl@Filter=\toks23
 \sl@Message=\toks24
 \sl@UnexpandedMessage=\toks25
 \sl@Mess@ge=\toks26
-\sl@WarningCount=\count311
-\sl@WarningNumber=\count312
-\sl@WarningCasualties=\count313
+\sl@WarningCount=\count322
+\sl@WarningNumber=\count323
+\sl@WarningCasualties=\count324
 \sl@TempBOW=\toks27
 \sl@BankOfWarnings=\toks28
 LaTeX Info: Redefining \GenericWarning on input line 433.
-\sl@ErrorCount=\count314
-\sl@ErrorNumber=\count315
-\sl@ErrorCasualties=\count316
+\sl@ErrorCount=\count325
+\sl@ErrorNumber=\count326
+\sl@ErrorCasualties=\count327
 \sl@TempBOE=\toks29
 \sl@BankOfErrors=\toks30
 LaTeX Info: Redefining \GenericError on input line 601.
@@ -611,35 +628,35 @@ LaTeX Info: Redefining \GenericError on input line 601.
 (./tex/fishers.aux) (./tex/appendix.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 182.
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 182.
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 182.
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 182.
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 182.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 183.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-82.
+83.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 182.
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 182.
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 182.
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 182.
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 182.
-LaTeX Font Info:    ... okay on input line 182.
-Package scrbase Info: activating english \contentsname on input line 182.
-Package scrbase Info: activating english \listfigurename on input line 182.
-Package scrbase Info: activating english \listtablename on input line 182.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+Package scrbase Info: activating english \contentsname on input line 183.
+Package scrbase Info: activating english \listfigurename on input line 183.
+Package scrbase Info: activating english \listtablename on input line 183.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -676,6 +693,63 @@ Package scrbase Info: activating english \listtablename on input line 182.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 183.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 183.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 183.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 183.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 183.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 183.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 183.
+LaTeX Font Info:    Redeclaring math accent \check on input line 183.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 183.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 183.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 183.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 183.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 183.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 183.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 183.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 183.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 183.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 183.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 183.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 183.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 183.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 183.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 183.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 183.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 183.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 183.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 183.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 183.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 183.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 183.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 183.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 183.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 183.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 183.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 183.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 183.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 183.
+
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
 Dictionary: translator-basic-dictionary, Language: English 
@@ -688,7 +762,7 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box64
-Package hyperref Info: Link coloring OFF on input line 182.
+Package hyperref Info: Link coloring OFF on input line 183.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -699,11 +773,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count317
+\c@section@level=\count328
 )
-LaTeX Info: Redefining \ref on input line 182.
-LaTeX Info: Redefining \pageref on input line 182.
-LaTeX Info: Redefining \nameref on input line 182.
+LaTeX Info: Redefining \ref on input line 183.
+LaTeX Info: Redefining \pageref on input line 183.
+LaTeX Info: Redefining \nameref on input line 183.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write3
@@ -716,30 +790,30 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           `bookmarkpackage=false' before \begin{document} and
 (scrreprt)           you can avoid this message adding:
 (scrreprt)             \usepackage{bookmark}
-(scrreprt)           before \begin{document} on input line 182.
+(scrreprt)           before \begin{document} on input line 183.
 
 (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2019/12/03 v1.28 PDF bookmarks (HO)
 
 (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
 File: bkm-dvipdfm.def 2019/12/03 v1.28 bookmark driver for dvipdfm (HO)
-\BKM@id=\count318
+\BKM@id=\count329
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 182
+LaTeX Font Info:    Trying to load font information for U+msa on input line 183
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 182
+LaTeX Font Info:    Trying to load font information for U+msb on input line 183
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Package hyperref Info: Option `pageanchor' set `false' on input line 183.
+Package hyperref Info: Option `pageanchor' set `false' on input line 184.
  (./tex/title.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 186--186
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
 
  []
 
@@ -753,22 +827,22 @@ File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 186--186
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--186
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--186
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--186
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
 
  []
 
@@ -796,15 +870,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 186--186
 
 
 ]
-Overfull \hbox (2.03773pt too wide) detected at line 41
- \T1/lmr/bx/n/12 101
+Overfull \hbox (1.66797pt too wide) detected at line 47
+ \TU/lmr/bx/n/12 103
+ []
+
+
+Overfull \hbox (1.66797pt too wide) detected at line 48
+ \TU/lmr/bx/n/12 110
+ []
+
+
+Overfull \hbox (1.66797pt too wide) detected at line 49
+ \TU/lmr/bx/n/12 111
+ []
+
+
+Overfull \hbox (1.66797pt too wide) detected at line 50
+ \TU/lmr/bx/n/12 114
+ []
+
+
+Overfull \hbox (1.66797pt too wide) detected at line 51
+ \TU/lmr/bx/n/12 120
+ []
+
+
+Overfull \hbox (1.66797pt too wide) detected at line 52
+ \TU/lmr/bx/n/12 123
  []
 
 )
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
 
-Package hyperref Info: Option `pageanchor' set `true' on input line 208.
+Package hyperref Info: Option `pageanchor' set `true' on input line 209.
  [4]
 \openout2 = `tex/introgeneral.aux'.
 
@@ -833,45 +932,46 @@ chapter 3.
 
 
 ] [4]
-Overfull \vbox (1.49617pt too high) has occurred while \output is active []
+Overfull \vbox (1.64679pt too high) has occurred while \output is active []
 
 
 [5]
-Overfull \hbox (15.06422pt too wide) in paragraph at lines 79--81
-[]\T1/lmr/m/n/12 relativistic pro-jec-tion cor-rec-tions to the New-to-nian RSD
- []Bertacca et al.[] ([]2014a[],[]b[]);
+Overfull \hbox (15.12341pt too wide) in paragraph at lines 79--81
+[]\TU/lmr/m/n/12 relativistic projection corrections to the Newtonian RSD []Ber
+tacca et al.[] ([]2014a[],[]b[]);
  []
 
 [6] [7] [8] [9]
 File: fig/Mplot.pdf Graphic file (type pdf)
 <use fig/Mplot.pdf>
  [10] [11]
-Overfull \hbox (5.6455pt too wide) detected at line 253
+Overfull \hbox (5.64421pt too wide) detected at line 253
 []
  []
 
 [12] [13]
-Overfull \hbox (3.89293pt too wide) in paragraph at lines 303--306
-\T1/lmr/m/it/12 Relativistic cor-rec-tions to [] are needed to en-force gauge-i
-ndependence
+Overfull \hbox (2.0367pt too wide) in paragraph at lines 303--306
+\TU/lmr/m/it/12 Relativistic corrections to [] are needed to enforce gauge-inde
+pendence
  []
 
 [14] [15] [16] [17]
-Overfull \hbox (6.06021pt too wide) detected at line 484
+Overfull \hbox (6.0876pt too wide) detected at line 484
 []
  []
 
 [18]
-Overfull \hbox (82.68813pt too wide) detected at line 506
+Overfull \hbox (82.6928pt too wide) detected at line 506
 []
  []
 
 
-Overfull \hbox (19.02782pt too wide) in paragraph at lines 517--518
-\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12 H[]\OML/cmm/m/it/12 =k[]\OT1/cmr/m/n/12 ) (\O
-ML/cmm/m/it/12 ^^N[]\OT1/cmr/m/n/12 )[]$ \T1/lmr/m/n/12 and dom-i-nate the GR c
-or-rec-tion terms, which scale as $\OT1/cmr/m/n/12 i(\OMS/cmsy/m/n/12 H[]\OML/c
-mm/m/it/12 =k[]\OT1/cmr/m/n/12 ) (\OML/cmm/m/it/12 ^^N[]\OT1/cmr/m/n/12 )[]$
+Overfull \hbox (19.0215pt too wide) in paragraph at lines 517--518
+\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12 H[]\OT1/cmr/m/n/12 /\OML/cmm/m/it/12 k[]\OT1/
+cmr/m/n/12 ) (\OML/cmm/m/it/12 ^^N[]\OT1/cmr/m/n/12 )[]$ \TU/lmr/m/n/12 and dom
+inate the GR correction terms, which scale as $[]\OT1/cmr/m/n/12 (\OMS/cmsy/m/n
+/12 H[]\OT1/cmr/m/n/12 /\OML/cmm/m/it/12 k[]\OT1/cmr/m/n/12 ) (\OML/cmm/m/it/12
+ ^^N[]\OT1/cmr/m/n/12 )[]$
  []
 
 [19]
@@ -880,19 +980,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 525--526
  []
 
 [20]
-Overfull \hbox (7.63731pt too wide) detected at line 611
+Overfull \hbox (8.39479pt too wide) detected at line 611
 []
  []
 
 [21]
-Overfull \hbox (23.97816pt too wide) detected at line 635
+Overfull \hbox (23.98454pt too wide) detected at line 635
 []
  []
 
 
-Overfull \hbox (0.61366pt too wide) in paragraph at lines 645--646
-\T1/lmr/m/n/12 first two lines re-cover the New-to-nian ap-prox-i-ma-tion (see 
-[]Tel-lar-ini et al.[] ([]2015[])). 
+Overfull \hbox (0.6687pt too wide) in paragraph at lines 645--646
+\TU/lmr/m/n/12 first two lines recover the Newtonian approximation (see []Tella
+rini et al.[] ([]2015[])). 
  []
 
 [22] [23]
@@ -914,18 +1014,18 @@ chapter 4.
 
 
 ] [31] [32]
-Overfull \hbox (104.6805pt too wide) detected at line 92
+Overfull \hbox (104.66206pt too wide) detected at line 92
 []
  []
 
 
-Overfull \hbox (401.85654pt too wide) detected at line 106
+Overfull \hbox (401.84897pt too wide) detected at line 106
 []
  []
 
 [33]
-Overfull \hbox (133.9866pt too wide) detected at line 142
-[][] [] \OT1/cmr/m/n/12 d
+Overfull \hbox (133.98512pt too wide) detected at line 142
+[][] [] []\OT1/cmr/m/n/12 
 ([]\OML/cmm/m/it/12 ^^V[]\OT1/cmr/m/n/12 )[]([]\OML/cmm/m/it/12 ^^V[]\OT1/cmr/m
 /n/12 )[]\OML/cmm/m/it/12 Y[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 ^^N[][] [] \OT
 1/cmr/m/n/12 + \OML/cmm/m/it/12 ^^N[][] [] [] ^^R ;
@@ -937,10 +1037,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--145
  []
 
 [34]
-Overfull \hbox (31.10748pt too wide) in paragraph at lines 177--181
-\T1/lmr/m/n/12 the squeezed limit of the cyclic sum [], the terms $\OMS/cmsy/m/
+Overfull \hbox (31.02753pt too wide) in paragraph at lines 177--181
+\TU/lmr/m/n/12 the squeezed limit of the cyclic sum [], the terms $\OMS/cmsy/m/
 n/12 K[]\OT1/cmr/m/n/12 (\OML/cmm/b/it/12 k[]\OML/cmm/m/it/12 ; \OML/cmm/b/it/1
-2 k[]\OML/cmm/m/it/12 ; \OML/cmm/b/it/12 k[]\OT1/cmr/m/n/12 )$ \T1/lmr/m/n/12 a
+2 k[]\OML/cmm/m/it/12 ; \OML/cmm/b/it/12 k[]\OT1/cmr/m/n/12 )$ \TU/lmr/m/n/12 a
 nd $\OMS/cmsy/m/n/12 K[]\OT1/cmr/m/n/12 (\OML/cmm/b/it/12 k[]\OML/cmm/m/it/12 ;
  \OML/cmm/b/it/12 k[]\OML/cmm/m/it/12 ; \OML/cmm/b/it/12 k[]\OT1/cmr/m/n/12 )$
  []
@@ -960,7 +1060,7 @@ chapter 5.
 
 
 ] [41] [42]
-Overfull \hbox (9.34445pt too wide) detected at line 34
+Overfull \hbox (9.34601pt too wide) detected at line 34
 [][]\OML/cmm/m/it/12 B[]\OT1/cmr/m/n/12 (\OML/cmm/b/it/12 k[]\OML/cmm/m/it/12 ;
  \OML/cmm/b/it/12 k[]\OML/cmm/m/it/12 ; \OML/cmm/b/it/12 k[]\OT1/cmr/m/n/12 ) =
  \OMS/cmsy/m/n/12 K[]\OT1/cmr/m/n/12 (\OML/cmm/b/it/12 k[]\OT1/cmr/m/n/12 )\OMS
@@ -972,14 +1072,14 @@ t/12 k[]\OML/cmm/m/it/12 ; \OML/cmm/b/it/12 k[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/1
  []
 
 [43] [44]
-Overfull \hbox (80.44954pt too wide) detected at line 92
+Overfull \hbox (80.45651pt too wide) detected at line 92
 []
  []
 
 
-Overfull \hbox (7.7113pt too wide) in paragraph at lines 101--102
-[]\T1/lmr/m/n/12 At sec-ond or-der, the GR bias model, which cor-rects the New-
-to-nian bias model []
+Overfull \hbox (7.929pt too wide) in paragraph at lines 101--102
+[]\TU/lmr/m/n/12 At second order, the GR bias model, which corrects the Newtoni
+an bias model []
  []
 
 
@@ -996,7 +1096,7 @@ Overfull \hbox (69.51956pt too wide) detected at line 237
  []
 
 [49]
-Overfull \hbox (23.3996pt too wide) detected at line 269
+Overfull \hbox (23.3999pt too wide) detected at line 269
 [][]\OMS/cmsy/m/n/12 K[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 K[]\OT1/cmr/m/n/12 
 (\OML/cmm/m/it/12 k[]; ^^V[]\OT1/cmr/m/n/12 )\OMS/cmsy/m/n/12 K[]\OT1/cmr/m/n/1
 2 (\OML/cmm/m/it/12 k[]; ^^V[]\OT1/cmr/m/n/12 )\OMS/cmsy/m/n/12 K[]\OT1/cmr/m/n
@@ -1006,22 +1106,13 @@ ML/cmm/m/it/12 ^^V[]\OT1/cmr/m/n/12 )[]([]\OML/cmm/m/it/12 ^^V[]\OT1/cmr/m/n/12
 /m/n/12 ) \OML/cmm/m/it/12 ;
  []
 
-[50]
-Overfull \hbox (42.67815pt too wide) in paragraph at lines 278--279
-[]\T1/lmr/m/n/12 To present $\OMS/cmsy/m/n/12 K[]\OT1/cmr/m/n/12 (\OML/cmm/m/it
-/12 k[]; k[]; k[]\OT1/cmr/m/n/12 )$ \T1/lmr/m/n/12 we will show pow-ers of $\OM
-S/cmsy/m/n/12 H\OML/cmm/m/it/12 =k$ \T1/lmr/m/n/12 sep-a-rately, and write $\OM
-S/cmsy/m/n/12 K[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 k[]; k[]; k[]\OT1/cmr/m/n/12
- ) =
- []
-
-[51]
+[50] [51]
 Overfull \hbox (37.66858pt too wide) detected at line 371
 []
  []
 
 [52]
-Overfull \hbox (228.3925pt too wide) detected at line 437
+Overfull \hbox (228.35103pt too wide) detected at line 437
 []
  []
 
@@ -1071,27 +1162,78 @@ File: fig/fnofz.pdf Graphic file (type pdf)
 
 
 
-]
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 6
-67.
-
-(/usr/share/texmf/tex/latex/lm/t1lmss.fd
-File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [67]) [68]
+] [67]) [68]
 \openout2 = `tex/snr_euclid.aux'.
 
- (./tex/snr_euclid.tex
+
+(./tex/snr_euclid.tex
 chapter 6.
-) [69
+[69
 
 
 
-]
+] [70]
+File: fig/geometryAngles.pdf Graphic file (type pdf)
+<use fig/geometryAngles.pdf>
+ [71]
+Overfull \hbox (0.45457pt too wide) detected at line 76
+[]
+ []
+
+
+Overfull \hbox (34.29321pt too wide) detected at line 99
+[]
+ []
+
+[72]
+Overfull \hbox (22.24777pt too wide) detected at line 148
+[][][] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 s[] [] [] []\OT1/cmr/m/n/12 (\OML/cmm
+/m/it/12 z; k[]; ^^V[]\OT1/cmr/m/n/12 )[](\OML/cmm/m/it/12 z; k[]; ^^V[]\OT1/cm
+r/m/n/12 )[](\OML/cmm/m/it/12 z; k[]; ^^V[]\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 ;
+
+ []
+
+[73] [74]
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
+
+ []
+
+[75]
+File: fig/b-eps-converted-to.pdf Graphic file (type pdf)
+<use fig/b-eps-converted-to.pdf>
+File: fig/V_n-eps-converted-to.pdf Graphic file (type pdf)
+<use fig/V_n-eps-converted-to.pdf>
+File: fig/sigma-eps-converted-to.pdf Graphic file (type pdf)
+<use fig/sigma-eps-converted-to.pdf>
+ [76] [77]
+File: fig/beQ-eps-converted-to.pdf Graphic file (type pdf)
+<use fig/beQ-eps-converted-to.pdf>
+ [78] [79]
+File: fig/snrDoppler-eps-converted-to.pdf Graphic file (type pdf)
+<use fig/snrDoppler-eps-converted-to.pdf>
+File: fig/CumulativesnrDoppler-eps-converted-to.pdf Graphic file (type pdf)
+<use fig/CumulativesnrDoppler-eps-converted-to.pdf>
+File: fig/kmaxsnr-eps-converted-to.pdf Graphic file (type pdf)
+<use fig/kmaxsnr-eps-converted-to.pdf>
+File: fig/kmaxcumsnr-eps-converted-to.pdf Graphic file (type pdf)
+<use fig/kmaxcumsnr-eps-converted-to.pdf>
+File: fig/cumDoppSnr_kmin-eps-converted-to.pdf Graphic file (type pdf)
+<use fig/cumDoppSnr_kmin-eps-converted-to.pdf>
+ [80]
+File: fig/DoppSnr_K2D-eps-converted-to.pdf Graphic file (type pdf)
+<use fig/DoppSnr_K2D-eps-converted-to.pdf>
+File: fig/cumDoppSnr_K2D-eps-converted-to.pdf Graphic file (type pdf)
+<use fig/cumDoppSnr_K2D-eps-converted-to.pdf>
+ [81]
+File: fig/gamma_sigma8_AD-eps-converted-to.pdf Graphic file (type pdf)
+<use fig/gamma_sigma8_AD-eps-converted-to.pdf>
+ [82] [83] [84] [85]) [86] [87]
 \openout2 = `tex/snr_ska.aux'.
 
- (./tex/snr_ska.tex
+
+(./tex/snr_ska.tex
 chapter 7.
-) [70
+) [88
 
 
 
@@ -1100,7 +1242,7 @@ chapter 7.
 
  (./tex/fishers.tex
 chapter 8.
-) [71
+) [89
 
 
 
@@ -1114,34 +1256,33 @@ Overfull \hbox (65.27815pt too wide) detected at line 58
 []
  []
 
-[72
+[90
 
 
 
-] [73]) [74]
+] [91]) [92]
 chapter B.
-(./tex/app_betatables.tex [75
+(./tex/app_betatables.tex [93
 
-] [76]
-Overfull \hbox (153.49922pt too wide) detected at line 223
+] [94]
+Overfull \hbox (153.99956pt too wide) detected at line 223
 []
  []
 
-[77]) [78]
+[95]) [96]
 chapter C.
-(./tex/app_upsiloncoeff.tex [79
+(./tex/app_upsiloncoeff.tex [97
 
-]) [80]
+]) [98]
 chapter D.
-(./tex/app_sumderiv.tex [81
+(./tex/app_sumderiv.tex [99
 
 ]
-Overfull \hbox (74.2801pt too wide) detected at line 32
-[][] [] [][] [][] \OML/cmm/m/it/12 ^^R [][] ^^R[][][] [][]  \OT1/cmr/m/n/12 d\O
-ML/cmm/m/it/12 '  [][]  \OT1/cmr/m/n/12 d\OML/cmm/m/it/12 ^^V ^^V[]\OT1/cmr/m/n
-/12 (1 \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 ^^V[]\OT1/cmr/m/n/12 )[] [][] \OML
-/cmm/m/it/12 'P[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^V\OT1/cmr/m/n/12 )\OML/cmm
-/m/it/12 e[];
+Overfull \hbox (74.27547pt too wide) detected at line 32
+[][] [] [][] [][] \OML/cmm/m/it/12 ^^R [][] ^^R[][][] [][]  []'  [][]  []^^V ^^
+V[]\OT1/cmr/m/n/12 (1 \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 ^^V[]\OT1/cmr/m/n/1
+2 )[] [][] \OML/cmm/m/it/12 'P[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^V\OT1/cmr/m
+/n/12 )\OML/cmm/m/it/12 e[];
  []
 
 
@@ -1154,104 +1295,114 @@ Overfull \hbox (154.44664pt too wide) detected at line 52
 []
  []
 
-[82]
-Overfull \hbox (144.04547pt too wide) detected at line 75
+[100]
+Overfull \hbox (144.04451pt too wide) detected at line 75
 []
  []
 
 
-Overfull \hbox (53.8083pt too wide) detected at line 81
+Overfull \hbox (53.80646pt too wide) detected at line 81
 []
  []
 
-[83]
-Overfull \hbox (144.34372pt too wide) detected at line 86
+[101]
+Overfull \hbox (144.34187pt too wide) detected at line 86
 []
  []
 
 
-Overfull \hbox (117.42311pt too wide) detected at line 95
+Overfull \hbox (117.42007pt too wide) detected at line 95
 []
  []
 
-) [84]
+) [102]
 chapter E.
 (./tex/app_kabpres.tex
 Overfull \hbox (24.22433pt too wide) detected at line 38
 []
  []
 
-[85
+[103
 
-] [86]
+] [104]
 Overfull \hbox (106.37213pt too wide) detected at line 77
 []
  []
 
-[87]
+[105]
 Overfull \hbox (104.08089pt too wide) detected at line 109
 []
  []
 
-[88]
+[106]
 Overfull \hbox (141.72049pt too wide) detected at line 132
 []
  []
 
-[89] [90]) [91]
+[107] [108]) [109]
 chapter F.
 (./tex/app_sqlim.tex
 Overfull \hbox (108.90007pt too wide) detected at line 33
 []
  []
 
-)) [92
-
-] (./thesis.bbl
-chapter without number
-Missing character: There is no – in font ec-lmr12!
-[93
-
-
-] [94]
-Missing character: There is no – in font ec-lmr12!
-Missing character: There is no – in font ec-lmr12!
- [95]
-Missing character: There is no – in font ec-lmr12!
-Missing character: There is no – in font ec-lmr12!
-Missing character: There is no – in font ec-lmr12!
-Missing character: There is no – in font ec-lmr12!
- [96]) [97] (./thesis.lof [98
+) [110
 
 ]
-Overfull \hbox (1.25926pt too wide) in paragraph at lines 14--14
- [][] [][]\T1/lmr/m/n/12 Normalised to-tal power for squeezed con-fig-u-ra-tion
- for Euclid-like (left) 
+chapter G.
+(./tex/app_snreuclid.tex
+File: fig/colournmu1nphi_Doppler-eps-converted-to.pdf Graphic file (type pdf)
+<use fig/colournmu1nphi_Doppler-eps-converted-to.pdf>
+File: fig/cumulativeSnrdopplerQ0_0-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/cumulativeSnrdopplerQ0_0-eps-converted-to.pdf>
+File: fig/cumulativeSnrdopplerQ0_5-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/cumulativeSnrdopplerQ0_5-eps-converted-to.pdf>
+File: fig/cumulativeSnrdopplerQ1_5-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/cumulativeSnrdopplerQ1_5-eps-converted-to.pdf>
+File: fig/cumulativeSnrdopplerQ2_0-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/cumulativeSnrdopplerQ2_0-eps-converted-to.pdf>
+ [111
+
+]
+Overfull \hbox (84.03271pt too wide) detected at line 72
+[]
  []
 
-[99])
+)) [112] [113] (./thesis.bbl
+chapter without number
+[114
+
+
+] [115] [116] [117] [118]) [119] (./thesis.lof [120
+
+] [121])
 \tf@lof=\write5
 \openout5 = `thesis.lof'.
 
- [100] (./thesis.lot)
+ [122]
+(./thesis.lot)
 \tf@lot=\write6
 \openout6 = `thesis.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 258.
- [101
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 259.
+ [123
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 258.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 259.
  (./thesis.aux (./tex/abstract.aux)
 (./tex/acknowledgements.aux) (./tex/introgeneral.aux) (./tex/introbisp.aux)
 (./tex/png_bisp.aux) (./tex/dipole.aux) (./tex/multipoles.aux)
 (./tex/snr_euclid.aux) (./tex/snr_ska.aux) (./tex/fishers.aux)
 (./tex/appendix.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 258.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 258.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 259.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 259.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 258.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 259.
  )
 (\end occurred inside a group at level 4)
 
@@ -1261,12 +1412,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 258.
 ### simple group (level 1) entered at line 208 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 19613 strings out of 479819
- 350331 string characters out of 5895845
- 747526 words of memory out of 5000000
- 36341 multiletter control sequences out of 15000+600000
- 615249 words of font info for 124 fonts, out of 8000000 for 9000
+ 21911 strings out of 479819
+ 437938 string characters out of 5895845
+ 879566 words of memory out of 5000000
+ 38581 multiletter control sequences out of 15000+600000
+ 549795 words of font info for 124 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 52i,15n,76p,10102b,1426s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 52i,15n,76p,10102b,1479s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (107 pages, 573976 bytes).
+Output written on thesis.xdv (129 pages, 1973928 bytes).

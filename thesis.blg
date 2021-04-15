@@ -45,6 +45,13 @@ Warning--empty journal in MoradinezhadDizgah:2020whw
 ---they aren't the same literal types for entry MoradinezhadDizgah:2020whw
 while executing---line 1822 of file mnras.bst
 "ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Pan:2019dxa
+while executing---line 1822 of file mnras.bst
+Warning--empty journal in Pan:2019dxa
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Pan:2019dxa
+while executing---line 1822 of file mnras.bst
+"ArXiv e-prints" is a string literal, `journal' is a missing field
 ---they aren't the same literal types for entry Umeh:2020cag
 while executing---line 1822 of file mnras.bst
 Warning--empty journal in Umeh:2020cag
@@ -58,45 +65,45 @@ Warning--empty journal in Villumsen:1995ar
 "ArXiv e-prints" is a string literal, `journal' is a missing field
 ---they aren't the same literal types for entry Villumsen:1995ar
 while executing---line 1822 of file mnras.bst
-You've used 100 entries,
+You've used 121 entries,
             2881 wiz_defined-function locations,
-            1521 strings with 28435 characters,
-and the built_in function-call counts, 51035 in all, are:
-= -- 4206
-> -- 4017
-< -- 250
-+ -- 1660
-- -- 690
-* -- 6163
-:= -- 8290
+            1675 strings with 33120 characters,
+and the built_in function-call counts, 61625 in all, are:
+= -- 5086
+> -- 4842
+< -- 298
++ -- 2001
+- -- 830
+* -- 7458
+:= -- 9996
 add.period$ -- 0
-call.type$ -- 100
-change.case$ -- 200
-chr.to.int$ -- 97
-cite$ -- 106
-duplicate$ -- 2274
-empty$ -- 2193
-format.name$ -- 962
-if$ -- 8795
+call.type$ -- 121
+change.case$ -- 242
+chr.to.int$ -- 118
+cite$ -- 128
+duplicate$ -- 2750
+empty$ -- 2654
+format.name$ -- 1164
+if$ -- 10624
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 100
-newline$ -- 313
-num.names$ -- 780
-pop$ -- 450
+missing$ -- 121
+newline$ -- 376
+num.names$ -- 938
+pop$ -- 543
 preamble$ -- 1
-purify$ -- 400
+purify$ -- 484
 quote$ -- 0
-skip$ -- 1368
+skip$ -- 1652
 stack$ -- 0
-substring$ -- 3202
-swap$ -- 1326
-text.length$ -- 400
+substring$ -- 3870
+swap$ -- 1592
+text.length$ -- 484
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 900
-warning$ -- 6
-while$ -- 782
+type$ -- 1089
+warning$ -- 7
+while$ -- 944
 width$ -- 0
-write$ -- 1000
-(There were 12 error messages)
+write$ -- 1208
+(There were 14 error messages)

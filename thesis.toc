@@ -28,14 +28,25 @@
 \contentsline {section}{\numberline {5.4}Analysis}{54}{section.5.4}%
 \contentsline {section}{\numberline {5.5}Conclusion}{67}{section.5.5}%
 \contentsline {chapter}{\numberline {6}Detectability in Spectroscopic Surveys}{69}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Detectability in IM Surveys}{70}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Fisher Forecasts}{71}{chapter.8}%
-\contentsline {chapter}{\numberline {A}Beta coefficients}{72}{appendix.a.A}%
-\contentsline {chapter}{\numberline {B}Beta coefficient tables}{75}{appendix.a.B}%
-\contentsline {chapter}{\numberline {C}Upsilon coefficients}{79}{appendix.a.C}%
-\contentsline {chapter}{\numberline {D}Derivation of sum formula}{81}{appendix.a.D}%
-\contentsline {chapter}{\numberline {E}Presentation of kernel coefficients}{85}{appendix.a.E}%
-\contentsline {chapter}{\numberline {F}Squeezed limit of multipoles}{92}{appendix.a.F}%
-\contentsline {chapter}{\nonumberline Bibliography}{93}{chapter*.24}%
-\contentsline {chapter}{\nonumberline List of Figures}{98}{chapter*.25}%
-\contentsline {chapter}{\nonumberline List of Tables}{101}{chapter*.26}%
+\contentsline {section}{\numberline {6.1}Introduction}{69}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Signal-to-Noise}{73}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Relativistic contribution to the variance}{74}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Nonlinear effects}{75}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Summations {over triangles}}{76}{subsection.6.2.3}%
+\contentsline {section}{\numberline {6.3}Galaxy Survey}{76}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Evolution bias and magnification bias}{77}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Signal to noise of the relativistic bispectrum}{80}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Including cosmological parameters}{83}{subsection.6.3.3}%
+\contentsline {section}{\numberline {6.4}Conclusions}{84}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Detectability in IM Surveys}{88}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Fisher Forecasts}{89}{chapter.8}%
+\contentsline {chapter}{\numberline {A}Beta coefficients}{90}{appendix.a.A}%
+\contentsline {chapter}{\numberline {B}Beta coefficient tables}{93}{appendix.a.B}%
+\contentsline {chapter}{\numberline {C}Upsilon coefficients}{97}{appendix.a.C}%
+\contentsline {chapter}{\numberline {D}Derivation of sum formula}{99}{appendix.a.D}%
+\contentsline {chapter}{\numberline {E}Presentation of kernel coefficients}{103}{appendix.a.E}%
+\contentsline {chapter}{\numberline {F}Squeezed limit of multipoles}{110}{appendix.a.F}%
+\contentsline {chapter}{\numberline {G}SNR Euclid}{111}{appendix.a.G}%
+\contentsline {chapter}{\nonumberline Bibliography}{114}{chapter*.40}%
+\contentsline {chapter}{\nonumberline List of Figures}{120}{chapter*.41}%
+\contentsline {chapter}{\nonumberline List of Tables}{123}{chapter*.42}%

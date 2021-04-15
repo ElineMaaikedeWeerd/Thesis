@@ -65,7 +65,7 @@ Bernal J.~L.,  Bellomo N.,  Raccanelli A.,   Verde L.,  2020, \mn@doi [JCAP]
   {10.1088/1475-7516/2020/10/017}, 10, 017
 
 \bibitem[\protect\citeauthoryear{Bernardeau, Colombi, Gaztañaga  \&
-  Scoccimarro}{Bernardeau et~al.}{2002}]{Bernardeau_2002}
+  Scoccimarro}{Bernardeau et~al.}{2002}]{Bernardeau:2001qr}
 Bernardeau F.,  Colombi S.,  Gaztañaga E.,   Scoccimarro R.,  2002, \mn@doi
   [Physics Reports] {10.1016/s0370-1573(02)00135-7}, 367, 1–248
 
@@ -94,10 +94,25 @@ Bertacca D.,  Bartolo N.,  Bruni M.,  Koyama K.,  Maartens R.,  Matarrese S.,
 Bertacca D.,  Raccanelli A.,  Bartolo N.,  Liguori M.,  Matarrese S.,   Verde
   L.,  2018, \mn@doi [Phys. Rev.] {10.1103/PhysRevD.97.023531}, D97, 023531
 
+\bibitem[\protect\citeauthoryear{Beutler, Castorina  \& Zhang}{Beutler
+  et~al.}{2019}]{Beutler:2018vpe}
+Beutler F.,  Castorina E.,   Zhang P.,  2019, \mn@doi [JCAP]
+  {10.1088/1475-7516/2019/03/040}, 03, 040
+
 \bibitem[\protect\citeauthoryear{Bharadwaj, Mazumdar  \& Sarkar}{Bharadwaj
   et~al.}{2020}]{Bharadwaj:2020wkc}
 Bharadwaj S.,  Mazumdar A.,   Sarkar D.,  2020, \mn@doi [Mon. Not. Roy. Astron.
   Soc.] {10.1093/mnras/staa279}, 493, 594
+
+\bibitem[\protect\citeauthoryear{Bolejko, Clarkson, Maartens, Bacon, Meures  \&
+  Beynon}{Bolejko et~al.}{2013}]{Bolejko:2012uj}
+Bolejko K.,  Clarkson C.,  Maartens R.,  Bacon D.,  Meures N.,   Beynon E.,
+  2013, \mn@doi [Phys. Rev. Lett.] {10.1103/PhysRevLett.110.021302}, 110,
+  021302
+
+\bibitem[\protect\citeauthoryear{Bonvin}{Bonvin}{2008}]{Bonvin:2008ni}
+Bonvin C.,  2008, \mn@doi [Phys. Rev. D] {10.1103/PhysRevD.78.123530}, 78,
+  123530
 
 \bibitem[\protect\citeauthoryear{Bonvin}{Bonvin}{2014}]{Bonvin:2014owa}
 Bonvin C.,  2014, \mn@doi [Class. Quant. Grav.]
@@ -107,6 +122,21 @@ Bonvin C.,  2014, \mn@doi [Class. Quant. Grav.]
   Durrer}{2011}]{Bonvin:2011bg}
 Bonvin C.,  Durrer R.,  2011, \mn@doi [Phys. Rev. D]
   {10.1103/PhysRevD.84.063505}, 84, 063505
+
+\bibitem[\protect\citeauthoryear{Bonvin \& Fleury}{Bonvin \&
+  Fleury}{2018}]{Bonvin:2018ckp}
+Bonvin C.,  Fleury P.,  2018, \mn@doi [JCAP] {10.1088/1475-7516/2018/05/061},
+  05, 061
+
+\bibitem[\protect\citeauthoryear{Bonvin, Hui  \& Gaztanaga}{Bonvin
+  et~al.}{2014}]{Bonvin:2013ogt}
+Bonvin C.,  Hui L.,   Gaztanaga E.,  2014, \mn@doi [Phys. Rev. D]
+  {10.1103/PhysRevD.89.083535}, 89, 083535
+
+\bibitem[\protect\citeauthoryear{Bonvin, Hui  \& Gaztanaga}{Bonvin
+  et~al.}{2016}]{Bonvin:2015kuc}
+Bonvin C.,  Hui L.,   Gaztanaga E.,  2016, \mn@doi [JCAP]
+  {10.1088/1475-7516/2016/08/021}, 08, 021
 
 \bibitem[\protect\citeauthoryear{Bruni, Crittenden, Koyama, Maartens, Pitrou
   \& Wands}{Bruni et~al.}{2012}]{Bruni:2011ta}
@@ -133,6 +163,11 @@ Camera S.,  Maartens R.,   Santos M.~G.,  2015b, \mn@doi [Mon. Not. Roy.
 Camera S.,  Fonseca J.,  Maartens R.,   Santos M.~G.,  2018, \mn@doi [Mon. Not.
   Roy. Astron. Soc.] {10.1093/mnras/sty2284}, 481, 1251
 
+\bibitem[\protect\citeauthoryear{Castorina \& White}{Castorina \&
+  White}{2018}]{Castorina:2017inr}
+Castorina E.,  White M.,  2018, \mn@doi [Mon. Not. Roy. Astron. Soc.]
+  {10.1093/mnras/sty410}, 476, 4403
+
 \bibitem[\protect\citeauthoryear{Celoria \& Matarrese}{Celoria \&
   Matarrese}{2020}]{Celoria:2018euj}
 Celoria M.,  Matarrese S.,  2020, \mn@doi [Proc. Int. Sch. Phys. Fermi]
@@ -142,6 +177,11 @@ Celoria M.,  Matarrese S.,  2020, \mn@doi [Proc. Int. Sch. Phys. Fermi]
   Lewis}{2011}]{Challinor:2011bk}
 Challinor A.,  Lewis A.,  2011, \mn@doi [Phys. Rev. D]
   {10.1103/PhysRevD.84.043516}, 84, 043516
+
+\bibitem[\protect\citeauthoryear{Chan \& Blot}{Chan \&
+  Blot}{2017}]{Chan:2016ehg}
+Chan K.~C.,  Blot L.,  2017, \mn@doi [Phys. Rev. D]
+  {10.1103/PhysRevD.96.023528}, 96, 023528
 
 \bibitem[\protect\citeauthoryear{Clarkson, de Weerd, Jolicoeur, Maartens  \&
   Umeh}{Clarkson et~al.}{2019}]{Clarkson:2018dwn}
@@ -215,10 +255,22 @@ Fonseca J.,  Maartens R.,   Santos M.~G.,  2018, \mn@doi [Mon. Not. Roy.
 Gagrani P.,  Samushia L.,  2017, \mn@doi [Mon. Not. Roy. Astron. Soc.]
   {10.1093/mnras/stx135}, 467, 928
 
+\bibitem[\protect\citeauthoryear{Gaztanaga, Bonvin  \& Hui}{Gaztanaga
+  et~al.}{2017}]{Gaztanaga:2015jrs}
+Gaztanaga E.,  Bonvin C.,   Hui L.,  2017, \mn@doi [JCAP]
+  {10.1088/1475-7516/2017/01/032}, 01, 032
+
 \bibitem[\protect\citeauthoryear{Giannantonio \& Porciani}{Giannantonio \&
   Porciani}{2010}]{Giannantonio:2009}
 Giannantonio T.,  Porciani C.,  2010, \mn@doi [Phys. Rev. D]
   {10.1103/PhysRevD.81.063530}, 81, 063530
+
+\bibitem[\protect\citeauthoryear{Gil-Marín, Percival, Verde, Brownstein,
+  Chuang, Kitaura, Rodríguez-Torres  \& Olmstead}{Gil-Marín
+  et~al.}{2017}]{Gil-Marin:2016wya}
+Gil-Marín H.,  Percival W.~J.,  Verde L.,  Brownstein J.~R.,  Chuang C.-H.,
+  Kitaura F.-S.,  Rodríguez-Torres S.~A.,   Olmstead M.~D.,  2017, \mn@doi
+  [Mon. Not. Roy. Astron. Soc.] {10.1093/mnras/stw2679}, 465, 1757
 
 \bibitem[\protect\citeauthoryear{Grimm, Scaccabarozzi, Yoo, Biern  \&
   Gong}{Grimm et~al.}{2020}]{Grimm:2020ays}
@@ -235,10 +287,20 @@ Hall A.,  Bonvin C.,  2017, \mn@doi [Phys. Rev. D]
 Hall A.,  Bonvin C.,   Challinor A.,  2013, \mn@doi [Phys. Rev. D]
   {10.1103/PhysRevD.87.064026}, 87, 064026
 
+\bibitem[\protect\citeauthoryear{Iršič, Di~Dio  \& Viel}{Iršič
+  et~al.}{2016}]{Irsic:2015nla}
+Iršič V.,  Di~Dio E.,   Viel M.,  2016, \mn@doi [JCAP]
+  {10.1088/1475-7516/2016/02/051}, 02, 051
+
 \bibitem[\protect\citeauthoryear{Jeong \& Komatsu}{Jeong \&
   Komatsu}{2009}]{Jeong:2009vd}
 Jeong D.,  Komatsu E.,  2009, \mn@doi [Astrophys. J.]
   {10.1088/0004-637X/703/2/1230}, 703, 1230
+
+\bibitem[\protect\citeauthoryear{Jeong \& Schmidt}{Jeong \&
+  Schmidt}{2020}]{Jeong:2019igb}
+Jeong D.,  Schmidt F.,  2020, \mn@doi [Phys. Rev. D]
+  {10.1103/PhysRevD.102.023530}, 102, 023530
 
 \bibitem[\protect\citeauthoryear{Jeong, Schmidt  \& Hirata}{Jeong
   et~al.}{2012}]{Jeong:2011as}
@@ -293,10 +355,25 @@ Kehagias A.,  Moradinezhad~Dizgah A.,  Nore\~na J.,  Perrier H.,   Riotto A.,
 Koyama K.,  Umeh O.,  Maartens R.,   Bertacca D.,  2018, \mn@doi [JCAP]
   {10.1088/1475-7516/2018/07/050}, 07, 050
 
+\bibitem[\protect\citeauthoryear{Lepori, Di~Dio, Villa  \& Viel}{Lepori
+  et~al.}{2018}]{Lepori:2017twd}
+Lepori F.,  Di~Dio E.,  Villa E.,   Viel M.,  2018, \mn@doi [JCAP]
+  {10.1088/1475-7516/2018/05/043}, 05, 043
+
+\bibitem[\protect\citeauthoryear{Lepori, Iršič, Di~Dio  \& Viel}{Lepori
+  et~al.}{2020}]{Lepori:2019cqp}
+Lepori F.,  Iršič V.,  Di~Dio E.,   Viel M.,  2020, \mn@doi [JCAP]
+  {10.1088/1475-7516/2020/04/006}, 04, 006
+
 \bibitem[\protect\citeauthoryear{Lewis, Challinor  \& Lasenby}{Lewis
   et~al.}{2000}]{Lewis:1999bs}
 Lewis A.,  Challinor A.,   Lasenby A.,  2000, \mn@doi [Astrophys. J.]
   {10.1086/309179}, 538, 473
+
+\bibitem[\protect\citeauthoryear{Liguori, Sefusatti, Fergusson  \&
+  Shellard}{Liguori et~al.}{2010}]{Liguori:2010hx}
+Liguori M.,  Sefusatti E.,  Fergusson J.~R.,   Shellard E. P.~S.,  2010,
+  \mn@doi [Adv. Astron.] {10.1155/2010/980523}, 2010, 980523
 
 \bibitem[\protect\citeauthoryear{Lopez-Honorez, Mena  \& Rigolin}{Lopez-Honorez
   et~al.}{2012}]{LopezHonorez:2011cy}
@@ -342,6 +419,26 @@ Moradinezhad~Dizgah A.,  Biagetti M.,  Sefusatti E.,  Desjacques V.,   Nore\~na
   et~al.}{2018}]{Nan:2017oaq}
 Nan Y.,  Yamamoto K.,   Hikage C.,  2018, \mn@doi [JCAP]
   {10.1088/1475-7516/2018/07/038}, 07, 038
+
+\bibitem[\protect\citeauthoryear{Oddo, Sefusatti, Porciani, Monaco  \&
+  S\'anchez}{Oddo et~al.}{2020}]{Oddo:2019run}
+Oddo A.,  Sefusatti E.,  Porciani C.,  Monaco P.,   S\'anchez A.~G.,  2020,
+  \mn@doi [JCAP] {10.1088/1475-7516/2020/03/056}, 03, 056
+
+\bibitem[\protect\citeauthoryear{Okoli, Scrimgeour, Afshordi  \& Hudson}{Okoli
+  et~al.}{2017}]{Okoli:2016vmd}
+Okoli C.,  Scrimgeour M.~I.,  Afshordi N.,   Hudson M.~J.,  2017, \mn@doi [Mon.
+  Not. Roy. Astron. Soc.] {10.1093/mnras/stx560}, 468, 2164
+
+\bibitem[\protect\citeauthoryear{Pan, Obreschkow, Howlett, Lagos, Elahi, Baugh
+  \& Gonzalez-Perez}{Pan et~al.}{2019}]{Pan:2019dxa}
+Pan H.,  Obreschkow D.,  Howlett C.,  Lagos C. d.~P.,  Elahi P.~J.,  Baugh C.,
+   Gonzalez-Perez V.,  2019
+
+\bibitem[\protect\citeauthoryear{Pozzetti et~al.,}{Pozzetti
+  et~al.}{2016}]{Pozzetti:2016cch}
+Pozzetti L.,  et~al., 2016, \mn@doi [Astron. Astrophys.]
+  {10.1051/0004-6361/201527081}, 590, A3
 
 \bibitem[\protect\citeauthoryear{Raccanelli, Bertacca, Dor\'e  \&
   Maartens}{Raccanelli et~al.}{2014}]{Raccanelli:2013dza}
@@ -398,11 +495,21 @@ Sefusatti E.,  Crocce M.,  Pueblas S.,   Scoccimarro R.,  2006, \mn@doi [Phys.
 Shirasaki M.,  Sugiyama N.~S.,  Takahashi R.,   Kitaura F.-S.,  2021, \mn@doi
   [Phys. Rev. D] {10.1103/PhysRevD.103.023506}, 103, 023506
 
+\bibitem[\protect\citeauthoryear{Smith et~al.,}{Smith
+  et~al.}{2003}]{Smith:2002dz}
+Smith R.~E.,  et~al., 2003, \mn@doi [Mon. Not. Roy. Astron. Soc.]
+  {10.1046/j.1365-8711.2003.06503.x}, 341, 1311
+
 \bibitem[\protect\citeauthoryear{Sugiyama, Saito, Beutler  \& Seo}{Sugiyama
   et~al.}{2018}]{Sugiyama:2018yzo}
 Sugiyama N.~S.,  Saito S.,  Beutler F.,   Seo H.-J.,  2018, \mn@doi [Monthly
   Notices of the Royal Astronomical Society] {10.1093/mnras/sty3249}, 484,
   364–384
+
+\bibitem[\protect\citeauthoryear{Sugiyama, Saito, Beutler  \& Seo}{Sugiyama
+  et~al.}{2020}]{Sugiyama:2019ike}
+Sugiyama N.~S.,  Saito S.,  Beutler F.,   Seo H.-J.,  2020, \mn@doi [Mon. Not.
+  Roy. Astron. Soc.] {10.1093/mnras/staa1940}, 497, 1684
 
 \bibitem[\protect\citeauthoryear{Tansella, Bonvin, Durrer, Ghosh  \&
   Sellentin}{Tansella et~al.}{2018}]{Tansella:2017rpi}

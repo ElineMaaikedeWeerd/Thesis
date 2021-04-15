@@ -19,6 +19,14 @@
 \contentsline {figure}{\numberline {5.8}{\ignorespaces Results for the reduced bispectrum \(Q_{\ell m}\), where \(\ell = 0 \ldots 3\) and negative \(m\) not shown. The multipoles \(\ell ,m\) are indicated on the figure, as well as the value of \(k_1\) which is kept fixed. The colourbar and different colours denote the ratio of \(k_2/k_1\), where the slightly thicker purple line is the isosceles triangle, which diverges as \(\theta \to \pi \) since there \(k_3\to 0\). \relax }}{65}{figure.caption.22}%
 \contentsline {figure}{\numberline {5.9}{\ignorespaces Total power contained in the relativistic bispectrum normalised by the Newtonian monopole as a function of redshift \(z\) ranging from 0.1 to 2. The three panels are the equilateral configuration (left, with \(\ell = 1\) vanishing), squeezed (middle) and co-linear flattened configuration (right). Solid lines for \(k = 0.1 \tmspace +\thinmuskip {.1667em} \mathrm {Mpc^{-1}}\), and dash-dotted for \(k = 0.01 \tmspace +\thinmuskip {.1667em} \mathrm {Mpc^{-1}}\).\relax }}{66}{figure.caption.23}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Relevant vectors and angles for the Fourier bispectrum.\relax }}{71}{figure.caption.24}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Clustering bias parameters ({\em left}), comoving volume and number density ({\em middle}) and RSD damping parameter ({\em right}). Points are the data from Table 1 in \cite {Yankelevich:2018uaz}.\relax }}{77}{figure.caption.25}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Magnification and evolution bias \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {q}\unskip \@@italiccorr )}}, \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {be}\unskip \@@italiccorr )}}.\relax }}{78}{figure.caption.26}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Relativistic SNR per $z$-bin ({\em left}) and cumulative ({\em right}) for a Stage IV $H\alpha $ survey.\relax }}{81}{figure.caption.28}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Effect of changing $k_{\mathrm {max}}$ on SNR per bin ({\em left}) and cumulative SNR ({\em right}).\relax }}{82}{figure.caption.29}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces {Effect of changing $k_{\mathrm {min}}$ on total relativistic SNR.} \relax }}{83}{figure.caption.30}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces As in Fig.\nobreakspace {}\ref {fig4}, but showing the effect of omitting the second-order relativistic contribution \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {2oc}\unskip \@@italiccorr )}} to the bispectrum (dot-dashed curves).\relax }}{84}{figure.caption.31}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Marginal errors (cumulative) on the relativistic contribution, growth index and clustering amplitude, using the full bispectrum.\relax }}{85}{figure.caption.32}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
@@ -27,4 +35,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {G.1}{\ignorespaces Effect on {total} relativistic SNR of changing number of $\varphi $ and $\mu _1$ bins. \relax }}{112}{figure.caption.36}%
+\contentsline {figure}{\numberline {G.2}{\ignorespaces Effect of changing ${\cal Q}$ and $b_e$ on relativistic cumulative SNR.\relax }}{113}{figure.caption.38}%
 \addvspace {10\p@ }
