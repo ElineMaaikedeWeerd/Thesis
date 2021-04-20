@@ -342,6 +342,8 @@ INPUT fig/gamma_sigma8_AD-eps-converted-to.pdf
 OUTPUT tex/snr_ska.aux
 INPUT tex/snr_ska.tex
 INPUT tex/snr_ska.tex
+INPUT fig/HIBias.pdf
+INPUT fig/THI.pdf
 OUTPUT tex/fishers.aux
 INPUT tex/fishers.tex
 INPUT tex/fishers.tex

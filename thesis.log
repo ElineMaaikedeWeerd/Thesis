@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.10.22)  15 APR 2021 16:57
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.10.22)  20 APR 2021 14:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -621,42 +621,44 @@ LaTeX Info: Redefining \GenericWarning on input line 433.
 \sl@TempBOE=\toks29
 \sl@BankOfErrors=\toks30
 LaTeX Info: Redefining \GenericError on input line 601.
-) (./thesis.aux
+)
+LaTeX Info: Redefining \tt on input line 115.
+ (./thesis.aux
 (./tex/abstract.aux) (./tex/acknowledgements.aux) (./tex/introgeneral.aux)
 (./tex/introbisp.aux) (./tex/png_bisp.aux) (./tex/dipole.aux)
 (./tex/multipoles.aux) (./tex/snr_euclid.aux) (./tex/snr_ska.aux)
 (./tex/fishers.aux) (./tex/appendix.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 183.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 187.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-83.
+87.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-Package scrbase Info: activating english \contentsname on input line 183.
-Package scrbase Info: activating english \listfigurename on input line 183.
-Package scrbase Info: activating english \listtablename on input line 183.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+Package scrbase Info: activating english \contentsname on input line 187.
+Package scrbase Info: activating english \listfigurename on input line 187.
+Package scrbase Info: activating english \listtablename on input line 187.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -698,57 +700,57 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 183.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 183.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 183.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 183.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 183.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 183.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 183.
-LaTeX Font Info:    Redeclaring math accent \check on input line 183.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 183.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 183.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 183.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 183.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 183.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 183.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 183.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 183.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 183.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 183.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 183.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 183.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 183.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 183.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 183.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 183.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 187.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 187.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 187.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 187.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 187.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 187.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 187.
+LaTeX Font Info:    Redeclaring math accent \check on input line 187.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 187.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 187.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 187.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 187.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 183.
+(Font)              `operators' in the math version `normal' on input line 187.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 183.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 187.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 183.
+(Font)              `operators' in the math version `bold' on input line 187.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 183.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 187.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 183.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 187.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 183.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 187.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 183.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 187.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 183.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 187.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 183.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 187.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 183.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 187.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 183.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 187.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 183.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 187.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 183.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 187.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -762,7 +764,7 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box64
-Package hyperref Info: Link coloring OFF on input line 183.
+Package hyperref Info: Link coloring OFF on input line 187.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -775,9 +777,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count328
 )
-LaTeX Info: Redefining \ref on input line 183.
-LaTeX Info: Redefining \pageref on input line 183.
-LaTeX Info: Redefining \nameref on input line 183.
+LaTeX Info: Redefining \ref on input line 187.
+LaTeX Info: Redefining \pageref on input line 187.
+LaTeX Info: Redefining \nameref on input line 187.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write3
@@ -790,7 +792,7 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           `bookmarkpackage=false' before \begin{document} and
 (scrreprt)           you can avoid this message adding:
 (scrreprt)             \usepackage{bookmark}
-(scrreprt)           before \begin{document} on input line 183.
+(scrreprt)           before \begin{document} on input line 187.
 
 (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2019/12/03 v1.28 PDF bookmarks (HO)
@@ -799,21 +801,21 @@ Package: bookmark 2019/12/03 v1.28 PDF bookmarks (HO)
 File: bkm-dvipdfm.def 2019/12/03 v1.28 bookmark driver for dvipdfm (HO)
 \BKM@id=\count329
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 183
+LaTeX Font Info:    Trying to load font information for U+msa on input line 187
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 183
+LaTeX Font Info:    Trying to load font information for U+msb on input line 187
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Package hyperref Info: Option `pageanchor' set `false' on input line 184.
+Package hyperref Info: Option `pageanchor' set `false' on input line 188.
  (./tex/title.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 187--187
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
 
  []
 
@@ -827,22 +829,22 @@ File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 187--187
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--187
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--187
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--187
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
 
  []
 
@@ -870,40 +872,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 187--187
 
 
 ]
-Overfull \hbox (1.66797pt too wide) detected at line 47
+Overfull \hbox (1.66797pt too wide) detected at line 48
  \TU/lmr/bx/n/12 103
  []
 
 
-Overfull \hbox (1.66797pt too wide) detected at line 48
- \TU/lmr/bx/n/12 110
- []
-
-
 Overfull \hbox (1.66797pt too wide) detected at line 49
- \TU/lmr/bx/n/12 111
+ \TU/lmr/bx/n/12 105
  []
 
 
 Overfull \hbox (1.66797pt too wide) detected at line 50
- \TU/lmr/bx/n/12 114
+ \TU/lmr/bx/n/12 109
  []
 
 
 Overfull \hbox (1.66797pt too wide) detected at line 51
- \TU/lmr/bx/n/12 120
+ \TU/lmr/bx/n/12 116
  []
 
 
 Overfull \hbox (1.66797pt too wide) detected at line 52
- \TU/lmr/bx/n/12 123
+ \TU/lmr/bx/n/12 117
+ []
+
+
+Overfull \hbox (1.66797pt too wide) detected at line 53
+ \TU/lmr/bx/n/12 120
+ []
+
+
+Overfull \hbox (1.66797pt too wide) detected at line 54
+ \TU/lmr/bx/n/12 126
+ []
+
+
+Overfull \hbox (1.66797pt too wide) detected at line 55
+ \TU/lmr/bx/n/12 130
  []
 
 )
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
 
-Package hyperref Info: Option `pageanchor' set `true' on input line 209.
+Package hyperref Info: Option `pageanchor' set `true' on input line 213.
  [4]
 \openout2 = `tex/introgeneral.aux'.
 
@@ -1233,16 +1245,35 @@ File: fig/gamma_sigma8_AD-eps-converted-to.pdf Graphic file (type pdf)
 
 (./tex/snr_ska.tex
 chapter 7.
-) [88
+[88
 
 
 
-]
+] [89] [90]
+Overfull \hbox (41.24144pt too wide) detected at line 91
+[]
+ []
+
+File: fig/HIBias.pdf Graphic file (type pdf)
+<use fig/HIBias.pdf>
+File: fig/THI.pdf Graphic file (type pdf)
+<use fig/THI.pdf>
+[91] [92]
+Overfull \hbox (22.25328pt too wide) detected at line 141
+[]
+ []
+
+
+Overfull \hbox (35.53535pt too wide) detected at line 157
+[]
+ []
+
+[93]) [94]
 \openout2 = `tex/fishers.aux'.
 
  (./tex/fishers.tex
 chapter 8.
-) [89
+) [95
 
 
 
@@ -1256,26 +1287,26 @@ Overfull \hbox (65.27815pt too wide) detected at line 58
 []
  []
 
-[90
+[96
 
 
 
-] [91]) [92]
+] [97]) [98]
 chapter B.
-(./tex/app_betatables.tex [93
+(./tex/app_betatables.tex [99
 
-] [94]
+] [100]
 Overfull \hbox (153.99956pt too wide) detected at line 223
 []
  []
 
-[95]) [96]
+[101]) [102]
 chapter C.
-(./tex/app_upsiloncoeff.tex [97
+(./tex/app_upsiloncoeff.tex [103
 
-]) [98]
+]) [104]
 chapter D.
-(./tex/app_sumderiv.tex [99
+(./tex/app_sumderiv.tex [105
 
 ]
 Overfull \hbox (74.27547pt too wide) detected at line 32
@@ -1295,7 +1326,7 @@ Overfull \hbox (154.44664pt too wide) detected at line 52
 []
  []
 
-[100]
+[106]
 Overfull \hbox (144.04451pt too wide) detected at line 75
 []
  []
@@ -1305,7 +1336,7 @@ Overfull \hbox (53.80646pt too wide) detected at line 81
 []
  []
 
-[101]
+[107]
 Overfull \hbox (144.34187pt too wide) detected at line 86
 []
  []
@@ -1315,38 +1346,38 @@ Overfull \hbox (117.42007pt too wide) detected at line 95
 []
  []
 
-) [102]
+) [108]
 chapter E.
 (./tex/app_kabpres.tex
 Overfull \hbox (24.22433pt too wide) detected at line 38
 []
  []
 
-[103
+[109
 
-] [104]
+] [110]
 Overfull \hbox (106.37213pt too wide) detected at line 77
 []
  []
 
-[105]
+[111]
 Overfull \hbox (104.08089pt too wide) detected at line 109
 []
  []
 
-[106]
+[112]
 Overfull \hbox (141.72049pt too wide) detected at line 132
 []
  []
 
-[107] [108]) [109]
+[113] [114]) [115]
 chapter F.
 (./tex/app_sqlim.tex
 Overfull \hbox (108.90007pt too wide) detected at line 33
 []
  []
 
-) [110
+) [116
 
 ]
 chapter G.
@@ -1365,44 +1396,44 @@ File: fig/cumulativeSnrdopplerQ1_5-eps-converted-to.pdf Graphic file (type pdf)
 File: fig/cumulativeSnrdopplerQ2_0-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/cumulativeSnrdopplerQ2_0-eps-converted-to.pdf>
- [111
+ [117
 
 ]
 Overfull \hbox (84.03271pt too wide) detected at line 72
 []
  []
 
-)) [112] [113] (./thesis.bbl
+)) [118] [119] (./thesis.bbl
 chapter without number
-[114
+[120
 
 
-] [115] [116] [117] [118]) [119] (./thesis.lof [120
+] [121] [122] [123] [124]) [125] (./thesis.lof [126
 
-] [121])
+] [127])
 \tf@lof=\write5
 \openout5 = `thesis.lof'.
 
- [122]
+ [128] [129]
 (./thesis.lot)
 \tf@lot=\write6
 \openout6 = `thesis.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 259.
- [123
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 263.
+ [130
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 259.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 263.
  (./thesis.aux (./tex/abstract.aux)
 (./tex/acknowledgements.aux) (./tex/introgeneral.aux) (./tex/introbisp.aux)
 (./tex/png_bisp.aux) (./tex/dipole.aux) (./tex/multipoles.aux)
 (./tex/snr_euclid.aux) (./tex/snr_ska.aux) (./tex/fishers.aux)
 (./tex/appendix.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 259.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 259.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 263.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 263.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 259.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 263.
  )
 (\end occurred inside a group at level 4)
 
@@ -1412,12 +1443,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 259.
 ### simple group (level 1) entered at line 208 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 21911 strings out of 479819
- 437938 string characters out of 5895845
- 879566 words of memory out of 5000000
- 38581 multiletter control sequences out of 15000+600000
+ 21986 strings out of 479819
+ 439221 string characters out of 5895845
+ 882053 words of memory out of 5000000
+ 38654 multiletter control sequences out of 15000+600000
  549795 words of font info for 124 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  52i,15n,76p,10102b,1479s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (129 pages, 1973928 bytes).
+Output written on thesis.xdv (136 pages, 2115988 bytes).

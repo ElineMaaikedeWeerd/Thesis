@@ -111,6 +111,9 @@ a4paper %letterpaper
   \addtocontents{toc}{
     \let\protect\numberline\protect\appendix@numberline}%
 }
+
+\DeclareOldFontCommand{\tt}{\normalfont\ttfamily}{\mathtt} %redeclare old \tt command used in bibliography style (arxiv font I think?)
+
 \makeatother
 %end dodgy addition
 
@@ -162,6 +165,7 @@ a4paper %letterpaper
 \renewcommand{\in}{{\mathrm{in}}}
 \newcommand{\on}{(1)}
 \newcommand{\tw}{(2)}
+\newcommand{\hi}{{\mathrm{HI}}}
 %
 %colours:
 \newcommand{\red}[1]{{\color{red}{#1}}}
@@ -226,7 +230,7 @@ a4paper %letterpaper
 \include{tex/snr_ska}
 %
 \include{tex/fishers}
-% \include{tex/chapter_2}
+% 
 \include{tex/appendix}
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % 
