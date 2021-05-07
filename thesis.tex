@@ -13,11 +13,13 @@ bibliography=totoc, % Include bibliography in contents
 listof = totoc, % Include lists of figures and tables in contents
 index= totoc, % Include index in contents
 onehalfspacing, % onehalfspacing or doublespacing
-a4paper %letterpaper
+a4paper, %letterpaper
+parskip= half % vertical space instead of indentation for paragr
 % doublespacing
 %,openright
 ]
 {icldt}
+
 
 \usepackage{graphicx}
 
@@ -72,6 +74,7 @@ a4paper %letterpaper
 \usepackage[title]{appendix}
 \usepackage{hyperref}
 \usepackage{silence}
+
 
 % \hypersetup{colorlinks = true, linkcolor=blue}
             
@@ -219,18 +222,20 @@ a4paper %letterpaper
 %
 \include{tex/introbisp}
 %
-\include{tex/png_bisp}
-%
 \include{tex/dipole}
-%
-\include{tex/multipoles}
 %
 \include{tex/snr_euclid}
 %
 \include{tex/snr_ska}
 %
+\include{tex/multipoles}
+%
+\include{tex/png_bisp}
+%
 \include{tex/fishers}
 % 
+%include{Summary}
+%
 \include{tex/appendix}
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % 

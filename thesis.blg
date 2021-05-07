@@ -6,11 +6,11 @@ A level-1 auxiliary file: tex/abstract.aux
 A level-1 auxiliary file: tex/acknowledgements.aux
 A level-1 auxiliary file: tex/introgeneral.aux
 A level-1 auxiliary file: tex/introbisp.aux
-A level-1 auxiliary file: tex/png_bisp.aux
 A level-1 auxiliary file: tex/dipole.aux
-A level-1 auxiliary file: tex/multipoles.aux
 A level-1 auxiliary file: tex/snr_euclid.aux
 A level-1 auxiliary file: tex/snr_ska.aux
+A level-1 auxiliary file: tex/multipoles.aux
+A level-1 auxiliary file: tex/png_bisp.aux
 A level-1 auxiliary file: tex/fishers.aux
 A level-1 auxiliary file: tex/appendix.aux
 Database file #1: bib/thesis_bib.bib
