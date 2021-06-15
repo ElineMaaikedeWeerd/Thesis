@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.10.22)  7 MAY 2021 09:54
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.10.22)  15 JUN 2021 08:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -872,47 +872,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 194--194
 
 
 ]
-Overfull \hbox (1.66797pt too wide) detected at line 47
+Overfull \hbox (1.66797pt too wide) detected at line 48
  \TU/lmr/bx/n/12 101
  []
 
 
-Overfull \hbox (1.66797pt too wide) detected at line 48
+Overfull \hbox (1.66797pt too wide) detected at line 49
  \TU/lmr/bx/n/12 105
  []
 
 
-Overfull \hbox (1.66797pt too wide) detected at line 49
+Overfull \hbox (1.66797pt too wide) detected at line 50
  \TU/lmr/bx/n/12 107
  []
 
 
-Overfull \hbox (1.66797pt too wide) detected at line 50
+Overfull \hbox (1.66797pt too wide) detected at line 51
  \TU/lmr/bx/n/12 111
  []
 
 
-Overfull \hbox (1.66797pt too wide) detected at line 51
+Overfull \hbox (1.66797pt too wide) detected at line 52
  \TU/lmr/bx/n/12 118
  []
 
 
-Overfull \hbox (1.66797pt too wide) detected at line 52
+Overfull \hbox (1.66797pt too wide) detected at line 53
  \TU/lmr/bx/n/12 119
  []
 
 
-Overfull \hbox (1.66797pt too wide) detected at line 53
+Overfull \hbox (1.66797pt too wide) detected at line 54
  \TU/lmr/bx/n/12 122
  []
 
 
-Overfull \hbox (1.66797pt too wide) detected at line 54
+Overfull \hbox (1.66797pt too wide) detected at line 55
  \TU/lmr/bx/n/12 128
  []
 
 
-Overfull \hbox (1.66797pt too wide) detected at line 55
+Overfull \hbox (1.66797pt too wide) detected at line 56
  \TU/lmr/bx/n/12 132
  []
 
@@ -949,27 +949,27 @@ chapter 3.
 
 
 ] [4] [5]
-Overfull \hbox (104.66206pt too wide) detected at line 92
+Overfull \hbox (104.66206pt too wide) detected at line 101
 []
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 92--92
-[] 
- []
-
-
-Overfull \hbox (401.84897pt too wide) detected at line 106
-[]
- []
-
-
-Overfull \hbox (12.0pt too wide) in paragraph at lines 106--106
+Overfull \hbox (12.0pt too wide) in paragraph at lines 101--101
 [] 
  []
 
 [6]
-Overfull \hbox (133.98512pt too wide) detected at line 142
+Overfull \hbox (401.84897pt too wide) detected at line 115
+[]
+ []
+
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 115--115
+[] 
+ []
+
+[7]
+Overfull \hbox (133.98512pt too wide) detected at line 151
 [][] [] []\OT1/cmr/m/n/12 
 ([]\OML/cmm/m/it/12 ^^V[]\OT1/cmr/m/n/12 )[]([]\OML/cmm/m/it/12 ^^V[]\OT1/cmr/m
 /n/12 )[]\OML/cmm/m/it/12 Y[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 ^^N[][] [] \OT
@@ -977,12 +977,12 @@ Overfull \hbox (133.98512pt too wide) detected at line 142
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--145
+Underfull \hbox (badness 10000) in paragraph at lines 151--154
 
  []
 
-[7]
-Overfull \hbox (31.02753pt too wide) in paragraph at lines 177--181
+[8]
+Overfull \hbox (31.02753pt too wide) in paragraph at lines 186--190
 \TU/lmr/m/n/12 the squeezed limit of the cyclic sum [], the terms $\OMS/cmsy/m/
 n/12 K[]\OT1/cmr/m/n/12 (\OML/cmm/b/it/12 k[]\OML/cmm/m/it/12 ; \OML/cmm/b/it/1
 2 k[]\OML/cmm/m/it/12 ; \OML/cmm/b/it/12 k[]\OT1/cmr/m/n/12 )$ \TU/lmr/m/n/12 a
@@ -990,12 +990,11 @@ nd $\OMS/cmsy/m/n/12 K[]\OT1/cmr/m/n/12 (\OML/cmm/b/it/12 k[]\OML/cmm/m/it/12 ;
  \OML/cmm/b/it/12 k[]\OML/cmm/m/it/12 ; \OML/cmm/b/it/12 k[]\OT1/cmr/m/n/12 )$
  []
 
-[8]
 File: fig/figuresv2-02.png Graphic file (type bmp)
 <fig/figuresv2-02.png>
 File: fig/figuresv2-01.png Graphic file (type bmp)
 <fig/figuresv2-01.png>
- [9] [10] [11] [12]) [13]
+[9] [10] [11] [12]) [13]
 \openout2 = `tex/snr_euclid.aux'.
 
  (./tex/snr_euclid.tex
@@ -1109,7 +1108,7 @@ chapter 6.
 
 
 ] [41] [42]
-Overfull \hbox (9.34601pt too wide) detected at line 36
+Overfull \hbox (9.34601pt too wide) detected at line 38
 [][]\OML/cmm/m/it/12 B[]\OT1/cmr/m/n/12 (\OML/cmm/b/it/12 k[]\OML/cmm/m/it/12 ;
  \OML/cmm/b/it/12 k[]\OML/cmm/m/it/12 ; \OML/cmm/b/it/12 k[]\OT1/cmr/m/n/12 ) =
  \OMS/cmsy/m/n/12 K[]\OT1/cmr/m/n/12 (\OML/cmm/b/it/12 k[]\OT1/cmr/m/n/12 )\OMS
@@ -1121,22 +1120,22 @@ t/12 k[]\OML/cmm/m/it/12 ; \OML/cmm/b/it/12 k[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/1
  []
 
 [43] [44]
-Overfull \hbox (80.45651pt too wide) detected at line 94
+Overfull \hbox (80.45651pt too wide) detected at line 96
 []
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 94--94
+Overfull \hbox (12.0pt too wide) in paragraph at lines 96--96
 [] 
  []
 
 [45]
-Overfull \hbox (23.1548pt too wide) detected at line 115
+Overfull \hbox (23.1548pt too wide) detected at line 117
 []
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 115--115
+Overfull \hbox (12.0pt too wide) in paragraph at lines 117--117
 [] 
  []
 
@@ -1144,17 +1143,17 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 115--115
 File: fig/fig.pdf Graphic file (type pdf)
 <use fig/fig.pdf>
  [47] [48]
-Overfull \hbox (69.51956pt too wide) detected at line 239
+Overfull \hbox (69.51956pt too wide) detected at line 241
 []
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 239--239
+Overfull \hbox (12.0pt too wide) in paragraph at lines 241--241
 [] 
  []
 
 [49]
-Overfull \hbox (23.3999pt too wide) detected at line 271
+Overfull \hbox (23.3999pt too wide) detected at line 273
 [][]\OMS/cmsy/m/n/12 K[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 K[]\OT1/cmr/m/n/12 
 (\OML/cmm/m/it/12 k[]; ^^V[]\OT1/cmr/m/n/12 )\OMS/cmsy/m/n/12 K[]\OT1/cmr/m/n/1
 2 (\OML/cmm/m/it/12 k[]; ^^V[]\OT1/cmr/m/n/12 )\OMS/cmsy/m/n/12 K[]\OT1/cmr/m/n
@@ -1165,7 +1164,7 @@ ML/cmm/m/it/12 ^^V[]\OT1/cmr/m/n/12 )[]([]\OML/cmm/m/it/12 ^^V[]\OT1/cmr/m/n/12
  []
 
 [50]
-Overfull \hbox (30.90886pt too wide) in paragraph at lines 280--281
+Overfull \hbox (30.90886pt too wide) in paragraph at lines 282--283
 []\TU/lmr/m/n/12 To present $\OMS/cmsy/m/n/12 K[]\OT1/cmr/m/n/12 (\OML/cmm/m/it
 /12 k[]; k[]; k[]\OT1/cmr/m/n/12 )$ \TU/lmr/m/n/12 we will show powers of $\OMS
 /cmsy/m/n/12 H\OT1/cmr/m/n/12 /\OML/cmm/m/it/12 k$ \TU/lmr/m/n/12 separately, a
@@ -1174,22 +1173,22 @@ T1/cmr/m/n/12 ) =
  []
 
 [51]
-Overfull \hbox (37.66858pt too wide) detected at line 373
+Overfull \hbox (37.66858pt too wide) detected at line 375
 []
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 373--373
+Overfull \hbox (12.0pt too wide) in paragraph at lines 375--375
 [] 
  []
 
 [52]
-Overfull \hbox (228.35103pt too wide) detected at line 439
+Overfull \hbox (228.35103pt too wide) detected at line 441
 []
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 439--439
+Overfull \hbox (12.0pt too wide) in paragraph at lines 441--441
 [] 
  []
 
@@ -1197,7 +1196,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 439--439
 File: fig/overview.pdf Graphic file (type pdf)
 <use fig/overview.pdf>
  [54]
-Overfull \hbox (215.4458pt too wide) detected at line 486
+Overfull \hbox (215.4458pt too wide) detected at line 488
 [][] [] \OT1/cmr/m/n/12 + []
  []
 
@@ -1573,15 +1572,15 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 268.
 ### simple group (level 4) entered at line 338 ({)
 ### simple group (level 3) entered at line 288 ({)
 ### simple group (level 2) entered at line 208 ({)
-### simple group (level 1) entered at line 461 ({)
+### simple group (level 1) entered at line 463 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 21987 strings out of 479819
- 439236 string characters out of 5895845
- 882107 words of memory out of 5000000
- 38655 multiletter control sequences out of 15000+600000
+ 21988 strings out of 479819
+ 439242 string characters out of 5895845
+ 882097 words of memory out of 5000000
+ 38656 multiletter control sequences out of 15000+600000
  549795 words of font info for 124 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  52i,15n,76p,10102b,1464s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (138 pages, 2134040 bytes).
+Output written on thesis.xdv (138 pages, 2155388 bytes).
