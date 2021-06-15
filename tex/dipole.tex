@@ -1,26 +1,21 @@
 \chapter{Dipole of the Galaxy Bispectrum}
 \label{chapter:dipole}
 
-\subsection{Introduction to the dipole}
+\section{Introduction to the dipole}
 
 The bispectrum will be crucial in next-generation large scale structure surveys, as it contains information that is both complementary and additional to what is contained in the power spectrum. As a non-Gaussian statistic it is well-suited to detect and constrain primordial non-Gaussianity, a key goal of next-generation surveys, and hence can help discriminate between various theories of inflation and other theories of the early universe.
 
 On cosmological scales, observations on the past light-cone induce relativistic corrections to the observed bispectrum of galaxies. As theoretical accuracy must at least match experimental precision, it is crucial for these effects to be included in the analysis of the Fourier-space bispectrum. The inclusion of redshift-space distortions (RSD) in the bispectrum is therefore essential~\citep{Verde:1998zr,Scoccimarro:1999ed}. This will add complexity, but means that more information can potentially be extracted~\citep{Tellarini:2016sgp}.
 
-In this chapter we examine the leading-order relativistic contributions in the galaxy bispectrum, which arive predominantly from RSD and other Doppler-type observational effects. In this chapter we will discuss the dominant relativitistic effects that contribute to the galaxy bispenctrum, that is, 
+In this chapter we examine the leading-order relativistic contributions in the galaxy bispectrum, which arive predominantly from RSD and other Doppler-type observational effects. These give rise to corrections at $\ord(\cH/k)$ in the galaxy bispecrum.
 
 
-The bispectrum provides an increasingly important probe of large-scale structure, complementing the information in the power spectrum and improving constraints on cosmological parameters. It has the potential to detect primordial non-Gaussianity, a key goal of large-scale galaxy surveys. The inclusion of redshift space distortions (RSD) in the bispectrum is essential for this purpose
-\citep{Verde:1998zr,Scoccimarro:1999ed}. Though this adds complexity, this means that more information can potentially be extracted~\citep{Tellarini:2016sgp}.
-
-The dominant RSD effect on galaxy number counts at first order is given by $\delta_g(\k) = (b_{1} + f\mu^{2})\delta(\k)$, where $\mu=\n\cdot\hat{\k}$, with $\n$ the line of sight direction, $f$ the growth rate, and $b_1$ is the linear bias (we omit the dependence on redshift here and below for convenience). The leading correction to this effect is a Doppler term~\citep{Kaiser:1987qv,McDonald:2009dh,Challinor:2011bk} (see also \citet{Raccanelli:2016avd,Hall:2016bmm,Abramo:2017xnp})
+The dominant RSD effect on galaxy number counts at first order is given by $\delta_g(z,\k) = (b_{1}(z) + f (z) \mu^{2})\delta(z,\k)$, where $\mu=\n\cdot\hat{\k}$, with $\n$ the line of sight direction, $f$ the growth rate, and $b_1$ is the linear bias. Henceforth the redshift dependence will be dropped for brevity as we are working at fixed redshift. At leading order, there is a Doppler type correction to this effect~\citep{Kaiser:1987qv,McDonald:2009dh,Challinor:2011bk} (see also \citet{Raccanelli:2016avd,Hall:2016bmm,Abramo:2017xnp})
 proportional to $\bm{v}\cdot\n$, where $\bm{v}$ is the peculiar velocity:\footnote{\citet{Challinor:2011bk} provides the relativistic correction to the coefficient of  $\bm{v}\cdot\n$ given in \citet{Kaiser:1987qv,McDonald:2009dh}.}
 \begin{equation} \label{dopf}
 \delta_g(\x) = b_{1} \delta(\x)-{\frac{1}{\cH}}\partial_r(\bm{v}\cdot\n) +{A}\,\bm{v}\cdot\n ~~\to~~
 \end{equation}
 \begin{equation} \delta_g(\k)=\Big(b_1+f\mu^2+\i {A}\,f \mu{\frac{\cH}{k}}\Big)\delta(\k)\,,\label{dopf2}
-%\\
-% {A} &=& {b_{\rm e}+{3\over2}\Omega_m -3 + (2-5s) \Big(1-{1\over r\cH} \Big)}\,.
 \end{equation}
 where  ${A} = {b_{\textrm{e}}+{3}\Omega_m/2 -3 + (2-5s) (1-{1/ r\cH} )}$.
 Here  $b_{\textrm{e}}=\partial (a^3 \bar{n}_g)/\partial \ln a$ is the evolution of comoving galaxy number density, $s=-(2/5)\partial \ln \bar{n}_g/\partial \ln L$ is the magnification bias ($L$ is the threshold luminosity), $r$ is the comoving radial distance ($\partial_r=\bm n\cdot\bm\nabla$) and we have assumed a $\Lambda$CDM background
@@ -28,14 +23,13 @@ Here  $b_{\textrm{e}}=\partial (a^3 \bar{n}_g)/\partial \ln a$ is the evolution 
 %(We use the plane parallel approximation throughout, so for very large scales wide angle effects need to be included.)
 
 
-
-Although the galaxy density contrast \eqref{dopf2} is complex, the power spectrum is real:
+Although the galaxy density contrast \eqref{dopf2} is complex, the power spectrum of a single tracer is real:
 \begin{equation}
 \big\langle \delta_g(\k)\delta_g(-\k)\big\rangle
 =\Big[ \big(b_{1} + f\mu^{2}\big)^2+\Big(A\,f \mu \frac{\cH}{k}\Big)^2\Big] \big\langle \delta(\k)\delta(-\k)\big\rangle \,,\nonumber
 \end{equation}
 since $\mu_{-\k}=-\mu_{\k}$ enforces a cancellation of the imaginary part, and the RSD contribution is separate from the Doppler term.
-  However, if we consider the cross-power spectrum for {\em two} matter tracers, this cancellation breaks down
+However, if we consider the cross-power spectrum for {\em two} matter tracers, this cancellation breaks down
 %  , {since the correlator $\langle \delta_g(\k)\delta_{\tilde g}(-\k)\rangle$ is no longer an even function of $\mu$.} Then 
 and  there is an imaginary part in the cross-power~ \citep{McDonald:2009dh,Bonvin:2014owa}:
 \begin{align}
@@ -43,7 +37,7 @@ P_{g \tilde g}(k)&= \Big\{\Big[ \big(b_{1} + f\mu^{2}\big)\big(\tilde b_{1} + f\
 &
 +\i f\mu\Big[\big(\tilde b_{1} + f\mu^{2}\big)A-\big(b_{1} + f\mu^{2}\big)\tilde A\Big]{\frac{\cH}{k}} \Big\}P(k) \,.\nonumber
 \end{align}
-While the Doppler contribution to $P_g$ is $O((\cH/k)^{2})$,  the Doppler contribution to $P_{g\tilde g}$ mixes with the density and RSD to give an additional less suppressed part, i.e. $O(\cH/k)$. The nonzero multipoles of $P_g$ are $\ell=0,2,4$, whereas  $P_{g \tilde g}$ has a nonzero dipole (as well as an octupole).  There are also further relativistic corrections to this dipole part of the cross power spectrum~\citep{DiDio:2018zmk}.
+While the Doppler contribution to $P_g$ is $\ord((\cH/k)^{2})$,  the Doppler contribution to $P_{g\tilde g}$ mixes with the density and RSD to give an additional less suppressed part, i.e. $\ord(\cH/k)$. The nonzero multipoles of $P_g$ are $\ell=0,2,4$, whereas  $P_{g \tilde g}$ has a nonzero dipole (as well as a smaller octupole).  There are also further relativistic corrections to this dipole part of the cross power spectrum~\citep{DiDio:2018zmk}.
 
 
 A natural question is: what about the galaxy bispectrum? In the standard `Newtonian' approximation, with only RSD, the galaxy bispectrum for a single tracer at fixed redshift has no dipole, and only has even multipoles~\citep{Scoccimarro:1999ed,Nan:2017oaq}. But
