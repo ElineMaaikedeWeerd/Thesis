@@ -5,7 +5,8 @@ The style file: mnras.bst
 A level-1 auxiliary file: tex/abstract.aux
 A level-1 auxiliary file: tex/acknowledgements.aux
 A level-1 auxiliary file: tex/introgeneral.aux
-A level-1 auxiliary file: tex/introbisp.aux
+A level-1 auxiliary file: tex/introreleff.aux
+A level-1 auxiliary file: tex/intro_clusteringstat.aux
 A level-1 auxiliary file: tex/dipole.aux
 A level-1 auxiliary file: tex/snr_euclid.aux
 A level-1 auxiliary file: tex/snr_ska.aux
@@ -67,7 +68,7 @@ Warning--empty journal in Villumsen:1995ar
 while executing---line 1822 of file mnras.bst
 You've used 134 entries,
             2881 wiz_defined-function locations,
-            1765 strings with 35711 characters,
+            1766 strings with 35741 characters,
 and the built_in function-call counts, 68022 in all, are:
 = -- 5610
 > -- 5328
