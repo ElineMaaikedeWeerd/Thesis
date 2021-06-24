@@ -12,7 +12,7 @@
 \contentsline {subsection}{\numberline {3.2.3}Galaxy bias}{4}{subsection.3.2.3}% 
 \contentsline {subsection}{\numberline {3.2.4}Primordial non-Gaussianity}{4}{subsection.3.2.4}% 
 \contentsline {chapter}{\numberline {4}Dipole of the Galaxy Bispectrum}{5}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Introduction to the dipole}{5}{section.4.1}% 
+\contentsline {section}{\numberline {4.1}The dipole}{5}{section.4.1}% 
 \contentsline {section}{\numberline {4.2}Relativistic contributions to the galaxy bispectrum}{7}{section.4.2}% 
 \contentsline {section}{\numberline {4.3}Extracting the dipole}{9}{section.4.3}% 
 \contentsline {section}{\numberline {4.4}Squeezed, equilateral and flattened limits}{10}{section.4.4}% 
