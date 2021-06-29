@@ -5,7 +5,20 @@ Relativistic effects in galaxy number counts at first and second order
 
 Observations in large scale structure surveys pose a variety of challenges. As opposed to CMB observations, in which in great detail temperature fluctuations can be measured and mapped, LSS surveys have the downside that one observes galaxies and not the underlying density field. Since galaxies are a biased tracer of the underlying density field, this in itself imposes the problem of how galaxy clustering biases measurements. Furthermore, there are various sources of non-linearities in galaxy clustering, which give rise to non-trivial higher order correlations aside from the power spectrum. Where a purely Gaussian field is fully described by the power spectrum, that is, all statistical information about the field is contained therein and odd correlators vanish identically, in the case of non-Gaussianities the three-point correlations and higher are generated and are needed in addition to the power spectrum to describe the field at high enough accuracy. 
 
-For a highly non-linear regime it would probably be best to turn to full numerical simulations for an analysis, but in the intermediate, weakly non-linear regime, higher order perturbation theory can be used for our analysis. In this chapter I will discuss the relativistic effects on galaxy number counts at first and second order.  
+For a highly non-linear regime it would probably be necessary to turn to full numerical simulations for an analysis, but in the intermediate, weakly non-linear regime, higher order perturbation theory can be used for our analysis. In this chapter I will discuss the relativistic effects on galaxy number counts at first and second order.  
+
+In a typical galaxy survey, the observer looks down the past lightcone and observes some number of galaxies $\diff N$, which are above some threshold luminosity $L$, in a redshift interval $\diff z$ and within an element of solid angle $\diff \Omega_o$, about direction of observation $\n$. 
+
+The fractional perturbation of observed number counts $\Delta_g$ is defined by 
+\begin{equation}
+	\frac{\diff N(z, \n, > \ln L)}{\diff z \diff \Omega_o} = \frac{\chi^2(z)}{(1 + z)^4 \cH(z)} \bar{\N}(z, > \ln L) \left[ 1 + \Delta_g(z, \n, >\ln L)\right], 
+\end{equation}
+
+where $\cH$ is the conformal Hubble rate, $\chi$ is the comoving line-of-sight distance, and $\bar{\N}$ is the background magnitude-limited number density of sources. The dependence of $\Delta_g$ on $\ln L$ will be suppressed for brevity. Expanding $\Delta_g$ up to second order in perturbation theory as follows, 
+\begin{equation}
+	\Delta_g(z,\n) = \Delta_g^\on(z,\n) + \frac{1}{2} \left[ \Delta_g^\tw(z,\n) - \langle \Delta_g^\tw (z,\n)\rangle \right],
+\end{equation}
+subtracting off the average value of $\Delta_g^\tw$ to ensure that $\langle \Delta_g \rangle = 0$.
 
 \section{First order}
 
