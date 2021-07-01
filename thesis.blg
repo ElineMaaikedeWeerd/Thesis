@@ -16,10 +16,6 @@ A level-1 auxiliary file: tex/fishers.aux
 A level-1 auxiliary file: tex/summary.aux
 A level-1 auxiliary file: tex/appendix.aux
 Database file #1: bib/thesis_bib.bib
-Warning--I didn't find a database entry for "Chen:2018qiu"
-Warning--I didn't find a database entry for "Castorina:2016bfm"
-Warning--I didn't find a database entry for "Bernal:2019jdo"
-Warning--I didn't find a database entry for "Jalilvand:2019bhk"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 "ArXiv e-prints" is a string literal, `journal' is a missing field
@@ -35,6 +31,13 @@ while executing---line 1822 of file mnras.bst
 Warning--empty journal in Ansari:2018ury
 "ArXiv e-prints" is a string literal, `journal' is a missing field
 ---they aren't the same literal types for entry Ansari:2018ury
+while executing---line 1822 of file mnras.bst
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Castorina:2020zhz
+while executing---line 1822 of file mnras.bst
+Warning--empty journal in Castorina:2020zhz
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Castorina:2020zhz
 while executing---line 1822 of file mnras.bst
 "ArXiv e-prints" is a string literal, `journal' is a missing field
 ---they aren't the same literal types for entry Jolicoeur:2020eup
@@ -65,6 +68,13 @@ Warning--empty journal in Pan:2019dxa
 ---they aren't the same literal types for entry Pan:2019dxa
 while executing---line 1822 of file mnras.bst
 "ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Slosar:2019jwd
+while executing---line 1822 of file mnras.bst
+Warning--empty journal in Slosar:2019jwd
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Slosar:2019jwd
+while executing---line 1822 of file mnras.bst
+"ArXiv e-prints" is a string literal, `journal' is a missing field
 ---they aren't the same literal types for entry Umeh:2020cag
 while executing---line 1822 of file mnras.bst
 Warning--empty journal in Umeh:2020cag
@@ -78,45 +88,45 @@ Warning--empty journal in Villumsen:1995ar
 "ArXiv e-prints" is a string literal, `journal' is a missing field
 ---they aren't the same literal types for entry Villumsen:1995ar
 while executing---line 1822 of file mnras.bst
-You've used 151 entries,
+You've used 157 entries,
             2881 wiz_defined-function locations,
-            1900 strings with 39570 characters,
-and the built_in function-call counts, 76266 in all, are:
-= -- 6300
-> -- 5951
-< -- 378
-+ -- 2468
-- -- 1006
-* -- 9199
-:= -- 12345
+            1932 strings with 40772 characters,
+and the built_in function-call counts, 79260 in all, are:
+= -- 6532
+> -- 6199
+< -- 396
++ -- 2572
+- -- 1048
+* -- 9551
+:= -- 12833
 add.period$ -- 0
-call.type$ -- 151
-change.case$ -- 302
-chr.to.int$ -- 146
-cite$ -- 159
-duplicate$ -- 3436
-empty$ -- 3324
-format.name$ -- 1430
-if$ -- 13168
+call.type$ -- 157
+change.case$ -- 314
+chr.to.int$ -- 152
+cite$ -- 167
+duplicate$ -- 3572
+empty$ -- 3454
+format.name$ -- 1492
+if$ -- 13680
 int.to.chr$ -- 6
 int.to.str$ -- 0
-missing$ -- 151
-newline$ -- 466
-num.names$ -- 1166
-pop$ -- 684
+missing$ -- 157
+newline$ -- 484
+num.names$ -- 1214
+pop$ -- 717
 preamble$ -- 1
-purify$ -- 604
+purify$ -- 628
 quote$ -- 0
-skip$ -- 2070
+skip$ -- 2155
 stack$ -- 0
-substring$ -- 4740
-swap$ -- 1962
-text.length$ -- 604
+substring$ -- 4904
+swap$ -- 2042
+text.length$ -- 628
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1359
-warning$ -- 8
-while$ -- 1176
+type$ -- 1413
+warning$ -- 10
+while$ -- 1220
 width$ -- 0
-write$ -- 1506
-(There were 16 error messages)
+write$ -- 1562
+(There were 20 error messages)

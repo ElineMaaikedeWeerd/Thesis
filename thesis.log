@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.1.25)  1 JUL 2021 15:18
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.1.25)  1 JUL 2021 18:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1003,18 +1003,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 198--198
 
 
 ]
-Overfull \hbox (1.66797pt too wide) detected at line 62
- \TU/lmr/bx/n/12 109
- []
-
-
 Overfull \hbox (1.66797pt too wide) detected at line 63
- \TU/lmr/bx/n/12 110
+ \TU/lmr/bx/n/12 112
  []
 
 
 Overfull \hbox (1.66797pt too wide) detected at line 64
- \TU/lmr/bx/n/12 111
+ \TU/lmr/bx/n/12 113
  []
 
 
@@ -1024,42 +1019,52 @@ Overfull \hbox (1.66797pt too wide) detected at line 65
 
 
 Overfull \hbox (1.66797pt too wide) detected at line 66
- \TU/lmr/bx/n/12 118
+ \TU/lmr/bx/n/12 117
  []
 
 
 Overfull \hbox (1.66797pt too wide) detected at line 67
- \TU/lmr/bx/n/12 120
+ \TU/lmr/bx/n/12 121
  []
 
 
 Overfull \hbox (1.66797pt too wide) detected at line 68
- \TU/lmr/bx/n/12 124
+ \TU/lmr/bx/n/12 123
  []
 
 
 Overfull \hbox (1.66797pt too wide) detected at line 69
- \TU/lmr/bx/n/12 131
+ \TU/lmr/bx/n/12 127
+ []
+
+
+Overfull \hbox (1.66797pt too wide) detected at line 70
+ \TU/lmr/bx/n/12 134
  []
 
 [4]
-Overfull \hbox (1.66797pt too wide) detected at line 70
- \TU/lmr/bx/n/12 132
- []
-
-
 Overfull \hbox (1.66797pt too wide) detected at line 71
  \TU/lmr/bx/n/12 135
  []
 
 
 Overfull \hbox (1.66797pt too wide) detected at line 72
- \TU/lmr/bx/n/12 142
+ \TU/lmr/bx/n/12 138
  []
 
 
 Overfull \hbox (1.66797pt too wide) detected at line 73
+ \TU/lmr/bx/n/12 139
+ []
+
+
+Overfull \hbox (1.66797pt too wide) detected at line 74
  \TU/lmr/bx/n/12 146
+ []
+
+
+Overfull \hbox (1.66797pt too wide) detected at line 75
+ \TU/lmr/bx/n/12 150
  []
 
 )
@@ -1276,33 +1281,25 @@ mum scale []Maartens
 [44] [45] [46] [47]
 File: fig/kplane.pdf Graphic file (type pdf)
 <use fig/kplane.pdf>
- [48]
-
-Package natbib Warning: Citation `Chen:2018qiu' on page 49 undefined on input l
-ine 355.
-
-
-Package natbib Warning: Citation `Castorina:2016bfm' on page 49 undefined on in
-put line 355.
-
-
-Package natbib Warning: Citation `Bernal:2019jdo' on page 49 undefined on input
- line 356.
-
-
-Package natbib Warning: Citation `Jalilvand:2019bhk' on page 49 undefined on in
-put line 368.
-
-[49]) [50]
+ [48] [49] [50]
+File: fig/k.pdf Graphic file (type pdf)
+<use fig/k.pdf>
+File: fig/nbHIRAX.pdf Graphic file (type pdf)
+<use fig/nbHIRAX.pdf>
+File: fig/nbPUMAPetite.pdf Graphic file (type pdf)
+<use fig/nbPUMAPetite.pdf>
+File: fig/Pnoise.pdf Graphic file (type pdf)
+<use fig/Pnoise.pdf>
+) [51] [52] [53]
 \openout2 = `tex/multipoles.aux'.
 
  (./tex/multipoles.tex
 chapter 7.
-[51
+[54
 
 
 
-] [52] [53] [54]
+] [55] [56] [57]
 Overfull \hbox (9.34601pt too wide) detected at line 62
 [][]\OML/cmm/m/it/12 B[]\OT1/cmr/m/n/12 (\OML/cmm/b/it/12 k[]\OML/cmm/m/it/12 ;
  \OML/cmm/b/it/12 k[]\OML/cmm/m/it/12 ; \OML/cmm/b/it/12 k[]\OT1/cmr/m/n/12 ) =
@@ -1314,7 +1311,7 @@ t/12 k[]\OML/cmm/m/it/12 ; \OML/cmm/b/it/12 k[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/1
 /cmr/m/n/12 (\OML/cmm/b/it/12 k[]\OT1/cmr/m/n/12 )[]\OML/cmm/m/it/12 ;
  []
 
-[55] [56]
+[58] [59]
 Overfull \hbox (80.45651pt too wide) detected at line 120
 []
  []
@@ -1334,10 +1331,10 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 141--141
 [] 
  []
 
-[57]
+[60]
 File: fig/fig.pdf Graphic file (type pdf)
 <use fig/fig.pdf>
- [58] [59] [60]
+ [61] [62] [63]
 Overfull \hbox (69.51956pt too wide) detected at line 265
 []
  []
@@ -1347,7 +1344,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 265--265
 [] 
  []
 
-[61]
+[64]
 Overfull \hbox (23.3999pt too wide) detected at line 297
 [][]\OMS/cmsy/m/n/12 K[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 K[]\OT1/cmr/m/n/12 
 (\OML/cmm/m/it/12 k[]; ^^V[]\OT1/cmr/m/n/12 )\OMS/cmsy/m/n/12 K[]\OT1/cmr/m/n/1
@@ -1358,7 +1355,7 @@ ML/cmm/m/it/12 ^^V[]\OT1/cmr/m/n/12 )[]([]\OML/cmm/m/it/12 ^^V[]\OT1/cmr/m/n/12
 /m/n/12 ) \OML/cmm/m/it/12 ;
  []
 
-[62]
+[65]
 Overfull \hbox (30.90886pt too wide) in paragraph at lines 306--307
 []\TU/lmr/m/n/12 To present $\OMS/cmsy/m/n/12 K[]\OT1/cmr/m/n/12 (\OML/cmm/m/it
 /12 k[]; k[]; k[]\OT1/cmr/m/n/12 )$ \TU/lmr/m/n/12 we will show powers of $\OMS
@@ -1367,7 +1364,7 @@ nd write $\OMS/cmsy/m/n/12 K[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 k[]; k[]; k[]\O
 T1/cmr/m/n/12 ) =
  []
 
-[63]
+[66]
 Overfull \hbox (37.66858pt too wide) detected at line 399
 []
  []
@@ -1377,7 +1374,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 399--399
 [] 
  []
 
-[64]
+[67]
 Overfull \hbox (228.35103pt too wide) detected at line 465
 []
  []
@@ -1387,15 +1384,15 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 465--465
 [] 
  []
 
-[65]
+[68]
 File: fig/overview.pdf Graphic file (type pdf)
 <use fig/overview.pdf>
- [66]
+ [69]
 Overfull \hbox (215.4458pt too wide) detected at line 512
 [][] [] \OT1/cmr/m/n/12 + []
  []
 
-[67] [68] [69] [70] [71] [72]
+[70] [71] [72] [73] [74] [75]
 File: fig/totP_Euclid_sq2.pdf Graphic file (type pdf)
 <use fig/totP_Euclid_sq2.pdf>
 File: fig/totP_IM_sq2.pdf Graphic file (type pdf)
@@ -1408,51 +1405,51 @@ File: fig/totP_euclid_equi2.pdf Graphic file (type pdf)
 <use fig/totP_euclid_equi2.pdf>
 File: fig/totP_IM_equi2.pdf Graphic file (type pdf)
 <use fig/totP_IM_equi2.pdf>
- [73
+ [76
 
-] [74]
+] [77]
 File: fig/triangles_all_k001_Euclid.png Graphic file (type bmp)
 <fig/triangles_all_k001_Euclid.png>
 File: fig/triangles_all_k01_Euclid.png Graphic file (type bmp)
 <fig/triangles_all_k01_Euclid.png>
- [75]
+ [78]
 File: fig/triangles_all_k001_IM.png Graphic file (type bmp)
 <fig/triangles_all_k001_IM.png>
 File: fig/triangles_all_k01_IM.png Graphic file (type bmp)
 <fig/triangles_all_k01_IM.png>
- [76]
+ [79]
 File: fig/redB_k01.pdf Graphic file (type pdf)
 <use fig/redB_k01.pdf>
 File: fig/redB_k001.pdf Graphic file (type pdf)
 <use fig/redB_k001.pdf>
- [77]
+ [80]
 File: fig/fnofz.pdf Graphic file (type pdf)
 <use fig/fnofz.pdf>
- [78
+ [81
 
 
 
 
-] [79]) [80]
+] [82]) [83]
 \openout2 = `tex/png_bisp.aux'.
 
 
 (./tex/png_bisp.tex
 chapter 8.
-[81
+[84
 
 
 
-] [82] [83] [84]
+] [85] [86] [87]
 Overfull \hbox (15.12341pt too wide) in paragraph at lines 79--81
 []\TU/lmr/m/n/12 relativistic projection corrections to the Newtonian RSD []Ber
 tacca et al.[] ([]2014a[],[]b[]);
  []
 
-[85] [86] [87]
+[88] [89] [90]
 File: fig/Mplot.pdf Graphic file (type pdf)
 <use fig/Mplot.pdf>
- [88] [89] [90]
+ [91] [92] [93]
 Overfull \hbox (5.64421pt too wide) detected at line 253
 []
  []
@@ -1468,18 +1465,18 @@ Overfull \hbox (2.15083pt too wide) in paragraph at lines 253--257
  ^^C$\TU/lmr/m/n/12 CDM is []Villa & Rampf[] ([]2016[]): 
  []
 
-[91]
+[94]
 Overfull \hbox (2.0367pt too wide) in paragraph at lines 303--306
 \TU/lmr/m/it/12 Relativistic corrections to [] are needed to enforce gauge-inde
 pendence
  []
 
-[92] [93] [94] [95] [96]
+[95] [96] [97] [98] [99]
 Overfull \hbox (6.0876pt too wide) detected at line 484
 []
  []
 
-[97]
+[100]
 Overfull \hbox (82.6928pt too wide) detected at line 506
 []
  []
@@ -1493,17 +1490,17 @@ inate the GR correction terms, which scale as $[]\OT1/cmr/m/n/12 (\OMS/cmsy/m/n
  ^^N[]\OT1/cmr/m/n/12 )[]$
  []
 
-[98]
+[101]
 Underfull \hbox (badness 10000) in paragraph at lines 525--526
 
  []
 
-[99]
+[102]
 Overfull \hbox (8.39479pt too wide) detected at line 611
 []
  []
 
-[100]
+[103]
 Overfull \hbox (23.98454pt too wide) detected at line 635
 []
  []
@@ -1514,22 +1511,22 @@ Overfull \hbox (0.6687pt too wide) in paragraph at lines 645--646
 rini et al.[] ([]2015[])). 
  []
 
-[101] [102]
+[104] [105]
 File: fig/Q_k0_1_noShotnoise1.pdf Graphic file (type pdf)
 <use fig/Q_k0_1_noShotnoise1.pdf>
 File: fig/Q_k0_1_noShotnoise2.pdf Graphic file (type pdf)
 <use fig/Q_k0_1_noShotnoise2.pdf>
- [103]
+ [106]
 File: fig/redB_lineandlake_v3.pdf Graphic file (type pdf)
 <use fig/redB_lineandlake_v3.pdf>
 File: fig/multipoles_allpanels_v3.pdf Graphic file (type pdf)
 <use fig/multipoles_allpanels_v3.pdf>
- [104] [105] [106] [107]) [108]
+ [107] [108] [109] [110]) [111]
 \openout2 = `tex/fishers.aux'.
 
  (./tex/fishers.tex
 chapter 9.
-) [109
+) [112
 
 
 
@@ -1538,7 +1535,7 @@ chapter 9.
 
  (./tex/summary.tex
 chapter 10.
-) [110
+) [113
 
 
 
@@ -1557,15 +1554,15 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 58--58
 [] 
  []
 
-[111
+[114
 
 
 
-] [112]) [113]
+] [115]) [116]
 chapter B.
-(./tex/app_betatables.tex [114
+(./tex/app_betatables.tex [117
 
-] [115]
+] [118]
 Overfull \hbox (153.99956pt too wide) detected at line 223
 []
  []
@@ -1575,13 +1572,13 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 223--223
 [] 
  []
 
-[116]) [117]
+[119]) [120]
 chapter C.
-(./tex/app_upsiloncoeff.tex [118
+(./tex/app_upsiloncoeff.tex [121
 
-]) [119]
+]) [122]
 chapter D.
-(./tex/app_sumderiv.tex [120
+(./tex/app_sumderiv.tex [123
 
 ]
 Overfull \hbox (74.27547pt too wide) detected at line 32
@@ -1611,7 +1608,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 52--52
 [] 
  []
 
-[121]
+[124]
 Overfull \hbox (144.04451pt too wide) detected at line 75
 []
  []
@@ -1631,7 +1628,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 81--81
 [] 
  []
 
-[122]
+[125]
 Overfull \hbox (144.34187pt too wide) detected at line 86
 []
  []
@@ -1651,7 +1648,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 95--95
 [] 
  []
 
-) [123]
+) [126]
 chapter E.
 (./tex/app_kabpres.tex
 Overfull \hbox (24.22433pt too wide) detected at line 38
@@ -1663,9 +1660,9 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 38--38
 [] 
  []
 
-[124
+[127
 
-] [125]
+] [128]
 Overfull \hbox (106.37213pt too wide) detected at line 77
 []
  []
@@ -1675,7 +1672,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 77--77
 [] 
  []
 
-[126]
+[129]
 Overfull \hbox (104.08089pt too wide) detected at line 109
 []
  []
@@ -1685,7 +1682,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 109--109
 [] 
  []
 
-[127]
+[130]
 Overfull \hbox (141.72049pt too wide) detected at line 132
 []
  []
@@ -1695,7 +1692,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 132--132
 [] 
  []
 
-[128] [129]) [130]
+[131] [132]) [133]
 chapter F.
 (./tex/app_sqlim.tex
 Overfull \hbox (108.90007pt too wide) detected at line 33
@@ -1707,14 +1704,14 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 33--33
 [] 
  []
 
-) [131
+) [134
 
 ]
 chapter G.
 (./tex/app_snreuclid.tex
 File: fig/colournmu1nphi_Doppler-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/colournmu1nphi_Doppler-eps-converted-to.pdf>
- [132
+ [135
 
 ]
 File: fig/cumulativeSnrdopplerQ0_0-eps-converted-to.pdf Graphic file (type pdf)
@@ -1739,33 +1736,33 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 72--72
 [] 
  []
 
-[133])) [134] (./thesis.bbl
+[136]) [137]
+chapter H.
+) [138
+
+] (./thesis.bbl
 chapter without number
-[135
+[139
 
 
-] [136] [137] [138] [139] [140]) [141] (./thesis.lof [142
+] [140] [141] [142] [143] [144]) [145] (./thesis.lof [146
 
-] [143])
+] [147] [148])
 \tf@lof=\write5
 \openout5 = `thesis.lof'.
 
- [144]
-[145] (./thesis.lot)
+
+[149] (./thesis.lot)
 \tf@lot=\write6
 \openout6 = `thesis.lot'.
 
-
-
-Package natbib Warning: There were undefined citations.
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 274.
-[146
+ [150
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 274.
- (./thesis.aux (./tex/abstract.aux) (./tex/acknowledgements.aux)
-(./tex/introgeneral.aux) (./tex/introreleff.aux)
+ (./thesis.aux (./tex/abstract.aux)
+(./tex/acknowledgements.aux) (./tex/introgeneral.aux) (./tex/introreleff.aux)
 (./tex/intro_clusteringstat.aux) (./tex/dipole.aux) (./tex/snr_euclid.aux)
 (./tex/snr_ska.aux) (./tex/multipoles.aux) (./tex/png_bisp.aux)
 (./tex/fishers.aux) (./tex/summary.aux) (./tex/appendix.aux))
@@ -1775,20 +1772,21 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 274.
  )
-(\end occurred inside a group at level 4)
+(\end occurred inside a group at level 5)
 
-### simple group (level 4) entered at line 338 ({)
-### simple group (level 3) entered at line 288 ({)
-### simple group (level 2) entered at line 208 ({)
-### simple group (level 1) entered at line 487 ({)
+### simple group (level 5) entered at line 338 ({)
+### simple group (level 4) entered at line 288 ({)
+### simple group (level 3) entered at line 208 ({)
+### simple group (level 2) entered at line 487 ({)
+### simple group (level 1) entered at line 444 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 29445 strings out of 492933
- 574695 string characters out of 6133145
- 819689 words of memory out of 5000000
- 33059 multiletter control sequences out of 15000+600000
- 549795 words of font info for 124 fonts, out of 8000000 for 9000
+ 29484 strings out of 492933
+ 575408 string characters out of 6133145
+ 820890 words of memory out of 5000000
+ 33096 multiletter control sequences out of 15000+600000
+ 549787 words of font info for 123 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 48i,15n,68p,9086b,1474s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,15n,68p,9086b,1573s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (153 pages, 2392372 bytes).
+Output written on thesis.xdv (157 pages, 2448804 bytes).

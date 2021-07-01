@@ -311,6 +311,10 @@ INPUT tex/snr_ska.tex
 INPUT fig/HIBias.pdf
 INPUT fig/THI.pdf
 INPUT fig/kplane.pdf
+INPUT fig/k.pdf
+INPUT fig/nbHIRAX.pdf
+INPUT fig/nbPUMAPetite.pdf
+INPUT fig/Pnoise.pdf
 OUTPUT tex/multipoles.aux
 INPUT tex/multipoles.tex
 INPUT tex/multipoles.tex

@@ -384,6 +384,95 @@ Then the image-plane and physical distributions of the array are related by~\cit
 \begin{equation} \label{nbphy}
 n_\mathrm{b}(z,u) = \lambda(z)^2\, n_\mathrm{b}^\mathrm{phys}(L)\,.
 \end{equation}
+%
+%
+\subsection{Future HI intensity mapping surveys}
+%
+We consider surveys proposed for the following dish arrays:
+\begin{itemize}
+\item 
+SD mode:  MeerKAT, 
+SKA1-MID.
+\item
+IF\ mode: HIRAX,
+PUMA (Petite). 
+\end{itemize}
+The survey specifications are given in Table~\ref{tab:tab1}, {based on~\cite{Santos:2017qgq, Bacon:2018dui, Slosar:2019jwd,Karagiannis:2019jjx,Castorina:2020zhz}}. {Limiting wavenumbers for large wavelengths  are shown for these surveys in Figure \ref{figmin}: the
+fundamental wavenumber \eqref{e2.8}, the minimum radial wavenumber \eqref{kfgpar} from foreground cleaning and the IF-mode minimum wavenumber \eqref{kifmin}.}
+%\vspace{-0.5cm}
+
+\begin{table}[ht]
+\centering
+\caption{\label{tab:tab1} {HI intensity mapping survey specifications. 
+(For *, see Appendix REF APPENDIX 2 OF IM)}} 
+\vspace*{0.2cm}
+\begin{tabular}{|lccccccc|} \hline
+Survey & Redshift range & $f_\mathrm{sky}$ & $t_{\mathrm{tot}}$  & $T_{\mathrm{d}}$ & $D_\mathrm{d}$ & $N_\mathrm{d}$ & {$D_\mathrm{max}$} \\
+&  & & [$10^{3}$ hr] & [K]  & [m] & & {[m]} \\
+\hline\hline 
+MeerKAT L Band   & 0.10--0.58 & 0.10 & 4  & * & 13.5 & 64 & -- \\
+MeerKAT UHF Band & 0.40--1.45 & 0.10 & 4  & * & 13.5 & 64  & --  \\
+SKA1-MID Band 1  & 0.35--3.05 & 0.48 & 10 & * & 15.0 & 197  & --  \\
+SKA1-MID Band 2  & 0.10--0.49 & 0.48 & 10 & * & 15.0 & 197  & --  \\
+HIRAX            & 0.75--2.00 & 0.36 & 10 & 50 & 6.0  & 1024  & {270}\\
+PUMA (Petite)    & 2.00--6.00 & 0.50 & 40 & 50 & 6.0  & 5000 & {600} \\
+\hline
+\end{tabular}
+\end{table}
+
+\vspace*{-0.5cm}
+\begin{table}[ht]
+\centering
+\caption{\label{tab2} {Parameters in \eqref{e3.4}} (from~\cite{Ansari:2018ury}).} 
+\vspace*{0.2cm}
+\begin{tabular}{|lcccccl|} \hline
+Survey & $a$ & $b$ & $c$  & $d$ & $e$ & $N_\mathrm{s}$  \\ \hline\hline 
+HIRAX & 0.4847 & $-0.3300$ & 1.3157 & 1.5974 & 6.8390 & 32  \\
+PUMA (Petite) & 0.5698 & $-0.5274$ & 0.8358 & 1.6635 & 7.3177 & {100} \\
+\hline
+\end{tabular}
+\end{table}
+
+For the system temperature, we use the results of measurements and simulations for MeerKAT and SKA1-MID, given in Appendix REF APP IM. For HIRAX and PUMA, we use the fit \eqref{e2.25}. 
+
+
+In IF mode, HIRAX is assumed to be a square-packed array, while PUMA is taken as hexagonal-packed in a circular area, {with 50\% fill factor}. We follow~\cite{Karagiannis:2019jjx} and use the fitting formula from~\cite{Ansari:2018ury} for the baseline density of such arrays:
+\begin{equation}
+n_\mathrm{b}^\mathrm{phys}(L) = \left( \frac{N_\mathrm{s}}{D_\mathrm{d}}\right)^2\,\frac{a+b\big(L/L_\mathrm{s}\big)}{1+c\big(L/L_\mathrm{s}\big)^{d}}\,\exp{\big[-(L/L_\mathrm{s})^{e}\big]}\,, \label{e3.4}
+\end{equation}
+where  $L_\mathrm{s} =N_\mathrm{s}D_\mathrm{d}$ and $N_\mathrm{s}^2 = N_\mathrm{d}$.
+The  parameters in \eqref{e3.4} are given in Table \ref{tab2}, {and $n_\mathrm{b}^\mathrm{phys}(L)$ is shown in Figure~\ref{nbphys}.
+\begin{figure}%[h]
+%\vspace*{-0.5cm}
+\centering
+\includegraphics[width=.49\textwidth]{fig/k}
+%\vspace*{-0.5cm}
+\caption{{Minimum wavenumbers for the surveys, where $k$ is subject to \eqref{kmin} (SD) or \eqref{kminif} (IF).}}\label{figmin}
+\end{figure}
+
+%\vspace*{-0.5cm}
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.49\textwidth]{fig/nbHIRAX}
+\includegraphics[width=.49\textwidth]{fig/nbPUMAPetite}
+\vspace*{-0.5cm}
+\caption{Physical baseline density models for HIRAX (left) and PUMA (right).}\label{nbphys}
+\end{figure}
+%\vspace*{-0.5cm}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=.49\textwidth]{fig/Pnoise}
+\vspace*{-0.5cm}
+\caption{{Noise power spectra of the SD-mode surveys (at $z=0.4$ for low-$z_\mathrm{max}$ bands and $z=1$ for high-$z_\mathrm{max}$ bands) and IF-mode surveys (HIRAX at $z=1$, PUMA at $z=2$).}}\label{pnoise}
+\end{figure}
+
+{In the case of PUMA, we take account of the 50\% fill factor as follows. We use double the number of dishes to define $N_\mathrm{s}$ for the computation of \eqref{e3.4}, i.e. $N_\mathrm{s}^2= 2\times 5000$. Then  we  remove half of the dishes without changing the baseline, i.e. without changing the shape and ground-area of the array.
+
+The noise power spectra of the surveys at fixed redshift are displayed in Figure \ref{pnoise}. For SD-mode surveys, the poor angular resolution is reflected in the blow-up of noise due to the beam in \eqref{sdn}.
+The minimum transverse scale for IF-mode surveys  is shown as a sharp cut-off, as in  \eqref{kifmin}, with effectively infinite noise.
+ Figure \ref{pnoise} also shows the smooth blow-up of IF-mode noise on small transverse scales, which results  from the fact that 
+$n_\mathrm{b}\to 0$ as the baseline approaches its maximum $D_\mathrm{max}$ (see Figure \ref{nbphys}). The unbounded increase of noise kills the signal, corresponding to the approximate cut-off scale \eqref{kifmax}.}
+
 
 
 
