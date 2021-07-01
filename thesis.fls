@@ -180,6 +180,8 @@ INPUT tex/png_bisp.aux
 INPUT tex/png_bisp.aux
 INPUT tex/fishers.aux
 INPUT tex/fishers.aux
+INPUT tex/summary.aux
+INPUT tex/summary.aux
 INPUT tex/appendix.aux
 INPUT tex/appendix.aux
 OUTPUT thesis.aux
@@ -308,6 +310,7 @@ INPUT tex/snr_ska.tex
 INPUT tex/snr_ska.tex
 INPUT fig/HIBias.pdf
 INPUT fig/THI.pdf
+INPUT fig/kplane.pdf
 OUTPUT tex/multipoles.aux
 INPUT tex/multipoles.tex
 INPUT tex/multipoles.tex
@@ -346,6 +349,9 @@ INPUT fig/multipoles_allpanels_v3.pdf
 OUTPUT tex/fishers.aux
 INPUT tex/fishers.tex
 INPUT tex/fishers.tex
+OUTPUT tex/summary.aux
+INPUT tex/summary.tex
+INPUT tex/summary.tex
 OUTPUT tex/appendix.aux
 INPUT tex/appendix.tex
 INPUT tex/appendix.tex
@@ -399,6 +405,8 @@ INPUT tex/png_bisp.aux
 INPUT tex/png_bisp.aux
 INPUT tex/fishers.aux
 INPUT tex/fishers.aux
+INPUT tex/summary.aux
+INPUT tex/summary.aux
 INPUT tex/appendix.aux
 INPUT tex/appendix.aux
 INPUT ./thesis.out

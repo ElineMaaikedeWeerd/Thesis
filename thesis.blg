@@ -13,8 +13,13 @@ A level-1 auxiliary file: tex/snr_ska.aux
 A level-1 auxiliary file: tex/multipoles.aux
 A level-1 auxiliary file: tex/png_bisp.aux
 A level-1 auxiliary file: tex/fishers.aux
+A level-1 auxiliary file: tex/summary.aux
 A level-1 auxiliary file: tex/appendix.aux
 Database file #1: bib/thesis_bib.bib
+Warning--I didn't find a database entry for "Chen:2018qiu"
+Warning--I didn't find a database entry for "Castorina:2016bfm"
+Warning--I didn't find a database entry for "Bernal:2019jdo"
+Warning--I didn't find a database entry for "Jalilvand:2019bhk"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 "ArXiv e-prints" is a string literal, `journal' is a missing field
@@ -23,6 +28,13 @@ while executing---line 1822 of file mnras.bst
 Warning--empty journal in Aghanim:2018eyx
 "ArXiv e-prints" is a string literal, `journal' is a missing field
 ---they aren't the same literal types for entry Aghanim:2018eyx
+while executing---line 1822 of file mnras.bst
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Ansari:2018ury
+while executing---line 1822 of file mnras.bst
+Warning--empty journal in Ansari:2018ury
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Ansari:2018ury
 while executing---line 1822 of file mnras.bst
 "ArXiv e-prints" is a string literal, `journal' is a missing field
 ---they aren't the same literal types for entry Jolicoeur:2020eup
@@ -66,45 +78,45 @@ Warning--empty journal in Villumsen:1995ar
 "ArXiv e-prints" is a string literal, `journal' is a missing field
 ---they aren't the same literal types for entry Villumsen:1995ar
 while executing---line 1822 of file mnras.bst
-You've used 134 entries,
+You've used 151 entries,
             2881 wiz_defined-function locations,
-            1766 strings with 35741 characters,
-and the built_in function-call counts, 68022 in all, are:
-= -- 5610
-> -- 5328
-< -- 338
-+ -- 2208
-- -- 906
-* -- 8210
-:= -- 11025
+            1900 strings with 39570 characters,
+and the built_in function-call counts, 76266 in all, are:
+= -- 6300
+> -- 5951
+< -- 378
++ -- 2468
+- -- 1006
+* -- 9199
+:= -- 12345
 add.period$ -- 0
-call.type$ -- 134
-change.case$ -- 268
-chr.to.int$ -- 130
-cite$ -- 141
-duplicate$ -- 3052
-empty$ -- 2951
-format.name$ -- 1284
-if$ -- 11737
-int.to.chr$ -- 5
+call.type$ -- 151
+change.case$ -- 302
+chr.to.int$ -- 146
+cite$ -- 159
+duplicate$ -- 3436
+empty$ -- 3324
+format.name$ -- 1430
+if$ -- 13168
+int.to.chr$ -- 6
 int.to.str$ -- 0
-missing$ -- 134
-newline$ -- 415
-num.names$ -- 1040
-pop$ -- 604
+missing$ -- 151
+newline$ -- 466
+num.names$ -- 1166
+pop$ -- 684
 preamble$ -- 1
-purify$ -- 536
+purify$ -- 604
 quote$ -- 0
-skip$ -- 1838
+skip$ -- 2070
 stack$ -- 0
-substring$ -- 4234
-swap$ -- 1760
-text.length$ -- 536
+substring$ -- 4740
+swap$ -- 1962
+text.length$ -- 604
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1206
-warning$ -- 7
-while$ -- 1046
+type$ -- 1359
+warning$ -- 8
+while$ -- 1176
 width$ -- 0
-write$ -- 1338
-(There were 14 error messages)
+write$ -- 1506
+(There were 16 error messages)
