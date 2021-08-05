@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.7.12)  12 JUL 2021 14:40
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.7.12)  5 AUG 2021 09:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -731,35 +731,35 @@ LaTeX Info: Redefining \tt on input line 118.
 (./tex/fishers.aux) (./tex/summary.aux) (./tex/appendix.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 194.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 195.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-94.
+95.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-Package scrbase Info: activating english \contentsname on input line 194.
-Package scrbase Info: activating english \listfigurename on input line 194.
-Package scrbase Info: activating english \listtablename on input line 194.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+Package scrbase Info: activating english \contentsname on input line 195.
+Package scrbase Info: activating english \listfigurename on input line 195.
+Package scrbase Info: activating english \listtablename on input line 195.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -801,57 +801,57 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 194.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 194.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 194.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 194.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 194.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 194.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 194.
-LaTeX Font Info:    Redeclaring math accent \check on input line 194.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 194.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 194.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 194.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 194.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 194.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 194.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 194.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 194.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 194.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 194.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 194.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 194.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 194.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 194.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 194.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 194.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 195.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 195.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 195.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 195.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 195.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 195.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 195.
+LaTeX Font Info:    Redeclaring math accent \check on input line 195.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 195.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 195.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 195.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 195.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 194.
+(Font)              `operators' in the math version `normal' on input line 195.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 194.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 195.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 194.
+(Font)              `operators' in the math version `bold' on input line 195.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 194.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 195.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 194.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 195.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 194.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 195.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 194.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 195.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 194.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 195.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 194.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 195.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 194.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 195.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 194.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 195.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 194.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 195.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 194.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 195.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
@@ -864,7 +864,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 194.
+Package hyperref Info: Link coloring OFF on input line 195.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -878,9 +878,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count340
 )
-LaTeX Info: Redefining \ref on input line 194.
-LaTeX Info: Redefining \pageref on input line 194.
-LaTeX Info: Redefining \nameref on input line 194.
+LaTeX Info: Redefining \ref on input line 195.
+LaTeX Info: Redefining \pageref on input line 195.
+LaTeX Info: Redefining \nameref on input line 195.
  (./thesis.out) (./thesis.out)
 \@outlinefile=\write3
 \openout3 = `thesis.out'.
@@ -892,7 +892,7 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           `bookmarkpackage=false' before \begin{document} and
 (scrreprt)           you can avoid this message adding:
 (scrreprt)             \usepackage{bookmark}
-(scrreprt)           before \begin{document} on input line 194.
+(scrreprt)           before \begin{document} on input line 195.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
@@ -901,22 +901,22 @@ Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 File: bkm-dvipdfm.def 2020-11-06 v1.29 bookmark driver for dvipdfm (HO)
 \BKM@id=\count341
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 194
+LaTeX Font Info:    Trying to load font information for U+msa on input line 195
 .
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 194
+LaTeX Font Info:    Trying to load font information for U+msb on input line 195
 .
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Package hyperref Info: Option `pageanchor' set `false' on input line 195.
+Package hyperref Info: Option `pageanchor' set `false' on input line 196.
 
 (./tex/title.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 198--198
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
 
  []
 
@@ -926,22 +926,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 198--198
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 198--198
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--198
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--198
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--198
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
 
  []
 
@@ -972,74 +972,74 @@ Underfull \hbox (badness 10000) in paragraph at lines 198--198
 
 ]
 Overfull \hbox (1.66797pt too wide) detected at line 63
- \TU/lmr/bx/n/12 111
- []
-
-
-Overfull \hbox (1.66797pt too wide) detected at line 64
  \TU/lmr/bx/n/12 112
  []
 
 
-Overfull \hbox (1.66797pt too wide) detected at line 65
+Overfull \hbox (1.66797pt too wide) detected at line 64
  \TU/lmr/bx/n/12 113
  []
 
 
+Overfull \hbox (1.66797pt too wide) detected at line 65
+ \TU/lmr/bx/n/12 114
+ []
+
+
 Overfull \hbox (1.66797pt too wide) detected at line 66
- \TU/lmr/bx/n/12 116
+ \TU/lmr/bx/n/12 117
  []
 
 
 Overfull \hbox (1.66797pt too wide) detected at line 67
- \TU/lmr/bx/n/12 120
+ \TU/lmr/bx/n/12 121
  []
 
 
 Overfull \hbox (1.66797pt too wide) detected at line 68
- \TU/lmr/bx/n/12 122
+ \TU/lmr/bx/n/12 123
  []
 
 
 Overfull \hbox (1.66797pt too wide) detected at line 69
- \TU/lmr/bx/n/12 126
+ \TU/lmr/bx/n/12 127
  []
 
 
 Overfull \hbox (1.66797pt too wide) detected at line 70
- \TU/lmr/bx/n/12 133
+ \TU/lmr/bx/n/12 134
  []
 
 [4]
 Overfull \hbox (1.66797pt too wide) detected at line 71
- \TU/lmr/bx/n/12 135
+ \TU/lmr/bx/n/12 136
  []
 
 
 Overfull \hbox (1.66797pt too wide) detected at line 72
- \TU/lmr/bx/n/12 138
- []
-
-
-Overfull \hbox (1.66797pt too wide) detected at line 73
  \TU/lmr/bx/n/12 139
  []
 
 
+Overfull \hbox (1.66797pt too wide) detected at line 73
+ \TU/lmr/bx/n/12 140
+ []
+
+
 Overfull \hbox (1.66797pt too wide) detected at line 74
- \TU/lmr/bx/n/12 146
+ \TU/lmr/bx/n/12 147
  []
 
 
 Overfull \hbox (1.66797pt too wide) detected at line 75
- \TU/lmr/bx/n/12 150
+ \TU/lmr/bx/n/12 151
  []
 
 )
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
 
-Package hyperref Info: Option `pageanchor' set `true' on input line 220.
+Package hyperref Info: Option `pageanchor' set `true' on input line 221.
  [5]
 \openout2 = `tex/introgeneral.aux'.
 
@@ -1069,7 +1069,7 @@ chapter 3.
 
 
 
-] [5]) [6]
+] [5]) [6] [7]
 \openout2 = `tex/dipole.aux'.
 
  (./tex/dipole.tex
@@ -1081,12 +1081,12 @@ Overfull \hbox (2.41379pt too wide) in paragraph at lines 13--15
 mm/b/it/12 k\OT1/cmr/m/n/12 ) =
  []
 
-[7
+[8
 
 
 
 
-] [8] [9]
+] [9] [10]
 Overfull \hbox (104.66206pt too wide) detected at line 95
 []
  []
@@ -1106,7 +1106,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 109--109
 [] 
  []
 
-[10]
+[11]
 Overfull \hbox (133.98512pt too wide) detected at line 145
 [][] [] []\OT1/cmr/m/n/12 
 ([]\OML/cmm/m/it/12 ^^V[]\OT1/cmr/m/n/12 )[]([]\OML/cmm/m/it/12 ^^V[]\OT1/cmr/m
@@ -1114,12 +1114,12 @@ Overfull \hbox (133.98512pt too wide) detected at line 145
 1/cmr/m/n/12 + \OML/cmm/m/it/12 ^^N[][] [] [] ^^R ;
  []
 
-[11]
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 145--148
 
  []
 
-[12]
+[13]
 Overfull \hbox (31.02753pt too wide) in paragraph at lines 180--184
 \TU/lmr/m/n/12 the squeezed limit of the cyclic sum [], the terms $\OMS/cmsy/m/
 n/12 K[]\OT1/cmr/m/n/12 (\OML/cmm/b/it/12 k[]\OML/cmm/m/it/12 ; \OML/cmm/b/it/1
@@ -1132,20 +1132,20 @@ File: fig/figuresv2-02.png Graphic file (type bmp)
 <fig/figuresv2-02.png>
 File: fig/figuresv2-01.png Graphic file (type bmp)
 <fig/figuresv2-01.png>
-[13] [14] [15] [16]) [17]
+[14] [15] [16] [17]) [18]
 \openout2 = `tex/snr_euclid.aux'.
 
  (./tex/snr_euclid.tex
 chapter 5.
-[18
+[19
 
 
 
 
-] [19]
+] [20]
 File: fig/geometryAngles.pdf Graphic file (type pdf)
 <use fig/geometryAngles.pdf>
- [20]
+ [21]
 Overfull \hbox (0.45457pt too wide) detected at line 76
 []
  []
@@ -1165,7 +1165,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 99--99
 [] 
  []
 
-[21] [22]
+[22] [23]
 Overfull \hbox (22.24777pt too wide) detected at line 148
 [][][] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 s[] [] [] []\OT1/cmr/m/n/12 (\OML/cmm
 /m/it/12 z; k[]; ^^V[]\OT1/cmr/m/n/12 )[](\OML/cmm/m/it/12 z; k[]; ^^V[]\OT1/cm
@@ -1173,22 +1173,22 @@ r/m/n/12 )[](\OML/cmm/m/it/12 z; k[]; ^^V[]\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 ;
 
  []
 
-[23]
+[24]
 Underfull \hbox (badness 10000) in paragraph at lines 189--190
 
  []
 
-[24] [25]
+[25] [26]
 File: fig/b-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/b-eps-converted-to.pdf>
 File: fig/V_n-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/V_n-eps-converted-to.pdf>
 File: fig/sigma-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/sigma-eps-converted-to.pdf>
- [26]
+ [27]
 File: fig/beQ-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/beQ-eps-converted-to.pdf>
- [27] [28] [29]
+ [28] [29] [30]
 File: fig/snrDoppler-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/snrDoppler-eps-converted-to.pdf>
 File: fig/CumulativesnrDoppler-eps-converted-to.pdf Graphic file (type pdf)
@@ -1199,25 +1199,25 @@ File: fig/kmaxcumsnr-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/kmaxcumsnr-eps-converted-to.pdf>
 File: fig/cumDoppSnr_kmin-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/cumDoppSnr_kmin-eps-converted-to.pdf>
- [30] [31]
+ [31] [32]
 File: fig/DoppSnr_K2D-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/DoppSnr_K2D-eps-converted-to.pdf>
 File: fig/cumDoppSnr_K2D-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/cumDoppSnr_K2D-eps-converted-to.pdf>
 File: fig/gamma_sigma8_AD-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/gamma_sigma8_AD-eps-converted-to.pdf>
- [32] [33] [34] [35]) [36]
+ [33] [34] [35] [36]) [37]
 \openout2 = `tex/snr_ska.aux'.
 
 
 (./tex/snr_ska.tex
 chapter 6.
-[37
+[38
 
 
 
 
-] [38] [39]
+] [39] [40]
 Overfull \hbox (41.24144pt too wide) detected at line 95
 []
  []
@@ -1226,7 +1226,7 @@ File: fig/HIBias.pdf Graphic file (type pdf)
 <use fig/HIBias.pdf>
 File: fig/THI.pdf Graphic file (type pdf)
 <use fig/THI.pdf>
-[40] [41]
+[41] [42]
 Overfull \hbox (22.25328pt too wide) detected at line 145
 []
  []
@@ -1236,23 +1236,23 @@ Overfull \hbox (35.53535pt too wide) detected at line 161
 []
  []
 
-[42]
+[43]
 Overfull \hbox (3.6395pt too wide) detected at line 208
 [][]   [] \OT1/cmr/m/n/12 = [] [] [](\OML/cmm/m/it/12 z; k[]; ^^V[]\OT1/cmr/m/n
 /12 ) [](\OML/cmm/m/it/12 z; k[]; ^^V[]\OT1/cmr/m/n/12 ) [](\OML/cmm/m/it/12 z;
  k[]; ^^V[]\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 :
  []
 
-[43]
+[44]
 Overfull \hbox (13.78952pt too wide) in paragraph at lines 233--234
 \TU/lmr/m/n/12 dark matter clustering becomes nonperturbative, we impose a maxi
 mum scale []Maartens
  []
 
-[44] [45] [46] [47]
+[45] [46] [47] [48]
 File: fig/kplane.pdf Graphic file (type pdf)
 <use fig/kplane.pdf>
- [48] [49] [50]
+ [49] [50] [51]
 File: fig/k.pdf Graphic file (type pdf)
 <use fig/k.pdf>
 File: fig/nbHIRAX.pdf Graphic file (type pdf)
@@ -1261,17 +1261,17 @@ File: fig/nbPUMAPetite.pdf Graphic file (type pdf)
 <use fig/nbPUMAPetite.pdf>
 File: fig/Pnoise.pdf Graphic file (type pdf)
 <use fig/Pnoise.pdf>
- [51]) [52] [53]
+ [52]) [53] [54]
 \openout2 = `tex/multipoles.aux'.
 
  (./tex/multipoles.tex
 chapter 7.
-[54
+[55
 
 
 
 
-] [55] [56]
+] [56] [57]
 Overfull \hbox (9.34601pt too wide) detected at line 62
 [][]\OML/cmm/m/it/12 B[]\OT1/cmr/m/n/12 (\OML/cmm/b/it/12 k[]\OML/cmm/m/it/12 ;
  \OML/cmm/b/it/12 k[]\OML/cmm/m/it/12 ; \OML/cmm/b/it/12 k[]\OT1/cmr/m/n/12 ) =
@@ -1283,7 +1283,7 @@ t/12 k[]\OML/cmm/m/it/12 ; \OML/cmm/b/it/12 k[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/1
 /cmr/m/n/12 (\OML/cmm/b/it/12 k[]\OT1/cmr/m/n/12 )[]\OML/cmm/m/it/12 ;
  []
 
-[57] [58] [59]
+[58] [59] [60]
 Overfull \hbox (80.45651pt too wide) detected at line 120
 []
  []
@@ -1303,10 +1303,10 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 141--141
 [] 
  []
 
-[60]
+[61]
 File: fig/fig.pdf Graphic file (type pdf)
 <use fig/fig.pdf>
- [61] [62] [63]
+ [62] [63] [64]
 Overfull \hbox (69.51956pt too wide) detected at line 265
 []
  []
@@ -1316,7 +1316,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 265--265
 [] 
  []
 
-[64]
+[65]
 Overfull \hbox (23.3999pt too wide) detected at line 297
 [][]\OMS/cmsy/m/n/12 K[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 K[]\OT1/cmr/m/n/12 
 (\OML/cmm/m/it/12 k[]; ^^V[]\OT1/cmr/m/n/12 )\OMS/cmsy/m/n/12 K[]\OT1/cmr/m/n/1
@@ -1327,7 +1327,7 @@ ML/cmm/m/it/12 ^^V[]\OT1/cmr/m/n/12 )[]([]\OML/cmm/m/it/12 ^^V[]\OT1/cmr/m/n/12
 /m/n/12 ) \OML/cmm/m/it/12 ;
  []
 
-[65]
+[66]
 Overfull \hbox (30.90886pt too wide) in paragraph at lines 306--307
 []\TU/lmr/m/n/12 To present $\OMS/cmsy/m/n/12 K[]\OT1/cmr/m/n/12 (\OML/cmm/m/it
 /12 k[]; k[]; k[]\OT1/cmr/m/n/12 )$ \TU/lmr/m/n/12 we will show powers of $\OMS
@@ -1336,7 +1336,7 @@ nd write $\OMS/cmsy/m/n/12 K[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 k[]; k[]; k[]\O
 T1/cmr/m/n/12 ) =
  []
 
-[66]
+[67]
 Overfull \hbox (37.66858pt too wide) detected at line 399
 []
  []
@@ -1346,7 +1346,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 399--399
 [] 
  []
 
-[67]
+[68]
 Overfull \hbox (228.35103pt too wide) detected at line 465
 []
  []
@@ -1356,15 +1356,15 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 465--465
 [] 
  []
 
-[68]
+[69]
 File: fig/overview.pdf Graphic file (type pdf)
 <use fig/overview.pdf>
- [69]
+ [70]
 Overfull \hbox (215.4458pt too wide) detected at line 512
 [][] [] \OT1/cmr/m/n/12 + []
  []
 
-[70] [71] [72] [73] [74] [75]
+[71] [72] [73] [74] [75] [76]
 File: fig/totP_Euclid_sq2.pdf Graphic file (type pdf)
 <use fig/totP_Euclid_sq2.pdf>
 File: fig/totP_IM_sq2.pdf Graphic file (type pdf)
@@ -1377,52 +1377,52 @@ File: fig/totP_euclid_equi2.pdf Graphic file (type pdf)
 <use fig/totP_euclid_equi2.pdf>
 File: fig/totP_IM_equi2.pdf Graphic file (type pdf)
 <use fig/totP_IM_equi2.pdf>
- [76
+ [77
 
-] [77]
+] [78]
 File: fig/triangles_all_k001_Euclid.png Graphic file (type bmp)
 <fig/triangles_all_k001_Euclid.png>
 File: fig/triangles_all_k01_Euclid.png Graphic file (type bmp)
 <fig/triangles_all_k01_Euclid.png>
- [78]
+ [79]
 File: fig/triangles_all_k001_IM.png Graphic file (type bmp)
 <fig/triangles_all_k001_IM.png>
 File: fig/triangles_all_k01_IM.png Graphic file (type bmp)
 <fig/triangles_all_k01_IM.png>
- [79]
+ [80]
 File: fig/redB_k01.pdf Graphic file (type pdf)
 <use fig/redB_k01.pdf>
 File: fig/redB_k001.pdf Graphic file (type pdf)
 <use fig/redB_k001.pdf>
- [80]
+ [81]
 File: fig/fnofz.pdf Graphic file (type pdf)
 <use fig/fnofz.pdf>
- [81
+ [82
 
 
 
 
-] [82]) [83]
+] [83]) [84]
 \openout2 = `tex/png_bisp.aux'.
 
 
 (./tex/png_bisp.tex
 chapter 8.
-[84
+[85
 
 
 
 
-] [85] [86]
+] [86] [87]
 Overfull \hbox (15.12341pt too wide) in paragraph at lines 79--81
 []\TU/lmr/m/n/12 relativistic projection corrections to the Newtonian RSD []Ber
 tacca et al.[] ([]2014a[],[]b[]);
  []
 
-[87] [88] [89] [90]
+[88] [89] [90] [91]
 File: fig/Mplot.pdf Graphic file (type pdf)
 <use fig/Mplot.pdf>
- [91] [92]
+ [92] [93]
 Overfull \hbox (5.64421pt too wide) detected at line 253
 []
  []
@@ -1438,23 +1438,23 @@ Overfull \hbox (2.15083pt too wide) in paragraph at lines 253--257
  ^^C$\TU/lmr/m/n/12 CDM is []Villa & Rampf[] ([]2016[]): 
  []
 
-[93] [94]
+[94] [95]
 Overfull \hbox (2.0367pt too wide) in paragraph at lines 303--306
 \TU/lmr/m/it/12 Relativistic corrections to [] are needed to enforce gauge-inde
 pendence
  []
 
-[95] [96] [97] [98]
+[96] [97] [98] [99]
 Overfull \hbox (6.0876pt too wide) detected at line 484
 []
  []
 
-[99]
+[100]
 Overfull \hbox (82.6928pt too wide) detected at line 506
 []
  []
 
-[100]
+[101]
 Overfull \hbox (19.0215pt too wide) in paragraph at lines 517--518
 \OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12 H[]\OT1/cmr/m/n/12 /\OML/cmm/m/it/12 k[]\OT1/
 cmr/m/n/12 ) (\OML/cmm/m/it/12 ^^N[]\OT1/cmr/m/n/12 )[]$ \TU/lmr/m/n/12 and dom
@@ -1468,12 +1468,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 525--526
 
  []
 
-[101]
+[102]
 Overfull \hbox (8.39479pt too wide) detected at line 611
 []
  []
 
-[102]
+[103]
 Overfull \hbox (23.98454pt too wide) detected at line 635
 []
  []
@@ -1484,22 +1484,22 @@ Overfull \hbox (0.6687pt too wide) in paragraph at lines 645--646
 rini et al.[] ([]2015[])). 
  []
 
-[103] [104]
+[104] [105]
 File: fig/Q_k0_1_noShotnoise1.pdf Graphic file (type pdf)
 <use fig/Q_k0_1_noShotnoise1.pdf>
 File: fig/Q_k0_1_noShotnoise2.pdf Graphic file (type pdf)
 <use fig/Q_k0_1_noShotnoise2.pdf>
- [105]
+ [106]
 File: fig/redB_lineandlake_v3.pdf Graphic file (type pdf)
 <use fig/redB_lineandlake_v3.pdf>
 File: fig/multipoles_allpanels_v3.pdf Graphic file (type pdf)
 <use fig/multipoles_allpanels_v3.pdf>
- [106] [107] [108] [109]) [110]
+ [107] [108] [109] [110]) [111]
 \openout2 = `tex/fishers.aux'.
 
  (./tex/fishers.tex
 chapter 9.
-) [111
+) [112
 
 
 
@@ -1509,7 +1509,7 @@ chapter 9.
 
  (./tex/summary.tex
 chapter 10.
-) [112
+) [113
 
 
 
@@ -1529,16 +1529,16 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 58--58
 [] 
  []
 
-[113
+[114
 
 
 
 
-] [114]) [115]
+] [115]) [116]
 chapter B.
-(./tex/app_betatables.tex [116
+(./tex/app_betatables.tex [117
 
-] [117]
+] [118]
 Overfull \hbox (153.99956pt too wide) detected at line 223
 []
  []
@@ -1548,13 +1548,13 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 223--223
 [] 
  []
 
-[118]) [119]
+[119]) [120]
 chapter C.
-(./tex/app_upsiloncoeff.tex [120
+(./tex/app_upsiloncoeff.tex [121
 
-]) [121]
+]) [122]
 chapter D.
-(./tex/app_sumderiv.tex [122
+(./tex/app_sumderiv.tex [123
 
 ]
 Overfull \hbox (74.27547pt too wide) detected at line 32
@@ -1584,7 +1584,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 52--52
 [] 
  []
 
-[123]
+[124]
 Overfull \hbox (144.04451pt too wide) detected at line 75
 []
  []
@@ -1604,7 +1604,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 81--81
 [] 
  []
 
-[124]
+[125]
 Overfull \hbox (144.34187pt too wide) detected at line 86
 []
  []
@@ -1624,7 +1624,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 95--95
 [] 
  []
 
-) [125]
+) [126]
 chapter E.
 (./tex/app_kabpres.tex
 Overfull \hbox (24.22433pt too wide) detected at line 38
@@ -1636,9 +1636,9 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 38--38
 [] 
  []
 
-[126
+[127
 
-] [127]
+] [128]
 Overfull \hbox (106.37213pt too wide) detected at line 77
 []
  []
@@ -1648,7 +1648,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 77--77
 [] 
  []
 
-[128]
+[129]
 Overfull \hbox (104.08089pt too wide) detected at line 109
 []
  []
@@ -1658,7 +1658,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 109--109
 [] 
  []
 
-[129]
+[130]
 Overfull \hbox (141.72049pt too wide) detected at line 132
 []
  []
@@ -1668,7 +1668,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 132--132
 [] 
  []
 
-[130] [131]) [132]
+[131] [132]) [133]
 chapter F.
 (./tex/app_sqlim.tex
 Overfull \hbox (108.90007pt too wide) detected at line 33
@@ -1680,9 +1680,9 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 33--33
 [] 
  []
 
-) [133
+) [134
 
-] [134]
+] [135]
 chapter G.
 (./tex/app_snreuclid.tex
 File: fig/colournmu1nphi_Doppler-eps-converted-to.pdf Graphic file (type pdf)
@@ -1699,7 +1699,7 @@ File: fig/cumulativeSnrdopplerQ1_5-eps-converted-to.pdf Graphic file (type pdf)
 File: fig/cumulativeSnrdopplerQ2_0-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/cumulativeSnrdopplerQ2_0-eps-converted-to.pdf>
- [135
+ [136
 
 ]
 Overfull \hbox (84.03271pt too wide) detected at line 72
@@ -1711,28 +1711,28 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 72--72
 [] 
  []
 
-) [136] [137]
+) [137] [138]
 chapter H.
-) [138
+) [139
 
 ] (./thesis.bbl
 chapter without number
-[139
+[140
 
 
 
-] [140] [141] [142] [143] [144]) [145] (./thesis.lof [146
+] [141] [142] [143] [144] [145]) [146] (./thesis.lof [147
 
-] [147] [148])
+] [148] [149])
 \tf@lof=\write5
 \openout5 = `thesis.lof'.
 
 
-[149] (./thesis.lot)
+[150] (./thesis.lot)
 \tf@lot=\write6
 \openout6 = `thesis.lot'.
 
- [150
+ [151
 
 ] (./thesis.aux (./tex/abstract.aux)
 (./tex/acknowledgements.aux) (./tex/introgeneral.aux) (./tex/introreleff.aux)
@@ -1753,10 +1753,10 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 Here is how much of TeX's memory you used:
  21619 strings out of 476919
  441075 string characters out of 5821840
- 989125 words of memory out of 5000000
+ 989132 words of memory out of 5000000
  41129 multiletter control sequences out of 15000+600000
  420903 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 125i,15n,130p,10602b,1674s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 125i,15n,130p,10602b,1676s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (157 pages, 2456640 bytes).
+Output written on thesis.xdv (158 pages, 2464108 bytes).

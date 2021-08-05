@@ -18,19 +18,33 @@ A purely Gaussian field is fully described by the two-point correlation function
 which is dependent on the distance $r$ between the two points only, due to statistical homogeneity and isotropy which are assumed throughout. Usually, the density contrast $\delta$ is expressed in terms of its Fourier space components, where our Fourier convention is 
 
 \begin{equation}
-	\delta{\x} = \int \diff^3k \, e^{\i \k \cdot \x } \delta(\x),
+	\delta({\x}) = \int \frac{\diff^3k}{(2\pi)^3} \, e^{\i \k \cdot \x } \delta(\x),
 \end{equation}
-where $\delta(\k)$ are complex random variables. Since the density contrast is real, this means that we have
+where $\delta(\k)$ are complex random variables. Note that there are generally two Fourier conventions that are used in literature on the galaxy statistics, which lead to a difference of $(2\pi)^3$ in the definition of the power spectrum or two-point function. The other choice of Fourier convention is to reverse where the factor of $(2\pi)^3$ goes in the Fourier transforms, that is, using $f(\x) = \int \diff^3k e^{\i \k \cdot \x} f(\k) $ and $f(\k) = \int \frac{\diff^3 x}{(2\pi)^3} e^{-\i \k \cdot \x} f(\x)$ instead of our convention used here.
+
+Since the density contrast is real, this means that we have
 \begin{equation}
 	\delta(k) = \delta^*(-\k).
 \end{equation}
 
 Similarly, the correlators can also be computed in Fourier space, as follows, 
 \begin{equation}
-	\langle \delta(\k) \delta(\k') \rangle = \int 
+	\langle \delta(\k) \delta(\k') \rangle = \int \diff^3 x \diff^3 r \langle \delta(\x) \delta(\x + \r)\rangle e^{-\i (\k + \k') \cdot \x - \i \k' \cdot \r}.
 \end{equation}
-check fourier convention 
+This can be rewritten using the definition of the two-point correlation function as 
+\begin{equation}
+	\langle \delta(\k) \delta(\k') \rangle = \int \diff^3 x \diff^3 r \xi(r) e^{-\i (\k + \k') \cdot \x - \i \k' \cdot \r},
+\end{equation}
+and, performing one of the intregrals, 
+\begin{align}
+	\langle \delta(\k) \delta(\k') \rangle &= (2\pi)^3 \delta^D(\k + \k') \int \diff^3 r \xi(r) e^{\i \k \cdot \r} \\
+	&\equiv (2\pi)^3 \delta^D(\k + \k') P(k),
+\end{align}
+where $P(k)$ is by definition the density power spectrum.
+
 \section{The three-point function}
+
+Higher-order correlation functions are defined as the connected part of the joint ensemble average of the density in an arbitrary number of locations. In principle it is possible define any order of correlation function like this, but they will rapidly become more computationally complex and expensive. In the case of a purely Gaussian field, the only non-vanishing connected part is the two-point correlation function. This is a direct consequence of Wick's theorem for Gaussian fields, and has a number of important consequences. Firstly 
 
 Some blah blah about higher order statistics and their importance in future surveys (higher precision data, non-Gaussianities in the universe and effects that give rise to nonlinearities)
 
