@@ -7,9 +7,9 @@
 \contentsline {chapter}{\numberline {3}Statistics of galaxy clustering}{4}{chapter.3}%
 \contentsline {section}{\numberline {3.1}The two-point function}{5}{section.3.1}%
 \contentsline {section}{\numberline {3.2}The three-point function}{6}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}The matter bispectrum}{6}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Matter bispectrum in observations}{6}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Galaxy bias}{6}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.1}The matter bispectrum}{7}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Matter bispectrum in observations}{7}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Galaxy bias}{7}{subsection.3.2.3}%
 \contentsline {subsection}{\numberline {3.2.4}Primordial non-Gaussianity}{7}{subsection.3.2.4}%
 \contentsline {chapter}{\numberline {4}Dipole of the Galaxy Bispectrum}{8}{chapter.4}%
 \contentsline {section}{\numberline {4.1}The dipole}{8}{section.4.1}%

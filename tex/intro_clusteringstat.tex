@@ -44,7 +44,16 @@ where $P(k)$ is by definition the density power spectrum.
 
 \section{The three-point function}
 
-Higher-order correlation functions are defined as the connected part of the joint ensemble average of the density in an arbitrary number of locations. In principle it is possible define any order of correlation function like this, but they will rapidly become more computationally complex and expensive. In the case of a purely Gaussian field, the only non-vanishing connected part is the two-point correlation function. This is a direct consequence of Wick's theorem for Gaussian fields, and has a number of important consequences. Firstly 
+Higher-order correlation functions are defined as the connected part of the joint ensemble average of the density in an arbitrary number of locations. In principle it is possible define any order of correlation function like this, but they will rapidly become more computationally complex and expensive. In the case of a purely Gaussian field, the only non-vanishing connected part is the two-point correlation function. This is a direct consequence of Wick's theorem for Gaussian fields, and has a number of important consequences. Firstly it means that a purely Gaussian, statistically homogeneous and isotropic field is fully described by its two-point correlation function or power spectrum, and secondly it means that the statistical properties of any field, which is not necessarily linear, can be written in terms of combinations of two-point correlation functions -- as long as the field is built from a Gaussian field $\delta$. In a generic form, Wick's theorem can be expressed as 
+\begin{align}
+	&\langle \delta(\ka) \ldots \delta(\bm{k}_{2p + 1}) \rangle = 0 \nonumber \\
+	&\langle \delta(\ka) \ldots \delta(\bm{k}_{2p})\rangle = \sum_{[\text{all distinct pairs}]} \prod_{[p \text{ pairs } (i,j)]} \langle \delta(\bm{k}_i) \delta(\bm{k}_j) \rangle.  
+\end{align}
+
+More concretely, this means that for a purely Gaussian field, $\langle \delta(\ka) \delta(\kb) \delta(\kc)\rangle = 0$. However, this changes in the presence of any sources of non-linearity. BLAH. An important consequence of non-linear evolution of structure is that the statistics of odd-number density fields are no longer vanishing. The leading odd-number statistic which will be non-zero in the case of non-linear evolution if the three-point correlation function or the bispectrum in Fourier space, 
+\begin{equation}
+	\langle \delta(\ka) \delta(\kb) \delta(\kc) \rangle 
+\end{equation}
 
 Some blah blah about higher order statistics and their importance in future surveys (higher precision data, non-Gaussianities in the universe and effects that give rise to nonlinearities)
 
