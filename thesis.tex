@@ -20,7 +20,6 @@ parskip= half % vertical space instead of indentation for paragr
 ]
 {icldt}
 
-
 \usepackage{graphicx}
 
 %\usepackage[square, numbers, sort&compress]{natbib}
@@ -29,22 +28,26 @@ parskip= half % vertical space instead of indentation for paragr
 \bibliographystyle{mnras}
 
 %%further packages:
+
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{bm}
 % \usepackage[T1]{fontenc} for pdflatex
-\usepackage{fontspec} %for lualatex or xelatex
+% \usepackage{fontspec} %for lualatex or xelatex - clash with realhats. swap later
+\usepackage{realhats}
+
 \usepackage{siunitx} %get the units in correct format? if I can figure out how to.. 
 \usepackage{mathtools}
 \usepackage{subcaption}
 \usepackage{xcolor}
 \usepackage{longtable,ltcaption}
 
+
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %  %
 
 % Journals
 % \newcommand{\apj}{ApJ}
 % \newcommand{\apjs}{ApJS}
-%  \newcommand{\apjl}{ApJL}
+% \newcommand{\apjl}{ApJL}
 % \newcommand{\aap}{A{\&}A}
 % \newcommand{\aaps}{A{\&}AS}
 % \newcommand{\mnras}{MNRAS}
@@ -73,7 +76,7 @@ parskip= half % vertical space instead of indentation for paragr
 \pagestyle{headings}
 \usepackage[title]{appendix}
 \usepackage{hyperref}
-\usepackage{silence}
+% \usepackage{silence}
 
 
 % \hypersetup{colorlinks = true, linkcolor=blue}

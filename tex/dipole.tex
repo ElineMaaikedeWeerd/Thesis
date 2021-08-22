@@ -1,13 +1,15 @@
-\chapter{Dipole of the Galaxy Bispectrum}
+\chapter{The Dipole of the Galaxy Bispectrum}
 \label{chapter:dipole}
 
 \section{The dipole}
 
+\iffalse
 The bispectrum will be crucial in next-generation large scale structure surveys, as it contains information that is both complementary and additional to what is contained in the power spectrum. As a non-Gaussian statistic it is well-suited to detect and constrain primordial non-Gaussianity, a key goal of next-generation surveys, and hence can help discriminate between various theories of inflation and other theories of the early universe.
 
 On cosmological scales, observations on the past light-cone induce relativistic corrections to the observed bispectrum of galaxies. As theoretical accuracy must at least match experimental precision, it is crucial for these effects to be included in the analysis of the Fourier-space bispectrum. The inclusion of redshift-space distortions (RSD) in the bispectrum is therefore essential~\citep{Verde:1998zr,Scoccimarro:1999ed}. This will add complexity, but means that more information can potentially be extracted~\citep{Tellarini:2016sgp}.
+\fi
 
-In this chapter we examine the leading-order relativistic contributions in the galaxy bispectrum, which arive predominantly from RSD and other Doppler-type observational effects. These give rise to corrections at $\ord(\cH/k)$ in the galaxy bispecrum.
+In this chapter we examine the leading-order relativistic contributions in the galaxy bispectrum, which arive predominantly from RSD and other Doppler-type observational effects. These give rise to corrections at $\ord(\cH/k)$ in the galaxy bispecrum. Higher order $\cH/k$ contributions are, while being subdominant, still present in the galaxy bispectrum; and a full treatment of the bispectrum at all orders can be found in chapter~\ref{chapter:multipoles}.
 
 
 The dominant RSD effect on galaxy number counts at first order is given by $\delta_g(z,\k) = (b_{1}(z) + f (z) \mu^{2})\delta(z,\k)$, where $\mu=\n\cdot\hat{\k}$, with $\n$ the line of sight direction, $f$ the growth rate, and $b_1$ is the linear bias. Henceforth the redshift dependence will be dropped for brevity as we are working at fixed redshift. At leading order, there is a Doppler type correction to this effect~\citep{Kaiser:1987qv,McDonald:2009dh,Challinor:2011bk} (see also \citet{Raccanelli:2016avd,Hall:2016bmm,Abramo:2017xnp})
@@ -45,7 +47,7 @@ with a lightcone corrected galaxy density contrast, the 3-point correlator, even
 
 \section{Relativistic contributions to the galaxy bispectrum}
 
-At second order, the Doppler correction in  \eqref{dopf} generalises to $A\, \bm{v}^{(2)}\!\cdot\n$, but there are also quadratic coupling terms. The couplings involve not only the Doppler effect but also radial gradients of the potential (`gravitational redshift'), volume distortion effects, and second-order corrections to the density contrast. Most of these contributions are small, but those that scale as $(\cH/k)\delta^2$ are not, even on equality scales. Except on super-equality scales we can often neglect any terms $O((\cH/k)^{2})$ and higher, which makes the calculation considerably simpler. 
+At second order, the Doppler correction in  \eqref{dopf} generalises to $A\, \bm{v}^{(2)}\!\cdot\n$, but there are also quadratic coupling terms. The couplings involve not only the Doppler effect but also radial gradients of the potential (`gravitational redshift'), volume distortion effects, and second-order corrections to the density contrast. Most of these contributions are small, but those that scale as $(\cH/k)\delta^2$ are not, even on equality scales. Except on super-equality scales we can often neglect any terms $\ord((\cH/k)^{2})$ and higher, which makes the calculation considerably simpler. 
 
 The leading correction can be extracted from the general expressions that include all relativistic  corrections to the Newtonian approximation, as given in  \citet{Bertacca:2014hwa} (see also \citet{Bertacca:2014dra,Yoo:2014sfa,DiDio:2014lka,Jolicoeur:2017nyt,DiDio:2018zmk}):  
 \begin{align}
@@ -66,48 +68,55 @@ B_{g}( \mathbf{k}_{1},  \mathbf{k}_{2},  \k_3) &= { \mathcal{K}( \k_{1})\mathcal
 P(k_{1})P(k_{2}) \nonumber\\ 
 &+\text{2 cyclic permutations}\,.\label{b6}
 \end{align}
- The first-order kernel $\mathcal{K}=\mathcal{K}_{\mathrm{N}}+\mathcal{K}_{\mathrm{D}}$ is given by the term in brackets in \eqref{dopf2}.
+The first-order kernel $\mathcal{K}=\mathcal{K}_{\mathrm{N}}+\mathcal{K}_{\mathrm{D}}$ is given by the term in brackets in \eqref{dopf2}.
 At second order, $\mathcal{K}^{(2)}=\mathcal{K}_{\mathrm{N}}^{(2)}+\mathcal{K}_{\mathrm{D}}^{(2)}$, where
  the Newtonian kernel is~\citep{Verde:1998zr}
 \begin{align}
-%\kt(\ka,\kb,\kc) &=&\kt_{\mathrm{N}}(\ka,\kb,\kc)+ \kt_{\mathrm{D}}(\ka,\kb,\kc) \label{d1}\\
-&\mathcal{K}_{\mathrm{N}}^{(2)}%(\mathbf{k}_{1},  \mathbf{k}_{2},\k_3) 
-= b_{2}+ b_{1}F_{2}%(\mathbf{k}_{1}, \mathbf{k}_{2},\kc) 
-%\nonumber\\&&~~
- -{\frac{2}{7}}(b_1-1)S_{2}
- %(\mathbf{k}_{1}, \mathbf{k}_{2},\kc)
-%\nonumber\\&&~~
-+ f\,G_{2}%(\mathbf{k}_{1}, \mathbf{k}_{2},\kc)
-\mu_3^{2}
-+ {\cal Z}_2%({\k_{1}},  {\k_{2}},\kc)
-\,.   \label{kn2}  %\\
+\mathcal{K}_{\mathrm{N}}^{(2)} (\ka,\kb,\kc) &= b_{2} + b_{1}F_{2}(\ka,\kb) + b_s S_{2}(\ka,\kb) \nonumber \\
+& + f \mu_3^{2} G_{2}(\ka,\kb)
++ {\cal Z}_2(\ka,\kb)\,.   \label{kn2}  
 \end{align}
-Here $F_2({\k_{1}},  {\k_{2}},\kc),G_2({\k_{1}},  {\k_{2}},\kc)$ are the second-order density and velocity kernels, and ${\cal Z}_2({\k_{1}},  {\k_{2}},\kc)$ is the second-order  RSD kernel. We use a local bias model \citep{Desjacques:2016bnm}, which includes tidal bias with kernel  $S_2({\k_{1}},  {\k_{2}},\kc)$. The kernels are given in \citet{Tellarini:2016sgp}.
+Here $F_2(\ka,\kb)$ is the standard Newtonian mode-coupling kernel for $\Lambda$CDM~\cite{Villa:2015ppa}, 
+\begin{equation}
+    F_2(a,\ka,\kb) = 1 + \frac{F(a)}{D(a)^2} + \left( \frac{k_1}{k_2} + \frac{k_2}{k_1} \right) \hat{\k}_1 \cdot \hat{k}_2 + \left[ 1 - \frac{F(a)}{D(a)^2} \right]\left( \hat{\k}_1 \cdot \hat{k}_2 \right)^2\,,
+\end{equation}
+where F is the second-order growth factor. For $\Lambda$CDM, the Einstein-De Sitter relation $F/D^2 = 3/7$ is a very good approximation. Using this approximation, $F_2$ is essentially time-independent. $G_2({\k_{1}},  {\k_{2}},\kc)$ is the second-order velocity kernel, 
+\begin{equation}
+    G_2(a,\ka,\kb) = \frac{F'(a)}{D(a) D'(a)} + \left( \frac{k_1}{k_2} + \frac{k_2}{k_1} \right) \hat{\k}_1 \cdot \hat{\k}_2 + \left( 2 - \frac{F'(a)}{D(a) D'(a)} \right) \left( \hat{\k}_1 \cdot \hat{\k}_2 \right)^2\,,
+\end{equation}
+where, since we use the Einstein-De Sitter approximation $F/D^2 = 3/7$ in $F_2$, we have $F'/(D D') = 6/7$ in $G_2$. We use a local bias model~\citep{Desjacques:2016bnm}$S_2(\ka,\kb)$ which includes tidal bias kernel
+\begin{equation}
+    S_2(\ka,\kb) = (\hat{\k}_1 \cdot \hat{\k}_2)^2 - \frac{1}{3}, 
+\end{equation}
+with tidal bias $b_s$. Finally, the kernel $\mathcal{Z}_2(\ka,\kb)$ incorporates the non-linear Kaiser RSD contribution~\cite{Verde:1998zr,Scoccimarro:1999ed}, 
+\begin{equation}
+    \mathcal{Z}_2(\ka,\kb) = b_1 f (\mu_1 k_1 + \mu_2 k_2) \left( \frac{\mu_1}{k_1} + \frac{\mu_2}{k_2} \right) + f^2 \frac{\mu_1 \mu_2}{k_1 k_2} \left( \mu_1 k_1 + \mu_2 k_2 \right)^2\,.
+\end{equation}
 
 The Doppler correction to \eqref{kn2} in Fourier space follows from \eqref{dg2}~\citep{Jolicoeur:2017eyi}:
 %\footnote{This is consistent with the full relativistic second-order kernel given in [Jolicoeur2017].}
 \begin{align}
 \mathcal{K}^{(2)}_{\mathrm{D}}(\bm{k}_{1}, \bm{k}_{2}, \bm{k}_{3}) &= {\i} {\cH}
-\bigg[ - \frac{3}{2} \left( \mu_{1} \frac{k_{1}}{k_2^2} + \mu_{2} \frac{k_{2}}{k_1^2} \right) \Omega_m b_1 + 2\mu_{12} \left( \frac{\mu_{1}}{k_2} + \frac{\mu_{2}}{k_1}\right) f^2  + \left( \frac{\mu_{1}}{k_1} + \frac{\mu_{2}}{k_2} \right){C} f  
-\nonumber \\
-& - \frac{3}{2} \left( \mu_{1}^3 \frac{k_{1}}{k_2^2} + \mu_{2}^3 \frac{k_{2}}{k_1^2} \right)\Omega_m f 
- + \mu_{1}\mu_{2}\left( \frac{\mu_{1}}{k_2} + \frac{\mu_{2}}{k_1} \right) {\Big( \frac{3}{2} \Omega_m - E f\Big) f} + \frac{\mu_{3}}{k_{3}} G_{2}(\bm{k}_{1}, \bm{k}_{2},\kc){A} f\bigg] ,~~~~  \label{d2}
+\bigg[ - \frac{3}{2} \left( \mu_{1} \frac{k_{1}}{k_2^2} + \mu_{2} \frac{k_{2}}{k_1^2} \right) \Omega_m b_1 + 2\mu_{12} \left( \frac{\mu_{1}}{k_2} + \frac{\mu_{2}}{k_1}\right) f^2  \nonumber \\
+& \left( \frac{\mu_{1}}{k_1} + \frac{\mu_{2}}{k_2} \right){C} f - \frac{3}{2} \left( \mu_{1}^3 \frac{k_{1}}{k_2^2} + \mu_{2}^3 \frac{k_{2}}{k_1^2} \right)\Omega_m f \nonumber \\
+& + \mu_{1}\mu_{2}\left( \frac{\mu_{1}}{k_2} + \frac{\mu_{2}}{k_1} \right) {\Big( \frac{3}{2} \Omega_m - E f\Big) f} + \frac{\mu_{3}}{k_{3}} G_{2}(\bm{k}_{1}, \bm{k}_{2},\kc){A} f\bigg] ,~~~~  \label{d2}
 \end{align}
 where $\mu_{ab}=\hat{\k}_a\cdot \hat{\k}_b$ and $\mu_a=\hat{\k}_a\cdot\bm n$. 
  The Newtonian kernel \eqref{kn2} scales as $(\cH/k)^{0}$, while the Doppler kernel \eqref{d2} scales as $(\cH/k)$. 
 Using \eqref{kn2} and \eqref{d2} in \eqref{b6}, and dropping terms that scale as $(\cH/k)^{2}$ and $(\cH/k)^{3}$,
 we find that
 \begin{align}
-B_{g{\mathrm{N}}}( \mathbf{k}_{1},  \mathbf{k}_{2},  \k_3) &=  \ko_{\mathrm{N}}(\ka)\ko_{\mathrm{N}}(\kb)\kt_{\mathrm{N}}(\ka,\kb,\kc)\,P(k_{1})P(k_{2})  +\text{2 cyclic permutations} \,,\\
-B_{g{\mathrm{D}}}( \mathbf{k}_{1},  \mathbf{k}_{2},  \k_3) &=& \Big\{
+B_{g{\mathrm{N}}}( \mathbf{k}_{1},  \mathbf{k}_{2},  \k_3) &=  \ko_{\mathrm{N}}(\ka)\ko_{\mathrm{N}}(\kb)\kt_{\mathrm{N}}(\ka,\kb,\kc)\,P(k_{1})P(k_{2})  \nonumber \\
+& +\text{2 cyclic permutations,}\\
+B_{g{\mathrm{D}}}( \mathbf{k}_{1},  \mathbf{k}_{2},  \k_3) &= \Big\{
 \ko_{\mathrm{N}}(\ka)\ko_{\mathrm{N}}(\kb)\kt_{\mathrm{D}}(\ka,\kb,\kc)
 \nonumber\\ \label{bd}
-&&~~~ 
-+\Big[ \ko_{\mathrm{N}}(\ka)\ko_{\mathrm{D}}(\kb)+\ko_{\mathrm{D}}(\ka)\ko_{\mathrm{N}}(\kb) \Big]\kt_{\mathrm{N}}(\ka,\kb,\kc)
+& +\Big[ \ko_{\mathrm{N}}(\ka)\ko_{\mathrm{D}}(\kb)+\ko_{\mathrm{D}}(\ka)\ko_{\mathrm{N}}(\kb) \Big]\kt_{\mathrm{N}}(\ka,\kb,\kc)
 \Big\}
-P(k_{1})P(k_{2}) +\text{2 c.p.}
+P(k_{1})P(k_{2}) \nonumber \\
+& +\text{2 cyclic permutations.}
 \end{align}
-Since \eqref{d2} scales as $\cH/k$ it is purely imaginary, as all these contributions have at least one $\k$ projected along the line of sight~-- i.e.,  they contain odd powers of $\mu_a$'s. This means that {\em the leading relativistic correction in the observed galaxy Fourier bispectrum of a single tracer is a purely imaginary addition to the Newtonian approximation.} On larger scales, terms $O((\cH/k)^{2})$ and higher appear in both the real and imaginary parts, with the kernels given in~\citet{Umeh:2016nuh,Jolicoeur:2017nyt,Jolicoeur:2017eyi,Jolicoeur:2018blf}. (We include these in our plots below.)
+Since \eqref{d2} scales as $\cH/k$ it is purely imaginary, as all these contributions have at least one $\k$ projected along the line of sight~-- i.e.,  they contain odd powers of $\mu_a$'s. This means that {\em the leading relativistic correction in the observed galaxy Fourier bispectrum of a single tracer is a purely imaginary addition to the Newtonian approximation.} On larger scales, terms $\ord((\cH/k)^{2})$ and higher appear in both the real and imaginary parts, with the kernels given in~\citet{Umeh:2016nuh,Jolicoeur:2017nyt,Jolicoeur:2017eyi,Jolicoeur:2018blf}. (We include these in our plots below.)
 
 \section{Extracting the dipole}
 
@@ -119,9 +128,9 @@ $%\be
 $ %\ee 
 where $\theta=\theta_{12}$ (and we define $\mu=\cos\theta$~-- note that $\theta$ is the angle outside the triangle as the $\k_a$'s are head-to-tail). We use standard orthonormal spherical harmonics with the triangle lying in the $y-z$ plane, with $\bm k_1$ aligned along the $z$-axis~\citep{Nan:2017oaq}. Then we have $Y_{\ell m}(\mu_1,\varphi)$, so that we can write $B_g =\sum_{\ell m} B_{\ell m}Y_{\ell m}(\mu_1,\varphi)$. The leading relativistic terms we consider here generate odd-power multipoles up to $\ell=7$, and the full expression generates even and odd multipoles up to $\ell=8$.
 Different powers of $(\i\mu_1)$ and $(\i\mu_2)$ contribute to the dipole, 
-\begin{equation}
+\begin{align}
 \arraycolsep=1.0pt\def\arraystretch{1}
-\int\mathrm{d}\Omega (\i\mu_1)^i  (\i \mu_2)^j Y^*_{1 m} = 
+\int\mathrm{d}\Omega (\i\mu_1)^i  (\i \mu_2)^j Y^*_{1 m} & = 
  \delta_{m,0}\frac{\i\sqrt{3\pi}}{15}\left[ \begin {array}{ccccc} 
  0&10\mu&0&-6\mu  &\\ 
 10&0&-4{\mu}^{2}-2&0& \cdots\\ 
@@ -130,8 +139,8 @@ Different powers of $(\i\mu_1)$ and $(\i\mu_2)$ contribute to the dipole,
 -6&0&{\frac {24
 \,{\mu}^{2}+6}{7}}&0& \\
  &\vdots & & & \ddots
-\end {array} \right] 
-+
+\end {array} \right] \nonumber \\
+& +
 \delta_{m,\pm1}\frac{\sqrt{6\pi}}{15}
  \left[ \begin {array}{ccccc} 0&-5&0&3&\\ 
  0&0&2\,\mu&0
@@ -142,14 +151,14 @@ Different powers of $(\i\mu_1)$ and $(\i\mu_2)$ contribute to the dipole,
  &\vdots & & & \ddots
 \end {array} \right] \sin\theta\,,
 \label{dkjsncdjcnsk}
-\end{equation}
+\end{align}
 where each matrix element corresponds to a particular combination of $i,j$,
-where the matrix indices run over the values $i=0\ldots6, j=0\ldots6$, with powers above 3 not written above; these are polynomials in $\mu$ up to order 6. From this we can read off the terms from $\mathcal{K}_\text{D}$ contribute to differing $m=0,\pm1$. In particular, if $i+j$ is even~-- i.e., the real part of the bispectrum~--  there is no contribution: only the imaginary terms, corresponding to $i+j$ odd, contribute. For the monopole, only $i+j$ even contribute. Therefore, at $O(\cH/k)$, \emph{the monopole of the bispectrum is the Newtonian part, while the dipole is purely from the relativistic corrections.  The presence of the dipole is therefore a `smoking gun' signal for the leading relativistic correction to the bispectrum.} At order $O((\cH/k)^{2})$, relativistic terms appear in the monopole, which were considered in \citet{Umeh:2016nuh,Jolicoeur:2017nyt,Jolicoeur:2017eyi,Jolicoeur:2018blf}.\\
+where the matrix indices run over the values $i=0\ldots6, j=0\ldots6$, with powers above 3 not written above; these are polynomials in $\mu$ up to order 6. From this we can read off the terms from $\mathcal{K}_\text{D}$ contribute to differing $m=0,\pm1$. In particular, if $i+j$ is even~-- i.e., the real part of the bispectrum~--  there is no contribution: only the imaginary terms, corresponding to $i+j$ odd, contribute. For the monopole, only $i+j$ even contribute. Therefore, at $\ord(\cH/k)$, \emph{the monopole of the bispectrum is the Newtonian part, while the dipole is purely from the relativistic corrections.  The presence of the dipole is therefore a `smoking gun' signal for the leading relativistic correction to the bispectrum.} At order $\ord((\cH/k)^{2})$, relativistic terms appear in the monopole, which were considered in \citet{Umeh:2016nuh,Jolicoeur:2017nyt,Jolicoeur:2017eyi,Jolicoeur:2018blf}.\\
 
 
 \section{Squeezed, equilateral and flattened limits}
 
-It is relatively straightforward to understand the type of dipole generated in different triangular configurations in our conventions. In particular, for the $O(\cH/k)$ relativistic dipole:
+It is relatively straightforward to understand the type of dipole generated in different triangular configurations in our conventions. In particular, for the $\ord(\cH/k)$ relativistic dipole:
 \begin{itemize}
 \item The squeezed case is zero for $m=0$, and is non-zero for $m=\pm1$. We see this directly from \eqref{dkjsncdjcnsk}: with $\mu=-1$ the $m=0$ contribution is anti-symmetric in $i,j$ while $\mathcal{B}_{ij}$ is symmetric in this limit.
 \item In the equilateral case, the dipole is zero (this is the case for all orders in $\cH/k$).
@@ -212,7 +221,7 @@ The type of dipole extracted from this term is seen as follows. To this order we
 \begin{center}
 %\includegraphics[width=\columnwidth]{flattened-squeezed-02}
 \includegraphics[width=\columnwidth]{fig/figuresv2-02}
-\caption{ The absolute value of the bispectrum dipole at $z=1$  as a function of triangle size, in the flattened (Left, $\theta=2^\circ$, for intensity mapping bias) and squeezed (Right, $\theta=178^\circ$, for Euclid-like bias) configurations, with $k_3$ as the horizontal axis. Red is the $m=0$ part and blue is $m=\pm1$. Dashed (and dotted) lines show up to the $O(\cH/k)$ terms considered analytically here, while solid lines indicate larger-scale contributions. For reference the monopole is in black, with the dotted line the Newtonian part.  (The zero-crossing in the monopole for the squeezed case is a result of the tidal bias.)}
+\caption{ The absolute value of the bispectrum dipole at $z=1$  as a function of triangle size, in the flattened (Left, $\theta=2^\circ$, for intensity mapping bias) and squeezed (Right, $\theta=178^\circ$, for Euclid-like bias) configurations, with $k_3$ as the horizontal axis. Red is the $m=0$ part and blue is $m=\pm1$. Dashed (and dotted) lines show up to the $\ord(\cH/k)$ terms considered analytically here, while solid lines indicate larger-scale contributions. For reference the monopole is in black, with the dotted line the Newtonian part.  (The zero-crossing in the monopole for the squeezed case is a result of the tidal bias.)}
 \label{snakcjnsdlkcans}
 \end{center}
 \end{figure}
@@ -221,7 +230,7 @@ The type of dipole extracted from this term is seen as follows. To this order we
 \begin{center}
 %\includegraphics[width=\columnwidth]{shapes-01}
 \includegraphics[width=\columnwidth]{fig/figuresv2-01}
-\caption{ (Left) We show the dipoles as a function of $\theta$ with a bias appropriate for a Euclid-like survey, for $k_1=k_2=0.01$\,Mpc$^{-1}$. The left of the plot corresponds to the flattened case where the $m=0$ (red) dipole reaches 10\% of the monopole.  (Right) We show the IM signal with $k_1=k_2=0.1$\,Mpc$^{-1}$ versus the long mode $k_3$. Except for very long modes $\theta\approx\pi$, our $O(\cH/k)$ truncation is a very good approximation in these examples. }
+\caption{ (Left) We show the dipoles as a function of $\theta$ with a bias appropriate for a Euclid-like survey, for $k_1=k_2=0.01$\,Mpc$^{-1}$. The left of the plot corresponds to the flattened case where the $m=0$ (red) dipole reaches 10\% of the monopole.  (Right) We show the IM signal with $k_1=k_2=0.1$\,Mpc$^{-1}$ versus the long mode $k_3$. Except for very long modes $\theta\approx\pi$, our $\ord(\cH/k)$ truncation is a very good approximation in these examples. }
 \label{sankcjnakjdcs}
 \end{center}
 \end{figure}
@@ -245,7 +254,7 @@ In Fig.~\eqref{sankcjnakjdcs} we change the shape with fixed $k_1=k_2$ for both 
 
 We have shown for the first time that the relativistic galaxy bispectrum has a leading correction which is a local dipole with respect to the observers line of sight. In contrast to the power spectrum, this dipole exists even for a single tracer. We have shown analytically how the dipole is generated for the leading terms, and numerically we have included all local contributions, which show up above the equality scale. We have neglected integrated terms which will also contribute to the dipole, but their inclusion in a Fourier space bispectrum is non-trivial. Local relativistic corrections will induce all multipoles up to $\ell=8$ at every $m$, in contrast to the Newtonian case which only induces even $\ell=0,2,4$. We will investigate these new multipoles in a forthcoming publication. 
 
-We have shown that this dipole is large with respect to the monopole in both the flattened and squeezed limits, which excite different orders of the dipole orientation $m$.  We have shown that even on equality scales it is about 10\% of the monopole at $z=1$ for flattened shapes which have the largest amplitude. In more squeezed cases where the short mode is $\sim10$\,Mpc the dipole can also be a large part of the IM signal. Furthermore, although we have only considered Gaussian initial conditions here, the dipole will be unaffected by non-Gaussianity at leading order because these corrections start at $O((\cH/k)^2)$, making our predictions relatively robust to this. This implies that the dipole of the bispectrum is a unique signature of general relativity on cosmological scales, and therefore offers a new observational window onto modifications of general relativity. 
+We have shown that this dipole is large with respect to the monopole in both the flattened and squeezed limits, which excite different orders of the dipole orientation $m$.  We have shown that even on equality scales it is about 10\% of the monopole at $z=1$ for flattened shapes which have the largest amplitude. In more squeezed cases where the short mode is $\sim10$\,Mpc the dipole can also be a large part of the IM signal. Furthermore, although we have only considered Gaussian initial conditions here, the dipole will be unaffected by non-Gaussianity at leading order because these corrections start at $\ord((\cH/k)^2)$, making our predictions relatively robust to this. This implies that the dipole of the bispectrum is a unique signature of general relativity on cosmological scales, and therefore offers a new observational window onto modifications of general relativity. 
 
 
 
