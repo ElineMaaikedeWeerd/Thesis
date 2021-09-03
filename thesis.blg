@@ -5,11 +5,11 @@ The style file: mnras.bst
 A level-1 auxiliary file: tex/abstract.aux
 A level-1 auxiliary file: tex/acknowledgements.aux
 A level-1 auxiliary file: tex/introgeneral.aux
-A level-1 auxiliary file: tex/introreleff.aux
 A level-1 auxiliary file: tex/intro_clusteringstat.aux
+A level-1 auxiliary file: tex/introreleff.aux
 A level-1 auxiliary file: tex/dipole.aux
+A level-1 auxiliary file: tex/detectability.aux
 A level-1 auxiliary file: tex/snr_euclid.aux
-A level-1 auxiliary file: tex/snr_ska.aux
 A level-1 auxiliary file: tex/multipoles.aux
 A level-1 auxiliary file: tex/png_bisp.aux
 A level-1 auxiliary file: tex/fishers.aux
@@ -24,20 +24,6 @@ while executing---line 1822 of file mnras.bst
 Warning--empty journal in Aghanim:2018eyx
 "ArXiv e-prints" is a string literal, `journal' is a missing field
 ---they aren't the same literal types for entry Aghanim:2018eyx
-while executing---line 1822 of file mnras.bst
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry Ansari:2018ury
-while executing---line 1822 of file mnras.bst
-Warning--empty journal in Ansari:2018ury
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry Ansari:2018ury
-while executing---line 1822 of file mnras.bst
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry Castorina:2020zhz
-while executing---line 1822 of file mnras.bst
-Warning--empty journal in Castorina:2020zhz
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry Castorina:2020zhz
 while executing---line 1822 of file mnras.bst
 "ArXiv e-prints" is a string literal, `journal' is a missing field
 ---they aren't the same literal types for entry Jolicoeur:2020eup
@@ -68,13 +54,6 @@ Warning--empty journal in Pan:2019dxa
 ---they aren't the same literal types for entry Pan:2019dxa
 while executing---line 1822 of file mnras.bst
 "ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry Slosar:2019jwd
-while executing---line 1822 of file mnras.bst
-Warning--empty journal in Slosar:2019jwd
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry Slosar:2019jwd
-while executing---line 1822 of file mnras.bst
-"ArXiv e-prints" is a string literal, `journal' is a missing field
 ---they aren't the same literal types for entry Umeh:2020cag
 while executing---line 1822 of file mnras.bst
 Warning--empty journal in Umeh:2020cag
@@ -88,45 +67,45 @@ Warning--empty journal in Villumsen:1995ar
 "ArXiv e-prints" is a string literal, `journal' is a missing field
 ---they aren't the same literal types for entry Villumsen:1995ar
 while executing---line 1822 of file mnras.bst
-You've used 157 entries,
+You've used 121 entries,
             2881 wiz_defined-function locations,
-            1932 strings with 40772 characters,
-and the built_in function-call counts, 79260 in all, are:
-= -- 6532
-> -- 6199
-< -- 396
-+ -- 2572
-- -- 1048
-* -- 9551
-:= -- 12833
+            1677 strings with 33171 characters,
+and the built_in function-call counts, 61625 in all, are:
+= -- 5086
+> -- 4842
+< -- 298
++ -- 2001
+- -- 830
+* -- 7458
+:= -- 9996
 add.period$ -- 0
-call.type$ -- 157
-change.case$ -- 314
-chr.to.int$ -- 152
-cite$ -- 167
-duplicate$ -- 3572
-empty$ -- 3454
-format.name$ -- 1492
-if$ -- 13680
-int.to.chr$ -- 6
+call.type$ -- 121
+change.case$ -- 242
+chr.to.int$ -- 118
+cite$ -- 128
+duplicate$ -- 2750
+empty$ -- 2654
+format.name$ -- 1164
+if$ -- 10624
+int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 157
-newline$ -- 484
-num.names$ -- 1214
-pop$ -- 717
+missing$ -- 121
+newline$ -- 376
+num.names$ -- 938
+pop$ -- 543
 preamble$ -- 1
-purify$ -- 628
+purify$ -- 484
 quote$ -- 0
-skip$ -- 2155
+skip$ -- 1652
 stack$ -- 0
-substring$ -- 4904
-swap$ -- 2042
-text.length$ -- 628
+substring$ -- 3870
+swap$ -- 1592
+text.length$ -- 484
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1413
-warning$ -- 10
-while$ -- 1220
+type$ -- 1089
+warning$ -- 7
+while$ -- 944
 width$ -- 0
-write$ -- 1562
-(There were 20 error messages)
+write$ -- 1208
+(There were 14 error messages)

@@ -9,31 +9,29 @@ The bispectrum will be crucial in next-generation large scale structure surveys,
 On cosmological scales, observations on the past light-cone induce relativistic corrections to the observed bispectrum of galaxies. As theoretical accuracy must at least match experimental precision, it is crucial for these effects to be included in the analysis of the Fourier-space bispectrum. The inclusion of redshift-space distortions (RSD) in the bispectrum is therefore essential~\citep{Verde:1998zr,Scoccimarro:1999ed}. This will add complexity, but means that more information can potentially be extracted~\citep{Tellarini:2016sgp}.
 \fi
 
-In this chapter we examine the leading-order relativistic contributions in the galaxy bispectrum, which arive predominantly from RSD and other Doppler-type observational effects. These give rise to corrections at $\ord(\cH/k)$ in the galaxy bispecrum. Higher order $\cH/k$ contributions are, while being subdominant, still present in the galaxy bispectrum; and a full treatment of the bispectrum at all orders can be found in chapter~\ref{chapter:multipoles}.
+In this chapter we examine the leading-order relativistic contributions in the galaxy bispectrum, which arise predominantly from RSD and other Doppler-type observational effects. These give rise to corrections at $\ord(\cH/k)$ in the galaxy bispectrum. Higher order $\cH/k$ contributions are, while being subdominant, still present in the galaxy bispectrum; and a full treatment of the bispectrum at all orders can be found in chapter~\ref{chapter:multipoles}.
 
 
-The dominant RSD effect on galaxy number counts at first order is given by $\delta_g(z,\k) = (b_{1}(z) + f (z) \mu^{2})\delta(z,\k)$, where $\mu=\n\cdot\hat{\k}$, with $\n$ the line of sight direction, $f$ the growth rate, and $b_1$ is the linear bias. Henceforth the redshift dependence will be dropped for brevity as we are working at fixed redshift. At leading order, there is a Doppler type correction to this effect~\citep{Kaiser:1987qv,McDonald:2009dh,Challinor:2011bk} (see also \citet{Raccanelli:2016avd,Hall:2016bmm,Abramo:2017xnp})
-proportional to $\bm{v}\cdot\n$, where $\bm{v}$ is the peculiar velocity:\footnote{\citet{Challinor:2011bk} provides the relativistic correction to the coefficient of  $\bm{v}\cdot\n$ given in \citet{Kaiser:1987qv,McDonald:2009dh}.}
+The dominant RSD effect on galaxy number counts at first order is given by $\delta_g(z,\k) = (b_{1}(z) + f (z) \mu^{2})\delta(z,\k)$, where $\mu=\n\cdot\hat{\k}$, with $\n$ the line of sight direction, $f$ the growth rate, and $b_1$ is the linear bias. Henceforth the redshift dependence will be dropped for brevity as we are working at fixed redshift. At leading order, there is a Doppler type correction to this effect~\citep{Kaiser:1987qv,McDonald:2009dh,Challinor:2011bk} (see also \citep{Raccanelli:2016avd,Hall:2016bmm,Abramo:2017xnp}) proportional to $\bm{v}\cdot\n$, where $\bm{v}$ is the peculiar velocity:\footnote{\citep{Challinor:2011bk} provides the relativistic correction to the coefficient of  $\bm{v}\cdot\n$ given in \citep{Kaiser:1987qv,McDonald:2009dh}.}
 \begin{equation} \label{dopf}
 \delta_g(\x) = b_{1} \delta(\x)-{\frac{1}{\cH}}\partial_r(\bm{v}\cdot\n) +{A}\,\bm{v}\cdot\n ~~\to~~
 \end{equation}
 \begin{equation} \delta_g(\k)=\Big(b_1+f\mu^2+\i {A}\,f \mu{\frac{\cH}{k}}\Big)\delta(\k)\,,\label{dopf2}
 \end{equation}
-where  ${A} = {b_{\textrm{e}}+{3}\Omega_m/2 -3 + (2-5s) (1-{1/ r\cH} )}$.
-Here  $b_{\textrm{e}}=\partial (a^3 \bar{n}_g)/\partial \ln a$ is the evolution of comoving galaxy number density, $s=-(2/5)\partial \ln \bar{n}_g/\partial \ln L$ is the magnification bias ($L$ is the threshold luminosity), $r$ is the comoving radial distance ($\partial_r=\bm n\cdot\bm\nabla$) and we have assumed a $\Lambda$CDM background
-($\cH'/\cH^2=1-3\Omega_m/2$, where $\cH$ is the conformal Hubble rate, a prime is differentiation with respect to conformal time, $\Omega_m$ is the evolving density contrast). In the  Fourier space expression~\eqref{dopf2} we can read off the relative contribution of each term by how they scale with $k$: terms like $\cH/k$ are suppressed on small scales when $\cH/k\ll1$ but become important around and above the equality scale. 
-%(We use the plane parallel approximation throughout, so for very large scales wide angle effects need to be included.)
+where  
+\begin{equation}
+{A} = {b_{\textrm{e}}+{3}\Omega_m/2 -3 + (2-5s) (1-{1/ r\cH} )}\,.
+\end{equation}
+Here $b_{\textrm{e}}=\partial (a^3 \bar{n}_g)/\partial \ln a$ is the evolution of comoving galaxy number density, $s=-(2/5)\partial \ln \bar{n}_g/\partial \ln L$ is the magnification bias ($L$ is the threshold luminosity), $r$ is the comoving radial distance ($\partial_r=\bm n\cdot\bm\nabla$) and we have assumed a $\Lambda$CDM background ($\cH'/\cH^2=1-3\Omega_m/2$, where $\cH$ is the conformal Hubble rate, a prime is differentiation with respect to conformal time, $\Omega_m$ is the evolving density contrast). In the  Fourier space expression~\eqref{dopf2} we can read off the relative contribution of each term by how they scale with $k$: terms like $\cH/k$ are suppressed on small scales when $\cH/k\ll1$ but become important around and above the equality scale. 
 
 
-Although the galaxy density contrast \eqref{dopf2} is complex, the power spectrum of a single tracer is real:
+Although the galaxy density contrast~\eqref{dopf2} is complex, the power spectrum of a single tracer is real:
 \begin{equation}
 \big\langle \delta_g(\k)\delta_g(-\k)\big\rangle
 =\Big[ \big(b_{1} + f\mu^{2}\big)^2+\Big(A\,f \mu \frac{\cH}{k}\Big)^2\Big] \big\langle \delta(\k)\delta(-\k)\big\rangle \,,\nonumber
 \end{equation}
 since $\mu_{-\k}=-\mu_{\k}$ enforces a cancellation of the imaginary part, and the RSD contribution is separate from the Doppler term.
-However, if we consider the cross-power spectrum for {\em two} matter tracers, this cancellation breaks down
-%  , {since the correlator $\langle \delta_g(\k)\delta_{\tilde g}(-\k)\rangle$ is no longer an even function of $\mu$.} Then 
-and  there is an imaginary part in the cross-power~ \citep{McDonald:2009dh,Bonvin:2014owa}:
+However, if we consider the cross-power spectrum for {\em two} matter tracers, this cancellation breaks down, and  there is an imaginary part in the cross-power~\citep{McDonald:2009dh,Bonvin:2014owa},
 \begin{align}
 P_{g \tilde g}(k)&= \Big\{\Big[ \big(b_{1} + f\mu^{2}\big)\big(\tilde b_{1} + f\mu^{2}\big)+A\tilde A f^2\mu^2 {\frac{\cH^2}{k^2}}\Big]\nonumber\\
 &
@@ -47,28 +45,36 @@ with a lightcone corrected galaxy density contrast, the 3-point correlator, even
 
 \section{Relativistic contributions to the galaxy bispectrum}
 
-At second order, the Doppler correction in  \eqref{dopf} generalises to $A\, \bm{v}^{(2)}\!\cdot\n$, but there are also quadratic coupling terms. The couplings involve not only the Doppler effect but also radial gradients of the potential (`gravitational redshift'), volume distortion effects, and second-order corrections to the density contrast. Most of these contributions are small, but those that scale as $(\cH/k)\delta^2$ are not, even on equality scales. Except on super-equality scales we can often neglect any terms $\ord((\cH/k)^{2})$ and higher, which makes the calculation considerably simpler. 
+At second order, the Doppler correction in~\eqref{dopf} generalises to $A\, \bm{v}^{(2)}\!\cdot\n$, but there are also quadratic coupling terms. The couplings involve not only the Doppler effect, but also radial gradients of the potential (`gravitational redshift'), volume distortion effects, and second-order corrections to the density contrast. Most of these contributions are small, but those that scale as $(\cH/k)\delta^2$ are not, even on equality scales. Except on super-equality scales we can often neglect any terms $\ord((\cH/k)^{2})$ and higher, which makes the calculation considerably simpler. The treatment of higher-order terms is left to chapter~\ref{chapter:multipoles}.
 
-The leading correction can be extracted from the general expressions that include all relativistic  corrections to the Newtonian approximation, as given in  \citet{Bertacca:2014hwa} (see also \citet{Bertacca:2014dra,Yoo:2014sfa,DiDio:2014lka,Jolicoeur:2017nyt,DiDio:2018zmk}):  
+The leading correction can be extracted from the general expressions that include all relativistic  corrections to the Newtonian approximation, as given in~\citet{Bertacca:2014hwa} (see also~\citet{Bertacca:2014dra,Yoo:2014sfa,DiDio:2014lka,Jolicoeur:2017nyt,DiDio:2018zmk}), 
 \begin{align}
 \delta^{(2)}_{g{\mathrm{D}}} &= A \, \bm{v}^{(2)}\!\!\cdot\n+2{C}(\bm{v}\cdot\n)\delta +2 {\frac{E}{\cH}}(\bm{v}\cdot\n)\partial_r(\bm{v}\cdot\n)\label{dg2}
 \\ & \nonumber
 + 2 \frac{b_1}{\cH}\phi\, \partial_r\delta
 + \frac{2}{\cH^2} \big[\bm{v}\cdot\n \,\partial_r^2\phi-\phi\, \partial_r^2 (\bm{v}\cdot\n) \big] - \frac{2}{\cH}\partial_r (\bm{v}\cdot\bm{v}), 
 \end{align}
-where $\phi$ is the gravitational potential,   $C = b_1(A + f)+{b_1'/ \cH}+ 2(1-{1/ r\cH} ){\partial b_1/ \partial\ln L}$ and
-$E = {4-2A-{\frac{3}{2}}\Omega_m}$. (This is in agreement with the independent re-derivation of the leading correction  given in~\citet{DiDio:2018zmk}. We have corrected a typo in the last bracket of line 1 of Eq. (2.15): $-f_{\mathrm{evo}}\to -2f_{\mathrm{evo}}\equiv -2b_{\mathrm{e}}$. Note that our $\n$ is minus theirs, and they use the convention $\delta_g+\delta^{(2)}_g$.) 
-All but one of the contributions to this leading term contain Doppler contributions, so we label these terms with a D subscript. In this sense they can be thought of as the relativistic correction to redshift space distortions, but their origin is considerably more subtle than in the Newtonian picture~\citep{Bertacca:2014dra,DiDio:2018zmk}. These relativistic corrections all arise as projections along the line of sight $\n$. It is this projection that is responsible for the dipole in the observed bispectrum.  Beyond these leading terms in~\eqref{dg2} there are a host of local coupled terms which appear on larger scales. 
-We follow most work on the Fourier bispectrum and neglect the effect of lensing magnification. This is reasonable for correlations at the same redshift and when using very thin redshift bins allowed by spectroscopic surveys \citep{DiDio:2018unb}. We also use the standard plane-parallel approximation, which is reasonable on ultra-large scales. However, we note that wide-angle effects in the power spectrum can be of the same order of magnitude as the Doppler-type effects in certain circumstances~\citep{Tansella:2017rpi}, and these should be incorporated in a more complete treatment.
+where $\phi$ is the gravitational potential, and the coefficients C and E are,
+\begin{equation}
+    C = b_1(A + f)+{b_1'/ \cH}+ 2(1-{1/ r\cH} ){\partial b_1/ \partial\ln L}\,,
+\end{equation}
+and
+\begin{equation}
+E = {4-2A-{\frac{3}{2}}\Omega_m}\,.
+\end{equation}
+This is in agreement with the independent re-derivation of the leading correction given in~\citet{DiDio:2018zmk}. We have corrected a typo in the last bracket of line 1 of Eq. (2.15): $-f_{\mathrm{evo}}\to -2f_{\mathrm{evo}}\equiv -2b_{\mathrm{e}}$. Note that our $\n$ is minus theirs, and they use the convention $\delta_g+\delta^{(2)}_g$.
+All but one of the contributions to this leading term contain Doppler contributions, so we label these terms with a D subscript. In this sense, they can be thought of as the relativistic correction to redshift space distortions, but their origin is considerably more subtle than in the Newtonian picture~\citep{Bertacca:2014dra,DiDio:2018zmk}. These relativistic corrections all arise as projections along the line of sight $\n$. It is this projection that is responsible for the dipole in the observed bispectrum. Beyond these leading terms in~\eqref{dg2} there are a host of local coupled terms which appear on larger scales. 
+
+We follow most work on the Fourier bispectrum and neglect the effect of lensing magnification. This is reasonable for correlations at the same redshift and when using very thin redshift bins allowed by spectroscopic surveys~\citep{DiDio:2018unb}. We also use the standard plane-parallel approximation, which is reasonable on ultra-large scales. However, we note that wide-angle effects in the power spectrum can be of the same order of magnitude as the Doppler-type effects in certain circumstances~\citep{Tansella:2017rpi}, and these should be incorporated in a more complete treatment.
 
 
-The galaxy bispectrum  is defined in Fourier space by
+The galaxy bispectrum is defined in Fourier space by,
 \begin{align}
 B_{g}( \mathbf{k}_{1},  \mathbf{k}_{2},  \k_3) &= { \mathcal{K}( \k_{1})\mathcal{K}({\k}_{2}) \mathcal{K}^{(2)}(  \mathbf{k}_{1},  \mathbf{k}_{2}, \k_3)}
 P(k_{1})P(k_{2}) \nonumber\\ 
-&+\text{2 cyclic permutations}\,.\label{b6}
+&+\text{2 cyclic permutations}\,.\label{eq:fsbispdef}
 \end{align}
-The first-order kernel $\mathcal{K}=\mathcal{K}_{\mathrm{N}}+\mathcal{K}_{\mathrm{D}}$ is given by the term in brackets in \eqref{dopf2}.
+The first-order kernel $\mathcal{K}=\mathcal{K}_{\mathrm{N}}+\mathcal{K}_{\mathrm{D}}$ is given by the term in brackets in~\eqref{dopf2}.
 At second order, $\mathcal{K}^{(2)}=\mathcal{K}_{\mathrm{N}}^{(2)}+\mathcal{K}_{\mathrm{D}}^{(2)}$, where
  the Newtonian kernel is~\citep{Verde:1998zr}
 \begin{align}
@@ -76,7 +82,7 @@ At second order, $\mathcal{K}^{(2)}=\mathcal{K}_{\mathrm{N}}^{(2)}+\mathcal{K}_{
 & + f \mu_3^{2} G_{2}(\ka,\kb)
 + {\cal Z}_2(\ka,\kb)\,.   \label{kn2}  
 \end{align}
-Here $F_2(\ka,\kb)$ is the standard Newtonian mode-coupling kernel for $\Lambda$CDM~\cite{Villa:2015ppa}, 
+Here $F_2(\ka,\kb)$ is the standard Newtonian mode-coupling kernel for $\Lambda$CDM~\citep{Villa:2015ppa}, 
 \begin{equation}
     F_2(a,\ka,\kb) = 1 + \frac{F(a)}{D(a)^2} + \left( \frac{k_1}{k_2} + \frac{k_2}{k_1} \right) \hat{\k}_1 \cdot \hat{k}_2 + \left[ 1 - \frac{F(a)}{D(a)^2} \right]\left( \hat{\k}_1 \cdot \hat{k}_2 \right)^2\,,
 \end{equation}
@@ -84,35 +90,34 @@ where F is the second-order growth factor. For $\Lambda$CDM, the Einstein-De Sit
 \begin{equation}
     G_2(a,\ka,\kb) = \frac{F'(a)}{D(a) D'(a)} + \left( \frac{k_1}{k_2} + \frac{k_2}{k_1} \right) \hat{\k}_1 \cdot \hat{\k}_2 + \left( 2 - \frac{F'(a)}{D(a) D'(a)} \right) \left( \hat{\k}_1 \cdot \hat{\k}_2 \right)^2\,,
 \end{equation}
-where, since we use the Einstein-De Sitter approximation $F/D^2 = 3/7$ in $F_2$, we have $F'/(D D') = 6/7$ in $G_2$. We use a local bias model~\citep{Desjacques:2016bnm}$S_2(\ka,\kb)$ which includes tidal bias kernel
+where, since we use the Einstein-De Sitter approximation $F/D^2 = 3/7$ in $F_2$, we have $F'/(D D') = 6/7$ in $G_2$. We use a local bias model~\citep{Desjacques:2016bnm}, which includes tidal bias kernel
 \begin{equation}
-    S_2(\ka,\kb) = (\hat{\k}_1 \cdot \hat{\k}_2)^2 - \frac{1}{3}, 
+    S_2(\ka,\kb) = (\hat{\k}_1 \cdot \hat{\k}_2)^2 - \frac{1}{3}\,, 
 \end{equation}
-with tidal bias $b_s$. Finally, the kernel $\mathcal{Z}_2(\ka,\kb)$ incorporates the non-linear Kaiser RSD contribution~\cite{Verde:1998zr,Scoccimarro:1999ed}, 
+with tidal bias $b_s$. Finally, the kernel $\mathcal{Z}_2(\ka,\kb)$ incorporates the non-linear Kaiser RSD contribution~\citep{Verde:1998zr,Scoccimarro:1999ed}, 
 \begin{equation}
     \mathcal{Z}_2(\ka,\kb) = b_1 f (\mu_1 k_1 + \mu_2 k_2) \left( \frac{\mu_1}{k_1} + \frac{\mu_2}{k_2} \right) + f^2 \frac{\mu_1 \mu_2}{k_1 k_2} \left( \mu_1 k_1 + \mu_2 k_2 \right)^2\,.
 \end{equation}
 
-The Doppler correction to \eqref{kn2} in Fourier space follows from \eqref{dg2}~\citep{Jolicoeur:2017eyi}:
-%\footnote{This is consistent with the full relativistic second-order kernel given in [Jolicoeur2017].}
+The Doppler correction to \eqref{kn2} in Fourier space follows from~\eqref{dg2}~\citep{Jolicoeur:2017eyi},
 \begin{align}
-\mathcal{K}^{(2)}_{\mathrm{D}}(\bm{k}_{1}, \bm{k}_{2}, \bm{k}_{3}) &= {\i} {\cH}
-\bigg[ - \frac{3}{2} \left( \mu_{1} \frac{k_{1}}{k_2^2} + \mu_{2} \frac{k_{2}}{k_1^2} \right) \Omega_m b_1 + 2\mu_{12} \left( \frac{\mu_{1}}{k_2} + \frac{\mu_{2}}{k_1}\right) f^2  \nonumber \\
-& \left( \frac{\mu_{1}}{k_1} + \frac{\mu_{2}}{k_2} \right){C} f - \frac{3}{2} \left( \mu_{1}^3 \frac{k_{1}}{k_2^2} + \mu_{2}^3 \frac{k_{2}}{k_1^2} \right)\Omega_m f \nonumber \\
-& + \mu_{1}\mu_{2}\left( \frac{\mu_{1}}{k_2} + \frac{\mu_{2}}{k_1} \right) {\Big( \frac{3}{2} \Omega_m - E f\Big) f} + \frac{\mu_{3}}{k_{3}} G_{2}(\bm{k}_{1}, \bm{k}_{2},\kc){A} f\bigg] ,~~~~  \label{d2}
+\mathcal{K}^\tw_{\mathrm{D}}(\ka,\kb,\kc) &= \i \cH
+\left[ - \frac{3}{2} \left( \mu_{1} \frac{k_{1}}{k_2^2} + \mu_{2} \frac{k_{2}}{k_1^2} \right) \Omega_m b_1 + 2\mu_{12} \left( \frac{\mu_{1}}{k_2} + \frac{\mu_{2}}{k_1}\right) f^2  \right. \nonumber \\
+& \left. \left( \frac{\mu_{1}}{k_1} + \frac{\mu_{2}}{k_2} \right){C} f - \frac{3}{2} \left( \mu_{1}^3 \frac{k_{1}}{k_2^2} + \mu_{2}^3 \frac{k_{2}}{k_1^2} \right)\Omega_m f \nonumber\right.  \\
+&\left. + \mu_{1}\mu_{2}\left( \frac{\mu_{1}}{k_2} + \frac{\mu_{2}}{k_1} \right) {\Big( \frac{3}{2} \Omega_m - E f\Big) f} + \frac{\mu_{3}}{k_{3}} G_{2}(\bm{k}_{1}, \bm{k}_{2},\kc){A} f\right]\,, \label{d2}
 \end{align}
 where $\mu_{ab}=\hat{\k}_a\cdot \hat{\k}_b$ and $\mu_a=\hat{\k}_a\cdot\bm n$. 
- The Newtonian kernel \eqref{kn2} scales as $(\cH/k)^{0}$, while the Doppler kernel \eqref{d2} scales as $(\cH/k)$. 
-Using \eqref{kn2} and \eqref{d2} in \eqref{b6}, and dropping terms that scale as $(\cH/k)^{2}$ and $(\cH/k)^{3}$,
+The Newtonian kernel~\eqref{kn2} scales as $(\cH/k)^{0}$, while the Doppler kernel~\eqref{d2} scales as $(\cH/k)$. 
+Using~\eqref{kn2} and~\eqref{d2} in~\eqref{eq:fsbispdef}, and dropping terms that scale as $(\cH/k)^{2}$ and $(\cH/k)^{3}$,
 we find that
 \begin{align}
-B_{g{\mathrm{N}}}( \mathbf{k}_{1},  \mathbf{k}_{2},  \k_3) &=  \ko_{\mathrm{N}}(\ka)\ko_{\mathrm{N}}(\kb)\kt_{\mathrm{N}}(\ka,\kb,\kc)\,P(k_{1})P(k_{2})  \nonumber \\
-& +\text{2 cyclic permutations,}\\
-B_{g{\mathrm{D}}}( \mathbf{k}_{1},  \mathbf{k}_{2},  \k_3) &= \Big\{
-\ko_{\mathrm{N}}(\ka)\ko_{\mathrm{N}}(\kb)\kt_{\mathrm{D}}(\ka,\kb,\kc)
+B_{g{\mathrm{N}}}(\ka,\kb,\kc) &=  \ko_{\mathrm{N}}(\ka)\ko_{\mathrm{N}}(\kb)\kt_{\mathrm{N}}(\ka,\kb,\kc)\,P(k_{1})P(k_{2})  \nonumber \\
+& +\text{2 cyclic permutations,} \\
+B_{g{\mathrm{D}}}(\ka,\kb,\kc) &= \left\{
+\ko_{\mathrm{N}}(\ka)\ko_{\mathrm{N}}(\kb)\kt_{\mathrm{D}}(\ka,\kb,\kc) \right.
 \nonumber\\ \label{bd}
-& +\Big[ \ko_{\mathrm{N}}(\ka)\ko_{\mathrm{D}}(\kb)+\ko_{\mathrm{D}}(\ka)\ko_{\mathrm{N}}(\kb) \Big]\kt_{\mathrm{N}}(\ka,\kb,\kc)
-\Big\}
+& \left. +\left[ \ko_{\mathrm{N}}(\ka)\ko_{\mathrm{D}}(\kb)+\ko_{\mathrm{D}}(\ka)\ko_{\mathrm{N}}(\kb) \right]\kt_{\mathrm{N}}(\ka,\kb,\kc)
+\right\}
 P(k_{1})P(k_{2}) \nonumber \\
 & +\text{2 cyclic permutations.}
 \end{align}
@@ -126,11 +131,17 @@ $k_1,k_2,k_3,\mu_1, \mu_2,\mu_3$ and $\varphi$, which is the azimuthal angle giv
 $%\be
 \mu_2=\mu_1\cos\theta+\sqrt{1-\mu_1^2}\,\sin\theta\,\cos\varphi\,,
 $ %\ee 
-where $\theta=\theta_{12}$ (and we define $\mu=\cos\theta$~-- note that $\theta$ is the angle outside the triangle as the $\k_a$'s are head-to-tail). We use standard orthonormal spherical harmonics with the triangle lying in the $y-z$ plane, with $\bm k_1$ aligned along the $z$-axis~\citep{Nan:2017oaq}. Then we have $Y_{\ell m}(\mu_1,\varphi)$, so that we can write $B_g =\sum_{\ell m} B_{\ell m}Y_{\ell m}(\mu_1,\varphi)$. The leading relativistic terms we consider here generate odd-power multipoles up to $\ell=7$, and the full expression generates even and odd multipoles up to $\ell=8$.
-Different powers of $(\i\mu_1)$ and $(\i\mu_2)$ contribute to the dipole, 
+where $\theta=\theta_{12}$ (and we define $\mu=\cos\theta$~-- note that $\theta$ is the angle outside the triangle as the $\k_a$'s are head-to-tail). We use standard orthonormal spherical harmonics with the triangle lying in the $y-z$ plane, with $\bm k_1$ aligned along the $z$-axis~\citep{Nan:2017oaq}, see Figure~\ref{fig:geometry_overview1} for a schematic overview of the relevant angles and vectors of our decomposition.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\linewidth]{fig/fig.pdf}
+    \caption{Overview of the relevant vectors and angles for the Fourier-space bispectrum. \label{fig:geometry_overview1} }
+\end{figure}       
+Then we have $Y_{\ell m}(\mu_1,\varphi)$, so that we can write $B_g =\sum_{\ell m} B_{\ell m}Y_{\ell m}(\mu_1,\varphi)$. The leading relativistic terms we consider here generate odd-power multipoles up to $\ell=7$, and the full expression generates even and odd multipoles up to $\ell=8$-- see Chapter~\ref{chapter:multipoles}. 
+Different powers of $(\i\mu_1)$ and $(\i\mu_2)$ contribute to the dipole as follows,
 \begin{align}
 \arraycolsep=1.0pt\def\arraystretch{1}
-\int\mathrm{d}\Omega (\i\mu_1)^i  (\i \mu_2)^j Y^*_{1 m} & = 
+\int\mathrm{d}\Omega (\i\mu_1)^a  (\i \mu_2)^b Y^*_{1 m} & = 
  \delta_{m,0}\frac{\i\sqrt{3\pi}}{15}\left[ \begin {array}{ccccc} 
  0&10\mu&0&-6\mu  &\\ 
 10&0&-4{\mu}^{2}-2&0& \cdots\\ 
@@ -152,8 +163,8 @@ Different powers of $(\i\mu_1)$ and $(\i\mu_2)$ contribute to the dipole,
 \end {array} \right] \sin\theta\,,
 \label{dkjsncdjcnsk}
 \end{align}
-where each matrix element corresponds to a particular combination of $i,j$,
-where the matrix indices run over the values $i=0\ldots6, j=0\ldots6$, with powers above 3 not written above; these are polynomials in $\mu$ up to order 6. From this we can read off the terms from $\mathcal{K}_\text{D}$ contribute to differing $m=0,\pm1$. In particular, if $i+j$ is even~-- i.e., the real part of the bispectrum~--  there is no contribution: only the imaginary terms, corresponding to $i+j$ odd, contribute. For the monopole, only $i+j$ even contribute. Therefore, at $\ord(\cH/k)$, \emph{the monopole of the bispectrum is the Newtonian part, while the dipole is purely from the relativistic corrections.  The presence of the dipole is therefore a `smoking gun' signal for the leading relativistic correction to the bispectrum.} At order $\ord((\cH/k)^{2})$, relativistic terms appear in the monopole, which were considered in \citet{Umeh:2016nuh,Jolicoeur:2017nyt,Jolicoeur:2017eyi,Jolicoeur:2018blf}.\\
+where each matrix element corresponds to a particular combination of $a,b$,
+where the matrix indices run over the values $a=0\ldots6, b=0\ldots6$, with powers above 3 not written above; these are polynomials in $\mu$ up to order 6. From this we can read off the terms from $\mathcal{K}_\text{D}$ contribute to differing $m=0,\pm1$. In particular, if $i+j$ is even~-- i.e., the real part of the bispectrum~--  there is no contribution: only the imaginary terms, corresponding to $i+j$ odd, contribute. For the monopole, only $i+j$ even contribute. Therefore, at $\ord(\cH/k)$, \emph{the monopole of the bispectrum is the Newtonian part, while the dipole is purely from the relativistic corrections.  The presence of the dipole is therefore a `smoking gun' signal for the leading relativistic correction to the bispectrum.} At order $\ord((\cH/k)^{2})$, relativistic terms appear in the monopole, which were considered in \citet{Umeh:2016nuh,Jolicoeur:2017nyt,Jolicoeur:2017eyi,Jolicoeur:2018blf}.\\
 
 
 \section{Squeezed, equilateral and flattened limits}
@@ -188,7 +199,7 @@ $% \label{mu}
 % {\cal K}^{(2)}_{\mathrm{D}}(\k_{-S},\k_L,\k_S) &=&  {\cal K}^{(2)}_{\mathrm{D}}(\k_L,\k_S,\k_{-S})\Big|_{\mu_S\to \roy{\mu_{-S}}}  \label{k2d2}
 \end{align}
 and $ {\cal K}^{(2)}_{\mathrm{D}}(\k_{-S},\k_L,\k_S) =  {\cal K}^{(2)}_{\mathrm{D}}(\k_L,\k_S,\k_{-S})\big|_{\mu_S\to {\mu_{-S}}}$ while ${\cal K}^{(2)}_{\mathrm{D}}(\k_S,\k_{-S},\k_L) =0$. 
-In the squeezed limit of the cyclic sum  \eqref{b6}, the terms $ {\cal K}^{(2)}(\k_L,\k_S,\k_{-S})$ and  ${\cal K}^{(2)}(\k_{-S},\k_L,\k_S)$ appear only in the form ${\cal K}^{(2)}(\k_L,\k_S,\k_{-S})+{\cal K}^{(2)}(\k_{-S},\k_L,\k_S)$. This sum regularises
+In the squeezed limit of the cyclic sum~\eqref{eq:fsbispdef}, the terms $ {\cal K}^{(2)}(\k_L,\k_S,\k_{-S})$ and  ${\cal K}^{(2)}(\k_{-S},\k_L,\k_S)$ appear only in the form ${\cal K}^{(2)}(\k_L,\k_S,\k_{-S})+{\cal K}^{(2)}(\k_{-S},\k_L,\k_S)$. This sum regularises
 the divergent $k_S/k_L=(2\ep)^{-1}$ and $k_S/k_L^2=(2\ep k_L)^{-1}$ terms.  We obtain the bispectrum in the squeezed limit,
 
 
