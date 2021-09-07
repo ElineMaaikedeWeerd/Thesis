@@ -1,5 +1,5 @@
 # Fdb version 3
-["bibtex thesis"] 1630656589 "thesis.aux" "thesis.bbl" "thesis" 1630656601
+["bibtex thesis"] 1630656589 "thesis.aux" "thesis.bbl" "thesis" 1630917726
   "./mnras.bst" 1626095743 43377 4db2f843e4986670b152898ac35c448e ""
   "bib/thesis_bib.bib" 1626095743 71880 7e3f5aec543d5a3f1e5f14b87aebca4b ""
   "tex/abstract.aux" 1630656590 1151 7a5515b6aeb61062901f1ba48eb80b77 "xelatex"
@@ -17,13 +17,13 @@
   "tex/summary.aux" 1630656591 1253 2ef7ac8b8ce23e1774b682e54ad0ab02 "xelatex"
   "thesis.aux" 1630656591 13320 d8626bf1a07b363e96bef842f5276038 "xelatex"
   (generated)
-  "thesis.bbl"
   "thesis.blg"
-["xdvipdfmx"] 1630656591 "thesis.xdv" "thesis.pdf" "thesis" 1630656601
+  "thesis.bbl"
+["xdvipdfmx"] 1630656591 "thesis.xdv" "thesis.pdf" "thesis" 1630917726
   "thesis.xdv" 1630656591 2193272 15e75fbe92912098d9cdbf2561bf6d84 "xelatex"
   (generated)
   "thesis.pdf"
-["xelatex"] 1630656589 "thesis.tex" "thesis.xdv" "thesis" 1630656601
+["xelatex"] 1630656589 "thesis.tex" "thesis.xdv" "thesis" 1630917726
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1246382020 1120 1e8878807317373affa7f7bba4cf2f6a ""
@@ -258,23 +258,23 @@
   "thesis.tex" 1630584868 7386 0739ac3a130f4c65b8b224d4ab76681c ""
   "thesis.toc" 1630656591 5942 59d67183a02fc82772987bc969230b7c "xelatex"
   (generated)
-  "tex/multipoles.aux"
-  "tex/abstract.aux"
-  "thesis.xdv"
-  "tex/summary.aux"
+  "thesis.toc"
   "tex/snr_euclid.aux"
+  "tex/appendix.aux"
   "thesis.lof"
+  "thesis.lot"
   "tex/intro_clusteringstat.aux"
+  "thesis.xdv"
+  "thesis.log"
+  "tex/abstract.aux"
+  "thesis.out"
+  "tex/detectability.aux"
   "tex/introreleff.aux"
+  "tex/summary.aux"
+  "tex/fishers.aux"
+  "tex/multipoles.aux"
   "tex/introgeneral.aux"
   "thesis.aux"
-  "tex/appendix.aux"
-  "tex/fishers.aux"
-  "thesis.log"
-  "tex/png_bisp.aux"
-  "thesis.out"
-  "tex/acknowledgements.aux"
-  "thesis.toc"
-  "tex/detectability.aux"
-  "thesis.lot"
   "tex/dipole.aux"
+  "tex/acknowledgements.aux"
+  "tex/png_bisp.aux"
