@@ -41,6 +41,15 @@ parskip= half % vertical space instead of indentation for paragr
 \usepackage{xcolor}
 \usepackage{longtable,ltcaption}
 
+% \setlength {\marginparwidth }{2cm}
+\paperwidth=\dimexpr \paperwidth + 6cm\relax
+\oddsidemargin=\dimexpr\oddsidemargin + 3cm\relax
+\evensidemargin=\dimexpr\evensidemargin + 3cm\relax
+\marginparwidth=\dimexpr \marginparwidth + 3cm\relax
+
+
+\usepackage[textsize=tiny,colorinlistoftodos]{todonotes}
+
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %  %
 
@@ -196,14 +205,18 @@ parskip= half % vertical space instead of indentation for paragr
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
+
 \hypersetup{pageanchor=false}
 % Title page is input not included to remove extra page.
+\todototoc
+\listoftodos
 
 \input{tex/title}
 
 % % % % % % % % % % % % % % % % % % % % % % % % % 
 % Abstract
-\pagenumbering{roman}
+% \pagenumbering{arabic}
+
 \include{tex/abstract}
 % % % % % % % % % % % % % % % % % % % % % % % % %
 
@@ -222,13 +235,13 @@ parskip= half % vertical space instead of indentation for paragr
 \onehalfspacing
 % % % % % % % % % % % % % % % % % % % % % % % % % 
 \hypersetup{pageanchor=true}
-\clearpage
-\pagenumbering{arabic}
+% \clearpage %uncomment if wanting to change numbering
+% \pagenumbering{arabic} %uncomment if wanting to change numbering
 % Include files for each chapter here using 
 %
 \include{tex/introgeneral}
 %
-% \include{tex/intro_clusteringstat}
+\include{tex/intro_clusteringstat}
 %
 \include{tex/introreleff}
 %

@@ -3,16 +3,17 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Stage IV $H\alpha $ spectroscopic survey parameters.\relax }}{35}{table.caption.12}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Stage IV $H\alpha $ spectroscopic survey parameters.\relax }}{49}{table.caption.27}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {B.1}{\ignorespaces {Individual terms in the observed $\Delta _g^{(2)}(a,\bm {x})$ [see \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {eq:SecondorderNewtonian}\unskip \@@italiccorr )}}, \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {odg2}\unskip \@@italiccorr )}}] for $f_\text {NL}=0$ are shown in column 1. The related $\beta _I$ functions in \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {e2.23}\unskip \@@italiccorr )}} are listed in column 2. The Fourier-space kernels ${\cal F}$ corresponding to column 1, given by $ \DOTSI \intop \ilimits@ \!{\mathrm {d}\bm {k}'}\, {\cal F}(\bm {k}',\bm {k}-\bm {k}')\delta _{\mathrm {T}}(\bm {k}')\delta _{\mathrm {T}}(\bm {k}-\bm {k}')/(2\pi )^3$, are shown in column\nobreakspace {}3. Column 4 gives the coefficients of the terms in $\Delta _g^{(2)}$ (column 1). The line-of-sight derivative is $\partial _\|=\bm {n}\!\cdot \!\bm {\nabla }$ and $\Phi =\Psi $. The superscript (1) on first-order quantities has been omitted and N denotes Newtonian. This table updates the one in \cite {Jolicoeur:2017nyt}.}\relax }}{105}{table.a.B.1}%
+\contentsline {table}{\numberline {B.1}{\ignorespaces {Individual terms in the observed $\Delta _g^{(2)}(a,\bm {x})$ [see \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {eq:SecondorderNewtonian}\unskip \@@italiccorr )}}, \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {odg2}\unskip \@@italiccorr )}}] for $f_\text {NL}=0$ are shown in column 1. The related $\beta _I$ functions in \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {e2.23}\unskip \@@italiccorr )}} are listed in column 2. The Fourier-space kernels ${\cal F}$ corresponding to column 1, given by $ \DOTSI \intop \ilimits@ \!{\mathrm {d}\bm {k}'}\, {\cal F}(\bm {k}',\bm {k}-\bm {k}')\delta _{\mathrm {T}}(\bm {k}')\delta _{\mathrm {T}}(\bm {k}-\bm {k}')/(2\pi )^3$, are shown in column\nobreakspace {}3. Column 4 gives the coefficients of the terms in $\Delta _g^{(2)}$ (column 1). The line-of-sight derivative is $\partial _\|=\bm {n}\!\cdot \!\bm {\nabla }$ and $\Phi =\Psi $. The superscript (1) on first-order quantities has been omitted and N denotes Newtonian. This table updates the one in \cite {Jolicoeur:2017nyt}.}\relax }}{119}{table.a.B.1}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {C.1}{\ignorespaces {The $f_\text {NL}\neq 0$ terms from relativistic projection effects [see \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {e2.35}\unskip \@@italiccorr )}}].}\relax }}{109}{table.a.C.1}%
+\contentsline {table}{\numberline {C.1}{\ignorespaces {The $f_\text {NL}\neq 0$ terms from relativistic projection effects [see \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {e2.35}\unskip \@@italiccorr )}}].}\relax }}{123}{table.a.C.1}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

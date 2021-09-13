@@ -1,10 +1,7 @@
 \chapter{Detectability in IM Surveys}
 \label{chapter:snrska}
 
-We investigate the detectability of leading-order relativistic effects in the bispectrum of future 21cm intensity  mapping surveys. The relativistic signal arises from Doppler and other line-of-sight effects in redshift space. In the power spectrum of a single tracer, these effects are suppressed by a factor $\cH^2/k^2$. By contrast, in the bispectrum the relativistic signal couples to short-scale modes, leading to
-an imaginary contribution that scales as $\cH/k$, thus increasing the possibility of detection.
-Previous work has shown that this relativistic signal is detectable in a Stage IV H$\alpha$ galaxy survey. 
-{We show that the signal is also detectable by next-generation  21cm intensity maps, but typically with a lower signal-to-noise, due to foreground and telescope beam effects.}
+
 %
 %
 %---------------------------
@@ -16,21 +13,8 @@ Some blah blah about intensity mapping
 %
 \section{Introduction}
 %
-{Next-generation galaxy surveys will allow for precision measurements of the  bispectrum, bringing new information to improve constraints on cosmological parameters and to break some of their degeneracies (see e.g. \cite{Scoccimarro:2015bla,Tellarini:2016sgp, Gil-Marin:2016wya,  Slepian:2016kfz,Gagrani:2016rfy, Sugiyama:2018yzo,Desjacques:2018pfv,Child:2018klv, Yankelevich:2018uaz, Schmit:2018rtf,DiDio:2018unb,Gualdi:2019ybt,Sarkar:2019ojl,Chudaykin:2019ock,Oddo:2019run, Sugiyama:2019ike,Philcox:2019hdi,Durrer:2020orn,Montanari:2020uez}). 
 
-These surveys will typically probe very large volumes in the Universe, including ultra-large scales ($k\lesssim k_{\mathrm{eq}} \sim 0.01\;\mathrm{Mpc}^{-1}$), which facilitates the detection of, or precision constraints on, primordial non-Gaussianity \cite{Tellarini:2015faa,Watkinson:2017zbs,Majumdar:2017tdm,Karagiannis:2018jdt,Karagiannis:2019jjx,Bharadwaj:2020wkc}
-and relativistic effects
-\cite{Kehagias:2015tda,Umeh:2016nuh, DiDio:2016gpd, Jolicoeur:2017nyt,Bertacca:2017dzm,Jolicoeur:2017eyi,Koyama:2018ttg,Clarkson:2018dwn,Maartens:2019yhx,Jeong:2019igb}.
- 
-Redshift-space distortions (RSD) are the dominant observational effect on the number counts or brightness temperature at first and second order in perturbations. There are local relativistic corrections to standard RSD, arising from Doppler and other line-of-sight gradient terms, together with their couplings.  In Fourier space, the leading-order corrections  scale as $\i(\cH/k)$. In the tree-level power spectrum of a single tracer, the only nonzero contribution from these Doppler-type effects is from their square, since the power spectrum is necessarily real. As a result, the Doppler-type effects are further suppressed in the auto-power spectrum, scaling as  $(\cH/k)^2$. 
-
-The tree-level bispectrum of a single tracer is not forced to be real and it couples Doppler-type effects with the standard (`Newtonian') density + RSD term. Consequently, the leading-order relativistic contribution to the bispectrum scales as i\,$(\cH/k)$. 
-This means that the leading-order relativistic signal is more detectable in the bispectrum than the power spectrum, for a single tracer.
-In Fourier space, the dominant relativistic effect is a purely imaginary part of the bispectrum, as shown by \cite{Clarkson:2018dwn,Maartens:2019yhx}. Our previous work \cite{Maartens:2019yhx} showed that it is detectable by a Stage IV spectroscopic galaxy survey.
-
- In this work, we investigate the detectability of the relativistic signal in the bispectrum of various planned 21cm intensity mapping surveys at post-reionisation redshifts. 
-The 21cm emission line of neutral hydrogen (HI) is measured without detecting the individual galaxies that contain HI. This results in brightness temperature maps that trace the large-scale structure with exquisite redshift precision. In Section 2 we discuss the leading order relativistic form of the temperature contrast up to second order, and its contribution to the bispectrum. Section 3 describes the signal, modelled using the tree-level bispectrum with the addition of a phenomenological model to account for RSD `fingers-of-god' nonlinearity.
-Foreground contamination overwhelms the signal, and cleaning techniques must be applied which lead to a loss of signal in regions of Fourier space, which we take into account. We also discuss the effects of telescope beams and the instrumental noise. Our forecast signal to noise for future surveys is presented in Section 4, and we conclude in Section 5.}
+}
 %
 %
 %---------------------------------------------
@@ -38,142 +22,7 @@ Foreground contamination overwhelms the signal, and cleaning techniques must be 
 %
 \section{Relativistic effects in the 21cm intensity bispectrum}
 %
-{The HI brightness temperature  measured at redshift $z$ in direction $\n$  is related to the observed number of 21cm emitters per redshift per solid angle, $N_{\hi}$, as follows (see \cite{Hall:2012wd,Alonso:2015uua} for details):
-\begin{equation}
-T_{\hi}(z,\n)= {\mathrm{const.}}\, \frac{ N_{\hi}(z,\n)}{d_{\mathrm{A}}(z,\n)^2}\,,
-\label{tobs}
-\end{equation}
-where $d_{\mathrm{A}}$ is the angular diameter distance.  
 
-{The background HI brightness temperature  follows from \eqref{tobs} as \cite{Villaescusa-Navarro:2018vsg}
-\begin{equation} \label{bart}
-\bar{T}_{\mathrm{HI}}(z)= 189h\,\frac{(1+z)H_0}{\HH(z)}\Omega_{\hi}(z)~~{\mathrm{mK}}.
-\end{equation}
-Here $h=H_0/(100\,$km/s), $\HH=(\ln a)'$ is the conformal Hubble rate, and $\Omega_{\hi}(z)$ is the comoving HI density in units of the critical density today, which is currently poorly constrained by observations and is modelled by simulations. We use the fit 
-%in \cite{Bacon:2018dui}, $\Omega_{\hi}=(4.8+3.9\,z-0.65\,z^2)\times 10^{-4}$, and then
-in  \cite{Santos:2017qgq}:
-\begin{equation}
-\bar{T}_{\mathrm{HI}}(z) = 0.0 56 +0.23\,z -0.024\, z^{2} ~~ \mathrm{mK}. \label{e1.24}
-\end{equation}}
-
-% %
-The temperature fractional perturbation is
-\begin{equation}
-\Delta_{\hi}(z,\bm{n}) = \frac{T_{\hi}(z,\bm{n}) - \bar {T}_{\hi} (z)}{\bar {T}_{\hi} (z)}\,.\label{e1.1_02}
-\end{equation}
-Using \eqref{tobs}, this leads to the following perturbative expansion (our convention is $X+X^{\tw}/2$).
-\begin{itemize}
-\item
-{\bfseries At first order} \cite{Hall:2012wd}:
-\begin{equation} \label{dt1}
-\Delta \equiv \Delta^{(1)}_{\hi} = \Delta_{\mathrm{N}} + \Delta_{\mathrm{D}}\,,\quad  \Delta_{\mathrm{N}} = b_1\delta_{\mathrm{m}} - \frac{1}{\HH}\p_r(\v\cdot\n )\,,\quad \Delta_{\mathrm{D}}=A\,(\v\cdot\n ) \,.
-\end{equation}
-Here   $r$ is the radial comoving distance and $\v=\bm{\nabla}V$ is the peculiar velocity.
-$ \Delta_{\mathrm{N}} $ is the standard density + RSD term, which scales as $\delta_{\mathrm{m}}$. $\Delta_{\mathrm{D}}$ is the dominant relativistic correction, scaling as i\,$(\cH/k)\delta_{\mathrm{m}}$ in Fourier space. This Doppler term has coefficient
-\begin{equation}
-A = b_{\mathrm{e}} - 2- \frac{\cH'}{\cH^{2}}= - \frac{\ud \ln \big[(1+z) \bar{T}_{\hi} \big]}{\ud \ln (1+z)} \,,
- \label{eq:dopcoeff}
-\end{equation}
-where  the evolution bias is \cite{Fonseca:2015laa}
-\begin{equation}
- b_{\mathrm{e}} = - \frac{\ud \ln \big[(1+z)^{-1}\HH\, \bar{T}_{\hi} \big] }{\ud \ln (1+z)}\,.
-\end{equation}
-We omit sub-leading relativistic corrections that scale as $(\HH/k)^2\delta_{\mathrm{m}}$. 
-
-
-\item
-{\bfseries At second order}
-\cite{Maartens:2019yhx} (see also \cite{Umeh:2015gza,DiDio:2015bua,Umeh:2016thy,Clarkson:2018dwn,DiDio:2018zmk}):
-\begin{align}
-\Delta^{\tw} &\equiv  \Delta^{(2)}_{\hi} = \Delta^{\tw}_{\mathrm{N}} + \Delta^{\tw}_{\mathrm{D}} \,,\\
-\Delta^{\tw}_{\mathrm{N}}&= b_1\delta_{\mathrm{m}}^{\tw}+b_2 \big(\delta_{\mathrm{m}}\big)^2+ b_{s^2}s^2 + {\mathrm{RSD}}^{\tw}\,,
-\label{d2n} \\
-\Delta^{\tw}_{\mathrm{D}} &= A\, (\bm{v}^{(2)}\!\!\cdot\bm{n})+2\Big[ b_{1}\big(A+f) + \frac{b_1'}{\cH}\Big]\,(\bm{v}\cdot\bm{n})\,\delta_{\mathrm{m}} +\frac{1}{\cH}\big( 8-4A-3\Omega_{\mathrm{m}}   \big)(\bm{v}\cdot\bm{n})\,\partial_r(\bm{v}\cdot\bm{n})
-\nonumber\\ \label{e1.2}
-& +\frac{2}{\cH^2}\big[(\bm{v}\cdot\bm{n}) \,\partial_r^2\Phi-\Phi\, \partial_r^2 (\bm{v}\cdot\bm{n}) \big]
- -\frac{2}{\cH}\,\partial_r (\bm{v}\cdot\bm{v})+2 \frac{{b_{1}}}{\cH}\,\Phi\, \partial_r\delta_{\mathrm{m}} \,.
-\end{align}
-In \eqref{d2n}, $b_{s^2}s^2$ is the tidal bias contribution and RSD$^{\tw}$ is the standard second-order RSD contribution (see \cite{Maartens:2019yhx} for details). The bias parameters are computed via a halo model (see  Appendix REFERENCE APPENDIX 1) and are shown in Figure \ref{fig:hibiasT}, together with the evolution bias.
-In \eqref{e1.2}, we see the Doppler terms and the line-of-sight gradients that make up the dominant relativistic contribution.
-$\Phi$ is the gravitational potential and $\Omega_{\mathrm{m}} =\Omega_{{\mathrm{m}}0}(1+z)H_0^2/\cH^2$. We  neglect sub-dominant relativistic effects in $\Delta^{\tw}$ that scale as  $(\cH/k)^2(\delta_{\mathrm{m}})^2$. 
-
-%
-%\vspace*{-0.5cm}
-\begin{figure}[ht]
-\centering
-\includegraphics[width=.49\textwidth]{fig/HIBias}
-\includegraphics[width=.49\textwidth]{fig/THI.pdf}
-%\vspace*{-0.5cm}
-\caption{HI clustering and evolution bias parameters (left) and background temperature (right).}\label{fig:hibiasT}
-\end{figure}
-
-\item {\bfseries Lensing contribution:}\\
-At first order, there is no lensing contribution to $\Delta$ \cite{Hall:2012wd}. The general case of galaxy number density contrast contains a lensing  contribution $2({\cal Q}-1)\kappa$ to $\Delta_g$, where $\kappa$ is the convergence \cite{Challinor:2011bk}.  For HI emitters in intensity mapping, the magnification bias satisfies
-\begin{equation}
-{\cal Q} \equiv - \frac{\p \ln \bar{N}_{\hi}}{\p \ln L}\bigg|_{\mathrm{c}} = 1\,, \label{magb}
-\end{equation}
-where c indicates evaluation at the luminosity cut. 
-
-At second order,  \eqref{tobs} shows that there is also no contribution to $\Delta^{\tw}$ from lensing convergence \cite{DiDio:2015bua,Jalivand:2018vfz}. We can recover this result from the full general expression for second-order number density contrast  \cite{Bertacca:2014dra, Bertacca:2014wga, Yoo:2014sfa, DiDio:2014lka, Bertacca:2014hwa}, by imposing \eqref{magb} together with the conditions \cite{DiDio:2015bua}
-\begin{equation} \label{magb2}
-\frac{\p^2 \ln \bar{N}_{\hi}}{\p (\ln L)^2}\bigg|_{\mathrm{c}} = 0\,, \quad  \frac{\p b_1}{\p \ln L}\bigg|_{\mathrm{c}}=0\,.
-\end{equation}
-
-There remains however a lensing deflection contribution $\nabla_{\perp a}\Delta\,\nabla_\perp^a\phi$ to  $\Delta^{\tw}$,  where $\nabla_{\perp a}$ is a screen-space gradient and $\phi$ is the lensing potential \cite{Umeh:2015gza,DiDio:2015bua,Jalivand:2018vfz}. In the bispectrum the contribution of this term is negligible for equal-redshift correlations \cite{DiDio:2015bua,Durrer:2020orn}. Since we only consider the bispectrum at equal redshifts, we neglect this term. 
-\end{itemize}}
-% \vspace{0.2cm}
-
-In Fourier space, the  HI bispectrum  at  tree level  is defined by
-\begin{equation}
-\big\langle \Delta(z,\bm{k}_{1})\Delta(z,\bm{k}_{2})\Delta^{(2)}(z,\bm{k}_{3}) \big\rangle + \text{2 cp}=2 (2\pi)^3 B_{\hi}(z, \bm{k}_{1}, \bm{k}_{2}, \bm{k}_{3}) \delta^{\mathrm{Dirac}}\big(\bm{k}_{1}+ \bm{k}_{2}+ \bm{k}_{3} \big)\,, \label{e1.3}
-\end{equation}
-where cp denotes cyclic permutation. It follows that
-%and the factor 2 on the right is due to the convention that the total HI brightness contrast is $\Delta^{(1)}_{\rm HI}+ \Delta^{(2)}_{\rm HI}/2$. 
-\begin{equation}
-B_{\hi}(z, \bm{k}_{1}, \bm{k}_{2}, \bm{k}_{3}) = \mathcal{K}^{(1)}(z, \bm{k}_{1})\mathcal{K}^{(1)}(z, \bm{k}_{2})\mathcal{K}^{(2)}(z, \bm{k}_{1}, \bm{k}_{2}, \bm{k}_{3})P_{\mathrm{m}} (z, k_{1})P_{\mathrm{m}} (z, k_{2}) + \text{2 cp}\;, \label{e1.5}
-\end{equation} 
-where $P_{\mathrm{m}} $ is the linear matter power spectrum (computed using CLASS \cite{Blas:2011rf}).  From now on, we often drop the $z$ dependence for brevity.  
-%
-The  bispectrum kernels are as follows.
-\begin{itemize}
-\item
-{\bfseries Standard (Newtonian) kernels:}
-\begin{align}
-\mathcal{K}^{(1)}_{\mathrm{N}}(\bm{k}_{a}) &= b_{1}+f\mu_{a}^{2}\,,  \label{e1.7} \\ 
-\mathcal{K}^{(2)}_{\mathrm{N}}(\bm{k}_{1}, \bm{k}_{2},{\bm{k}_3}) &= b_{1}F_{2}(\bm{k}_{1}, \bm{k}_{2}) + b_{2} + f\mu_{3}^{2}G_{2}(\bm{k}_{1}, \bm{k}_{2}) +{fZ_2}(\bm{k}_{1}, \bm{k}_{2})
-+ b_{s^{2}}S_{2}(\bm{k}_{1}, \bm{k}_{2})\,, \label{e1.8}
-\end{align}
-where $f$ is the linear matter growth rate, $\mu_a=\hat{\k}_a\cdot\n$ and the standard $F_2,G_2,Z_2,S_2$ kernels are given in \cite{Maartens:2019yhx}.
-
-\item
-{\bfseries Leading-order relativistic kernels:} 
-\begin{align}
-\mathcal{K}^{(1)}_{\mathrm{D}}(\bm{k}_{a}) &= \mathrm{i}\,\cH f A\,\frac{\mu_{a}}{k_{a}}\,, \label{e1.9} \\
-\mathcal{K}^{(2)}_{\mathrm{D}}(\bm{k}_{1},\bm{k}_{2},\bm{k}_{3}) &= \i\,\cH f \bigg\{
-A\,\frac{\mu_{3}}{k_{3}}G_{2}(\bm{k}_{1},\bm{k}_{2})
-+{\Big[b_1\big(A+f\big)+ \frac{b_1'}{\cH} \Big]}\Big(\frac{\mu_{1}}{k_{1}} + \frac{\mu_{2}}{k_{2}}\Big)
-\nonumber \\
-&  -\frac{3}{2}\Omega_{\mathrm{m}} \Big(\mu_{1}^{3}\frac{k_{1}}{k_{2}^{2}} + \mu_{2}^{3}\frac{k_{2}}{k_{1}^{2}}\Big)
-+{\Big[\frac{3}{2}\Omega_{\mathrm{m}} \big(1+f \big)+2f\big(A-2\big) \Big]}\mu_{1}\mu_{2}\Big(\frac{\mu_{1}}{k_{2}}+\frac{\mu_{2}}{k_{1}}\Big)
-\nonumber \\
-& +2f\,  {\hat{\bm{k}}_{1} \cdot \hat{\bm{k}}_2}\Big(\frac{\mu_{1}}{k_{1}} + \frac{\mu_{2}}{k_{2}}\Big) 
--\frac{3\Omega_{\mathrm{m}} b_1}{2f}\Big(\mu_{1}\frac{k_{1}}{k_{2}^{2}} + \mu_{2}\frac{k_{2}}{k_{1}^{2}}\Big)\!  \bigg\}\,,\label{e1.10}
-\end{align}
-where $A$ is given by \eqref{eq:dopcoeff}. These follow from \eqref{dt1} and \eqref{e1.2}, and {agree with \cite{Maartens:2019yhx} when we impose \eqref{eq:dopcoeff}, \eqref{magb} and \eqref{magb2}}.
-\item
-{\bfseries Complex bispectrum:}\\
-From \eqref{e1.7}--\eqref{e1.10} we see that
-$B_{\hi}$ is complex: {the imaginary part is given purely by local relativistic corrections, while at leading order, i.e. neglecting relativistic terms of $O(\cH^2/k^2)$, the real part is given purely by the standard Newtonian bispectrum:}
-\begin{align}
-\mathrm{Re}\big(B_{\hi}\big) &= B_{\mathrm{N}} = \mathcal{K}^{(1)}_{\mathrm{N}}(\bm{k}_{1})\mathcal{K}^{(1)}_{\mathrm{N}}(\bm{k}_{2})\mathcal{K}^{(2)}_{\mathrm{N}}(\bm{k}_{1}, \bm{k}_{2}, \bm{k}_{3})P_{\mathrm{m}} (k_{1})P_{\mathrm{m}} (k_{2}) + \text{2 cp}, \label{e1.14}\\
-{\mathrm{i \,Im}}\big(B_{\hi}\big) &= B_{\mathrm{D}}= \bigg\{\bigg[\mathcal{K}^{(1)}_{\mathrm{N}}(\bm{k}_{1})\mathcal{K}^{(1)}_{\mathrm{D}}(\bm{k}_{2}) + \mathcal{K}^{(1)}_{\mathrm{D}}(\bm{k}_{1})\mathcal{K}^{(1)}_{\mathrm{N}}(\bm{k}_{2})\bigg]\mathcal{K}^{(2)}_{\mathrm{N}}(\bm{k}_{1},\bm{k}_{2},\bm{k}_{3}) 
-\label{e1.15}\\ \nonumber 
-& ~~~~~~~~~~~~~ +\mathcal{K}^{(1)}_{\mathrm{N}}(\bm{k}_{1})\mathcal{K}^{(1)}_{\mathrm{N}}(\bm{k}_{2})\mathcal{K}^{(2)}_{\mathrm{D}}(\bm{k}_{1},\bm{k}_{2},\bm{k}_{3})\bigg\}P_{\mathrm{m}} (k_{1})P_{\mathrm{m}} (k_{2})+\text{2 cp}.
-\end{align}
-It is apparent that {$B_{\mathrm{N}} \sim P_{\mathrm{m}} ^2$ while $B_{\mathrm{D}} \sim {\i}\, (\cH/k) P_{\mathrm{m}} ^2$.}
-Equation \eqref{e1.15} makes explicit the coupling of relativistic  and Newtonian terms in the bispectrum.
-\end{itemize}
-%
 %
 %-----------------------------------------------------------
 %
@@ -268,123 +117,9 @@ $P^{\nl}_{\mathrm m}$ is the nonlinear matter power spectrum computed in CLASS w
 %
 \subsection{Effects of foregrounds}
 %
-Foreground contamination is the major systematic confronting 21cm intensity mapping. 
-Cleaning techniques are very efficient at recovering the cosmological signal in regions of $(k_\|,k_\perp)$ space (see e.g.~\cite{Pober:2013jna, Bull:2014rha, Alonso:2014dhk, Pober:2014lva, Wolz:2015sqa, Santos:2015gra, Shaw:2014khi, Obuljen:2017jiy, Ansari:2018ury, Witzemann:2018cdx, Bacon:2018dui, Asorey:2020mxs, Cunnington:2020mnn}). A realistic model of bispectrum measurements should include modelling of foreground removal. However, our focus is on the relativistic signal in the bispectrum and so we take a simpler approach -- by excising the regions of $(k_\|,k_\perp)$ space where foreground cleaning does not recover  the signal efficiently.
-%
-HI intensity mapping surveys are planned for next-generation radio dish arrays, including MeerKAT\footnote{www.sarao.ac.za/science/meerkat/}, SKA1-MID\footnote{{www.skatelescope.org/}} and HIRAX\footnote{hirax.ukzn.ac.za/}. We will also consider surveys with
-PUMA\footnote{{www.puma.bnl.gov/}}  in its initial phase (Petite) (note that PUMA is currently still a proposal).
-Intensity mapping surveys can be done in 2 survey modes:
-\begin{itemize}
-\item Single-dish (SD) mode: auto-correlation signals from single dishes are added.
-\item Interferometer (IF) mode: cross-correlation signals from array elements are combined. 
-\end{itemize}  
-In both SD- and IF-mode surveys, foreground cleaning effectively removes large-scale radial modes {because of the smoothness in freqency of the main foreground emissions}. In order to model the effects of foreground cleaning, we remove radial modes $k_\| \equiv \mu k$ that are smaller than a critical scale $k_{\| \mathrm{fg}}$  \cite{Karagiannis:2018jdt}.
-We impose this via an exponential damping factor \cite{Bull:2014rha}:  
-\begin{equation}\label{eq:e2.21}
-D_{\mathrm{fg}}(k,\mu)= 1-\exp\left[-\left(\frac{\mu k}{k_{\| \mathrm{fg}}}\right)^2\right]\qquad \mbox{for SD and IF survey modes.}
-\end{equation}
-Then 
-\begin{align}
-P_{\hi}(k,\mu,z)  &~\to~ D_{\mathrm{fg}} (k,\mu)\,P_{\hi}(k,\mu,z) \,,\\
-B_{\hi}(k_a,\mu_a,z) & ~\to~ D_{\mathrm{fg}} (k_1,\mu_1)\,D_{\mathrm{fg}} (k_2,\mu_2)\,D_{\mathrm{fg}} (k_3,\mu_3)\,B_{\hi}(k_a,\mu_a,z)\,.
-\end{align}
-The value of $k_{\| \fg}$ can be reduced by techniques which reconstruct long modes from the information in measured short modes. This technique has been applied to HI intensity mapping by \cite{Zhu:2016esh,Modi:2019hnu}. Taking into account reconstruction, we choose 
-\begin{equation} \label{kfgpar}
-k_{\| \fg} = 0.01 \,h\,{\mathrm{Mpc}}^{-1},
-\end{equation}
-{but we will also consider an optimistic case, k$_{\| \fg} = 0.005 \,h\,{\mathrm{Mpc}}^{-1}$, that anticipates further developments of the reconstruction technique.}
-
-IF-mode surveys lose additional signal due to the fact that {interferometers are chromatic, i.e., a fixed physical baseline length probes different angular scales at different frequencies.} This causes smooth foregrounds to leak into high-$k_{\perp}$ modes~\cite{Obuljen:2017jiy,Alonso:2017dgh,Ansari:2018ury}. The signal loss may be accounted for by excluding
-the region known as the foreground wedge~\cite{Pober:2014lva, Pober:2013jna}: 
-\begin{equation} \label{e2.19}
-\big|k_{\parallel}\big| > k_{\mathrm{wedge}}(z)\,k_{\perp} \qquad \mbox{for IF survey mode,}
-\end{equation} 
-where $k_\perp=\sqrt{1-\mu^2}\,k$ and  $k_{\mathrm{wedge}}$ is modelled as
-\begin{equation}
-k_{\mathrm{wedge}}(z) = r(z)\cH(z) \sin{\big[0.61N_{\mathrm{w}}\,{\theta_{\mathrm{b}}(z)}\big]} \, . \label{e2.20} 
-\end{equation}
-{The beam (defining the IF field of view) is given for a dish array by
-\begin{equation}\label{thetab}
-\theta_{\mathrm b}(z) = 1.22 \,\frac{\lambda(z)}{D_{\mathrm d}}\,,
-\end{equation}
-where $\lambda(z)=\lambda_{21}(1+z)$ and $D_{\mathrm d}$ is the dish diameter.
-$N_{\mathrm{w}}$ is the number of primary beams away from the beam centre that contaminate the signal. The wedge effect is a technical problem that can be mitigated (and  in principle removed) by calibration of baselines~\cite{Ghosh:2017woo}.}
-Following~\cite{Karagiannis:2019jjx}, we take
-\begin{equation}
-N_{\mathrm{w}}= 0, 1, 3, 
-\end{equation}
-where 0 is the most optimistic possibility (wedge removed by calibration)  and 3 is a pessimistic case. 
-%
-%
 \subsection{Maximum and minimum scales probed}
 %
-The nonlinearity limit $k\leq k_\mathrm{max}(z)$ given in \eqref{eq:snrkmax}, defines a minimum wavelength $2\pi/ k_\mathrm{max}(z)$ that is independent of surveys and is determined purely by dark matter clustering. It applies to both SD- and IF-mode surveys.
-However, in the case
-of IF-mode surveys, there is also a lower limit on angular scales, i.e. an upper limit on transverse wavenumbers, via $k_\perp=2\pi/(r\theta)$. This arises because the maximum baseline $D_\mathrm{max}$ determines the  angular resolution  and the upper limit can be roughly estimated by a cut-off~\cite{Bull:2014rha,Alonso:2017dgh,Karagiannis:2019jjx,Durrer:2020orn}
-\begin{equation} \label{kifmax}
-k_{\perp \mathrm{max}}^{\mathrm{IF}}(z) \approx \frac{2\pi D_\mathrm{max}}{r(z)\,\lambda(z)}\,.
-\end{equation}
-In our computations, we do not use this cut-off since it is effectively imposed by the baseline density factor (see Section~\ref{ssec:inoise}).
-\begin{figure}[h]
-\centering
-\includegraphics[width=.49\textwidth]{fig/kplane}
-%\vspace*{-0.5cm}
-\caption{{Schematic of important scales in the $k_\|,k_\perp$-plane at fixed $z$. Shading indicates the included region for SD mode (light) and IF mode (dark).}}\label{kplane}
-\end{figure}
-
-In principle, the maximum wavelength probed by HI intensity surveys at redshift $z$ is $2\pi/k_\mathrm{f}(z)$,  
-where the fundamental mode $k_\mathrm{f}$ is determined by the comoving volume of the redshift bin, via \eqref{e2.8}. 
-However, foreground cleaning imposes on both SD- and IF-mode surveys the  limiting minimum radial wavenumber $k_{\|\fg}$, given by \eqref{kfgpar}. Since $k^2=k_\|^2+k_\perp^2$, this means that  
-\begin{equation} \label{eq:kmin}
-k>k_{\|\fg} \quad \mbox{which implies}\quad k >  k_\mathrm{min}= \mathrm{max}\,\big\{ k_\mathrm{f}(z), k_{\|\fg} \big\}\,.
-\end{equation}
-In IF-mode surveys there is a further minimum wavenumber, corresponding to the maximum angular scale that can be probed. This limit depends on the minimum baseline and is given by~\cite{Bull:2014rha,Alonso:2017dgh,Karagiannis:2019jjx,Durrer:2020orn}:
-\begin{equation} \label{kifmin}
-k_{\perp \mathrm{min}}^{\mathrm{IF}}(z) = \frac{2\pi}{r(z)\,\theta_{\mathrm{b}}(z)}\,.
-\end{equation}
-Since $k>k_\perp$, we have
-\begin{equation} \label{kminif}
-k > k_\mathrm{min} = \mathrm{max}\,\big\{ k_{\perp \mathrm{min}}^{\mathrm{IF}}(z), k_\mathrm{f}(z), k_{\|\fg} \big\} \quad \mbox{for IF surveys}.
-\end{equation}
-The scales from foreground cleaning and the maximum and minimum scales are shown schematically in Figure \ref{kplane}. This does not include the effects of the beam in SD mode; 
-see Figure ref pnoise below.
-%
-%
-\subsection{Instrumental noise}\label{ssec:inoise}
-%
-In HI intensity mapping for the scales and redshifts we consider, the shot noise is much smaller than the instrumental noise for next-generation surveys\footnote{{For the futuristic PUMA (Full) survey, the noise is low enough to be comparable to the shot noise~\cite{Chen:2018qiu}.}} and can be safely neglected \cite{Castorina:2016bfm,Villaescusa-Navarro:2018vsg}. 
-The noise power spectrum for the fractional temperature perturbation is then determined by instrumental noise and is given by~\cite{Bull:2014rha,Alonso:2017dgh}:\footnote{It is also possible to put the beam factor $\beta$ in the signal, rather than in the noise; see e.g.~\cite{Bernal:2019jdo} for a discussion.}
-\begin{equation}
-{P}_{\mathrm{noise}}(z) = \frac{2\pi f_{\mathrm{sky}}}{\nu_{21} t_{\mathrm{tot}}}\,\frac{(1+z) r(z)^{2} }{\cH(z) }\,\left[\frac{T_{\mathrm{sys}}(z)}{\bar{T}_{\mathrm{HI}}(z)}\right]^2\, \frac{\alpha(z,k_\perp)}{\beta(z,k_\perp)^2}
-~~~ h^{-3}\mathrm{Mpc}^{3} \,. 
-\label{e2.24}
-\end{equation}
-Here $t_\mathrm{tot}$ is the total observing time, and  the system temperature may be modelled as~\citep{Ansari:2018ury}:
-\begin{equation}
-T_{\mathrm{sys}}(z) = T_\mathrm{d}(z)+T_\mathrm{sky}(z) =T_\mathrm{d}(z) + 2.7 + 25\bigg[\frac{400\,\mathrm{MHz}}{\nu_{21}} (1+z)\bigg]^{2.75} ~ \mathrm{K}, \label{e2.25}
-\end{equation} 
-where $T_\mathrm{d}$ is the dish receiver temperature. (We consider only dish arrays.)
-
-In \eqref{e2.24}, the dish density factor $\alpha$ and the effective beam $\beta$ depend on the survey mode, as follows~\cite{Bull:2014rha, Obuljen:2017jiy, Ansari:2018ury, Jalilvand:2019bhk, Durrer:2020orn}:
-\begin{align}
-\alpha_\mathrm{SD} &= \frac{1}{N_\mathrm{d}}\,,\qquad\qquad\qquad\qquad  \beta_\mathrm{SD}= \exp\left[-\frac{k_\perp^2 r(z)^2\theta_{\mathrm b}(z)^2}{16\ln 2} \right], \label{sdn} \\
-\alpha_\mathrm{IF} &=\left[ \frac{\lambda(z)^2}{A_{\mathrm e}}\right]^2 \frac{1}{n_{\mathrm b}(z,k_\perp)}
-\,,\quad~  \beta_\mathrm{IF}= \theta_\mathrm{b}(z)\,. \label{ifn}
-\end{align}
-Here $N_\mathrm{d}$ is the number of dishes  and $A_\mathrm{e}$ is the effective beam area:
-\begin{equation} \label{aeff}
-A_\mathrm{e} = 0.7 A_\mathrm{d}\,, \quad A_\mathrm{d} = \frac{\pi}{4}D_\mathrm{d}^2\,.
-\end{equation}
-The dimensionless $n_\mathrm{b}$ is the baseline density in the image plane (assuming azimuthal symmetry), which is determined by the array distribution. {The total number of baselines is $\int \ud^2{\textbf u}\,n_{\mathrm b}(u) = N_\mathrm{d}(N_\mathrm{d}-1)/2.$}
-A physical baseline length $L$ is related to an image-plane scale $u$ as
-\begin{equation}
-L = u\lambda = \frac{k_\perp r}{ 2\pi}\,\lambda\,.
-\end{equation}
-Then the image-plane and physical distributions of the array are related by~\cite{Ansari:2018ury}
-\begin{equation} \label{nbphy}
-n_\mathrm{b}(z,u) = \lambda(z)^2\, n_\mathrm{b}^\mathrm{phys}(L)\,.
-\end{equation}
-%
+\subsection{Instrumental noise}
 %
 \subsection{Future HI intensity mapping surveys}
 %
