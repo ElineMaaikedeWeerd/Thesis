@@ -26,6 +26,13 @@ Warning--empty journal in Aghanim:2018eyx
 ---they aren't the same literal types for entry Aghanim:2018eyx
 while executing---line 1822 of file mnras.bst
 "ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Ansari:2018ury
+while executing---line 1822 of file mnras.bst
+Warning--empty journal in Ansari:2018ury
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Ansari:2018ury
+while executing---line 1822 of file mnras.bst
+"ArXiv e-prints" is a string literal, `journal' is a missing field
 ---they aren't the same literal types for entry Jolicoeur:2020eup
 while executing---line 1822 of file mnras.bst
 Warning--empty journal in Jolicoeur:2020eup
@@ -67,45 +74,45 @@ Warning--empty journal in Villumsen:1995ar
 "ArXiv e-prints" is a string literal, `journal' is a missing field
 ---they aren't the same literal types for entry Villumsen:1995ar
 while executing---line 1822 of file mnras.bst
-You've used 133 entries,
+You've used 149 entries,
             2881 wiz_defined-function locations,
-            1761 strings with 35571 characters,
-and the built_in function-call counts, 67535 in all, are:
-= -- 5572
-> -- 5289
-< -- 336
-+ -- 2191
-- -- 900
-* -- 8150
-:= -- 10945
+            1877 strings with 39012 characters,
+and the built_in function-call counts, 75212 in all, are:
+= -- 6206
+> -- 5873
+< -- 374
++ -- 2438
+- -- 992
+* -- 9073
+:= -- 12177
 add.period$ -- 0
-call.type$ -- 133
-change.case$ -- 266
-chr.to.int$ -- 129
-cite$ -- 140
-duplicate$ -- 3029
-empty$ -- 2929
-format.name$ -- 1276
-if$ -- 11655
-int.to.chr$ -- 5
+call.type$ -- 149
+change.case$ -- 298
+chr.to.int$ -- 144
+cite$ -- 157
+duplicate$ -- 3390
+empty$ -- 3280
+format.name$ -- 1412
+if$ -- 12982
+int.to.chr$ -- 6
 int.to.str$ -- 0
-missing$ -- 133
-newline$ -- 412
-num.names$ -- 1032
-pop$ -- 599
+missing$ -- 149
+newline$ -- 460
+num.names$ -- 1150
+pop$ -- 676
 preamble$ -- 1
-purify$ -- 532
+purify$ -- 596
 quote$ -- 0
-skip$ -- 1825
+skip$ -- 2042
 stack$ -- 0
-substring$ -- 4208
-swap$ -- 1746
-text.length$ -- 532
+substring$ -- 4662
+swap$ -- 1934
+text.length$ -- 596
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1197
-warning$ -- 7
-while$ -- 1038
+type$ -- 1341
+warning$ -- 8
+while$ -- 1160
 width$ -- 0
-write$ -- 1328
-(There were 14 error messages)
+write$ -- 1486
+(There were 16 error messages)

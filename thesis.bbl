@@ -31,10 +31,29 @@ Aghanim N.,  et~al., 2018
 Alonso D.,  Ferreira P.~G.,  2015, \mn@doi [Phys. Rev. D]
   {10.1103/PhysRevD.92.063525}, 92, 063525
 
+\bibitem[\protect\citeauthoryear{Alonso, Bull, Ferreira  \& Santos}{Alonso
+  et~al.}{2015a}]{Alonso:2014dhk}
+Alonso D.,  Bull P.,  Ferreira P.~G.,   Santos M.~G.,  2015a, \mn@doi [Mon.
+  Not. Roy. Astron. Soc.] {10.1093/mnras/stu2474}, 447, 400
+
 \bibitem[\protect\citeauthoryear{Alonso, Bull, Ferreira, Maartens  \&
-  Santos}{Alonso et~al.}{2015}]{Alonso:2015uua}
-Alonso D.,  Bull P.,  Ferreira P.~G.,  Maartens R.,   Santos M.,  2015, \mn@doi
-  [Astrophys. J.] {10.1088/0004-637X/814/2/145}, 814, 145
+  Santos}{Alonso et~al.}{2015b}]{Alonso:2015uua}
+Alonso D.,  Bull P.,  Ferreira P.~G.,  Maartens R.,   Santos M.,  2015b,
+  \mn@doi [Astrophys. J.] {10.1088/0004-637X/814/2/145}, 814, 145
+
+\bibitem[\protect\citeauthoryear{Ansari et~al.}{Ansari
+  et~al.}{2018}]{Ansari:2018ury}
+Ansari R.,  et~al., 2018
+
+\bibitem[\protect\citeauthoryear{Asorey et~al.,}{Asorey
+  et~al.}{2020}]{Asorey:2020mxs}
+Asorey J.,  et~al., 2020, \mn@doi [Mon. Not. Roy. Astron. Soc.]
+  {10.1093/mnras/staa1191}, 495, 1788
+
+\bibitem[\protect\citeauthoryear{Bacon et~al.}{Bacon
+  et~al.}{2020}]{Bacon:2018dui}
+Bacon D.~J.,  et~al., 2020, \mn@doi [Publ. Astron. Soc. Austral.]
+  {10.1017/pasa.2019.51}, 37, e007
 
 \bibitem[\protect\citeauthoryear{Baldauf, Seljak  \& Senatore}{Baldauf
   et~al.}{2011}]{Baldauf:2010vn}
@@ -104,6 +123,11 @@ Beutler F.,  Castorina E.,   Zhang P.,  2019, \mn@doi [JCAP]
 Bharadwaj S.,  Mazumdar A.,   Sarkar D.,  2020, \mn@doi [Mon. Not. Roy. Astron.
   Soc.] {10.1093/mnras/staa279}, 493, 594
 
+\bibitem[\protect\citeauthoryear{Blas, Lesgourgues  \& Tram}{Blas
+  et~al.}{2011}]{Blas:2011rf}
+Blas D.,  Lesgourgues J.,   Tram T.,  2011, \mn@doi [JCAP]
+  {10.1088/1475-7516/2011/07/034}, 07, 034
+
 \bibitem[\protect\citeauthoryear{Bolejko, Clarkson, Maartens, Bacon, Meures  \&
   Beynon}{Bolejko et~al.}{2013}]{Bolejko:2012uj}
 Bolejko K.,  Clarkson C.,  Maartens R.,  Bacon D.,  Meures N.,   Beynon E.,
@@ -147,6 +171,11 @@ Bruni M.,  Crittenden R.,  Koyama K.,  Maartens R.,  Pitrou C.,   Wands D.,
   et~al.}{2014}]{Bruni:2013qta}
 Bruni M.,  Hidalgo J.~C.,  Meures N.,   Wands D.,  2014, \mn@doi [Astrophys.
   J.] {10.1088/0004-637X/785/1/2}, 785, 2
+
+\bibitem[\protect\citeauthoryear{Bull, Ferreira, Patel  \& Santos}{Bull
+  et~al.}{2015}]{Bull:2014rha}
+Bull P.,  Ferreira P.~G.,  Patel P.,   Santos M.~G.,  2015, \mn@doi [Astrophys.
+  J.] {10.1088/0004-637X/803/1/21}, 803, 21
 
 \bibitem[\protect\citeauthoryear{Camera, Santos  \& Maartens}{Camera
   et~al.}{2015a}]{Camera:2014bwa}
@@ -199,6 +228,11 @@ Chudaykin A.,  Ivanov M.~M.,  2019, \mn@doi [JCAP]
 Clarkson C.,  de Weerd E.~M.,  Jolicoeur S.,  Maartens R.,   Umeh O.,  2019,
   \mn@doi [Monthly Notices of the Royal Astronomical Society]
   {10.1093/mnrasl/slz066}, 486, L101
+
+\bibitem[\protect\citeauthoryear{Cunnington, Pourtsidou, Soares, Blake  \&
+  Bacon}{Cunnington et~al.}{2020}]{Cunnington:2020mnn}
+Cunnington S.,  Pourtsidou A.,  Soares P.~S.,  Blake C.,   Bacon D.,  2020,
+  \mn@doi [Mon. Not. Roy. Astron. Soc.] {10.1093/mnras/staa1524}, 496, 415
 
 \bibitem[\protect\citeauthoryear{Dai, Pajer  \& Schmidt}{Dai
   et~al.}{2015}]{Dai:2015jaa}
@@ -435,6 +469,11 @@ Matarrese S.,  Pilo L.,   Rollo R.,  2021, \mn@doi [JCAP]
 \bibitem[\protect\citeauthoryear{McDonald}{McDonald}{2009}]{McDonald:2009dh}
 McDonald P.,  2009, \mn@doi [JCAP] {10.1088/1475-7516/2009/11/026}, 11, 026
 
+\bibitem[\protect\citeauthoryear{Modi, White, Slosar  \& Castorina}{Modi
+  et~al.}{2019}]{Modi:2019hnu}
+Modi C.,  White M.,  Slosar A.,   Castorina E.,  2019, \mn@doi [JCAP]
+  {10.1088/1475-7516/2019/11/023}, 11, 023
+
 \bibitem[\protect\citeauthoryear{Montanari \& Camera}{Montanari \&
   Camera}{2021}]{Montanari:2020uez}
 Montanari F.,  Camera S.,  2021, \mn@doi [JCAP]
@@ -450,6 +489,11 @@ Moradinezhad~Dizgah A.,  Biagetti M.,  Sefusatti E.,  Desjacques V.,   Nore\~na
   et~al.}{2018}]{Nan:2017oaq}
 Nan Y.,  Yamamoto K.,   Hikage C.,  2018, \mn@doi [JCAP]
   {10.1088/1475-7516/2018/07/038}, 07, 038
+
+\bibitem[\protect\citeauthoryear{Obuljen, Castorina, Villaescusa-Navarro  \&
+  Viel}{Obuljen et~al.}{2018}]{Obuljen:2017jiy}
+Obuljen A.,  Castorina E.,  Villaescusa-Navarro F.,   Viel M.,  2018, \mn@doi
+  [JCAP] {10.1088/1475-7516/2018/05/004}, 05, 004
 
 \bibitem[\protect\citeauthoryear{Oddo, Sefusatti, Porciani, Monaco  \&
   S\'anchez}{Oddo et~al.}{2020}]{Oddo:2019run}
@@ -471,6 +515,15 @@ Pan H.,  Obreschkow D.,  Howlett C.,  Lagos C. d.~P.,  Elahi P.~J.,  Baugh C.,
 Philcox O. H.~E.,  Eisenstein D.~J.,  2020, \mn@doi [Mon. Not. Roy. Astron.
   Soc.] {10.1093/mnras/stz3335}, 492, 1214
 
+\bibitem[\protect\citeauthoryear{Pober}{Pober}{2015}]{Pober:2014lva}
+Pober J.~C.,  2015, \mn@doi [Mon. Not. Roy. Astron. Soc.]
+  {10.1093/mnras/stu2575}, 447, 1705
+
+\bibitem[\protect\citeauthoryear{Pober et~al.}{Pober
+  et~al.}{2014}]{Pober:2013jna}
+Pober J.~C.,  et~al., 2014, \mn@doi [Astrophys. J.]
+  {10.1088/0004-637X/782/2/66}, 782, 66
+
 \bibitem[\protect\citeauthoryear{Pozzetti et~al.,}{Pozzetti
   et~al.}{2016}]{Pozzetti:2016cch}
 Pozzetti L.,  et~al., 2016, \mn@doi [Astron. Astrophys.]
@@ -490,6 +543,10 @@ Raccanelli A.,  Montanari F.,  Bertacca D.,  Dor\'e O.,   Durrer R.,  2016,
   Szalay}{Raccanelli et~al.}{2018}]{Raccanelli:2016avd}
 Raccanelli A.,  Bertacca D.,  Jeong D.,  Neyrinck M.~C.,   Szalay A.~S.,  2018,
   \mn@doi [Phys. Dark Univ.] {10.1016/j.dark.2017.12.003}, 19, 109
+
+\bibitem[\protect\citeauthoryear{Santos et~al.}{Santos
+  et~al.}{2015}]{Santos:2015gra}
+Santos M.~G.,  et~al., 2015, \mn@doi [PoS] {10.22323/1.215.0019}, AASKA14, 019
 
 \bibitem[\protect\citeauthoryear{Santos et~al.}{Santos
   et~al.}{2017}]{Santos:2017qgq}
@@ -535,6 +592,11 @@ Sefusatti E.,  Komatsu E.,  2007, \mn@doi [Phys. Rev. D]
   Scoccimarro}{Sefusatti et~al.}{2006}]{Sefusatti:2006pa}
 Sefusatti E.,  Crocce M.,  Pueblas S.,   Scoccimarro R.,  2006, \mn@doi [Phys.
   Rev. D] {10.1103/PhysRevD.74.023522}, 74, 023522
+
+\bibitem[\protect\citeauthoryear{Shaw, Sigurdson, Sitwell, Stebbins  \&
+  Pen}{Shaw et~al.}{2015}]{Shaw:2014khi}
+Shaw J.~R.,  Sigurdson K.,  Sitwell M.,  Stebbins A.,   Pen U.-L.,  2015,
+  \mn@doi [Phys. Rev. D] {10.1103/PhysRevD.91.083514}, 91, 083514
 
 \bibitem[\protect\citeauthoryear{Shirasaki, Sugiyama, Takahashi  \&
   Kitaura}{Shirasaki et~al.}{2021}]{Shirasaki:2020vkk}
@@ -644,6 +706,15 @@ Wang M.~S.,  Beutler F.,   Bacon D.,  2020, \mn@doi [Mon. Not. Roy. Astron.
 Watkinson C.~A.,  Majumdar S.,  Pritchard J.~R.,   Mondal R.,  2017, \mn@doi
   [Mon. Not. Roy. Astron. Soc.] {10.1093/mnras/stx2130}, 472, 2436
 
+\bibitem[\protect\citeauthoryear{Witzemann, Alonso, Fonseca  \&
+  Santos}{Witzemann et~al.}{2019}]{Witzemann:2018cdx}
+Witzemann A.,  Alonso D.,  Fonseca J.,   Santos M.~G.,  2019, \mn@doi [Mon.
+  Not. Roy. Astron. Soc.] {10.1093/mnras/stz778}, 485, 5519
+
+\bibitem[\protect\citeauthoryear{Wolz et~al.,}{Wolz
+  et~al.}{2015}]{Wolz:2015sqa}
+Wolz L.,  et~al., 2015, \mn@doi [PoS] {10.22323/1.215.0035}, AASKA14, 035
+
 \bibitem[\protect\citeauthoryear{Yankelevich \& Porciani}{Yankelevich \&
   Porciani}{2019}]{Yankelevich:2018uaz}
 Yankelevich V.,  Porciani C.,  2019, \mn@doi [Mon. Not. Roy. Astron. Soc.]
@@ -666,6 +737,11 @@ Yoo J.,  Fitzpatrick A.~L.,   Zaldarriaga M.,  2009, \mn@doi [Phys. Rev. D]
   et~al.}{2012}]{Yoo:2012se}
 Yoo J.,  Hamaus N.,  Seljak U.,   Zaldarriaga M.,  2012, \mn@doi [Phys. Rev. D]
   {10.1103/PhysRevD.86.063514}, 86, 063514
+
+\bibitem[\protect\citeauthoryear{Zhu, Pen, Yu  \& Chen}{Zhu
+  et~al.}{2018}]{Zhu:2016esh}
+Zhu H.-M.,  Pen U.-L.,  Yu Y.,   Chen X.,  2018, \mn@doi [Phys. Rev. D]
+  {10.1103/PhysRevD.98.043511}, 98, 043511
 
 \bibitem[\protect\citeauthoryear{de Putter, Dor\'e  \& Green}{de~Putter
   et~al.}{2015}]{dePutter:2015vga}
