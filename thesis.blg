@@ -9,7 +9,6 @@ A level-1 auxiliary file: tex/intro_clusteringstat.aux
 A level-1 auxiliary file: tex/introreleff.aux
 A level-1 auxiliary file: tex/dipole.aux
 A level-1 auxiliary file: tex/detectability.aux
-A level-1 auxiliary file: tex/snr_euclid.aux
 A level-1 auxiliary file: tex/multipoles.aux
 A level-1 auxiliary file: tex/png_bisp.aux
 A level-1 auxiliary file: tex/fishers.aux
@@ -90,7 +89,7 @@ Warning--empty journal in Villumsen:1995ar
 while executing---line 1822 of file mnras.bst
 You've used 159 entries,
             2881 wiz_defined-function locations,
-            1947 strings with 41201 characters,
+            1946 strings with 41183 characters,
 and the built_in function-call counts, 80126 in all, are:
 = -- 6606
 > -- 6255

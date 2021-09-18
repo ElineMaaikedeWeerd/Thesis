@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.7.12)  17 SEP 2021 17:39
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.7.12)  18 SEP 2021 19:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1176,8 +1176,8 @@ LaTeX Info: Redefining \tt on input line 118.
  (./thesis.aux (./tex/abstract.aux) (./tex/acknowledgements.aux)
 (./tex/introgeneral.aux) (./tex/intro_clusteringstat.aux)
 (./tex/introreleff.aux) (./tex/dipole.aux) (./tex/detectability.aux)
-(./tex/snr_euclid.aux) (./tex/multipoles.aux) (./tex/png_bisp.aux)
-(./tex/fishers.aux) (./tex/summary.aux) (./tex/appendix.aux))
+(./tex/multipoles.aux) (./tex/png_bisp.aux) (./tex/fishers.aux)
+(./tex/summary.aux) (./tex/appendix.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 197.
@@ -1306,39 +1306,15 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 197
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Package hyperref Info: Option `pageanchor' set `false' on input line 199.
- (./thesis.tdo)
+ (./thesis.tdo
+[1
+
+
+])
 \tf@tdo=\write5
 \openout5 = `thesis.tdo'.
 
-
-(./tex/title.tex) [1
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 204--204
-
- []
-
-[2
-
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 204--204
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 204--204
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 204--204
-
- []
-
-
+ (./tex/title.tex) [2]
 Underfull \hbox (badness 10000) in paragraph at lines 204--204
 
  []
@@ -1347,10 +1323,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 204--204
 
 
 
-] [4]
+]
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+
+ []
+
+[4
+
+
+
+] [5]
 \openout2 = `tex/abstract.aux'.
 
- (./tex/abstract.tex) [5
+ (./tex/abstract.tex) [6
 
 
 
@@ -1361,83 +1361,78 @@ Underfull \hbox (badness 10000) in paragraph at lines 204--204
  (./tex/acknowledgements.tex
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 5.
-) [6
+) [7
 
 
 
 
-] (./thesis.toc [7
+] (./thesis.toc [8
 
 
 
 ]
-Overfull \hbox (1.66797pt too wide) detected at line 67
- \TU/lmr/bx/n/12 100
+Overfull \hbox (1.66797pt too wide) detected at line 69
+ \TU/lmr/bx/n/12 127
  []
 
-[8]
-Overfull \hbox (1.66797pt too wide) detected at line 80
+
+Overfull \hbox (1.66797pt too wide) detected at line 70
  \TU/lmr/bx/n/12 128
  []
 
 
-Overfull \hbox (1.66797pt too wide) detected at line 81
+Overfull \hbox (1.66797pt too wide) detected at line 71
  \TU/lmr/bx/n/12 129
  []
 
 
-Overfull \hbox (1.66797pt too wide) detected at line 82
- \TU/lmr/bx/n/12 130
+Overfull \hbox (1.66797pt too wide) detected at line 72
+ \TU/lmr/bx/n/12 132
  []
 
 
-Overfull \hbox (1.66797pt too wide) detected at line 83
- \TU/lmr/bx/n/12 133
+Overfull \hbox (1.66797pt too wide) detected at line 73
+ \TU/lmr/bx/n/12 136
  []
 
 
-Overfull \hbox (1.66797pt too wide) detected at line 84
- \TU/lmr/bx/n/12 137
+Overfull \hbox (1.66797pt too wide) detected at line 74
+ \TU/lmr/bx/n/12 138
+ []
+
+[9]
+Overfull \hbox (1.66797pt too wide) detected at line 75
+ \TU/lmr/bx/n/12 142
  []
 
 
-Overfull \hbox (1.66797pt too wide) detected at line 85
- \TU/lmr/bx/n/12 139
+Overfull \hbox (1.66797pt too wide) detected at line 76
+ \TU/lmr/bx/n/12 149
  []
 
 
-Overfull \hbox (1.66797pt too wide) detected at line 86
- \TU/lmr/bx/n/12 143
+Overfull \hbox (1.66797pt too wide) detected at line 77
+ \TU/lmr/bx/n/12 151
  []
 
 
-Overfull \hbox (1.66797pt too wide) detected at line 87
- \TU/lmr/bx/n/12 150
+Overfull \hbox (1.66797pt too wide) detected at line 78
+ \TU/lmr/bx/n/12 154
  []
 
 
-Overfull \hbox (1.66797pt too wide) detected at line 88
- \TU/lmr/bx/n/12 152
- []
-
-
-Overfull \hbox (1.66797pt too wide) detected at line 89
+Overfull \hbox (1.66797pt too wide) detected at line 79
  \TU/lmr/bx/n/12 155
  []
 
 
-Overfull \hbox (1.66797pt too wide) detected at line 90
- \TU/lmr/bx/n/12 156
+Overfull \hbox (1.66797pt too wide) detected at line 80
+ \TU/lmr/bx/n/12 162
  []
 
 
-Overfull \hbox (1.66797pt too wide) detected at line 91
- \TU/lmr/bx/n/12 163
- []
-
-
-Overfull \hbox (1.66797pt too wide) detected at line 92
- \TU/lmr/bx/n/12 167
+Overfull \hbox (1.66797pt too wide) detected at line 81
+ \TU/lmr/bx/n/12 166
  []
 
 )
@@ -1445,12 +1440,12 @@ Overfull \hbox (1.66797pt too wide) detected at line 92
 \openout6 = `thesis.toc'.
 
 Package hyperref Info: Option `pageanchor' set `true' on input line 227.
- [9]
+ [10]
 \openout2 = `tex/introgeneral.aux'.
 
  (./tex/introgeneral.tex
 chapter 1.
-) [10
+) [11
 
 
 ]
@@ -1458,27 +1453,27 @@ chapter 1.
 
  (./tex/intro_clusteringstat.tex
 chapter 2.
-[11
+[12
 
 
 
 
-] [12] [13] [14]) [15]
+] [13] [14] [15]) [16]
 \openout2 = `tex/introreleff.aux'.
 
  (./tex/introreleff.tex
 chapter 3.
-[16
+[17
 
 
 
 
-] [17] [18]) [19]
+] [18] [19]) [20]
 \openout2 = `tex/dipole.aux'.
 
  (./tex/dipole.tex
 chapter 4.
-Random number generator initialized to 3595668
+Random number generator initialized to 4317963
 File: hats/realhats-beret.pdf Graphic file (type pdf)
 <use hats/realhats-beret.pdf>
 File: hats/realhats-beret.pdf Graphic file (type pdf)
@@ -1492,54 +1487,24 @@ Overfull \hbox (2.41379pt too wide) in paragraph at lines 15--16
 mm/b/it/12 k\OT1/cmr/m/n/12 ) =
  []
 
-[20
+[21
 
 
 
 
-] [21] [22]
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-File: hats/realhats-witch.pdf Graphic file (type pdf)
-<use hats/realhats-witch.pdf>
-File: hats/realhats-witch.pdf Graphic file (type pdf)
-<use hats/realhats-witch.pdf>
-File: hats/realhats-witch.pdf Graphic file (type pdf)
-<use hats/realhats-witch.pdf>
+] [22] [23]
 File: hats/realhats-sombrero.pdf Graphic file (type pdf)
 <use hats/realhats-sombrero.pdf>
 File: hats/realhats-sombrero.pdf Graphic file (type pdf)
 <use hats/realhats-sombrero.pdf>
 File: hats/realhats-sombrero.pdf Graphic file (type pdf)
 <use hats/realhats-sombrero.pdf>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
 File: hats/realhats-fez.pdf Graphic file (type pdf)
 <use hats/realhats-fez.pdf>
 File: hats/realhats-fez.pdf Graphic file (type pdf)
@@ -1550,13 +1515,30 @@ File: hats/realhats-cowboy.pdf Graphic file (type pdf)
 <use hats/realhats-cowboy.pdf>
 File: hats/realhats-cowboy.pdf Graphic file (type pdf)
 <use hats/realhats-cowboy.pdf>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
- [23]
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
 File: hats/realhats-tophat.pdf Graphic file (type pdf)
 <use hats/realhats-tophat.pdf>
 File: hats/realhats-tophat.pdf Graphic file (type pdf)
@@ -1569,20 +1551,33 @@ File: hats/realhats-santa.pdf Graphic file (type pdf)
 <use hats/realhats-santa.pdf>
 File: hats/realhats-santa.pdf Graphic file (type pdf)
 <use hats/realhats-santa.pdf>
-File: hats/realhats-witch.pdf Graphic file (type pdf)
-<use hats/realhats-witch.pdf>
-File: hats/realhats-witch.pdf Graphic file (type pdf)
-<use hats/realhats-witch.pdf>
-File: hats/realhats-witch.pdf Graphic file (type pdf)
-<use hats/realhats-witch.pdf>
+ [24]
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
 File: fig/fig.pdf Graphic file (type pdf)
 <use fig/fig.pdf>
- [24] [25]
+ [25] [26]
 Underfull \hbox (badness 10000) in paragraph at lines 165--168
 
  []
 
-[26]
+[27]
 Overfull \hbox (31.02753pt too wide) in paragraph at lines 200--204
 \TU/lmr/m/n/12 the squeezed limit of the cyclic sum [], the terms $\OMS/cmsy/m/
 n/12 K[]\OT1/cmr/m/n/12 (\OML/cmm/b/it/12 k[]\OML/cmm/m/it/12 ; \OML/cmm/b/it/1
@@ -1595,12 +1590,12 @@ File: fig/figuresv2-02.png Graphic file (type bmp)
 <fig/figuresv2-02.png>
 File: fig/figuresv2-01.png Graphic file (type bmp)
 <fig/figuresv2-01.png>
-[27] [28] [29] [30]) [31]
+[28] [29] [30] [31]) [32]
 \openout2 = `tex/detectability.aux'.
 
  (./tex/detectability.tex
 chapter 5.
-[32
+[33
 
 
 
@@ -1610,19 +1605,21 @@ File: hats/realhats-fez.pdf Graphic file (type pdf)
 <use hats/realhats-fez.pdf>
 File: hats/realhats-fez.pdf Graphic file (type pdf)
 <use hats/realhats-fez.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
 File: fig/geometryAngles.pdf Graphic file (type pdf)
 <use fig/geometryAngles.pdf>
- [33]
+ [34]
 Overfull \hbox (0.45457pt too wide) detected at line 66
 []
  []
@@ -1632,31 +1629,31 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 66--66
 [] 
  []
 
-[34]
+[35]
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
 File: hats/realhats-sombrero.pdf Graphic file (type pdf)
 <use hats/realhats-sombrero.pdf>
 File: hats/realhats-sombrero.pdf Graphic file (type pdf)
 <use hats/realhats-sombrero.pdf>
 File: hats/realhats-sombrero.pdf Graphic file (type pdf)
 <use hats/realhats-sombrero.pdf>
-File: hats/realhats-ash.pdf Graphic file (type pdf)
-<use hats/realhats-ash.pdf>
-File: hats/realhats-ash.pdf Graphic file (type pdf)
-<use hats/realhats-ash.pdf>
-File: hats/realhats-ash.pdf Graphic file (type pdf)
-<use hats/realhats-ash.pdf>
 File: hats/realhats-sombrero.pdf Graphic file (type pdf)
 <use hats/realhats-sombrero.pdf>
 File: hats/realhats-sombrero.pdf Graphic file (type pdf)
 <use hats/realhats-sombrero.pdf>
 File: hats/realhats-sombrero.pdf Graphic file (type pdf)
 <use hats/realhats-sombrero.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
 
 Overfull \hbox (34.29306pt too wide) detected at line 89
 []
@@ -1667,13 +1664,11 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 89--89
 [] 
  []
 
-[35]
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
+[36]
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
 
 Overfull \hbox (21.25748pt too wide) detected at line 133
 [][][]\OT1/cmr/m/n/12 [[](\OML/cmm/m/it/12 z; k[]; ^^V[]; '\OT1/cmr/m/n/12 )] =
@@ -1682,149 +1677,47 @@ T1/cmr/m/n/12 )[](\OML/cmm/m/it/12 z; k[]; ^^V[]\OT1/cmr/m/n/12 )[](\OML/cmm/m/
 it/12 z; k[]; ^^V[]\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 ;
  []
 
-[36]
-Overfull \hbox (11.49997pt too wide) in paragraph at lines 152--152
-[] 
- []
-
-
-Overfull \hbox (11.49997pt too wide) in paragraph at lines 153--153
-[] 
- []
-
-[37]
-Overfull \hbox (4.79938pt too wide) in paragraph at lines 175--176
-[]\TU/lmr/m/n/12 The background HI brightness temperature follows from [] as []
-Villaescusa-Navarro
- []
-
-[38]
-Overfull \hbox (48.65999pt too wide) detected at line 219
-[]
- []
-
-[39]
-File: fig/HIBias.pdf Graphic file (type pdf)
-<use fig/HIBias.pdf>
-File: fig/THI.pdf Graphic file (type pdf)
-<use fig/THI.pdf>
- [40]
-Overfull \hbox (22.90768pt too wide) detected at line 265
-[]
- []
-
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-File: hats/realhats-ash.pdf Graphic file (type pdf)
-<use hats/realhats-ash.pdf>
-File: hats/realhats-ash.pdf Graphic file (type pdf)
-<use hats/realhats-ash.pdf>
-File: hats/realhats-ash.pdf Graphic file (type pdf)
-<use hats/realhats-ash.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-
-Overfull \hbox (49.7567pt too wide) detected at line 281
-[]
- []
-
-[41]
-Overfull \hbox (0.56406pt too wide) detected at line 291
-[]
- []
-
-[42] [43] [44]
-File: fig/kplane.pdf Graphic file (type pdf)
-<use fig/kplane.pdf>
- [45]
-Overfull \hbox (11.49997pt too wide) in paragraph at lines 376--376
-[] 
- []
-
-
-Overfull \hbox (11.49997pt too wide) in paragraph at lines 376--376
-[] 
- []
-
-[46]
-Overfull \hbox (11.49997pt too wide) in paragraph at lines 427--427
-[] 
- []
-
-[47]
-File: fig/k.pdf Graphic file (type pdf)
-<use fig/k.pdf>
-File: fig/nbHIRAX.pdf Graphic file (type pdf)
-<use fig/nbHIRAX.pdf>
-File: fig/nbPUMAPetite.pdf Graphic file (type pdf)
-<use fig/nbPUMAPetite.pdf>
-File: fig/Pnoise.pdf Graphic file (type pdf)
-<use fig/Pnoise.pdf>
-File: fig/snrSingleDishDopplerBg.pdf Graphic file (type pdf)
-<use fig/snrSingleDishDopplerBg.pdf>
-File: fig/snrSingleDishCumDopplerBg.pdf Graphic file (type pdf)
-<use fig/snrSingleDishCumDopplerBg.pdf>
- [48] [49]
-File: fig/snrInterferometerHIRAXCumDopplerBg.pdf Graphic file (type pdf)
-<use fig/snrInterferometerHIRAXCumDopplerBg.pdf>
-File: fig/snrInterferometerPUMAPetiteCumDopplerBg.pdf Graphic file (type pdf)
-<use fig/snrInterferometerPUMAPetiteCumDopplerBg.pdf>
- [50] [51] [52] [53] [54]) [55]
-\openout2 = `tex/snr_euclid.aux'.
-
- (./tex/snr_euclid.tex
-chapter 6.
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-[56
-
-
-
-
-]
-Overfull \hbox (21.25748pt too wide) detected at line 41
-[][][] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 s[] [] [] []\OT1/cmr/m/n/12 (\OML/cmm
-/m/it/12 z; k[]; ^^V[]\OT1/cmr/m/n/12 )[](\OML/cmm/m/it/12 z; k[]; ^^V[]\OT1/cm
-r/m/n/12 )[](\OML/cmm/m/it/12 z; k[]; ^^V[]\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 ;
-
- []
-
-[57]
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
-
- []
-
-[58] [59]
+[37] [38] [39]
 File: fig/b-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/b-eps-converted-to.pdf>
 File: fig/V_n-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/V_n-eps-converted-to.pdf>
 File: fig/sigma-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/sigma-eps-converted-to.pdf>
- [60]
+ [40]
+Overfull \hbox (11.49997pt too wide) in paragraph at lines 240--240
+[] 
+ []
+
+
+Overfull \hbox (11.49997pt too wide) in paragraph at lines 248--248
+[] 
+ []
+
+
+Overfull \hbox (11.49997pt too wide) in paragraph at lines 248--248
+[] 
+ []
+
+[41]
+Overfull \hbox (11.49997pt too wide) in paragraph at lines 248--248
+[] 
+ []
+
+
+Overfull \hbox (11.49997pt too wide) in paragraph at lines 252--252
+[] 
+ []
+
+
+Overfull \hbox (11.49997pt too wide) in paragraph at lines 253--253
+[] 
+ []
+
+[42]
 File: fig/beQ-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/beQ-eps-converted-to.pdf>
- [61] [62] [63]
+ [43] [44]
 File: fig/snrDoppler-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/snrDoppler-eps-converted-to.pdf>
 File: fig/CumulativesnrDoppler-eps-converted-to.pdf Graphic file (type pdf)
@@ -1833,27 +1726,125 @@ File: fig/kmaxsnr-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/kmaxsnr-eps-converted-to.pdf>
 File: fig/kmaxcumsnr-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/kmaxcumsnr-eps-converted-to.pdf>
+ [45]
 File: fig/cumDoppSnr_kmin-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/cumDoppSnr_kmin-eps-converted-to.pdf>
- [64] [65]
+ [46]
 File: fig/DoppSnr_K2D-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/DoppSnr_K2D-eps-converted-to.pdf>
 File: fig/cumDoppSnr_K2D-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/cumDoppSnr_K2D-eps-converted-to.pdf>
+ [47]
 File: fig/gamma_sigma8_AD-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/gamma_sigma8_AD-eps-converted-to.pdf>
- [66] [67] [68] [69]) [70]
+ [48] [49] [50] [51]
+Overfull \hbox (4.79938pt too wide) in paragraph at lines 478--479
+[]\TU/lmr/m/n/12 The background HI brightness temperature follows from [] as []
+Villaescusa-Navarro
+ []
+
+[52]
+Overfull \hbox (48.65999pt too wide) detected at line 522
+[]
+ []
+
+File: fig/HIBias.pdf Graphic file (type pdf)
+<use fig/HIBias.pdf>
+File: fig/THI.pdf Graphic file (type pdf)
+<use fig/THI.pdf>
+[53] [54]
+Overfull \hbox (22.90768pt too wide) detected at line 568
+[]
+ []
+
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+
+Overfull \hbox (49.7567pt too wide) detected at line 584
+[]
+ []
+
+[55]
+Overfull \hbox (0.56406pt too wide) detected at line 594
+[]
+ []
+
+[56] [57]
+File: fig/kplane.pdf Graphic file (type pdf)
+<use fig/kplane.pdf>
+ [58] [59]
+Overfull \hbox (11.49997pt too wide) in paragraph at lines 679--679
+[] 
+ []
+
+
+Overfull \hbox (11.49997pt too wide) in paragraph at lines 679--679
+[] 
+ []
+
+[60]
+Overfull \hbox (11.49997pt too wide) in paragraph at lines 730--730
+[] 
+ []
+
+[61]
+File: fig/k.pdf Graphic file (type pdf)
+<use fig/k.pdf>
+File: fig/nbHIRAX.pdf Graphic file (type pdf)
+<use fig/nbHIRAX.pdf>
+File: fig/nbPUMAPetite.pdf Graphic file (type pdf)
+<use fig/nbPUMAPetite.pdf>
+File: fig/Pnoise.pdf Graphic file (type pdf)
+<use fig/Pnoise.pdf>
+ [62] [63]
+File: fig/snrSingleDishDopplerBg.pdf Graphic file (type pdf)
+<use fig/snrSingleDishDopplerBg.pdf>
+File: fig/snrSingleDishCumDopplerBg.pdf Graphic file (type pdf)
+<use fig/snrSingleDishCumDopplerBg.pdf>
+ [64]
+File: fig/snrInterferometerHIRAXCumDopplerBg.pdf Graphic file (type pdf)
+<use fig/snrInterferometerHIRAXCumDopplerBg.pdf>
+File: fig/snrInterferometerPUMAPetiteCumDopplerBg.pdf Graphic file (type pdf)
+<use fig/snrInterferometerPUMAPetiteCumDopplerBg.pdf>
+ [65] [66] [67] [68]) [69]
 \openout2 = `tex/multipoles.aux'.
 
-
-(./tex/multipoles.tex
-chapter 7.
-[71
-
+ (./tex/multipoles.tex
+chapter 6.
+[70
 
 
 
-] [72] [73]
+
+] [71] [72]
 Overfull \hbox (9.34601pt too wide) detected at line 46
 [][]\OML/cmm/m/it/12 B[]\OT1/cmr/m/n/12 (\OML/cmm/b/it/12 k[]\OML/cmm/m/it/12 ;
  \OML/cmm/b/it/12 k[]\OML/cmm/m/it/12 ; \OML/cmm/b/it/12 k[]\OT1/cmr/m/n/12 ) =
@@ -1865,130 +1856,134 @@ t/12 k[]\OML/cmm/m/it/12 ; \OML/cmm/b/it/12 k[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/1
 /cmr/m/n/12 (\OML/cmm/b/it/12 k[]\OT1/cmr/m/n/12 )[]\OML/cmm/m/it/12 ;
  []
 
-File: hats/realhats-witch.pdf Graphic file (type pdf)
-<use hats/realhats-witch.pdf>
-File: hats/realhats-witch.pdf Graphic file (type pdf)
-<use hats/realhats-witch.pdf>
-File: hats/realhats-witch.pdf Graphic file (type pdf)
-<use hats/realhats-witch.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+[73]
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
 File: hats/realhats-tophat.pdf Graphic file (type pdf)
 <use hats/realhats-tophat.pdf>
 File: hats/realhats-tophat.pdf Graphic file (type pdf)
 <use hats/realhats-tophat.pdf>
 File: hats/realhats-tophat.pdf Graphic file (type pdf)
 <use hats/realhats-tophat.pdf>
-[74]
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-sombrero.pdf Graphic file (type pdf)
+<use hats/realhats-sombrero.pdf>
+File: hats/realhats-sombrero.pdf Graphic file (type pdf)
+<use hats/realhats-sombrero.pdf>
+File: hats/realhats-sombrero.pdf Graphic file (type pdf)
+<use hats/realhats-sombrero.pdf>
 File: hats/realhats-santa.pdf Graphic file (type pdf)
 <use hats/realhats-santa.pdf>
 File: hats/realhats-santa.pdf Graphic file (type pdf)
 <use hats/realhats-santa.pdf>
 File: hats/realhats-santa.pdf Graphic file (type pdf)
 <use hats/realhats-santa.pdf>
-File: hats/realhats-ash.pdf Graphic file (type pdf)
-<use hats/realhats-ash.pdf>
-File: hats/realhats-ash.pdf Graphic file (type pdf)
-<use hats/realhats-ash.pdf>
-File: hats/realhats-ash.pdf Graphic file (type pdf)
-<use hats/realhats-ash.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
 File: hats/realhats-sombrero.pdf Graphic file (type pdf)
 <use hats/realhats-sombrero.pdf>
 File: hats/realhats-sombrero.pdf Graphic file (type pdf)
 <use hats/realhats-sombrero.pdf>
 File: hats/realhats-sombrero.pdf Graphic file (type pdf)
 <use hats/realhats-sombrero.pdf>
-File: hats/realhats-ash.pdf Graphic file (type pdf)
-<use hats/realhats-ash.pdf>
-File: hats/realhats-ash.pdf Graphic file (type pdf)
-<use hats/realhats-ash.pdf>
-File: hats/realhats-ash.pdf Graphic file (type pdf)
-<use hats/realhats-ash.pdf>
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
 File: hats/realhats-witch.pdf Graphic file (type pdf)
 <use hats/realhats-witch.pdf>
 File: hats/realhats-witch.pdf Graphic file (type pdf)
 <use hats/realhats-witch.pdf>
 File: hats/realhats-witch.pdf Graphic file (type pdf)
 <use hats/realhats-witch.pdf>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
- [75]
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
 File: hats/realhats-cowboy.pdf Graphic file (type pdf)
 <use hats/realhats-cowboy.pdf>
 File: hats/realhats-cowboy.pdf Graphic file (type pdf)
 <use hats/realhats-cowboy.pdf>
 File: hats/realhats-cowboy.pdf Graphic file (type pdf)
 <use hats/realhats-cowboy.pdf>
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
 File: hats/realhats-tophat.pdf Graphic file (type pdf)
 <use hats/realhats-tophat.pdf>
 File: hats/realhats-tophat.pdf Graphic file (type pdf)
 <use hats/realhats-tophat.pdf>
 File: hats/realhats-tophat.pdf Graphic file (type pdf)
 <use hats/realhats-tophat.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+ [74]
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
 
 Overfull \hbox (80.44954pt too wide) detected at line 104
 []
@@ -1999,27 +1994,31 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 104--104
 [] 
  []
 
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
 File: hats/realhats-ash.pdf Graphic file (type pdf)
 <use hats/realhats-ash.pdf>
 File: hats/realhats-ash.pdf Graphic file (type pdf)
 <use hats/realhats-ash.pdf>
 File: hats/realhats-ash.pdf Graphic file (type pdf)
 <use hats/realhats-ash.pdf>
-[76]
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+[75]
 Overfull \hbox (23.1548pt too wide) detected at line 125
 []
  []
@@ -2029,22 +2028,22 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 125--125
 [] 
  []
 
-[77]
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-File: hats/realhats-ash.pdf Graphic file (type pdf)
-<use hats/realhats-ash.pdf>
-File: hats/realhats-ash.pdf Graphic file (type pdf)
-<use hats/realhats-ash.pdf>
-File: hats/realhats-ash.pdf Graphic file (type pdf)
-<use hats/realhats-ash.pdf>
+[76]
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
 File: fig/fig.pdf Graphic file (type pdf)
 <use fig/fig.pdf>
- [78] [79]
+ [77] [78]
 Overfull \hbox (69.51956pt too wide) detected at line 249
 []
  []
@@ -2054,7 +2053,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 249--249
 [] 
  []
 
-[80] [81]
+[79] [80]
 Overfull \hbox (23.3996pt too wide) detected at line 281
 [][]\OMS/cmsy/m/n/12 K[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 K[]\OT1/cmr/m/n/12 
 (\OML/cmm/m/it/12 k[]; ^^V[]\OT1/cmr/m/n/12 )\OMS/cmsy/m/n/12 K[]\OT1/cmr/m/n/1
@@ -2074,7 +2073,7 @@ msy/m/n/12 K[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 k[]; k[]; k[]\OT1/cmr/m/n/12 )
 =
  []
 
-[82]
+[81]
 Overfull \hbox (37.66858pt too wide) detected at line 383
 []
  []
@@ -2084,7 +2083,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 383--383
 [] 
  []
 
-[83]
+[82]
 Overfull \hbox (228.35103pt too wide) detected at line 449
 []
  []
@@ -2094,15 +2093,15 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 449--449
 [] 
  []
 
-[84]
+[83]
 File: fig/overview.pdf Graphic file (type pdf)
 <use fig/overview.pdf>
- [85]
+ [84]
 Overfull \hbox (215.4458pt too wide) detected at line 496
 [][] [] \OT1/cmr/m/n/12 + []
  []
 
-[86] [87] [88] [89] [90] [91]
+[85] [86] [87] [88] [89] [90]
 File: fig/totP_Euclid_sq2.pdf Graphic file (type pdf)
 <use fig/totP_Euclid_sq2.pdf>
 File: fig/totP_IM_sq2.pdf Graphic file (type pdf)
@@ -2115,56 +2114,56 @@ File: fig/totP_euclid_equi2.pdf Graphic file (type pdf)
 <use fig/totP_euclid_equi2.pdf>
 File: fig/totP_IM_equi2.pdf Graphic file (type pdf)
 <use fig/totP_IM_equi2.pdf>
- [92
+ [91
 
-] [93]
+] [92]
 File: fig/triangles_all_k001_Euclid.png Graphic file (type bmp)
 <fig/triangles_all_k001_Euclid.png>
 File: fig/triangles_all_k01_Euclid.png Graphic file (type bmp)
 <fig/triangles_all_k01_Euclid.png>
- [94]
+ [93]
 File: fig/triangles_all_k001_IM.png Graphic file (type bmp)
 <fig/triangles_all_k001_IM.png>
 File: fig/triangles_all_k01_IM.png Graphic file (type bmp)
 <fig/triangles_all_k01_IM.png>
- [95]
+ [94]
 File: fig/redB_k01.pdf Graphic file (type pdf)
 <use fig/redB_k01.pdf>
 File: fig/redB_k001.pdf Graphic file (type pdf)
 <use fig/redB_k001.pdf>
- [96]
+ [95]
 File: fig/fnofz.pdf Graphic file (type pdf)
 <use fig/fnofz.pdf>
- [97
+ [96
 
 
 
 
-] [98]) [99]
+] [97]) [98]
 \openout2 = `tex/png_bisp.aux'.
 
 
 (./tex/png_bisp.tex
-chapter 8.
-[100
+chapter 7.
+[99
 
 
 
 
-] [101]
+] [100]
 Overfull \vbox (0.91515pt too high) has occurred while \output is active []
 
 
-[102] [103]
+[101] [102]
 Overfull \hbox (15.12341pt too wide) in paragraph at lines 79--81
 []\TU/lmr/m/n/12 relativistic projection corrections to the Newtonian RSD []Ber
 tacca et al.[] ([]2014a[],[]b[]);
  []
 
-[104] [105] [106]
+[103] [104] [105]
 File: fig/Mplot.pdf Graphic file (type pdf)
 <use fig/Mplot.pdf>
- [107] [108] [109]
+ [106] [107] [108]
 Overfull \hbox (5.65016pt too wide) detected at line 253
 []
  []
@@ -2180,137 +2179,133 @@ Overfull \hbox (2.15083pt too wide) in paragraph at lines 253--257
  ^^C$\TU/lmr/m/n/12 CDM is []Villa & Rampf[] ([]2016[]): 
  []
 
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
 File: hats/realhats-beret.pdf Graphic file (type pdf)
 <use hats/realhats-beret.pdf>
 File: hats/realhats-beret.pdf Graphic file (type pdf)
 <use hats/realhats-beret.pdf>
 File: hats/realhats-beret.pdf Graphic file (type pdf)
 <use hats/realhats-beret.pdf>
-[110]
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-fez.pdf Graphic file (type pdf)
+<use hats/realhats-fez.pdf>
+File: hats/realhats-fez.pdf Graphic file (type pdf)
+<use hats/realhats-fez.pdf>
+[109]
 Overfull \hbox (2.0367pt too wide) in paragraph at lines 303--306
 \TU/lmr/m/it/12 Relativistic corrections to [] are needed to enforce gauge-inde
 pendence
  []
 
-[111]
+[110]
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
 File: hats/realhats-santa.pdf Graphic file (type pdf)
 <use hats/realhats-santa.pdf>
 File: hats/realhats-santa.pdf Graphic file (type pdf)
 <use hats/realhats-santa.pdf>
 File: hats/realhats-santa.pdf Graphic file (type pdf)
 <use hats/realhats-santa.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+ [111] [112]
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
 File: hats/realhats-fez.pdf Graphic file (type pdf)
 <use hats/realhats-fez.pdf>
 File: hats/realhats-fez.pdf Graphic file (type pdf)
 <use hats/realhats-fez.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
+File: hats/realhats-fez.pdf Graphic file (type pdf)
+<use hats/realhats-fez.pdf>
+File: hats/realhats-fez.pdf Graphic file (type pdf)
+<use hats/realhats-fez.pdf>
+ [113]
 File: hats/realhats-dunce.pdf Graphic file (type pdf)
 <use hats/realhats-dunce.pdf>
 File: hats/realhats-dunce.pdf Graphic file (type pdf)
 <use hats/realhats-dunce.pdf>
 File: hats/realhats-dunce.pdf Graphic file (type pdf)
 <use hats/realhats-dunce.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-File: hats/realhats-ash.pdf Graphic file (type pdf)
-<use hats/realhats-ash.pdf>
-File: hats/realhats-ash.pdf Graphic file (type pdf)
-<use hats/realhats-ash.pdf>
-File: hats/realhats-ash.pdf Graphic file (type pdf)
-<use hats/realhats-ash.pdf>
- [112] [113]
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
+File: hats/realhats-fez.pdf Graphic file (type pdf)
+<use hats/realhats-fez.pdf>
+File: hats/realhats-fez.pdf Graphic file (type pdf)
+<use hats/realhats-fez.pdf>
  [114]
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-File: hats/realhats-ash.pdf Graphic file (type pdf)
-<use hats/realhats-ash.pdf>
-File: hats/realhats-ash.pdf Graphic file (type pdf)
-<use hats/realhats-ash.pdf>
-File: hats/realhats-ash.pdf Graphic file (type pdf)
-<use hats/realhats-ash.pdf>
- [115]
 Overfull \hbox (6.06021pt too wide) detected at line 484
 []
  []
 
-[116]
+[115]
 Overfull \hbox (82.68813pt too wide) detected at line 506
 []
  []
@@ -2323,155 +2318,159 @@ rection terms, which scale as $\OT1/cmr/m/n/12 i(\OMS/cmsy/m/n/12 H[]\OML/cmm/m
 /it/12 =k[]\OT1/cmr/m/n/12 ) (\OML/cmm/m/it/12 ^^N[]\OT1/cmr/m/n/12 )[]$
  []
 
-[117]
+[116]
 Underfull \hbox (badness 10000) in paragraph at lines 525--526
 
  []
 
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-[118]
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-File: hats/realhats-witch.pdf Graphic file (type pdf)
-<use hats/realhats-witch.pdf>
-File: hats/realhats-witch.pdf Graphic file (type pdf)
-<use hats/realhats-witch.pdf>
-File: hats/realhats-witch.pdf Graphic file (type pdf)
-<use hats/realhats-witch.pdf>
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
 File: hats/realhats-sombrero.pdf Graphic file (type pdf)
 <use hats/realhats-sombrero.pdf>
 File: hats/realhats-sombrero.pdf Graphic file (type pdf)
 <use hats/realhats-sombrero.pdf>
 File: hats/realhats-sombrero.pdf Graphic file (type pdf)
 <use hats/realhats-sombrero.pdf>
+[117]
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
 
 Overfull \hbox (8.38782pt too wide) detected at line 611
 []
  []
 
-[119]
+[118]
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
 File: hats/realhats-sombrero.pdf Graphic file (type pdf)
 <use hats/realhats-sombrero.pdf>
 File: hats/realhats-sombrero.pdf Graphic file (type pdf)
 <use hats/realhats-sombrero.pdf>
 File: hats/realhats-sombrero.pdf Graphic file (type pdf)
 <use hats/realhats-sombrero.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
 
 Overfull \hbox (23.97816pt too wide) detected at line 635
 []
  []
 
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
 
 Overfull \hbox (0.6687pt too wide) in paragraph at lines 645--646
 \TU/lmr/m/n/12 first two lines recover the Newtonian approximation (see []Tella
 rini et al.[] ([]2015[])). 
  []
 
-[120] [121]
+[119] [120]
 File: fig/Q_k0_1_noShotnoise1.pdf Graphic file (type pdf)
 <use fig/Q_k0_1_noShotnoise1.pdf>
 File: fig/Q_k0_1_noShotnoise2.pdf Graphic file (type pdf)
 <use fig/Q_k0_1_noShotnoise2.pdf>
 File: fig/redB_lineandlake_v3.pdf Graphic file (type pdf)
 <use fig/redB_lineandlake_v3.pdf>
- [122]
+ [121]
 File: fig/multipoles_allpanels_v3.pdf Graphic file (type pdf)
 <use fig/multipoles_allpanels_v3.pdf>
- [123] [124] [125] [126]) [127]
+ [122] [123] [124] [125]) [126]
 \openout2 = `tex/fishers.aux'.
 
  (./tex/fishers.tex
-chapter 9.
-) [128
+chapter 8.
+) [127
 
 
 
@@ -2480,8 +2479,8 @@ chapter 9.
 \openout2 = `tex/summary.aux'.
 
  (./tex/summary.tex
-chapter 10.
-) [129
+chapter 9.
+) [128
 
 
 
@@ -2501,16 +2500,16 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 58--58
 [] 
  []
 
-[130
+[129
 
 
 
 
-] [131]) [132]
+] [130]) [131]
 chapter B.
-(./tex/app_betatables.tex [133
+(./tex/app_betatables.tex [132
 
-] [134]
+] [133]
 Overfull \hbox (153.99956pt too wide) detected at line 223
 []
  []
@@ -2520,15 +2519,15 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 223--223
 [] 
  []
 
-[135]) [136]
+[134]) [135]
 chapter C.
-(./tex/app_upsiloncoeff.tex [137
+(./tex/app_upsiloncoeff.tex [136
 
-]) [138]
+]) [137]
 chapter D.
-(./tex/app_sumderiv.tex [139
+(./tex/app_sumderiv.tex [138
 
-] [140]
+] [139]
 Overfull \hbox (21.74069pt too wide) detected at line 59
 []
  []
@@ -2538,7 +2537,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 59--59
 [] 
  []
 
-[141]) [142]
+[140]) [141]
 chapter E.
 (./tex/app_kabpres.tex
 Overfull \hbox (24.22433pt too wide) detected at line 38
@@ -2550,9 +2549,9 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 38--38
 [] 
  []
 
-[143
+[142
 
-] [144]
+] [143]
 Overfull \hbox (106.37213pt too wide) detected at line 77
 []
  []
@@ -2562,7 +2561,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 77--77
 [] 
  []
 
-[145]
+[144]
 Overfull \hbox (104.08089pt too wide) detected at line 109
 []
  []
@@ -2572,7 +2571,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 109--109
 [] 
  []
 
-[146]
+[145]
 Overfull \hbox (141.72049pt too wide) detected at line 132
 []
  []
@@ -2582,7 +2581,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 132--132
 [] 
  []
 
-[147] [148]) [149]
+[146] [147]) [148]
 chapter F.
 (./tex/app_sqlim.tex
 Overfull \hbox (108.90007pt too wide) detected at line 33
@@ -2594,115 +2593,51 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 33--33
 [] 
  []
 
-) [150
+) [149
 
-] [151]
+] [150]
 chapter G.
 (./tex/app_snreuclid.tex
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
 File: hats/realhats-beret.pdf Graphic file (type pdf)
 <use hats/realhats-beret.pdf>
 File: hats/realhats-beret.pdf Graphic file (type pdf)
 <use hats/realhats-beret.pdf>
 File: hats/realhats-beret.pdf Graphic file (type pdf)
 <use hats/realhats-beret.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-witch.pdf Graphic file (type pdf)
-<use hats/realhats-witch.pdf>
-File: hats/realhats-witch.pdf Graphic file (type pdf)
-<use hats/realhats-witch.pdf>
-File: hats/realhats-witch.pdf Graphic file (type pdf)
-<use hats/realhats-witch.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-File: hats/realhats-ash.pdf Graphic file (type pdf)
-<use hats/realhats-ash.pdf>
-File: hats/realhats-ash.pdf Graphic file (type pdf)
-<use hats/realhats-ash.pdf>
-File: hats/realhats-ash.pdf Graphic file (type pdf)
-<use hats/realhats-ash.pdf>
 File: hats/realhats-fez.pdf Graphic file (type pdf)
 <use hats/realhats-fez.pdf>
 File: hats/realhats-fez.pdf Graphic file (type pdf)
 <use hats/realhats-fez.pdf>
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-File: hats/realhats-ash.pdf Graphic file (type pdf)
-<use hats/realhats-ash.pdf>
-File: hats/realhats-ash.pdf Graphic file (type pdf)
-<use hats/realhats-ash.pdf>
-File: hats/realhats-ash.pdf Graphic file (type pdf)
-<use hats/realhats-ash.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
 File: hats/realhats-cowboy.pdf Graphic file (type pdf)
 <use hats/realhats-cowboy.pdf>
 File: hats/realhats-cowboy.pdf Graphic file (type pdf)
@@ -2715,6 +2650,68 @@ File: hats/realhats-crown.pdf Graphic file (type pdf)
 <use hats/realhats-crown.pdf>
 File: hats/realhats-crown.pdf Graphic file (type pdf)
 <use hats/realhats-crown.pdf>
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+File: hats/realhats-sombrero.pdf Graphic file (type pdf)
+<use hats/realhats-sombrero.pdf>
+File: hats/realhats-sombrero.pdf Graphic file (type pdf)
+<use hats/realhats-sombrero.pdf>
+File: hats/realhats-sombrero.pdf Graphic file (type pdf)
+<use hats/realhats-sombrero.pdf>
+File: hats/realhats-fez.pdf Graphic file (type pdf)
+<use hats/realhats-fez.pdf>
+File: hats/realhats-fez.pdf Graphic file (type pdf)
+<use hats/realhats-fez.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+File: hats/realhats-fez.pdf Graphic file (type pdf)
+<use hats/realhats-fez.pdf>
+File: hats/realhats-fez.pdf Graphic file (type pdf)
+<use hats/realhats-fez.pdf>
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
 File: fig/colournmu1nphi_Doppler-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/colournmu1nphi_Doppler-eps-converted-to.pdf>
 File: fig/cumulativeSnrdopplerQ0_0-eps-converted-to.pdf Graphic file (type pdf)
@@ -2729,7 +2726,7 @@ File: fig/cumulativeSnrdopplerQ1_5-eps-converted-to.pdf Graphic file (type pdf)
 File: fig/cumulativeSnrdopplerQ2_0-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/cumulativeSnrdopplerQ2_0-eps-converted-to.pdf>
- [152
+ [151
 
 ]
 Overfull \hbox (84.0351pt too wide) detected at line 72
@@ -2741,35 +2738,34 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 72--72
 [] 
  []
 
-) [153] [154]
+) [152] [153]
 chapter H.
-) [155
+) [154
 
 ] (./thesis.bbl
 chapter without number
-[156
+[155
 
 
 
-] [157] [158] [159] [160] [161]) [162] (./thesis.lof [163
+] [156] [157] [158] [159] [160]) [161] (./thesis.lof [162
 
-] [164] [165])
+] [163] [164])
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
 
-[166] (./thesis.lot)
+[165] (./thesis.lot)
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
- [167
+ [166
 
 ] (./thesis.aux (./tex/abstract.aux)
 (./tex/acknowledgements.aux) (./tex/introgeneral.aux)
 (./tex/intro_clusteringstat.aux) (./tex/introreleff.aux) (./tex/dipole.aux)
-(./tex/detectability.aux) (./tex/snr_euclid.aux) (./tex/multipoles.aux)
-(./tex/png_bisp.aux) (./tex/fishers.aux) (./tex/summary.aux)
-(./tex/appendix.aux))
+(./tex/detectability.aux) (./tex/multipoles.aux) (./tex/png_bisp.aux)
+(./tex/fishers.aux) (./tex/summary.aux) (./tex/appendix.aux))
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  )
@@ -2781,12 +2777,12 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 ### simple group (level 1) entered at line 471 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 30948 strings out of 476919
- 608465 string characters out of 5821840
- 1118324 words of memory out of 5000000
- 50196 multiletter control sequences out of 15000+600000
+ 30942 strings out of 476919
+ 608560 string characters out of 5821840
+ 1118081 words of memory out of 5000000
+ 50197 multiletter control sequences out of 15000+600000
  424539 words of font info for 128 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  125i,19n,130p,10602b,1685s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (167 pages, 2713212 bytes).
+Output written on thesis.xdv (166 pages, 2689644 bytes).
