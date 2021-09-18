@@ -3,9 +3,9 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis.aux
 The style file: mnras.bst
 A level-1 auxiliary file: tex/abstract.aux
+A level-1 auxiliary file: tex/conventions.aux
 A level-1 auxiliary file: tex/acknowledgements.aux
 A level-1 auxiliary file: tex/introgeneral.aux
-A level-1 auxiliary file: tex/intro_clusteringstat.aux
 A level-1 auxiliary file: tex/introreleff.aux
 A level-1 auxiliary file: tex/dipole.aux
 A level-1 auxiliary file: tex/detectability.aux
@@ -89,7 +89,7 @@ Warning--empty journal in Villumsen:1995ar
 while executing---line 1822 of file mnras.bst
 You've used 159 entries,
             2881 wiz_defined-function locations,
-            1946 strings with 41183 characters,
+            1946 strings with 41174 characters,
 and the built_in function-call counts, 80126 in all, are:
 = -- 6606
 > -- 6255
