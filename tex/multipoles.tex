@@ -235,9 +235,113 @@ B_{\ell m} &= \int{\diff}\Omega \,\,B_g Y^*_{\ell m} \nonumber \\
 &= \sum_{a,b} \mathcal{B}_{ab} X_{\ell m}^{ab} \label{eq:xabexp} \,,
 \end{align}
 where 
-\begin{equation} X_{\ell m}^{ab} = \int_0^{2\pi} \diff\varphi\, \int_{-1}^1 \diff\mu_1\, (\i \mu_1)^a (\i \mu_2)^b \,Y_{\ell m}^*(\mu_1,\varphi).
+\begin{equation} X_{\ell m}^{ab} = \int_0^{2\pi} \diff\varphi\, \int_{-1}^1 \diff\mu_1\, (\i \mu_1)^a (\i \mu_2)^b \,Y_{\ell m}^*(\mu_1,\varphi)\,.
 \end{equation}
-To do this we use the identity, derived in appendix REF APPENDIX WITH SUM DERIVATION, for $m \geq 0$,
+
+The derivation is as follows \todo{work on deriv here}
+Here we present a detailed derivation of the analytic result of the integration of
+\begin{equation} \label{eq:xabint}
+X_{\ell m}^{ab} = \int_0^{2\pi} \diff\varphi\, \int_{-1}^1 \diff\mu_1\, (\i \mu_1)^a (\i \mu_2)^b \,Y_{\ell m}^*(\mu_1,\varphi)\,.
+\end{equation}
+In the above, we have used that $\mu_1 = \cos \theta$, such that $Y_{\ell m} (\theta, \varphi) = Y_{\ell,m}(\mu_1,\varphi)$. 
+The standard orthonormal spherical harmonics are defined as, 
+\begin{equation}
+	Y_{\ell m}(\mu_1, \varphi) = \sqrt{\frac{2\ell+1}{4\pi}} \sqrt{\frac{(\ell - m)!}{(\ell + m)!}} P_{\ell m}(\mu_1) e^{\i m \varphi}\,,
+\end{equation}
+and the spherical harmonics are related to their complex conjugate as, 
+\begin{equation}
+	Y_{\ell,-m} = (-1)^m Y^*_{\ell,m}\,,\quad Y^*_{\ell,m} = (-1)^m Y_{\ell,-m}\,.
+\end{equation}
+Equation~\eqref{eq:xabint} is separable. We can make this explicit as follows. First expressing $\mu_2$ in terms of $\mu_1$ using $\mu_2 = \sqrt{1 - \mu_1^2} \sin\theta \sin\varphi + \mu_1 \cos\theta$, where $\theta \equiv \theta_{12} \neq \theta_1$-- it is the angle between vectors $\ka$ and $\kb$. Then we can expand $(\i\mu_2)^b$ using the binomial series, 
+\begin{align}
+	(\i \mu_2)^b &= \i^b ( \sqrt{1 - \mu_1^2} \sin\theta \sin\varphi + \mu_1 \cos\theta)^b \nonumber \\ 
+	&= \i^b \sum_{g=0}^b \binom{b}{g} \left[ \sqrt{1 - \mu_1^2} \sin\theta \sin\varphi \right]^g \left[ \mu_1 \cos\theta \right]^{b-g}\nonumber \\
+	&= \i^b \sum_{g=0}^b \binom{b}{g} (1 - \mu_1^2)^{g/2} \mu_1^{b-g} \sin^g\varphi \sin^g\theta \cos^{b-g}\theta\,.
+\end{align}
+Using this, we have,
+\begin{align}
+	X_{\ell m}^{ab} =& \i^{a+b} \sum_{g=0}^b \sin^g\theta \cos^{b-g}\theta \binom{b}{g} \int_0^{2\pi}\diff\varphi\, \int_{-1}^1\diff\mu (1-\mu^2)^{g/2} \mu^{a+b-g} \times \nonumber \\
+	&\quad \sin^g\varphi Y^*_{\ell m}(\mu,\varphi)\,,
+\end{align}
+where we have dropped subscript on $\mu_1 \equiv \mu$ for brevity. Now using the definition of the complex-conjugated standard spherical harmonics, 
+\begin{align}
+	Y^*_{\ell m} &= (-1)^m Y_{\ell,-m} \nonumber \\
+	&= (-1)^m \sqrt{\frac{2\ell + 1}{4 \pi}} \sqrt{\frac{(\ell +m)!}{(\ell - m)!}} P_{\ell,-m}(\mu) e^{-\i m \varphi} \,
+\end{align}
+and the associated Legendre polynomials $P_{\ell m}$ can be rewritten for negative $m$ as, 
+\begin{equation}
+	P_{\ell,-m} = (-1)^m \frac{(\ell - m)!}{(\ell + m)!} P_{\ell,m}\,,
+\end{equation}
+such that, 
+\begin{equation}
+	Y^*_{\ell m} = \sqrt{\frac{2\ell + 1}{4 \pi}} \sqrt{\frac{(\ell - m)!}{(\ell + m)!}} P_{\ell m}(\mu) e^{-\i m \varphi} \,.
+\end{equation}
+This makes the separability of the integral~\eqref{eq:xabint} explicit, 
+\begin{align}
+	X_{\ell m}^{ab} =& \i^{a+b} \sum_{g=0}^b \binom{b}{g} \sin^g\theta \cos^{b-g}\theta \sqrt{\frac{2\ell + 1}{4\pi}} \sqrt{\frac{(\ell - m)!}{(\ell + m)!}} \int_0^{2\pi}\diff\varphi\, \sin^g\varphi e^{-\i m \varphi} \times \nonumber \\
+	& \int_{-1}^1 \diff\mu\, (1-\mu^2)^{g/2} \mu^{a+b-g} P_{\ell m}(\mu)\,.
+\end{align}
+Now these two integrals can be solved independently. Starting with the integral over $\mu$, splitting the interval $\int_{-1}^1 = \int_{-1}^0 + \int_0^1$, the $\int_{-1}^1$ term can be rewritten using a change of variables and the parity of the associated Legendre polynomials as, 
+\begin{align}
+	&\int_{-1}^0\diff\mu\, (1-\mu^2)^{g/2} \mu^{a+b-g} P_{\ell m}(\mu) \nonumber \\
+	&= - \int_0^{-1}\diff\mu\, (1-\mu^2)^{g/2} \mu^{a+b-g} P_{\ell m}(\mu) \nonumber \\
+	&= \int_0^1\diff\tilde{\mu}\, (1-\tilde{\mu}^2)^{g/2}(-\tilde{\mu})^{a+b-g} P_{\ell m}(-\tilde{\mu}) \nonumber \\
+	&= (-1)^{\ell + m + a + b - g} \int_0^1 \diff\mu\, (1-\mu)^{g/2} \mu^{a+b-g} P_{\ell m}(\mu)\,,
+\end{align}
+where we have used that $P_{\ell m}(-x) = (-1)^{\ell + m} P_{\ell m}(x)$, and renamed $\tilde{\mu} = \mu$ in the last line. The full integral over $\mu$ then can be written as, 
+\begin{equation}
+	\left[ 1 + (-1)^{\ell+m+a+b-g} \right] \int_0^1 \diff\mu\, (1-\mu^2)^{g/2} \mu^{a+b-g} P_{\ell m}(\mu)\,.
+\end{equation}
+The associated Legendre polynomials can be written in closed form, using, 
+\begin{align}
+	P_{\ell m}(\mu) = (-1)^m P_\ell^m \nonumber \\
+	&= (-1)^m (-1)^m 2^\ell (1-\mu^2)^{m/2} \sum_{k = m}^\ell \frac{k!}{(k-m)!} \mu^{k-m} \binom{\ell}{k} \binom{\frac{1}{2}(\ell + k - 1)}{\ell} \nonumber \\
+	& 2^\ell (1-\mu^2)^{m/2} \sum_{k = m}^\ell \frac{k!}{(k-m)!} \mu^{k-m} \binom{\ell}{k} \binom{\frac{1}{2}(\ell + k - 1)}{\ell}\,,
+\end{align}
+such that, 
+\begin{align}
+	&\left[ 1 + (-1)^{\ell+m+a+b-g} \right] (-1)^m 2^\ell \sum_{k=m}^\ell \frac{k!}{(k-m)!} \binom{\ell}{k} \binom{\frac{1}{2}(\ell + k - 1)}{\ell} \times \nonumber \\
+	&\int_0^1 \diff\mu\, (1-\mu^2)^{\frac{1}{2}(m+g)} \mu^{a+b+k-g-m}\,.
+\end{align}
+Changing variables $\xi = \mu^2$, omitting the prefactor for brevity, we get, 
+\begin{equation}
+	\int_0^1\diff\xi\, \frac{1}{2} (1 - \xi)^{\frac{1}{2}(m+g)} \xi^{\frac{1}{2}(a+b+k-g-m-1)}\,.
+\end{equation}
+Comparing to the Beta function, 
+\begin{equation}
+	B(x,y) = \int_0^1\diff t\, (1-t)^{y-1} t^{x-1}\,,
+\end{equation}
+we can identify $x = \frac{1}{2}(a+b+k-g-m+1)$ and $y = \frac{1}{2}(m+g+2)$. The Beta function can be expressed in terms of Gamma functions $B(x,y) = \frac{\Gamma(x)\Gamma(y)}{\Gamma(x+y)}$, which in turn can be written in terms of factorials, for any positive integer $n$ this relation is $\Gamma(n) = (n-1)!$. We will express the result in terms of Gamma functions as, 
+\begin{align}
+	&\int_{-1}^{1}\diff\mu\, (1-\mu^2)^{g/2} \mu^{a+b-g} P_{\ell m}(\mu) \nonumber \\
+	&= \left[ 1 + (-1)^{\ell+m+a+b-g} \right] (-1)^m 2^\ell \sum_{k=m}^\ell \frac{k!}{(k-m)!} \binom{\ell}{k} \binom{\frac{1}{2}(\ell + k - 1)}{\ell} \times \nonumber \\
+	& \left\{ \Gamma\left[\frac{1}{2}(m+g+2)\right] \Gamma\left[\frac{1}{2}(a+b+k-g-m+1)\right] \right\}\cdot\left\{ \Gamma\left[\frac{1}{2}(a+b+k+3) \right]\right\}^{-1}\,.
+\end{align}
+Now to solve the integral over $\varphi$, 
+\begin{equation}
+	\int_0^{2\pi}\diff\varphi\, \sin^g\varphi e^{-\i m \varphi}\,.
+\end{equation}
+Write $\sin^g\varphi$ in terms of $e$ using the usual trig identities and binomial expansion as, 
+\begin{equation}
+	\sin^g\varphi = \frac{1}{(2\i)^g} \sum_{n=0}^g \binom{g}{n} e^{\i (g-n) \varphi} (-1)^n e^{-\i n \varphi}\, 
+\end{equation}
+to get, 
+\begin{align}
+	&\int_0^{2\pi}\diff\varphi\, \frac{1}{(2\i)^g} \sum_{n=0}^g \binom{g}{n} (-1)^n e^{\i \varphi (g-m-2n)}\nonumber \\
+	&= \frac{1}{(2\i)^g} \sum_{n=0}^g \binom{g}{n} (-1)^n \int_0^{2\pi}\diff\varphi\, e^{\i \varphi (g-m-2n)} \nonumber \\
+	&= \frac{1}{(2\i)^g} \sum_{n=0}^g \binom{g}{n} (-1)^n (2\pi) \delta_{g-m-2n, 0}\,.
+\end{align}
+The Kronecker $\delta$ picks out the term in the sum which satisfies $g - m -2n =0 \Rightarrow n = \frac{1}{2}(g-m)$, s.t. 
+\begin{equation}
+	\int_0^{2\pi} \diff\varphi\, \sin^g\varphi e^{-\i m \varphi} = \frac{1}{(2\i)^g} \binom{g}{\frac{1}{2}(g-m)} (2\pi) (-1)^{\frac{1}{2}(g-m)}\,
+\end{equation}
+where $n$ must be a positive integer (or zero), so $g \geq m$ and $g -m$ even.
+
+Putting together blah blah \todo[inline]{fix this derivation garbage and double check} leads to identity, done 
+%
+%
+%
+To do this we use the identity for $m \geq 0$,
 \begin{align}\label{eq:sumformula} X_{\ell m}^{ab} &= 2^{\ell+m-1}\i^{a+b+m}\sqrt{\frac{\pi(2\ell+1)(\ell-m)!}{(\ell+m)!}}\nonumber\\
 &\times
 \sum_{p=m}^{\frac{1}{2}(b+m)}\sum_{q=m}^{\ell}
@@ -247,7 +351,7 @@ To do this we use the identity, derived in appendix REF APPENDIX WITH SUM DERIVA
 \frac{\Gamma[\frac{1}{2}(q+\ell+1)]}{\Gamma[\frac{1}{2}(q-\ell+1)]}
 \frac{\Gamma[\frac{1}{2}(a+b +q-2p+1)]}{\Gamma[\frac{1}{2}(a+b+q+3)]}
 \end{align}
-for $m\leq b$ and zero otherwise. For $m < 0$, the result follows a similar pattern, using the simple relation \(X_{\ell -m}^{ab} = (-1)^{a+b+m} X_{\ell m}^{ax`'b*}\), see appendix REF DERIVATION SUM APPENDIX. 
+for $m\leq b$ and zero otherwise. For $m < 0$, the result follows a similar pattern, using the simple relation \(X_{\ell -m}^{ab} = (-1)^{a+b+m} X_{\ell m}^{ax`'b*}\).
 
 The resulting expressions for $B_{\ell m}$ are rather massive, in part because the cyclic permutations become mixed together, so we do not present them here. We can visualise these in matrix form split into their Newtonian and relativistic contributions:
 \begin{equation} \label{eq:blm_newtrelmatrix}
@@ -447,7 +551,7 @@ The remaining matrices are of the form
 \\  \circ &\circ &\circ &\circ &\circ &
 \circ \end {array} \right).
 \end{align}
-Their coefficients are extracted in similar fashion, and can be found in full in appendix  REF APPENDIX Kab COEFF%~\ref{sec:kabappendix}. 
+Their coefficients are extracted in similar fashion, and can be found in full in appendix  \todo{either ref appendix, or put coeffs here}REF APPENDIX Kab COEFF%~\ref{sec:kabappendix}. 
 
 
 
@@ -455,7 +559,7 @@ Their coefficients are extracted in similar fashion, and can be found in full in
 
 Here we present an analysis of the behaviour of the  multipoles. 
 
-\subsection{ Co-linear, squeezed and equilateral limits}
+\subsection{Co-linear, squeezed and equilateral limits}
 
 
 To help understand further the multipoles we can evaluate their equilateral $(k_1=k_2=k_3)$, co-linear ($\theta=0$ or $\theta=\pi$) and squeezed limits analytically.  

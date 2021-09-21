@@ -2,25 +2,23 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Stage IV $H\alpha $ spectroscopic survey parameters.\relax }}{45}{table.caption.31}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces HI intensity mapping survey specifications. (For *, see Appendix stuff.)\relax }}{62}{table.caption.45}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Parameters in\nobreakspace {}\textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {e3.4}\unskip \@@italiccorr )}} (from \cite {Ansari:2018ury}).\relax }}{63}{table.caption.46}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Total SNR for single-dish mode surveys.\relax }}{65}{table.caption.54}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces Total SNR for interferometer-mode surveys.\relax }}{67}{table.caption.58}%
-\contentsline {table}{\numberline {4.6}{\ignorespaces Total SNR for single-dish mode surveys with $k_{\parallel \mathrm {fg}}=0.005\,h\mathrm {Mpc}^{-1}$. \relax }}{67}{table.caption.61}%
-\contentsline {table}{\numberline {4.7}{\ignorespaces Total SNR for interferometer-mode surveys with $k_{\parallel \mathrm {fg}}=0.005\, h\mathrm {Mpc}^{-1}$.\relax }}{67}{table.caption.62}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Stage IV $H\alpha $ spectroscopic survey parameters.\relax }}{46}{table.caption.33}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces HI intensity mapping survey specifications. (For *, see Appendix stuff.)\relax }}{65}{table.caption.52}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Parameters in\nobreakspace {}\textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {e3.4}\unskip \@@italiccorr )}} (from \cite {Ansari:2018ury}).\relax }}{65}{table.caption.53}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces System temperatures for MeerKAT and SKA1-MID, used in Figure\nobreakspace {}\ref {fig2} (from \cite {Fonseca:2019qek}).\relax }}{66}{table.caption.54}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Total SNR for single-dish mode surveys.\relax }}{67}{table.caption.62}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Total SNR for interferometer-mode surveys.\relax }}{69}{table.caption.66}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Total SNR for single-dish mode surveys with $k_{\parallel \mathrm {fg}}=0.005\,h\mathrm {Mpc}^{-1}$. \relax }}{71}{table.caption.69}%
+\contentsline {table}{\numberline {4.8}{\ignorespaces Total SNR for interferometer-mode surveys with $k_{\parallel \mathrm {fg}}=0.005\, h\mathrm {Mpc}^{-1}$.\relax }}{71}{table.caption.70}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {B.1}{\ignorespaces {Individual terms in the observed $\Delta _g^{(2)}(a,\bm {x})$ [see \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {eq:SecondorderNewtonian}\unskip \@@italiccorr )}}, \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {odg2}\unskip \@@italiccorr )}}] for $f_\text {NL}=0$ are shown in column 1. The related $\beta _I$ functions in \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {e2.23}\unskip \@@italiccorr )}} are listed in column 2. The Fourier-space kernels ${\cal F}$ corresponding to column 1, given by $ \DOTSI \intop \ilimits@ \!{\mathrm {d}\bm {k}'}\, {\cal F}(\bm {k}',\bm {k}-\bm {k}')\delta _{\mathrm {T}}(\bm {k}')\delta _{\mathrm {T}}(\bm {k}-\bm {k}')/(2\pi )^3$, are shown in column\nobreakspace {}3. Column 4 gives the coefficients of the terms in $\Delta _g^{(2)}$ (column 1). The line-of-sight derivative is $\partial _\|=\bm {n}\!\cdot \!\bm {\nabla }$ and $\Phi =\Psi $. The superscript (1) on first-order quantities has been omitted and N denotes Newtonian. This table updates the one in \cite {Jolicoeur:2017nyt}.}\relax }}{133}{table.a.B.1}%
+\contentsline {table}{\numberline {B.1}{\ignorespaces {Individual terms in the observed $\Delta _g^{(2)}(a,\bm {x})$ [see \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {eq:SecondorderNewtonian}\unskip \@@italiccorr )}}, \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {odg2}\unskip \@@italiccorr )}}] for $f_\text {NL}=0$ are shown in column 1. The related $\beta _I$ functions in \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {e2.23}\unskip \@@italiccorr )}} are listed in column 2. The Fourier-space kernels ${\cal F}$ corresponding to column 1, given by $ \DOTSI \intop \ilimits@ \!{\mathrm {d}\bm {k}'}\, {\cal F}(\bm {k}',\bm {k}-\bm {k}')\delta _{\mathrm {T}}(\bm {k}')\delta _{\mathrm {T}}(\bm {k}-\bm {k}')/(2\pi )^3$, are shown in column\nobreakspace {}3. Column 4 gives the coefficients of the terms in $\Delta _g^{(2)}$ (column 1). The line-of-sight derivative is $\partial _\|=\bm {n}\!\cdot \!\bm {\nabla }$ and $\Phi =\Psi $. The superscript (1) on first-order quantities has been omitted and N denotes Newtonian. This table updates the one in \cite {Jolicoeur:2017nyt}.}\relax }}{140}{table.a.B.1}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {C.1}{\ignorespaces {The $f_\text {NL}\neq 0$ terms from relativistic projection effects [see \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {e2.35}\unskip \@@italiccorr )}}].}\relax }}{137}{table.a.C.1}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {C.1}{\ignorespaces {The $f_\text {NL}\neq 0$ terms from relativistic projection effects [see \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {e2.35}\unskip \@@italiccorr )}}].}\relax }}{144}{table.a.C.1}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

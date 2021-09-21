@@ -7,9 +7,9 @@ In this chapter, we investigate whether the next generation of high-precision co
 \section{Detecting the leading-order relativistic signature}
 
 
-Here we highlight a feature of the tree-level Fourier galaxy bispectrum which follows from the  leading-order relativistic contribution -- due to Doppler, gravitational redshift  and related line-of-sight effects -- that is omitted in the standard Newtonian analysis. These effects generate an imaginary part of the galaxy bispectrum, which can be understood as follows (see also \cite{McDonald:2009dh,Clarkson:2018dwn,Jeong:2019igb} for a more general discussion).  
+Here we highlight a feature of the tree-level Fourier galaxy bispectrum which follows from the  leading-order relativistic contribution -- due to Doppler, gravitational redshift  and related line-of-sight effects -- that is omitted in the standard Newtonian analysis. These effects generate an imaginary part of the galaxy bispectrum, which can be understood as follows (see also~\cite{McDonald:2009dh,Clarkson:2018dwn,Jeong:2019igb} for a more general discussion).  
 The Doppler-type contributions to the galaxy density contrast involve one or three derivatives  of scalars along the fixed line of sight $\bm n$ [see \eqref{dg1}, \eqref{eq:dgsecond} below]. In Fourier space, with the plane-parallel approximation, we have  $\bm{n}\cdot\bm{\nabla} \to {\i}\, \bm{n}\cdot\bm{k}$, and this leads to imaginary corrections to the galaxy density contrast, which do not cancel in the bispectrum, unlike in the power spectrum. At first order, we have $\delta_g=\delta_{g\mathrm{N}}+ \delta_{g\mathrm{D}}$, where the Newtonian part $\delta_{g\mathrm{N}}$ is real and scales as the linear matter density contrast $\delta$. The 
-relativistic Doppler-type part $\delta_{g\mathrm{D}}$ scales as ${\i}\,(\cH/k) \delta$  (see \cite{McDonald:2009dh, Jeong:2011as, Abramo:2017xnp,Clarkson:2018dwn} and below). At second  order, the relativistic contribution $\delta_{g\mathrm{D}}^{(2)}$ scales as ${\i}\,(\cH/k) (\delta)^2$ (see \cite{Clarkson:2018dwn} and below). 
+relativistic Doppler-type part $\delta_{g\mathrm{D}}$ scales as ${\i}\,(\cH/k) \delta$  (see \cite{McDonald:2009dh, Jeong:2011as, Abramo:2017xnp,Clarkson:2018dwn} and below). At second  order, the relativistic contribution $\delta_{g\mathrm{D}}^{(2)}$ scales as ${\i}(\cH/k) (\delta)^2$ (see \cite{Clarkson:2018dwn} and below). 
 
 
 In the case of the galaxy {auto}-power spectrum, $P_g\sim \langle |\delta_g|^2\rangle$, the relativistic part is {real and scales as} $(\cH/k)^2P$\,:  therefore we can neglect $P_{g\mathrm{D}}$ at leading order. By contrast, for the galaxy bispectrum, $B_g\sim \langle \delta_g\,\delta_g \, \delta^{(2)}_g\rangle$, a coupling of relativistic contributions to short-scale Newtonian terms (which  is absent in $P_g$) produces a $B_{g\mathrm{D}}$ that is {imaginary and scales as} ${\i}\,(\cH/k)P^2$. 
@@ -48,7 +48,7 @@ In the standard Newtonian approximation, $B_g=B_{g{\mathrm{N}}}$, the kernels in
 {\mathcal{K}^{(2)}_{\mathrm{N}}}(\bm{k}_{1}, \bm{k}_{2},{\bm{k}_3}) &= b_{1}F_{2}(\bm{k}_{1}, \bm{k}_{2}) + b_{2} + f\mu_{3}^{2}G_{2}(\bm{k}_{1}, \bm{k}_{2}) +{fZ_2}(\bm{k}_{1}, \bm{k}_{2})
 + b_{s^{2}}S_{2}(\bm{k}_{1}, \bm{k}_{2}) , \label{k2n}
 \end{align}
-where we dropped the $z$-dependence for brevity. Here $f$ is the linear matter growth rate, $b_1,b_2$ are the linear and second-order clustering biases, and $b_{s^{2}}$ is the tidal bias. The kernel  $F_2$ is for second-order density, $G_2 , \mathcal{Z}_2$ are for RSD,  and $S_2$  is the kernel for tidal bias (see Appendix~\ref{app_euclid} for the full expressions).
+where we dropped the $z$-dependence for brevity. Here $f$ is the linear matter growth rate, $b_1,b_2$ are the linear and second-order clustering biases, and $b_{s^{2}}$ is the tidal bias. The kernel  $F_2$ is for second-order density, $G_2 , \mathcal{Z}_2$ are for RSD,  and $S_2$  is the kernel for tidal bias \todo{expressions}.
 
 
 The Doppler-type relativistic corrections to the Newtonian number count contrast in redshift space are  given {at first order by~\cite{Bonvin:2011bg}:}
@@ -217,11 +217,25 @@ We follow~\cite{Karagiannis:2018jdt} and choose the ranges $N_{\mu_1}=2, N_{\var
 For a given $\mu_{1}$, a complete rotation in $\varphi$ about $\bm{k}_1$ double counts the  triangle falling onto the fixed $(\bm{n},\bm{k}_1)$-plane at $\varphi=0$ and $\varphi=2\pi$ (see Figure~\ref{fig0}). Similarly, for a given $\varphi$,  the end-points $\theta_1=0$ and $\theta_1=\pi$  correspond to equivalent triangles, with $\bm{k}_a \to - \bm{k}_a$.
 This double-counting can be avoided by imposing suitable upper limits:
 $-1\leq \mu_1 <1$ and $0\leq \varphi < 2\pi$.
-The signal to noise is quite sensitive to the step-lengths $\Delta \mu_{1}, \Delta\varphi$. We find (see the Appendix  for details) that a suitable choice for convergence is
+The signal to noise is quite sensitive to the step-lengths $\Delta \mu_{1}, \Delta\varphi$. 
+\todo[inline]{incorporate appendix properly here}
+Figure~\ref{fig4x} shows the effect on the relativistic total SNR of changing the number of orientation bins, $n_{\mu_1}=N_{\mu_1}/\Delta{\mu_1}=2 /\Delta{\mu_1}$  and $n_\varphi=N_\varphi/\Delta\varphi =2\pi/\Delta\varphi$. It is apparent 
+that reducing the number of bins increases the cumulative SNR. The cumulative SNR 
+converges towards a minimum for 
+$n_{\mu_{1}}\,, n_{\varphi} > 40$.
+We choose $n_{\mu_{1}}= n_{\varphi}=50$, which is equivalent to eq.
+\begin{figure}[ht]
+\centering
+\includegraphics[width=8.0cm]{fig/colournmu1nphi_Doppler-eps-converted-to} 
+\caption{Effect on 
+{total} relativistic SNR of changing number of  $\varphi$ and $\mu_1$ bins. 
+} \label{fig4x}
+\end{figure} 
+%
+Following this, we find that a suitable choice for convergence is
 \begin{equation}\label{ori}
 \Delta \mu_{1}=0.04\,,~~ \Delta\varphi= \pi/25 \,.
 \end{equation}
-%
 
 
 \section{Next-generation galaxy surveys}
@@ -236,7 +250,15 @@ The signal to noise is quite sensitive to the step-lengths $\Delta \mu_{1}, \Del
 \end{figure}
 %
 We consider a Stage IV $H\alpha$ spectroscopic survey, with clustering bias, comoving volume, comoving number density and RSD damping parameter given by Table 1 in~\cite{Yankelevich:2018uaz}, over the redshift range $0.65\leq z\leq 2.05$, with $\Delta z=0.1$ bins. 
-We provide fitting formulas for these quantities in the Appendix\todo{add reference to appendix}.
+Fitting formulas for these quantities are, 
+\begin{align}
+b_1(z) &= 0.9+0.4 z\,, \quad b_2(z) = -0.741 - 0.125\,z + 0.123\,z^{2} + 0.00637\,z^{3}\,, \label{e9}  \\
+ b_{s^2}(z) &= 0.0409 - 0.199\,z - 0.0166\,z^{2} + 0.00268\,z^{3} \,, \label{e11} \\
+ V(z) &= 8.85\, z^{1.65}\exp\big({-0.777\,z}\big)~ h^{-3}\,\mathrm{Gpc}^{3}\,, \label{e11_1} \\
+n_{g}(z) &= 0.0193\, z^{-0.0282}\exp\big({-2.81\,z}\big) ~h^{3}\,\mathrm{Mpc}^{-3}\,,
+ \label{e11_2}\\
+\sigma(z)& = \big(5.29 - 0.249\,z - 0.720\,z^{2} + 0.187\,z^{3}\big)~h^{-1}\,\mathrm{Mpc}\,. \label{e14a}
+\end{align}
 Figure~\ref{fig1} shows the values given in~\cite{Yankelevich:2018uaz} together with the fitting curves. For the cosmological parameters, we use Planck 2018~\cite{Aghanim:2018eyx},\todo[inline]{add the actual bias parans}
 $h = 0.6766, \Omega_{m0} = 0.3111,
 \Omega_{b0}h^{2}= 0.02242,
@@ -339,6 +361,8 @@ Finally, we need to deal with the luminosity derivative of the bias in \eqref{e2
 \end{equation}
 in \eqref{e26}. 
 
+
+
 \subsection{Relativistic signal-to-noise ratio}
 %
 %
@@ -366,7 +390,17 @@ we show the comparison of SNR using \eqref{kmax} and using the redshift-independ
 \caption{Effect of changing $k_{\mathrm{max}}$ on SNR per bin ({\em left}) and cumulative SNR ({\em right}).} \label{kmsnr}
 \end{figure} 
 \item  
-Changes in $b_e(z),\Q(z)$: In the Appendix (Fig.~\ref{fig1x}) we  illustrate the significant impact on cumulative SNR of changing $b_e,\Q$. We use a range of constant choices for $b_e,\Q$ -- which are not physically motivated. This shows the importance of modelling $b_e,\Q$ self-consistently from the same  luminosity function that produces the number density, as we have done. 
+Changes in $b_e(z),\Q(z)$: 
+The effect on the relativistic SNR of changes in magnification bias and in evolution bias is illustrated in Fig.~\ref{fig1x}.
+\begin{figure}[ht]
+\centering
+\includegraphics[width=7cm]{fig/cumulativeSnrdopplerQ0_0-eps-converted-to} 
+\includegraphics[width=7cm]{fig/cumulativeSnrdopplerQ0_5-eps-converted-to} \\
+\includegraphics[width=7cm]{fig/cumulativeSnrdopplerQ1_5-eps-converted-to}
+\includegraphics[width=7cm]{fig/cumulativeSnrdopplerQ2_0-eps-converted-to} 
+\caption{Effect of changing ${\cal Q}$ and $b_e$ on relativistic cumulative SNR.} \label{fig1x}
+\end{figure}
+In Figure~\ref{fig1x}) we illustrate the significant impact on cumulative SNR of changing $b_e,\Q$. We use a range of constant choices for $b_e,\Q$ -- which are not physically motivated. This shows the importance of modelling $b_e,\Q$ self-consistently from the same  luminosity function that produces the number density, as we have done. 
 \end{itemize}
 
 {The sensitivity of the relativistic SNR to  $k_{\mathrm{max}}$ reflects the importance of the coupling of the relativistic signal to Newtonian terms on short scales. How sensitive is the SNR to the signal on the largest scales? We can answer this by increasing $k_{\mathrm{min}}$ from its fiducial value $k_{\mathrm{f}}$, which is the maximal observable scale. The result is that there is only a small reduction when $k_{\mathrm{min}}/k_{\mathrm{f}}$ is increased by a factor up to 5, as shown in Fig.~\ref{kmin}. 
@@ -396,7 +430,22 @@ in the bispectrum, i.e. from terms of the form
 \caption{As in Fig.~\ref{fig4}, but showing the effect of omitting the second-order relativistic contribution \eqref{2oc} to the bispectrum (dot-dashed curves).} \label{fig4z}
 \end{figure}
 
-Recently \cite{Jeong:2019igb} estimated the  SNR for the leading relativistic part of the bispectrum.  There are significant differences in their analysis compared to ours. In particular, they neglect most of the terms in $\delta_{g \mathrm{D}}^{(2)}$ [see our \eqref{dg2}] which defines ${\cal K}^{(2)}_{\mathrm{D}}$ (see the Appendix for further details). {In addition they do not use self-consistent models for $b_{e}$ and $\mathcal{Q}$. These two differences could account for their conclusion that the relativistic signal is not detectable, in contrast to our result.} 
+Recently \cite{Jeong:2019igb} estimated the  SNR for the leading relativistic part of the bispectrum.  There are significant differences in their analysis compared to ours. In particular, they neglect most of the terms in $\delta_{g \mathrm{D}}^{(2)}$ [see our \eqref{dg2}] which defines ${\cal K}^{(2)}_{\mathrm{D}}$ 
+In \cite{Jeong:2019igb},  
+a significant number of terms is neglected in the relativistic second-order  galaxy number count contrast, $\delta_{g\mathrm{D}}^{(2)}$, given by our \eqref{dg2}. (Note that our  \eqref{dg2}, derived in \cite{Clarkson:2018dwn}, was independently confirmed by \cite{DiDio:2018zmk}). They have the first term, $A\, \bm{v}^{(2)}\!\!\cdot\bm{n}$, on the right of \eqref{dg2}.  In the second term, $2{C}(\bm{v}\cdot\bm{n})\,\delta$, they do not have the correct form of the coefficient $C$ -- they include only the first part, $b_1A$, of $C$ [see the right-hand side of eq 26?]. All terms after the second term in \eqref{dg2} are omitted by \cite{Jeong:2019igb}. Note that none of the omitted terms is suppressed by a higher power of $k^{-1}$;  they all have the same scaling, i.e., $\propto (\cH/k)\,{(\delta)^2}$. In detail, they omit the following
+terms:
+\begin{align}
+\delta_{g\mathrm{D}}^{(2)}({\mathrm{us}})- \delta_{g\mathrm{D}}^{(2)}(\mbox{{\cite{Jeong:2019igb}}}) &= 2\left[b_{1}f + \frac{b_1'}{\cH} 
++ 2\bigg(1-\frac{1}{{r} \cH}\bigg){\frac{\partial b_1}{\partial \ln{L}}\bigg|_{\mathrm{c}}} \right](\bm{v}\cdot\bm{n})\,\delta 
+\\\nonumber
+& 
++ \frac{2}{\cH}\left(4-2A-\frac{3}{2}\Omega_{m} \right)(\bm{v}\cdot\bm{n})\,\partial_r(\bm{v}\cdot\bm{n})\\
+\nonumber
+&
++ \frac{2}{\cH^2}\big[(\bm{v}\cdot\bm{n}) \,\partial_r^2\Phi-\Phi\, \partial_r^2 (\bm{v}\cdot\bm{n}) \big]
+ - \frac{2}{\cH}\,\partial_r (\bm{v}\cdot\bm{v}) + 2 \frac{b_1}{\cH}\,\Phi\, \partial_r\delta \,. 
+\end{align} In addition they do not use self-consistent models for $b_{e}$ and $\mathcal{Q}$. These two differences could account for their conclusion that the relativistic signal is not detectable, in contrast to our result. \todo{tidy this, or move to dipole?}
+
 
 An interesting feature of the relativistic signal is that there is a significant contribution to the SNR from  flattened triangle shapes. This is consistent with the results of  \cite{Clarkson:2018dwn} for the dipole that is generated by the imaginary part of the bispectrum.
 %
@@ -432,7 +481,7 @@ where the round brackets denote symmetrisation. The cumulative marginal errors $
 
 
 As shown by \cite{Clarkson:2018dwn}, the tree-level galaxy bispectrum in Fourier space has an imaginary part which is a unique signal of the leading-order relativistic corrections in redshift space. These corrections arise from Doppler and other line-of-sight effects on the past lightcone [see \eqref{dg1}, \eqref{dg2}]. In the galaxy bispectrum, the corrections scale as ${\i}\,(\cH/k)P^2$, where $P$ is the linear matter power spectrum [see \eqref{e21}--\eqref{e24}]. By contrast,  at leading order in the galaxy power spectrum, the relativistic correction is real and scales as $(\cH/k)^2P$ -- i.e., it is suppressed by a further factor of  $\cH/k$. 
-Only the cross-power spectrum of two different tracers produces an imaginary contribution that scales as ${\i}\,(\cH/k)P$ \cite{McDonald:2009dh}.
+Only the cross-power spectrum of two different tracers produces an imaginary contribution that scales as ${\i}(\cH/k)P$ \cite{McDonald:2009dh}.
 \footnote{See also \cite{Bonvin:2013ogt, Bonvin:2015kuc, Gaztanaga:2015jrs, Irsic:2015nla, Hall:2016bmm,Lepori:2017twd,Bonvin:2018ckp, Lepori:2019cqp} for the corresponding effect in the two-point correlation function, and see \cite{Okoli:2016vmd} for an imaginary {short-scale} contribution from neutrino drag on haloes.}
 
 
@@ -459,15 +508,27 @@ window function can also have an imaginary part \cite{Beutler:2018vpe}, which wi
 {Our analysis, in common with other works on the Fourier bispectrum, implicitly uses the plane-parallel approximation, since the line-of-sight direction ${\bm{n}}$ is fixed. At the cost of significant complexity, the approximation can be avoided, for example by using a Fourier-Bessel analysis of bispectrum multipoles \cite{Castorina:2017inr}. Further work is needed to address this, but we note that errors from the approximation are mitigated in high redshift surveys such as the one considered here.}
 
 Finally, further work also needs to include the effects of lensing magnification, which are excluded in the standard Fourier analysis, but have been included in the galaxy angular bispectrum \cite{Kehagias:2015tda,DiDio:2015bua, DiDio:2016gpd, DiDio:2018unb} and in a spherical Bessel analysis \cite{Bertacca:2017dzm}. 
-
-
+%
+%
+%
+%
+%
+%
+%--------------------------------------------
+%
+%
+%
+%
+%
+%
 \section{21cm intensity mapping surveys}
- In this work, we investigate the detectability of the relativistic signal in the bispectrum of various planned 21cm intensity mapping surveys at post-reionisation redshifts. 
+%
+In this work, we investigate the detectability of the relativistic signal in the bispectrum of various planned 21cm intensity mapping surveys at post-reionisation redshifts. 
 The 21cm emission line of neutral hydrogen (HI) is measured without detecting the individual galaxies that contain HI. This results in brightness temperature maps that trace the large-scale structure with exquisite redshift precision. In Section 2 we discuss the leading order relativistic form of the temperature contrast up to second order, and its contribution to the bispectrum. Section 3 describes the signal, modelled using the tree-level bispectrum with the addition of a phenomenological model to account for RSD `fingers-of-god' nonlinearity.
 Foreground contamination overwhelms the signal, and cleaning techniques must be applied which lead to a loss of signal in regions of Fourier space, which we take into account. We also discuss the effects of telescope beams and the instrumental noise. Our forecast signal to noise for future surveys is presented in Section 4, and we conclude in Section 5.
 
 \subsection{Relativistic effects in the 21cm IM bispectrum}
-
+%
 The HI brightness temperature measured at redshift $z$ in direction $\n$ is related to the observed number of 21cm emitters per redshift per solid angle, $N_{\hi}$, as follows (see~\cite{Hall:2012wd,Alonso:2015uua} for details):
 \begin{equation}
 T_{\hi}(z,\n)= \mathrm{const.}\, \frac{ N_{\hi}(z,\n)}{d_\mathrm{A}(z,\n)^2}\,,
@@ -595,6 +656,36 @@ $B_{\hi}$ is complex: {the imaginary part is given purely by local relativistic 
 It is apparent that {$B_\mathrm{N} \sim P_\mathrm{m} ^2$ while $B_\mathrm{D} \sim \i (\cH/k) P_\mathrm{m} ^2$.}
 Equation~\eqref{e1.15} makes explicit the coupling of relativistic  and Newtonian terms in the bispectrum.
 \end{itemize}
+
+\subsubsection{HI bias parameters} 
+\todo[inline]{check where to put this}
+We follow~\cite{Umeh:2015gza} to compute $b_1$ and $b_2$ from a halo-model approach,
+\begin{align}
+b_1 &= 1 + \left\langle \frac{2 p +\left(q\nu - 1\right)\left[1+(q\nu)^{p}\right]}{\delta_\mathrm{cr}\left[1+(q\nu)^{p}\right]} \right\rangle _\mathrm{\!\!\! m}  \!\!, \label{e1.16} \\
+b_2 &= \frac{8}{21}\left(b_{1}-1\right) + \left \langle \frac{2 p \left(2p+2\nu q-1\right)+ q\nu\left(q\nu-3\right)\left[1+(q\nu)^{p}\right]}{\delta_\mathrm{cr}^{2}\left[1+(q\nu)^{p}\right]}  \right \rangle _\mathrm{\!\!\! m}  \!\!, \label{e1.17}
+\end{align}
+where the parameters $p$, $q$ and $\nu$ are related to the Sheth-Tormen distribution function (see~\cite{Sheth:1999su, Sheth:2001dp, Sheth:1999mn} for more details), and $\delta_\mathrm{cr}$ is the critical density at which halos collapse spherically~\cite{Kitayama:1996ne}, 
+\begin{equation}
+\delta_\mathrm{cr}(z) = \frac{3(12\pi)^{2/3}}{20} \left[1+0.0123\log{\Omega_m (z)}\right] \,. \label{e1.20}\,.
+\end{equation}
+The mass average is defined by 
+\begin{equation}
+\left\langle X_{h}(z,\bm{x}) \right\rangle _\mathrm{m}  = \frac{\int_{M_{-}}^{M_{+}} \ud M\,X_{h}(z,\bm{x},M)\,M_{\hi}(M)\,n_{h}(z,\bm{x},M)}{\int_{M_{-}}^{M_{+}} \ud M\,M_{\hi}(M)\,n_{h}(z,\bm{x},M)} \, , \label{e1.18}
+\end{equation}
+where $M$ is the mass of halos that can host HI gas, and $M_{\pm}$ are the lower and upper mass limits, which are related to the circular velocities  of the galaxies~\citep{Bull:2014rha}. $n_{h}$ is the halo mass function~\citep{Sheth:1999su, Sheth:2001dp,Tellarini:2015faa}, and $M_{\hi}$ is the HI mass function, which is assumed to follow a power law~\citep{Santos:2015gra},
+\begin{equation}
+M_{\hi}(M) \propto M^{0.6} \,. \label{e1.19}
+\end{equation}
+Figure~\ref{fig1} shows the numerical results from~\eqref{e1.16} and~\eqref{e1.17}. Fitting formulas for the bias parameters are
+\begin{align}
+b_1(z) &=  0.754 + 0.0877z + 0.0607z^2 - 0.00274z^3\,, \label{e1.27} \\
+b_2(z) &=  -0.308 - 0.0724z - 0.0534z^2 + 0.0247z^3\,. \label{e1.28}
+\end{align}
+Assuming that halo formation is a local process in Lagrangian space and that there is no initial tidal bias, the tidal bias is~\cite{Tellarini:2015faa},
+\begin{equation}
+b_{s^{2}} = \frac{4}{7}\left(1-b_{1}\right)\,.\label{e1.21}
+\end{equation} 
+%
 
 
 \subsection{Effects of foregrounds}
@@ -760,7 +851,82 @@ PUMA (Petite) & 0.5698 & $-0.5274$ & 0.8358 & 1.6635 & 7.3177 & {100} \\
 \end{tabular}
 \end{table}
 
-For the system temperature, we use the results of measurements and simulations for MeerKAT and SKA1-MID, given  in Appendix\todo{reference appendix}. For HIRAX and PUMA, we use the fit~\eqref{e2.25}. 
+For the system temperature, we use the results of measurements and simulations for MeerKAT and SKA1-MID, given below in Table~\ref{tab:skasystemp} and Figure~\ref{fig:Tsysforska}. For HIRAX and PUMA, we use the fit~\eqref{e2.25}. 
+
+\vspace*{-0.5cm}
+\begin{table}[! ht]
+\centering
+\caption{\label{tab:skasystemp} System temperatures for MeerKAT and SKA1-MID, used in Figure~\ref{fig2} (from \cite{Fonseca:2019qek}).} 
+\vspace*{0.2cm}
+  \begin{tabular}{|l|l|l|l|l|l|l|l|}
+    \hline
+      \multicolumn{2}{|c|}{MeerKAT L Band} &
+      \multicolumn{2}{c|}{MeerKAT UHF Band} &
+      \multicolumn{2}{c|}{SKA1-MID Band 1} & 
+      \multicolumn{2}{c|}{SKA1-MID Band 2} \\
+      \hline \hline
+    $~~~~z~~$ & $~~T_\mathrm{sys}\;/\;\mathrm{K}~~~$ & $~~~z~$ & $~~~~T_\mathrm{sys}\;/\;\mathrm{K}~~$ & $~~~z~$ & $~~T_\mathrm{sys}\;/\;\mathrm{K}~~$ & $~~~~z~~$ & $~~T_\mathrm{sys}\;/\;\mathrm{K}~~$ \\
+    \hline
+    
+  %& & & & & & & \\
+  
+     0.136 & ~~~~19.2 & 0.420 & ~~~~~~20.3 & 0.403 & ~~~~27.2 & 0.115 & ~~~~16.4 \\
+    
+     0.183 & ~~~~19.7 & 0.495 & ~~~~~~21.0 & 0.470 & ~~~~26.9 & 0.168 & ~~~~16.6 \\
+    
+     0.235 & ~~~~20.3 & 0.578 & ~~~~~~21.7 & 0.539 & ~~~~26.8 & 0.223 & ~~~~16.8 \\
+    
+     0.291 & ~~~~20.9 & 0.671 & ~~~~~~22.5 & 0.612 & ~~~~26.9 & 0.280 & ~~~~17.0 \\
+    
+     0.352 & ~~~~21.5 & 0.775 & ~~~~~~23.5 & 0.767 & ~~~~27.5 & 0.341 & ~~~~17.2 \\
+    
+    0.420 & ~~~~22.3 & 0.893 & ~~~~~~24.7  & 0.850 & ~~~~28.1 & 0.403 & ~~~~17.6 \\
+    
+    0.495 & ~~~~23.1 & 1.03 & ~~~~~~26.1   & 0.938 & ~~~~28.8 & 0.470  & ~~~~18.0 \\
+    
+    0.578 & ~~~~24.0 & 1.18 & ~~~~~~27.9   & 1.03  & ~~~~29.8 &        &  \\
+    
+          &          & 1.37 & ~~~~~~30.3   & 1.12  & ~~~~30.8 &        &  \\
+     
+          &          & 1.45 & ~~~~~~31.5   & 1.22  & ~~~~32.1 &        &  \\
+    
+          &          &      &              & 1.33  & ~~~~33.5 &        &   \\
+    
+          &          &      &              & 1.44  & ~~~~35.2 &        &    \\
+    
+          &          &      &              & 1.55  & ~~~~37.1 &        &   \\
+    
+          &          &      &              & 1.67  & ~~~~39.2 &        &   \\
+    
+          &          &      &              & 1.80  & ~~~~41.6 &        & \\
+    
+          &          &      &              & 1.93  & ~~~~44.2 &        &  \\
+    
+          &          &      &              & 2.07  & ~~~~47.2 &        &  \\
+    
+          &          &      &              & 2.22  & ~~~~50.6 &        &  \\
+    
+          &          &      &              & 2.37  & ~~~~54.4 &        &  \\
+    
+          &          &      &              & 2.54  & ~~~~58.6 &        &  \\
+    
+          &          &      &              & 2.69  & ~~~~63.4 &        &  \\
+    
+          &          &      &              & 2.87  & ~~~~68.8 &        &  \\
+    
+          &          &      &              & 3.05  & ~~~~74.8 &        &  \\
+    
+ %         &          &      &              &       &          &        &  \\
+    \hline
+  \end{tabular}
+\end{table}
+% \vspace*{-0.5cm}
+ \begin{figure}[!ht]
+\centering
+\includegraphics[width=.49\textwidth]{fig/tSys}
+% \vspace*{-0.5cm}
+\caption{$T_\mathrm{sys}$ for the different frequency bands of MeerKAT and SKA1 (from Table~\ref{tab:skasystemp}).} \label{fig:Tsysforska}
+\end{figure}  
 
 In IF mode, HIRAX is assumed to be a square-packed array, while PUMA is taken as hexagonal-packed in a circular area, {with 50\% fill factor}. We follow~\cite{Karagiannis:2019jjx} and use the fitting formula from~\cite{Ansari:2018ury} for the baseline density of such arrays,
 \begin{equation}

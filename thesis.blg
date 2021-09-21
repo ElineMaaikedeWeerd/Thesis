@@ -87,45 +87,45 @@ Warning--empty journal in Villumsen:1995ar
 "ArXiv e-prints" is a string literal, `journal' is a missing field
 ---they aren't the same literal types for entry Villumsen:1995ar
 while executing---line 1822 of file mnras.bst
-You've used 159 entries,
+You've used 164 entries,
             2881 wiz_defined-function locations,
-            1946 strings with 41174 characters,
-and the built_in function-call counts, 80126 in all, are:
-= -- 6606
-> -- 6255
-< -- 404
-+ -- 2598
-- -- 1054
-* -- 9651
-:= -- 12971
+            1984 strings with 42160 characters,
+and the built_in function-call counts, 82461 in all, are:
+= -- 6790
+> -- 6431
+< -- 420
++ -- 2676
+- -- 1078
+* -- 9932
+:= -- 13346
 add.period$ -- 0
-call.type$ -- 159
-change.case$ -- 318
-chr.to.int$ -- 154
-cite$ -- 169
-duplicate$ -- 3616
-empty$ -- 3498
-format.name$ -- 1506
-if$ -- 13830
+call.type$ -- 164
+change.case$ -- 328
+chr.to.int$ -- 159
+cite$ -- 174
+duplicate$ -- 3731
+empty$ -- 3608
+format.name$ -- 1552
+if$ -- 14228
 int.to.chr$ -- 6
 int.to.str$ -- 0
-missing$ -- 159
-newline$ -- 490
-num.names$ -- 1228
-pop$ -- 724
+missing$ -- 164
+newline$ -- 505
+num.names$ -- 1268
+pop$ -- 743
 preamble$ -- 1
-purify$ -- 636
+purify$ -- 656
 quote$ -- 0
-skip$ -- 2184
+skip$ -- 2255
 stack$ -- 0
-substring$ -- 4952
-swap$ -- 2062
-text.length$ -- 636
+substring$ -- 5064
+swap$ -- 2132
+text.length$ -- 656
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1431
+type$ -- 1476
 warning$ -- 10
-while$ -- 1236
+while$ -- 1276
 width$ -- 0
-write$ -- 1582
+write$ -- 1632
 (There were 20 error messages)
