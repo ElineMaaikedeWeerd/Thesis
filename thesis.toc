@@ -8,10 +8,10 @@
 \contentsline {section}{\numberline {1.3}Statistics of galaxy clustering}{12}{section.1.3}%
 \contentsline {section}{\numberline {1.4}The two-point function}{13}{section.1.4}%
 \contentsline {subsection}{\numberline {1.4.1}The power spectrum}{14}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}The angular power spectrum}{14}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.2}The angular power spectrum}{15}{subsection.1.4.2}%
 \contentsline {section}{\numberline {1.5}The three-point function}{15}{section.1.5}%
 \contentsline {subsection}{\numberline {1.5.1}The matter bispectrum}{16}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Matter bispectrum in observations}{16}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.2}Matter bispectrum in observations}{17}{subsection.1.5.2}%
 \contentsline {section}{\numberline {1.6}Galaxy bias}{17}{section.1.6}%
 \contentsline {section}{\numberline {1.7}Primordial non-Gaussianity}{17}{section.1.7}%
 \contentsline {chapter}{\numberline {2}Relativistic effects}{18}{chapter.2}%
@@ -49,6 +49,8 @@
 \contentsline {subsubsection}{\nonumberline Reducing the radial foreground cut}{70}{subsubsection*.70}%
 \contentsline {section}{\numberline {4.5}Conclusions}{71}{section.4.5}%
 \contentsline {chapter}{\numberline {5}Higher order relativistisc effects in the bispectrum}{74}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Local lightcone projection effects}{74}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Contributions from second-order vector and tensor modes}{74}{section.5.2}%
 \contentsline {chapter}{\numberline {6}Multipoles of the bispectrum}{75}{chapter.6}%
 \contentsline {section}{\numberline {6.1}The relativistic bispectrum}{75}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Extracting the multipoles}{81}{section.6.2}%
@@ -76,7 +78,7 @@
 \contentsline {chapter}{\numberline {C}Upsilon coefficients}{145}{appendix.a.C}%
 \contentsline {chapter}{\numberline {D}Presentation of kernel coefficients}{147}{appendix.a.D}%
 \contentsline {chapter}{\numberline {E}Squeezed limit of multipoles}{154}{appendix.a.E}%
-\contentsline {chapter}{\nonumberline Bibliography}{156}{chapter*.90}%
-\contentsline {chapter}{\nonumberline List of Figures}{164}{chapter*.91}%
-\contentsline {chapter}{\nonumberline List of Tables}{168}{chapter*.92}%
+\contentsline {chapter}{\nonumberline Bibliography}{156}{chapter*.91}%
+\contentsline {chapter}{\nonumberline List of Figures}{164}{chapter*.92}%
+\contentsline {chapter}{\nonumberline List of Tables}{168}{chapter*.93}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
