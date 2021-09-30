@@ -49,7 +49,7 @@
 \contentsline {subsubsection}{\nonumberline Reducing the radial foreground cut}{70}{subsubsection*.70}%
 \contentsline {section}{\numberline {4.5}Conclusions}{71}{section.4.5}%
 \contentsline {chapter}{\numberline {5}Higher order relativistisc effects in the bispectrum}{74}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Local lightcone projection effects}{74}{section.5.1}%
+\contentsline {section}{\numberline {5.1}Local lightcone projection effects}{75}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Contributions from second-order vector and tensor modes}{75}{section.5.2}%
 \contentsline {chapter}{\numberline {6}Multipoles of the bispectrum}{76}{chapter.6}%
 \contentsline {section}{\numberline {6.1}The relativistic bispectrum}{76}{section.6.1}%
