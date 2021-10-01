@@ -15,8 +15,15 @@ The observed galaxy bispectrum at tree level involves projection effects at both
 
 Since we work in Fourier space, which is common with much of the literature on the galaxy bispectrum, we necessarily neglect terms involving lensing and other line-of-sight integrals, i.e. only local relativistic projection effects are included. Furthermore, another approximation which is a direct consequence of working in Fourier space is the plane-parallel approximation, neglecting wide-angle correlations. These are expected to be significant on what scales?\todo{check}, and need to be included for improved theoretical accuracy. When using an angular harmonic or three-point correlation function analysis, the wide-angle effects would be automatically included, but it poses further computational challenges\todo{cite Bertacca?}. 
 
-To be able to compute the observed tree-level bispectrum including local projection effects, we need the observed galaxy number count contrast $\Delta_g^\tw$. The full expression for $\Delta_g^\tw$~\cite{Bertacca:2014dra,Bertacca:2014wga,Bertacca:2014hwa,Yoo:2014sfa,DiDio:2014lka} is very long and complicated, even when integrated contributions are omitted. 
+To be able to compute the observed tree-level bispectrum including local projection effects, we need the observed galaxy number count contrast $\Delta_g^\tw$. The full expression for $\Delta_g^\tw$~\cite{Bertacca:2014dra,Bertacca:2014wga,Bertacca:2014hwa,Yoo:2014sfa,DiDio:2014lka} is very long and complicated, even when integrated contributions are omitted. Conveniently, when neglecting integrated contributions, a fully general form of $\Delta_g^\on$ and $\Delta_g^\tw$ can be expressed in Poisson gauge. All terms at the observer are neglected too, since they do not contribute to the bispectrum. 
 
+Important to note is how the bispectrum is still dependent on the magnification bias, despite omitting integrated effects. This is because GR weak lensing convergence consists of both the standard integrated term and local non-integrated terms~\cite{Bonvin:2008ni}, and hence magnification bias still enters the bispectrum even when integrated terms are ignored. Previous sections have already illustrated the dependence of bispectrum power and detectability on the evolution and magnification biases, highlighting the importance of modelling these self-consistently from the same luminosity function.\todo{check with previous sections what's said exactly} 
+
+The observed number density contrast $\Delta_g$ is defined through, 
+\begin{equation}
+	\frac{\diff N(z, \n > \ln L)}{\diff z \diff \Omega_o} = \frac{\chi^2(z)}{(1 + z)^4 \cH(z)} \bar{\N}(z, > \ln L) \left[ 1 + \Delta_g(z, \n, >\ln L) \right],
+\end{equation}
+where $\diff N$ is the observed count of galaxies above threshold luminosity $L$, in direction of observation $\n$, within redshift interval $\diff z$ and within solid angle element $\diff \Omega_o$. $\cH(\eta) = a'(\eta)/a(\eta)$ is the conformal hubble rate, and $\chi$ is the comoving line-of-sight distance.
 
 \section{Contributions from second-order vector and tensor modes}\label{sec:tensorvector}
 
