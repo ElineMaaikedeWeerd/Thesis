@@ -1,839 +1,1157 @@
-\begin{thebibliography}{}
-\makeatletter
-\relax
-\def\mn@urlcharsother{\let\do\@makeother \do\$\do\&\do\#\do\^\do\_\do\%\do\~}
-\def\mn@doi{\begingroup\mn@urlcharsother \@ifnextchar [ {\mn@doi@}
-  {\mn@doi@[]}}
-\def\mn@doi@[#1]#2{\def\@tempa{#1}\ifx\@tempa\@empty \href
-  {http://dx.doi.org/#2} {doi:#2}\else \href {http://dx.doi.org/#2} {#1}\fi
-  \endgroup}
-\def\mn@eprint#1#2{\mn@eprint@#1:#2::\@nil}
-\def\mn@eprint@arXiv#1{\href {http://arxiv.org/abs/#1} {{\tt arXiv:#1}}}
-\def\mn@eprint@dblp#1{\href {http://dblp.uni-trier.de/rec/bibtex/#1.xml}
-  {dblp:#1}}
-\def\mn@eprint@#1:#2:#3:#4\@nil{\def\@tempa {#1}\def\@tempb {#2}\def\@tempc
-  {#3}\ifx \@tempc \@empty \let \@tempc \@tempb \let \@tempb \@tempa \fi \ifx
-  \@tempb \@empty \def\@tempb {arXiv}\fi \@ifundefined
-  {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
-  mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
-
-\bibitem[\protect\citeauthoryear{Abramo \& Bertacca}{Abramo \&
-  Bertacca}{2017}]{Abramo:2017xnp}
-Abramo L.~R.,  Bertacca D.,  2017, \mn@doi [Physical Review D]
-  {10.1103/physrevd.96.123535}, 96
-
-\bibitem[\protect\citeauthoryear{Aghanim et~al.}{Aghanim
-  et~al.}{2018}]{Aghanim:2018eyx}
-Aghanim N.,  et~al., 2018
-
-\bibitem[\protect\citeauthoryear{Alonso \& Ferreira}{Alonso \&
-  Ferreira}{2015}]{Alonso:2015sfa}
-Alonso D.,  Ferreira P.~G.,  2015, \mn@doi [Phys. Rev. D]
-  {10.1103/PhysRevD.92.063525}, 92, 063525
-
-\bibitem[\protect\citeauthoryear{Alonso, Bull, Ferreira  \& Santos}{Alonso
-  et~al.}{2015a}]{Alonso:2014dhk}
-Alonso D.,  Bull P.,  Ferreira P.~G.,   Santos M.~G.,  2015a, \mn@doi [Mon.
-  Not. Roy. Astron. Soc.] {10.1093/mnras/stu2474}, 447, 400
-
-\bibitem[\protect\citeauthoryear{Alonso, Bull, Ferreira, Maartens  \&
-  Santos}{Alonso et~al.}{2015b}]{Alonso:2015uua}
-Alonso D.,  Bull P.,  Ferreira P.~G.,  Maartens R.,   Santos M.,  2015b,
-  \mn@doi [Astrophys. J.] {10.1088/0004-637X/814/2/145}, 814, 145
-
-\bibitem[\protect\citeauthoryear{Alonso, Ferreira, Jarvis  \& Moodley}{Alonso
-  et~al.}{2017}]{Alonso:2017dgh}
-Alonso D.,  Ferreira P.~G.,  Jarvis M.~J.,   Moodley K.,  2017, \mn@doi [Phys.
-  Rev. D] {10.1103/PhysRevD.96.043515}, 96, 043515
-
-\bibitem[\protect\citeauthoryear{Ansari et~al.}{Ansari
-  et~al.}{2018}]{Ansari:2018ury}
-Ansari R.,  et~al., 2018
-
-\bibitem[\protect\citeauthoryear{Asorey et~al.,}{Asorey
-  et~al.}{2020}]{Asorey:2020mxs}
-Asorey J.,  et~al., 2020, \mn@doi [Mon. Not. Roy. Astron. Soc.]
-  {10.1093/mnras/staa1191}, 495, 1788
-
-\bibitem[\protect\citeauthoryear{Bacon et~al.}{Bacon
-  et~al.}{2020}]{Bacon:2018dui}
-Bacon D.~J.,  et~al., 2020, \mn@doi [Publ. Astron. Soc. Austral.]
-  {10.1017/pasa.2019.51}, 37, e007
-
-\bibitem[\protect\citeauthoryear{Baldauf, Seljak  \& Senatore}{Baldauf
-  et~al.}{2011}]{Baldauf:2010vn}
-Baldauf T.,  Seljak U.,   Senatore L.,  2011, \mn@doi [JCAP]
-  {10.1088/1475-7516/2011/04/006}, 1104, 006
-
-\bibitem[\protect\citeauthoryear{Ballardini, Matthewson  \&
-  Maartens}{Ballardini et~al.}{2019}]{Ballardini:2019wxj}
-Ballardini M.,  Matthewson W.~L.,   Maartens R.,  2019, \mn@doi [Mon. Not. Roy.
-  Astron. Soc.] {10.1093/mnras/stz2258}, 489, 1950
-
-\bibitem[\protect\citeauthoryear{Barreira}{Barreira}{2020}]{Barreira:2020ekm}
-Barreira A.,  2020, \mn@doi [JCAP] {10.1088/1475-7516/2020/12/031}, 12, 031
-
-\bibitem[\protect\citeauthoryear{Barreira, Cabass, Schmidt, Pillepich  \&
-  Nelson}{Barreira et~al.}{2020}]{Barreira:2020kvh}
-Barreira A.,  Cabass G.,  Schmidt F.,  Pillepich A.,   Nelson D.,  2020,
-  \mn@doi [JCAP] {10.1088/1475-7516/2020/12/013}, 12, 013
-
-\bibitem[\protect\citeauthoryear{Bartolo et~al.,}{Bartolo
-  et~al.}{2016}]{Bartolo:2015qva}
-Bartolo N.,  et~al., 2016, \mn@doi [Phys. Dark Univ.]
-  {10.1016/j.dark.2016.04.002}, 13, 30
-
-\bibitem[\protect\citeauthoryear{Bernal, Breysse, Gil-Mar\'\i{}n  \&
-  Kovetz}{Bernal et~al.}{2019}]{Bernal:2019jdo}
-Bernal J.~L.,  Breysse P.~C.,  Gil-Mar\'\i{}n H.,   Kovetz E.~D.,  2019,
-  \mn@doi [Phys. Rev. D] {10.1103/PhysRevD.100.123522}, 100, 123522
-
-\bibitem[\protect\citeauthoryear{Bernal, Bellomo, Raccanelli  \& Verde}{Bernal
-  et~al.}{2020}]{Bernal:2020pwq}
-Bernal J.~L.,  Bellomo N.,  Raccanelli A.,   Verde L.,  2020, \mn@doi [JCAP]
-  {10.1088/1475-7516/2020/10/017}, 10, 017
-
-\bibitem[\protect\citeauthoryear{Bernardeau, Colombi, Gaztañaga  \&
-  Scoccimarro}{Bernardeau et~al.}{2002}]{Bernardeau:2001qr}
-Bernardeau F.,  Colombi S.,  Gaztañaga E.,   Scoccimarro R.,  2002, \mn@doi
-  [Physics Reports] {10.1016/s0370-1573(02)00135-7}, 367, 1–248
-
-\bibitem[\protect\citeauthoryear{Bertacca}{Bertacca}{2015}]{Bertacca:2014hwa}
-Bertacca D.,  2015, \mn@doi [Class. Quant. Grav.]
-  {10.1088/0264-9381/32/19/195011}, 32, 195011
-
-\bibitem[\protect\citeauthoryear{Bertacca, Maartens  \& Clarkson}{Bertacca
-  et~al.}{2014a}]{Bertacca:2014dra}
-Bertacca D.,  Maartens R.,   Clarkson C.,  2014a, \mn@doi [JCAP]
-  {10.1088/1475-7516/2014/09/037}, 09, 037
-
-\bibitem[\protect\citeauthoryear{Bertacca, Maartens  \& Clarkson}{Bertacca
-  et~al.}{2014b}]{Bertacca:2014wga}
-Bertacca D.,  Maartens R.,   Clarkson C.,  2014b, \mn@doi [JCAP]
-  {10.1088/1475-7516/2014/11/013}, 1411, 013
-
-\bibitem[\protect\citeauthoryear{Bertacca, Bartolo, Bruni, Koyama, Maartens,
-  Matarrese, Sasaki  \& Wands}{Bertacca et~al.}{2015}]{Bertacca:2015mca}
-Bertacca D.,  Bartolo N.,  Bruni M.,  Koyama K.,  Maartens R.,  Matarrese S.,
-  Sasaki M.,   Wands D.,  2015, \mn@doi [Class. Quant. Grav.]
-  {10.1088/0264-9381/32/17/175019}, 32, 175019
-
-\bibitem[\protect\citeauthoryear{Bertacca, Raccanelli, Bartolo, Liguori,
-  Matarrese  \& Verde}{Bertacca et~al.}{2018}]{Bertacca:2017dzm}
-Bertacca D.,  Raccanelli A.,  Bartolo N.,  Liguori M.,  Matarrese S.,   Verde
-  L.,  2018, \mn@doi [Phys. Rev.] {10.1103/PhysRevD.97.023531}, D97, 023531
-
-\bibitem[\protect\citeauthoryear{Beutler, Castorina  \& Zhang}{Beutler
-  et~al.}{2019}]{Beutler:2018vpe}
-Beutler F.,  Castorina E.,   Zhang P.,  2019, \mn@doi [JCAP]
-  {10.1088/1475-7516/2019/03/040}, 03, 040
-
-\bibitem[\protect\citeauthoryear{Bharadwaj, Mazumdar  \& Sarkar}{Bharadwaj
-  et~al.}{2020}]{Bharadwaj:2020wkc}
-Bharadwaj S.,  Mazumdar A.,   Sarkar D.,  2020, \mn@doi [Mon. Not. Roy. Astron.
-  Soc.] {10.1093/mnras/staa279}, 493, 594
-
-\bibitem[\protect\citeauthoryear{Blas, Lesgourgues  \& Tram}{Blas
-  et~al.}{2011}]{Blas:2011rf}
-Blas D.,  Lesgourgues J.,   Tram T.,  2011, \mn@doi [JCAP]
-  {10.1088/1475-7516/2011/07/034}, 07, 034
-
-\bibitem[\protect\citeauthoryear{Bolejko, Clarkson, Maartens, Bacon, Meures  \&
-  Beynon}{Bolejko et~al.}{2013}]{Bolejko:2012uj}
-Bolejko K.,  Clarkson C.,  Maartens R.,  Bacon D.,  Meures N.,   Beynon E.,
-  2013, \mn@doi [Phys. Rev. Lett.] {10.1103/PhysRevLett.110.021302}, 110,
-  021302
-
-\bibitem[\protect\citeauthoryear{Bonvin}{Bonvin}{2008}]{Bonvin:2008ni}
-Bonvin C.,  2008, \mn@doi [Phys. Rev. D] {10.1103/PhysRevD.78.123530}, 78,
-  123530
-
-\bibitem[\protect\citeauthoryear{Bonvin}{Bonvin}{2014}]{Bonvin:2014owa}
-Bonvin C.,  2014, \mn@doi [Class. Quant. Grav.]
-  {10.1088/0264-9381/31/23/234002}, 31, 234002
-
-\bibitem[\protect\citeauthoryear{Bonvin \& Durrer}{Bonvin \&
-  Durrer}{2011}]{Bonvin:2011bg}
-Bonvin C.,  Durrer R.,  2011, \mn@doi [Phys. Rev. D]
-  {10.1103/PhysRevD.84.063505}, 84, 063505
-
-\bibitem[\protect\citeauthoryear{Bonvin \& Fleury}{Bonvin \&
-  Fleury}{2018}]{Bonvin:2018ckp}
-Bonvin C.,  Fleury P.,  2018, \mn@doi [JCAP] {10.1088/1475-7516/2018/05/061},
-  05, 061
-
-\bibitem[\protect\citeauthoryear{Bonvin, Hui  \& Gaztanaga}{Bonvin
-  et~al.}{2014}]{Bonvin:2013ogt}
-Bonvin C.,  Hui L.,   Gaztanaga E.,  2014, \mn@doi [Phys. Rev. D]
-  {10.1103/PhysRevD.89.083535}, 89, 083535
-
-\bibitem[\protect\citeauthoryear{Bonvin, Hui  \& Gaztanaga}{Bonvin
-  et~al.}{2016}]{Bonvin:2015kuc}
-Bonvin C.,  Hui L.,   Gaztanaga E.,  2016, \mn@doi [JCAP]
-  {10.1088/1475-7516/2016/08/021}, 08, 021
-
-\bibitem[\protect\citeauthoryear{Bruni, Crittenden, Koyama, Maartens, Pitrou
-  \& Wands}{Bruni et~al.}{2012}]{Bruni:2011ta}
-Bruni M.,  Crittenden R.,  Koyama K.,  Maartens R.,  Pitrou C.,   Wands D.,
-  2012, \mn@doi [Phys. Rev. D] {10.1103/PhysRevD.85.041301}, 85, 041301
-
-\bibitem[\protect\citeauthoryear{Bruni, Hidalgo, Meures  \& Wands}{Bruni
-  et~al.}{2014}]{Bruni:2013qta}
-Bruni M.,  Hidalgo J.~C.,  Meures N.,   Wands D.,  2014, \mn@doi [Astrophys.
-  J.] {10.1088/0004-637X/785/1/2}, 785, 2
-
-\bibitem[\protect\citeauthoryear{Bull, Ferreira, Patel  \& Santos}{Bull
-  et~al.}{2015}]{Bull:2014rha}
-Bull P.,  Ferreira P.~G.,  Patel P.,   Santos M.~G.,  2015, \mn@doi [Astrophys.
-  J.] {10.1088/0004-637X/803/1/21}, 803, 21
-
-\bibitem[\protect\citeauthoryear{Camera, Santos  \& Maartens}{Camera
-  et~al.}{2015a}]{Camera:2014bwa}
-Camera S.,  Santos M.~G.,   Maartens R.,  2015a, \mn@doi [Mon. Not. Roy.
-  Astron. Soc.] {10.1093/mnras/stv040}, 448, 1035
-
-\bibitem[\protect\citeauthoryear{Camera, Maartens  \& Santos}{Camera
-  et~al.}{2015b}]{Camera:2014sba}
-Camera S.,  Maartens R.,   Santos M.~G.,  2015b, \mn@doi [Mon. Not. Roy.
-  Astron. Soc.] {10.1093/mnrasl/slv069}, 451, L80
-
-\bibitem[\protect\citeauthoryear{Camera, Fonseca, Maartens  \& Santos}{Camera
-  et~al.}{2018}]{Camera:2018jys}
-Camera S.,  Fonseca J.,  Maartens R.,   Santos M.~G.,  2018, \mn@doi [Mon. Not.
-  Roy. Astron. Soc.] {10.1093/mnras/sty2284}, 481, 1251
-
-\bibitem[\protect\citeauthoryear{Castorina \& Villaescusa-Navarro}{Castorina \&
-  Villaescusa-Navarro}{2017}]{Castorina:2016bfm}
-Castorina E.,  Villaescusa-Navarro F.,  2017, \mn@doi [Mon. Not. Roy. Astron.
-  Soc.] {10.1093/mnras/stx1599}, 471, 1788
-
-\bibitem[\protect\citeauthoryear{Castorina \& White}{Castorina \&
-  White}{2018}]{Castorina:2017inr}
-Castorina E.,  White M.,  2018, \mn@doi [Mon. Not. Roy. Astron. Soc.]
-  {10.1093/mnras/sty410}, 476, 4403
-
-\bibitem[\protect\citeauthoryear{Castorina et~al.}{Castorina
-  et~al.}{2020}]{Castorina:2020zhz}
-Castorina E.,  et~al., 2020
-
-\bibitem[\protect\citeauthoryear{Celoria \& Matarrese}{Celoria \&
-  Matarrese}{2020}]{Celoria:2018euj}
-Celoria M.,  Matarrese S.,  2020, \mn@doi [Proc. Int. Sch. Phys. Fermi]
-  {10.3254/ENFI200009}, 200, 179
-
-\bibitem[\protect\citeauthoryear{Challinor \& Lewis}{Challinor \&
-  Lewis}{2011}]{Challinor:2011bk}
-Challinor A.,  Lewis A.,  2011, \mn@doi [Phys. Rev. D]
-  {10.1103/PhysRevD.84.043516}, 84, 043516
-
-\bibitem[\protect\citeauthoryear{Chan \& Blot}{Chan \&
-  Blot}{2017}]{Chan:2016ehg}
-Chan K.~C.,  Blot L.,  2017, \mn@doi [Phys. Rev. D]
-  {10.1103/PhysRevD.96.023528}, 96, 023528
-
-\bibitem[\protect\citeauthoryear{Chen, Castorina, White  \& Slosar}{Chen
-  et~al.}{2019}]{Chen:2018qiu}
-Chen S.-F.,  Castorina E.,  White M.,   Slosar A.,  2019, \mn@doi [JCAP]
-  {10.1088/1475-7516/2019/07/023}, 07, 023
-
-\bibitem[\protect\citeauthoryear{Child, Takada, Nishimichi, Sunayama, Slepian,
-  Habib  \& Heitmann}{Child et~al.}{2018}]{Child:2018klv}
-Child H.~L.,  Takada M.,  Nishimichi T.,  Sunayama T.,  Slepian Z.,  Habib S.,
-   Heitmann K.,  2018, \mn@doi [Phys. Rev. D] {10.1103/PhysRevD.98.123521}, 98,
-  123521
-
-\bibitem[\protect\citeauthoryear{Chudaykin \& Ivanov}{Chudaykin \&
-  Ivanov}{2019}]{Chudaykin:2019ock}
-Chudaykin A.,  Ivanov M.~M.,  2019, \mn@doi [JCAP]
-  {10.1088/1475-7516/2019/11/034}, 11, 034
-
-\bibitem[\protect\citeauthoryear{Clarkson, de Weerd, Jolicoeur, Maartens  \&
-  Umeh}{Clarkson et~al.}{2019}]{Clarkson:2018dwn}
-Clarkson C.,  de Weerd E.~M.,  Jolicoeur S.,  Maartens R.,   Umeh O.,  2019,
-  \mn@doi [Monthly Notices of the Royal Astronomical Society]
-  {10.1093/mnrasl/slz066}, 486, L101
-
-\bibitem[\protect\citeauthoryear{Cunnington, Pourtsidou, Soares, Blake  \&
-  Bacon}{Cunnington et~al.}{2020}]{Cunnington:2020mnn}
-Cunnington S.,  Pourtsidou A.,  Soares P.~S.,  Blake C.,   Bacon D.,  2020,
-  \mn@doi [Mon. Not. Roy. Astron. Soc.] {10.1093/mnras/staa1524}, 496, 415
-
-\bibitem[\protect\citeauthoryear{Dai, Pajer  \& Schmidt}{Dai
-  et~al.}{2015}]{Dai:2015jaa}
-Dai L.,  Pajer E.,   Schmidt F.,  2015, \mn@doi [JCAP]
-  {10.1088/1475-7516/2015/10/059}, 10, 059
-
-\bibitem[\protect\citeauthoryear{Dalal, Dore, Huterer  \& Shirokov}{Dalal
-  et~al.}{2008}]{Dalal:2007cu}
-Dalal N.,  Dore O.,  Huterer D.,   Shirokov A.,  2008, \mn@doi [Phys. Rev. D]
-  {10.1103/PhysRevD.77.123514}, 77, 123514
-
-\bibitem[\protect\citeauthoryear{Desjacques, Jeong  \& Schmidt}{Desjacques
-  et~al.}{2018a}]{Desjacques:2018pfv}
-Desjacques V.,  Jeong D.,   Schmidt F.,  2018a, \mn@doi [JCAP]
-  {10.1088/1475-7516/2018/12/035}, 12, 035
-
-\bibitem[\protect\citeauthoryear{Desjacques, Jeong  \& Schmidt}{Desjacques
-  et~al.}{2018b}]{Desjacques:2016bnm}
-Desjacques V.,  Jeong D.,   Schmidt F.,  2018b, \mn@doi [Phys. Rept.]
-  {10.1016/j.physrep.2017.12.002}, 733, 1
-
-\bibitem[\protect\citeauthoryear{Di~Dio \& Seljak}{Di~Dio \&
-  Seljak}{2019}]{DiDio:2018zmk}
-Di~Dio E.,  Seljak U.,  2019, \mn@doi [JCAP] {10.1088/1475-7516/2019/04/050},
-  04, 050
-
-\bibitem[\protect\citeauthoryear{Di~Dio, Durrer, Marozzi  \& Montanari}{Di~Dio
-  et~al.}{2014}]{DiDio:2014lka}
-Di~Dio E.,  Durrer R.,  Marozzi G.,   Montanari F.,  2014, \mn@doi [JCAP]
-  {10.1088/1475-7516/2014/12/017}, 12, 017
-
-\bibitem[\protect\citeauthoryear{Di~Dio, Durrer, Marozzi  \& Montanari}{Di~Dio
-  et~al.}{2016}]{DiDio:2015bua}
-Di~Dio E.,  Durrer R.,  Marozzi G.,   Montanari F.,  2016, \mn@doi [JCAP]
-  {10.1088/1475-7516/2016/01/016}, 01, 016
-
-\bibitem[\protect\citeauthoryear{Di~Dio, Perrier, Durrer, Marozzi,
-  Moradinezhad~Dizgah, Noreña  \& Riotto}{Di~Dio et~al.}{2017}]{DiDio:2016gpd}
-Di~Dio E.,  Perrier H.,  Durrer R.,  Marozzi G.,  Moradinezhad~Dizgah A.,
-  Noreña J.,   Riotto A.,  2017, \mn@doi [JCAP]
-  {10.1088/1475-7516/2017/03/006}, 1703, 006
-
-\bibitem[\protect\citeauthoryear{Di~Dio, Durrer, Maartens, Montanari  \&
-  Umeh}{Di~Dio et~al.}{2019}]{DiDio:2018unb}
-Di~Dio E.,  Durrer R.,  Maartens R.,  Montanari F.,   Umeh O.,  2019, \mn@doi
-  [JCAP] {10.1088/1475-7516/2019/04/053}, 04, 053
-
-\bibitem[\protect\citeauthoryear{Durrer, Jalilvand, Kothari, Maartens  \&
-  Montanari}{Durrer et~al.}{2020}]{Durrer:2020orn}
-Durrer R.,  Jalilvand M.,  Kothari R.,  Maartens R.,   Montanari F.,  2020,
-  \mn@doi [JCAP] {10.1088/1475-7516/2020/12/003}, 12, 003
-
-\bibitem[\protect\citeauthoryear{Fonseca, Camera, Santos  \& Maartens}{Fonseca
-  et~al.}{2015}]{Fonseca:2015laa}
-Fonseca J.,  Camera S.,  Santos M.,   Maartens R.,  2015, \mn@doi [Astrophys.
-  J. Lett.] {10.1088/2041-8205/812/2/L22}, 812, L22
-
-\bibitem[\protect\citeauthoryear{Fonseca, Maartens  \& Santos}{Fonseca
-  et~al.}{2017}]{Fonseca:2016xvi}
-Fonseca J.,  Maartens R.,   Santos M.~G.,  2017, \mn@doi [Mon. Not. Roy.
-  Astron. Soc.] {10.1093/mnras/stw3248}, 466, 2780
-
-\bibitem[\protect\citeauthoryear{Fonseca, Maartens  \& Santos}{Fonseca
-  et~al.}{2018}]{Fonseca:2018hsu}
-Fonseca J.,  Maartens R.,   Santos M.~G.,  2018, \mn@doi [Mon. Not. Roy.
-  Astron. Soc.] {10.1093/mnras/sty1702}, 479, 3490
-
-\bibitem[\protect\citeauthoryear{Fonseca, Viljoen  \& Maartens}{Fonseca
-  et~al.}{2019}]{Fonseca:2019qek}
-Fonseca J.,  Viljoen J.-A.,   Maartens R.,  2019, \mn@doi [JCAP]
-  {10.1088/1475-7516/2019/12/028}, 12, 028
-
-\bibitem[\protect\citeauthoryear{Gagrani \& Samushia}{Gagrani \&
-  Samushia}{2017}]{Gagrani:2016rfy}
-Gagrani P.,  Samushia L.,  2017, \mn@doi [Mon. Not. Roy. Astron. Soc.]
-  {10.1093/mnras/stx135}, 467, 928
-
-\bibitem[\protect\citeauthoryear{Gaztanaga, Bonvin  \& Hui}{Gaztanaga
-  et~al.}{2017}]{Gaztanaga:2015jrs}
-Gaztanaga E.,  Bonvin C.,   Hui L.,  2017, \mn@doi [JCAP]
-  {10.1088/1475-7516/2017/01/032}, 01, 032
-
-\bibitem[\protect\citeauthoryear{Ghosh, Mertens  \& Koopmans}{Ghosh
-  et~al.}{2018}]{Ghosh:2017woo}
-Ghosh A.,  Mertens F.,   Koopmans L. V.~E.,  2018, \mn@doi [Mon. Not. Roy.
-  Astron. Soc.] {10.1093/mnras/stx2959}, 474, 4552
-
-\bibitem[\protect\citeauthoryear{Giannantonio \& Porciani}{Giannantonio \&
-  Porciani}{2010}]{Giannantonio:2009}
-Giannantonio T.,  Porciani C.,  2010, \mn@doi [Phys. Rev. D]
-  {10.1103/PhysRevD.81.063530}, 81, 063530
-
-\bibitem[\protect\citeauthoryear{Gil-Marín, Percival, Verde, Brownstein,
-  Chuang, Kitaura, Rodríguez-Torres  \& Olmstead}{Gil-Marín
-  et~al.}{2017}]{Gil-Marin:2016wya}
-Gil-Marín H.,  Percival W.~J.,  Verde L.,  Brownstein J.~R.,  Chuang C.-H.,
-  Kitaura F.-S.,  Rodríguez-Torres S.~A.,   Olmstead M.~D.,  2017, \mn@doi
-  [Mon. Not. Roy. Astron. Soc.] {10.1093/mnras/stw2679}, 465, 1757
-
-\bibitem[\protect\citeauthoryear{Grimm, Scaccabarozzi, Yoo, Biern  \&
-  Gong}{Grimm et~al.}{2020}]{Grimm:2020ays}
-Grimm N.,  Scaccabarozzi F.,  Yoo J.,  Biern S.~G.,   Gong J.-O.,  2020,
-  \mn@doi [JCAP] {10.1088/1475-7516/2020/11/064}, 11, 064
-
-\bibitem[\protect\citeauthoryear{Gualdi, Gil-Mar\'\i{}n, Manera, Joachimi  \&
-  Lahav}{Gualdi et~al.}{2019}]{Gualdi:2019ybt}
-Gualdi D.,  Gil-Mar\'\i{}n H.,  Manera M.,  Joachimi B.,   Lahav O.,  2019,
-  \mn@doi [Mon. Not. Roy. Astron. Soc.] {10.1093/mnrasl/sly242}, 484, L29
-
-\bibitem[\protect\citeauthoryear{Hall \& Bonvin}{Hall \&
-  Bonvin}{2017}]{Hall:2016bmm}
-Hall A.,  Bonvin C.,  2017, \mn@doi [Phys. Rev. D]
-  {10.1103/PhysRevD.95.043530}, 95, 043530
-
-\bibitem[\protect\citeauthoryear{Hall, Bonvin  \& Challinor}{Hall
-  et~al.}{2013}]{Hall:2012wd}
-Hall A.,  Bonvin C.,   Challinor A.,  2013, \mn@doi [Phys. Rev. D]
-  {10.1103/PhysRevD.87.064026}, 87, 064026
-
-\bibitem[\protect\citeauthoryear{Iršič, Di~Dio  \& Viel}{Iršič
-  et~al.}{2016}]{Irsic:2015nla}
-Iršič V.,  Di~Dio E.,   Viel M.,  2016, \mn@doi [JCAP]
-  {10.1088/1475-7516/2016/02/051}, 02, 051
-
-\bibitem[\protect\citeauthoryear{Jalilvand, Majerotto, Durrer  \&
-  Kunz}{Jalilvand et~al.}{2019}]{Jalivand:2018vfz}
-Jalilvand M.,  Majerotto E.,  Durrer R.,   Kunz M.,  2019, \mn@doi [JCAP]
-  {10.1088/1475-7516/2019/01/020}, 01, 020
-
-\bibitem[\protect\citeauthoryear{Jalilvand, Majerotto, Bonvin, Lacasa, Kunz,
-  Naidoo  \& Moodley}{Jalilvand et~al.}{2020}]{Jalilvand:2019bhk}
-Jalilvand M.,  Majerotto E.,  Bonvin C.,  Lacasa F.,  Kunz M.,  Naidoo W.,
-  Moodley K.,  2020, \mn@doi [Phys. Rev. Lett.]
-  {10.1103/PhysRevLett.124.031101}, 124, 031101
-
-\bibitem[\protect\citeauthoryear{Jeong \& Komatsu}{Jeong \&
-  Komatsu}{2009}]{Jeong:2009vd}
-Jeong D.,  Komatsu E.,  2009, \mn@doi [Astrophys. J.]
-  {10.1088/0004-637X/703/2/1230}, 703, 1230
-
-\bibitem[\protect\citeauthoryear{Jeong \& Schmidt}{Jeong \&
-  Schmidt}{2020}]{Jeong:2019igb}
-Jeong D.,  Schmidt F.,  2020, \mn@doi [Phys. Rev. D]
-  {10.1103/PhysRevD.102.023530}, 102, 023530
-
-\bibitem[\protect\citeauthoryear{Jeong, Schmidt  \& Hirata}{Jeong
-  et~al.}{2012}]{Jeong:2011as}
-Jeong D.,  Schmidt F.,   Hirata C.~M.,  2012, \mn@doi [Physical Review D]
-  {10.1103/physrevd.85.023504}, 85
-
-\bibitem[\protect\citeauthoryear{Jolicoeur, Umeh, Maartens  \&
-  Clarkson}{Jolicoeur et~al.}{2017}]{Jolicoeur:2017nyt}
-Jolicoeur S.,  Umeh O.,  Maartens R.,   Clarkson C.,  2017, \mn@doi [JCAP]
-  {10.1088/1475-7516/2017/09/040}, 09, 040
-
-\bibitem[\protect\citeauthoryear{Jolicoeur, Umeh, Maartens  \&
-  Clarkson}{Jolicoeur et~al.}{2018}]{Jolicoeur:2017eyi}
-Jolicoeur S.,  Umeh O.,  Maartens R.,   Clarkson C.,  2018, \mn@doi [JCAP]
-  {10.1088/1475-7516/2018/03/036}, 03, 036
-
-\bibitem[\protect\citeauthoryear{Jolicoeur, Allahyari, Clarkson, Larena, Umeh
-  \& Maartens}{Jolicoeur et~al.}{2019}]{Jolicoeur:2018blf}
-Jolicoeur S.,  Allahyari A.,  Clarkson C.,  Larena J.,  Umeh O.,   Maartens R.,
-   2019, \mn@doi [JCAP] {10.1088/1475-7516/2019/03/004}, 03, 004
-
-\bibitem[\protect\citeauthoryear{Jolicoeur, Maartens, De~Weerd, Umeh, Clarkson
-  \& Camera}{Jolicoeur et~al.}{2020}]{Jolicoeur:2020eup}
-Jolicoeur S.,  Maartens R.,  De~Weerd E.~M.,  Umeh O.,  Clarkson C.,   Camera
-  S.,  2020
-
-\bibitem[\protect\citeauthoryear{Kaiser}{Kaiser}{1987}]{Kaiser:1987qv}
-Kaiser N.,  1987, Mon. Not. Roy. Astron. Soc., 227, 1
-
-\bibitem[\protect\citeauthoryear{Karagiannis, Lazanu, Liguori, Raccanelli,
-  Bartolo  \& Verde}{Karagiannis et~al.}{2018}]{Karagiannis:2018jdt}
-Karagiannis D.,  Lazanu A.,  Liguori M.,  Raccanelli A.,  Bartolo N.,   Verde
-  L.,  2018, \mn@doi [Monthly Notices of the Royal Astronomical Society]
-  {10.1093/mnras/sty1029}, 478, 1341–1376
-
-\bibitem[\protect\citeauthoryear{Karagiannis, Fonseca, Maartens  \&
-  Camera}{Karagiannis et~al.}{2020a}]{Karagiannis:2020dpq}
-Karagiannis D.,  Fonseca J.,  Maartens R.,   Camera S.,  2020a
-
-\bibitem[\protect\citeauthoryear{Karagiannis, Slosar  \& Liguori}{Karagiannis
-  et~al.}{2020b}]{Karagiannis:2019jjx}
-Karagiannis D.,  Slosar A.,   Liguori M.,  2020b, \mn@doi [JCAP]
-  {10.1088/1475-7516/2020/11/052}, 11, 052
-
-\bibitem[\protect\citeauthoryear{Kehagias, Moradinezhad~Dizgah, Nore\~na,
-  Perrier  \& Riotto}{Kehagias et~al.}{2015}]{Kehagias:2015tda}
-Kehagias A.,  Moradinezhad~Dizgah A.,  Nore\~na J.,  Perrier H.,   Riotto A.,
-  2015, \mn@doi [JCAP] {10.1088/1475-7516/2015/08/018}, 08, 018
-
-\bibitem[\protect\citeauthoryear{Kitayama \& Suto}{Kitayama \&
-  Suto}{1996}]{Kitayama:1996ne}
-Kitayama T.,  Suto Y.,  1996, \mn@doi [Astrophys. J.] {10.1086/177797}, 469,
-  480
-
-\bibitem[\protect\citeauthoryear{Koyama, Umeh, Maartens  \& Bertacca}{Koyama
-  et~al.}{2018}]{Koyama:2018ttg}
-Koyama K.,  Umeh O.,  Maartens R.,   Bertacca D.,  2018, \mn@doi [JCAP]
-  {10.1088/1475-7516/2018/07/050}, 07, 050
-
-\bibitem[\protect\citeauthoryear{Lepori, Di~Dio, Villa  \& Viel}{Lepori
-  et~al.}{2018}]{Lepori:2017twd}
-Lepori F.,  Di~Dio E.,  Villa E.,   Viel M.,  2018, \mn@doi [JCAP]
-  {10.1088/1475-7516/2018/05/043}, 05, 043
-
-\bibitem[\protect\citeauthoryear{Lepori, Iršič, Di~Dio  \& Viel}{Lepori
-  et~al.}{2020}]{Lepori:2019cqp}
-Lepori F.,  Iršič V.,  Di~Dio E.,   Viel M.,  2020, \mn@doi [JCAP]
-  {10.1088/1475-7516/2020/04/006}, 04, 006
-
-\bibitem[\protect\citeauthoryear{Lewis, Challinor  \& Lasenby}{Lewis
-  et~al.}{2000}]{Lewis:1999bs}
-Lewis A.,  Challinor A.,   Lasenby A.,  2000, \mn@doi [Astrophys. J.]
-  {10.1086/309179}, 538, 473
-
-\bibitem[\protect\citeauthoryear{Liguori, Sefusatti, Fergusson  \&
-  Shellard}{Liguori et~al.}{2010}]{Liguori:2010hx}
-Liguori M.,  Sefusatti E.,  Fergusson J.~R.,   Shellard E. P.~S.,  2010,
-  \mn@doi [Adv. Astron.] {10.1155/2010/980523}, 2010, 980523
-
-\bibitem[\protect\citeauthoryear{Lopez-Honorez, Mena  \& Rigolin}{Lopez-Honorez
-  et~al.}{2012}]{LopezHonorez:2011cy}
-Lopez-Honorez L.,  Mena O.,   Rigolin S.,  2012, \mn@doi [Phys. Rev. D]
-  {10.1103/PhysRevD.85.023511}, 85, 023511
-
-\bibitem[\protect\citeauthoryear{Lorenz, Alonso  \& Ferreira}{Lorenz
-  et~al.}{2018}]{Lorenz:2017iez}
-Lorenz C.~S.,  Alonso D.,   Ferreira P.~G.,  2018, \mn@doi [Phys. Rev. D]
-  {10.1103/PhysRevD.97.023537}, 97, 023537
-
-\bibitem[\protect\citeauthoryear{Maartens, Jolicoeur, Umeh, De~Weerd, Clarkson
-  \& Camera}{Maartens et~al.}{2020}]{Maartens:2019yhx}
-Maartens R.,  Jolicoeur S.,  Umeh O.,  De~Weerd E.~M.,  Clarkson C.,   Camera
-  S.,  2020, \mn@doi [JCAP] {10.1088/1475-7516/2020/03/065}, 2020, 065–065
-
-\bibitem[\protect\citeauthoryear{Majumdar, Pritchard, Mondal, Watkinson,
-  Bharadwaj  \& Mellema}{Majumdar et~al.}{2018}]{Majumdar:2017tdm}
-Majumdar S.,  Pritchard J.~R.,  Mondal R.,  Watkinson C.~A.,  Bharadwaj S.,
-  Mellema G.,  2018, \mn@doi [Mon. Not. Roy. Astron. Soc.]
-  {10.1093/mnras/sty535}, 476, 4007
-
-\bibitem[\protect\citeauthoryear{Matarrese \& Verde}{Matarrese \&
-  Verde}{2008}]{Matarrese:2008nc}
-Matarrese S.,  Verde L.,  2008, \mn@doi [Astrophys. J. Lett.] {10.1086/587840},
-  677, L77
-
-\bibitem[\protect\citeauthoryear{Matarrese, Mollerach  \& Bruni}{Matarrese
-  et~al.}{1998}]{Matarrese:1997ay}
-Matarrese S.,  Mollerach S.,   Bruni M.,  1998, \mn@doi [Phys. Rev. D]
-  {10.1103/PhysRevD.58.043504}, 58, 043504
-
-\bibitem[\protect\citeauthoryear{Matarrese, Pilo  \& Rollo}{Matarrese
-  et~al.}{2021}]{Matarrese:2020why}
-Matarrese S.,  Pilo L.,   Rollo R.,  2021, \mn@doi [JCAP]
-  {10.1088/1475-7516/2021/01/062}, 01, 062
-
-\bibitem[\protect\citeauthoryear{Matsubara}{Matsubara}{2000}]{Matsubara:1999du}
-Matsubara T.,  2000, \mn@doi [Astrophys. J.] {10.1086/308827}, 535, 1
-
-\bibitem[\protect\citeauthoryear{McDonald}{McDonald}{2009}]{McDonald:2009dh}
-McDonald P.,  2009, \mn@doi [JCAP] {10.1088/1475-7516/2009/11/026}, 11, 026
-
-\bibitem[\protect\citeauthoryear{Modi, White, Slosar  \& Castorina}{Modi
-  et~al.}{2019}]{Modi:2019hnu}
-Modi C.,  White M.,  Slosar A.,   Castorina E.,  2019, \mn@doi [JCAP]
-  {10.1088/1475-7516/2019/11/023}, 11, 023
-
-\bibitem[\protect\citeauthoryear{Mollerach \& Matarrese}{Mollerach \&
-  Matarrese}{1997}]{Mollerach:1997up}
-Mollerach S.,  Matarrese S.,  1997, \mn@doi [Phys. Rev. D]
-  {10.1103/PhysRevD.56.4494}, 56, 4494
-
-\bibitem[\protect\citeauthoryear{Montanari \& Camera}{Montanari \&
-  Camera}{2021}]{Montanari:2020uez}
-Montanari F.,  Camera S.,  2021, \mn@doi [JCAP]
-  {10.1088/1475-7516/2021/01/002}, 01, 002
-
-\bibitem[\protect\citeauthoryear{Moradinezhad~Dizgah, Biagetti, Sefusatti,
-  Desjacques  \& Nore\~na}{Moradinezhad~Dizgah
-  et~al.}{2020}]{MoradinezhadDizgah:2020whw}
-Moradinezhad~Dizgah A.,  Biagetti M.,  Sefusatti E.,  Desjacques V.,   Nore\~na
-  J.,  2020
-
-\bibitem[\protect\citeauthoryear{Nan, Yamamoto  \& Hikage}{Nan
-  et~al.}{2018}]{Nan:2017oaq}
-Nan Y.,  Yamamoto K.,   Hikage C.,  2018, \mn@doi [JCAP]
-  {10.1088/1475-7516/2018/07/038}, 07, 038
-
-\bibitem[\protect\citeauthoryear{Obuljen, Castorina, Villaescusa-Navarro  \&
-  Viel}{Obuljen et~al.}{2018}]{Obuljen:2017jiy}
-Obuljen A.,  Castorina E.,  Villaescusa-Navarro F.,   Viel M.,  2018, \mn@doi
-  [JCAP] {10.1088/1475-7516/2018/05/004}, 05, 004
-
-\bibitem[\protect\citeauthoryear{Oddo, Sefusatti, Porciani, Monaco  \&
-  S\'anchez}{Oddo et~al.}{2020}]{Oddo:2019run}
-Oddo A.,  Sefusatti E.,  Porciani C.,  Monaco P.,   S\'anchez A.~G.,  2020,
-  \mn@doi [JCAP] {10.1088/1475-7516/2020/03/056}, 03, 056
-
-\bibitem[\protect\citeauthoryear{Okoli, Scrimgeour, Afshordi  \& Hudson}{Okoli
-  et~al.}{2017}]{Okoli:2016vmd}
-Okoli C.,  Scrimgeour M.~I.,  Afshordi N.,   Hudson M.~J.,  2017, \mn@doi [Mon.
-  Not. Roy. Astron. Soc.] {10.1093/mnras/stx560}, 468, 2164
-
-\bibitem[\protect\citeauthoryear{Pan, Obreschkow, Howlett, Lagos, Elahi, Baugh
-  \& Gonzalez-Perez}{Pan et~al.}{2019}]{Pan:2019dxa}
-Pan H.,  Obreschkow D.,  Howlett C.,  Lagos C. d.~P.,  Elahi P.~J.,  Baugh C.,
-   Gonzalez-Perez V.,  2019
-
-\bibitem[\protect\citeauthoryear{Philcox \& Eisenstein}{Philcox \&
-  Eisenstein}{2020}]{Philcox:2019hdi}
-Philcox O. H.~E.,  Eisenstein D.~J.,  2020, \mn@doi [Mon. Not. Roy. Astron.
-  Soc.] {10.1093/mnras/stz3335}, 492, 1214
-
-\bibitem[\protect\citeauthoryear{Pober}{Pober}{2015}]{Pober:2014lva}
-Pober J.~C.,  2015, \mn@doi [Mon. Not. Roy. Astron. Soc.]
-  {10.1093/mnras/stu2575}, 447, 1705
-
-\bibitem[\protect\citeauthoryear{Pober et~al.}{Pober
-  et~al.}{2014}]{Pober:2013jna}
-Pober J.~C.,  et~al., 2014, \mn@doi [Astrophys. J.]
-  {10.1088/0004-637X/782/2/66}, 782, 66
-
-\bibitem[\protect\citeauthoryear{Pozzetti et~al.,}{Pozzetti
-  et~al.}{2016}]{Pozzetti:2016cch}
-Pozzetti L.,  et~al., 2016, \mn@doi [Astron. Astrophys.]
-  {10.1051/0004-6361/201527081}, 590, A3
-
-\bibitem[\protect\citeauthoryear{Raccanelli, Bertacca, Dor\'e  \&
-  Maartens}{Raccanelli et~al.}{2014}]{Raccanelli:2013dza}
-Raccanelli A.,  Bertacca D.,  Dor\'e O.,   Maartens R.,  2014, \mn@doi [JCAP]
-  {10.1088/1475-7516/2014/08/022}, 08, 022
-
-\bibitem[\protect\citeauthoryear{Raccanelli, Montanari, Bertacca, Dor\'e  \&
-  Durrer}{Raccanelli et~al.}{2016}]{Raccanelli:2015vla}
-Raccanelli A.,  Montanari F.,  Bertacca D.,  Dor\'e O.,   Durrer R.,  2016,
-  \mn@doi [JCAP] {10.1088/1475-7516/2016/05/009}, 05, 009
-
-\bibitem[\protect\citeauthoryear{Raccanelli, Bertacca, Jeong, Neyrinck  \&
-  Szalay}{Raccanelli et~al.}{2018}]{Raccanelli:2016avd}
-Raccanelli A.,  Bertacca D.,  Jeong D.,  Neyrinck M.~C.,   Szalay A.~S.,  2018,
-  \mn@doi [Phys. Dark Univ.] {10.1016/j.dark.2017.12.003}, 19, 109
-
-\bibitem[\protect\citeauthoryear{Santos et~al.}{Santos
-  et~al.}{2015}]{Santos:2015gra}
-Santos M.~G.,  et~al., 2015, \mn@doi [PoS] {10.22323/1.215.0019}, AASKA14, 019
-
-\bibitem[\protect\citeauthoryear{Santos et~al.}{Santos
-  et~al.}{2017}]{Santos:2017qgq}
-Santos M.~G.,  et~al., 2017, in {MeerKAT Science}: {On the Pathway to the SKA}.
-   (\mn@eprint {arXiv} {1709.06099})
-
-\bibitem[\protect\citeauthoryear{{Sargent} \& {Turner}}{{Sargent} \&
-  {Turner}}{1977}]{Sargent:1977}
-{Sargent} W.~L.~W.,  {Turner} E.~L.,  1977, \mn@doi [The Astrophysical Journal]
-  {10.1086/182362}, \href
-  {https://ui.adsabs.harvard.edu/abs/1977ApJ...212L...3S} {212, L3}
-
-\bibitem[\protect\citeauthoryear{Sarkar \& Bharadwaj}{Sarkar \&
-  Bharadwaj}{2019}]{Sarkar:2019nak}
-Sarkar D.,  Bharadwaj S.,  2019, \mn@doi [Mon. Not. Roy. Astron. Soc.]
-  {10.1093/mnras/stz1691}, 487, 5666
-
-\bibitem[\protect\citeauthoryear{Sarkar, Majumdar  \& Bharadwaj}{Sarkar
-  et~al.}{2019}]{Sarkar:2019ojl}
-Sarkar D.,  Majumdar S.,   Bharadwaj S.,  2019, \mn@doi [Mon. Not. Roy. Astron.
-  Soc.] {10.1093/mnras/stz2799}, 490, 2880
-
-\bibitem[\protect\citeauthoryear{Schmit, Heavens  \& Pritchard}{Schmit
-  et~al.}{2019}]{Schmit:2018rtf}
-Schmit C.~J.,  Heavens A.~F.,   Pritchard J.~R.,  2019, \mn@doi [Mon. Not. Roy.
-  Astron. Soc.] {10.1093/mnras/sty3400}, 483, 4259
-
-\bibitem[\protect\citeauthoryear{Scoccimarro}{Scoccimarro}{2015}]{Scoccimarro:2015bla}
-Scoccimarro R.,  2015, \mn@doi [Phys. Rev. D] {10.1103/PhysRevD.92.083532}, 92,
-  083532
-
-\bibitem[\protect\citeauthoryear{Scoccimarro, Couchman  \& Frieman}{Scoccimarro
-  et~al.}{1999}]{Scoccimarro:1999ed}
-Scoccimarro R.,  Couchman H. M.~P.,   Frieman J.~A.,  1999, \mn@doi [The
-  Astrophysical Journal] {10.1086/307220}, 517, 531–540
-
-\bibitem[\protect\citeauthoryear{Scoccimarro, Sefusatti  \&
-  Zaldarriaga}{Scoccimarro et~al.}{2004}]{Scoccimarro:2003wn}
-Scoccimarro R.,  Sefusatti E.,   Zaldarriaga M.,  2004, \mn@doi [Phys. Rev. D]
-  {10.1103/PhysRevD.69.103513}, 69, 103513
-
-\bibitem[\protect\citeauthoryear{Sefusatti \& Komatsu}{Sefusatti \&
-  Komatsu}{2007}]{Sefusatti:2007ih}
-Sefusatti E.,  Komatsu E.,  2007, \mn@doi [Phys. Rev. D]
-  {10.1103/PhysRevD.76.083004}, 76, 083004
-
-\bibitem[\protect\citeauthoryear{Sefusatti, Crocce, Pueblas  \&
-  Scoccimarro}{Sefusatti et~al.}{2006}]{Sefusatti:2006pa}
-Sefusatti E.,  Crocce M.,  Pueblas S.,   Scoccimarro R.,  2006, \mn@doi [Phys.
-  Rev. D] {10.1103/PhysRevD.74.023522}, 74, 023522
-
-\bibitem[\protect\citeauthoryear{Shaw, Sigurdson, Sitwell, Stebbins  \&
-  Pen}{Shaw et~al.}{2015}]{Shaw:2014khi}
-Shaw J.~R.,  Sigurdson K.,  Sitwell M.,  Stebbins A.,   Pen U.-L.,  2015,
-  \mn@doi [Phys. Rev. D] {10.1103/PhysRevD.91.083514}, 91, 083514
-
-\bibitem[\protect\citeauthoryear{Sheth \& Tormen}{Sheth \&
-  Tormen}{1999}]{Sheth:1999mn}
-Sheth R.~K.,  Tormen G.,  1999, \mn@doi [Mon. Not. Roy. Astron. Soc.]
-  {10.1046/j.1365-8711.1999.02692.x}, 308, 119
-
-\bibitem[\protect\citeauthoryear{Sheth \& Tormen}{Sheth \&
-  Tormen}{2002}]{Sheth:2001dp}
-Sheth R.~K.,  Tormen G.,  2002, \mn@doi [Mon. Not. Roy. Astron. Soc.]
-  {10.1046/j.1365-8711.2002.04950.x}, 329, 61
-
-\bibitem[\protect\citeauthoryear{Sheth, Mo  \& Tormen}{Sheth
-  et~al.}{2001}]{Sheth:1999su}
-Sheth R.~K.,  Mo H.~J.,   Tormen G.,  2001, \mn@doi [Mon. Not. Roy. Astron.
-  Soc.] {10.1046/j.1365-8711.2001.04006.x}, 323, 1
-
-\bibitem[\protect\citeauthoryear{Shirasaki, Sugiyama, Takahashi  \&
-  Kitaura}{Shirasaki et~al.}{2021}]{Shirasaki:2020vkk}
-Shirasaki M.,  Sugiyama N.~S.,  Takahashi R.,   Kitaura F.-S.,  2021, \mn@doi
-  [Phys. Rev. D] {10.1103/PhysRevD.103.023506}, 103, 023506
-
-\bibitem[\protect\citeauthoryear{Slepian et~al.}{Slepian
-  et~al.}{2017}]{Slepian:2016kfz}
-Slepian Z.,  et~al., 2017, \mn@doi [Mon. Not. Roy. Astron. Soc.]
-  {10.1093/mnras/stx488}, 469, 1738
-
-\bibitem[\protect\citeauthoryear{Slosar et~al.}{Slosar
-  et~al.}{2019}]{Slosar:2019jwd}
-Slosar A.,  et~al., 2019
-
-\bibitem[\protect\citeauthoryear{Smith et~al.,}{Smith
-  et~al.}{2003}]{Smith:2002dz}
-Smith R.~E.,  et~al., 2003, \mn@doi [Mon. Not. Roy. Astron. Soc.]
-  {10.1046/j.1365-8711.2003.06503.x}, 341, 1311
-
-\bibitem[\protect\citeauthoryear{Sugiyama, Saito, Beutler  \& Seo}{Sugiyama
-  et~al.}{2018}]{Sugiyama:2018yzo}
-Sugiyama N.~S.,  Saito S.,  Beutler F.,   Seo H.-J.,  2018, \mn@doi [Monthly
-  Notices of the Royal Astronomical Society] {10.1093/mnras/sty3249}, 484,
-  364–384
-
-\bibitem[\protect\citeauthoryear{Sugiyama, Saito, Beutler  \& Seo}{Sugiyama
-  et~al.}{2020}]{Sugiyama:2019ike}
-Sugiyama N.~S.,  Saito S.,  Beutler F.,   Seo H.-J.,  2020, \mn@doi [Mon. Not.
-  Roy. Astron. Soc.] {10.1093/mnras/staa1940}, 497, 1684
-
-\bibitem[\protect\citeauthoryear{Tansella, Bonvin, Durrer, Ghosh  \&
-  Sellentin}{Tansella et~al.}{2018}]{Tansella:2017rpi}
-Tansella V.,  Bonvin C.,  Durrer R.,  Ghosh B.,   Sellentin E.,  2018, \mn@doi
-  [JCAP] {10.1088/1475-7516/2018/03/019}, 03, 019
-
-\bibitem[\protect\citeauthoryear{Tellarini, Ross, Tasinato  \& Wands}{Tellarini
-  et~al.}{2015}]{Tellarini:2015faa}
-Tellarini M.,  Ross A.~J.,  Tasinato G.,   Wands D.,  2015, \mn@doi [JCAP]
-  {10.1088/1475-7516/2015/07/004}, 07, 004
-
-\bibitem[\protect\citeauthoryear{Tellarini, Ross, Tasinato  \& Wands}{Tellarini
-  et~al.}{2016}]{Tellarini:2016sgp}
-Tellarini M.,  Ross A.~J.,  Tasinato G.,   Wands D.,  2016, \mn@doi [Journal of
-  Cosmology and Astroparticle Physics] {10.1088/1475-7516/2016/06/014}, 2016,
-  014–014
-
-\bibitem[\protect\citeauthoryear{Tram, Fidler, Crittenden, Koyama, Pettinari
-  \& Wands}{Tram et~al.}{2016}]{Tram:2016cpy}
-Tram T.,  Fidler C.,  Crittenden R.,  Koyama K.,  Pettinari G.~W.,   Wands D.,
-  2016, \mn@doi [JCAP] {10.1088/1475-7516/2016/05/058}, 05, 058
-
-\bibitem[\protect\citeauthoryear{Umeh}{Umeh}{2017}]{Umeh:2016thy}
-Umeh O.,  2017, \mn@doi [JCAP] {10.1088/1475-7516/2017/06/005}, 06, 005
-
-\bibitem[\protect\citeauthoryear{Umeh \& Koyama}{Umeh \&
-  Koyama}{2019}]{Umeh:2019jqg}
-Umeh O.,  Koyama K.,  2019, \mn@doi [JCAP] {10.1088/1475-7516/2019/12/048}, 12,
-  048
-
-\bibitem[\protect\citeauthoryear{Umeh, Maartens  \& Santos}{Umeh
-  et~al.}{2016}]{Umeh:2015gza}
-Umeh O.,  Maartens R.,   Santos M.,  2016, \mn@doi [JCAP]
-  {10.1088/1475-7516/2016/03/061}, 03, 061
-
-\bibitem[\protect\citeauthoryear{Umeh, Jolicoeur, Maartens  \& Clarkson}{Umeh
-  et~al.}{2017}]{Umeh:2016nuh}
-Umeh O.,  Jolicoeur S.,  Maartens R.,   Clarkson C.,  2017, \mn@doi [JCAP]
-  {10.1088/1475-7516/2017/03/034}, 03, 034
-
-\bibitem[\protect\citeauthoryear{Umeh, Koyama, Maartens, Schmidt  \&
-  Clarkson}{Umeh et~al.}{2019}]{Umeh:2019qyd}
-Umeh O.,  Koyama K.,  Maartens R.,  Schmidt F.,   Clarkson C.,  2019, \mn@doi
-  [JCAP] {10.1088/1475-7516/2019/05/020}, 1905, 020
-
-\bibitem[\protect\citeauthoryear{Umeh, Koyama  \& Crittenden}{Umeh
-  et~al.}{2020}]{Umeh:2020cag}
-Umeh O.,  Koyama K.,   Crittenden R.,  2020
-
-\bibitem[\protect\citeauthoryear{Verde, Heavens, Matarrese  \&
-  Moscardini}{Verde et~al.}{1998}]{Verde:1998zr}
-Verde L.,  Heavens A.~F.,  Matarrese S.,   Moscardini L.,  1998, \mn@doi
-  [Monthly Notices of the Royal Astronomical Society]
-  {10.1046/j.1365-8711.1998.01937.x}, 300, 747–756
-
-\bibitem[\protect\citeauthoryear{Verde, Wang, Heavens  \& Kamionkowski}{Verde
-  et~al.}{2000}]{Verde:1999ij}
-Verde L.,  Wang L.-M.,  Heavens A.,   Kamionkowski M.,  2000, \mn@doi [Mon.
-  Not. Roy. Astron. Soc.] {10.1046/j.1365-8711.2000.03191.x}, 313, L141
-
-\bibitem[\protect\citeauthoryear{Villa \& Rampf}{Villa \&
-  Rampf}{2016}]{Villa:2015ppa}
-Villa E.,  Rampf C.,  2016, \mn@doi [JCAP] {10.1088/1475-7516/2018/05/E01,
-  10.1088/1475-7516/2016/01/030}, 1601, 030
-
-\bibitem[\protect\citeauthoryear{Villaescusa-Navarro
-  et~al.}{Villaescusa-Navarro et~al.}{2018}]{Villaescusa-Navarro:2018vsg}
-Villaescusa-Navarro F.,  et~al., 2018, \mn@doi [Astrophys. J.]
-  {10.3847/1538-4357/aadba0}, 866, 135
-
-\bibitem[\protect\citeauthoryear{Villumsen}{Villumsen}{1995}]{Villumsen:1995ar}
-Villumsen J.~V.,  1995
-
-\bibitem[\protect\citeauthoryear{Wang, Beutler  \& Bacon}{Wang
-  et~al.}{2020}]{Wang:2020ibf}
-Wang M.~S.,  Beutler F.,   Bacon D.,  2020, \mn@doi [Mon. Not. Roy. Astron.
-  Soc.] {10.1093/mnras/staa2998}, 499, 2598
-
-\bibitem[\protect\citeauthoryear{Watkinson, Majumdar, Pritchard  \&
-  Mondal}{Watkinson et~al.}{2017}]{Watkinson:2017zbs}
-Watkinson C.~A.,  Majumdar S.,  Pritchard J.~R.,   Mondal R.,  2017, \mn@doi
-  [Mon. Not. Roy. Astron. Soc.] {10.1093/mnras/stx2130}, 472, 2436
-
-\bibitem[\protect\citeauthoryear{Witzemann, Alonso, Fonseca  \&
-  Santos}{Witzemann et~al.}{2019}]{Witzemann:2018cdx}
-Witzemann A.,  Alonso D.,  Fonseca J.,   Santos M.~G.,  2019, \mn@doi [Mon.
-  Not. Roy. Astron. Soc.] {10.1093/mnras/stz778}, 485, 5519
-
-\bibitem[\protect\citeauthoryear{Wolz et~al.,}{Wolz
-  et~al.}{2015}]{Wolz:2015sqa}
-Wolz L.,  et~al., 2015, \mn@doi [PoS] {10.22323/1.215.0035}, AASKA14, 035
-
-\bibitem[\protect\citeauthoryear{Yankelevich \& Porciani}{Yankelevich \&
-  Porciani}{2019}]{Yankelevich:2018uaz}
-Yankelevich V.,  Porciani C.,  2019, \mn@doi [Mon. Not. Roy. Astron. Soc.]
-  {10.1093/mnras/sty3143}, 483, 2078
-
-\bibitem[\protect\citeauthoryear{Yoo}{Yoo}{2010}]{Yoo:2010ni}
-Yoo J.,  2010, \mn@doi [Phys. Rev. D] {10.1103/PhysRevD.82.083508}, 82, 083508
-
-\bibitem[\protect\citeauthoryear{Yoo \& Zaldarriaga}{Yoo \&
-  Zaldarriaga}{2014}]{Yoo:2014sfa}
-Yoo J.,  Zaldarriaga M.,  2014, \mn@doi [Phys. Rev. D]
-  {10.1103/PhysRevD.90.023513}, 90, 023513
-
-\bibitem[\protect\citeauthoryear{Yoo, Fitzpatrick  \& Zaldarriaga}{Yoo
-  et~al.}{2009}]{Yoo:2009au}
-Yoo J.,  Fitzpatrick A.~L.,   Zaldarriaga M.,  2009, \mn@doi [Phys. Rev. D]
-  {10.1103/PhysRevD.80.083514}, 80, 083514
-
-\bibitem[\protect\citeauthoryear{Yoo, Hamaus, Seljak  \& Zaldarriaga}{Yoo
-  et~al.}{2012}]{Yoo:2012se}
-Yoo J.,  Hamaus N.,  Seljak U.,   Zaldarriaga M.,  2012, \mn@doi [Phys. Rev. D]
-  {10.1103/PhysRevD.86.063514}, 86, 063514
-
-\bibitem[\protect\citeauthoryear{Zhu, Pen, Yu  \& Chen}{Zhu
-  et~al.}{2018}]{Zhu:2016esh}
-Zhu H.-M.,  Pen U.-L.,  Yu Y.,   Chen X.,  2018, \mn@doi [Phys. Rev. D]
-  {10.1103/PhysRevD.98.043511}, 98, 043511
-
-\bibitem[\protect\citeauthoryear{de Putter, Dor\'e  \& Green}{de~Putter
-  et~al.}{2015}]{dePutter:2015vga}
-de Putter R.,  Dor\'e O.,   Green D.,  2015, \mn@doi [JCAP]
-  {10.1088/1475-7516/2015/10/024}, 10, 024
-
-\bibitem[\protect\citeauthoryear{de Weerd, Clarkson, Jolicoeur, Maartens  \&
-  Umeh}{de~Weerd et~al.}{2020}]{deWeerd:2019cae}
-de Weerd E.~M.,  Clarkson C.,  Jolicoeur S.,  Maartens R.,   Umeh O.,  2020,
-  \mn@doi [JCAP] {10.1088/1475-7516/2020/05/018}, 05, 018
-
-\makeatother
-\end{thebibliography}
+
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{100}
+
+\bibitem{Gil-Marin:2016wya}
+H.~Gil-Marín, W.~J. Percival, L.~Verde, J.~R. Brownstein, C.-H. Chuang, F.-S.
+  Kitaura et~al., \emph{{The clustering of galaxies in the SDSS-III Baryon
+  Oscillation Spectroscopic Survey: RSD measurement from the power spectrum and
+  bispectrum of the DR12 BOSS galaxies}},
+  \href{https://doi.org/10.1093/mnras/stw2679}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 465} (2017) 1757}
+  [\href{https://arxiv.org/abs/1606.00439}{{\ttfamily 1606.00439}}].
+
+\bibitem{Sugiyama:2018yzo}
+N.~S. Sugiyama, S.~Saito, F.~Beutler and H.-J. Seo, \emph{A complete fft-based
+  decomposition formalism for the redshift-space bispectrum},
+  \href{https://doi.org/10.1093/mnras/sty3249}{\emph{Monthly Notices of the
+  Royal Astronomical Society} {\bfseries 484} (2018) 364–384}.
+
+\bibitem{Karagiannis:2018jdt}
+D.~Karagiannis, A.~Lazanu, M.~Liguori, A.~Raccanelli, N.~Bartolo and L.~Verde,
+  \emph{Constraining primordial non-gaussianity with bispectrum and power
+  spectrum from upcoming optical and radio surveys},
+  \href{https://doi.org/10.1093/mnras/sty1029}{\emph{Monthly Notices of the
+  Royal Astronomical Society} {\bfseries 478} (2018) 1341–1376}.
+
+\bibitem{Yankelevich:2018uaz}
+V.~Yankelevich and C.~Porciani, \emph{{Cosmological information in the
+  redshift-space bispectrum}},
+  \href{https://doi.org/10.1093/mnras/sty3143}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 483} (2019) 2078}
+  [\href{https://arxiv.org/abs/1807.07076}{{\ttfamily 1807.07076}}].
+
+\bibitem{Oddo:2019run}
+A.~Oddo, E.~Sefusatti, C.~Porciani, P.~Monaco and A.~G. S\'anchez,
+  \emph{{Toward a robust inference method for the galaxy bispectrum: likelihood
+  function and model selection}},
+  \href{https://doi.org/10.1088/1475-7516/2020/03/056}{\emph{JCAP} {\bfseries
+  03} (2020) 056} [\href{https://arxiv.org/abs/1908.01774}{{\ttfamily
+  1908.01774}}].
+
+\bibitem{Sugiyama:2019ike}
+N.~S. Sugiyama, S.~Saito, F.~Beutler and H.-J. Seo, \emph{{Perturbation theory
+  approach to predict the covariance matrices of the galaxy power spectrum and
+  bispectrum in redshift space}},
+  \href{https://doi.org/10.1093/mnras/staa1940}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 497} (2020) 1684}
+  [\href{https://arxiv.org/abs/1908.06234}{{\ttfamily 1908.06234}}].
+
+\bibitem{Scoccimarro:2015bla}
+R.~Scoccimarro, \emph{{Fast Estimators for Redshift-Space Clustering}},
+  \href{https://doi.org/10.1103/PhysRevD.92.083532}{\emph{Phys. Rev. D}
+  {\bfseries 92} (2015) 083532}
+  [\href{https://arxiv.org/abs/1506.02729}{{\ttfamily 1506.02729}}].
+
+\bibitem{Tellarini:2016sgp}
+M.~Tellarini, A.~J. Ross, G.~Tasinato and D.~Wands, \emph{Galaxy bispectrum,
+  primordial non-gaussianity and redshift space distortions},
+  \href{https://doi.org/10.1088/1475-7516/2016/06/014}{\emph{Journal of
+  Cosmology and Astroparticle Physics} {\bfseries 2016} (2016) 014–014}.
+
+\bibitem{Slepian:2016kfz}
+Z.~Slepian et~al., \emph{{Detection of baryon acoustic oscillation features in
+  the large-scale three-point correlation function of SDSS BOSS DR12 CMASS
+  galaxies}}, \href{https://doi.org/10.1093/mnras/stx488}{\emph{Mon. Not. Roy.
+  Astron. Soc.} {\bfseries 469} (2017) 1738}
+  [\href{https://arxiv.org/abs/1607.06097}{{\ttfamily 1607.06097}}].
+
+\bibitem{Gagrani:2016rfy}
+P.~Gagrani and L.~Samushia, \emph{{Information Content of the Angular
+  Multipoles of Redshift-Space Galaxy Bispectrum}},
+  \href{https://doi.org/10.1093/mnras/stx135}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 467} (2017) 928}
+  [\href{https://arxiv.org/abs/1610.03488}{{\ttfamily 1610.03488}}].
+
+\bibitem{Desjacques:2018pfv}
+V.~Desjacques, D.~Jeong and F.~Schmidt, \emph{{The Galaxy Power Spectrum and
+  Bispectrum in Redshift Space}},
+  \href{https://doi.org/10.1088/1475-7516/2018/12/035}{\emph{JCAP} {\bfseries
+  12} (2018) 035} [\href{https://arxiv.org/abs/1806.04015}{{\ttfamily
+  1806.04015}}].
+
+\bibitem{Child:2018klv}
+H.~L. Child, M.~Takada, T.~Nishimichi, T.~Sunayama, Z.~Slepian, S.~Habib
+  et~al., \emph{{Bispectrum as Baryon Acoustic Oscillation Interferometer}},
+  \href{https://doi.org/10.1103/PhysRevD.98.123521}{\emph{Phys. Rev. D}
+  {\bfseries 98} (2018) 123521}
+  [\href{https://arxiv.org/abs/1806.11147}{{\ttfamily 1806.11147}}].
+
+\bibitem{Schmit:2018rtf}
+C.~J. Schmit, A.~F. Heavens and J.~R. Pritchard, \emph{{The gravitational and
+  lensing-ISW bispectrum of 21 cm radiation}},
+  \href{https://doi.org/10.1093/mnras/sty3400}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 483} (2019) 4259}
+  [\href{https://arxiv.org/abs/1810.00973}{{\ttfamily 1810.00973}}].
+
+\bibitem{DiDio:2018unb}
+E.~Di~Dio, R.~Durrer, R.~Maartens, F.~Montanari and O.~Umeh, \emph{{The
+  Full-Sky Angular Bispectrum in Redshift Space}},
+  \href{https://doi.org/10.1088/1475-7516/2019/04/053}{\emph{JCAP} {\bfseries
+  04} (2019) 053} [\href{https://arxiv.org/abs/1812.09297}{{\ttfamily
+  1812.09297}}].
+
+\bibitem{Gualdi:2019ybt}
+D.~Gualdi, H.~Gil-Mar\'\i{}n, M.~Manera, B.~Joachimi and O.~Lahav,
+  \emph{{Geometrical compression: a new method to enhance the BOSS galaxy
+  bispectrum monopole constraints}},
+  \href{https://doi.org/10.1093/mnrasl/sly242}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 484} (2019) L29}
+  [\href{https://arxiv.org/abs/1901.00987}{{\ttfamily 1901.00987}}].
+
+\bibitem{Sarkar:2019ojl}
+D.~Sarkar, S.~Majumdar and S.~Bharadwaj, \emph{{Modelling the post-reionization
+  neutral hydrogen ($\mathrm{HI}$) 21-cm bispectrum}},
+  \href{https://doi.org/10.1093/mnras/stz2799}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 490} (2019) 2880}
+  [\href{https://arxiv.org/abs/1907.01819}{{\ttfamily 1907.01819}}].
+
+\bibitem{Chudaykin:2019ock}
+A.~Chudaykin and M.~M. Ivanov, \emph{{Measuring neutrino masses with
+  large-scale structure: Euclid forecast with controlled theoretical error}},
+  \href{https://doi.org/10.1088/1475-7516/2019/11/034}{\emph{JCAP} {\bfseries
+  11} (2019) 034} [\href{https://arxiv.org/abs/1907.06666}{{\ttfamily
+  1907.06666}}].
+
+\bibitem{Philcox:2019hdi}
+O.~H.~E. Philcox and D.~J. Eisenstein, \emph{{Computing the Small-Scale Galaxy
+  Power Spectrum and Bispectrum in Configuration-Space}},
+  \href{https://doi.org/10.1093/mnras/stz3335}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 492} (2020) 1214}
+  [\href{https://arxiv.org/abs/1912.01010}{{\ttfamily 1912.01010}}].
+
+\bibitem{Durrer:2020orn}
+R.~Durrer, M.~Jalilvand, R.~Kothari, R.~Maartens and F.~Montanari,
+  \emph{{Full-sky bispectrum in redshift space for 21cm intensity maps}},
+  \href{https://doi.org/10.1088/1475-7516/2020/12/003}{\emph{JCAP} {\bfseries
+  12} (2020) 003} [\href{https://arxiv.org/abs/2008.02266}{{\ttfamily
+  2008.02266}}].
+
+\bibitem{Montanari:2020uez}
+F.~Montanari and S.~Camera, \emph{{Speeding up the detectability of the
+  harmonic-space galaxy bispectrum}},
+  \href{https://doi.org/10.1088/1475-7516/2021/01/002}{\emph{JCAP} {\bfseries
+  01} (2021) 002} [\href{https://arxiv.org/abs/2008.11131}{{\ttfamily
+  2008.11131}}].
+
+\bibitem{Tellarini:2015faa}
+M.~Tellarini, A.~J. Ross, G.~Tasinato and D.~Wands, \emph{{Non-local bias in
+  the halo bispectrum with primordial non-Gaussianity}},
+  \href{https://doi.org/10.1088/1475-7516/2015/07/004}{\emph{JCAP} {\bfseries
+  07} (2015) 004} [\href{https://arxiv.org/abs/1504.00324}{{\ttfamily
+  1504.00324}}].
+
+\bibitem{Watkinson:2017zbs}
+C.~A. Watkinson, S.~Majumdar, J.~R. Pritchard and R.~Mondal, \emph{{A fast
+  estimator for the bispectrum and beyond \textendash{} a practical method for
+  measuring non-Gaussianity in 21-cm maps}},
+  \href{https://doi.org/10.1093/mnras/stx2130}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 472} (2017) 2436}
+  [\href{https://arxiv.org/abs/1705.06284}{{\ttfamily 1705.06284}}].
+
+\bibitem{Majumdar:2017tdm}
+S.~Majumdar, J.~R. Pritchard, R.~Mondal, C.~A. Watkinson, S.~Bharadwaj and
+  G.~Mellema, \emph{{Quantifying the non-Gaussianity in the EoR 21-cm signal
+  through bispectrum}}, \href{https://doi.org/10.1093/mnras/sty535}{\emph{Mon.
+  Not. Roy. Astron. Soc.} {\bfseries 476} (2018) 4007}
+  [\href{https://arxiv.org/abs/1708.08458}{{\ttfamily 1708.08458}}].
+
+\bibitem{Karagiannis:2019jjx}
+D.~Karagiannis, A.~Slosar and M.~Liguori, \emph{{Forecasts on Primordial
+  non-Gaussianity from 21 cm Intensity Mapping experiments}},
+  \href{https://doi.org/10.1088/1475-7516/2020/11/052}{\emph{JCAP} {\bfseries
+  11} (2020) 052} [\href{https://arxiv.org/abs/1911.03964}{{\ttfamily
+  1911.03964}}].
+
+\bibitem{Bharadwaj:2020wkc}
+S.~Bharadwaj, A.~Mazumdar and D.~Sarkar, \emph{{Quantifying the Redshift Space
+  Distortion of the Bispectrum I: Primordial Non-Gaussianity}},
+  \href{https://doi.org/10.1093/mnras/staa279}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 493} (2020) 594}
+  [\href{https://arxiv.org/abs/2001.10243}{{\ttfamily 2001.10243}}].
+
+\bibitem{Kehagias:2015tda}
+A.~Kehagias, A.~Moradinezhad~Dizgah, J.~Nore\~na, H.~Perrier and A.~Riotto,
+  \emph{{A Consistency Relation for the Observed Galaxy Bispectrum and the
+  Local non-Gaussianity from Relativistic Corrections}},
+  \href{https://doi.org/10.1088/1475-7516/2015/08/018}{\emph{JCAP} {\bfseries
+  08} (2015) 018} [\href{https://arxiv.org/abs/1503.04467}{{\ttfamily
+  1503.04467}}].
+
+\bibitem{Umeh:2016nuh}
+O.~Umeh, S.~Jolicoeur, R.~Maartens and C.~Clarkson, \emph{{A general
+  relativistic signature in the galaxy bispectrum: the local effects of
+  observing on the lightcone}},
+  \href{https://doi.org/10.1088/1475-7516/2017/03/034}{\emph{JCAP} {\bfseries
+  03} (2017) 034} [\href{https://arxiv.org/abs/1610.03351}{{\ttfamily
+  1610.03351}}].
+
+\bibitem{DiDio:2016gpd}
+E.~Di~Dio, H.~Perrier, R.~Durrer, G.~Marozzi, A.~Moradinezhad~Dizgah,
+  J.~Noreña et~al., \emph{{Non-Gaussianities due to Relativistic Corrections
+  to the Observed Galaxy Bispectrum}},
+  \href{https://doi.org/10.1088/1475-7516/2017/03/006}{\emph{JCAP} {\bfseries
+  1703} (2017) 006} [\href{https://arxiv.org/abs/1611.03720}{{\ttfamily
+  1611.03720}}].
+
+\bibitem{Jolicoeur:2017nyt}
+S.~Jolicoeur, O.~Umeh, R.~Maartens and C.~Clarkson, \emph{{Imprints of local
+  lightcone \textbackslash{} projection effects on the galaxy bispectrum. Part
+  II}}, \href{https://doi.org/10.1088/1475-7516/2017/09/040}{\emph{JCAP}
+  {\bfseries 09} (2017) 040}
+  [\href{https://arxiv.org/abs/1703.09630}{{\ttfamily 1703.09630}}].
+
+\bibitem{Bertacca:2017dzm}
+D.~Bertacca, A.~Raccanelli, N.~Bartolo, M.~Liguori, S.~Matarrese and L.~Verde,
+  \emph{{Relativistic wide-angle galaxy bispectrum on the light-cone}},
+  \href{https://doi.org/10.1103/PhysRevD.97.023531}{\emph{Phys. Rev.}
+  {\bfseries D97} (2018) 023531}
+  [\href{https://arxiv.org/abs/1705.09306}{{\ttfamily 1705.09306}}].
+
+\bibitem{Jolicoeur:2017eyi}
+S.~Jolicoeur, O.~Umeh, R.~Maartens and C.~Clarkson, \emph{{Imprints of local
+  lightcone projection effects on the galaxy bispectrum. Part III. Relativistic
+  corrections from nonlinear dynamical evolution on large-scales}},
+  \href{https://doi.org/10.1088/1475-7516/2018/03/036}{\emph{JCAP} {\bfseries
+  03} (2018) 036} [\href{https://arxiv.org/abs/1711.01812}{{\ttfamily
+  1711.01812}}].
+
+\bibitem{Koyama:2018ttg}
+K.~Koyama, O.~Umeh, R.~Maartens and D.~Bertacca, \emph{{The observed galaxy
+  bispectrum from single-field inflation in the squeezed limit}},
+  \href{https://doi.org/10.1088/1475-7516/2018/07/050}{\emph{JCAP} {\bfseries
+  07} (2018) 050} [\href{https://arxiv.org/abs/1805.09189}{{\ttfamily
+  1805.09189}}].
+
+\bibitem{Clarkson:2018dwn}
+C.~Clarkson, E.~M. de~Weerd, S.~Jolicoeur, R.~Maartens and O.~Umeh, \emph{{The
+  dipole of the galaxy bispectrum}},
+  \href{https://doi.org/10.1093/mnrasl/slz066}{\emph{Monthly Notices of the
+  Royal Astronomical Society} {\bfseries 486} (2019) L101}
+  [\href{https://arxiv.org/abs/1812.09512}{{\ttfamily 1812.09512}}].
+
+\bibitem{Maartens:2019yhx}
+R.~Maartens, S.~Jolicoeur, O.~Umeh, E.~M. De~Weerd, C.~Clarkson and S.~Camera,
+  \emph{Detecting the relativistic galaxy bispectrum},
+  \href{https://doi.org/10.1088/1475-7516/2020/03/065}{\emph{JCAP} {\bfseries
+  2020} (2020) 065–065}.
+
+\bibitem{Jeong:2019igb}
+D.~Jeong and F.~Schmidt, \emph{{Parity-odd galaxy bispectrum}},
+  \href{https://doi.org/10.1103/PhysRevD.102.023530}{\emph{Phys. Rev. D}
+  {\bfseries 102} (2020) 023530}
+  [\href{https://arxiv.org/abs/1906.05198}{{\ttfamily 1906.05198}}].
+
+\bibitem{Kaiser:1987qv}
+N.~Kaiser, \emph{{Clustering in real space and in redshift space}}, {\emph{Mon.
+  Not. Roy. Astron. Soc.} {\bfseries 227} (1987) 1}.
+
+\bibitem{McDonald:2009dh}
+P.~McDonald, \emph{{Gravitational redshift and other redshift-space distortions
+  of the imaginary part of the power spectrum}},
+  \href{https://doi.org/10.1088/1475-7516/2009/11/026}{\emph{JCAP} {\bfseries
+  11} (2009) 026} [\href{https://arxiv.org/abs/0907.5220}{{\ttfamily
+  0907.5220}}].
+
+\bibitem{Challinor:2011bk}
+A.~Challinor and A.~Lewis, \emph{{The linear power spectrum of observed source
+  number counts}},
+  \href{https://doi.org/10.1103/PhysRevD.84.043516}{\emph{Phys. Rev. D}
+  {\bfseries 84} (2011) 043516}
+  [\href{https://arxiv.org/abs/1105.5292}{{\ttfamily 1105.5292}}].
+
+\bibitem{Raccanelli:2016avd}
+A.~Raccanelli, D.~Bertacca, D.~Jeong, M.~C. Neyrinck and A.~S. Szalay,
+  \emph{{Doppler term in the galaxy two-point correlation function: wide-angle,
+  velocity, Doppler lensing and cosmic acceleration effects}},
+  \href{https://doi.org/10.1016/j.dark.2017.12.003}{\emph{Phys. Dark Univ.}
+  {\bfseries 19} (2018) 109}
+  [\href{https://arxiv.org/abs/1602.03186}{{\ttfamily 1602.03186}}].
+
+\bibitem{Hall:2016bmm}
+A.~Hall and C.~Bonvin, \emph{{Measuring cosmic velocities with 21 cm intensity
+  mapping and galaxy redshift survey cross-correlation dipoles}},
+  \href{https://doi.org/10.1103/PhysRevD.95.043530}{\emph{Phys. Rev. D}
+  {\bfseries 95} (2017) 043530}
+  [\href{https://arxiv.org/abs/1609.09252}{{\ttfamily 1609.09252}}].
+
+\bibitem{Abramo:2017xnp}
+L.~R. Abramo and D.~Bertacca, \emph{Disentangling the effects of doppler
+  velocity and primordial non-gaussianity in galaxy power spectra},
+  \href{https://doi.org/10.1103/physrevd.96.123535}{\emph{Physical Review D}
+  {\bfseries 96} (2017) }.
+
+\bibitem{Bonvin:2014owa}
+C.~Bonvin, \emph{{Isolating relativistic effects in large-scale structure}},
+  \href{https://doi.org/10.1088/0264-9381/31/23/234002}{\emph{Class. Quant.
+  Grav.} {\bfseries 31} (2014) 234002}
+  [\href{https://arxiv.org/abs/1409.2224}{{\ttfamily 1409.2224}}].
+
+\bibitem{DiDio:2018zmk}
+E.~Di~Dio and U.~Seljak, \emph{{The relativistic dipole and gravitational
+  redshift on LSS}},
+  \href{https://doi.org/10.1088/1475-7516/2019/04/050}{\emph{JCAP} {\bfseries
+  04} (2019) 050} [\href{https://arxiv.org/abs/1811.03054}{{\ttfamily
+  1811.03054}}].
+
+\bibitem{Scoccimarro:1999ed}
+R.~Scoccimarro, H.~M.~P. Couchman and J.~A. Frieman, \emph{The bispectrum as a
+  signature of gravitational instability in redshift space},
+  \href{https://doi.org/10.1086/307220}{\emph{The Astrophysical Journal}
+  {\bfseries 517} (1999) 531–540}.
+
+\bibitem{Nan:2017oaq}
+Y.~Nan, K.~Yamamoto and C.~Hikage, \emph{{Higher multipoles of the galaxy
+  bispectrum in redshift space}},
+  \href{https://doi.org/10.1088/1475-7516/2018/07/038}{\emph{JCAP} {\bfseries
+  07} (2018) 038} [\href{https://arxiv.org/abs/1706.03515}{{\ttfamily
+  1706.03515}}].
+
+\bibitem{Bertacca:2014hwa}
+D.~Bertacca, \emph{{Observed galaxy number counts on the light cone up to
+  second order: III. Magnification bias}},
+  \href{https://doi.org/10.1088/0264-9381/32/19/195011}{\emph{Class. Quant.
+  Grav.} {\bfseries 32} (2015) 195011}
+  [\href{https://arxiv.org/abs/1409.2024}{{\ttfamily 1409.2024}}].
+
+\bibitem{Bertacca:2014dra}
+D.~Bertacca, R.~Maartens and C.~Clarkson, \emph{{Observed galaxy number counts
+  on the lightcone up to second order: I. Main result}},
+  \href{https://doi.org/10.1088/1475-7516/2014/09/037}{\emph{JCAP} {\bfseries
+  09} (2014) 037} [\href{https://arxiv.org/abs/1405.4403}{{\ttfamily
+  1405.4403}}].
+
+\bibitem{Yoo:2014sfa}
+J.~Yoo and M.~Zaldarriaga, \emph{{Beyond the Linear-Order Relativistic Effect
+  in Galaxy Clustering: Second-Order Gauge-Invariant Formalism}},
+  \href{https://doi.org/10.1103/PhysRevD.90.023513}{\emph{Phys. Rev. D}
+  {\bfseries 90} (2014) 023513}
+  [\href{https://arxiv.org/abs/1406.4140}{{\ttfamily 1406.4140}}].
+
+\bibitem{DiDio:2014lka}
+E.~Di~Dio, R.~Durrer, G.~Marozzi and F.~Montanari, \emph{{Galaxy number counts
+  to second order and their bispectrum}},
+  \href{https://doi.org/10.1088/1475-7516/2014/12/017}{\emph{JCAP} {\bfseries
+  12} (2014) 017} [\href{https://arxiv.org/abs/1407.0376}{{\ttfamily
+  1407.0376}}].
+
+\bibitem{Tansella:2017rpi}
+V.~Tansella, C.~Bonvin, R.~Durrer, B.~Ghosh and E.~Sellentin, \emph{{The
+  full-sky relativistic correlation function and power spectrum of galaxy
+  number counts. Part I: theoretical aspects}},
+  \href{https://doi.org/10.1088/1475-7516/2018/03/019}{\emph{JCAP} {\bfseries
+  03} (2018) 019} [\href{https://arxiv.org/abs/1708.00492}{{\ttfamily
+  1708.00492}}].
+
+\bibitem{Verde:1998zr}
+L.~Verde, A.~F. Heavens, S.~Matarrese and L.~Moscardini, \emph{Large-scale bias
+  in the universe - ii. redshift-space bispectrum},
+  \href{https://doi.org/10.1046/j.1365-8711.1998.01937.x}{\emph{Monthly Notices
+  of the Royal Astronomical Society} {\bfseries 300} (1998) 747–756}.
+
+\bibitem{Villa:2015ppa}
+E.~Villa and C.~Rampf, \emph{{Relativistic perturbations in $\Lambda$CDM:
+  Eulerian \& Lagrangian approaches}},
+  \href{https://doi.org/10.1088/1475-7516/2018/05/E01,
+  10.1088/1475-7516/2016/01/030}{\emph{JCAP} {\bfseries 1601} (2016) 030}
+  [\href{https://arxiv.org/abs/1505.04782}{{\ttfamily 1505.04782}}].
+
+\bibitem{Desjacques:2016bnm}
+V.~Desjacques, D.~Jeong and F.~Schmidt, \emph{{Large-Scale Galaxy Bias}},
+  \href{https://doi.org/10.1016/j.physrep.2017.12.002}{\emph{Phys. Rept.}
+  {\bfseries 733} (2018) 1} [\href{https://arxiv.org/abs/1611.09787}{{\ttfamily
+  1611.09787}}].
+
+\bibitem{Jolicoeur:2018blf}
+S.~Jolicoeur, A.~Allahyari, C.~Clarkson, J.~Larena, O.~Umeh and R.~Maartens,
+  \emph{{Imprints of local lightcone projection effects on the galaxy
+  bispectrum IV: Second-order vector and tensor contributions}},
+  \href{https://doi.org/10.1088/1475-7516/2019/03/004}{\emph{JCAP} {\bfseries
+  03} (2019) 004} [\href{https://arxiv.org/abs/1811.05458}{{\ttfamily
+  1811.05458}}].
+
+\bibitem{Umeh:2015gza}
+O.~Umeh, R.~Maartens and M.~Santos, \emph{{Nonlinear modulation of the HI power
+  spectrum on ultra-large scales. I}},
+  \href{https://doi.org/10.1088/1475-7516/2016/03/061}{\emph{JCAP} {\bfseries
+  03} (2016) 061} [\href{https://arxiv.org/abs/1509.03786}{{\ttfamily
+  1509.03786}}].
+
+\bibitem{Fonseca:2018hsu}
+J.~Fonseca, R.~Maartens and M.~G. Santos, \emph{{Synergies between intensity
+  maps of hydrogen lines}},
+  \href{https://doi.org/10.1093/mnras/sty1702}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 479} (2018) 3490}
+  [\href{https://arxiv.org/abs/1803.07077}{{\ttfamily 1803.07077}}].
+
+\bibitem{Camera:2018jys}
+S.~Camera, J.~Fonseca, R.~Maartens and M.~G. Santos, \emph{{Optimized angular
+  power spectra for spectroscopic galaxy surveys}},
+  \href{https://doi.org/10.1093/mnras/sty2284}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 481} (2018) 1251}
+  [\href{https://arxiv.org/abs/1803.10773}{{\ttfamily 1803.10773}}].
+
+\bibitem{Lewis:1999bs}
+A.~Lewis, A.~Challinor and A.~Lasenby, \emph{{Efficient computation of CMB
+  anisotropies in closed FRW models}},
+  \href{https://doi.org/10.1086/309179}{\emph{Astrophys. J.} {\bfseries 538}
+  (2000) 473} [\href{https://arxiv.org/abs/astro-ph/9911177}{{\ttfamily
+  astro-ph/9911177}}].
+
+\bibitem{Jeong:2011as}
+D.~Jeong, F.~Schmidt and C.~M. Hirata, \emph{Large-scale clustering of galaxies
+  in general relativity},
+  \href{https://doi.org/10.1103/physrevd.85.023504}{\emph{Physical Review D}
+  {\bfseries 85} (2012) }.
+
+\bibitem{Bernardeau:2001qr}
+F.~Bernardeau, S.~Colombi, E.~Gaztañaga and R.~Scoccimarro, \emph{Large-scale
+  structure of the universe and cosmological perturbation theory},
+  \href{https://doi.org/10.1016/s0370-1573(02)00135-7}{\emph{Physics Reports}
+  {\bfseries 367} (2002) 1–248}.
+
+\bibitem{Bonvin:2011bg}
+C.~Bonvin and R.~Durrer, \emph{{What galaxy surveys really measure}},
+  \href{https://doi.org/10.1103/PhysRevD.84.063505}{\emph{Phys. Rev. D}
+  {\bfseries 84} (2011) 063505}
+  [\href{https://arxiv.org/abs/1105.5280}{{\ttfamily 1105.5280}}].
+
+\bibitem{Alonso:2015uua}
+D.~Alonso, P.~Bull, P.~G. Ferreira, R.~Maartens and M.~Santos, \emph{{Ultra
+  large-scale cosmology in next-generation experiments with single tracers}},
+  \href{https://doi.org/10.1088/0004-637X/814/2/145}{\emph{Astrophys. J.}
+  {\bfseries 814} (2015) 145}
+  [\href{https://arxiv.org/abs/1505.07596}{{\ttfamily 1505.07596}}].
+
+\bibitem{Bonvin:2008ni}
+C.~Bonvin, \emph{{Effect of Peculiar Motion in Weak Lensing}},
+  \href{https://doi.org/10.1103/PhysRevD.78.123530}{\emph{Phys. Rev. D}
+  {\bfseries 78} (2008) 123530}
+  [\href{https://arxiv.org/abs/0810.0180}{{\ttfamily 0810.0180}}].
+
+\bibitem{Bolejko:2012uj}
+K.~Bolejko, C.~Clarkson, R.~Maartens, D.~Bacon, N.~Meures and E.~Beynon,
+  \emph{{Antilensing: The Bright Side of Voids}},
+  \href{https://doi.org/10.1103/PhysRevLett.110.021302}{\emph{Phys. Rev. Lett.}
+  {\bfseries 110} (2013) 021302}
+  [\href{https://arxiv.org/abs/1209.3142}{{\ttfamily 1209.3142}}].
+
+\bibitem{Scoccimarro:2003wn}
+R.~Scoccimarro, E.~Sefusatti and M.~Zaldarriaga, \emph{{Probing primordial
+  non-Gaussianity with large - scale structure}},
+  \href{https://doi.org/10.1103/PhysRevD.69.103513}{\emph{Phys. Rev. D}
+  {\bfseries 69} (2004) 103513}
+  [\href{https://arxiv.org/abs/astro-ph/0312286}{{\ttfamily
+  astro-ph/0312286}}].
+
+\bibitem{Chan:2016ehg}
+K.~C. Chan and L.~Blot, \emph{{Assessment of the Information Content of the
+  Power Spectrum and Bispectrum}},
+  \href{https://doi.org/10.1103/PhysRevD.96.023528}{\emph{Phys. Rev. D}
+  {\bfseries 96} (2017) 023528}
+  [\href{https://arxiv.org/abs/1610.06585}{{\ttfamily 1610.06585}}].
+
+\bibitem{Smith:2002dz}
+{\scshape VIRGO Consortium} collaboration, R.~E. Smith, J.~A. Peacock,
+  A.~Jenkins, S.~D.~M. White, C.~S. Frenk, F.~R. Pearce et~al., \emph{{Stable
+  clustering, the halo model and nonlinear cosmological power spectra}},
+  \href{https://doi.org/10.1046/j.1365-8711.2003.06503.x}{\emph{Mon. Not. Roy.
+  Astron. Soc.} {\bfseries 341} (2003) 1311}
+  [\href{https://arxiv.org/abs/astro-ph/0207664}{{\ttfamily
+  astro-ph/0207664}}].
+
+\bibitem{Liguori:2010hx}
+M.~Liguori, E.~Sefusatti, J.~R. Fergusson and E.~P.~S. Shellard,
+  \emph{{Primordial non-Gaussianity and Bispectrum Measurements in the Cosmic
+  Microwave Background and Large-Scale Structure}},
+  \href{https://doi.org/10.1155/2010/980523}{\emph{Adv. Astron.} {\bfseries
+  2010} (2010) 980523} [\href{https://arxiv.org/abs/1001.4707}{{\ttfamily
+  1001.4707}}].
+
+\bibitem{Aghanim:2018eyx}
+{\scshape Planck} collaboration, N.~Aghanim et~al., \emph{{Planck 2018 results.
+  VI. Cosmological parameters}},
+  \href{https://arxiv.org/abs/1807.06209}{{\ttfamily 1807.06209}}.
+
+\bibitem{Pozzetti:2016cch}
+L.~Pozzetti, C.~M. Hirata, J.~E. Geach, A.~Cimatti, C.~Baugh, O.~Cucciati
+  et~al., \emph{{Modelling the number density of Hα emitters for future
+  spectroscopic near-IR space missions}},
+  \href{https://doi.org/10.1051/0004-6361/201527081}{\emph{Astron. Astrophys.}
+  {\bfseries 590} (2016) A3}
+  [\href{https://arxiv.org/abs/1603.01453}{{\ttfamily 1603.01453}}].
+
+\bibitem{Pan:2019dxa}
+H.~Pan, D.~Obreschkow, C.~Howlett, C.~d.~P. Lagos, P.~J. Elahi, C.~Baugh
+  et~al., \emph{{Multi-wavelength consensus of large-scale linear bias}},
+  \href{https://arxiv.org/abs/1909.12069}{{\ttfamily 1909.12069}}.
+
+\bibitem{Bonvin:2013ogt}
+C.~Bonvin, L.~Hui and E.~Gaztanaga, \emph{{Asymmetric galaxy correlation
+  functions}}, \href{https://doi.org/10.1103/PhysRevD.89.083535}{\emph{Phys.
+  Rev. D} {\bfseries 89} (2014) 083535}
+  [\href{https://arxiv.org/abs/1309.1321}{{\ttfamily 1309.1321}}].
+
+\bibitem{Bonvin:2015kuc}
+C.~Bonvin, L.~Hui and E.~Gaztanaga, \emph{{Optimising the measurement of
+  relativistic distortions in large-scale structure}},
+  \href{https://doi.org/10.1088/1475-7516/2016/08/021}{\emph{JCAP} {\bfseries
+  08} (2016) 021} [\href{https://arxiv.org/abs/1512.03566}{{\ttfamily
+  1512.03566}}].
+
+\bibitem{Gaztanaga:2015jrs}
+E.~Gaztanaga, C.~Bonvin and L.~Hui, \emph{{Measurement of the dipole in the
+  cross-correlation function of galaxies}},
+  \href{https://doi.org/10.1088/1475-7516/2017/01/032}{\emph{JCAP} {\bfseries
+  01} (2017) 032} [\href{https://arxiv.org/abs/1512.03918}{{\ttfamily
+  1512.03918}}].
+
+\bibitem{Irsic:2015nla}
+V.~Iršič, E.~Di~Dio and M.~Viel, \emph{{Relativistic effects in
+  Lyman-$\alpha$ forest}},
+  \href{https://doi.org/10.1088/1475-7516/2016/02/051}{\emph{JCAP} {\bfseries
+  02} (2016) 051} [\href{https://arxiv.org/abs/1510.03436}{{\ttfamily
+  1510.03436}}].
+
+\bibitem{Lepori:2017twd}
+F.~Lepori, E.~Di~Dio, E.~Villa and M.~Viel, \emph{{Optimal galaxy survey for
+  detecting the dipole in the cross-correlation with 21 cm Intensity Mapping}},
+  \href{https://doi.org/10.1088/1475-7516/2018/05/043}{\emph{JCAP} {\bfseries
+  05} (2018) 043} [\href{https://arxiv.org/abs/1709.03523}{{\ttfamily
+  1709.03523}}].
+
+\bibitem{Bonvin:2018ckp}
+C.~Bonvin and P.~Fleury, \emph{{Testing the equivalence principle on
+  cosmological scales}},
+  \href{https://doi.org/10.1088/1475-7516/2018/05/061}{\emph{JCAP} {\bfseries
+  05} (2018) 061} [\href{https://arxiv.org/abs/1803.02771}{{\ttfamily
+  1803.02771}}].
+
+\bibitem{Lepori:2019cqp}
+F.~Lepori, V.~Iršič, E.~Di~Dio and M.~Viel, \emph{{The impact of relativistic
+  effects on the 3D Quasar-Lyman-$\alpha$ cross-correlation}},
+  \href{https://doi.org/10.1088/1475-7516/2020/04/006}{\emph{JCAP} {\bfseries
+  04} (2020) 006} [\href{https://arxiv.org/abs/1910.06305}{{\ttfamily
+  1910.06305}}].
+
+\bibitem{Okoli:2016vmd}
+C.~Okoli, M.~I. Scrimgeour, N.~Afshordi and M.~J. Hudson, \emph{{Dynamical
+  friction in the primordial neutrino sea}},
+  \href{https://doi.org/10.1093/mnras/stx560}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 468} (2017) 2164}
+  [\href{https://arxiv.org/abs/1611.04589}{{\ttfamily 1611.04589}}].
+
+\bibitem{Beutler:2018vpe}
+F.~Beutler, E.~Castorina and P.~Zhang, \emph{{Interpreting measurements of the
+  anisotropic galaxy power spectrum}},
+  \href{https://doi.org/10.1088/1475-7516/2019/03/040}{\emph{JCAP} {\bfseries
+  03} (2019) 040} [\href{https://arxiv.org/abs/1810.05051}{{\ttfamily
+  1810.05051}}].
+
+\bibitem{Castorina:2017inr}
+E.~Castorina and M.~White, \emph{{Beyond the plane-parallel approximation for
+  redshift surveys}}, \href{https://doi.org/10.1093/mnras/sty410}{\emph{Mon.
+  Not. Roy. Astron. Soc.} {\bfseries 476} (2018) 4403}
+  [\href{https://arxiv.org/abs/1709.09730}{{\ttfamily 1709.09730}}].
+
+\bibitem{DiDio:2015bua}
+E.~Di~Dio, R.~Durrer, G.~Marozzi and F.~Montanari, \emph{{The bispectrum of
+  relativistic galaxy number counts}},
+  \href{https://doi.org/10.1088/1475-7516/2016/01/016}{\emph{JCAP} {\bfseries
+  01} (2016) 016} [\href{https://arxiv.org/abs/1510.04202}{{\ttfamily
+  1510.04202}}].
+
+\bibitem{Hall:2012wd}
+A.~Hall, C.~Bonvin and A.~Challinor, \emph{{Testing General Relativity with
+  21-cm intensity mapping}},
+  \href{https://doi.org/10.1103/PhysRevD.87.064026}{\emph{Phys. Rev. D}
+  {\bfseries 87} (2013) 064026}
+  [\href{https://arxiv.org/abs/1212.0728}{{\ttfamily 1212.0728}}].
+
+\bibitem{Villaescusa-Navarro:2018vsg}
+F.~Villaescusa-Navarro et~al., \emph{{Ingredients for 21 cm Intensity
+  Mapping}}, \href{https://doi.org/10.3847/1538-4357/aadba0}{\emph{Astrophys.
+  J.} {\bfseries 866} (2018) 135}
+  [\href{https://arxiv.org/abs/1804.09180}{{\ttfamily 1804.09180}}].
+
+\bibitem{Santos:2017qgq}
+{\scshape MeerKLASS} collaboration, M.~G. Santos et~al., \emph{{MeerKLASS:
+  MeerKAT Large Area Synoptic Survey}},  in \emph{{MeerKAT Science}: {On the
+  Pathway to the SKA}}, 9, 2017,
+  \href{https://arxiv.org/abs/1709.06099}{{\ttfamily 1709.06099}}.
+
+\bibitem{Fonseca:2015laa}
+J.~Fonseca, S.~Camera, M.~Santos and R.~Maartens, \emph{{Hunting down
+  horizon-scale effects with multi-wavelength surveys}},
+  \href{https://doi.org/10.1088/2041-8205/812/2/L22}{\emph{Astrophys. J. Lett.}
+  {\bfseries 812} (2015) L22}
+  [\href{https://arxiv.org/abs/1507.04605}{{\ttfamily 1507.04605}}].
+
+\bibitem{Umeh:2016thy}
+O.~Umeh, \emph{{Imprint of non-linear effects on HI intensity mapping on large
+  scales}}, \href{https://doi.org/10.1088/1475-7516/2017/06/005}{\emph{JCAP}
+  {\bfseries 06} (2017) 005}
+  [\href{https://arxiv.org/abs/1611.04963}{{\ttfamily 1611.04963}}].
+
+\bibitem{Jalivand:2018vfz}
+M.~Jalilvand, E.~Majerotto, R.~Durrer and M.~Kunz, \emph{{Intensity mapping of
+  the 21 cm emission: lensing}},
+  \href{https://doi.org/10.1088/1475-7516/2019/01/020}{\emph{JCAP} {\bfseries
+  01} (2019) 020} [\href{https://arxiv.org/abs/1807.01351}{{\ttfamily
+  1807.01351}}].
+
+\bibitem{Bertacca:2014wga}
+D.~Bertacca, R.~Maartens and C.~Clarkson, \emph{{Observed galaxy number counts
+  on the lightcone up to second order: II. Derivation}},
+  \href{https://doi.org/10.1088/1475-7516/2014/11/013}{\emph{JCAP} {\bfseries
+  1411} (2014) 013} [\href{https://arxiv.org/abs/1406.0319}{{\ttfamily
+  1406.0319}}].
+
+\bibitem{Blas:2011rf}
+D.~Blas, J.~Lesgourgues and T.~Tram, \emph{{The Cosmic Linear Anisotropy
+  Solving System (CLASS) II: Approximation schemes}},
+  \href{https://doi.org/10.1088/1475-7516/2011/07/034}{\emph{JCAP} {\bfseries
+  07} (2011) 034} [\href{https://arxiv.org/abs/1104.2933}{{\ttfamily
+  1104.2933}}].
+
+\bibitem{Sheth:1999su}
+R.~K. Sheth, H.~J. Mo and G.~Tormen, \emph{{Ellipsoidal collapse and an
+  improved model for the number and spatial distribution of dark matter
+  haloes}}, \href{https://doi.org/10.1046/j.1365-8711.2001.04006.x}{\emph{Mon.
+  Not. Roy. Astron. Soc.} {\bfseries 323} (2001) 1}
+  [\href{https://arxiv.org/abs/astro-ph/9907024}{{\ttfamily
+  astro-ph/9907024}}].
+
+\bibitem{Sheth:2001dp}
+R.~K. Sheth and G.~Tormen, \emph{{An Excursion Set Model of Hierarchical
+  Clustering : Ellipsoidal Collapse and the Moving Barrier}},
+  \href{https://doi.org/10.1046/j.1365-8711.2002.04950.x}{\emph{Mon. Not. Roy.
+  Astron. Soc.} {\bfseries 329} (2002) 61}
+  [\href{https://arxiv.org/abs/astro-ph/0105113}{{\ttfamily
+  astro-ph/0105113}}].
+
+\bibitem{Sheth:1999mn}
+R.~K. Sheth and G.~Tormen, \emph{{Large scale bias and the peak background
+  split}}, \href{https://doi.org/10.1046/j.1365-8711.1999.02692.x}{\emph{Mon.
+  Not. Roy. Astron. Soc.} {\bfseries 308} (1999) 119}
+  [\href{https://arxiv.org/abs/astro-ph/9901122}{{\ttfamily
+  astro-ph/9901122}}].
+
+\bibitem{Kitayama:1996ne}
+T.~Kitayama and Y.~Suto, \emph{{Semianalytical predictions for statistical
+  properties of x-ray clusters of galaxies in cold dark matter universes}},
+  \href{https://doi.org/10.1086/177797}{\emph{Astrophys. J.} {\bfseries 469}
+  (1996) 480} [\href{https://arxiv.org/abs/astro-ph/9604141}{{\ttfamily
+  astro-ph/9604141}}].
+
+\bibitem{Bull:2014rha}
+P.~Bull, P.~G. Ferreira, P.~Patel and M.~G. Santos, \emph{{Late-time cosmology
+  with 21cm intensity mapping experiments}},
+  \href{https://doi.org/10.1088/0004-637X/803/1/21}{\emph{Astrophys. J.}
+  {\bfseries 803} (2015) 21} [\href{https://arxiv.org/abs/1405.1452}{{\ttfamily
+  1405.1452}}].
+
+\bibitem{Santos:2015gra}
+M.~G. Santos et~al., \emph{{Cosmology from a SKA HI intensity mapping survey}},
+  \href{https://doi.org/10.22323/1.215.0019}{\emph{PoS} {\bfseries AASKA14}
+  (2015) 019} [\href{https://arxiv.org/abs/1501.03989}{{\ttfamily
+  1501.03989}}].
+
+\bibitem{Pober:2013jna}
+J.~C. Pober et~al., \emph{{What Next-Generation 21 cm Power Spectrum
+  Measurements Can Teach Us About the Epoch of Reionization}},
+  \href{https://doi.org/10.1088/0004-637X/782/2/66}{\emph{Astrophys. J.}
+  {\bfseries 782} (2014) 66} [\href{https://arxiv.org/abs/1310.7031}{{\ttfamily
+  1310.7031}}].
+
+\bibitem{Alonso:2014dhk}
+D.~Alonso, P.~Bull, P.~G. Ferreira and M.~G. Santos, \emph{{Blind foreground
+  subtraction for intensity mapping experiments}},
+  \href{https://doi.org/10.1093/mnras/stu2474}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 447} (2015) 400}
+  [\href{https://arxiv.org/abs/1409.8667}{{\ttfamily 1409.8667}}].
+
+\bibitem{Pober:2014lva}
+J.~C. Pober, \emph{{The Impact of Foregrounds on Redshift Space Distortion
+  Measurements With the Highly-Redshifted 21 cm Line}},
+  \href{https://doi.org/10.1093/mnras/stu2575}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 447} (2015) 1705}
+  [\href{https://arxiv.org/abs/1411.2050}{{\ttfamily 1411.2050}}].
+
+\bibitem{Wolz:2015sqa}
+L.~Wolz, F.~B. Abdalla, D.~Alonso, C.~Blake, P.~Bull, T.-C. Chang et~al.,
+  \emph{{Foreground Subtraction in Intensity Mapping with the SKA}},
+  \href{https://doi.org/10.22323/1.215.0035}{\emph{PoS} {\bfseries AASKA14}
+  (2015) 035} [\href{https://arxiv.org/abs/1501.03823}{{\ttfamily
+  1501.03823}}].
+
+\bibitem{Shaw:2014khi}
+J.~R. Shaw, K.~Sigurdson, M.~Sitwell, A.~Stebbins and U.-L. Pen, \emph{{Coaxing
+  cosmic 21 cm fluctuations from the polarized sky using m-mode analysis}},
+  \href{https://doi.org/10.1103/PhysRevD.91.083514}{\emph{Phys. Rev. D}
+  {\bfseries 91} (2015) 083514}
+  [\href{https://arxiv.org/abs/1401.2095}{{\ttfamily 1401.2095}}].
+
+\bibitem{Obuljen:2017jiy}
+A.~Obuljen, E.~Castorina, F.~Villaescusa-Navarro and M.~Viel,
+  \emph{{High-redshift post-reionization cosmology with 21cm intensity
+  mapping}}, \href{https://doi.org/10.1088/1475-7516/2018/05/004}{\emph{JCAP}
+  {\bfseries 05} (2018) 004}
+  [\href{https://arxiv.org/abs/1709.07893}{{\ttfamily 1709.07893}}].
+
+\bibitem{Ansari:2018ury}
+{\scshape Cosmic Visions 21 cm} collaboration, R.~Ansari et~al.,
+  \emph{{Inflation and Early Dark Energy with a Stage II Hydrogen Intensity
+  Mapping experiment}},  \href{https://arxiv.org/abs/1810.09572}{{\ttfamily
+  1810.09572}}.
+
+\bibitem{Witzemann:2018cdx}
+A.~Witzemann, D.~Alonso, J.~Fonseca and M.~G. Santos, \emph{{Simulated
+  multitracer analyses with H i intensity mapping}},
+  \href{https://doi.org/10.1093/mnras/stz778}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 485} (2019) 5519}
+  [\href{https://arxiv.org/abs/1808.03093}{{\ttfamily 1808.03093}}].
+
+\bibitem{Bacon:2018dui}
+{\scshape SKA} collaboration, D.~J. Bacon et~al., \emph{{Cosmology with Phase 1
+  of the Square Kilometre Array: Red Book 2018: Technical specifications and
+  performance forecasts}},
+  \href{https://doi.org/10.1017/pasa.2019.51}{\emph{Publ. Astron. Soc.
+  Austral.} {\bfseries 37} (2020) e007}
+  [\href{https://arxiv.org/abs/1811.02743}{{\ttfamily 1811.02743}}].
+
+\bibitem{Asorey:2020mxs}
+J.~Asorey, D.~Parkinson, F.~Shi, Y.-S. Song, K.~Ahn, J.~Kim et~al.,
+  \emph{{HIR4: cosmology from a simulated neutral hydrogen full sky using
+  Horizon Run 4}}, \href{https://doi.org/10.1093/mnras/staa1191}{\emph{Mon.
+  Not. Roy. Astron. Soc.} {\bfseries 495} (2020) 1788}
+  [\href{https://arxiv.org/abs/2001.00833}{{\ttfamily 2001.00833}}].
+
+\bibitem{Cunnington:2020mnn}
+S.~Cunnington, A.~Pourtsidou, P.~S. Soares, C.~Blake and D.~Bacon,
+  \emph{{Multipole expansion for H i intensity mapping experiments: simulations
+  and modelling}}, \href{https://doi.org/10.1093/mnras/staa1524}{\emph{Mon.
+  Not. Roy. Astron. Soc.} {\bfseries 496} (2020) 415}
+  [\href{https://arxiv.org/abs/2002.05626}{{\ttfamily 2002.05626}}].
+
+\bibitem{Zhu:2016esh}
+H.-M. Zhu, U.-L. Pen, Y.~Yu and X.~Chen, \emph{{Recovering lost 21 cm radial
+  modes via cosmic tidal reconstruction}},
+  \href{https://doi.org/10.1103/PhysRevD.98.043511}{\emph{Phys. Rev. D}
+  {\bfseries 98} (2018) 043511}
+  [\href{https://arxiv.org/abs/1610.07062}{{\ttfamily 1610.07062}}].
+
+\bibitem{Modi:2019hnu}
+C.~Modi, M.~White, A.~Slosar and E.~Castorina, \emph{{Reconstructing
+  large-scale structure with neutral hydrogen surveys}},
+  \href{https://doi.org/10.1088/1475-7516/2019/11/023}{\emph{JCAP} {\bfseries
+  11} (2019) 023} [\href{https://arxiv.org/abs/1907.02330}{{\ttfamily
+  1907.02330}}].
+
+\bibitem{Alonso:2017dgh}
+D.~Alonso, P.~G. Ferreira, M.~J. Jarvis and K.~Moodley, \emph{{Calibrating
+  photometric redshifts with intensity mapping observations}},
+  \href{https://doi.org/10.1103/PhysRevD.96.043515}{\emph{Phys. Rev. D}
+  {\bfseries 96} (2017) 043515}
+  [\href{https://arxiv.org/abs/1704.01941}{{\ttfamily 1704.01941}}].
+
+\bibitem{Ghosh:2017woo}
+A.~Ghosh, F.~Mertens and L.~V.~E. Koopmans, \emph{{Deconvolving the wedge:
+  maximum-likelihood power spectra via spherical-wave visibility modelling}},
+  \href{https://doi.org/10.1093/mnras/stx2959}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 474} (2018) 4552}
+  [\href{https://arxiv.org/abs/1709.06752}{{\ttfamily 1709.06752}}].
+
+\bibitem{Chen:2018qiu}
+S.-F. Chen, E.~Castorina, M.~White and A.~Slosar, \emph{{Synergies between
+  radio, optical and microwave observations at high redshift}},
+  \href{https://doi.org/10.1088/1475-7516/2019/07/023}{\emph{JCAP} {\bfseries
+  07} (2019) 023} [\href{https://arxiv.org/abs/1810.00911}{{\ttfamily
+  1810.00911}}].
+
+\bibitem{Castorina:2016bfm}
+E.~Castorina and F.~Villaescusa-Navarro, \emph{{On the spatial distribution of
+  neutral hydrogen in the Universe: bias and shot-noise of the HI power
+  spectrum}}, \href{https://doi.org/10.1093/mnras/stx1599}{\emph{Mon. Not. Roy.
+  Astron. Soc.} {\bfseries 471} (2017) 1788}
+  [\href{https://arxiv.org/abs/1609.05157}{{\ttfamily 1609.05157}}].
+
+\bibitem{Bernal:2019jdo}
+J.~L. Bernal, P.~C. Breysse, H.~Gil-Mar\'\i{}n and E.~D. Kovetz,
+  \emph{{User\textquoteright{}s guide to extracting cosmological information
+  from line-intensity maps}},
+  \href{https://doi.org/10.1103/PhysRevD.100.123522}{\emph{Phys. Rev. D}
+  {\bfseries 100} (2019) 123522}
+  [\href{https://arxiv.org/abs/1907.10067}{{\ttfamily 1907.10067}}].
+
+\bibitem{Jalilvand:2019bhk}
+M.~Jalilvand, E.~Majerotto, C.~Bonvin, F.~Lacasa, M.~Kunz, W.~Naidoo et~al.,
+  \emph{{New Estimator for Gravitational Lensing Using Galaxy and Intensity
+  Mapping Surveys}},
+  \href{https://doi.org/10.1103/PhysRevLett.124.031101}{\emph{Phys. Rev. Lett.}
+  {\bfseries 124} (2020) 031101}
+  [\href{https://arxiv.org/abs/1907.00071}{{\ttfamily 1907.00071}}].
+
+\bibitem{Slosar:2019jwd}
+{\scshape PUMA} collaboration, A.~Slosar et~al., \emph{{Packed Ultra-wideband
+  Mapping Array (PUMA): A Radio Telescope for Cosmology and Transients}},
+  \href{https://arxiv.org/abs/1907.12559}{{\ttfamily 1907.12559}}.
+
+\bibitem{Castorina:2020zhz}
+E.~Castorina et~al., \emph{{Packed Ultra-wideband Mapping Array (PUMA):
+  Astro2020 RFI Response}},  \href{https://arxiv.org/abs/2002.05072}{{\ttfamily
+  2002.05072}}.
+
+\bibitem{Fonseca:2019qek}
+J.~Fonseca, J.-A. Viljoen and R.~Maartens, \emph{{Constraints on the growth
+  rate using the observed galaxy power spectrum}},
+  \href{https://doi.org/10.1088/1475-7516/2019/12/028}{\emph{JCAP} {\bfseries
+  12} (2019) 028} [\href{https://arxiv.org/abs/1907.02975}{{\ttfamily
+  1907.02975}}].
+
+\bibitem{Matsubara:1999du}
+T.~Matsubara, \emph{{The Correlation function in redshift space: General
+  formula with wide angle effects and cosmological distortions}},
+  \href{https://doi.org/10.1086/308827}{\emph{Astrophys. J.} {\bfseries 535}
+  (2000) 1} [\href{https://arxiv.org/abs/astro-ph/9908056}{{\ttfamily
+  astro-ph/9908056}}].
+
+\bibitem{Sarkar:2019nak}
+D.~Sarkar and S.~Bharadwaj, \emph{{Redshift-space distortions of the H i 21-cm
+  intensity mapping signal due to the internal motions within galaxies}},
+  \href{https://doi.org/10.1093/mnras/stz1691}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 487} (2019) 5666}
+  [\href{https://arxiv.org/abs/1906.07032}{{\ttfamily 1906.07032}}].
+
+\bibitem{Mollerach:1997up}
+S.~Mollerach and S.~Matarrese, \emph{{Cosmic microwave background anisotropies
+  from second order gravitational perturbations}},
+  \href{https://doi.org/10.1103/PhysRevD.56.4494}{\emph{Phys. Rev. D}
+  {\bfseries 56} (1997) 4494}
+  [\href{https://arxiv.org/abs/astro-ph/9702234}{{\ttfamily
+  astro-ph/9702234}}].
+
+\bibitem{Matarrese:1997ay}
+S.~Matarrese, S.~Mollerach and M.~Bruni, \emph{{Second order perturbations of
+  the Einstein-de Sitter universe}},
+  \href{https://doi.org/10.1103/PhysRevD.58.043504}{\emph{Phys. Rev. D}
+  {\bfseries 58} (1998) 043504}
+  [\href{https://arxiv.org/abs/astro-ph/9707278}{{\ttfamily
+  astro-ph/9707278}}].
+
+\bibitem{Jeong:2009vd}
+D.~Jeong and E.~Komatsu, \emph{{Primordial non-Gaussianity, scale-dependent
+  bias, and the bispectrum of galaxies}},
+  \href{https://doi.org/10.1088/0004-637X/703/2/1230}{\emph{Astrophys. J.}
+  {\bfseries 703} (2009) 1230}
+  [\href{https://arxiv.org/abs/0904.0497}{{\ttfamily 0904.0497}}].
+
+\bibitem{Baldauf:2010vn}
+T.~Baldauf, U.~Seljak and L.~Senatore, \emph{{Primordial non-Gaussianity in the
+  Bispectrum of the Halo Density Field}},
+  \href{https://doi.org/10.1088/1475-7516/2011/04/006}{\emph{JCAP} {\bfseries
+  1104} (2011) 006} [\href{https://arxiv.org/abs/1011.1513}{{\ttfamily
+  1011.1513}}].
+
+\bibitem{Celoria:2018euj}
+M.~Celoria and S.~Matarrese, \emph{{Primordial Non-Gaussianity}},
+  \href{https://doi.org/10.3254/ENFI200009}{\emph{Proc. Int. Sch. Phys. Fermi}
+  {\bfseries 200} (2020) 179}
+  [\href{https://arxiv.org/abs/1812.08197}{{\ttfamily 1812.08197}}].
+
+\bibitem{Umeh:2019qyd}
+O.~Umeh, K.~Koyama, R.~Maartens, F.~Schmidt and C.~Clarkson, \emph{{General
+  relativistic effects in the galaxy bias at second order}},
+  \href{https://doi.org/10.1088/1475-7516/2019/05/020}{\emph{JCAP} {\bfseries
+  1905} (2019) 020} [\href{https://arxiv.org/abs/1901.07460}{{\ttfamily
+  1901.07460}}].
+
+\bibitem{Sargent:1977}
+W.~L.~W. {Sargent} and E.~L. {Turner}, \emph{{A statistical method for
+  determining the cosmological density parameter from the redshifts of a
+  complete sample of galaxies.}},
+  \href{https://doi.org/10.1086/182362}{\emph{The Astrophysical Journal}
+  {\bfseries 212} (1977) L3}.
+
+\bibitem{Villumsen:1995ar}
+J.~V. Villumsen, \emph{{Clustering of faint galaxies: omega (Theta), induced by
+  weak gravitational lensing}},
+  \href{https://arxiv.org/abs/astro-ph/9512001}{{\ttfamily astro-ph/9512001}}.
+
+\bibitem{Yoo:2009au}
+J.~Yoo, A.~L. Fitzpatrick and M.~Zaldarriaga, \emph{{A New Perspective on
+  Galaxy Clustering as a Cosmological Probe: General Relativistic Effects}},
+  \href{https://doi.org/10.1103/PhysRevD.80.083514}{\emph{Phys. Rev. D}
+  {\bfseries 80} (2009) 083514}
+  [\href{https://arxiv.org/abs/0907.0707}{{\ttfamily 0907.0707}}].
+
+\bibitem{Yoo:2010ni}
+J.~Yoo, \emph{{General Relativistic Description of the Observed Galaxy Power
+  Spectrum: Do We Understand What We Measure?}},
+  \href{https://doi.org/10.1103/PhysRevD.82.083508}{\emph{Phys. Rev. D}
+  {\bfseries 82} (2010) 083508}
+  [\href{https://arxiv.org/abs/1009.3021}{{\ttfamily 1009.3021}}].
+
+\bibitem{Jolicoeur:2020eup}
+S.~Jolicoeur, R.~Maartens, E.~M. De~Weerd, O.~Umeh, C.~Clarkson and S.~Camera,
+  \emph{{Detecting the relativistic bispectrum in 21cm intensity maps}},
+  \href{https://arxiv.org/abs/2009.06197}{{\ttfamily 2009.06197}}.
+
+\bibitem{Bruni:2011ta}
+M.~Bruni, R.~Crittenden, K.~Koyama, R.~Maartens, C.~Pitrou and D.~Wands,
+  \emph{{Disentangling non-Gaussianity, bias and GR effects in the galaxy
+  distribution}}, \href{https://doi.org/10.1103/PhysRevD.85.041301}{\emph{Phys.
+  Rev. D} {\bfseries 85} (2012) 041301}
+  [\href{https://arxiv.org/abs/1106.3999}{{\ttfamily 1106.3999}}].
+
+\bibitem{Dalal:2007cu}
+N.~Dalal, O.~Dore, D.~Huterer and A.~Shirokov, \emph{{The imprints of
+  primordial non-gaussianities on large-scale structure: scale dependent bias
+  and abundance of virialized objects}},
+  \href{https://doi.org/10.1103/PhysRevD.77.123514}{\emph{Phys. Rev. D}
+  {\bfseries 77} (2008) 123514}
+  [\href{https://arxiv.org/abs/0710.4560}{{\ttfamily 0710.4560}}].
+
+\bibitem{Matarrese:2008nc}
+S.~Matarrese and L.~Verde, \emph{{The effect of primordial non-Gaussianity on
+  halo bias}}, \href{https://doi.org/10.1086/587840}{\emph{Astrophys. J. Lett.}
+  {\bfseries 677} (2008) L77}
+  [\href{https://arxiv.org/abs/0801.4826}{{\ttfamily 0801.4826}}].
+
+\bibitem{Camera:2014sba}
+S.~Camera, R.~Maartens and M.~G. Santos, \emph{{Einstein's legacy in galaxy
+  surveys}}, \href{https://doi.org/10.1093/mnrasl/slv069}{\emph{Mon. Not. Roy.
+  Astron. Soc.} {\bfseries 451} (2015) L80}
+  [\href{https://arxiv.org/abs/1412.4781}{{\ttfamily 1412.4781}}].
+
+\bibitem{LopezHonorez:2011cy}
+L.~Lopez-Honorez, O.~Mena and S.~Rigolin, \emph{{Biases on cosmological
+  parameters by general relativity effects}},
+  \href{https://doi.org/10.1103/PhysRevD.85.023511}{\emph{Phys. Rev. D}
+  {\bfseries 85} (2012) 023511}
+  [\href{https://arxiv.org/abs/1109.5117}{{\ttfamily 1109.5117}}].
+
+\bibitem{Yoo:2012se}
+J.~Yoo, N.~Hamaus, U.~Seljak and M.~Zaldarriaga, \emph{{Going beyond the Kaiser
+  redshift-space distortion formula: a full general relativistic account of the
+  effects and their detectability in galaxy clustering}},
+  \href{https://doi.org/10.1103/PhysRevD.86.063514}{\emph{Phys. Rev. D}
+  {\bfseries 86} (2012) 063514}
+  [\href{https://arxiv.org/abs/1206.5809}{{\ttfamily 1206.5809}}].
+
+\bibitem{Raccanelli:2013dza}
+A.~Raccanelli, D.~Bertacca, O.~Dor\'e and R.~Maartens, \emph{{Large-scale 3D
+  galaxy correlation function and non-Gaussianity}},
+  \href{https://doi.org/10.1088/1475-7516/2014/08/022}{\emph{JCAP} {\bfseries
+  08} (2014) 022} [\href{https://arxiv.org/abs/1306.6646}{{\ttfamily
+  1306.6646}}].
+
+\bibitem{Camera:2014bwa}
+S.~Camera, M.~G. Santos and R.~Maartens, \emph{{Probing primordial
+  non-Gaussianity with SKA galaxy redshift surveys: a fully relativistic
+  analysis}}, \href{https://doi.org/10.1093/mnras/stv040}{\emph{Mon. Not. Roy.
+  Astron. Soc.} {\bfseries 448} (2015) 1035}
+  [\href{https://arxiv.org/abs/1409.8286}{{\ttfamily 1409.8286}}].
+
+\bibitem{Raccanelli:2015vla}
+A.~Raccanelli, F.~Montanari, D.~Bertacca, O.~Dor\'e and R.~Durrer,
+  \emph{{Cosmological Measurements with General Relativistic Galaxy
+  Correlations}},
+  \href{https://doi.org/10.1088/1475-7516/2016/05/009}{\emph{JCAP} {\bfseries
+  05} (2016) 009} [\href{https://arxiv.org/abs/1505.06179}{{\ttfamily
+  1505.06179}}].
+
+\bibitem{Alonso:2015sfa}
+D.~Alonso and P.~G. Ferreira, \emph{{Constraining ultralarge-scale cosmology
+  with multiple tracers in optical and radio surveys}},
+  \href{https://doi.org/10.1103/PhysRevD.92.063525}{\emph{Phys. Rev. D}
+  {\bfseries 92} (2015) 063525}
+  [\href{https://arxiv.org/abs/1507.03550}{{\ttfamily 1507.03550}}].
+
+\bibitem{Fonseca:2016xvi}
+J.~Fonseca, R.~Maartens and M.~G. Santos, \emph{{Probing the primordial
+  Universe with MeerKAT and DES}},
+  \href{https://doi.org/10.1093/mnras/stw3248}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 466} (2017) 2780}
+  [\href{https://arxiv.org/abs/1611.01322}{{\ttfamily 1611.01322}}].
+
+\bibitem{Lorenz:2017iez}
+C.~S. Lorenz, D.~Alonso and P.~G. Ferreira, \emph{{Impact of relativistic
+  effects on cosmological parameter estimation}},
+  \href{https://doi.org/10.1103/PhysRevD.97.023537}{\emph{Phys. Rev. D}
+  {\bfseries 97} (2018) 023537}
+  [\href{https://arxiv.org/abs/1710.02477}{{\ttfamily 1710.02477}}].
+
+\bibitem{Ballardini:2019wxj}
+M.~Ballardini, W.~L. Matthewson and R.~Maartens, \emph{{Constraining primordial
+  non-Gaussianity using two galaxy surveys and CMB lensing}},
+  \href{https://doi.org/10.1093/mnras/stz2258}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 489} (2019) 1950}
+  [\href{https://arxiv.org/abs/1906.04730}{{\ttfamily 1906.04730}}].
+
+\bibitem{Grimm:2020ays}
+N.~Grimm, F.~Scaccabarozzi, J.~Yoo, S.~G. Biern and J.-O. Gong, \emph{{Galaxy
+  Power Spectrum in General Relativity}},
+  \href{https://doi.org/10.1088/1475-7516/2020/11/064}{\emph{JCAP} {\bfseries
+  11} (2020) 064} [\href{https://arxiv.org/abs/2005.06484}{{\ttfamily
+  2005.06484}}].
+
+\bibitem{Bernal:2020pwq}
+J.~L. Bernal, N.~Bellomo, A.~Raccanelli and L.~Verde, \emph{{Beware of commonly
+  used approximations. Part II. Estimating systematic biases in the best-fit
+  parameters}},
+  \href{https://doi.org/10.1088/1475-7516/2020/10/017}{\emph{JCAP} {\bfseries
+  10} (2020) 017} [\href{https://arxiv.org/abs/2005.09666}{{\ttfamily
+  2005.09666}}].
+
+\bibitem{Wang:2020ibf}
+M.~S. Wang, F.~Beutler and D.~Bacon, \emph{{Impact of Relativistic Effects on
+  the Primordial Non-Gaussianity Signature in the Large-Scale Clustering of
+  Quasars}}, \href{https://doi.org/10.1093/mnras/staa2998}{\emph{Mon. Not. Roy.
+  Astron. Soc.} {\bfseries 499} (2020) 2598}
+  [\href{https://arxiv.org/abs/2007.01802}{{\ttfamily 2007.01802}}].
+
+\bibitem{Umeh:2019jqg}
+O.~Umeh and K.~Koyama, \emph{{The galaxy bias at second order in general
+  relativity with Non-Gaussian initial conditions}},
+  \href{https://doi.org/10.1088/1475-7516/2019/12/048}{\emph{JCAP} {\bfseries
+  12} (2019) 048} [\href{https://arxiv.org/abs/1907.08094}{{\ttfamily
+  1907.08094}}].
+
+\bibitem{Verde:1999ij}
+L.~Verde, L.-M. Wang, A.~Heavens and M.~Kamionkowski, \emph{{Large scale
+  structure, the cosmic microwave background, and primordial non-gaussianity}},
+  \href{https://doi.org/10.1046/j.1365-8711.2000.03191.x}{\emph{Mon. Not. Roy.
+  Astron. Soc.} {\bfseries 313} (2000) L141}
+  [\href{https://arxiv.org/abs/astro-ph/9906301}{{\ttfamily
+  astro-ph/9906301}}].
+
+\bibitem{Sefusatti:2006pa}
+E.~Sefusatti, M.~Crocce, S.~Pueblas and R.~Scoccimarro, \emph{{Cosmology and
+  the Bispectrum}},
+  \href{https://doi.org/10.1103/PhysRevD.74.023522}{\emph{Phys. Rev. D}
+  {\bfseries 74} (2006) 023522}
+  [\href{https://arxiv.org/abs/astro-ph/0604505}{{\ttfamily
+  astro-ph/0604505}}].
+
+\bibitem{Sefusatti:2007ih}
+E.~Sefusatti and E.~Komatsu, \emph{{The Bispectrum of Galaxies from
+  High-Redshift Galaxy Surveys: Primordial Non-Gaussianity and Non-Linear
+  Galaxy Bias}}, \href{https://doi.org/10.1103/PhysRevD.76.083004}{\emph{Phys.
+  Rev. D} {\bfseries 76} (2007) 083004}
+  [\href{https://arxiv.org/abs/0705.0343}{{\ttfamily 0705.0343}}].
+
+\bibitem{Giannantonio:2009}
+T.~Giannantonio and C.~Porciani, \emph{{Structure formation from non-Gaussian
+  initial conditions: multivariate biasing, statistics, and comparison with
+  N-body simulations}},
+  \href{https://doi.org/10.1103/PhysRevD.81.063530}{\emph{Phys. Rev. D}
+  {\bfseries 81} (2010) 063530}
+  [\href{https://arxiv.org/abs/0911.0017}{{\ttfamily 0911.0017}}].
+
+\bibitem{Karagiannis:2020dpq}
+D.~Karagiannis, J.~Fonseca, R.~Maartens and S.~Camera, \emph{{Probing
+  primordial non-Gaussianity with the bispectrum of future 21cm intensity
+  maps}},  \href{https://arxiv.org/abs/2010.07034}{{\ttfamily 2010.07034}}.
+
+\bibitem{MoradinezhadDizgah:2020whw}
+A.~Moradinezhad~Dizgah, M.~Biagetti, E.~Sefusatti, V.~Desjacques and
+  J.~Nore\~na, \emph{{Primordial Non-Gaussianity from Biased Tracers:
+  Likelihood Analysis of Real-Space Power Spectrum and Bispectrum}},
+  \href{https://arxiv.org/abs/2010.14523}{{\ttfamily 2010.14523}}.
+
+\bibitem{deWeerd:2019cae}
+E.~M. de~Weerd, C.~Clarkson, S.~Jolicoeur, R.~Maartens and O.~Umeh,
+  \emph{{Multipoles of the relativistic galaxy bispectrum}},
+  \href{https://doi.org/10.1088/1475-7516/2020/05/018}{\emph{JCAP} {\bfseries
+  05} (2020) 018} [\href{https://arxiv.org/abs/1912.11016}{{\ttfamily
+  1912.11016}}].
+
+\bibitem{Umeh:2020cag}
+O.~Umeh, K.~Koyama and R.~Crittenden, \emph{{Testing the equivalence principle
+  on cosmological scales using the odd multipoles of galaxy cross-power
+  spectrum and bispectrum}},
+  \href{https://arxiv.org/abs/2011.05876}{{\ttfamily 2011.05876}}.
+
+\bibitem{Tram:2016cpy}
+T.~Tram, C.~Fidler, R.~Crittenden, K.~Koyama, G.~W. Pettinari and D.~Wands,
+  \emph{{The Intrinsic Matter Bispectrum in $\Lambda$CDM}},
+  \href{https://doi.org/10.1088/1475-7516/2016/05/058}{\emph{JCAP} {\bfseries
+  05} (2016) 058} [\href{https://arxiv.org/abs/1602.05933}{{\ttfamily
+  1602.05933}}].
+
+\bibitem{Bartolo:2015qva}
+N.~Bartolo, D.~Bertacca, M.~Bruni, K.~Koyama, R.~Maartens, S.~Matarrese et~al.,
+  \emph{{A relativistic signature in large-scale structure}},
+  \href{https://doi.org/10.1016/j.dark.2016.04.002}{\emph{Phys. Dark Univ.}
+  {\bfseries 13} (2016) 30} [\href{https://arxiv.org/abs/1506.00915}{{\ttfamily
+  1506.00915}}].
+
+\bibitem{Bertacca:2015mca}
+D.~Bertacca, N.~Bartolo, M.~Bruni, K.~Koyama, R.~Maartens, S.~Matarrese et~al.,
+  \emph{{Galaxy bias and gauges at second order in General Relativity}},
+  \href{https://doi.org/10.1088/0264-9381/32/17/175019}{\emph{Class. Quant.
+  Grav.} {\bfseries 32} (2015) 175019}
+  [\href{https://arxiv.org/abs/1501.03163}{{\ttfamily 1501.03163}}].
+
+\bibitem{Barreira:2020kvh}
+A.~Barreira, G.~Cabass, F.~Schmidt, A.~Pillepich and D.~Nelson, \emph{{Galaxy
+  bias and primordial non-Gaussianity: insights from galaxy formation
+  simulations with IllustrisTNG}},
+  \href{https://doi.org/10.1088/1475-7516/2020/12/013}{\emph{JCAP} {\bfseries
+  12} (2020) 013} [\href{https://arxiv.org/abs/2006.09368}{{\ttfamily
+  2006.09368}}].
+
+\bibitem{Barreira:2020ekm}
+A.~Barreira, \emph{{On the impact of galaxy bias uncertainties on primordial
+  non-Gaussianity constraints}},
+  \href{https://doi.org/10.1088/1475-7516/2020/12/031}{\emph{JCAP} {\bfseries
+  12} (2020) 031} [\href{https://arxiv.org/abs/2009.06622}{{\ttfamily
+  2009.06622}}].
+
+\bibitem{Dai:2015jaa}
+L.~Dai, E.~Pajer and F.~Schmidt, \emph{{On Separate Universes}},
+  \href{https://doi.org/10.1088/1475-7516/2015/10/059}{\emph{JCAP} {\bfseries
+  10} (2015) 059} [\href{https://arxiv.org/abs/1504.00351}{{\ttfamily
+  1504.00351}}].
+
+\bibitem{dePutter:2015vga}
+R.~de~Putter, O.~Dor\'e and D.~Green, \emph{{Is There Scale-Dependent Bias in
+  Single-Field Inflation?}},
+  \href{https://doi.org/10.1088/1475-7516/2015/10/024}{\emph{JCAP} {\bfseries
+  10} (2015) 024} [\href{https://arxiv.org/abs/1504.05935}{{\ttfamily
+  1504.05935}}].
+
+\bibitem{Matarrese:2020why}
+S.~Matarrese, L.~Pilo and R.~Rollo, \emph{{Resilience of long modes in
+  cosmological observables}},
+  \href{https://doi.org/10.1088/1475-7516/2021/01/062}{\emph{JCAP} {\bfseries
+  01} (2021) 062} [\href{https://arxiv.org/abs/2007.08877}{{\ttfamily
+  2007.08877}}].
+
+\bibitem{Bruni:2013qta}
+M.~Bruni, J.~C. Hidalgo, N.~Meures and D.~Wands, \emph{{Non-Gaussian Initial
+  Conditions in \ensuremath{\Lambda}CDM: Newtonian, Relativistic, and
+  Primordial Contributions}},
+  \href{https://doi.org/10.1088/0004-637X/785/1/2}{\emph{Astrophys. J.}
+  {\bfseries 785} (2014) 2} [\href{https://arxiv.org/abs/1307.1478}{{\ttfamily
+  1307.1478}}].
+
+\bibitem{Shirasaki:2020vkk}
+M.~Shirasaki, N.~S. Sugiyama, R.~Takahashi and F.-S. Kitaura,
+  \emph{{Constraining primordial non-Gaussianity with postreconstructed galaxy
+  bispectrum in redshift space}},
+  \href{https://doi.org/10.1103/PhysRevD.103.023506}{\emph{Phys. Rev. D}
+  {\bfseries 103} (2021) 023506}
+  [\href{https://arxiv.org/abs/2010.04567}{{\ttfamily 2010.04567}}].
+
+\end{thebibliography}\endgroup

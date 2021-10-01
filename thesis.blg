@@ -1,7 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis.aux
-The style file: mnras.bst
+The style file: JHEP.bst
 A level-1 auxiliary file: tex/abstract.aux
 A level-1 auxiliary file: tex/conventions.aux
 A level-1 auxiliary file: tex/acknowledgements.aux
@@ -16,117 +16,44 @@ A level-1 auxiliary file: tex/fishers.aux
 A level-1 auxiliary file: tex/summary.aux
 A level-1 auxiliary file: tex/appendix.aux
 Database file #1: tex/bib/thesis_bib.bib
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry Aghanim:2018eyx
-while executing---line 1822 of file mnras.bst
-Warning--empty journal in Aghanim:2018eyx
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry Aghanim:2018eyx
-while executing---line 1822 of file mnras.bst
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry Ansari:2018ury
-while executing---line 1822 of file mnras.bst
-Warning--empty journal in Ansari:2018ury
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry Ansari:2018ury
-while executing---line 1822 of file mnras.bst
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry Castorina:2020zhz
-while executing---line 1822 of file mnras.bst
-Warning--empty journal in Castorina:2020zhz
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry Castorina:2020zhz
-while executing---line 1822 of file mnras.bst
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry Jolicoeur:2020eup
-while executing---line 1822 of file mnras.bst
-Warning--empty journal in Jolicoeur:2020eup
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry Jolicoeur:2020eup
-while executing---line 1822 of file mnras.bst
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry Karagiannis:2020dpq
-while executing---line 1822 of file mnras.bst
-Warning--empty journal in Karagiannis:2020dpq
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry Karagiannis:2020dpq
-while executing---line 1822 of file mnras.bst
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry MoradinezhadDizgah:2020whw
-while executing---line 1822 of file mnras.bst
-Warning--empty journal in MoradinezhadDizgah:2020whw
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry MoradinezhadDizgah:2020whw
-while executing---line 1822 of file mnras.bst
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry Pan:2019dxa
-while executing---line 1822 of file mnras.bst
-Warning--empty journal in Pan:2019dxa
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry Pan:2019dxa
-while executing---line 1822 of file mnras.bst
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry Slosar:2019jwd
-while executing---line 1822 of file mnras.bst
-Warning--empty journal in Slosar:2019jwd
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry Slosar:2019jwd
-while executing---line 1822 of file mnras.bst
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry Umeh:2020cag
-while executing---line 1822 of file mnras.bst
-Warning--empty journal in Umeh:2020cag
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry Umeh:2020cag
-while executing---line 1822 of file mnras.bst
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry Villumsen:1995ar
-while executing---line 1822 of file mnras.bst
-Warning--empty journal in Villumsen:1995ar
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry Villumsen:1995ar
-while executing---line 1822 of file mnras.bst
 You've used 166 entries,
-            2881 wiz_defined-function locations,
-            2002 strings with 42599 characters,
-and the built_in function-call counts, 83487 in all, are:
-= -- 6886
-> -- 6500
-< -- 426
-+ -- 2705
-- -- 1088
-* -- 10053
-:= -- 13505
-add.period$ -- 0
+            2269 wiz_defined-function locations,
+            1841 strings with 40676 characters,
+and the built_in function-call counts, 54778 in all, are:
+= -- 5515
+> -- 2628
+< -- 0
++ -- 743
+- -- 577
+* -- 4974
+:= -- 7885
+add.period$ -- 166
 call.type$ -- 166
-change.case$ -- 332
-chr.to.int$ -- 161
-cite$ -- 176
-duplicate$ -- 3777
-empty$ -- 3652
-format.name$ -- 1570
-if$ -- 14410
-int.to.chr$ -- 6
-int.to.str$ -- 0
-missing$ -- 166
-newline$ -- 511
-num.names$ -- 1284
-pop$ -- 751
+change.case$ -- 166
+chr.to.int$ -- 0
+cite$ -- 166
+duplicate$ -- 2774
+empty$ -- 4350
+format.name$ -- 577
+if$ -- 14365
+int.to.chr$ -- 0
+int.to.str$ -- 166
+missing$ -- 651
+newline$ -- 502
+num.names$ -- 166
+pop$ -- 332
 preamble$ -- 1
-purify$ -- 664
+purify$ -- 0
 quote$ -- 0
-skip$ -- 2283
+skip$ -- 2372
 stack$ -- 0
-substring$ -- 5142
-swap$ -- 2160
-text.length$ -- 664
+substring$ -- 1747
+swap$ -- 1480
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1494
-warning$ -- 10
-while$ -- 1292
-width$ -- 0
-write$ -- 1652
-(There were 20 error messages)
+type$ -- 0
+warning$ -- 0
+while$ -- 359
+width$ -- 169
+write$ -- 1781
