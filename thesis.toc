@@ -48,37 +48,38 @@
 \contentsline {subsubsection}{\nonumberline Interferometer mode experiments}{66}{subsubsection*.66}%
 \contentsline {subsubsection}{\nonumberline Reducing the radial foreground cut}{67}{subsubsection*.70}%
 \contentsline {section}{\numberline {4.5}Conclusions}{69}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Higher order relativistisc effects in the bispectrum}{72}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Higher order relativistic effects in the bispectrum}{72}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Local lightcone projection effects}{73}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Contributions from second-order vector and tensor modes}{74}{section.5.2}%
-\contentsline {chapter}{\numberline {6}Multipoles of the bispectrum}{75}{chapter.6}%
-\contentsline {section}{\numberline {6.1}The relativistic bispectrum}{75}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Extracting the multipoles}{81}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Analysis of the multipoles}{92}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Co-linear, squeezed and equilateral limits}{93}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Numerical analysis for next-generation surveys}{95}{subsection.6.3.2}%
-\contentsline {section}{\numberline {6.4}Conclusion}{105}{section.6.4}%
-\contentsline {chapter}{\numberline {7}Local primordial non-Gaussianity in the bispectrum}{107}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Galaxy clustering statistics and primordial non-Gaussianity}{108}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Local primordial non-Gaussianity in the galaxy bias}{113}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}First-order bias}{113}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}Second-order bias: {Newtonian} approximation}{115}{subsection.7.2.2}%
-\contentsline {subsection}{\numberline {7.2.3}Second-order bias: {relativistic corrections}}{117}{subsection.7.2.3}%
-\contentsline {subsection}{\numberline {7.2.4}Second-order metric and velocity potentials}{119}{subsection.7.2.4}%
-\contentsline {section}{\numberline {7.3}Local primordial non-Gaussianity in the relativistic bispectrum}{121}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}Matter bispectrum}{121}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}Observed number density}{121}{subsection.7.3.2}%
-\contentsline {subsection}{\numberline {7.3.3}Galaxy bispectrum}{124}{subsection.7.3.3}%
-\contentsline {subsection}{\numberline {7.3.4}Numerical examples}{127}{subsection.7.3.4}%
-\contentsline {section}{\numberline {7.4}Conclusions}{131}{section.7.4}%
-\contentsline {chapter}{\numberline {8}Fisher forecasts}{134}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Summary}{135}{chapter.9}%
-\contentsline {chapter}{\numberline {A}Beta coefficients}{136}{appendix.a.A}%
-\contentsline {chapter}{\numberline {B}Beta coefficient tables}{139}{appendix.a.B}%
-\contentsline {chapter}{\numberline {C}Upsilon coefficients}{143}{appendix.a.C}%
-\contentsline {chapter}{\numberline {D}Presentation of kernel coefficients}{145}{appendix.a.D}%
-\contentsline {chapter}{\numberline {E}Squeezed limit of multipoles}{152}{appendix.a.E}%
-\contentsline {chapter}{\nonumberline Bibliography}{154}{chapter*.94}%
-\contentsline {chapter}{\nonumberline List of Figures}{167}{chapter*.95}%
-\contentsline {chapter}{\nonumberline List of Tables}{171}{chapter*.96}%
+\contentsline {section}{\numberline {5.2}Local model of galaxy bias}{75}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Contributions from second-order vector and tensor modes}{77}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Multipoles of the bispectrum}{78}{chapter.6}%
+\contentsline {section}{\numberline {6.1}The relativistic bispectrum}{78}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Extracting the multipoles}{84}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Analysis of the multipoles}{95}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Co-linear, squeezed and equilateral limits}{96}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Numerical analysis for next-generation surveys}{98}{subsection.6.3.2}%
+\contentsline {section}{\numberline {6.4}Conclusion}{108}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Local primordial non-Gaussianity in the bispectrum}{110}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Galaxy clustering statistics and primordial non-Gaussianity}{111}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Local primordial non-Gaussianity in the galaxy bias}{116}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}First-order bias}{116}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Second-order bias: {Newtonian} approximation}{118}{subsection.7.2.2}%
+\contentsline {subsection}{\numberline {7.2.3}Second-order bias: {relativistic corrections}}{120}{subsection.7.2.3}%
+\contentsline {subsection}{\numberline {7.2.4}Second-order metric and velocity potentials}{122}{subsection.7.2.4}%
+\contentsline {section}{\numberline {7.3}Local primordial non-Gaussianity in the relativistic bispectrum}{124}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Matter bispectrum}{124}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Observed number density}{124}{subsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.3.3}Galaxy bispectrum}{127}{subsection.7.3.3}%
+\contentsline {subsection}{\numberline {7.3.4}Numerical examples}{130}{subsection.7.3.4}%
+\contentsline {section}{\numberline {7.4}Conclusions}{134}{section.7.4}%
+\contentsline {chapter}{\numberline {8}Fisher forecasts}{137}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Summary}{138}{chapter.9}%
+\contentsline {chapter}{\numberline {A}Beta coefficients}{139}{appendix.a.A}%
+\contentsline {chapter}{\numberline {B}Beta coefficient tables}{142}{appendix.a.B}%
+\contentsline {chapter}{\numberline {C}Upsilon coefficients}{146}{appendix.a.C}%
+\contentsline {chapter}{\numberline {D}Presentation of kernel coefficients}{148}{appendix.a.D}%
+\contentsline {chapter}{\numberline {E}Squeezed limit of multipoles}{155}{appendix.a.E}%
+\contentsline {chapter}{\nonumberline Bibliography}{157}{chapter*.100}%
+\contentsline {chapter}{\nonumberline List of Figures}{170}{chapter*.101}%
+\contentsline {chapter}{\nonumberline List of Tables}{174}{chapter*.102}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

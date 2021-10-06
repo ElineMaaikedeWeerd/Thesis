@@ -1,6 +1,6 @@
 % !TEX root = ../thesis.tex
 
-\chapter{Higher order relativistisc effects in the bispectrum}
+\chapter{Higher order relativistic effects in the bispectrum}
 \label{chapter:ho}
 
 In this chapter, we summarise previous work on relativistic projection effects in the observed galaxy bispectrum~\cite{Umeh:2016nuh,Jolicoeur:2017nyt,Jolicoeur:2017eyi,Jolicoeur:2018blf} going beyond the $\ord(\cH/k)$ approximation used in the previous chapters. For the bispectrum, similar to the power spectrum, effects from observing on the past lightcone need to be taken into account, as they distord the information which is contained in the underlying distribution of dark matter. These lightcone projection effects themselves can also provide new information. The major difference between the power spectrum and bispectrum analyses however, is that for the bispectrum, projection effects up to second order in perturbation theory are required. 
@@ -23,7 +23,104 @@ The observed number density contrast $\Delta_g$ is defined through,
 \begin{equation}
 	\frac{\diff N(z, \n > \ln L)}{\diff z \diff \Omega_o} = \frac{\chi^2(z)}{(1 + z)^4 \cH(z)} \bar{\N}(z, > \ln L) \left[ 1 + \Delta_g(z, \n, >\ln L) \right],
 \end{equation}
-where $\diff N$ is the observed count of galaxies above threshold luminosity $L$, in direction of observation $\n$, within redshift interval $\diff z$ and within solid angle element $\diff \Omega_o$. $\cH(\eta) = a'(\eta)/a(\eta)$ is the conformal hubble rate, and $\chi$ is the comoving line-of-sight distance.
+where $\diff N$ is the observed count of galaxies above threshold luminosity $L$, in direction of observation $\n$, within redshift interval $\diff z$ and within solid angle element $\diff \Omega_o$. $\cH(\eta) = a'(\eta)/a(\eta)$ is the conformal hubble rate, $\bar{\N}$ is the background magnitude-limited number density, and $\chi$ is the comoving line-of-sight distance. Expanding $\Delta_g$ up to second order in perturbation theory as, 
+\begin{equation}
+	\Delta_g(z,\n) = \Delta_g^\on(z, \n) + \frac{1}{2} \left[ \Delta_g^\tw(z,\n) - \langle \Delta_g^\tw(z,\n)\rangle \right]\,,
+\end{equation}
+where we have dropped the dependence of the density contrast on luminosity for brevity, and subtract $\langle \Delta_g^\tw \rangle$ to ensure that $\langle \Delta_g \rangle = 0$\todo{why?}. 
+
+The observed number density contrast can be split into Newtonian and relativistic parts at each order in perturbation theory,
+\begin{equation}
+	\Delta_g^{(r)} = \Delta_{g \nw}^{(r)} + \Delta_{g \gr}^{(r)}\,,
+\end{equation}
+which is convenient for our purpose here. Since we consider the bispectrum at a fixed redshift $z$, we drop redshift dependence for convenience. 
+
+Radial and transverse derivatives are, 
+\begin{align}
+	&\partial_{\parallel} = n^i \partial_i\,, \\
+	&\partial_{\perp i} = \partial_i - n_i \partial_\parallel\,,
+\end{align}
+the derivative down the past lightcone is defined as, 
+\begin{equation}
+	\frac{\diff}{\diff \chi} = - \frac{\diff}{\diff \eta} = - \partial_\eta + \partial_\parallel\,
+\end{equation}
+and the screen-space projected Laplacian is, 
+\begin{equation}
+	\nabla^2_\perp = \nabla^2 - \partial_\parallel^2 - \frac{2}{\chi} \partial_\parallel\,.
+\end{equation}
+\todo{define screen space?}
+
+We are free to choose the most convenient gauge for our purpose to compute $\Delta_g$, as it is an observable quantity and hence gauge-independent. Since splitting the observed number density contrast into Newtonian and relativistic parts is convenient in Poisson gauge, it is our gauge of choice. The metric and the peculiar velocity of galaxies (which on the scales of interest is equal to the peculiar velocity of the underlying dark matter distribution) are, 
+\begin{align}
+	a^{-2} \diff s^2 &= - \left[ 1 + 2 \Phi^\on + \Phi^\tw \right] \diff \eta^2 + \left[ 1 - 2 \Phi^\on - \Psi^\tw \right] \diff\x^2\,,\\
+	v^i &= \partial^i \left[ v^\on + \frac{1}{2} v^\tw \right]\,.
+\end{align}
+The observed comoving coordinates of a galaxy are $\x = \chi(z) \n = [\eta_0 - \eta(z)] \n$~\cite{Bertacca:2014dra}, and we assume that anisotropic stress vanishes at first order in which case $\Psi^\on = \Phi^\on$.
+
+The comoving-synchronous gauge (C) overdensities of matter and galaxy counts are denoted as $\delta_{m\cs}$ and $\delta_{g\cs}$. At first order, the Poisson and continuity equaitons are,
+\begin{align}
+	&\nabla^2 \Phi^\on = \frac{3}{2} \Omega_m \cH^2 \delta_{m\cs}^\on \\
+	&\delta_{m\cs}^{\on'} = - \nabla^2 v^\on\,.
+\end{align}
+These lead to the following relations for the velocity and metric potentials\todo{wtf is it actually called?},
+\begin{equation}
+	\Phi^\on = \frac{3}{2} \Omega_m \frac{\cH^2}{k^2} \delta_{m\cs}^\on\,,
+\end{equation}
+where $\Phi^\on(a,\k) = \frac{D(a)}{a} \Phi^\on(1,\k)$, and,
+\begin{equation}\label{eq:scdepvel}
+	\cH v^\on = f \frac{\cH^2}{k^2} \delta^\on_{m\cs}\,,
+\end{equation}
+where $f = \frac{\diff \ln D}{\diff \ln a}$ and $\delta^\on_{m\cs}(a,\k) = D(a) \delta^\on_{m\cs}(1,\k)$. 
+
+\section{Local model of galaxy bias}
+
+The Poisson-gauge number density contrast at first order, $\delta_g^\on$, is related to the dark matter density contrast $\delta_m^\on$ via the galaxy bias. For now we will use a local model of galaxy bias, and we need ot make sure that the definition of scale-independent bias is gauge-independent, and valid on ultra-large scales. The physical definition of scale-independent galaxy bias is in the matter rest-frame (corresponding to the comoving-synchronous C gauge), which since there is no velocity bias on large scales coincides with the galaxy rest-frame~\cite{Challinor:2011bk,Bruni:2011ta,Jeong:2011as}. It then follows that the correct definition between the galaxy and dark matter number density contrasts at first order is, 
+\begin{equation}\label{eq:deltagbiasdef}
+	\delta_{g\cs}^\on (a, \x) = b_1(a) \delta_{m,\cs}^\on(a,\x)\,.
+\end{equation}
+The Poisson gauge number density contrast $\delta_g^\on$ is related to the C-gauge number density contrast as~\cite{Challinor:2011bk}, 
+\begin{equation}
+	\delta_{g}^\on = \delta_{g\cs}^\on + (3 - b_e)\cH v^\on = b_1 \delta_{m\cs}^\on + (3 - b_e) \cH v^\on\,,
+\end{equation}
+where the velocity potential term ensures that this bias relation is gauge-independent on ultra-large scales. Because of the scale dependence of the velocity potential as given by equation~\eqref{eq:scdepvel}, this term is the relativistic part of the Poisson-gauge number density contrast-- it is suppressed on small scales, and growing on large scales. 
+
+In GR, the Lagrangian frame coincides with the C-gauge~\cite{Villa:2015ppa,Bertacca:2015mca}. There is no unique Eulerian frame, but the total-matter (T) gauge is a convenient choice, because it is related to the C gauge by a purely spatial transformation only such that at first order the galaxy and matter overdensities are the same,~\cite{Bertacca:2015mca}
+\begin{align}
+	&\delta^\on_{m\cs} = \delta^\on_{m\mathrm{T}}\,,\\
+	&\delta^\on_{g\cs} = \delta^\on_{g\mathrm{T}} = b_1 \delta^\on_{m\mathrm{T}}\,.
+\end{align}
+The second line above defines the Eulerian first-order bias parameter, from which follows that $b_1$ in equation~\eqref{eq:deltagbiasdef} is the Eulerian bias parameter.
+
+Since we require second order in perturbation theory in order to compute the galaxy bispectrum at tree level, we have to extend equation~\eqref{eq:deltagbiasdef} to highter order. To do this, we here use the so-called local-in-mass-density bias model~\cite{Desjacques:2016bnm}, which is the simplest possible model of scale-independent bias we can use. This model assumes that the galaxy number density contrast is a local function of only the matter density contrast.\todo{what are the limitations-- link to PNG where we use scale-dependent bias I think?} Again we need to ensure that the bias coefficients are scale-independent in the C-gauge, which is the galaxy rest frame-- this is to ensure validity of the physical definition of scale-independent bias on ultra-large scales. Starting from a simple expansion in powers of the matter density contrast,
+\begin{equation}
+	\delta_{g\cs} = b_1 \delta_{m\cs} + \frac{1}{2} b_2 (\delta_{m\cs})^2 + \ldots\,,
+\end{equation}
+where we suppress the dependence of $b_I \equiv b_I(a,\ln L)$ for brevity-- as done throughout the text. At first order in perturbation theory, the above expression recovers the first-order relation given by equation~\eqref{eq:deltagbiasdef} as expected. At second order we have, 
+\begin{equation}\label{eq:biasCgauge}
+	\delta^\tw_{m\cs} = b_1 \delta^\tw_{m\cs} + b_2 (\delta^\on_{m\cs})^2\,,
+\end{equation}
+where we have omitted the term $- b_2 \langle (\delta^\on_{m\cs})^2 \rangle$ on the right hand side for convenience\todo{why is this allowed}.
+At second order, the C-gauge and T-gauge matter overdensities are related as~\cite{Bertacca:2015mca,Villa:2015ppa}, 
+\begin{equation}
+	\delta_{m\mathrm{T}}^\tw = \delta_{m\cs}^\tw + 2 \left[ \partial_i \delta_{m\cs}^\on \right] \nabla^{-2} \partial^i \delta_{m\cs}^\on\,,
+\end{equation}
+where $-2\nabla^{-2} \partial^i \delta_{m\cs}^\on$ is a gauge generator. The gauge transformation from comoving-synchronous to total-matter gauge is purely spatial, which means that the above relation applies to the galaxy number counts too, 
+\begin{equation}
+	\delta_{g\mathrm{T}}^\tw = \delta_{g\cs}^\tw + 2 \left[ \partial_i \delta_{g\cs}^\on \right] \nabla^{-2} \partial^i \delta_{g\cs}^\on\,.
+\end{equation}
+From the above relations, we can obtain the T-gauge galaxy number count density in terms of T-gauge matter density, 
+\begin{align}
+	&\delta_{g\mathrm{T}}^\tw = b_1 \delta_{m\cs}^\tw + b_2 (\delta_{m\cs}^\on)^2 + 2 b_1 \left[\partial_i \delta_{m\cs}^\on \right] \nabla^{-2} \partial^i \delta_{m\cs}^\on \\
+	& \hphantom{\delta_{g\mathrm{T}}^\tw } = b_1 \left[ \delta_{m\cs}^\tw + 2 (\partial_i \delta_{m\mathrm{T}}^\on) \nabla^{-2} \partial^i \delta_{m\cs}^\on \right] + b_2 (\delta_{m\cs}^\on)^2 \\
+	\Rightarrow & \delta_{g\mathrm{T}}^\tw = b_1 \delta_{m\mathrm{T}}^\tw + b_2 (\delta_{m\mathrm{T}}^\on)^2 \label{eq:biasTgauge} \,.
+\end{align}
+\todo{check the gauges}
+Comparing equations~\eqref{eq:biasCgauge} and~\eqref{eq:biasTgauge}, it is clear that local-in-mass-density and scale-independent bias in C- and T-gauge are equivalent up to second order in perturbation theory and have the same Eulerian bias coefficients. 
+
+The Poisson gauge expression for overdensity can more conveniently be expressed in the T gauge than in the C gauge, and hence we will choose the total-matter gauge to express $\delta_g$. 
+
+
+
 
 \section{Contributions from second-order vector and tensor modes}\label{sec:tensorvector}
 

@@ -359,8 +359,8 @@ L.~Verde, A.~F. Heavens, S.~Matarrese and L.~Moscardini, \emph{Large-scale bias
   of the Royal Astronomical Society} {\bfseries 300} (1998) 747–756}.
 
 \bibitem{Villa:2015ppa}
-E.~Villa and C.~Rampf, \emph{{Relativistic perturbations in $\Lambda$CDM:
-  Eulerian \& Lagrangian approaches}},
+E.~Villa and C.~Rampf, \emph{Relativistic perturbations in $\lambda$cdm:
+  Eulerian \& lagrangian approaches},
   \href{https://doi.org/10.1088/1475-7516/2018/05/E01,
   10.1088/1475-7516/2016/01/030}{\emph{JCAP} {\bfseries 1601} (2016) 030}
   [\href{https://arxiv.org/abs/1505.04782}{{\ttfamily 1505.04782}}].
@@ -848,6 +848,20 @@ S.~Matarrese, S.~Mollerach and M.~Bruni, \emph{{Second order perturbations of
   [\href{https://arxiv.org/abs/astro-ph/9707278}{{\ttfamily
   astro-ph/9707278}}].
 
+\bibitem{Bruni:2011ta}
+M.~Bruni, R.~Crittenden, K.~Koyama, R.~Maartens, C.~Pitrou and D.~Wands,
+  \emph{{Disentangling non-Gaussianity, bias and GR effects in the galaxy
+  distribution}}, \href{https://doi.org/10.1103/PhysRevD.85.041301}{\emph{Phys.
+  Rev. D} {\bfseries 85} (2012) 041301}
+  [\href{https://arxiv.org/abs/1106.3999}{{\ttfamily 1106.3999}}].
+
+\bibitem{Bertacca:2015mca}
+D.~Bertacca, N.~Bartolo, M.~Bruni, K.~Koyama, R.~Maartens, S.~Matarrese et~al.,
+  \emph{{Galaxy bias and gauges at second order in General Relativity}},
+  \href{https://doi.org/10.1088/0264-9381/32/17/175019}{\emph{Class. Quant.
+  Grav.} {\bfseries 32} (2015) 175019}
+  [\href{https://arxiv.org/abs/1501.03163}{{\ttfamily 1501.03163}}].
+
 \bibitem{Jeong:2009vd}
 D.~Jeong and E.~Komatsu, \emph{{Primordial non-Gaussianity, scale-dependent
   bias, and the bispectrum of galaxies}},
@@ -905,13 +919,6 @@ J.~Yoo, \emph{{General Relativistic Description of the Observed Galaxy Power
 S.~Jolicoeur, R.~Maartens, E.~M. De~Weerd, O.~Umeh, C.~Clarkson and S.~Camera,
   \emph{{Detecting the relativistic bispectrum in 21cm intensity maps}},
   \href{https://arxiv.org/abs/2009.06197}{{\ttfamily 2009.06197}}.
-
-\bibitem{Bruni:2011ta}
-M.~Bruni, R.~Crittenden, K.~Koyama, R.~Maartens, C.~Pitrou and D.~Wands,
-  \emph{{Disentangling non-Gaussianity, bias and GR effects in the galaxy
-  distribution}}, \href{https://doi.org/10.1103/PhysRevD.85.041301}{\emph{Phys.
-  Rev. D} {\bfseries 85} (2012) 041301}
-  [\href{https://arxiv.org/abs/1106.3999}{{\ttfamily 1106.3999}}].
 
 \bibitem{Dalal:2007cu}
 N.~Dalal, O.~Dore, D.~Huterer and A.~Shirokov, \emph{{The imprints of
@@ -1095,13 +1102,6 @@ N.~Bartolo, D.~Bertacca, M.~Bruni, K.~Koyama, R.~Maartens, S.~Matarrese et~al.,
   \href{https://doi.org/10.1016/j.dark.2016.04.002}{\emph{Phys. Dark Univ.}
   {\bfseries 13} (2016) 30} [\href{https://arxiv.org/abs/1506.00915}{{\ttfamily
   1506.00915}}].
-
-\bibitem{Bertacca:2015mca}
-D.~Bertacca, N.~Bartolo, M.~Bruni, K.~Koyama, R.~Maartens, S.~Matarrese et~al.,
-  \emph{{Galaxy bias and gauges at second order in General Relativity}},
-  \href{https://doi.org/10.1088/0264-9381/32/17/175019}{\emph{Class. Quant.
-  Grav.} {\bfseries 32} (2015) 175019}
-  [\href{https://arxiv.org/abs/1501.03163}{{\ttfamily 1501.03163}}].
 
 \bibitem{Barreira:2020kvh}
 A.~Barreira, G.~Cabass, F.~Schmidt, A.~Pillepich and D.~Nelson, \emph{{Galaxy

@@ -18,7 +18,7 @@ A level-1 auxiliary file: tex/appendix.aux
 Database file #1: tex/bib/thesis_bib.bib
 You've used 166 entries,
             2269 wiz_defined-function locations,
-            1841 strings with 40676 characters,
+            1841 strings with 40674 characters,
 and the built_in function-call counts, 54778 in all, are:
 = -- 5515
 > -- 2628
