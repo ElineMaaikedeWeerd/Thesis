@@ -112,14 +112,84 @@ From the above relations, we can obtain the T-gauge galaxy number count density 
 \begin{align}
 	&\delta_{g\mathrm{T}}^\tw = b_1 \delta_{m\cs}^\tw + b_2 (\delta_{m\cs}^\on)^2 + 2 b_1 \left[\partial_i \delta_{m\cs}^\on \right] \nabla^{-2} \partial^i \delta_{m\cs}^\on \\
 	& \hphantom{\delta_{g\mathrm{T}}^\tw } = b_1 \left[ \delta_{m\cs}^\tw + 2 (\partial_i \delta_{m\mathrm{T}}^\on) \nabla^{-2} \partial^i \delta_{m\cs}^\on \right] + b_2 (\delta_{m\cs}^\on)^2 \\
-	\Rightarrow & \delta_{g\mathrm{T}}^\tw = b_1 \delta_{m\mathrm{T}}^\tw + b_2 (\delta_{m\mathrm{T}}^\on)^2 \label{eq:biasTgauge} \,.
+	& \Rightarrow \delta_{g\mathrm{T}}^\tw = b_1 \delta_{m\mathrm{T}}^\tw + b_2 (\delta_{m\mathrm{T}}^\on)^2 \label{eq:biasTgauge} \,.
 \end{align}
 \todo{check the gauges}
 Comparing equations~\eqref{eq:biasCgauge} and~\eqref{eq:biasTgauge}, it is clear that local-in-mass-density and scale-independent bias in C- and T-gauge are equivalent up to second order in perturbation theory and have the same Eulerian bias coefficients. 
 
-The Poisson gauge expression for overdensity can more conveniently be expressed in the T gauge than in the C gauge, and hence we will choose the total-matter gauge to express $\delta_g$. 
+The Poisson gauge expression for overdensity can more conveniently be expressed in the T gauge than in the C gauge, and hence we will choose the total-matter gauge to express $\delta_g$. This expression is as follows~\cite{Jolicoeur:2017nyt},
+\begin{align}
+	\delta_g^\tw =& \delta_{g\mathrm{T}}^\tw + (3 - b_e)\cH v^\tw + 2 (3 - b_e) \cH v^\on \delta_{g\mathrm{T}}^\on - 2 v^\on \delta_{g\mathrm{T}}'^\on \nonumber \\
+	&+ \left[ (b_e - 3)\cH' + b_e \cH + (b_e -3)^2 \cH^2  \right] \left[ v^\on \right]^2 + (b_e - 3) \cH v^\on v^{\on\prime} \nonumber \\
+	& - (b_e - 3) \cH \nabla^{-2} \left[ v^\on \nabla^2 v^{\on\prime} - v^{\on\prime} \nabla^2 v^\on - 6 \partial_i \Phi^\on \partial^i v^\on - 6 \Phi^\on \nabla^2 v^\on \right] \,.
+\end{align}
+From this, using relations between the T-gauge galaxy density contrast and matter contrast, we obtain the final expression for the Poisson-gauge galaxy density contrast in the simple local-in-mass-density bias model, 
+\begin{align}
+	\delta_g^\tw =& b_1 \delta_{m\mathrm{T}}^\tw + b_2 (\delta_{m\mathrm{T}}^\on )^2 + \left[ (b_e - 3)\cH' + b_e \cH + (b_e -3)^2 \cH^2 \right] [v^\on]^2 \nonumber \\
+	&+ (b_e - 3) \cH v^\on v^{\on \prime} + 2 b_1 (3 - b_e) \cH v^\on \delta_{m\mathrm{T}}^\on - 2 v^\on \left[ b_1 \delta_{m\mathrm{T}}^{\on \prime} + b_1' \delta_{m\mathrm{T}}^\on \right] \nonumber \\
+	& + (3 - b_e) \cH \nabla^{-2} \left[ v^\on \nabla^2 v^{\on \prime} - v^{\on \prime} \nabla^2 v^\on - 6 \partial_i \Phi^2 \partial^i v^\on - 6 \Phi^\on \nabla^2 v^\on \right]\,.
+\end{align}
+In the above equation, the velocity and metric potentials ensure that there is gauge-independence on ultra-large scales. 
 
+\subsection{Observed galaxy number counts}
+Working in Poisson gauge, we can split the first-order observed galaxy number counts $\Delta_g^\on$ into Newtonian and relativistic parts as, 
+\begin{align}
+	&\Delta_{g\nw}^\on = b_1 \delta_{m\mathrm{T}} - \frac{1}{\cH} \partial_\parallel^2 v^\on\,\\
+	&\Delta_{g\gr}^\on = \left[ b_e - 2 \Q + \frac{2 (\Q - 1)}{\chi \cH} - \frac{\cH'}{\cH^2} \right] \left[ \partial_\parallel v^\on - \Phi^\on \right] _ (2 \Q - 1) \Phi^\on + \frac{1}{\cH} \Phi^{\on \prime} \nonumber \\
+	& + (3 - b_e) \cH v^\on\,.
+\end{align}
+In the above equation, the Newtonian part concists of the T-gauge density contrast and the Kaiser RSD. The terms in the GR part are the Doppler term which is proportional to the line-of-sight velocity $\partial_\parallel v^\on$, and terms arising from the potential and the velocity potential. 
 
+At second order, the expression for $\Delta_g$ is a lot more involved, because it includes both the second-order generalisations of effects included at first order, as well as quadratic couplings between the first-order terms themselves. Various groups have computed the second order observed galaxy number counts, in different formalisms. A full comparison of the different results has yet to be done, see for example\todo{jorges papers, which compares the leading order corrections}
+
+Here we use the expression given by~\cite{Bertacca:2014hwa} \todo[inline]{erratum?}, which includes the evolution and magnification biases-- we neglect the integrated effects that are given, and we include our gauge-independent model of second-order galaxy bias. The resulting expression for $\Delta_g^\tw$ is, 
+\begin{align} 
+\Delta_{g}^{(2)} &= b_1 \delta_{m{\mathrm{T}}}^\tw + b_2 \left[\delta_{m{\mathrm{T}}}^\on \right]^2 + \left[(b_e-3)^2 \cH^2 + b_e' \cH +(b_e-3) \cH' \right] \left[v^\on \right]^2 \nonumber \\
+& + (b_e - 3)\cH v^\on v^{\on \prime} + 2b_1 (3 - b_e) \cH v^\on \delta_{m\mathrm{T}}^{(1)} \nonumber \\
+& bob
+\end{align}
+
+\iffalse
+ - 2v^{(1)}\Big[b_1{\delta_{m\mathrm{T}}^{(1)\prime}}+b_1'\delta_{m\mathrm{T}}^{(1)}\Big]  + (3-b_{e})\mathcal{H}\nabla^{-2}\bigg[v^{(1)}\nabla^{2}{v^{(1)\prime}}- {v^{(1)\prime}}\,\nabla^{2}v^{(1)} - 6\partial_{i}\Phi^{(1)}\partial^{i}v^{(1)} - 6\Phi^{(1)}\nabla^{2}v^{(1)}\bigg]    \nonumber \\
+ &&- \frac{1}{\mathcal{H}}\partial_{\parallel}^{2}v^{(2)}+ (3-b_{e})\mathcal{H}v^{(2)}+ \bigg[b_{e} - 2\mathcal{Q} -\frac{2(1-\mathcal{Q})}{\chi\mathcal{H}}- \frac{\mathcal{H}'}{\mathcal{H}^{2}} \bigg]\left[\partial_{\parallel}v^{(2)}-\Phi^{(2)} \right] +2(\mathcal{Q}-1)\Psi^{(2)}  +\Phi^{(2)} + \frac{1}{\mathcal{H}}{\Psi^{(2)}}' \nonumber \\
+&&+ \left[ b_e-2 \Q  -   \frac{\HH'}{\HH^2} - \left(1 - \Q\right) \frac{2}{\chi \HH} \right]\bigg[3  \big[{\Phi}^{(1)}\big]^2  -  \big[ \p_\| v^{(1)} \big]^2+ \p_{\perp i} v^{(1)}  \p^i_{\perp} v^{(1)}  -2  \p_\| v^{(1)}  \Phi^{(1)} 
+ \nonumber \\ 
+&&- \frac{2}{\HH}\left( \Phi^{(1)}  -  \p_\| v^{(1)}\right) \left(  \Phi^{(1)\prime} - \p_\|^2 v^{(1)}  \right)\bigg] +2\left(2\Q-1 \right)\Phi^{(1)} \delta_g^{(1)} - \frac{2}{\HH} \delta_g^{(1)} \p_\|^2 v^{(1)}  +\frac{2}{\HH}\delta_g^{(1)}  \Phi^{(1)\prime}
+\nonumber \\
+ && + \left( 4\Q -5 +4 \Q^2 - 4 \frac{\p \Q}{\p \ln \bar L} \right)\big[\Phi^{(1)}\big]^2  
+%{\cancel{+2 \Q \Phi^{(1)} \p_\| v^{(1)}}} 
+%+{\cancel{\left({1 +2\Q} \right)}} \big[ \p_\| v^{(1)}  \big]^2 
++ \frac{2}{\HH}\left({2\Q}+\frac{\HH'}{\HH^2}\right)\Phi^{(1)} \Phi^{(1)\prime}  
+\nonumber\\ 
+&& - \frac{2}{\HH}\left({1+ 2\Q}  +\frac{\HH'}{\HH^2}\right)\Phi^{(1)} \p_\|^2 v^{(1)} + \frac{2}{\HH^2}\big[ \Phi^{(1)\prime}  \big]^2 + \frac{2}{\HH^2}\big[\p_\|^2 v^{(1)}  \big]^2  + \frac{2}{\HH^2} \p_\| v^{(1)}  \p_\|^2 \Phi^{(1)}+\frac{4}{ \HH }\p_\| v^{(1)}  \p_\| \Phi^{(1)}
+\nonumber\\
+&& - \frac{2}{\HH^2} \Phi^{(1)} \p_\|^3 v^{(1)}   -\frac{2}{\HH}\Phi^{(1)} \p_\| \Phi^{(1)}  + \frac{2}{\HH^2}\Phi^{(1)} \frac{\d \Phi^{(1)\prime} }{\d \chi}- \frac{2}{\HH^2} \p_\| v^{(1)} \frac{\d \Phi^{(1)\prime} }{\d \chi}+\frac{2}{\HH} \left(1 
+%{\cancel{+\Q}} 
++\frac{\HH'}{\HH^2} \right) \p_\| v^{(1)} \p_\|^2 v^{(1)} 
+\nonumber \\
+ && - \frac{2}{\HH^2}\Phi^{(1)}  \p_\|^2 \Phi^{(1)}
+ +\frac{2}{\HH} \left(1
+ %{\cancel{-\Q}} 
+ -\frac{\HH'}{\HH^2} \right)  \p_\| v^{(1)}  \Phi^{(1)\prime}
+   -  \frac{4}{\HH^2}\p_\|^2 v^{(1)}   \Phi^{(1)\prime}  +\frac{2}{\HH}\p_{\perp i} v^{(1)} \p^i_\perp \Phi^{(1)}   -\frac{{4}}{ \HH } \p_{\perp i} v^{(1)}   \p_{\perp}^i \p_\|  v^{(1)}   
+\nonumber \\
+ &&   +\left(\frac{{4}}{ \chi \HH } -1\right) \p_{\perp i} v^{(1)}    \p_{\perp}^i v^{(1)}   
+  +  \frac{2}{\HH^2}\p_\| v^{(1)} \p_\|^3v^{(1)} + \Bigg\{ \bigg[ 4 b_e \Q -2 b_e - 4 \Q   - 8 \Q^2  + 8 \frac{\p \Q}{\p \ln \bar L} +4 \frac{\p \Q}{\p \ln \bar a}   
+ \nonumber \\    
+&&  + 2  \frac{\HH'}{\HH^2} \left(1 - {2\Q}\right)  + \frac{4}{\chi \HH}\left(\Q -1+2\Q^2- 2\frac{\p \Q}{\p \ln \bar L} \right) \bigg] \Phi^{(1)}  
+%{\cancel{+2  \frac{\HH'}{\HH^2} \Q \p_\| v^{(1)}}}   
++2 \bigg[ b_e - 2\Q   -  \frac{\HH'}{\HH^2}  - \frac{2}{\chi \HH} \left(1 - \Q\right)  \bigg] \delta_g^{(1)}
+\nonumber  \\
+ &&   
+- \frac{2}{\HH}  \frac{\d  \delta_g^{(1)} }{\d \chi}  +  \frac{2}{\HH}  \left[ 2 \Q  -   b_e   +  \frac{\HH' }{\HH^2}    +  \frac{2}{\chi \HH}  \left(1 - \Q\right)\right]  \p_\|^2 v^{(1)}    + \frac{2}{\HH}\bigg[ b_e-2    -   \frac{2}{\chi \HH} \left(1 - \Q\right)
+\nonumber \\
+&&- \frac{\HH' }{\HH^2}\bigg]  \Phi^{(1)\prime}   
+  - \frac{4}{\HH} \Q \p_\|  \Phi \Bigg\}\left[\p_\| v^{(1)}- \Phi^{(1)} \right] + \Bigg\{b_e^2-b_e+ \frac{\p b_e}{\p \ln \bar a}+6\Q-4 \Q b_e+4 \Q^2 -4\frac{\p \Q}{\p \ln \bar L}-4\frac{\p \Q}{\p \ln \bar a}   
+\nonumber \\
+&&+ \frac{6}{\chi} \frac{\HH' }{\HH^3} \left(1 - \Q\right) + \left(1-2 b_e + 4\Q \right) \frac{\HH' }{\HH^2}  -\frac{\HH'' }{\HH^3} +3 \frac{\HH^{\prime 2} }{\HH^4} +  \frac{2}{\chi^2 \HH^2} \bigg(1-\Q +2\Q^2  -2\frac{\p \Q}{\p \ln \bar L}\bigg) + \frac{2}{\chi \HH} \bigg[ 1 - 2b_e - \Q   \nonumber \\
+&& + 2b_e \Q  - 4 \Q^2 +4\frac{\p \Q}{\p \ln \bar L} +2 \frac{\p \Q}{\p \ln \bar a} \bigg] \Bigg\} \left[\p_\| v^{(1)}- \Phi^{(1)} \right]^{2}+4\bigg[ \bigg(1-\frac{1}{\chi \HH}\bigg) \p_{\parallel}v^{(1)}- \bigg(2-\frac{1}{\chi \HH}\bigg)\Phi^{(1)}  \bigg]\frac{\p \delta_{g}^{(1)}}{\p \ln{\bar{L}}} .\label{eq:fulldeltaso}
+\end{align}
+\fi
 
 
 \section{Contributions from second-order vector and tensor modes}\label{sec:tensorvector}
