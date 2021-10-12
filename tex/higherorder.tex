@@ -145,50 +145,58 @@ At second order, the expression for $\Delta_g$ is a lot more involved, because i
 Here we use the expression given by~\cite{Bertacca:2014hwa} \todo[inline]{erratum?}, which includes the evolution and magnification biases-- we neglect the integrated effects that are given, and we include our gauge-independent model of second-order galaxy bias. The resulting expression for $\Delta_g^\tw$ is, 
 \begin{align} 
 \Delta_{g}^{(2)} &= b_1 \delta_{m{\mathrm{T}}}^\tw + b_2 \left[\delta_{m{\mathrm{T}}}^\on \right]^2 + \left[(b_e-3)^2 \cH^2 + b_e' \cH +(b_e-3) \cH' \right] \left[v^\on \right]^2 \nonumber \\
-& + (b_e - 3)\cH v^\on v^{\on \prime} + 2b_1 (3 - b_e) \cH v^\on \delta_{m\mathrm{T}}^{(1)} \nonumber \\
-& bob
+& + (b_e - 3)\cH v^\on v^{\on \prime} + 2b_1 (3 - b_e) \cH v^\on \delta_{m\mathrm{T}}^{(1)} - 2v^\on \left[ b_1 \delta_{m\mathrm{T}}^{\on \prime} + b_1' \delta_{m\mathrm{T}}^\on \right] \nonumber \\
+&+ (3-b_{e})\cH \nabla^{-2} \left[v^\on \nabla^2 v^{\on \prime} - v^{\on \prime} \, \nabla^2 v^\on  - 6 \partial_{i}\Phi^\on \partial^{i}v^\on - 6 \Phi^\on \nabla^2 v^\on \right] \nonumber \\
+&- \frac{1}{\cH} \partial_\parallel^2 v^\tw + (3-b_e) \cH v^\tw + \left[b_{e} - 2\mathcal{Q} -\frac{2(1-\mathcal{Q})}{\chi\mathcal{H}}- \frac{\mathcal{H}'}{\mathcal{H}^{2}} \right] \left[\partial_\parallel v^\tw - \Phi^\tw \right] \nonumber \\
+& + 2(\Q - 1) \Psi^\tw + \Phi^\tw + \frac{1}{\cH} \Psi^{\tw\prime} + \left[ b_e-2 \Q - \frac{\cH'}{\cH^2} - \left(1 - \Q\right) \frac{2}{\chi \cH} \right] \times \nonumber \\
+& \left[ 3 \left[{\Phi}^{(1)}\right]^2 - \left[ \p_\| v^\on \right]^2 + \p_{\perp i} v^\on \p^i_\perp v^\on - 2 \p_\| v^\on \Phi^\on - \frac{2}{\cH} \left( \Phi^\on - \p_\| v^\on \right) \right. \times \nonumber \\
+& \left. \vphantom{\frac{1}{\cH}} \left( \Phi^{(1)\prime} - \p_\|^2 v^\on  \right)\right] +2 \left(2 \Q-1 \right) \Phi^\on \delta_g^\on - \frac{2}{\cH} \delta_g^\on \p_\|^2 v^\on +\frac{2}{\cH}\delta_g^\on \Phi^{\on \prime} \nonumber \\
+& + \left( 4 \Q -5 + 4 \Q^2 - 4 \frac{\p \Q}{\p \ln \bar L} \right) \left[ \Phi^\on \right]^2 + \frac{2}{\cH} \left( 2\Q + \frac{\cH'}{\cH^2} \right) \Phi^\on \Phi^{\on \prime} \nonumber \\
+& - \frac{2}{\cH} \left( 1+ 2\Q  +\frac{\cH'}{\cH^2} \right) \Phi^\on \p_\|^2 v^\on + \frac{2}{\cH^2} \left[ \Phi^{\on \prime}  \right]^2 + \frac{2}{\cH^2}\left[\p_\|^2 v^\on  \right]^2  \nonumber \\
+& + \frac{2}{\cH^2} \p_\| v^{(1)}  \p_\|^2 \Phi^\on +\frac{4}{\cH}\p_\| v^\on\p_\| \Phi^\on - \frac{2}{\cH^2} \Phi^\on \p_\|^3 v^\on - \frac{2}{\cH} \Phi^\on \p_\| \Phi^\on \nonumber \\
+& + \frac{2}{\cH^2} \Phi^\on \frac{\diff \Phi^{\on\prime} }{\diff \chi} - \frac{2}{\cH^2} \p_\| v^\on \frac{\diff \Phi^{\on \prime} }{\diff \chi} + \frac{2}{\cH} \left(1 +\frac{\cH'}{\cH^2} \right) \p_\| v^\on \p_\|^2 v^\on \nonumber \\
+& - \frac{2}{\cH^2} \Phi^\on \p_\|^2 \Phi^\on +\frac{2}{\cH} \left(1 - \frac{\cH'}{\cH^2} \right) \p_\| v^\on\Phi^{(1)\prime} - \frac{4}{\cH^2} \p_\|^2 v^\on \Phi^{(1)\prime} \nonumber \\
+& + \frac{2}{\cH} \p_{\perp i} v^\on \p^i_\perp \Phi^\on -\frac{{4}}{\cH} \p_{\perp i} v^\on \p_{\perp}^i \p_\| v^\on + \left(\frac{4}{ \chi \cH } -1 \right) \p_{\perp i} v^\on \p_{\perp}^i v^\on \nonumber \\
+& + \frac{2}{\cH^2} \p_\| v^\on \p_\|^3 v^\on + \left\{ \left[ 4 b_e \Q - 2 b_e - 4 \Q - 8 \Q^2 + 8 \frac{\p \Q}{\p \ln \bar L} + 4 \frac{\p \Q}{\p \ln \bar a} \right. \right. \nonumber \\
+&\left. \left. + 2  \frac{\cH'}{\cH^2} \left(1 - {2\Q}\right)  + \frac{4}{\chi \cH} \left(\Q - 1 + 2 \Q^2 - 2 \frac{\p \Q}{\p \ln \bar L} \right) \right] \Phi^\on + 2 \left[ b_e - 2\Q \right. \right. \nonumber \\
+& \left. \left. -  \frac{\cH'}{\cH^2}  - \frac{2}{\chi \cH} \left(1 - \Q\right)  \right] \delta_g^\on - \frac{2}{\cH} \frac{\diff \delta_g^\on }{\diff \chi} + \frac{2}{\cH} \left[ 2 \Q - b_e + \frac{\cH'}{\cH^2} + \frac{2}{\chi \cH} \left(1 - \Q\right) \right]\times \right. \nonumber \\
+&\left. \p_\|^2 v^\on + \frac{2}{\cH} \left[ b_e - 2 - \frac{2}{\chi \cH} \left(1 - \Q \right) - \frac{\cH'}{\cH^2} \right]  \Phi^{(1)\prime} - \frac{4}{\cH} \Q \p_\| \Phi \right\} \left[\p_\| v^\on- \Phi^\on \right] \nonumber \\
+& + \left\{ b_e^2 - b_e + \frac{\p b_e}{\p \ln \bar a} +6 \Q -4 \Q b_e + 4 \Q^2 - 4\frac{\p \Q}{\p \ln \bar L} - 4 \frac{\p \Q}{\p \ln \bar a} + \frac{6}{\chi} \frac{\cH'}{\cH^3} \left(1 - \Q\right) \right. \nonumber \\
+& \left. + \left(1 - 2 b_e + 4\Q \right) \frac{\cH' }{\cH^2}  -\frac{\cH'' }{\cH^3} +3 \frac{\cH^{\prime 2} }{\cH^4} +  \frac{2}{\chi^2 \cH^2} \left( 1 - \Q + 2 \Q^2 - 2 \frac{\p \Q}{\p \ln \bar L} \right) \right. \nonumber \\
+& \left. + \frac{2}{\chi \cH} \left[ 1 - 2 b_e - \Q + 2 b_e \Q  - 4 \Q^2 + 4 \frac{\p \Q}{\p \ln \bar L} + 2 \frac{\p \Q}{\p \ln \bar a} \right] \right\} \left[\p_\| v^\on - \Phi^\on  \right]^2 \nonumber \\
+&+ 4\left[ \left( 1 - \frac{1}{\chi \cH} \right) \p_\parallel v^\on - \left(2 - \frac{1}{\chi \cH} \right) \Phi^\on \right] \frac{\p \delta_g^\on}{\p \ln{\bar{L}}}\, .\label{eq:fulldeltaso}
+\end{align}
+\todo[inline]{check the above equation for typos!}
+\todo[inline]{check above equationfor corrections that come in in paper III of the series}
+Similarly to the first-order observed galaxy number density contrast, $\Delta_g^\tw$ can be split into Newtonian and GR parts. The Newtonian part consists of the density contrast and the Kaiser RSD terms, plus couplings thereof, 
+\begin{align}
+	\Delta_{g\nw}^\tw =& b_1 \delta_{m\mathrm{T}}^2 + b_2 [\delta_{m\mathrm{T}}^\on]^2 - \frac{1}{\cH}\partial_\parallel^2 v^\tw - 2 \frac{b_1}{\cH} \left[ \delta_{m\mathrm{T}}^\on \partial_\parallel^2 v^\on + \partial_\parallel v^\on \partial_\parallel \delta_{m\mathrm{T}}^\on \right] \nonumber \\
+	& \frac{2}{\cH^2} \left[ [\partial_\parallel^2 v^\on]^2 + \partial_\parallel v^\on \partial_\parallel^3 v^\on \right]\,.
+\end{align}
+The GR part of $\Delta_g^\tw$ then is formed by all the remaining terms. For notational brevity we define coefficients that depend on the background coefficients only, such that we get, 
+\begin{align}
+	\Delta_{g\gr}^\tw =& \cH (3-b_e) v^\tw + \left[ ( 9 - 6 b_e + b_e^2 ) \cH^2 + b_e'\cH + ( b_e - 3) \cH' \right] \left[ v^\on \right]^2 \nonumber \\
+	&+ (b_e - 3) \cH v^\on {v^{(1)\prime}} - (b_e - 3) \cH \nabla^{-2} \left[ v^\on \nabla^2 v^{(1)\prime} - v^{(1)\prime} \, \nabla^2 v^\on  \right. \nonumber \\
+	&\left. - 6\partial_{i}\Phi^\on \partial^i v^\on - 6\Phi^\on \nabla^2 v^\on \right] + 2 (3 - b_e) b_1 \cH v^\on \delta_{m\mathrm{T}}^\on  \nonumber \\
+	& - 2 v^\on \left( b_1' \delta_{m\mathrm{T}}^\on + b_1 \delta_{m\mathrm{T}}^{(1)\prime} \right) + \left[ b_e - 2 \Q - \frac{2 (1 - \Q)}{\chi\cH} - \frac{\cH'}{\cH^2} \right] \p_\parallel v^\tw \nonumber \\
+	&+ \left[ 1-b_e + 2 \Q + \frac{ 2 (1 - \Q)}{\chi\cH} + \frac{\cH'}{\cH^{2}} \right] \Phi^\tw - 2 (1 - \Q) \Psi^\tw + \frac{1}{\cH}{\Psi^{(2)\prime}} \nonumber \\
+	&+ \frac{2}{\cH}\left[ b_1 {\delta_{m\mathrm{T}}^{(1)\prime}} \, \p_\parallel v^\on + (f - 2 + 2\Q ) \Phi^\on \p_\parallel \Phi^\on + (2 - f - 2\Q) \p_\parallel v^\on \p_\parallel \Phi^\on \right. \nonumber \\
+	&\left. - b_1 \Phi^\on {\delta_{m\mathrm{T}}^{(1)\prime}} + b_1 \Phi^\on \p_\parallel \delta_{m\mathrm{T}}^\on - 2\p_i v^\on \p_\on \p^i v^\on + \p_i v^\on \p^i \Phi^\on \right] \nonumber \\
+	& + \frac{2}{\cH^2} \left[ \p_\parallel v^\on \p_\parallel^2 \Phi^\on - \Phi^\on \p_\parallel^2 \Phi^\on - \Phi^\on \p_\parallel^3 v^\on \right] - 2 (3-b_e) v^\on \p_\parallel^2 v^\on \nonumber \\
+	&+ 2\left[ b_1 \left(b_e - 2\Q - \frac{2 (1 - \Q)}{\chi\cH} - \frac{\cH'}{\cH^2} \right) + \frac{b_1'}{\cH} + 2\left(1 - \frac{1}{\chi\cH} \right) \frac{\p b_1}{\p \ln{\bar{L}}} \right] \delta_{m\mathrm{T}}^\on \p_\parallel v^\on
 \end{align}
 
+
 \iffalse
- - 2v^{(1)}\Big[b_1{\delta_{m\mathrm{T}}^{(1)\prime}}+b_1'\delta_{m\mathrm{T}}^{(1)}\Big]  + (3-b_{e})\mathcal{H}\nabla^{-2}\bigg[v^{(1)}\nabla^{2}{v^{(1)\prime}}- {v^{(1)\prime}}\,\nabla^{2}v^{(1)} - 6\partial_{i}\Phi^{(1)}\partial^{i}v^{(1)} - 6\Phi^{(1)}\nabla^{2}v^{(1)}\bigg]    \nonumber \\
- &&- \frac{1}{\mathcal{H}}\partial_{\parallel}^{2}v^{(2)}+ (3-b_{e})\mathcal{H}v^{(2)}+ \bigg[b_{e} - 2\mathcal{Q} -\frac{2(1-\mathcal{Q})}{\chi\mathcal{H}}- \frac{\mathcal{H}'}{\mathcal{H}^{2}} \bigg]\left[\partial_{\parallel}v^{(2)}-\Phi^{(2)} \right] +2(\mathcal{Q}-1)\Psi^{(2)}  +\Phi^{(2)} + \frac{1}{\mathcal{H}}{\Psi^{(2)}}' \nonumber \\
-&&+ \left[ b_e-2 \Q  -   \frac{\HH'}{\HH^2} - \left(1 - \Q\right) \frac{2}{\chi \HH} \right]\bigg[3  \big[{\Phi}^{(1)}\big]^2  -  \big[ \p_\| v^{(1)} \big]^2+ \p_{\perp i} v^{(1)}  \p^i_{\perp} v^{(1)}  -2  \p_\| v^{(1)}  \Phi^{(1)} 
- \nonumber \\ 
-&&- \frac{2}{\HH}\left( \Phi^{(1)}  -  \p_\| v^{(1)}\right) \left(  \Phi^{(1)\prime} - \p_\|^2 v^{(1)}  \right)\bigg] +2\left(2\Q-1 \right)\Phi^{(1)} \delta_g^{(1)} - \frac{2}{\HH} \delta_g^{(1)} \p_\|^2 v^{(1)}  +\frac{2}{\HH}\delta_g^{(1)}  \Phi^{(1)\prime}
-\nonumber \\
- && + \left( 4\Q -5 +4 \Q^2 - 4 \frac{\p \Q}{\p \ln \bar L} \right)\big[\Phi^{(1)}\big]^2  
-%{\cancel{+2 \Q \Phi^{(1)} \p_\| v^{(1)}}} 
-%+{\cancel{\left({1 +2\Q} \right)}} \big[ \p_\| v^{(1)}  \big]^2 
-+ \frac{2}{\HH}\left({2\Q}+\frac{\HH'}{\HH^2}\right)\Phi^{(1)} \Phi^{(1)\prime}  
-\nonumber\\ 
-&& - \frac{2}{\HH}\left({1+ 2\Q}  +\frac{\HH'}{\HH^2}\right)\Phi^{(1)} \p_\|^2 v^{(1)} + \frac{2}{\HH^2}\big[ \Phi^{(1)\prime}  \big]^2 + \frac{2}{\HH^2}\big[\p_\|^2 v^{(1)}  \big]^2  + \frac{2}{\HH^2} \p_\| v^{(1)}  \p_\|^2 \Phi^{(1)}+\frac{4}{ \HH }\p_\| v^{(1)}  \p_\| \Phi^{(1)}
-\nonumber\\
-&& - \frac{2}{\HH^2} \Phi^{(1)} \p_\|^3 v^{(1)}   -\frac{2}{\HH}\Phi^{(1)} \p_\| \Phi^{(1)}  + \frac{2}{\HH^2}\Phi^{(1)} \frac{\d \Phi^{(1)\prime} }{\d \chi}- \frac{2}{\HH^2} \p_\| v^{(1)} \frac{\d \Phi^{(1)\prime} }{\d \chi}+\frac{2}{\HH} \left(1 
-%{\cancel{+\Q}} 
-+\frac{\HH'}{\HH^2} \right) \p_\| v^{(1)} \p_\|^2 v^{(1)} 
-\nonumber \\
- && - \frac{2}{\HH^2}\Phi^{(1)}  \p_\|^2 \Phi^{(1)}
- +\frac{2}{\HH} \left(1
- %{\cancel{-\Q}} 
- -\frac{\HH'}{\HH^2} \right)  \p_\| v^{(1)}  \Phi^{(1)\prime}
-   -  \frac{4}{\HH^2}\p_\|^2 v^{(1)}   \Phi^{(1)\prime}  +\frac{2}{\HH}\p_{\perp i} v^{(1)} \p^i_\perp \Phi^{(1)}   -\frac{{4}}{ \HH } \p_{\perp i} v^{(1)}   \p_{\perp}^i \p_\|  v^{(1)}   
-\nonumber \\
- &&   +\left(\frac{{4}}{ \chi \HH } -1\right) \p_{\perp i} v^{(1)}    \p_{\perp}^i v^{(1)}   
-  +  \frac{2}{\HH^2}\p_\| v^{(1)} \p_\|^3v^{(1)} + \Bigg\{ \bigg[ 4 b_e \Q -2 b_e - 4 \Q   - 8 \Q^2  + 8 \frac{\p \Q}{\p \ln \bar L} +4 \frac{\p \Q}{\p \ln \bar a}   
- \nonumber \\    
-&&  + 2  \frac{\HH'}{\HH^2} \left(1 - {2\Q}\right)  + \frac{4}{\chi \HH}\left(\Q -1+2\Q^2- 2\frac{\p \Q}{\p \ln \bar L} \right) \bigg] \Phi^{(1)}  
-%{\cancel{+2  \frac{\HH'}{\HH^2} \Q \p_\| v^{(1)}}}   
-+2 \bigg[ b_e - 2\Q   -  \frac{\HH'}{\HH^2}  - \frac{2}{\chi \HH} \left(1 - \Q\right)  \bigg] \delta_g^{(1)}
-\nonumber  \\
- &&   
-- \frac{2}{\HH}  \frac{\d  \delta_g^{(1)} }{\d \chi}  +  \frac{2}{\HH}  \left[ 2 \Q  -   b_e   +  \frac{\HH' }{\HH^2}    +  \frac{2}{\chi \HH}  \left(1 - \Q\right)\right]  \p_\|^2 v^{(1)}    + \frac{2}{\HH}\bigg[ b_e-2    -   \frac{2}{\chi \HH} \left(1 - \Q\right)
-\nonumber \\
-&&- \frac{\HH' }{\HH^2}\bigg]  \Phi^{(1)\prime}   
-  - \frac{4}{\HH} \Q \p_\|  \Phi \Bigg\}\left[\p_\| v^{(1)}- \Phi^{(1)} \right] + \Bigg\{b_e^2-b_e+ \frac{\p b_e}{\p \ln \bar a}+6\Q-4 \Q b_e+4 \Q^2 -4\frac{\p \Q}{\p \ln \bar L}-4\frac{\p \Q}{\p \ln \bar a}   
-\nonumber \\
-&&+ \frac{6}{\chi} \frac{\HH' }{\HH^3} \left(1 - \Q\right) + \left(1-2 b_e + 4\Q \right) \frac{\HH' }{\HH^2}  -\frac{\HH'' }{\HH^3} +3 \frac{\HH^{\prime 2} }{\HH^4} +  \frac{2}{\chi^2 \HH^2} \bigg(1-\Q +2\Q^2  -2\frac{\p \Q}{\p \ln \bar L}\bigg) + \frac{2}{\chi \HH} \bigg[ 1 - 2b_e - \Q   \nonumber \\
-&& + 2b_e \Q  - 4 \Q^2 +4\frac{\p \Q}{\p \ln \bar L} +2 \frac{\p \Q}{\p \ln \bar a} \bigg] \Bigg\} \left[\p_\| v^{(1)}- \Phi^{(1)} \right]^{2}+4\bigg[ \bigg(1-\frac{1}{\chi \HH}\bigg) \p_{\parallel}v^{(1)}- \bigg(2-\frac{1}{\chi \HH}\bigg)\Phi^{(1)}  \bigg]\frac{\p \delta_{g}^{(1)}}{\p \ln{\bar{L}}} .\label{eq:fulldeltaso}
-\end{align}
+&&  \nonumber\\
+&&  \nonumber \\
+&&   \nonumber \\
+&&     \nonumber \\
+&&    \nonumber \\
+&&  +\frac{2}{\HH}\bigg[3-2b_{e}+{4}\Q+\frac{4(1-\Q)}{\HH\chi}+\frac{3\HH'}{\HH}\bigg]\p_{\parallel}v^{(1)}\p_{\parallel}^{2}v^{(1)}  + 2\bigg[b_{1}\bigg(f-2-b_{e}+4\Q+\frac{2(1-\Q)}{\chi\HH}+\frac{\HH'}{\HH^{2}}\bigg) -\frac{{b_{1}'}}{\HH} \nonumber \\
+&&-2\bigg(2-\frac{1}{\chi\HH}\bigg)\frac{\p b_{1}}{\p \ln{\bar{L}}}\bigg]\Phi^{(1)}\delta_{m{\rm T}}^{(1)} + \bigg[b_{e}-1-2\Q-\frac{2(1-\Q)}{\chi\HH}-\frac{\HH'}{\HH^{2}}\bigg]\p_{i}v^{(1)}\p^{i}v^{(1)} + \frac{2}{\HH}\bigg[{1}-2f+2b_{e}-{6}\Q \nonumber \\
+&& -\frac{4(1-\Q)}{\chi\HH}-\frac{3\HH'}{\HH^{2}}\bigg]\Phi^{(1)}\p_{\parallel}^{2}v^{(1)} + \mathcal{A}\big[\Phi^{(1)}\big]^{2} + \mathcal{B}v^{(1)}\p_{\parallel}v^{(1)} + \mathcal{C}\Phi^{(1)} v^{(1)} + \mathcal{D}\Phi^{(1)}\p_{\parallel}v^{(1)} + \mathcal{E}\big[\p_{\parallel}v^{(1)}\big]^{2} .
+ \label{eq:secondorderGRA}
 \fi
 
 
