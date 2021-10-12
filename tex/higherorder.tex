@@ -174,7 +174,7 @@ Similarly to the first-order observed galaxy number density contrast, $\Delta_g^
 	& \frac{2}{\cH^2} \left[ [\partial_\parallel^2 v^\on]^2 + \partial_\parallel v^\on \partial_\parallel^3 v^\on \right]\,.
 \end{align}
 The GR part of $\Delta_g^\tw$ then is formed by all the remaining terms. For notational brevity we define coefficients that depend on the background coefficients only, such that we get, 
-\begin{align}
+\begin{align} \label{eq:DeltaSOwBGcoeffs}
 	\Delta_{g\gr}^\tw =& \cH (3-b_e) v^\tw + \left[ ( 9 - 6 b_e + b_e^2 ) \cH^2 + b_e'\cH + ( b_e - 3) \cH' \right] \left[ v^\on \right]^2 \nonumber \\
 	&+ (b_e - 3) \cH v^\on {v^{(1)\prime}} - (b_e - 3) \cH \nabla^{-2} \left[ v^\on \nabla^2 v^{(1)\prime} - v^{(1)\prime} \, \nabla^2 v^\on  \right. \nonumber \\
 	&\left. - 6\partial_{i}\Phi^\on \partial^i v^\on - 6\Phi^\on \nabla^2 v^\on \right] + 2 (3 - b_e) b_1 \cH v^\on \delta_{m\mathrm{T}}^\on  \nonumber \\
@@ -183,20 +183,34 @@ The GR part of $\Delta_g^\tw$ then is formed by all the remaining terms. For not
 	&+ \frac{2}{\cH}\left[ b_1 {\delta_{m\mathrm{T}}^{(1)\prime}} \, \p_\parallel v^\on + (f - 2 + 2\Q ) \Phi^\on \p_\parallel \Phi^\on + (2 - f - 2\Q) \p_\parallel v^\on \p_\parallel \Phi^\on \right. \nonumber \\
 	&\left. - b_1 \Phi^\on {\delta_{m\mathrm{T}}^{(1)\prime}} + b_1 \Phi^\on \p_\parallel \delta_{m\mathrm{T}}^\on - 2\p_i v^\on \p_\on \p^i v^\on + \p_i v^\on \p^i \Phi^\on \right] \nonumber \\
 	& + \frac{2}{\cH^2} \left[ \p_\parallel v^\on \p_\parallel^2 \Phi^\on - \Phi^\on \p_\parallel^2 \Phi^\on - \Phi^\on \p_\parallel^3 v^\on \right] - 2 (3-b_e) v^\on \p_\parallel^2 v^\on \nonumber \\
-	&+ 2\left[ b_1 \left(b_e - 2\Q - \frac{2 (1 - \Q)}{\chi\cH} - \frac{\cH'}{\cH^2} \right) + \frac{b_1'}{\cH} + 2\left(1 - \frac{1}{\chi\cH} \right) \frac{\p b_1}{\p \ln{\bar{L}}} \right] \delta_{m\mathrm{T}}^\on \p_\parallel v^\on
+	&+ 2\left[ b_1 \left(b_e - 2\Q - \frac{2 (1 - \Q)}{\chi\cH} - \frac{\cH'}{\cH^2} \right) + \frac{b_1'}{\cH} + 2\left(1 - \frac{1}{\chi\cH} \right) \frac{\p b_1}{\p \ln{\bar{L}}} \right] \times \nonumber \\
+	& \delta_{m\mathrm{T}}^\on \p_\parallel v^\on + \frac{2}{\cH} \left[ 3 - 2 b_e + 4 \Q + \frac{4 (1 - \Q)}{\cH\chi} + \frac{3\cH'}{\cH} \right] \p_\parallel v^\on \p_\parallel^2 v^\on \nonumber \\
+	& + 2\left[ b_1 \left( f - 2 - b_e + 4 \Q + \frac{2 (1 - \Q)}{\chi\cH} + \frac{\cH'}{\cH^2} \right) - \frac{b_1'}{\cH} - 2 \left( 2 - \frac{1}{\chi\cH} \right) \frac{\p b_1}{\p \ln{\bar{L}}} \right] \times \nonumber \\
+	& \Phi^\on \delta_{m\mathrm{T}}^\on + \left[b_e - 1 - 2\Q - \frac{2 (1 - \Q)}{\chi\cH} - \frac{\cH'}{\cH^{2}}\right] \p_i v^\on \p^i v^\on + \frac{2}{\cH} \left[1 - 2f + 2b_e \right. \nonumber \\
+	& \left. - 6\Q - \frac{4 (1 - \Q)}{\chi\cH} - \frac{3\cH'}{\cH^{2}} \right] \Phi^\on \p_\parallel^2 v^\on + \mathcal{A} \left[ \Phi^\on \right]^2 + \mathcal{B} v^\on \p_\parallel v^\on + \mathcal{C}\Phi^\on v^\on \nonumber \\
+	&+ \mathcal{D} \Phi^\on \p_\parallel v^\on + \mathcal{E} \left[ \p_\parallel v^\on \right]^{2}\,.
 \end{align}
+The coefficients $\mathcal{A},\,\mathcal{B},\,\mathcal{C},\,\mathcal{D},\,\mathcal{E}$ are defined as, 
+\begin{align}
+	&\mathcal{A} = -3 + 2f \left(2 - 2b_e + 4 \Q + \frac{4(1-\Q)}{\chi\cH} + \frac{2\cH'}{\cH^{2}} \right) -\frac{2f'}{\cH} + b_e^2 + 6 b_e - 8 b_e \Q \nonumber \\
+	&\hphantom{\cH = } + 4 \Q + 16 \Q^2 - 16\frac{\p \Q}{\p \ln\bar{L}} -8 \frac{\Q'}{\cH} + \frac{b_e'}{\cH} + \frac{2}{\chi^{2}\cH^2} \left(1 - \Q + 2\Q^2 - 2\frac{\p \Q}{\p \ln{\bar{L}}} \right) - \frac{2}{\chi \cH} \left[ 4 + 2b_e - 2 b_e \Q - 4\Q + 8\Q^2 - \frac{3\cH'}{\cH^2}(1 - \Q) - 8\frac{\p \Q}{\p \ln{\bar{L}}} - 2\frac{\Q'}{\cH} \right] + \frac{\cH'}{\cH^2} \left(-8 - 2b_e + 8\Q + \frac{3\cH'}{\cH^2} \right) - \frac{\cH''}{\cH^3}
+	\end{align}
 
 
 \iffalse
-&&  \nonumber\\
+ \nonumber\\ 
 &&  \nonumber \\
-&&   \nonumber \\
-&&     \nonumber \\
-&&    \nonumber \\
-&&  +\frac{2}{\HH}\bigg[3-2b_{e}+{4}\Q+\frac{4(1-\Q)}{\HH\chi}+\frac{3\HH'}{\HH}\bigg]\p_{\parallel}v^{(1)}\p_{\parallel}^{2}v^{(1)}  + 2\bigg[b_{1}\bigg(f-2-b_{e}+4\Q+\frac{2(1-\Q)}{\chi\HH}+\frac{\HH'}{\HH^{2}}\bigg) -\frac{{b_{1}'}}{\HH} \nonumber \\
-&&-2\bigg(2-\frac{1}{\chi\HH}\bigg)\frac{\p b_{1}}{\p \ln{\bar{L}}}\bigg]\Phi^{(1)}\delta_{m{\rm T}}^{(1)} + \bigg[b_{e}-1-2\Q-\frac{2(1-\Q)}{\chi\HH}-\frac{\HH'}{\HH^{2}}\bigg]\p_{i}v^{(1)}\p^{i}v^{(1)} + \frac{2}{\HH}\bigg[{1}-2f+2b_{e}-{6}\Q \nonumber \\
-&& -\frac{4(1-\Q)}{\chi\HH}-\frac{3\HH'}{\HH^{2}}\bigg]\Phi^{(1)}\p_{\parallel}^{2}v^{(1)} + \mathcal{A}\big[\Phi^{(1)}\big]^{2} + \mathcal{B}v^{(1)}\p_{\parallel}v^{(1)} + \mathcal{C}\Phi^{(1)} v^{(1)} + \mathcal{D}\Phi^{(1)}\p_{\parallel}v^{(1)} + \mathcal{E}\big[\p_{\parallel}v^{(1)}\big]^{2} .
- \label{eq:secondorderGRA}
+&&{} , \label{bca}\\
+\mathcal{B} &=& 2\HH\bigg[-3+4b_{e}+2b_e\frac{(1-\Q)}{\chi\HH}-b_{e}^{2}+2b_{e}\Q -6\Q-\frac{b_{e}'}{\HH}-\frac{6(1-\Q)}{\chi\HH}+2\bigg(1-\frac{1}{\chi\HH}\bigg)\frac{\Q'}{\HH}\bigg], \\
+\mathcal{C} &=& 2\HH\bigg[-3+f(3-b_{e})-3b_{e}-2b_e\frac{(1-\Q)}{\chi\HH}+\frac{b_{e}'}{\HH}+b_{e}^{2}-4b_{e}\Q+12\Q+\frac{6(1-\Q)}{\chi\HH}-2\bigg(2-\frac{1}{\chi\HH}\bigg)\frac{\Q'}{\HH}\bigg], \\
+\mathcal{D} &=& 4 +2f\bigg[-3+f+2b_{e}-3\Q-\frac{4(1-\Q)}{\chi\HH}-\frac{2\HH'}{\HH^{2}}\bigg] +\frac{2f'}{\HH}-6b_{e}-2b_{e}^{2}+12b_{e}\Q-{8}\Q-16\Q^{2}+16\frac{\p \Q}{\p \ln{\bar{L}}}  \nonumber \\
+&&+12\frac{\Q'}{\HH} -2\frac{b_{e}'}{\HH} -\frac{4}{\chi^{2}\HH^{2}}\bigg(1-\Q+2\Q^{2}-2\frac{\p \Q}{\p \ln{\bar{L}}}\bigg) - \frac{4}{\chi \HH}\bigg[-1 -2b_{e}+2b_{e}\Q+\Q-6\Q^{2}+\frac{3\HH'}{\HH^{2}}(1-\Q)  \nonumber \\
+&& +6\frac{\p \Q}{\p \ln{\bar{L}}} + 2\frac{\Q'}{\HH}\bigg]+ \frac{2\HH'}{\HH^{2}}\bigg(3+2b_{e}-6\Q-\frac{3\HH'}{\HH^{2}}\bigg) + \frac{2\HH''}{\HH^{3}} , \\
+\mathcal{E} &=&  -4-b_{e}+b_{e}^{2}-4b_{e}\Q+ {6}\Q+4\Q^{2}-4\frac{\p \Q}{\p \ln{\bar{L}}} - 4\frac{\Q'}{\HH} + \frac{b_{e}'}{\HH} + \frac{2}{\chi^{2}\HH^{2}}\bigg(1-\Q+2\Q^{2}-2\frac{\p \Q}{\p \ln{\bar{L}}}\bigg) \nonumber \\
+&& + \frac{2}{\chi\HH}\bigg[3-2b_{e}+2b_{e}\Q-3\Q-4\Q^{2}+\frac{3\HH'}{\HH^{2}}(1-\Q) + 4\frac{\p \Q}{\p \ln{\bar{L}}} + 2\frac{\Q'}{\HH}\bigg] + \frac{\HH'}{\HH^{2}}\bigg(3-2b_{e}+{4}\Q+\frac{3\HH'}{\HH^{2}}\bigg) - \frac{\HH''}{\HH^{3}}.\nonumber \\
+&& \label{bce}
+
+
 \fi
 
 
