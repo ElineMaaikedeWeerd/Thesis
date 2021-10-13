@@ -5,3 +5,31 @@
 \singlespacing
 
 Estuans interius ira vehementi
+
+\section*{Abbreviations}
+\setlength{\tabcolsep}{12pt}
+\begin{center}
+\begin{tabular}{c | l}
+	\textbf{Notation} & \textbf{Description} \\
+	\hline
+	GR & General Relativity (Relativistic) \\
+	LSS & Large Scale Structure \\
+	SKA & Square Kilometre Array
+\end{tabular}
+\end{center}
+\section*{Conventions}
+
+\textbf{Fourier convention}
+
+
+Our Fourier convention is, 
+\begin{align*}
+	&f(\x) = \int \frac{\diff^3 k}{(2\pi)^3}\, e^{\i \k \cdot \x} f(\k)\,,\\
+	&f(\k) = \int \diff^3x\, e^{\i \k\cdot\x} f(\x) = \int \frac{\diff^3 k'}{(2\pi)^3} (2\pi)^3 \delta^D(\k-\k') f(\k')
+\end{align*}
+
+Convolution (FT of a product), 
+\begin{equation}
+	h(\k) = \int \frac{\diff^3k_1}{(2\pi)^3} \frac{\diff^3k_2}{(2\pi)^3} f(\k_1) g(\k_2) (2\pi)^3 \delta^D(\k_1 +\k_2 - \k)
+\end{equation}
+
