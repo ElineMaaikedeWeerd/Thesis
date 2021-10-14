@@ -220,7 +220,41 @@ Then, $\delta_g^\on$ can be expressed in terms of $\delta_{m\mathrm{T}}^\on$ and
 \todo{few more words on the how, and significance of this expression?}
 
 \section{The galaxy number density contrast in Fourier space}
-
+We only consider correlations at the same fixed observed redshift $z$. At this fixed redshift, the perturbative variables depend on the direction of observation $\n$, and are computed in Fourier space at fixed $\eta(z)$. At fixed redshift and fixed observed direction, we transform $\x = [\eta_0 - \eta(z)]\n + \x_0 \to \k$, which is equivalent to transforming over all observer positions $\x_0$\,. We denote the T-gauge matter density $\delta_{m\mathrm{T}} \equiv \delta$ and expand it in perturbation theory as, 
+\begin{equation}
+	\delta = \delta^\on + \frac{1}{2} \delta^\tw\,.
+\end{equation}
+The second-order matter density contrast is given by\todo{citation, also does this get any other corrections?},
+\begin{equation}
+	\delta^\tw(\k) = \int \frac{\diff^3 k_1}{(2\pi)^3} \frac{\diff^3 k_2}{(2\pi)^3} \delta^\on(\ka) \delta^\on(\kb) F_2(\ka,\kb)(2\pi)^3 \delta^D(\ka+\kb-\k)\,,
+\end{equation}
+where the kernel for the dark matter perturbations in a matter-dominated model is, 
+\todo[inline]{def of F2-- I want the generic version, plus citation, and then make the approximation. think its in chapter 3?}
+The velocity and metric potentials can be split into Newtonian and GR parts, $\v^\tw = v_\nw^\tw + v_\gr^\tw$ and similarly for $\Phi^\tw$ and $\Psi^\tw$. In a Newtonian approximation, these are given by~\cite{Bernardeau:2001qr}, 
+\begin{align}
+	v^\tw_\nw(\k) =& f \frac{\cH}{k^2} \int \frac{\diff^3 k_1}{(2\pi)^3} \frac{\diff^3 k_2}{(2\pi)^3} \delta^\on(\ka) \delta^\on(\kb) G_2(\ka,\kb) (2\pi)^3 \delta^D(\ka+\kb-\k)\,,\\
+	\Phi^\tw_\nw(\k) =& \Psi^\tw_\nw(\k) = - \frac{3}{2} \Omega_m \frac{\cH^2}{k^2} \delta^\tw(\k)\,.
+\end{align}
+\todo{fix this eqn layout}
+The relativistic parts, assuming $\Lambda$CDM and Gaussian initial conditions, are given in real space and Poisson gauge by~\cite{Villa:2015ppa},
+\begin{align}
+	v^\tw_\gr(\x) =& \alpha D' g \left[ \left( 1 - \frac{10}{3} \frac{g_\mathrm{in}}{g} \right) \varphi_0^2(\x) - 12 \Theta_0(\x) \right]\,, \\
+	\Phi^\tw_\gr(\x) =& \left(3 g^2 - \frac{5}{3} g\,g_\mathrm{in} + \frac{\alpha D'^2}{a} \right) \varphi_0^2(\x) + 12 \left( 2 g^2 - \frac{5}{3} g\,g_\mathrm{in} + \frac{\alpha D'^2}{a} \right) \Theta_0(\x)\,,\\
+	\Psi^\tw_\gr(\x) =& - \left( g^2 + \frac{5}{3} g\,g_\mathrm{in} - \frac{\alpha D'^2}{a} \right) \varphi_0^2(\x) + 12 \left( g^2 - \frac{5}{3} g\,g_\mathrm{in} \right) \Theta_0(\x)\,.
+\end{align}
+The above expressions can be simplified using that, 
+\begin{align}
+	&\alpha = \frac{2}{2 \Omega_{m0} H_0^2} = \frac{2}{3 \Omega_m \cH^2 a}\,,\\
+	& g = \frac{D}{a}\,,\quad D(\eta) = \frac{\delta_\mathrm{T}^\on(\eta,\x)}{\delta_{\mathrm{T}}(\eta_0,\x)}\,,\quad g \varphi_0 = \Phi^\on = \Psi^\on\,, \\
+	&\Theta_0(\x) = \frac{1}{2} \nabla^{-2} \left[ \frac{1}{3} \varphi^{,i}_0 \varphi_{0,i} - \nabla^{-2} (\varphi^{,i}_0 \varphi^{,j}_0)_{,ij} \right]\,,\\
+	&\frac{g_\mathrm{in}}{g} = \frac{1}{5} \left( 3 + 2 \frac{f}{\Omega_m} \right)\,,\quad f = \frac{\diff \ln D}{\diff \ln a}\,,
+\end{align}
+where $g_\mathrm{in}$ is the initial values in the matter-dominated era, subscript 0 denotes the value at redshift $z = 0$, and $a_0 = D_0 = g_0 = 1$ 
+We then obtain,
+\begin{align}
+	\cH v^\tw_\gr(\x) =& -g^2 \frac{2f}{3\Omega_m} \left[ \left( 1 + \frac{4 f}{3 \Omega_m} \right) \varphi_0^2(\x) + 12 \Theta_0 (\x) \right]\,,\\
+	\Phi^\tw_\gr(\x) =& g^2 \left[ 2 - \frac{2 f}{3 \Omega_m} + \frac{2 f^2}{3 \Omega_m} \right] \varphi_0^2(\x) + 12 g^2 \left[ 1 - \frac{2f}{3 \Omega_m} + \frac{2 f^2}{3 \Omega_m} \right]
+\end{align}
 
 \section{Construction of the galaxy bispectrum}
 
