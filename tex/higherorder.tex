@@ -244,8 +244,8 @@ The relativistic parts, assuming $\Lambda$CDM and Gaussian initial conditions, a
 \end{align}
 The above expressions can be simplified using that, 
 \begin{align}
-	&\alpha = \frac{2}{2 \Omega_{m0} H_0^2} = \frac{2}{3 \Omega_m \cH^2 a}\,,\\
-	& g = \frac{D}{a}\,,\quad D(\eta) = \frac{\delta_\mathrm{T}^\on(\eta,\x)}{\delta_{\mathrm{T}}(\eta_0,\x)}\,,\quad g \varphi_0 = \Phi^\on = \Psi^\on\,, \\
+	&\alpha = \frac{2}{2 \Omega_{m0} H_0^2} = \frac{2}{3 \Omega_m \cH^2 a}\,,\label{eq:defalpha}\\
+	& g = \frac{D}{a}\,,\quad D(\eta) = \frac{\delta_\mathrm{T}^\on(\eta,\x)}{\delta_{\mathrm{T}}(\eta_0,\x)}\,,\quad g \varphi_0 = \Phi^\on = \Psi^\on\,,\label{eq:defgDvarphireln} \\
 	&\Theta_0(\x) = \frac{1}{2} \nabla^{-2} \left[ \frac{1}{3} \varphi^{,i}_0 \varphi_{0,i} - \nabla^{-2} (\varphi^{,i}_0 \varphi^{,j}_0)_{,ij} \right]\,,\\
 	&\frac{g_\mathrm{in}}{g} = \frac{1}{5} \left( 3 + 2 \frac{f}{\Omega_m} \right)\,,\quad f = \frac{\diff \ln D}{\diff \ln a}\,,
 \end{align}
@@ -253,8 +253,33 @@ where $g_\mathrm{in}$ is the initial values in the matter-dominated era, subscri
 We then obtain,
 \begin{align}
 	\cH v^\tw_\gr(\x) =& -g^2 \frac{2f}{3\Omega_m} \left[ \left( 1 + \frac{4 f}{3 \Omega_m} \right) \varphi_0^2(\x) + 12 \Theta_0 (\x) \right]\,,\\
-	\Phi^\tw_\gr(\x) =& g^2 \left[ 2 - \frac{2 f}{3 \Omega_m} + \frac{2 f^2}{3 \Omega_m} \right] \varphi_0^2(\x) + 12 g^2 \left[ 1 - \frac{2f}{3 \Omega_m} + \frac{2 f^2}{3 \Omega_m} \right]
+	\Phi^\tw_\gr(\x) =& g^2 \left[ 2 - \frac{2 f}{3 \Omega_m} + \frac{2 f^2}{3 \Omega_m} \right] \varphi_0^2(\x) + 12 g^2 \left[ 1 - \frac{2f}{3 \Omega_m} + \frac{2 f^2}{3 \Omega_m} \right]\,,\\
+	\Psi^\tw_\gr(\x) =& -g^2 \left[ 2 + \frac{2 f}{3 \Omega_m} - \frac{2 f^2}{3 \Omega_m} \right] \varphi_0^2(\x) - 8 g^2 \frac{f}{\Omega_m} \Theta_0(\x)\,.
 \end{align}
+The matter density contrast is, 
+\begin{equation}
+	\delta^\on = \alpha D \nabla^2 \varphi_0\,,
+\end{equation}
+which in combination with the relations~\eqref{eq:defalpha} and~\eqref{eq:defgDvarphireln} can be used to obtain the Fourier transforms, 
+\begin{align}
+	\varphi^\tw_0 (\kc) =& \left( \frac{3 \Omega_m \cH^2 }{2 g} \right)^2 \int\diff(\ka,\kb,\kc)\, \frac{1}{k_1^2 k_2^2}\,,\\
+	\Theta_0(\kc) =& \left( \frac{3 \Omega_m \cH^2}{2 g k_3} \right)^2 \int \diff(\ka,\kb,\kc)\,\left\{ \frac{\ka \cdot \kb}{6 k_1^2 k_2^2} - \frac{1}{2 k_3^2} \left[ 1 + \frac{\ka \cdot \kb}{k_1 k_2} \left( \frac{k_1}{k_2} + \frac{k_2}{k_1} \right) \right. \right. \nonumber \\
+	&\left. \left. + \frac{(\ka \cdot \kb)^2}{k_1^2 k_2^2} \right] \right\}\,.
+\end{align}
+We can then define a new Fourier kernel function which scales as $k^0$ (similarly to the kernels $F_2$ and $G_2$), 
+\begin{equation}
+	E_2(\ka,\kb,\kc) = \frac{k_1^2 k_2^2}{k_3^4} \left[ 3 + 2\frac{\ka\cdot\kb}{k_1 k_2} \left( \frac{k_1}{k_2} + \frac{k_2}{k_1} \right) + \frac{(\ka \cdot \kb)^2}{k_1^2 k_2^2} \right]\,.
+\end{equation}
+Combining all of the above expressions, the GR parts of second-order velocity and metric potentials become, 
+\begin{align}
+	\cH v^\tw_\gr(\kc) =& 3 \Omega_m \cH^4 f \int \diff(\ka,\kb,\kc)\, \frac{1}{k_1 k_2} \left[ - \frac{1}{6} \left( 3 + \frac{4 f}{\Omega_m} \right) + E_2(\ka,\kb,\kc) \right]\,,\\
+	\Phi_\gr^\tw(\kc) =& 3 \Omega_m \cH^4 \int \diff(\ka,\kb,\kc)\, \frac{1}{k_1^2 k_2^2} \left[ \frac{1}{2} (3 \Omega_m - f + f^2)  - \frac{1}{2}(3 \Omega_m - 2f + 2 f^2)\times\right.\nonumber\\
+	&\left. \quad E_2(\ka,\kb,\kc) \right]\,,\\
+	\Psi_\gr^\tw(\kc) =& 3 \Omega_m \cH^4 \int \diff(\ka,\kb,\kc)\, \frac{1}{k_1^2 k_2^2} \left[ \frac{1}{2} (3 \Omega_m + f - f^2) + f E_2(\ka,\kb,\kc) \right]\,.
+\end{align}
+\todo[inline]{check these equations with png paper}
+\todo[inline]{change the d(k1k2k3) to be in line w rest of chapter}
+
 
 \section{Construction of the galaxy bispectrum}
 
