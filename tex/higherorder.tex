@@ -134,9 +134,9 @@ In the above equation, the velocity and metric potentials ensure that there is g
 \subsection{Observed galaxy number counts}
 Working in Poisson gauge, we can split the first-order observed galaxy number counts $\Delta_g^\on$ into Newtonian and relativistic parts as, 
 \begin{align}
-	&\Delta_{g\nw}^\on = b_1 \delta_{m\mathrm{T}} - \frac{1}{\cH} \partial_\parallel^2 v^\on\,\\
+	&\Delta_{g\nw}^\on = b_1 \delta_{m\mathrm{T}} - \frac{1}{\cH} \partial_\parallel^2 v^\on\,\label{eq:DeltagNFO}\\
 	&\Delta_{g\gr}^\on = \left[ b_e - 2 \Q + \frac{2 (\Q - 1)}{\chi \cH} - \frac{\cH'}{\cH^2} \right] \left[ \partial_\parallel v^\on - \Phi^\on \right] _ (2 \Q - 1) \Phi^\on + \frac{1}{\cH} \Phi^{\on \prime} \nonumber \\
-	& + (3 - b_e) \cH v^\on\,.
+	& + (3 - b_e) \cH v^\on\,\label{eq:DeltagGRFO}.
 \end{align}
 In the above equation, the Newtonian part concists of the T-gauge density contrast and the Kaiser RSD. The terms in the GR part are the Doppler term which is proportional to the line-of-sight velocity $\partial_\parallel v^\on$, and terms arising from the potential and the velocity potential. 
 
@@ -199,7 +199,7 @@ The coefficients $\mathcal{A},\,\mathcal{B},\,\mathcal{C},\,\mathcal{D},\,\mathc
 	\mathcal{B} =& 2\cH \left[ -3 + 4 b_e + 2b_e \frac{(1 - \Q)}{\chi \cH} -b_e^2 + 2b_e \Q - 6\Q - \frac{b_e'}{\cH} - \frac{6( 1 - \Q)}{\chi\cH} \right. \nonumber \\
 	& \left. + 2\left(1 - \frac{1}{\chi\cH} \right) \frac{\Q'}{\cH} \right]\,,\\
 	\mathcal{C} =& 2\cH \left[ -3 + f(3 - b_e) - 3b_e - 2 b_e \frac{(1 - \Q)}{\chi\cH} + \frac{b_e'}{\cH} + b_e^2 - 4 b_e \Q + 12\Q \right. \nonumber \\
-	&\left. + \frac{6 (1 - \Q)}{\chi\cH} - 2\left(2 -\frac{1}{\chi\cH}\right) \frac{\Q'}{\cH} \right]\,, \\
+	&\left. + \frac{6 (1 - \Q)}{\chi\cH} - 2\left(2 -\frac{1}{\chi\cH}\right) \frac{\Q'}{\cH} \right]\,\label{eq:bcC}, \\
 	\mathcal{D} =& 4 +2f\left[ -3 + f + 2b_e - 3\Q - \frac{4(1 - \Q)}{\chi\cH} - \frac{2\cH'}{\cH^2} \right] +\frac{2f'}{\cH} - 6b_e - 2 b_e^2 + 12 b_e\Q \nonumber \\
 	& - 8 \Q - 16\Q^2 + 16 \frac{\p \Q}{\p \ln{\bar{L}}} + 12 \frac{\Q'}{\cH} - 2\frac{b_e'}{\cH} - \frac{4}{\chi^2 \cH^2} \left(1 - \Q + 2\Q^2 - 2 \frac{\p \Q}{\p \ln{\bar{L}}} \right) \nonumber \\
 	& - \frac{4}{\chi \cH} \left[ -1 -2b_e + 2b_e\Q + \Q - 6\Q^2 + \frac{3\cH'}{\cH^2}(1 - \Q) + 6 \frac{\p \Q}{\p \ln{\bar{L}}} + 2\frac{\Q'}{\cH} \right] \nonumber \\
@@ -233,7 +233,7 @@ where the kernel for the dark matter perturbations in a matter-dominated model i
 The velocity and metric potentials can be split into Newtonian and GR parts, $\v^\tw = v_\nw^\tw + v_\gr^\tw$ and similarly for $\Phi^\tw$ and $\Psi^\tw$. In a Newtonian approximation, these are given by~\cite{Bernardeau:2001qr}, 
 \begin{align}
 	v^\tw_\nw(\k) =& f \frac{\cH}{k^2} \int \frac{\diff^3 k_1}{(2\pi)^3} \frac{\diff^3 k_2}{(2\pi)^3} \delta^\on(\ka) \delta^\on(\kb) G_2(\ka,\kb) (2\pi)^3 \delta^D(\ka+\kb-\k)\,,\\
-	\Phi^\tw_\nw(\k) =& \Psi^\tw_\nw(\k) = - \frac{3}{2} \Omega_m \frac{\cH^2}{k^2} \delta^\tw(\k)\,.
+	\Phi^\tw_\nw(\k) =& \Psi^\tw_\nw(\k) = - \frac{3}{2} \Omega_m \frac{\cH^2}{k^2} \delta^\tw(\k)\,.\label{eq:PsiSOnewtFT}
 \end{align}
 \todo{fix this eqn layout}
 The relativistic parts, assuming $\Lambda$CDM and Gaussian initial conditions, are given in real space and Poisson gauge by~\cite{Villa:2015ppa},
@@ -275,11 +275,72 @@ Combining all of the above expressions, the GR parts of second-order velocity an
 	\cH v^\tw_\gr(\kc) =& 3 \Omega_m \cH^4 f \int \diff(\ka,\kb,\kc)\, \frac{1}{k_1 k_2} \left[ - \frac{1}{6} \left( 3 + \frac{4 f}{\Omega_m} \right) + E_2(\ka,\kb,\kc) \right]\,,\\
 	\Phi_\gr^\tw(\kc) =& 3 \Omega_m \cH^4 \int \diff(\ka,\kb,\kc)\, \frac{1}{k_1^2 k_2^2} \left[ \frac{1}{2} (3 \Omega_m - f + f^2)  - \frac{1}{2}(3 \Omega_m - 2f + 2 f^2)\times\right.\nonumber\\
 	&\left. \quad E_2(\ka,\kb,\kc) \right]\,,\\
-	\Psi_\gr^\tw(\kc) =& 3 \Omega_m \cH^4 \int \diff(\ka,\kb,\kc)\, \frac{1}{k_1^2 k_2^2} \left[ \frac{1}{2} (3 \Omega_m + f - f^2) + f E_2(\ka,\kb,\kc) \right]\,.
+	\Psi_\gr^\tw(\kc) =& 3 \Omega_m \cH^4 \int \diff(\ka,\kb,\kc)\, \frac{1}{k_1^2 k_2^2} \left[ \frac{1}{2} (3 \Omega_m + f - f^2) + f E_2(\ka,\kb,\kc) \right]\,.\label{eq:PsiSOgrFT}
 \end{align}
 \todo[inline]{check these equations with png paper}
 \todo[inline]{change the d(k1k2k3) to be in line w rest of chapter}
 
+\todo[inline]{what's to come, needs shuffling with above}
+From equations~\eqref{eq:PsiSOnewtFT} and~\eqref{eq:PsiSOgrFT} we can get the time derivatives, 
+\begin{align}
+	\Phi_\nw^{\tw\prime}(\k) =& (2 f - 1) \cH \Phi^\tw\,,\\
+	\Psi_\gr^{\tw\prime}(\kc) =& 3 \Omega_m \cH^5 \int \diff(\ka,\kb,\kc)\, \frac{1}{k_1^2 k_2^2} \left\{ \frac{1}{2}(1-f) \left[ 6 \Omega_m + f(1-2f) \right. \right. \nonumber \\
+	&\left. \left. -2f \frac{\cH'}{\cH^2} \right] + \frac{1}{2}(2f-1) \frac{f'}{\cH} + \left[ f \left( 2f - 1 + \frac{2\cH'}{\cH^2} \right) + \frac{f'}{\cH} \right] E_2(\ka,\kb,\kc) \right\}\,.
+\end{align}
+
+To Fourier transform the observed galaxy density contrast, we write $\Delta_g^{(1,2)}$ in terms of Fourier space kernels as, 
+\begin{align}
+	\Delta_g^\on(\kb) =& \int \frac{\diff^3 k_1}{(2\pi)^3}\, \cK^\on(\ka) \delta^\on(\ka) (2\pi)^3 \delta^D(\ka-\kb)\,,\\
+	\Delta_g^\tw(\kc) =& \int \frac{\diff^3 k_1}{(2\pi)^3} \frac{\diff^3 k_2}{(2\pi)^3} \, \cK^\tw(\ka,\kb,\kc) \delta^\on(\ka) \delta^\on(\kb) (2\pi)^3 \delta^D(\ka+\kb-\kc)\nonumber \\
+	& - \delta^{(D)}(\kc) \langle \Delta_g^\tw \rangle\,,
+\end{align}
+subtracting off the ensemble average of $\Delta_g$ in the last line, 
+\begin{equation}
+	\langle \Delta_g^\tw \rangle = \int \frac{\diff^3 k_1}{(2\pi)}\, P(k_1) \cK^\tw(\ka, -\ka,0)\,,
+\end{equation}
+where $P(k) \equiv P_{\delta^\on}(k)$ is the linear dark matter power spectrum, such that $\langle \Delta_g \rangle = 0$. 
+
+We then split the kernels into Newtonian and GR parts as $\cK^{(1,2)} = \cK_\nw^{(1,2)} + \cK_\gr^{(1,2)}$. The Newtonian and GR kernels can then be derived from taking the Fourier transforms of the first- and second-order observed galaxy number density contrasts $\Delta_{g\,\nw,\gr}^{(1,2)}$ as given by equations~\eqref{eq:DeltagNFO} and~\eqref{eq:DeltagGRFO} at first order, and at second order the equations~\eqref{eq:DeltaSONewt} and~\eqref{eq:DeltaSOwBGcoeffs}. 
+
+The first-order Newtonian and GR Fourier-space kernels are given by, 
+\begin{align}
+	&\cK^\on_\nw(\k) = b_1 + f \mu^2\,,\\
+	&\cK^\on_\gr(\k) = \i \frac{\mu}{k}\gamma_1 + \frac{\gamma_2}{k^2}\,
+\end{align}
+where $\mu = \hat{\k}\cdot\n$ is the projection of normalised wavevector $\k$ onto line-of-sight $\n$\, and $\gamma_1$ and $\gamma_2$ are redshift-dependent functions of background coefficients, 
+\begin{align}
+	&\frac{\gamma_1}{\cH} = f \left[ b_e - 2 \Q - \frac{2 (1 - \Q)}{\chi \cH}  - \frac{\cH'}{\cH^2} \right]\,,\\
+	&\frac{\gamma_2}{\cH^2} = f (3 - b_e) + \frac{3}{2} \Omega_m \left[ 2 + b_e - f - 4 \Q - 2 \frac{(1 - \Q)}{\chi \cH} - \frac{\cH'}{\cH^2} \right]\,. 
+\end{align}
+
+The second-order Newtonian part of the kernel is,
+\begin{align}
+	&\cK_\nw^\tw(\ka,\kb,\kc) = b_1 F_2(\ka,\kb) + b_2 + f G_2 (\ka,\kb) \mu_3^2 \nonumber \\
+	&\quad+f^2 \frac{\mu_1 \mu_2}{k_1 k_2} \left( \mu_1 k_1 + \mu_2 k_2 \right)^2 + b_1 \frac{f}{k_1 k_2} \left[ \left( \mu_1^2 + \mu_2^2 \right)k_1 k_2 + \mu_1 \mu_2 \left( k_1^2 + k_2^2 \right) \right]\,,
+\end{align}
+where similarly to before we have $\mu_i = \hat{\k_i}\cdot\n$. The second line incorporates the non-linear Kaiser RSD contribution to the kernel~\cite{Verde:1999ij,Scoccimarro:1999ed}. 
+
+Finally, the second-order relativistic kernel can be written as, 
+\begin{align}
+	\ko_\mathrm{GR}^{(2)}(\ka,\kb,\kc) &= \frac{1}{k_1^2 k_2^2} \left\{ \vphantom{\frac{k_1^2 k_2^2}{k_3}} \beta_1 + E_2(\ka,\kb) \beta_2 +\i (\mu_1k_1+\mu_2k_2)\beta_3 \right. \nonumber \\
+&\left. + \i \mu_3 k_3\left[ \beta_{4} + E_2(\ka, \kb)\beta_{5}\right] +\frac{k_1^2 k_2^2}{k_3^2} \left[ F_2(\ka,\kb) \beta_{6} + G_2(\ka,\kb) \beta_{7} \right]\right. \nonumber \\
+&\left.  + \left( \mu_1 k_1 \mu_2 k_2 \right)\beta_{8} + \mu_3^2 k_3^2 \left(\beta_{9} + E_2(\ka,\kb,\kc) \beta_{10} \right)  + \left(\ka \cdot \kb \right)\beta_{11} \right. \nonumber \\
+&\left. + \left( k_1^2 + k_2^2 \right) \beta_{12} + \left( \mu_1^2 k_1^2 + \mu_2^2 k_2^2 \right) \beta_{13} + \i \left[\vphantom{\frac{k_1^2 k_2^2}{k_3}} \left( \mu_1 k_1^3 + \mu_2 k_2^3 \right)\beta_{14} \right. \right. \nonumber \\
+&\left. \left. + \left( \mu_1 k_1 + \mu_2 k_2 \right) \left(\ka\cdot\kb \right) \beta_{15} + k_1 k_2 \left(\mu_1 k_2 + \mu_2 k_1 \right) \beta_{16} \right. \right. \nonumber \\
+& \left. \left. + \left( \mu_1^3 k_1^3 + \mu_2^3 k_2^3 \right)\beta_{17} + \mu_1 \mu_2 k_1 k_2 \left( \mu_1 k_1 + \mu_2 k_2 \right) \beta_{18} \right. \right. \nonumber \\
+& \left. \left. + \mu_3 \frac{k_1^2 k_2^2}{k_3} G_2(\ka,\kb) \beta_{19} \right] \right\}\,.
+\end{align}
+In the above expression, we have defined 19 redshift-dependent coefficients $\beta_I$-- not to be confused with the RSD parameter $\beta = f / b_1$. These coefficients are given in full in Appendix~\ref{app_betas}. 
+
+To demonstrate how the second-order relativistic kernel is obtained from~\eqref{eq:DeltaSOwBGcoeffs}, we shall include an example Fourier transform of one of the terms of the second-order observed galaxy overdensity here, and include a table in appendix \todo{put blah blah fourier table in}
+Taking, for example, $\mathcal{C} \Phi^\on v^\on$, where $\mathcal{C}$ is a background coefficient as defined in equation~\eqref{eq:bcC}. In our Fourier convention we have, 
+\begin{equation}
+	\left[ \Phi^\on v^\on \right](\x) = \int \frac{\diff^3 k}{(2\pi)^3}\, \left[ \Phi^\on v^\on \right] (\k)\,,
+\end{equation}
+and, 
+\begin{equation}
+	\left[ \Phi^\on v^\on \right](\k) = 
+\end{equation}
 
 \section{Construction of the galaxy bispectrum}
 
