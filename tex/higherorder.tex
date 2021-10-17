@@ -335,14 +335,59 @@ In the above expression, we have defined 19 redshift-dependent coefficients $\be
 To demonstrate how the second-order relativistic kernel is obtained from~\eqref{eq:DeltaSOwBGcoeffs}, we shall include an example Fourier transform of one of the terms of the second-order observed galaxy overdensity here, and include a table in appendix \todo{put blah blah fourier table in}
 Taking, for example, $\mathcal{C} \Phi^\on v^\on$, where $\mathcal{C}$ is a background coefficient as defined in equation~\eqref{eq:bcC}. In our Fourier convention we have, 
 \begin{equation}
-	\left[ \Phi^\on v^\on \right](\x) = \int \frac{\diff^3 k}{(2\pi)^3}\, \left[ \Phi^\on v^\on \right] (\k)\,,
+	\left[ \Phi^\on v^\on \right](\x) = \int \frac{\diff^3 k}{(2\pi)^3}\, e^{\i \k\cdot\x} \left[ \Phi^\on v^\on \right] (\k)\,,
 \end{equation}
 and, 
 \begin{equation}
-	\left[ \Phi^\on v^\on \right](\k) = 
+	\left[ \Phi^\on v^\on \right](\k) = \int \diff^3 x\, e^{- \i \k\cdot\x} \left[ \Phi^\on v^\on \right](\x)\,.
 \end{equation}
+Symmetrising, we get, 
+\begin{align}
+	&\left[ \Phi^\on v^\on \right](\k) = \frac{1}{2} \int \diff^3 x\, \int \frac{\diff^3 k_1}{(2 \pi)^3}\, \int \frac{\diff^3 k_2}{(2\pi)^3}\, \left[ \Phi^\on(\ka) v^\on(\kb) + \Phi^\on(\kb) v^\on(\ka) \right] \times \nonumber \\
+	& \qquad\qquad\qquad e^{-\i \k\cdot\x} e^{\i \ka\cdot\x} e^{\i \kb\cdot\x} \\
+	&\Rightarrow \frac{1}{2} \int\frac{\diff^3 k_1}{(2\pi)^3}\,\int \frac{\diff^3 k_2}{(2\pi)^3}\, \left[ \Phi^\on(\ka) v^\on(\kb) + \Phi^\on(\kb) v^\on(\ka)\right] (2\pi)^3 \delta^D(\ka+\kb-\k)\,,
+\end{align}
+where in the second line we have performed the integral over $x$ and the exponentials. Then, expand the perturbative variables in terms of $\delta^\on$ using the relations,
+\begin{align}
+	&\cH v^\on(\k) = f \frac{\cH^2}{k^2} \delta^\on(\k)\,,\\
+	&\Phi^\on(\k) = - \frac{3}{2} \Omega_m \frac{\cH^2}{k^2} \delta^\on(\k)\,,
+\end{align}
+as, 
+\begin{align}
+	&\left[ \Phi^\on(\ka) v^\on(\kb) + \Phi^\on(\kb) v^\on(\ka) \right]\\
+	&\Rightarrow - \frac{3}{2} \Omega_m \frac{\cH^2}{k_1^2} \delta^\on(\ka) f \frac{\cH}{k_2^2} \delta^\on(\kb) - \frac{3}{2} \Omega_m \frac{\cH^2}{k_2^2} \delta^\on(\kb) f \frac{\cH}{k_1^2} \delta^\on(\ka)\\
+	&\Rightarrow - \frac{6}{2} \Omega_m \frac{\cH^3}{k_1^2 k_2^2} f \delta^\on(\ka) \delta^\on(\kb)\,.
+\end{align}
+Using the above, we can write the Fourier transformed term as, 
+\begin{equation}
+	\left[\Phi^\on v^\on\right](\k) = \int \frac{\diff^3 k_1}{(2\pi)^3} \, \int \frac{\diff^3 k_2}{(2\pi)^3}\, \mathcal{F}\left[\Phi^\on v^\on \right] (2\pi)^3 \delta^D(\ka+\kb-\k), 
+\end{equation}
+where we can identify the Fourier kernel, 
+\begin{align}
+	\mathcal{F}\left[\Phi^\on v^\on \right] =& \frac{1}{2} \left( - \frac{6}{2} \Omega_m \frac{\cH^3}{k_1^2 k_2^2} f \right) \\
+	&= \frac{-3 \Omega_m \cH^3 f}{2 k_1^2 k_2^2}\,,
+\end{align}
+with coefficient $\mathcal{C}$.
+\todo[inline]{check where relns come from -- is all defined?}
+\todo[inline]{needs more refs?}
+\todo[inline]{equation numbering and simplification, how does it work?} 
+In Appendix~\ref{app_betatables}, a table of terms and the corresponding Fourier space kernels and coefficients can be found. 
 
 \section{Construction of the galaxy bispectrum}
+The Fourier space observed galaxy bispectrum at a fixed redshift is given by, 
+\begin{equation}
+	\langle \Delta_g(\ka) \Delta_g(\kb) \Delta_g(\kc) \rangle = (2\pi)^3 B_g(\ka,\kb,\kc) \delta^D(\ka+\kb+\kc)
+\end{equation}
+The only terms that contribute to the tree-level bispectrum at second order are, 
+\begin{equation}
+	2 \langle \Delta_g(\ka) \Delta_g(\kb) \Delta_g(\kc) \rangle = \langle \Delta^\on_g(\ka) \Delta^\on_g(\kb) \Delta^\tw_g(\kc) \rangle +\text{ 2 cyc. perm.}\,,
+\end{equation}
+where the factor of 2 on the left hand side originates from the factor of $1/2$ in our perturbative expansion of the observed galaxy density contrast. Since we expand $\Delta_g$ into Newtonian and GR parts, the terms that contribute to the tree-level Fourier space bispectrum can be made more explicit by writing, 
+\begin{align}
+	&\langle \Delta_g^\on(\ka) \Delta_g^\on(\kb) \Delta_g^\tw(\kc) \rangle +\text{ 2 cyclic permutations} \\
+	&=\frac{1}{2}\left[ \langle \Delta_{g\nw}^\on(\ka) \Delta_{g\nw}^\on(\kb) \Delta_{g\nw}^\tw(\kc) \rangle + \langle \Delta_{g\gr}^\on(\ka) \Delta_{g\gr}^\on(\kb) \Delta_{g\gr}^\tw(\kc) \rangle \right. \\
+	+  \right]
+\end{align}
 
 
 \section{Contributions from second-order vector and tensor modes}\label{sec:tensorvector}
