@@ -6,7 +6,6 @@ A level-1 auxiliary file: tex/abstract.aux
 A level-1 auxiliary file: tex/conventions.aux
 A level-1 auxiliary file: tex/acknowledgements.aux
 A level-1 auxiliary file: tex/introgeneral.aux
-A level-1 auxiliary file: tex/introreleff.aux
 A level-1 auxiliary file: tex/dipole.aux
 A level-1 auxiliary file: tex/detectability.aux
 A level-1 auxiliary file: tex/higherorder.aux
@@ -19,7 +18,7 @@ Reallocated field_info (elt_size=4) to 10220 items from 5000.
 Database file #1: tex/bib/thesis_bib.bib
 You've used 174 entries,
             2269 wiz_defined-function locations,
-            1905 strings with 41589 characters,
+            1904 strings with 41570 characters,
 and the built_in function-call counts, 57155 in all, are:
 = -- 5795
 > -- 2681

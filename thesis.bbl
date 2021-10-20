@@ -1,12 +1,6 @@
 
 \providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{100}
 
-\bibitem{Bonvin:2014owa}
-C.~Bonvin, \emph{{Isolating relativistic effects in large-scale structure}},
-  \href{https://doi.org/10.1088/0264-9381/31/23/234002}{\emph{Class. Quant.
-  Grav.} {\bfseries 31} (2014) 234002}
-  [\href{https://arxiv.org/abs/1409.2224}{{\ttfamily 1409.2224}}].
-
 \bibitem{Kaiser:1987qv}
 N.~Kaiser, \emph{{Clustering in real space and in redshift space}}, {\emph{Mon.
   Not. Roy. Astron. Soc.} {\bfseries 227} (1987) 1}.
@@ -45,6 +39,12 @@ L.~R. Abramo and D.~Bertacca, \emph{Disentangling the effects of doppler
   velocity and primordial non-gaussianity in galaxy power spectra},
   \href{https://doi.org/10.1103/physrevd.96.123535}{\emph{Physical Review D}
   {\bfseries 96} (2017) }.
+
+\bibitem{Bonvin:2014owa}
+C.~Bonvin, \emph{{Isolating relativistic effects in large-scale structure}},
+  \href{https://doi.org/10.1088/0264-9381/31/23/234002}{\emph{Class. Quant.
+  Grav.} {\bfseries 31} (2014) 234002}
+  [\href{https://arxiv.org/abs/1409.2224}{{\ttfamily 1409.2224}}].
 
 \bibitem{DiDio:2018zmk}
 E.~Di~Dio and U.~Seljak, \emph{{The relativistic dipole and gravitational
