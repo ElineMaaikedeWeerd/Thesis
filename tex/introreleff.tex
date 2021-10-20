@@ -43,8 +43,17 @@ RSD however depend explicitly on $\beta$. Including RSD in the correlation funct
 \begin{equation}
 	\xi^\mathrm{RSD} = \left\langle \left( b(z) \delta(z,\n) - \frac{1}{\cH(z)} \partial_r (\bm{V} \cdot \n) \right) \left( b(z') \delta(z', \n') - \frac{1}{\cH(z')} \partial_{r'} (\bm{V} \cdot \n') \right) \right\rangle\,,
 \end{equation}
-it is sensitive to the orientation of the galaxy pair with respect to the observer. It can be shown that in the distant-observer approximation \todo{define the distant-observer approximation}, this dependence on $\beta$ is very simple. The cross-correlation between density and velocity generates a quadrupole modulation, which is proportional to $P_2(\cos\beta)$ ($P_\ell$ being the Legendre polynomials), whereas velocity-velocity autocorrelation generates a hexadecapole which is proportional to $P_4(\cos\beta)$. 
+it is sensitive to the orientation of the galaxy pair with respect to the observer. It can be shown that in the distant-observer approximation \todo{define the distant-observer approximation}, this dependence on $\beta$ is very simple. The cross-correlation between density and velocity generates a quadrupole modulation, which is proportional to $P_2(\cos\beta)$ ($P_\ell$ being the Legendre polynomials), whereas velocity-velocity autocorrelation generates a hexadecapole which is proportional to $P_4(\cos\beta)$. For this reason, the density and velocity contributions to the 2-point correlation function can be separated by fitting for a monopole, quadrupole, and hexadecapole. \todo{is any of this relevant - need rel contr}
 
+This multipole expansion in $\beta$ can be extended to include also the relativistic contributions, like the Doppler contribution and the distortions due to gravitational lensing. In the observed galaxy number count, these effects are, 
+\begin{equation}
+	\Delta_g^{\mathrm{rel}} = \frac{1}{\cH} \partial_r \Psi + \frac{1}{\cH} \bm{V'} \cdot \n - \left[ \frac{\cH'}{\cH^2}  + 5 s - 1 + \frac{2 - 5s}{r \cH} \right] \bm{V} \cdot \n\,.
+\end{equation}
+These effects are intrinsically different from the RSD and the density distortions considered before, because they break the symmetry of the correlation function, meaning that odd multipoles in $\beta$ are generated. These multipoles are extracted by weighting the pairs of galaxies by the appropriate Legendre polynomial, and then integrate over all values of angle $\beta$,
+\begin{equation}
+	\xi_\ell(z,d) = \frac{2 \ell + 1}{2} \int_{-1}^1 \diff\mu\, \xi(z,d,\beta) P_\ell(\mu)\,,
+\end{equation}
+where $\mu = \cos\beta$. The odd multipoles of the two-point correlation function cannot be measured in the standard way however, because the correlation $\langle \Delta_g(z,\n) \Delta_g(z',\n') \rangle$ is by construction clearly symmetric under $(z,\n) \leftrightarrow (z', \n')$. As a result, the symmetry breaking induced by these relativistic effects in $\Delta_g$ automatically are washed out when the autocorrelator of any given population of galaxies is computed. When two different tracers are used, for example a faint and a bright population of galaxies which are labelled by subscripts F and B respectively, 
 
 \iffalse
 
