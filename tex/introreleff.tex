@@ -10,7 +10,43 @@
 	\item galaxy overdensity with these effects, perturbation theory
 	\item first order, which is sufficient for power spectrum
 	\item second order, required for bispectrum. long expression? 
+	\item dipole in power spectrum
+	\item dipole in 2pt function
 \end{itemize}
+
+\todo[inline]{add something about rel effects and big Delta here}
+
+\section{The dipole of the 2-point correlation function}
+
+In this section, we will consider how relativistic effects can be isolated in the correlations of two points-- the 2-point correlation function in configuration space. The 2-point function is defined as, 
+\begin{equation}
+	\xi = \langle \Delta(z,\n) \Delta(z, \n') \rangle\,,
+\end{equation}
+and it is dependent on the triagle shape as formed by the observer and two galaxies, as illustrated in figure~\ref{fig:2ptcorr_triangle_bonvin}. 
+\todo[inline]{do primed vectors need a bold prime?}
+\todo[inline]{do I need to spell figure with a capital F?}
+\todo[inline]{remake figure of triangle (illustrator)}
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.3\textwidth]{fig/bonvin_triangle2pt.eps}
+	\caption{Illustration of the triangle which is formed by the observer O, and two galaxies which are located at the positions $(z,\n)$ and $(z,\n')$. $\theta$ is the separation angle between the two directions of observation, $\beta$ is the angle between $\n$ and the galaxies' directional separation vector $\bm{N}$, and $d$ denotes the comoving distance between the two galaxies. Taken from~\cite{Bonvin:2014owa}.}
+	\label{fig:2ptcorr_triangle_bonvin}
+\end{figure}
+The 2-point correlation function can be expressed as a function of three quantities, where there is a choice of coordinate systems. One such choice is to write $\xi(z, z', \theta)$, which has the advantage of being the system in which the measurements are performed, and as such it is directly observable and not reliant on cosmological assumptions. Another valid choice is to express the 2-point correlation function as dependent on parameters $(z,d,\beta)$, where $d$ denotes the comoving distance between the two galaxies, and $\beta$ here is the angle between $\n$ and $\bm{N}$, the latter vector corresponding to the galaxies' separation vector. An advantage of this choice of coordinates is that it exploits in a natural way the symmetries of the different contributions to the observed galaxy number count $\Delta_g$. However, a disadvantage of this approach is that it requires one to translate the redshifts and separation angle of the galaxies into the comoving distance $d$ and the angle $\beta$, which inconveniently relies on a choice for background cosmology. 
+
+In this coordinate system, the density term is independent of $\beta$, and takes an extremely simple form due to statistical homogeneity and isotropy of the primordial density fluctuations, 
+\begin{equation}
+	\xi^\mathrm{dens} = \langle b(z) \delta(z,\n) b(z') \delta(z', \n') \rangle\,,
+\end{equation}
+which dpeends only on the comoving separation distance $d$ of the galaxies, and on redshift $z$. 
+RSD however depend explicitly on $\beta$. Including RSD in the correlation function, 
+\begin{equation}
+	\xi^\mathrm{RSD} = \left\langle \left( b(z) \delta(z,\n) - \frac{1}{\cH(z)} \partial_r (\bm{V} \cdot \n) \right) \left( b(z') \delta(z', \n') - \frac{1}{\cH(z')} \partial_{r'} (\bm{V} \cdot \n') \right) \right\rangle\,,
+\end{equation}
+it is sensitive to the orientation of the galaxy pair with respect to the observer. It can be shown that in the distant-observer approximation \todo{define the distant-observer approximation}, this dependence on $\beta$ is very simple. The cross-correlation between density and velocity generates a quadrupole modulation, which is proportional to $P_2(\cos\beta)$ ($P_\ell$ being the Legendre polynomials), whereas velocity-velocity autocorrelation generates a hexadecapole which is proportional to $P_4(\cos\beta)$. 
+
+
+\iffalse
 
 
 Relativistic effects in galaxy number counts at first and second order\todo{write intro why relativistic effects important}
@@ -72,7 +108,6 @@ see title again
 
 \section{Relativistic contributions to the galaxy power spectrum}
 
-\iffalse
 
 
 \section{Relativistic contributions to the galaxy bispectrum}

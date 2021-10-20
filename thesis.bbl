@@ -1,255 +1,11 @@
 
 \providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{100}
 
-\bibitem{Gil-Marin:2016wya}
-H.~Gil-Marín, W.~J. Percival, L.~Verde, J.~R. Brownstein, C.-H. Chuang, F.-S.
-  Kitaura et~al., \emph{{The clustering of galaxies in the SDSS-III Baryon
-  Oscillation Spectroscopic Survey: RSD measurement from the power spectrum and
-  bispectrum of the DR12 BOSS galaxies}},
-  \href{https://doi.org/10.1093/mnras/stw2679}{\emph{Mon. Not. Roy. Astron.
-  Soc.} {\bfseries 465} (2017) 1757}
-  [\href{https://arxiv.org/abs/1606.00439}{{\ttfamily 1606.00439}}].
-
-\bibitem{Sugiyama:2018yzo}
-N.~S. Sugiyama, S.~Saito, F.~Beutler and H.-J. Seo, \emph{A complete fft-based
-  decomposition formalism for the redshift-space bispectrum},
-  \href{https://doi.org/10.1093/mnras/sty3249}{\emph{Monthly Notices of the
-  Royal Astronomical Society} {\bfseries 484} (2018) 364–384}.
-
-\bibitem{Karagiannis:2018jdt}
-D.~Karagiannis, A.~Lazanu, M.~Liguori, A.~Raccanelli, N.~Bartolo and L.~Verde,
-  \emph{Constraining primordial non-gaussianity with bispectrum and power
-  spectrum from upcoming optical and radio surveys},
-  \href{https://doi.org/10.1093/mnras/sty1029}{\emph{Monthly Notices of the
-  Royal Astronomical Society} {\bfseries 478} (2018) 1341–1376}.
-
-\bibitem{Yankelevich:2018uaz}
-V.~Yankelevich and C.~Porciani, \emph{{Cosmological information in the
-  redshift-space bispectrum}},
-  \href{https://doi.org/10.1093/mnras/sty3143}{\emph{Mon. Not. Roy. Astron.
-  Soc.} {\bfseries 483} (2019) 2078}
-  [\href{https://arxiv.org/abs/1807.07076}{{\ttfamily 1807.07076}}].
-
-\bibitem{Oddo:2019run}
-A.~Oddo, E.~Sefusatti, C.~Porciani, P.~Monaco and A.~G. S\'anchez,
-  \emph{{Toward a robust inference method for the galaxy bispectrum: likelihood
-  function and model selection}},
-  \href{https://doi.org/10.1088/1475-7516/2020/03/056}{\emph{JCAP} {\bfseries
-  03} (2020) 056} [\href{https://arxiv.org/abs/1908.01774}{{\ttfamily
-  1908.01774}}].
-
-\bibitem{Sugiyama:2019ike}
-N.~S. Sugiyama, S.~Saito, F.~Beutler and H.-J. Seo, \emph{{Perturbation theory
-  approach to predict the covariance matrices of the galaxy power spectrum and
-  bispectrum in redshift space}},
-  \href{https://doi.org/10.1093/mnras/staa1940}{\emph{Mon. Not. Roy. Astron.
-  Soc.} {\bfseries 497} (2020) 1684}
-  [\href{https://arxiv.org/abs/1908.06234}{{\ttfamily 1908.06234}}].
-
-\bibitem{Scoccimarro:2015bla}
-R.~Scoccimarro, \emph{{Fast Estimators for Redshift-Space Clustering}},
-  \href{https://doi.org/10.1103/PhysRevD.92.083532}{\emph{Phys. Rev. D}
-  {\bfseries 92} (2015) 083532}
-  [\href{https://arxiv.org/abs/1506.02729}{{\ttfamily 1506.02729}}].
-
-\bibitem{Tellarini:2016sgp}
-M.~Tellarini, A.~J. Ross, G.~Tasinato and D.~Wands, \emph{Galaxy bispectrum,
-  primordial non-gaussianity and redshift space distortions},
-  \href{https://doi.org/10.1088/1475-7516/2016/06/014}{\emph{Journal of
-  Cosmology and Astroparticle Physics} {\bfseries 2016} (2016) 014–014}.
-
-\bibitem{Slepian:2016kfz}
-Z.~Slepian et~al., \emph{{Detection of baryon acoustic oscillation features in
-  the large-scale three-point correlation function of SDSS BOSS DR12 CMASS
-  galaxies}}, \href{https://doi.org/10.1093/mnras/stx488}{\emph{Mon. Not. Roy.
-  Astron. Soc.} {\bfseries 469} (2017) 1738}
-  [\href{https://arxiv.org/abs/1607.06097}{{\ttfamily 1607.06097}}].
-
-\bibitem{Gagrani:2016rfy}
-P.~Gagrani and L.~Samushia, \emph{{Information Content of the Angular
-  Multipoles of Redshift-Space Galaxy Bispectrum}},
-  \href{https://doi.org/10.1093/mnras/stx135}{\emph{Mon. Not. Roy. Astron.
-  Soc.} {\bfseries 467} (2017) 928}
-  [\href{https://arxiv.org/abs/1610.03488}{{\ttfamily 1610.03488}}].
-
-\bibitem{Desjacques:2018pfv}
-V.~Desjacques, D.~Jeong and F.~Schmidt, \emph{{The Galaxy Power Spectrum and
-  Bispectrum in Redshift Space}},
-  \href{https://doi.org/10.1088/1475-7516/2018/12/035}{\emph{JCAP} {\bfseries
-  12} (2018) 035} [\href{https://arxiv.org/abs/1806.04015}{{\ttfamily
-  1806.04015}}].
-
-\bibitem{Child:2018klv}
-H.~L. Child, M.~Takada, T.~Nishimichi, T.~Sunayama, Z.~Slepian, S.~Habib
-  et~al., \emph{{Bispectrum as Baryon Acoustic Oscillation Interferometer}},
-  \href{https://doi.org/10.1103/PhysRevD.98.123521}{\emph{Phys. Rev. D}
-  {\bfseries 98} (2018) 123521}
-  [\href{https://arxiv.org/abs/1806.11147}{{\ttfamily 1806.11147}}].
-
-\bibitem{Schmit:2018rtf}
-C.~J. Schmit, A.~F. Heavens and J.~R. Pritchard, \emph{{The gravitational and
-  lensing-ISW bispectrum of 21 cm radiation}},
-  \href{https://doi.org/10.1093/mnras/sty3400}{\emph{Mon. Not. Roy. Astron.
-  Soc.} {\bfseries 483} (2019) 4259}
-  [\href{https://arxiv.org/abs/1810.00973}{{\ttfamily 1810.00973}}].
-
-\bibitem{DiDio:2018unb}
-E.~Di~Dio, R.~Durrer, R.~Maartens, F.~Montanari and O.~Umeh, \emph{{The
-  Full-Sky Angular Bispectrum in Redshift Space}},
-  \href{https://doi.org/10.1088/1475-7516/2019/04/053}{\emph{JCAP} {\bfseries
-  04} (2019) 053} [\href{https://arxiv.org/abs/1812.09297}{{\ttfamily
-  1812.09297}}].
-
-\bibitem{Gualdi:2019ybt}
-D.~Gualdi, H.~Gil-Mar\'\i{}n, M.~Manera, B.~Joachimi and O.~Lahav,
-  \emph{{Geometrical compression: a new method to enhance the BOSS galaxy
-  bispectrum monopole constraints}},
-  \href{https://doi.org/10.1093/mnrasl/sly242}{\emph{Mon. Not. Roy. Astron.
-  Soc.} {\bfseries 484} (2019) L29}
-  [\href{https://arxiv.org/abs/1901.00987}{{\ttfamily 1901.00987}}].
-
-\bibitem{Sarkar:2019ojl}
-D.~Sarkar, S.~Majumdar and S.~Bharadwaj, \emph{{Modelling the post-reionization
-  neutral hydrogen ($\mathrm{HI}$) 21-cm bispectrum}},
-  \href{https://doi.org/10.1093/mnras/stz2799}{\emph{Mon. Not. Roy. Astron.
-  Soc.} {\bfseries 490} (2019) 2880}
-  [\href{https://arxiv.org/abs/1907.01819}{{\ttfamily 1907.01819}}].
-
-\bibitem{Chudaykin:2019ock}
-A.~Chudaykin and M.~M. Ivanov, \emph{{Measuring neutrino masses with
-  large-scale structure: Euclid forecast with controlled theoretical error}},
-  \href{https://doi.org/10.1088/1475-7516/2019/11/034}{\emph{JCAP} {\bfseries
-  11} (2019) 034} [\href{https://arxiv.org/abs/1907.06666}{{\ttfamily
-  1907.06666}}].
-
-\bibitem{Philcox:2019hdi}
-O.~H.~E. Philcox and D.~J. Eisenstein, \emph{{Computing the Small-Scale Galaxy
-  Power Spectrum and Bispectrum in Configuration-Space}},
-  \href{https://doi.org/10.1093/mnras/stz3335}{\emph{Mon. Not. Roy. Astron.
-  Soc.} {\bfseries 492} (2020) 1214}
-  [\href{https://arxiv.org/abs/1912.01010}{{\ttfamily 1912.01010}}].
-
-\bibitem{Durrer:2020orn}
-R.~Durrer, M.~Jalilvand, R.~Kothari, R.~Maartens and F.~Montanari,
-  \emph{{Full-sky bispectrum in redshift space for 21cm intensity maps}},
-  \href{https://doi.org/10.1088/1475-7516/2020/12/003}{\emph{JCAP} {\bfseries
-  12} (2020) 003} [\href{https://arxiv.org/abs/2008.02266}{{\ttfamily
-  2008.02266}}].
-
-\bibitem{Montanari:2020uez}
-F.~Montanari and S.~Camera, \emph{{Speeding up the detectability of the
-  harmonic-space galaxy bispectrum}},
-  \href{https://doi.org/10.1088/1475-7516/2021/01/002}{\emph{JCAP} {\bfseries
-  01} (2021) 002} [\href{https://arxiv.org/abs/2008.11131}{{\ttfamily
-  2008.11131}}].
-
-\bibitem{Tellarini:2015faa}
-M.~Tellarini, A.~J. Ross, G.~Tasinato and D.~Wands, \emph{{Non-local bias in
-  the halo bispectrum with primordial non-Gaussianity}},
-  \href{https://doi.org/10.1088/1475-7516/2015/07/004}{\emph{JCAP} {\bfseries
-  07} (2015) 004} [\href{https://arxiv.org/abs/1504.00324}{{\ttfamily
-  1504.00324}}].
-
-\bibitem{Watkinson:2017zbs}
-C.~A. Watkinson, S.~Majumdar, J.~R. Pritchard and R.~Mondal, \emph{{A fast
-  estimator for the bispectrum and beyond \textendash{} a practical method for
-  measuring non-Gaussianity in 21-cm maps}},
-  \href{https://doi.org/10.1093/mnras/stx2130}{\emph{Mon. Not. Roy. Astron.
-  Soc.} {\bfseries 472} (2017) 2436}
-  [\href{https://arxiv.org/abs/1705.06284}{{\ttfamily 1705.06284}}].
-
-\bibitem{Majumdar:2017tdm}
-S.~Majumdar, J.~R. Pritchard, R.~Mondal, C.~A. Watkinson, S.~Bharadwaj and
-  G.~Mellema, \emph{{Quantifying the non-Gaussianity in the EoR 21-cm signal
-  through bispectrum}}, \href{https://doi.org/10.1093/mnras/sty535}{\emph{Mon.
-  Not. Roy. Astron. Soc.} {\bfseries 476} (2018) 4007}
-  [\href{https://arxiv.org/abs/1708.08458}{{\ttfamily 1708.08458}}].
-
-\bibitem{Karagiannis:2019jjx}
-D.~Karagiannis, A.~Slosar and M.~Liguori, \emph{{Forecasts on Primordial
-  non-Gaussianity from 21 cm Intensity Mapping experiments}},
-  \href{https://doi.org/10.1088/1475-7516/2020/11/052}{\emph{JCAP} {\bfseries
-  11} (2020) 052} [\href{https://arxiv.org/abs/1911.03964}{{\ttfamily
-  1911.03964}}].
-
-\bibitem{Bharadwaj:2020wkc}
-S.~Bharadwaj, A.~Mazumdar and D.~Sarkar, \emph{{Quantifying the Redshift Space
-  Distortion of the Bispectrum I: Primordial Non-Gaussianity}},
-  \href{https://doi.org/10.1093/mnras/staa279}{\emph{Mon. Not. Roy. Astron.
-  Soc.} {\bfseries 493} (2020) 594}
-  [\href{https://arxiv.org/abs/2001.10243}{{\ttfamily 2001.10243}}].
-
-\bibitem{Kehagias:2015tda}
-A.~Kehagias, A.~Moradinezhad~Dizgah, J.~Nore\~na, H.~Perrier and A.~Riotto,
-  \emph{{A Consistency Relation for the Observed Galaxy Bispectrum and the
-  Local non-Gaussianity from Relativistic Corrections}},
-  \href{https://doi.org/10.1088/1475-7516/2015/08/018}{\emph{JCAP} {\bfseries
-  08} (2015) 018} [\href{https://arxiv.org/abs/1503.04467}{{\ttfamily
-  1503.04467}}].
-
-\bibitem{Umeh:2016nuh}
-O.~Umeh, S.~Jolicoeur, R.~Maartens and C.~Clarkson, \emph{{A general
-  relativistic signature in the galaxy bispectrum: the local effects of
-  observing on the lightcone}},
-  \href{https://doi.org/10.1088/1475-7516/2017/03/034}{\emph{JCAP} {\bfseries
-  03} (2017) 034} [\href{https://arxiv.org/abs/1610.03351}{{\ttfamily
-  1610.03351}}].
-
-\bibitem{DiDio:2016gpd}
-E.~Di~Dio, H.~Perrier, R.~Durrer, G.~Marozzi, A.~Moradinezhad~Dizgah,
-  J.~Noreña et~al., \emph{{Non-Gaussianities due to Relativistic Corrections
-  to the Observed Galaxy Bispectrum}},
-  \href{https://doi.org/10.1088/1475-7516/2017/03/006}{\emph{JCAP} {\bfseries
-  1703} (2017) 006} [\href{https://arxiv.org/abs/1611.03720}{{\ttfamily
-  1611.03720}}].
-
-\bibitem{Jolicoeur:2017nyt}
-S.~Jolicoeur, O.~Umeh, R.~Maartens and C.~Clarkson, \emph{{Imprints of local
-  lightcone \textbackslash{} projection effects on the galaxy bispectrum. Part
-  II}}, \href{https://doi.org/10.1088/1475-7516/2017/09/040}{\emph{JCAP}
-  {\bfseries 09} (2017) 040}
-  [\href{https://arxiv.org/abs/1703.09630}{{\ttfamily 1703.09630}}].
-
-\bibitem{Bertacca:2017dzm}
-D.~Bertacca, A.~Raccanelli, N.~Bartolo, M.~Liguori, S.~Matarrese and L.~Verde,
-  \emph{{Relativistic wide-angle galaxy bispectrum on the light-cone}},
-  \href{https://doi.org/10.1103/PhysRevD.97.023531}{\emph{Phys. Rev.}
-  {\bfseries D97} (2018) 023531}
-  [\href{https://arxiv.org/abs/1705.09306}{{\ttfamily 1705.09306}}].
-
-\bibitem{Jolicoeur:2017eyi}
-S.~Jolicoeur, O.~Umeh, R.~Maartens and C.~Clarkson, \emph{{Imprints of local
-  lightcone projection effects on the galaxy bispectrum. Part III. Relativistic
-  corrections from nonlinear dynamical evolution on large-scales}},
-  \href{https://doi.org/10.1088/1475-7516/2018/03/036}{\emph{JCAP} {\bfseries
-  03} (2018) 036} [\href{https://arxiv.org/abs/1711.01812}{{\ttfamily
-  1711.01812}}].
-
-\bibitem{Koyama:2018ttg}
-K.~Koyama, O.~Umeh, R.~Maartens and D.~Bertacca, \emph{{The observed galaxy
-  bispectrum from single-field inflation in the squeezed limit}},
-  \href{https://doi.org/10.1088/1475-7516/2018/07/050}{\emph{JCAP} {\bfseries
-  07} (2018) 050} [\href{https://arxiv.org/abs/1805.09189}{{\ttfamily
-  1805.09189}}].
-
-\bibitem{Clarkson:2018dwn}
-C.~Clarkson, E.~M. de~Weerd, S.~Jolicoeur, R.~Maartens and O.~Umeh, \emph{{The
-  dipole of the galaxy bispectrum}},
-  \href{https://doi.org/10.1093/mnrasl/slz066}{\emph{Monthly Notices of the
-  Royal Astronomical Society} {\bfseries 486} (2019) L101}
-  [\href{https://arxiv.org/abs/1812.09512}{{\ttfamily 1812.09512}}].
-
-\bibitem{Maartens:2019yhx}
-R.~Maartens, S.~Jolicoeur, O.~Umeh, E.~M. De~Weerd, C.~Clarkson and S.~Camera,
-  \emph{Detecting the relativistic galaxy bispectrum},
-  \href{https://doi.org/10.1088/1475-7516/2020/03/065}{\emph{JCAP} {\bfseries
-  2020} (2020) 065–065}.
-
-\bibitem{Jeong:2019igb}
-D.~Jeong and F.~Schmidt, \emph{{Parity-odd galaxy bispectrum}},
-  \href{https://doi.org/10.1103/PhysRevD.102.023530}{\emph{Phys. Rev. D}
-  {\bfseries 102} (2020) 023530}
-  [\href{https://arxiv.org/abs/1906.05198}{{\ttfamily 1906.05198}}].
+\bibitem{Bonvin:2014owa}
+C.~Bonvin, \emph{{Isolating relativistic effects in large-scale structure}},
+  \href{https://doi.org/10.1088/0264-9381/31/23/234002}{\emph{Class. Quant.
+  Grav.} {\bfseries 31} (2014) 234002}
+  [\href{https://arxiv.org/abs/1409.2224}{{\ttfamily 1409.2224}}].
 
 \bibitem{Kaiser:1987qv}
 N.~Kaiser, \emph{{Clustering in real space and in redshift space}}, {\emph{Mon.
@@ -289,12 +45,6 @@ L.~R. Abramo and D.~Bertacca, \emph{Disentangling the effects of doppler
   velocity and primordial non-gaussianity in galaxy power spectra},
   \href{https://doi.org/10.1103/physrevd.96.123535}{\emph{Physical Review D}
   {\bfseries 96} (2017) }.
-
-\bibitem{Bonvin:2014owa}
-C.~Bonvin, \emph{{Isolating relativistic effects in large-scale structure}},
-  \href{https://doi.org/10.1088/0264-9381/31/23/234002}{\emph{Class. Quant.
-  Grav.} {\bfseries 31} (2014) 234002}
-  [\href{https://arxiv.org/abs/1409.2224}{{\ttfamily 1409.2224}}].
 
 \bibitem{DiDio:2018zmk}
 E.~Di~Dio and U.~Seljak, \emph{{The relativistic dipole and gravitational
@@ -344,6 +94,20 @@ E.~Di~Dio, R.~Durrer, G.~Marozzi and F.~Montanari, \emph{{Galaxy number counts
   12} (2014) 017} [\href{https://arxiv.org/abs/1407.0376}{{\ttfamily
   1407.0376}}].
 
+\bibitem{Jolicoeur:2017nyt}
+S.~Jolicoeur, O.~Umeh, R.~Maartens and C.~Clarkson, \emph{{Imprints of local
+  lightcone \textbackslash{} projection effects on the galaxy bispectrum. Part
+  II}}, \href{https://doi.org/10.1088/1475-7516/2017/09/040}{\emph{JCAP}
+  {\bfseries 09} (2017) 040}
+  [\href{https://arxiv.org/abs/1703.09630}{{\ttfamily 1703.09630}}].
+
+\bibitem{DiDio:2018unb}
+E.~Di~Dio, R.~Durrer, R.~Maartens, F.~Montanari and O.~Umeh, \emph{{The
+  Full-Sky Angular Bispectrum in Redshift Space}},
+  \href{https://doi.org/10.1088/1475-7516/2019/04/053}{\emph{JCAP} {\bfseries
+  04} (2019) 053} [\href{https://arxiv.org/abs/1812.09297}{{\ttfamily
+  1812.09297}}].
+
 \bibitem{Tansella:2017rpi}
 V.~Tansella, C.~Bonvin, R.~Durrer, B.~Ghosh and E.~Sellentin, \emph{{The
   full-sky relativistic correlation function and power spectrum of galaxy
@@ -370,6 +134,22 @@ V.~Desjacques, D.~Jeong and F.~Schmidt, \emph{{Large-Scale Galaxy Bias}},
   \href{https://doi.org/10.1016/j.physrep.2017.12.002}{\emph{Phys. Rept.}
   {\bfseries 733} (2018) 1} [\href{https://arxiv.org/abs/1611.09787}{{\ttfamily
   1611.09787}}].
+
+\bibitem{Jolicoeur:2017eyi}
+S.~Jolicoeur, O.~Umeh, R.~Maartens and C.~Clarkson, \emph{{Imprints of local
+  lightcone projection effects on the galaxy bispectrum. Part III. Relativistic
+  corrections from nonlinear dynamical evolution on large-scales}},
+  \href{https://doi.org/10.1088/1475-7516/2018/03/036}{\emph{JCAP} {\bfseries
+  03} (2018) 036} [\href{https://arxiv.org/abs/1711.01812}{{\ttfamily
+  1711.01812}}].
+
+\bibitem{Umeh:2016nuh}
+O.~Umeh, S.~Jolicoeur, R.~Maartens and C.~Clarkson, \emph{{A general
+  relativistic signature in the galaxy bispectrum: the local effects of
+  observing on the lightcone}},
+  \href{https://doi.org/10.1088/1475-7516/2017/03/034}{\emph{JCAP} {\bfseries
+  03} (2017) 034} [\href{https://arxiv.org/abs/1610.03351}{{\ttfamily
+  1610.03351}}].
 
 \bibitem{Jolicoeur:2018blf}
 S.~Jolicoeur, A.~Allahyari, C.~Clarkson, J.~Larena, O.~Umeh and R.~Maartens,
@@ -400,12 +180,32 @@ S.~Camera, J.~Fonseca, R.~Maartens and M.~G. Santos, \emph{{Optimized angular
   Soc.} {\bfseries 481} (2018) 1251}
   [\href{https://arxiv.org/abs/1803.10773}{{\ttfamily 1803.10773}}].
 
+\bibitem{Yankelevich:2018uaz}
+V.~Yankelevich and C.~Porciani, \emph{{Cosmological information in the
+  redshift-space bispectrum}},
+  \href{https://doi.org/10.1093/mnras/sty3143}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 483} (2019) 2078}
+  [\href{https://arxiv.org/abs/1807.07076}{{\ttfamily 1807.07076}}].
+
 \bibitem{Lewis:1999bs}
 A.~Lewis, A.~Challinor and A.~Lasenby, \emph{{Efficient computation of CMB
   anisotropies in closed FRW models}},
   \href{https://doi.org/10.1086/309179}{\emph{Astrophys. J.} {\bfseries 538}
   (2000) 473} [\href{https://arxiv.org/abs/astro-ph/9911177}{{\ttfamily
   astro-ph/9911177}}].
+
+\bibitem{Clarkson:2018dwn}
+C.~Clarkson, E.~M. de~Weerd, S.~Jolicoeur, R.~Maartens and O.~Umeh, \emph{{The
+  dipole of the galaxy bispectrum}},
+  \href{https://doi.org/10.1093/mnrasl/slz066}{\emph{Monthly Notices of the
+  Royal Astronomical Society} {\bfseries 486} (2019) L101}
+  [\href{https://arxiv.org/abs/1812.09512}{{\ttfamily 1812.09512}}].
+
+\bibitem{Jeong:2019igb}
+D.~Jeong and F.~Schmidt, \emph{{Parity-odd galaxy bispectrum}},
+  \href{https://doi.org/10.1103/PhysRevD.102.023530}{\emph{Phys. Rev. D}
+  {\bfseries 102} (2020) 023530}
+  [\href{https://arxiv.org/abs/1906.05198}{{\ttfamily 1906.05198}}].
 
 \bibitem{Jeong:2011as}
 D.~Jeong, F.~Schmidt and C.~M. Hirata, \emph{Large-scale clustering of galaxies
@@ -418,6 +218,13 @@ F.~Bernardeau, S.~Colombi, E.~Gaztañaga and R.~Scoccimarro, \emph{Large-scale
   structure of the universe and cosmological perturbation theory},
   \href{https://doi.org/10.1016/s0370-1573(02)00135-7}{\emph{Physics Reports}
   {\bfseries 367} (2002) 1–248}.
+
+\bibitem{Karagiannis:2018jdt}
+D.~Karagiannis, A.~Lazanu, M.~Liguori, A.~Raccanelli, N.~Bartolo and L.~Verde,
+  \emph{Constraining primordial non-gaussianity with bispectrum and power
+  spectrum from upcoming optical and radio surveys},
+  \href{https://doi.org/10.1093/mnras/sty1029}{\emph{Monthly Notices of the
+  Royal Astronomical Society} {\bfseries 478} (2018) 1341–1376}.
 
 \bibitem{Bonvin:2011bg}
 C.~Bonvin and R.~Durrer, \emph{{What galaxy surveys really measure}},
@@ -476,6 +283,14 @@ M.~Liguori, E.~Sefusatti, J.~R. Fergusson and E.~P.~S. Shellard,
   \href{https://doi.org/10.1155/2010/980523}{\emph{Adv. Astron.} {\bfseries
   2010} (2010) 980523} [\href{https://arxiv.org/abs/1001.4707}{{\ttfamily
   1001.4707}}].
+
+\bibitem{Oddo:2019run}
+A.~Oddo, E.~Sefusatti, C.~Porciani, P.~Monaco and A.~G. S\'anchez,
+  \emph{{Toward a robust inference method for the galaxy bispectrum: likelihood
+  function and model selection}},
+  \href{https://doi.org/10.1088/1475-7516/2020/03/056}{\emph{JCAP} {\bfseries
+  03} (2020) 056} [\href{https://arxiv.org/abs/1908.01774}{{\ttfamily
+  1908.01774}}].
 
 \bibitem{Aghanim:2018eyx}
 {\scshape Planck} collaboration, N.~Aghanim et~al., \emph{{Planck 2018 results.
@@ -563,12 +378,35 @@ E.~Castorina and M.~White, \emph{{Beyond the plane-parallel approximation for
   Not. Roy. Astron. Soc.} {\bfseries 476} (2018) 4403}
   [\href{https://arxiv.org/abs/1709.09730}{{\ttfamily 1709.09730}}].
 
+\bibitem{Kehagias:2015tda}
+A.~Kehagias, A.~Moradinezhad~Dizgah, J.~Nore\~na, H.~Perrier and A.~Riotto,
+  \emph{{A Consistency Relation for the Observed Galaxy Bispectrum and the
+  Local non-Gaussianity from Relativistic Corrections}},
+  \href{https://doi.org/10.1088/1475-7516/2015/08/018}{\emph{JCAP} {\bfseries
+  08} (2015) 018} [\href{https://arxiv.org/abs/1503.04467}{{\ttfamily
+  1503.04467}}].
+
 \bibitem{DiDio:2015bua}
 E.~Di~Dio, R.~Durrer, G.~Marozzi and F.~Montanari, \emph{{The bispectrum of
   relativistic galaxy number counts}},
   \href{https://doi.org/10.1088/1475-7516/2016/01/016}{\emph{JCAP} {\bfseries
   01} (2016) 016} [\href{https://arxiv.org/abs/1510.04202}{{\ttfamily
   1510.04202}}].
+
+\bibitem{DiDio:2016gpd}
+E.~Di~Dio, H.~Perrier, R.~Durrer, G.~Marozzi, A.~Moradinezhad~Dizgah,
+  J.~Noreña et~al., \emph{{Non-Gaussianities due to Relativistic Corrections
+  to the Observed Galaxy Bispectrum}},
+  \href{https://doi.org/10.1088/1475-7516/2017/03/006}{\emph{JCAP} {\bfseries
+  1703} (2017) 006} [\href{https://arxiv.org/abs/1611.03720}{{\ttfamily
+  1611.03720}}].
+
+\bibitem{Bertacca:2017dzm}
+D.~Bertacca, A.~Raccanelli, N.~Bartolo, M.~Liguori, S.~Matarrese and L.~Verde,
+  \emph{{Relativistic wide-angle galaxy bispectrum on the light-cone}},
+  \href{https://doi.org/10.1103/PhysRevD.97.023531}{\emph{Phys. Rev.}
+  {\bfseries D97} (2018) 023531}
+  [\href{https://arxiv.org/abs/1705.09306}{{\ttfamily 1705.09306}}].
 
 \bibitem{Hall:2012wd}
 A.~Hall, C.~Bonvin and A.~Challinor, \emph{{Testing General Relativity with
@@ -596,6 +434,12 @@ J.~Fonseca, S.~Camera, M.~Santos and R.~Maartens, \emph{{Hunting down
   {\bfseries 812} (2015) L22}
   [\href{https://arxiv.org/abs/1507.04605}{{\ttfamily 1507.04605}}].
 
+\bibitem{Maartens:2019yhx}
+R.~Maartens, S.~Jolicoeur, O.~Umeh, E.~M. De~Weerd, C.~Clarkson and S.~Camera,
+  \emph{Detecting the relativistic galaxy bispectrum},
+  \href{https://doi.org/10.1088/1475-7516/2020/03/065}{\emph{JCAP} {\bfseries
+  2020} (2020) 065–065}.
+
 \bibitem{Umeh:2016thy}
 O.~Umeh, \emph{{Imprint of non-linear effects on HI intensity mapping on large
   scales}}, \href{https://doi.org/10.1088/1475-7516/2017/06/005}{\emph{JCAP}
@@ -615,6 +459,13 @@ D.~Bertacca, R.~Maartens and C.~Clarkson, \emph{{Observed galaxy number counts
   \href{https://doi.org/10.1088/1475-7516/2014/11/013}{\emph{JCAP} {\bfseries
   1411} (2014) 013} [\href{https://arxiv.org/abs/1406.0319}{{\ttfamily
   1406.0319}}].
+
+\bibitem{Durrer:2020orn}
+R.~Durrer, M.~Jalilvand, R.~Kothari, R.~Maartens and F.~Montanari,
+  \emph{{Full-sky bispectrum in redshift space for 21cm intensity maps}},
+  \href{https://doi.org/10.1088/1475-7516/2020/12/003}{\emph{JCAP} {\bfseries
+  12} (2020) 003} [\href{https://arxiv.org/abs/2008.02266}{{\ttfamily
+  2008.02266}}].
 
 \bibitem{Blas:2011rf}
 D.~Blas, J.~Lesgourgues and T.~Tram, \emph{{The Cosmic Linear Anisotropy
@@ -659,6 +510,13 @@ P.~Bull, P.~G. Ferreira, P.~Patel and M.~G. Santos, \emph{{Late-time cosmology
   \href{https://doi.org/10.1088/0004-637X/803/1/21}{\emph{Astrophys. J.}
   {\bfseries 803} (2015) 21} [\href{https://arxiv.org/abs/1405.1452}{{\ttfamily
   1405.1452}}].
+
+\bibitem{Tellarini:2015faa}
+M.~Tellarini, A.~J. Ross, G.~Tasinato and D.~Wands, \emph{{Non-local bias in
+  the halo bispectrum with primordial non-Gaussianity}},
+  \href{https://doi.org/10.1088/1475-7516/2015/07/004}{\emph{JCAP} {\bfseries
+  07} (2015) 004} [\href{https://arxiv.org/abs/1504.00324}{{\ttfamily
+  1504.00324}}].
 
 \bibitem{Santos:2015gra}
 M.~G. Santos et~al., \emph{{Cosmology from a SKA HI intensity mapping survey}},
@@ -771,6 +629,13 @@ A.~Ghosh, F.~Mertens and L.~V.~E. Koopmans, \emph{{Deconvolving the wedge:
   Soc.} {\bfseries 474} (2018) 4552}
   [\href{https://arxiv.org/abs/1709.06752}{{\ttfamily 1709.06752}}].
 
+\bibitem{Karagiannis:2019jjx}
+D.~Karagiannis, A.~Slosar and M.~Liguori, \emph{{Forecasts on Primordial
+  non-Gaussianity from 21 cm Intensity Mapping experiments}},
+  \href{https://doi.org/10.1088/1475-7516/2020/11/052}{\emph{JCAP} {\bfseries
+  11} (2020) 052} [\href{https://arxiv.org/abs/1911.03964}{{\ttfamily
+  1911.03964}}].
+
 \bibitem{Chen:2018qiu}
 S.-F. Chen, E.~Castorina, M.~White and A.~Slosar, \emph{{Synergies between
   radio, optical and microwave observations at high redshift}},
@@ -824,6 +689,18 @@ T.~Matsubara, \emph{{The Correlation function in redshift space: General
   \href{https://doi.org/10.1086/308827}{\emph{Astrophys. J.} {\bfseries 535}
   (2000) 1} [\href{https://arxiv.org/abs/astro-ph/9908056}{{\ttfamily
   astro-ph/9908056}}].
+
+\bibitem{Scoccimarro:2015bla}
+R.~Scoccimarro, \emph{{Fast Estimators for Redshift-Space Clustering}},
+  \href{https://doi.org/10.1103/PhysRevD.92.083532}{\emph{Phys. Rev. D}
+  {\bfseries 92} (2015) 083532}
+  [\href{https://arxiv.org/abs/1506.02729}{{\ttfamily 1506.02729}}].
+
+\bibitem{Sugiyama:2018yzo}
+N.~S. Sugiyama, S.~Saito, F.~Beutler and H.-J. Seo, \emph{A complete fft-based
+  decomposition formalism for the redshift-space bispectrum},
+  \href{https://doi.org/10.1093/mnras/sty3249}{\emph{Monthly Notices of the
+  Royal Astronomical Society} {\bfseries 484} (2018) 364–384}.
 
 \bibitem{Sarkar:2019nak}
 D.~Sarkar and S.~Bharadwaj, \emph{{Redshift-space distortions of the H i 21-cm
@@ -1160,12 +1037,25 @@ M.~S. Wang, F.~Beutler and D.~Bacon, \emph{{Impact of Relativistic Effects on
   Astron. Soc.} {\bfseries 499} (2020) 2598}
   [\href{https://arxiv.org/abs/2007.01802}{{\ttfamily 2007.01802}}].
 
+\bibitem{Tellarini:2016sgp}
+M.~Tellarini, A.~J. Ross, G.~Tasinato and D.~Wands, \emph{Galaxy bispectrum,
+  primordial non-gaussianity and redshift space distortions},
+  \href{https://doi.org/10.1088/1475-7516/2016/06/014}{\emph{Journal of
+  Cosmology and Astroparticle Physics} {\bfseries 2016} (2016) 014–014}.
+
 \bibitem{Umeh:2019jqg}
 O.~Umeh and K.~Koyama, \emph{{The galaxy bias at second order in general
   relativity with Non-Gaussian initial conditions}},
   \href{https://doi.org/10.1088/1475-7516/2019/12/048}{\emph{JCAP} {\bfseries
   12} (2019) 048} [\href{https://arxiv.org/abs/1907.08094}{{\ttfamily
   1907.08094}}].
+
+\bibitem{Koyama:2018ttg}
+K.~Koyama, O.~Umeh, R.~Maartens and D.~Bertacca, \emph{{The observed galaxy
+  bispectrum from single-field inflation in the squeezed limit}},
+  \href{https://doi.org/10.1088/1475-7516/2018/07/050}{\emph{JCAP} {\bfseries
+  07} (2018) 050} [\href{https://arxiv.org/abs/1805.09189}{{\ttfamily
+  1805.09189}}].
 
 \bibitem{Sefusatti:2006pa}
 E.~Sefusatti, M.~Crocce, S.~Pueblas and R.~Scoccimarro, \emph{{Cosmology and
@@ -1189,6 +1079,35 @@ T.~Giannantonio and C.~Porciani, \emph{{Structure formation from non-Gaussian
   \href{https://doi.org/10.1103/PhysRevD.81.063530}{\emph{Phys. Rev. D}
   {\bfseries 81} (2010) 063530}
   [\href{https://arxiv.org/abs/0911.0017}{{\ttfamily 0911.0017}}].
+
+\bibitem{Watkinson:2017zbs}
+C.~A. Watkinson, S.~Majumdar, J.~R. Pritchard and R.~Mondal, \emph{{A fast
+  estimator for the bispectrum and beyond \textendash{} a practical method for
+  measuring non-Gaussianity in 21-cm maps}},
+  \href{https://doi.org/10.1093/mnras/stx2130}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 472} (2017) 2436}
+  [\href{https://arxiv.org/abs/1705.06284}{{\ttfamily 1705.06284}}].
+
+\bibitem{Majumdar:2017tdm}
+S.~Majumdar, J.~R. Pritchard, R.~Mondal, C.~A. Watkinson, S.~Bharadwaj and
+  G.~Mellema, \emph{{Quantifying the non-Gaussianity in the EoR 21-cm signal
+  through bispectrum}}, \href{https://doi.org/10.1093/mnras/sty535}{\emph{Mon.
+  Not. Roy. Astron. Soc.} {\bfseries 476} (2018) 4007}
+  [\href{https://arxiv.org/abs/1708.08458}{{\ttfamily 1708.08458}}].
+
+\bibitem{Sarkar:2019ojl}
+D.~Sarkar, S.~Majumdar and S.~Bharadwaj, \emph{{Modelling the post-reionization
+  neutral hydrogen ($\mathrm{HI}$) 21-cm bispectrum}},
+  \href{https://doi.org/10.1093/mnras/stz2799}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 490} (2019) 2880}
+  [\href{https://arxiv.org/abs/1907.01819}{{\ttfamily 1907.01819}}].
+
+\bibitem{Bharadwaj:2020wkc}
+S.~Bharadwaj, A.~Mazumdar and D.~Sarkar, \emph{{Quantifying the Redshift Space
+  Distortion of the Bispectrum I: Primordial Non-Gaussianity}},
+  \href{https://doi.org/10.1093/mnras/staa279}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 493} (2020) 594}
+  [\href{https://arxiv.org/abs/2001.10243}{{\ttfamily 2001.10243}}].
 
 \bibitem{Karagiannis:2020dpq}
 D.~Karagiannis, J.~Fonseca, R.~Maartens and S.~Camera, \emph{{Probing
@@ -1270,6 +1189,13 @@ M.~Bruni, J.~C. Hidalgo, N.~Meures and D.~Wands, \emph{{Non-Gaussian Initial
   \href{https://doi.org/10.1088/0004-637X/785/1/2}{\emph{Astrophys. J.}
   {\bfseries 785} (2014) 2} [\href{https://arxiv.org/abs/1307.1478}{{\ttfamily
   1307.1478}}].
+
+\bibitem{Gagrani:2016rfy}
+P.~Gagrani and L.~Samushia, \emph{{Information Content of the Angular
+  Multipoles of Redshift-Space Galaxy Bispectrum}},
+  \href{https://doi.org/10.1093/mnras/stx135}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 467} (2017) 928}
+  [\href{https://arxiv.org/abs/1610.03488}{{\ttfamily 1610.03488}}].
 
 \bibitem{Shirasaki:2020vkk}
 M.~Shirasaki, N.~S. Sugiyama, R.~Takahashi and F.-S. Kitaura,
