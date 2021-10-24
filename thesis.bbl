@@ -1,6 +1,24 @@
 
 \providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{100}
 
+\bibitem{Guth:1980zm}
+A.~H. Guth, \emph{{The Inflationary Universe: A Possible Solution to the
+  Horizon and Flatness Problems}},
+  \href{https://doi.org/10.1103/PhysRevD.23.347}{\emph{Phys. Rev. D} {\bfseries
+  23} (1981) 347}.
+
+\bibitem{Linde:1981mu}
+A.~D. Linde, \emph{{A New Inflationary Universe Scenario: A Possible Solution
+  of the Horizon, Flatness, Homogeneity, Isotropy and Primordial Monopole
+  Problems}}, \href{https://doi.org/10.1016/0370-2693(82)91219-9}{\emph{Phys.
+  Lett. B} {\bfseries 108} (1982) 389}.
+
+\bibitem{Albrecht:1982wi}
+A.~Albrecht and P.~J. Steinhardt, \emph{{Cosmology for Grand Unified Theories
+  with Radiatively Induced Symmetry Breaking}},
+  \href{https://doi.org/10.1103/PhysRevLett.48.1220}{\emph{Phys. Rev. Lett.}
+  {\bfseries 48} (1982) 1220}.
+
 \bibitem{Kaiser:1987qv}
 N.~Kaiser, \emph{{Clustering in real space and in redshift space}}, {\emph{Mon.
   Not. Roy. Astron. Soc.} {\bfseries 227} (1987) 1}.
