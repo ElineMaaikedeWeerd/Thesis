@@ -19,6 +19,18 @@ A.~Albrecht and P.~J. Steinhardt, \emph{{Cosmology for Grand Unified Theories
   \href{https://doi.org/10.1103/PhysRevLett.48.1220}{\emph{Phys. Rev. Lett.}
   {\bfseries 48} (1982) 1220}.
 
+\bibitem{Aghanim:2018eyx}
+{\scshape Planck} collaboration, N.~Aghanim et~al., \emph{{Planck 2018 results.
+  VI. Cosmological parameters}},
+  \href{https://arxiv.org/abs/1807.06209}{{\ttfamily 1807.06209}}.
+
+\bibitem{Bennett:2013}
+C.~L. Bennett, D.~Larson, J.~L. Weiland, N.~Jarosik, G.~Hinshaw, N.~Odegard
+  et~al., \emph{Nine-year wilkinson microwave anisotropy probe ( wmap )
+  observations: Final maps and results},
+  \href{https://doi.org/10.1088/0067-0049/208/2/20}{\emph{The Astrophysical
+  Journal Supplement Series} {\bfseries 208} (2013) 20}.
+
 \bibitem{Kaiser:1987qv}
 N.~Kaiser, \emph{{Clustering in real space and in redshift space}}, {\emph{Mon.
   Not. Roy. Astron. Soc.} {\bfseries 227} (1987) 1}.
@@ -309,11 +321,6 @@ A.~Oddo, E.~Sefusatti, C.~Porciani, P.~Monaco and A.~G. S\'anchez,
   \href{https://doi.org/10.1088/1475-7516/2020/03/056}{\emph{JCAP} {\bfseries
   03} (2020) 056} [\href{https://arxiv.org/abs/1908.01774}{{\ttfamily
   1908.01774}}].
-
-\bibitem{Aghanim:2018eyx}
-{\scshape Planck} collaboration, N.~Aghanim et~al., \emph{{Planck 2018 results.
-  VI. Cosmological parameters}},
-  \href{https://arxiv.org/abs/1807.06209}{{\ttfamily 1807.06209}}.
 
 \bibitem{Pozzetti:2016cch}
 L.~Pozzetti, C.~M. Hirata, J.~E. Geach, A.~Cimatti, C.~Baugh, O.~Cucciati
