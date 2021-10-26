@@ -47,9 +47,85 @@ C.~L. Bennett, D.~Larson, J.~L. Weiland, N.~Jarosik, G.~Hinshaw, N.~Odegard
   [\href{https://arxiv.org/abs/astro-ph/9812133}{{\ttfamily
   astro-ph/9812133}}].
 
+\bibitem{Hubble:1926}
+E.~P. {Hubble}, \emph{{Extragalactic nebulae.}},
+  \href{https://doi.org/10.1086/143018}{\emph{Astrophysical Journal} {\bfseries
+  64} (1926) 321}.
+
+\bibitem{Hubble:1934}
+E.~{Hubble}, \emph{{The Distribution of Extra-Galactic Nebulae}},
+  \href{https://doi.org/10.1086/143517}{\emph{Astrophysical Journal} {\bfseries
+  79} (1934) 8}.
+
+\bibitem{Shane:1967}
+C.~Shane and C.~Wirtanen, \emph{The distribtion of galaxies}. The University of
+  California, 1967.
+
+\bibitem{Zwicky:1961}
+F.~{Zwicky}, E.~{Herzog}, P.~{Wild}, M.~{Karpowicz} and C.~T. {Kowal},
+  \emph{{Catalogue of galaxies and of clusters of galaxies, Vol. I}}. 1961.
+
+\bibitem{Peebles:1973}
+P.~J.~E. {Peebles}, \emph{{Statistical Analysis of Catalogs of Extragalactic
+  Objects. I. Theory}},
+  \href{https://doi.org/10.1086/152431}{\emph{Astrophysical Journal} {\bfseries
+  185} (1973) 413}.
+
 \bibitem{Kaiser:1987qv}
 N.~Kaiser, \emph{{Clustering in real space and in redshift space}}, {\emph{Mon.
   Not. Roy. Astron. Soc.} {\bfseries 227} (1987) 1}.
+
+\bibitem{Cole:1994wf}
+S.~Cole, K.~B. Fisher and D.~H. Weinberg, \emph{{Constraints on Omega from the
+  IRAS redshift surveys}},
+  \href{https://doi.org/10.1093/mnras/275.2.515}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 275} (1995) 515}
+  [\href{https://arxiv.org/abs/astro-ph/9412062}{{\ttfamily
+  astro-ph/9412062}}].
+
+\bibitem{Loveday:1995gk}
+J.~Loveday, G.~Efstathiou, S.~J. Maddox and B.~A. Peterson, \emph{{The Stromlo
+  - APM redshift survey. 3. Redshift space distortion, omega and bias}},
+  \href{https://doi.org/10.1086/177665}{\emph{Astrophys. J.} {\bfseries 468}
+  (1996) 1} [\href{https://arxiv.org/abs/astro-ph/9505099}{{\ttfamily
+  astro-ph/9505099}}].
+
+\bibitem{Tadros:1999ky}
+H.~Tadros et~al., \emph{{Spherical harmonic analysis of the pscz galaxy
+  catalogue: redshift distortions and the real-space power spectrum}},
+  \href{https://doi.org/10.1046/j.1365-8711.1999.02409.x}{\emph{Mon. Not. Roy.
+  Astron. Soc.} {\bfseries 305} (1999) 527}
+  [\href{https://arxiv.org/abs/astro-ph/9901351}{{\ttfamily
+  astro-ph/9901351}}].
+
+\bibitem{2DFGRS:2001zay}
+{\scshape 2DFGRS} collaboration, M.~Colless et~al., \emph{{The 2dF Galaxy
+  Redshift Survey: Spectra and redshifts}},
+  \href{https://doi.org/10.1046/j.1365-8711.2001.04902.x}{\emph{Mon. Not. Roy.
+  Astron. Soc.} {\bfseries 328} (2001) 1039}
+  [\href{https://arxiv.org/abs/astro-ph/0106498}{{\ttfamily
+  astro-ph/0106498}}].
+
+\bibitem{SDSS:2000hjo}
+{\scshape SDSS} collaboration, D.~G. York et~al., \emph{{The Sloan Digital Sky
+  Survey: Technical Summary}},
+  \href{https://doi.org/10.1086/301513}{\emph{Astron. J.} {\bfseries 120}
+  (2000) 1579} [\href{https://arxiv.org/abs/astro-ph/0006396}{{\ttfamily
+  astro-ph/0006396}}].
+
+\bibitem{Dawson:2012}
+K.~S. Dawson, D.~J. Schlegel, C.~P. Ahn, S.~F. Anderson, Ã.~Aubourg, S.~Bailey
+  et~al., \emph{The baryon oscillation spectroscopic survey of sdss-iii},
+  \href{https://doi.org/10.1088/0004-6256/145/1/10}{\emph{The Astronomical
+  Journal} {\bfseries 145} (2012) 10}.
+
+\bibitem{BOSS:2016wmc}
+{\scshape BOSS} collaboration, S.~Alam et~al., \emph{{The clustering of
+  galaxies in the completed SDSS-III Baryon Oscillation Spectroscopic Survey:
+  cosmological analysis of the DR12 galaxy sample}},
+  \href{https://doi.org/10.1093/mnras/stx721}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 470} (2017) 2617}
+  [\href{https://arxiv.org/abs/1607.03155}{{\ttfamily 1607.03155}}].
 
 \bibitem{McDonald:2009dh}
 P.~McDonald, \emph{{Gravitational redshift and other redshift-space distortions

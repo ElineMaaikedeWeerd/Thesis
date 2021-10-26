@@ -13,6 +13,7 @@ Estuans interius ira vehementi
 	\textbf{Notation} & \textbf{Description} \\
 	\hline
 	BAO & Baryon Acoustic Oscillations \\
+	CMB & Cosmic Microwave Background \\
 	GR & General Relativity (Relativistic) \\
 	LSS & Large scale structure \\
 	RSD & Redshift-space distortion \\
@@ -27,11 +28,13 @@ Estuans interius ira vehementi
 Our Fourier convention is, 
 \begin{align*}
 	&f(\x) = \int \frac{\diff^3 k}{(2\pi)^3}\, e^{\i \k \cdot \x} f(\k)\,,\\
-	&f(\k) = \int \diff^3x\, e^{\i \k\cdot\x} f(\x) = \int \frac{\diff^3 k'}{(2\pi)^3} (2\pi)^3 \delta^D(\k-\k') f(\k')
+	&f(\k) = \int \diff^3x\, e^{- \i \k\cdot\x} f(\x) = \int \frac{\diff^3 k'}{(2\pi)^3} (2\pi)^3 \delta^D(\k-\k') f(\k')
 \end{align*}
 
 Convolution (FT of a product), 
 \begin{equation}
 	h(\k) = \int \frac{\diff^3k_1}{(2\pi)^3} \frac{\diff^3k_2}{(2\pi)^3} f(\k_1) g(\k_2) (2\pi)^3 \delta^D(\k_1 +\k_2 - \k)
 \end{equation}
+
+
 

@@ -54,28 +54,32 @@ In the standard $\Lambda$CDM model, the universe is assumed to be spatially flat
 
 Support for the $\Lambda$CDM model comes from a variety of observational probes. The anisotropies of the CMB as measured by the WMAP~\cite{Bennett:2013} and Planck~\cite{Aghanim:2018eyx} satellites, and the ground-based telescopes Atacama Cosmology Telescope and South Pole Telescope, which have all supplied strong constraints on matter and radiation densities, the angular diameter distance to the surface of last scattering, and the shape and the amplitude of the primordial power spectrum. The BAO features have been measured successfully by galaxy redshift surveys on scales of about 150 Mpc. This BAO feature is the imprint of the acoustic waves in the baryon-photon fluid onto the clustering of density field tracers. Measurements of the BAO have provided constraints on the expansion rate of the universe across a wide range of different redshifts. \todo{few citations} Furthermore, Type 1a SNe have yielded the first evidence for dark energy~\cite{SupernovaSearchTeam:1998fmf,SupernovaCosmologyProject:1998vns}, as well as complementary constraints on the expansion rate of the universe and the value of the present-day Hubble parameter $H_0$\todo{fix more citations}
 
-\section{Formation of structure}
+\section{Observing large scale structure}
 
 In this section, we will briefly describe the various effects that during the expansion history of the universe have driven the formation of the LSS of the universe, and the observational history thereof. As described in the previous section, the most natural explanation for the formation of the large scale structure of the universe as observed in galaxy surveys is for them to be the result of amplification of the primordial fluctuations due to gravitational interaction of cold dark matter. 
+
+Already before the detailed observations of the CMB anisotropies that reveal the imprint of the stretched-out primordial fluctuations, it was known that the galaxies in our universe are not randomly distributed. The first detections of this structure on larger scales was through a variety of galaxy surveys that aimed to observe and map the distribution of galaxies in the local universe. This all started off with Hubble's first detections of inhomogeneities in the early 20th century, at the time incorrectly thought to be `spiral nebulae'~\cite{Hubble:1926,Hubble:1934}. Following this, advancements in cosmology have been primarily held back by lack of sufficient technological progress to carry out precision surveys at large scales, until the publication of larger galaxy catalogues in the 1960's~\cite{Shane:1967,Zwicky:1961}. Around the same time, theoretical modelling advanced with the realisation that galaxies could be used as biased tracers of the underlying dark matter density field. A series of important papers followed, from systematic analysis of galaxy catalogues~\cite{Peebles:1973} to the first cosmological inferences from LSS data\todo{insert citations}. 
+
+Technological advancements, allowing for larger and more precise datasets, made further theoretical progress possible. Interpretations of clustering results gave rise to a new field of study known as galaxy bias, studying the relationship between the galaxies and the underlying dark matter\todo{add citations}-- a brief overview of the relevant local model of galaxy bias for the purpose of this thesis is given in section~\ref{section:galaxybias} along with appropriate references for further reading. Peculiar velocities of galaxies were found to influence observations of clustering, which lead to several important publications on redshift-space distortions~\cite{Kaiser:1987qv}\todo{add more citations}. These in turn were significant for the early redshift surveys~\cite{Cole:1994wf,Loveday:1995gk,Tadros:1999ky}. The early analyses also provided some of the earliest evidence for the $\Lambda$CDM model, by showing that the then-prevailing theory of a flat, matter-dominated universe did not explain the observed clustering data.
 
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=0.8\textwidth]{fig/placeholder_redshiftsurvey.png}
-	\caption{Cartoon of redshift survey}
+	\caption{Cartoon of redshift survey, find one of eg sdss?}
 	\label{fig:redshiftsurveypicture}
 \end{figure}
 
-What should go in here? A discussion of gravitational instability, the first realisations of how the galaxies were not randomly distributed through space (Peebles in the 70s, etc), and subsequent galaxy surveys mapping the distrubution of the filaments, voids etc. 
-Quick look ahead at bias (biased tracers, refer to the quick bias discussion later on)
-\todo{finish this, find some good referenes and pictures, maybe snapshots of simulations}
+Accurate redshift measurements made possible by the rise of new multi-fiber spectrograph technology allowed for redshift-space mapping of hundreds of thousands of objects. Pioneering surveys in this field are the Two-degree Field Galaxy Redshift Survey (2dFGRS)~\cite{2DFGRS:2001zay} and the Sloan Digital Sky Survey~\cite{SDSS:2000hjo}-- see figure~\ref{fig:redshiftsurveypicture} for an example of the large scale structure as measured by these redshift surveys.
+
+Measurements of the BAO in galaxy clustering surveys can help optimise constraints on the expansion rate and on properties of dark energy. The Baryon Acoustic Oscillation Survey (BOSS)~\cite{Dawson:2012} has yielded a dataset with redshift measurements for more than 1.5 million galaxies, with redshifts ranging from $0.2 < z < 0.75$ which has resulted in percent-level constraints on the expansion rate in this redshift range~\cite{BOSS:2016wmc}. 
 
 
 \section{Statistics of galaxy clustering}
 \label{section:introbisp} 
 
-As it stands, our current understanding of the universe is that large scale structure of matter is a result of the growth of small primordial fluctuations which have functioned as seeds for structure growth in an otherwise homogeneous universe. These small fluctuations have been amplified by gravitatational instability, resulting in the formation of the structure that we know as the cosmic web on cosmological scales. Tests of theories describing these primordial fluctuations are statistical in nature for the following reasons. For one, there is no direct observationa access to primordial fluctuations, and additionally, the time-scales required to follow cosmological evolution of systems is much much longer than that over which observations are realistically possible. In essence this means that observations on the past lightcone how different objects at different phases of their evolution, and as a result tests of the evolution of large scale structure must be carried out statistically. 
+Tests of theories of the early universe that describe the primordial fluctuations are statistical in nature for a number of reasons. For one, there is no direct observational access to primordial fluctuations, and secondly, the timescales required to follow cosmological evolution of systems is much longer than that over which observations are realistically possible. In essence this means that observations on the past lightcone show different objects at different phases of their evolution, and as a result, tests of the evolution of large scale structure must be carried out statistically. 
 
-A goal of theoretical cosmology is to make statistical predictions which depend on the statistical properties of primordial perturbations, which in turn lead to the formation of large scale structures in the universe. In these models, the observable universe is modelled simply as a stochastic realisation of a statistical ensemble of possibilities. The most widely considered models are based on the inflationary paradism, and generically give rise to adiabatic Gaussian initial fluctuations. In this case, the origin of stochasticity lies in quantum fluctuations that were generated in the early universe. 
+A goal of theoretical cosmology is to make statistical predictions which depend on the statistical properties of primordial perturbations, which in turn lead to the formation of large scale structures in the universe. In these models, the observable universe is modelled simply as a stochastic realisation of a statistical ensemble of possibilities. The most widely considered models are based on the inflationary paradigm, and generically give rise to adiabatic Gaussian initial fluctuations. In this case, the origin of stochasticity lies in quantum fluctuations that were generated in the early universe. 
 
 \section{The two-point function}
 
@@ -103,7 +107,7 @@ This can be rewritten using the definition of the two-point correlation function
 \begin{equation}
 	\langle \delta(\k) \delta(\k') \rangle = \int \diff^3 x \diff^3 r \xi(r) e^{-\i (\k + \k') \cdot \x - \i \k' \cdot \r},
 \end{equation}
-and, performing one of the intregrals, 
+and, performing one of the integrals, 
 \begin{align}
 	\langle \delta(\k) \delta(\k') \rangle &= (2\pi)^3 \delta^D(\k + \k') \int \diff^3 r \xi(r) e^{\i \k \cdot \r} \\
 	&\equiv (2\pi)^3 \delta^D(\k + \k') P(k),
@@ -147,6 +151,7 @@ Theoretical blah about the matter bispectrum, definitions, showing how various b
 Bispectrum in observation -- can skip over any CMB and just focus on lss
 
 \section{Galaxy bias}
+\label{section:galaxybias}
 
 
 (Very) brief overview of the relevant bias
