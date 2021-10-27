@@ -11,7 +11,7 @@
 \contentsline {subsection}{\numberline {1.5.1}The matter bispectrum}{22}{subsection.1.5.1}%
 \contentsline {subsection}{\numberline {1.5.2}Matter bispectrum in observations}{23}{subsection.1.5.2}%
 \contentsline {section}{\numberline {1.6}Galaxy bias}{23}{section.1.6}%
-\contentsline {section}{\numberline {1.7}Non-Gaussianity}{23}{section.1.7}%
+\contentsline {section}{\numberline {1.7}Non-Gaussianity}{24}{section.1.7}%
 \contentsline {chapter}{\numberline {2}The dipole of the galaxy bispectrum}{25}{chapter.2}%
 \contentsline {section}{\numberline {2.1}The dipole of the power spectrum}{25}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Extracting the dipole}{29}{section.2.2}%
