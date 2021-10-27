@@ -7,13 +7,11 @@
 \contentsline {section}{\numberline {1.2}Observing large scale structure}{17}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Statistics of galaxy clustering}{19}{section.1.3}%
 \contentsline {section}{\numberline {1.4}The two-point function}{20}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}The power spectrum}{21}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}The angular power spectrum}{21}{subsection.1.4.2}%
 \contentsline {section}{\numberline {1.5}The three-point function}{21}{section.1.5}%
 \contentsline {subsection}{\numberline {1.5.1}The matter bispectrum}{22}{subsection.1.5.1}%
 \contentsline {subsection}{\numberline {1.5.2}Matter bispectrum in observations}{23}{subsection.1.5.2}%
 \contentsline {section}{\numberline {1.6}Galaxy bias}{23}{section.1.6}%
-\contentsline {section}{\numberline {1.7}Primordial non-Gaussianity}{24}{section.1.7}%
+\contentsline {section}{\numberline {1.7}Non-Gaussianity}{23}{section.1.7}%
 \contentsline {chapter}{\numberline {2}The dipole of the galaxy bispectrum}{25}{chapter.2}%
 \contentsline {section}{\numberline {2.1}The dipole of the power spectrum}{25}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Extracting the dipole}{29}{section.2.2}%
@@ -33,15 +31,15 @@
 \contentsline {subsection}{\numberline {3.3.4}Conclusions}{53}{subsection.3.3.4}%
 \contentsline {section}{\numberline {3.4}21cm intensity mapping surveys}{56}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Relativistic effects in the 21cm IM bispectrum}{56}{subsection.3.4.1}%
-\contentsline {subsubsection}{\nonumberline HI bias parameters}{60}{subsubsection*.58}%
+\contentsline {subsubsection}{\nonumberline HI bias parameters}{60}{subsubsection*.57}%
 \contentsline {subsection}{\numberline {3.4.2}Effects of foregrounds}{61}{subsection.3.4.2}%
 \contentsline {subsection}{\numberline {3.4.3}Maximum and minimum scales probed}{63}{subsection.3.4.3}%
 \contentsline {subsection}{\numberline {3.4.4}Instrumental noise}{65}{subsection.3.4.4}%
 \contentsline {subsection}{\numberline {3.4.5}Future 21cm IM surveys}{66}{subsection.3.4.5}%
 \contentsline {subsection}{\numberline {3.4.6}Forecasts for the relativistic signal-to-noise ratio}{68}{subsection.3.4.6}%
-\contentsline {subsubsection}{\nonumberline Single-dish mode experiments}{68}{subsubsection*.74}%
-\contentsline {subsubsection}{\nonumberline Interferometer mode experiments}{69}{subsubsection*.78}%
-\contentsline {subsubsection}{\nonumberline Reducing the radial foreground cut}{70}{subsubsection*.82}%
+\contentsline {subsubsection}{\nonumberline Single-dish mode experiments}{68}{subsubsection*.73}%
+\contentsline {subsubsection}{\nonumberline Interferometer mode experiments}{69}{subsubsection*.77}%
+\contentsline {subsubsection}{\nonumberline Reducing the radial foreground cut}{70}{subsubsection*.81}%
 \contentsline {section}{\numberline {3.5}Conclusions}{72}{section.3.5}%
 \contentsline {chapter}{\numberline {4}Higher order relativistic effects in the bispectrum}{75}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Local lightcone projection effects}{76}{section.4.1}%
@@ -77,7 +75,7 @@
 \contentsline {chapter}{\numberline {C}Upsilon coefficients}{166}{appendix.a.C}%
 \contentsline {chapter}{\numberline {D}Presentation of kernel coefficients}{168}{appendix.a.D}%
 \contentsline {chapter}{\numberline {E}Squeezed limit of multipoles}{175}{appendix.a.E}%
-\contentsline {chapter}{\nonumberline Bibliography}{177}{chapter*.131}%
-\contentsline {chapter}{\nonumberline List of Figures}{192}{chapter*.132}%
-\contentsline {chapter}{\nonumberline List of Tables}{196}{chapter*.133}%
+\contentsline {chapter}{\nonumberline Bibliography}{177}{chapter*.130}%
+\contentsline {chapter}{\nonumberline List of Figures}{192}{chapter*.131}%
+\contentsline {chapter}{\nonumberline List of Tables}{196}{chapter*.132}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
