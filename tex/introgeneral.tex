@@ -88,9 +88,9 @@ In a LSS galaxy survey, the fluctuations in the number of galaxies are measured 
 \begin{equation}
 	\delta(\n,z) = \frac{N(\n,z) - \bar{N}(z)}{\bar{N}(z)}\,.
 \end{equation}
-We will briefly review some of the constraints that have been obtained from studying the two-point correlation function of $\delta(\n,z)$, or the power spectrum in Fourier space. A purely Gaussian field would be fully described by the two-point correlation, which is the joint ensemble averate of the density fluctuation at two different points. Since one of the primary goals of the next-generation surveys is to detect primordial non-Gaussianity, increase in theoretical precision is required. This gives rise to the need for analysis of higher-order correlators, which will contain information that is both complementary and additional to what is contained in the power spectrum. The first of these higher-order correlation functions is the three-point function, or bispectrum in Fourier space. The bispectrum will be crucial for helping improve constraints in future surveys, and the remainder of this thesis is concerned with improving the theoretical description of the bispectrum of galaxies, as well as the feasability of detecting such a signal in upcoming surveys.
+We will briefly review some of the results that have been obtained from studying the two-point correlation function of $\delta(\n,z)$, or the power spectrum in Fourier space. A purely Gaussian field would be fully described by the two-point correlation, which is the joint ensemble averate of the density fluctuation at two different points. Since one of the primary goals of the next-generation surveys is to detect primordial non-Gaussianity, increase in theoretical precision is required. This gives rise to the need for analysis of higher-order correlators, which will contain information that is both complementary and additional to what is contained in the power spectrum. The first of these higher-order correlation functions is the three-point function, or bispectrum in Fourier space. The bispectrum will be crucial for helping improve constraints in future surveys, and the remainder of this thesis is concerned with improving the theoretical description of the bispectrum of galaxies, as well as the feasability of detecting such a signal in upcoming surveys.
 
-\section{The two-point function}
+\subsection{The two-point function}
 
 A purely Gaussian field is fully described by the two-point correlation function or power spectrum. The two-point correlation function is defined as the joint ensemble average of the density at two different points $\x$ and $\x + \textbf{r}$, i.e. 
 \begin{equation}
@@ -101,7 +101,7 @@ which is dependent on the distance $r$ between the two points only, due to stati
 \begin{equation}
 	\delta({\x}) = \int \frac{\diff^3k}{(2\pi)^3} \, e^{\i \k \cdot \x } \delta(\x),
 \end{equation}
-where $\delta(\k)$ are complex random variables. Note that there are generally two Fourier conventions that are used in literature on the galaxy statistics, which lead to a difference of $(2\pi)^3$ in the definition of the power spectrum or two-point function. The other choice of Fourier convention is to reverse where the factor of $(2\pi)^3$ goes in the Fourier transforms, that is, using $f(\x) = \int \diff^3k e^{\i \k \cdot \x} f(\k) $ and $f(\k) = \int \frac{\diff^3 x}{(2\pi)^3} e^{-\i \k \cdot \x} f(\x)$ instead of our convention used here.
+where $\delta(\k)$ are complex random variables. Note that there are other Fourier conventions in use in literature, which differ as to where the factor of $2\pi$ goes.
 
 Since the density contrast is real, this means that we have
 \begin{equation}
@@ -110,48 +110,62 @@ Since the density contrast is real, this means that we have
 
 Similarly, the correlators can also be computed in Fourier space, as follows, 
 \begin{equation}
-	\langle \delta(\k) \delta(\k') \rangle = \int \diff^3 x \diff^3 r \langle \delta(\x) \delta(\x + \r)\rangle e^{-\i (\k + \k') \cdot \x - \i \k' \cdot \r}.
+	\langle \delta(\k) \delta(\k') \rangle = \int \diff^3 x \diff^3 r \, \langle \delta(\x) \delta(\x + \r)\rangle e^{-\i (\k + \k') \cdot \x - \i \k' \cdot \r}.
 \end{equation}
 This can be rewritten using the definition of the two-point correlation function as 
 \begin{equation}
-	\langle \delta(\k) \delta(\k') \rangle = \int \diff^3 x \diff^3 r \xi(r) e^{-\i (\k + \k') \cdot \x - \i \k' \cdot \r},
+	\langle \delta(\k) \delta(\k') \rangle = \int \diff^3 x \diff^3 r \, \xi(r) e^{-\i (\k + \k') \cdot \x - \i \k' \cdot \r},
 \end{equation}
 and, performing one of the integrals, 
 \begin{align}
-	\langle \delta(\k) \delta(\k') \rangle &= (2\pi)^3 \delta^D(\k + \k') \int \diff^3 r \xi(r) e^{\i \k \cdot \r} \\
+	\langle \delta(\k) \delta(\k') \rangle &= (2\pi)^3 \delta^D(\k + \k') \int \diff^3 r \,\xi(r) e^{\i \k \cdot \r} \\
 	&\equiv (2\pi)^3 \delta^D(\k + \k') P(k),
 \end{align}
-where $P(k)$ is by definition the density power spectrum.
+where $P(k)$ is by definition the (density) power spectrum. 
+
+The power spectrum is a measure of probability-- e.g. in the case of a power spectrum of galaxies, the probability of finding galaxies at some distance $r$ from one another. The galaxy power spectrum has been used extensively to extract cosmological information from large scale surveys. However, the observed distribution of galaxies has several more complex features, such as e.g. compact clusters, underdense regions, and other. These features are not captured by two-point statistics, which means that especially when more precise measurements are carried out such as will be the case for the next generation of surveys, information would be lost. This gives rise to the need for higher-order statistics and their Fourier transforms. 
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.7\textwidth]{fig/placeholder_pk.png}
+	\caption{Power spectrum}
+\end{figure}
 
 \todo[inline]{some more blah also about P in simulations/observations ?? and eg angular, f.s. etc}
 
-\section{The three-point function}
+\subsection{The three-point function}
 
-Higher-order correlation functions are defined as the connected part of the joint ensemble average of the density in an arbitrary number of locations. In principle it is possible define any order of correlation function like this, but they will rapidly become more computationally complex and expensive. In the case of a purely Gaussian field, the only non-vanishing connected part is the two-point correlation function. This is a direct consequence of Wick's theorem for Gaussian fields, and has a number of important consequences. Firstly it means that a purely Gaussian, statistically homogeneous and isotropic field is fully described by its two-point correlation function or power spectrum, and secondly it means that the statistical properties of any field, which is not necessarily linear, can be written in terms of combinations of two-point correlation functions -- as long as the field is built from a Gaussian field $\delta$. In a generic form, Wick's theorem can be expressed as 
+Higher-order correlation functions are defined as the connected part of the joint ensemble average of the density in an arbitrary number of locations. In principle, it is possible define any order of correlation function like this, but they will rapidly become more computationally complex and expensive. In the case of a purely Gaussian field, the only non-vanishing connected part is the two-point correlation function. This is a direct consequence of Wick's theorem for Gaussian fields, and has a number of important consequences. Firstly it means that a purely Gaussian, statistically homogeneous and isotropic field is fully described by its two-point correlation function or power spectrum, and secondly it means that the statistical properties of any field, which is not necessarily linear, can be written in terms of combinations of two-point correlation functions -- as long as the field is built from a Gaussian field $\delta$. In a generic form, Wick's theorem can be expressed as 
 \begin{align}
 	&\langle \delta(\ka) \ldots \delta(\bm{k}_{2p + 1}) \rangle = 0 \nonumber \\
 	&\langle \delta(\ka) \ldots \delta(\bm{k}_{2p})\rangle = \sum_{[\text{all distinct pairs}]} \prod_{[p \text{ pairs } (i,j)]} \langle \delta(\bm{k}_i) \delta(\bm{k}_j) \rangle.  
 \end{align}
 
-More concretely, this means that for a purely Gaussian field, $\langle \delta(\ka) \delta(\kb) \delta(\kc)\rangle = 0$. However, this changes in the presence of any sources of non-linearity. BLAH. An important consequence of non-linear evolution of structure is that the statistics of odd-number density fields are no longer vanishing. The leading odd-number statistic which will be non-zero in the case of non-linear evolution if the three-point correlation function or the bispectrum in Fourier space, 
+More concretely, this means that for a purely Gaussian field, $\langle \delta(\ka) \delta(\kb) \delta(\kc)\rangle = 0$. However, this changes in the presence of any sources of non-linearity. An important consequence of non-linear evolution of structure is that the statistics of odd-number density fields are no longer vanishing. The leading odd-number statistic which will be non-zero in the case of non-linear evolution if the three-point correlation function or the bispectrum in Fourier space, 
 \begin{equation}
 	\langle \delta(\ka) \delta(\kb) \delta(\kc) \rangle = (2 \pi )^3 \delta^\mathrm{D}(\ka + \kb + \kc) \left[ 2 F_2(\ka,\kb) P_\mathrm{L}(\ka) P_\mathrm{L}(\kb) + \text{ 2 c.p.} \right]
 \end{equation}
 where $F_2$ is the Fourier space density evolution kernel, $P_\mathrm{L}$ is the linear power spectrum from the previous discussion, and redshift dependence is suppressed for brevity. 
 
-Some blah blah about higher order statistics and their importance in future surveys (higher precision data, non-Gaussianities in the universe and effects that give rise to nonlinearities)
+As the bispectrum is a non-Gaussian statistic, and as such is especially sensitive to any forms of non-linearity in the universe. It is an essential probe for e.g. primordial non-Gaussianity, though there are also other sources of non-Gaussianities in the universe. Primordial non-Gaussianity, which is often parametrised by the non-linear parameter $\fnl$, is predicted by different types of inflation and other theories of the early universe; meaning that improvement of constraints on $\fnl$ could help discriminate between these theories and help shed light on the very early universe and the seeds of structure formation. 
 
-\subsection{The matter bispectrum}
+The bispectrum in Fourier space forms a closed triangle correlating three different wave-vectors and, unlike the power spectrum or two-point function, is able to correlate different scales. The matter bispectrum is unique from the thus far more well-studied CMB bispectrum in that it is able to form a three-dimensional map of the universe, whereas the cosmic microwave background provides a two-dimensional snapshot of the first light only. It is therefore essential to try and improve the theoretical description of the matter bispectrum if we are to utilise the wealth of information from next-generation high-precision galaxy surveys in as good and as unbiased a manner as possible. 
 
-The bispectrum is a non-Gaussian statistic, and as such is especially sensitive to any forms of non-linearity in the universe. It is an essential probe for e.g. primordial non-Gaussianity, though there are also other sources of non-Gaussianities in the universe. Primordial non-Gaussianity, which is often parametrised by the non-linear parameter $\fnl$, is predicted by different types of inflation and other theories of the early universe; meaning that improvement of constraints on $\fnl$ could help discriminate between these theories and help shed light on the very early universe and the seeds of structure formation. 
+Similar to how the power spectrum is a measure of probability of finding pairs of galaxies at a given separation from each other, the bispectrum analogously maps this to a probability in a three-dimensional equivalent. That is, it can correspond directly to the filamentary structure formed by matter and voids which we know as the cosmic web. The bispectrum has degrees of freedom in both modulus of the wavevector i.e. scales of correlation, as well as the shape of the triangle itself. 
 
-In this section we will go into more detail as to how various amplitudes and signs of the bispectrum correspond to real-space signatures. The bispectrum in Fourier space forms a closed triangle correlating three different wave-vectors and, unlike the power spectrum or two-point function, is able to correlate different scales. The matter bispectrum is unique from the thus far more well-studied CMB bispectrum in that it is able to form a three-dimensional map of the universe, whereas the cosmic microwave background provides a two-dimensional snapshot of the first light only. It is therefore essential to try and improve the theoretical description of the matter bispectrum if we are to utilise the wealth of information from next-generation high-precision galaxy surveys in as good and as unbiased a manner as possible. 
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=0.8\textwidth]{fig/Equilateral.png}
+	\caption{An illustration of a Fourier-space triangle shape and the corresponding real space signature-- in this case the equilateral bispectrum. The field (denoted T here) can be decomposed into plane waves, and the three components that form an equilateral triangle can have different signs relative to each other. This gives an overall sign to bispectrum $b$, to be interpreted as an average probability of which sign is more likely. A positive sign corresponds to the combination of wavevectors being more likely to produce concentrated overdensities surrended by areas of milder underdensity. For a negative equilateral bispectrum, this is the other way round, and one would expect to see on average more concentrated underdensities surrounded by areas with mild overdensity. Please note that these are slices of 3D figures, which extend into the page-- meaning that a positive sign on the bispectrum corresponds to filaments of overdensities surrounded by areas of mild underdensity. Note also that this concerns a statistical quantity only, so while on average one would expect to see more of one type of signature, the observed distribution does not uniformly look like a given real space structure.~\cite{Lewis:2011}}
+\end{figure}
 
-Where the power spectrum is a measure of probability of, e.g. in the case of the galaxy power spectrum, finding galaxies at distance corresponding to separation of points $r$ from each other, the bispectrum similarly maps this to a probability in a three-dimensional equivalent. That is, it can correspond directly to what we know as the cosmic web, and the galaxy or dark matter distributions therein. The bispectrum has degrees of freedom in both modulus of the wavevector i.e. scales of correlation, as well as the shape of the triangle itself. Different triangle shapes correspond to different real-space bispectrum signatures.
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=0.8\textwidth]{fig/Millennium.png}
+	\caption{Snapshot of Millennium simulations~\cite{Springel:2005nw} showing non-linear LSS. There are dense filaments (lighter) surrounded by milder underdensities (darker). This generates a large positive roughly equilateral bispectrum.}
+\end{figure}
 
-Theoretical blah about the matter bispectrum, definitions, showing how various bispectrum signals translate to real space shapes and modulations of signal
-
-\subsection{Matter bispectrum in observations}
+Most measurements of higher-order correlation functions so far are rather noisy and imprecise, and there is a lack of dedicated analysis tools (e.g. theoretical predictions, estimators, likelihood models) for higher-order statistics compared to the analysis toolkit available for two-point statistics. Previous work 
 
 Bispectrum in observation -- can skip over any CMB and just focus on lss
 
@@ -161,6 +175,8 @@ Bispectrum in observation -- can skip over any CMB and just focus on lss
 Galaxy bias is the statistical relation between the observed distribution of galaxies and the underlying matter distribution. On scales where the cosmic density fields are quasi-linear, the clustering of galaxies can be described by a perturbative bias expansion. In this formalism, the complicated physics concerning formation of galaxies can be absorbed by a finite set of expanion coefficients known as the bias parameters. In this section we will briefly review the origin of the field and set out the relevant bias models for this thesis. For the majority of this thesis, that is, up to chapter~\ref{chapter:multipoles}, we use a simple local-in-mass-density model of galaxy bias. Primordial non-Gaussianity, which we include in chapter~\ref{chapter:localpng}, introduces a scale-dependence in galaxy bias and hence requires separate treatment. It is worth noting that we consider only PNG of the local type. For a full review of galaxy bias, see~\cite{Desjacques:2016bnm}.
 
 All sorts of galaxy surveys and the resulting statistical studies of the distribution of galaxies ciritally rely on a robust description of the relation between the galaxies and the underlying dark matter. Of course galaxies are not the only tracers of this dark matter distribution, but the term galaxy bias is often used as a convenient term to encompass the biasing of all such tracers. Other examples include, but are not limited to, the Lyman-$\alpha$ forest, and HI intensity mapping-- the latter of which is considered in this thesis along with the more traditional spectroscopic galaxy surveys. 
+
+Rougly speaking, LSS can be divided into two regimes, small non-linear scales, which cannot be described with perturbation theory, and large quasi-linear scales, which can adequately be described by perturbation theory, provided if it is carried out to sufficiently high order. Here we will consider only quasi-linear scales, so that perturbation theory will not break down. On these scales, the complex process of galaxy formation, which is itself far from being understood in detail, can at each order in perturbations and at fixed time, be absorbed into a finite set of parameters called the bias parameters. This is a remarkable result, and relies on the fact that on large scales the formation of structure is entirely determined by gravity. 
 
 \section{Non-Gaussianity}
 
