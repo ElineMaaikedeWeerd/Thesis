@@ -19,6 +19,13 @@ A.~Albrecht and P.~J. Steinhardt, \emph{{Cosmology for Grand Unified Theories
   \href{https://doi.org/10.1103/PhysRevLett.48.1220}{\emph{Phys. Rev. Lett.}
   {\bfseries 48} (1982) 1220}.
 
+\bibitem{Springel:2005nw}
+V.~Springel et~al., \emph{{Simulating the joint evolution of quasars, galaxies
+  and their large-scale distribution}},
+  \href{https://doi.org/10.1038/nature03597}{\emph{Nature} {\bfseries 435}
+  (2005) 629} [\href{https://arxiv.org/abs/astro-ph/0504097}{{\ttfamily
+  astro-ph/0504097}}].
+
 \bibitem{Aghanim:2018eyx}
 {\scshape Planck} collaboration, N.~Aghanim et~al., \emph{{Planck 2018 results.
   VI. Cosmological parameters}},
@@ -30,6 +37,68 @@ C.~L. Bennett, D.~Larson, J.~L. Weiland, N.~Jarosik, G.~Hinshaw, N.~Odegard
   observations: Final maps and results},
   \href{https://doi.org/10.1088/0067-0049/208/2/20}{\emph{The Astrophysical
   Journal Supplement Series} {\bfseries 208} (2013) 20}.
+
+\bibitem{Das:2013zf}
+S.~Das et~al., \emph{{The Atacama Cosmology Telescope: temperature and
+  gravitational lensing power spectrum measurements from three seasons of
+  data}}, \href{https://doi.org/10.1088/1475-7516/2014/04/014}{\emph{JCAP}
+  {\bfseries 04} (2014) 014} [\href{https://arxiv.org/abs/1301.1037}{{\ttfamily
+  1301.1037}}].
+
+\bibitem{George:2014oba}
+E.~M. George et~al., \emph{{A measurement of secondary cosmic microwave
+  background anisotropies from the 2500-square-degree SPT-SZ survey}},
+  \href{https://doi.org/10.1088/0004-637X/799/2/177}{\emph{Astrophys. J.}
+  {\bfseries 799} (2015) 177}
+  [\href{https://arxiv.org/abs/1408.3161}{{\ttfamily 1408.3161}}].
+
+\bibitem{BOSS:2016wmc}
+{\scshape BOSS} collaboration, S.~Alam et~al., \emph{{The clustering of
+  galaxies in the completed SDSS-III Baryon Oscillation Spectroscopic Survey:
+  cosmological analysis of the DR12 galaxy sample}},
+  \href{https://doi.org/10.1093/mnras/stx721}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 470} (2017) 2617}
+  [\href{https://arxiv.org/abs/1607.03155}{{\ttfamily 1607.03155}}].
+
+\bibitem{Ross:2014qpa}
+A.~J. Ross, L.~Samushia, C.~Howlett, W.~J. Percival, A.~Burden and M.~Manera,
+  \emph{{The clustering of the SDSS DR7 main Galaxy sample \textendash{} I. A 4
+  per cent distance measure at $z = 0.15$}},
+  \href{https://doi.org/10.1093/mnras/stv154}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 449} (2015) 835}
+  [\href{https://arxiv.org/abs/1409.3242}{{\ttfamily 1409.3242}}].
+
+\bibitem{Oka:2013cba}
+A.~Oka, S.~Saito, T.~Nishimichi, A.~Taruya and K.~Yamamoto, \emph{{Simultaneous
+  constraints on the growth of structure and cosmic expansion from the
+  multipole power spectra of the SDSS DR7 LRG sample}},
+  \href{https://doi.org/10.1093/mnras/stu111}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 439} (2014) 2515}
+  [\href{https://arxiv.org/abs/1310.2820}{{\ttfamily 1310.2820}}].
+
+\bibitem{Sanchez:2006}
+A.~G. {S{\'a}nchez}, C.~M. {Baugh}, W.~J. {Percival}, J.~A. {Peacock}, N.~D.
+  {Padilla}, S.~{Cole} et~al., \emph{{Cosmological parameters from cosmic
+  microwave background measurements and the final 2dF Galaxy Redshift Survey
+  power spectrum}},
+  \href{https://doi.org/10.1111/j.1365-2966.2005.09833.x}{\emph{MNRAS}
+  {\bfseries 366} (2006) 189}
+  [\href{https://arxiv.org/abs/astro-ph/0507583}{{\ttfamily
+  astro-ph/0507583}}].
+
+\bibitem{Beutler:2011}
+F.~Beutler, C.~Blake, M.~Colless, D.~H. Jones, L.~Staveley-Smith, L.~Campbell
+  et~al., \emph{The 6df galaxy survey: baryon acoustic oscillations and the
+  local hubble constant},
+  \href{https://doi.org/10.1111/j.1365-2966.2011.19250.x}{\emph{Monthly Notices
+  of the Royal Astronomical Society} {\bfseries 416} (2011) 3017–3032}.
+
+\bibitem{Kazin:2014qga}
+E.~A. Kazin et~al., \emph{{The WiggleZ Dark Energy Survey: improved distance
+  measurements to z = 1 with reconstruction of the baryonic acoustic feature}},
+  \href{https://doi.org/10.1093/mnras/stu778}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 441} (2014) 3524}
+  [\href{https://arxiv.org/abs/1401.0358}{{\ttfamily 1401.0358}}].
 
 \bibitem{SupernovaSearchTeam:1998fmf}
 {\scshape Supernova Search Team} collaboration, A.~G. Riess et~al.,
@@ -46,6 +115,63 @@ C.~L. Bennett, D.~Larson, J.~L. Weiland, N.~Jarosik, G.~Hinshaw, N.~Odegard
   {\bfseries 517} (1999) 565}
   [\href{https://arxiv.org/abs/astro-ph/9812133}{{\ttfamily
   astro-ph/9812133}}].
+
+\bibitem{Freedman:2012}
+W.~L. Freedman, B.~F. Madore, V.~Scowcroft, C.~Burns, A.~Monson, S.~E. Persson
+  et~al., \emph{Carnegie hubble program: A mid-infrared calibration of the
+  hubble constant}, \href{https://doi.org/10.1088/0004-637x/758/1/24}{\emph{The
+  Astrophysical Journal} {\bfseries 758} (2012) 24}.
+
+\bibitem{Riess:2016jrr}
+A.~G. Riess et~al., \emph{{A 2.4\% Determination of the Local Value of the
+  Hubble Constant}},
+  \href{https://doi.org/10.3847/0004-637X/826/1/56}{\emph{Astrophys. J.}
+  {\bfseries 826} (2016) 56}
+  [\href{https://arxiv.org/abs/1604.01424}{{\ttfamily 1604.01424}}].
+
+\bibitem{Suzuki:2012}
+N.~Suzuki, D.~Rubin, C.~Lidman, G.~Aldering, R.~Amanullah, K.~Barbary et~al.,
+  \emph{Thehubble space telescopecluster supernova survey. v. improving the
+  dark-energy constraints abovez> 1 and building an early-type-hosted supernova
+  sample}, \href{https://doi.org/10.1088/0004-637x/746/1/85}{\emph{The
+  Astrophysical Journal} {\bfseries 746} (2012) 85}.
+
+\bibitem{SDSS:2014iwm}
+{\scshape SDSS} collaboration, M.~Betoule et~al., \emph{{Improved cosmological
+  constraints from a joint analysis of the SDSS-II and SNLS supernova
+  samples}}, \href{https://doi.org/10.1051/0004-6361/201423413}{\emph{Astron.
+  Astrophys.} {\bfseries 568} (2014) A22}
+  [\href{https://arxiv.org/abs/1401.4064}{{\ttfamily 1401.4064}}].
+
+\bibitem{DES:2017qwj}
+{\scshape DES} collaboration, M.~A. Troxel et~al., \emph{{Dark Energy Survey
+  Year 1 results: Cosmological constraints from cosmic shear}},
+  \href{https://doi.org/10.1103/PhysRevD.98.043528}{\emph{Phys. Rev. D}
+  {\bfseries 98} (2018) 043528}
+  [\href{https://arxiv.org/abs/1708.01538}{{\ttfamily 1708.01538}}].
+
+\bibitem{Heymans:2013fya}
+C.~Heymans et~al., \emph{{CFHTLenS tomographic weak lensing cosmological
+  parameter constraints: Mitigating the impact of intrinsic galaxy
+  alignments}}, \href{https://doi.org/10.1093/mnras/stt601}{\emph{Mon. Not.
+  Roy. Astron. Soc.} {\bfseries 432} (2013) 2433}
+  [\href{https://arxiv.org/abs/1303.1808}{{\ttfamily 1303.1808}}].
+
+\bibitem{BOSS:2016psr}
+{\scshape BOSS} collaboration, F.~Beutler et~al., \emph{{The clustering of
+  galaxies in the completed SDSS-III Baryon Oscillation Spectroscopic Survey:
+  Anisotropic galaxy clustering in Fourier-space}},
+  \href{https://doi.org/10.1093/mnras/stw3298}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 466} (2017) 2242}
+  [\href{https://arxiv.org/abs/1607.03150}{{\ttfamily 1607.03150}}].
+
+\bibitem{BOSS:2016teh}
+{\scshape BOSS} collaboration, J.~N. Grieb et~al., \emph{{The clustering of
+  galaxies in the completed SDSS-III Baryon Oscillation Spectroscopic Survey:
+  Cosmological implications of the Fourier space wedges of the final sample}},
+  \href{https://doi.org/10.1093/mnras/stw3384}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 467} (2017) 2085}
+  [\href{https://arxiv.org/abs/1607.03143}{{\ttfamily 1607.03143}}].
 
 \bibitem{Hubble:1926}
 E.~P. {Hubble}, \emph{{Extragalactic nebulae.}},
@@ -71,9 +197,80 @@ P.~J.~E. {Peebles}, \emph{{Statistical Analysis of Catalogs of Extragalactic
   \href{https://doi.org/10.1086/152431}{\emph{Astrophysical Journal} {\bfseries
   185} (1973) 413}.
 
+\bibitem{Zeldovich:1970}
+Y.~B. {Zel'Dovich}, \emph{{Reprint of 1970A\&A.....5...84Z. Gravitational
+  instability: an approximate theory for large density perturbations.}},
+  {\emph{Astronomy and Astrophysics} {\bfseries 500} (1970) 13}.
+
+\bibitem{Davis:1977mar}
+M.~{Davis}, E.~J. {Groth} and P.~J.~E. {Peebles}, \emph{{Study of galaxy
+  correlations: evidence for the gravitational instability picture in a dense
+  universe.}}, \href{https://doi.org/10.1086/182386}{\emph{Astrophysical
+  Journal, Part 2 - Letters to the Editor} {\bfseries 212} (1977) L107}.
+
+\bibitem{Davis:1977aug}
+M.~{Davis} and P.~J.~E. {Peebles}, \emph{{On the integration of the BBGKY
+  equations for the development of strongly nonlinear clustering in an
+  expanding universe.}},
+  \href{https://doi.org/10.1086/190456}{\emph{Astrophysical Journal Supplement
+  Series} {\bfseries 34} (1977) 425}.
+
+\bibitem{Davis:1983}
+M.~{Davis} and P.~J.~E. {Peebles}, \emph{{A survey of galaxy redshifts. V. The
+  two-point position and velocity correlations.}},
+  \href{https://doi.org/10.1086/160884}{\emph{Astrophysical Journal} {\bfseries
+  267} (1983) 465}.
+
+\bibitem{Peebles:1980}
+P.~J.~E. {Peebles}, \emph{{The large-scale structure of the universe}}. 1980.
+
+\bibitem{Maddox:1990}
+S.~J. {Maddox}, G.~{Efstathiou}, W.~J. {Sutherland} and J.~{Loveday},
+  \emph{{Galaxy correlations on large scales.}},
+  \href{https://doi.org/10.1093/mnras/242.1.43P}{\emph{MNRAS} {\bfseries 242}
+  (1990) 43}.
+
+\bibitem{Baumgart:1991}
+D.~J. {Baumgart} and J.~N. {Fry}, \emph{{Fourier Spectra of Three-dimensional
+  Data}}, \href{https://doi.org/10.1086/170166}{\emph{Astrophysical Journal}
+  {\bfseries 375} (1991) 25}.
+
+\bibitem{Park:1992}
+C.~{Park}, I.~{Gott}, J.~R. and L.~N. {da Costa}, \emph{{Large-Scale Structure
+  in the Southern Sky Redshift Survey}},
+  \href{https://doi.org/10.1086/186423}{\emph{Astrophysical Journal Letters}
+  {\bfseries 392} (1992) L51}.
+
+\bibitem{Davis:1985}
+M.~{Davis}, G.~{Efstathiou}, C.~S. {Frenk} and S.~D.~M. {White}, \emph{{The
+  evolution of large-scale structure in a universe dominated by cold dark
+  matter}}, \href{https://doi.org/10.1086/163168}{\emph{Astrophysical Journal}
+  {\bfseries 292} (1985) 371}.
+
+\bibitem{Rees:1985}
+M.~J. {Rees}, \emph{{Mechanisms for biased galaxy formation}},
+  \href{https://doi.org/10.1093/mnras/213.1.75P}{\emph{MNRAS} {\bfseries 213}
+  (1985) 75P}.
+
+\bibitem{Cole:1989vx}
+S.~Cole and N.~Kaiser, \emph{{Biased clustering in the cold dark matter
+  cosmogony}}, {\emph{Mon. Not. Roy. Astron. Soc.} {\bfseries 237} (1989)
+  1127}.
+
+\bibitem{Kaiser:1984}
+N.~{Kaiser}, \emph{{On the spatial correlations of Abell clusters.}},
+  \href{https://doi.org/10.1086/184341}{\emph{Astrophysical Journal} {\bfseries
+  284} (1984) L9}.
+
 \bibitem{Kaiser:1987qv}
 N.~Kaiser, \emph{{Clustering in real space and in redshift space}}, {\emph{Mon.
   Not. Roy. Astron. Soc.} {\bfseries 227} (1987) 1}.
+
+\bibitem{Hamilton:1992zz}
+A.~J.~S. Hamilton, \emph{{Measuring Omega and the real correlation function
+  from the redshift correlation function}},
+  \href{https://doi.org/10.1086/186264}{\emph{Astrophys. J. Lett.} {\bfseries
+  385} (1992) L5}.
 
 \bibitem{Cole:1994wf}
 S.~Cole, K.~B. Fisher and D.~H. Weinberg, \emph{{Constraints on Omega from the
@@ -119,21 +316,6 @@ K.~S. Dawson, D.~J. Schlegel, C.~P. Ahn, S.~F. Anderson, �.~Aubourg, S.~Bailey
   \href{https://doi.org/10.1088/0004-6256/145/1/10}{\emph{The Astronomical
   Journal} {\bfseries 145} (2012) 10}.
 
-\bibitem{BOSS:2016wmc}
-{\scshape BOSS} collaboration, S.~Alam et~al., \emph{{The clustering of
-  galaxies in the completed SDSS-III Baryon Oscillation Spectroscopic Survey:
-  cosmological analysis of the DR12 galaxy sample}},
-  \href{https://doi.org/10.1093/mnras/stx721}{\emph{Mon. Not. Roy. Astron.
-  Soc.} {\bfseries 470} (2017) 2617}
-  [\href{https://arxiv.org/abs/1607.03155}{{\ttfamily 1607.03155}}].
-
-\bibitem{Beutler:2011}
-F.~Beutler, C.~Blake, M.~Colless, D.~H. Jones, L.~Staveley-Smith, L.~Campbell
-  et~al., \emph{The 6df galaxy survey: baryon acoustic oscillations and the
-  local hubble constant},
-  \href{https://doi.org/10.1111/j.1365-2966.2011.19250.x}{\emph{Monthly Notices
-  of the Royal Astronomical Society} {\bfseries 416} (2011) 3017–3032}.
-
 \bibitem{Blake:2011a}
 C.~Blake, E.~A. Kazin, F.~Beutler, T.~M. Davis, D.~Parkinson, S.~Brough et~al.,
   \emph{The wigglez dark energy survey: mapping the distance-redshift relation
@@ -148,17 +330,32 @@ C.~Blake, S.~Brough, M.~Colless, C.~Contreras, W.~Couch, S.~Croom et~al.,
   \href{https://doi.org/10.1111/j.1365-2966.2011.18903.x}{\emph{Monthly Notices
   of the Royal Astronomical Society} {\bfseries 415} (2011) 2876–2891}.
 
+\bibitem{Dawson:2015wdb}
+K.~S. Dawson et~al., \emph{{The SDSS-IV extended Baryon Oscillation
+  Spectroscopic Survey: Overview and Early Data}},
+  \href{https://doi.org/10.3847/0004-6256/151/2/44}{\emph{Astron. J.}
+  {\bfseries 151} (2016) 44}
+  [\href{https://arxiv.org/abs/1508.04473}{{\ttfamily 1508.04473}}].
+
+\bibitem{DES:2014xto}
+{\scshape DES} collaboration, H.~T. Diehl et~al., \emph{{The Dark Energy Survey
+  and Operations: Year 1}},
+  \href{https://doi.org/10.1117/12.2056982}{\emph{Proc. SPIE Int. Soc. Opt.
+  Eng.} {\bfseries 9149} (2014) 91490V}.
+
+\bibitem{Hill:2008}
+G.~J. {Hill}, K.~{Gebhardt}, E.~{Komatsu}, N.~{Drory}, P.~J. {MacQueen},
+  J.~{Adams} et~al., \emph{{The Hobby-Eberly Telescope Dark Energy Experiment
+  (HETDEX): Description and Early Pilot Survey Results}},  in \emph{Panoramic
+  Views of Galaxy Formation and Evolution} (T.~{Kodama}, T.~{Yamada} and
+  K.~{Aoki}, eds.), vol.~399 of \emph{Astronomical Society of the Pacific
+  Conference Series}, p.~115, Oct, 2008,
+  \href{https://arxiv.org/abs/0806.0183}{{\ttfamily 0806.0183}}.
+
 \bibitem{Lewis:2011}
 A.~Lewis, \emph{The real shape of non-gaussianities},
   \href{https://doi.org/10.1088/1475-7516/2011/10/026}{\emph{Journal of
   Cosmology and Astroparticle Physics} {\bfseries 2011} (2011) 026–026}.
-
-\bibitem{Springel:2005nw}
-V.~Springel et~al., \emph{{Simulating the joint evolution of quasars, galaxies
-  and their large-scale distribution}},
-  \href{https://doi.org/10.1038/nature03597}{\emph{Nature} {\bfseries 435}
-  (2005) 629} [\href{https://arxiv.org/abs/astro-ph/0504097}{{\ttfamily
-  astro-ph/0504097}}].
 
 \bibitem{Desjacques:2016bnm}
 V.~Desjacques, D.~Jeong and F.~Schmidt, \emph{{Large-Scale Galaxy Bias}},
