@@ -140,6 +140,8 @@ The power spectrum is a measure of probability-- e.g. in the case of a power spe
 
 \subsection{The three-point function}
 
+\subsubsection{Construction of higher-order correlators}
+
 Higher-order correlation functions are defined as the connected part of the joint ensemble average of the density in an arbitrary number of locations. In principle, it is possible define any order of correlation function like this, but they will rapidly become more computationally complex and expensive. In the case of a purely Gaussian field, the only non-vanishing connected part is the two-point correlation function. This is a direct consequence of Wick's theorem for Gaussian fields, and has a number of important consequences. Firstly it means that a purely Gaussian, statistically homogeneous and isotropic field is fully described by its two-point correlation function or power spectrum, and secondly it means that the statistical properties of any field, which is not necessarily linear, can be written in terms of combinations of two-point correlation functions -- as long as the field is built from a Gaussian field $\delta$. In a generic form, Wick's theorem can be expressed as 
 \begin{align}
 	&\langle \delta(\ka) \ldots \delta(\bm{k}_{2p + 1}) \rangle = 0 \nonumber \\
@@ -150,7 +152,14 @@ More concretely, this means that for a purely Gaussian field, $\langle \delta(\k
 \begin{equation}
 	\langle \delta(\ka) \delta(\kb) \delta(\kc) \rangle = (2 \pi )^3 \delta^\mathrm{D}(\ka + \kb + \kc) \left[ 2 F_2(\ka,\kb) P_\mathrm{L}(\ka) P_\mathrm{L}(\kb) + \text{ 2 c.p.} \right]
 \end{equation}
-where $F_2$ is the Fourier space density evolution kernel, $P_\mathrm{L}$ is the linear power spectrum from the previous discussion, and redshift dependence is suppressed for brevity. 
+where $F_2$ is the Fourier space density evolution kernel, $P_\mathrm{L}$ is the linear power spectrum from the previous discussion, and redshift dependence is suppressed for brevity. More generally, we can write, 
+\begin{equation}
+	\langle \delta(\ka) \delta(\kb) \delta(\kc) \rangle = (2 \pi )^3 \delta^\mathrm{D}(\ka + \kb + \kc) B_g(\ka,\kb,\kc)\,,
+\end{equation}
+where redshift dependence is suppressed once again, and $B_g$ is the galaxy bispectrum, dependent on direction and moduli of the three wavevectors, and roughly proportional to $P(k)^2$ in amplitude.
+
+
+\subsubsection{The Fourier-space bispectrum}
 
 As the bispectrum is a non-Gaussian statistic, and as such is especially sensitive to any forms of non-linearity in the universe. It is an essential probe for e.g. primordial non-Gaussianity, though there are also other sources of non-Gaussianities in the universe. Primordial non-Gaussianity, which is often parametrised by the non-linear parameter $\fnl$, is predicted by different types of inflation and other theories of the early universe; meaning that improvement of constraints on $\fnl$ could help discriminate between these theories and help shed light on the very early universe and the seeds of structure formation. 
 
@@ -165,9 +174,15 @@ Similar to how the power spectrum is a measure of probability of finding pairs o
 	\label{fig:realspacesignature}
 \end{figure}
 
-Most measurements of higher-order correlation functions so far are rather noisy and imprecise, and there is a lack of dedicated analysis tools (e.g. theoretical predictions, estimators, likelihood models) for higher-order statistics compared to the analysis toolkit available for two-point statistics. Previous work 
+\subsubsection{Measurements of the bispectrum}
 
-Bispectrum in observation -- can skip over any CMB and just focus on lss
+Most measurements of higher-order correlation functions so far are rather noisy and imprecise, and there is a lack of dedicated analysis tools (e.g. theoretical predictions, estimators, likelihood models) for higher-order statistics compared to the analysis toolkit available for two-point statistics. Forecasts for constraints using the galaxy bispectrum usually assume that the main cosmological parameters are known exactly, and determine expected uncertainty on the bias and/or non-Gaussianity parameters~\cite{Scoccimarro:2003wn,Sefusatti:2007ih,Song:2015gca,Tellarini:2016sgp,Yamauchi:2016wuc,Karagiannis:2018jdt}, which recently got extended to theories of modified gravity~\cite{Yamauchi:2017ibz}. Fisher forecasts using joint galaxy clustering data and CMB data are presented in~\cite{Sefusatti:2006pa}, Other related work has focussed on developing optimal compression algorithms for three-point statistics~\cite{Byun:2017fkz,Gualdi:2018pyw}, and on detecting PNG due to massive spinning particles during the inflationary era~\cite{MoradinezhadDizgah:2018ssw}. Forecasts combining measurements of the galaxy power spectrum and bispectrum to constrain the standard cosmological parameters was done in~\cite{Yankelevich:2018uaz}, which uses the standard Newtonian contributions to the galaxy bispectrum only for signal-to-noise ratio calculations as well as Fisher forecasts. 
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=0.7\textwidth]{fig/ypsnr.png}
+	\caption{Signal-to-noise ratio for measurements of the galaxy power spectrum and bispectrum in a Euclid-like galaxy survey as a function of redshift $z$, as computed by~\cite{Yankelevich:2018uaz}. Displayed are the SNR for the power spectrum (dot-dashed), bispectrum (dashed). Solid line is the combined SNR, and the SNR computed by neglecting the cross-covariance between the power spectrum and bispectrum is denoted by a dotted line.}
+\end{figure}
 
 \section{Galaxy bias}
 \label{section:galaxybias}
@@ -177,6 +192,11 @@ Galaxy bias is the statistical relation between the observed distribution of gal
 All sorts of galaxy surveys and the resulting statistical studies of the distribution of galaxies ciritally rely on a robust description of the relation between the galaxies and the underlying dark matter. Of course galaxies are not the only tracers of this dark matter distribution, but the term galaxy bias is often used as a convenient term to encompass the biasing of all such tracers. Other examples include, but are not limited to, the Lyman-$\alpha$ forest, and HI intensity mapping-- the latter of which is considered in this thesis along with the more traditional spectroscopic galaxy surveys. 
 
 Rougly speaking, LSS can be divided into two regimes, small non-linear scales, which cannot be described with perturbation theory, and large quasi-linear scales, which can adequately be described by perturbation theory, provided if it is carried out to sufficiently high order. Here we will consider only quasi-linear scales, so that perturbation theory will not break down. On these scales, the complex process of galaxy formation, which is itself far from being understood in detail, can at each order in perturbations and at fixed time, be absorbed into a finite set of parameters called the bias parameters. This is a remarkable result, and relies on the fact that on large scales the formation of structure is entirely determined by gravity. 
+
+\subsection{Local-in-mass-density model of galaxy bias}
+
+The general form of the LIMD model of galaxy bias is 
+
 
 \section{Non-Gaussianity}
 
