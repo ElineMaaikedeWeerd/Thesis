@@ -15,13 +15,13 @@ relativistic Doppler-type part $\delta_{g\mathrm{D}}$ scales as ${\i}\,(\cH/k) \
 
 
 In the case of the galaxy {auto}-power spectrum, $P_g\sim \langle |\delta_g|^2\rangle$, the relativistic part is {real and scales as} $(\cH/k)^2P$\,:  therefore we can neglect $P_{g\mathrm{D}}$ at leading order. By contrast, for the galaxy bispectrum, $B_g\sim \langle \delta_g\,\delta_g \, \delta^{(2)}_g\rangle$, a coupling of relativistic contributions to short-scale Newtonian terms (which  is absent in $P_g$) produces a $B_{g\mathrm{D}}$ that is {imaginary and scales as} ${\i}\,(\cH/k)P^2$. 
-We therefore expect these relativistic effects to be more accessible in the bispectrum than in the power spectrum, for the case of a single tracer {of the matter distribution}. \todo{leave some points about relativistic effects detect. in P vs B}
+We therefore expect these relativistic effects to be more accessible in the bispectrum than in the power spectrum, for the case of a single tracer {of the matter distribution}.
 
 Although the galaxy bispectrum is statistically isotropic, the plane-parallel approximation in redshift space breaks 3-dimensional isotropy, since a preferred direction is imposed by the observer's fixed line of sight. 
 
 Let us introduce a more explicit analysis, as follows.
 
-At tree-level, the Fourier galaxy bispectrum at  a redshift $z$ is given by
+At tree-level, the Fourier galaxy bispectrum at a redshift $z$ is given by
 \begin{equation}
 {\big\langle \delta_g(z,\bm{k}_{1})\delta_g(z,\bm{k}_{2})\delta^{(2)}_g(z,\bm{k}_{3}) \big\rangle + \text{2 cp}=2 (2\pi)^3 B_{g}(z, \bm{k}_{1}, \bm{k}_{2}, \bm{k}_{3}) \delta^{\mathrm{Dirac}}\big(\bm{k}_{1}+ \bm{k}_{2}+ \bm{k}_{3} \big)\,,}
 \end{equation}
@@ -50,7 +50,7 @@ In the standard Newtonian approximation, $B_g=B_{g{\mathrm{N}}}$, the kernels in
 {\mathcal{K}^{(2)}_{\mathrm{N}}}(\bm{k}_{1}, \bm{k}_{2},{\bm{k}_3}) &= b_{1}F_{2}(\bm{k}_{1}, \bm{k}_{2}) + b_{2} + f\mu_{3}^{2}G_{2}(\bm{k}_{1}, \bm{k}_{2}) +{fZ_2}(\bm{k}_{1}, \bm{k}_{2})
 + b_{s^{2}}S_{2}(\bm{k}_{1}, \bm{k}_{2}) , \label{k2n}
 \end{align}
-where we dropped the $z$-dependence for brevity. Here $f$ is the linear matter growth rate, $b_1,b_2$ are the linear and second-order clustering biases, and $b_{s^{2}}$ is the tidal bias. The kernel  $F_2$ is for second-order density, $G_2 , \mathcal{Z}_2$ are for RSD,  and $S_2$  is the kernel for tidal bias \todo{expressions}.
+where we dropped the $z$-dependence for brevity. Here $f$ is the linear matter growth rate, $b_1,b_2$ are the linear and second-order clustering biases, and $b_{s^{2}}$ is the tidal bias. The kernel  $F_2$ is for second-order density, $G_2 , \mathcal{Z}_2$ are for RSD,  and $S_2$  is the kernel for tidal bias.
 
 
 The Doppler-type relativistic corrections to the Newtonian number count contrast in redshift space are  given {at first order by~\cite{Bonvin:2011bg}:}
@@ -94,7 +94,7 @@ It is clear from \eqref{e21}--\eqref{e24} and from the general expressions given
 {{\mathrm{Re}}\, B_g =B_{g\mathrm{N}} + \mathcal{O}(\cH^2/k^2)\,,~~ {\i}\, {\mathrm{Im}}\, B_g = B_{g\mathrm{D}}+ \mathcal{O}(\cH^3/k^3)}\,. \label{bgnd}
 \end{equation}
 
-The  coefficients in \eqref{e23} and \eqref{e24} are  \cite{Clarkson:2018dwn}
+The  coefficients in~\eqref{e23} and~\eqref{e24} are~\cite{Clarkson:2018dwn}
 \begin{align}
 A &= b_{e} - 2\mathcal{Q} + \frac{2(\mathcal{Q}-1)}{{r} \cH}
  - \frac{\cH'}{\cH^{2}} \label{e25} \,, \\
@@ -139,7 +139,11 @@ where,
 \end{equation}
 and ${P}_{g{\mathrm{N}}}=(b_1+f\mu_a^2)^2P$ is the linear galaxy power spectrum.
 In \eqref{eq:gaussvar}, $s_{B}$ is 6, 2, 1 respectively for equilateral, isosceles and non-isosceles triangles, and $N_{\mu_1},N_\varphi$ are the ranges for $\mu_1,  \varphi $ (which are sometimes reduced from their full values of 2 and $2\pi$ using symmetry arguments).
-The fundamental mode is determined by the comoving survey volume of the redshift bin centred at $z$, i.e. $k_{\mathrm{f}}(z) = {2\pi}{V(z)^{-1/3}}$, where $V(z)=4\pi  f_{\mathrm{sky}}[r(z+\Delta z/2)^3 - r(z-\Delta z/2)^3]$.
+The fundamental mode is determined by the comoving survey volume of the redshift bin centred at $z$, i.e.,
+\begin{equation}\label{eq:kfundamental}
+    k_{\mathrm{f}}(z) = {2\pi}{V(z)^{-1/3}}\,,
+\end{equation}
+where $V(z)=4\pi  f_{\mathrm{sky}}[r(z+\Delta z/2)^3 - r(z-\Delta z/2)^3]$.
 
 For a survey with redshift bin centres ranging from $z_{\mathrm{min}}$ to $z_{\mathrm{max}}$,  the cumulative SNR  is
 \begin{equation} \label{csnr}
@@ -197,9 +201,7 @@ Here $\tilde{P}_{g \mathrm{N}}(a) \equiv \tilde{P}_{g \mathrm{N}}(z,k_a,\mu_a)$ 
 %
 %
 \subsection{Summations over triangles}
-Sum [inline]{discussion of yankelevich and porciani}
-%
-%
+
 The counting of triangles $\ka + \kb + \kc = \bm{0}$ that contribute to the signal-to-noise involves a sum in $k_a$-space and a sum over orientations.
 
 The triangle sides are chosen so that $k_1\geq k_2 \geq k_3$, and must satisfy $k_1-k_2-k_3\leq 0$.
@@ -219,13 +221,7 @@ We follow~\cite{Karagiannis:2018jdt} and choose the ranges $N_{\mu_1}=2, N_{\var
 For a given $\mu_{1}$, a complete rotation in $\varphi$ about $\bm{k}_1$ double counts the  triangle falling onto the fixed $(\bm{n},\bm{k}_1)$-plane at $\varphi=0$ and $\varphi=2\pi$ (see~\ref{fig0}). Similarly, for a given $\varphi$,  the end-points $\theta_1=0$ and $\theta_1=\pi$  correspond to equivalent triangles, with $\bm{k}_a \to - \bm{k}_a$.
 This double-counting can be avoided by imposing suitable upper limits:
 $-1\leq \mu_1 <1$ and $0\leq \varphi < 2\pi$.
-The signal to noise is quite sensitive to the step-lengths $\Delta \mu_{1}, \Delta\varphi$. 
-\todo[inline]{incorporate appendix properly here}
-Figure~\ref{fig4x} shows the effect on the relativistic total SNR of changing the number of orientation bins, $n_{\mu_1}=N_{\mu_1}/\Delta{\mu_1}=2 /\Delta{\mu_1}$  and $n_\varphi=N_\varphi/\Delta\varphi =2\pi/\Delta\varphi$. It is apparent 
-that reducing the number of bins increases the cumulative SNR. The cumulative SNR 
-converges towards a minimum for 
-$n_{\mu_{1}}\,, n_{\varphi} > 40$.
-We choose $n_{\mu_{1}}= n_{\varphi}=50$, which is equivalent to eq.
+The signal to noise is quite sensitive to the step-lengths $\Delta \mu_{1}, \Delta\varphi$. Figure~\ref{fig4x} shows the effect on the relativistic total SNR of changing the number of orientation bins, $n_{\mu_1}=N_{\mu_1}/\Delta{\mu_1}=2 /\Delta{\mu_1}$  and $n_\varphi=N_\varphi/\Delta\varphi =2\pi/\Delta\varphi$. It is apparent that reducing the number of bins increases the cumulative SNR. The cumulative SNR converges towards a minimum for $n_{\mu_{1}}\,, n_{\varphi} > 40$.
 \begin{figure}[ht]
 \centering
 \includegraphics[width=8.0cm]{fig/colournmu1nphi_Doppler-eps-converted-to} 
@@ -236,9 +232,9 @@ We choose $n_{\mu_{1}}= n_{\varphi}=50$, which is equivalent to eq.
 %
 Following this, we find that a suitable choice for convergence is
 \begin{equation}\label{ori}
-\Delta \mu_{1}=0.04\,,~~ \Delta\varphi= \pi/25 \,.
+\Delta \mu_{1}=0.04\,,~~ \Delta\varphi= \pi/25 \,,
 \end{equation}
-
+or $n_{\mu_{1}}= n_{\varphi}=50$.
 
 \section{Next-generation galaxy surveys}
 %
@@ -261,7 +257,7 @@ n_{g}(z) &= 0.0193\, z^{-0.0282}\exp\big({-2.81\,z}\big) ~h^{3}\,\mathrm{Mpc}^{-
  \label{e11_2}\\
 \sigma(z)& = \big(5.29 - 0.249\,z - 0.720\,z^{2} + 0.187\,z^{3}\big)~h^{-1}\,\mathrm{Mpc}\,. \label{e14a}
 \end{align}
-Figure~\ref{fig1} shows the values given in~\cite{Yankelevich:2018uaz} together with the fitting curves. For the cosmological parameters, we use Planck 2018~\cite{Aghanim:2018eyx},\todo[inline]{add the actual bias parans}
+Figure~\ref{fig1} shows the values given in~\cite{Yankelevich:2018uaz} together with the fitting curves. For the cosmological parameters, we use Planck 2018~\cite{Aghanim:2018eyx},
 $h = 0.6766, \Omega_{m0} = 0.3111,
 \Omega_{b0}h^{2}= 0.02242,
 \Omega_{c0} h^{2} = 0.11933,
@@ -269,12 +265,10 @@ n_s = 0.9665,
 \sigma_8 = 0.8102, \gamma=0.545,
 \Omega_{K0} = 0= \Omega_{\nu 0}$.
 
-We checked that the SNR for the Newtonian bispectrum is consistent with Fig.~4\todo[inline]{add actual figure reference}of~\cite{Yankelevich:2018uaz},\todo[inline]{YandP discussion} when we use their redshift-independent $k_{\mathrm{max}} = 0.15h\;\mathrm{Mpc}^{-1}$, and when we remove the flattened triangle shapes that are excluded by~\cite{Yankelevich:2018uaz}. When we include the flattened shapes, we checked that we recover the total number of triangles given in Table~1\todo[inline]{add actual table ref} of~\cite{Oddo:2019run}.
+We checked that the SNR for the Newtonian bispectrum is consistent with Fig.~4 of~\cite{Yankelevich:2018uaz}, when we use their redshift-independent $k_{\mathrm{max}} = 0.15h\;\mathrm{Mpc}^{-1}$, and when we remove the flattened triangle shapes that are excluded by~\cite{Yankelevich:2018uaz}. When we include the flattened shapes, we checked that we recover the total number of triangles given in Table~1 of~\cite{Oddo:2019run}.
 %
 %
 \subsection{Evolution bias and magnification bias}
-be, Q \todo[inline]{chat about the new correction to the evolution bias, new paper}
-\todo[inline]{rerun figures with the other euclid bias model}
 
 The relativistic bispectrum depends  also on $b_e$  and ${\cal Q}$, as shown in \eqref{e24}--\eqref{e27}.
 These parameters do {\em not} appear in the Newtonian approximation, but they are crucial for the relativistic correction, and we need to evaluate them in a physically consistent way. We compute these parameters from the same luminosity function that is  used to generate the number density shown in Fig. \ref{fig1}, i.e., Model~1 in \cite{Pozzetti:2016cch}:
@@ -446,7 +440,7 @@ terms:
 &
 + \frac{2}{\cH^2}\big[(\bm{v}\cdot\bm{n}) \,\partial_r^2\Phi-\Phi\, \partial_r^2 (\bm{v}\cdot\bm{n}) \big]
  - \frac{2}{\cH}\,\partial_r (\bm{v}\cdot\bm{v}) + 2 \frac{b_1}{\cH}\,\Phi\, \partial_r\delta \,. 
-\end{align} In addition they do not use self-consistent models for $b_{e}$ and $\mathcal{Q}$. These two differences could account for their conclusion that the relativistic signal is not detectable, in contrast to our result. \todo{tidy this, or move to dipole?}
+\end{align} In addition they do not use self-consistent models for $b_{e}$ and $\mathcal{Q}$. These two differences could account for their conclusion that the relativistic signal is not detectable, in contrast to our result. 
 
 
 An interesting feature of the relativistic signal is that there is a significant contribution to the SNR from  flattened triangle shapes. This is consistent with the results of  \cite{Clarkson:2018dwn} for the dipole that is generated by the imaginary part of the bispectrum.
@@ -583,7 +577,7 @@ We omit sub-leading relativistic corrections that scale as $(\cH/k)^2\delta_m$.
 &+\frac{2}{\cH^2}\left[(\v\cdot\n) \,\partial_r^2\Phi-\Phi\, \partial_r^2 (\v\cdot\n) \right]
  -\frac{2}{\cH}\,\partial_r (\v\cdot\v)+2 \frac{{b_{1}}}{\cH}\,\Phi\, \partial_r\delta_m \,.
 \end{align}
-In~\eqref{d2n}, $b_{s^2}s^2$ is the tidal bias contribution and RSD$^{\tw}$ is the standard second-order RSD contribution (see \cite{Maartens:2019yhx} for details). The bias parameters are computed via a halo model (see  Appendix \todo{reference appendix}) and are shown in Figure \ref{fig:detectfigbiasparam}, together with the evolution bias.
+In~\eqref{d2n}, $b_{s^2}s^2$ is the tidal bias contribution and RSD$^{\tw}$ is the standard second-order RSD contribution (see \cite{Maartens:2019yhx} for details). The bias parameters are computed via a halo model and are shown in Figure \ref{fig:detectfigbiasparam}, together with the evolution bias.
 In~\eqref{e1.2}, we see the Doppler terms and the line-of-sight gradients that make up the dominant relativistic contribution.
  $\Phi$ is the gravitational potential and $\Omega_m =\Omega_{m 0}(1+z)H_0^2/\cH^2$. We  neglect sub-dominant relativistic effects in $\Delta^{\tw}$ that scale as  $(\cH/k)^2(\delta_m)^2$. 
 %
@@ -660,7 +654,6 @@ Equation~\eqref{e1.15} makes explicit the coupling of relativistic  and Newtonia
 \end{itemize}
 
 \subsubsection{HI bias parameters} 
-\todo[inline]{check where to put this}
 We follow~\cite{Umeh:2015gza} to compute $b_1$ and $b_2$ from a halo-model approach,
 \begin{align}
 b_1 &= 1 + \left\langle \frac{2 p +\left(q\nu - 1\right)\left[1+(q\nu)^{p}\right]}{\delta_\mathrm{cr}\left[1+(q\nu)^{p}\right]} \right\rangle _\mathrm{\!\!\! m}  \!\!, \label{e1.16} \\
@@ -755,7 +748,7 @@ In our computations, we do not use this cut-off since it is effectively imposed 
 \caption{Schematic of important scales in the $k_\|,k_\perp$-plane at fixed $z$. Shading indicates the included region for SD mode (light) and IF mode (dark).}\label{kplane}
 \end{figure}
 
-In principle, the maximum wavelength probed by HI intensity surveys at redshift $z$ is $2\pi/k_\mathrm{f}(z)$, where the fundamental mode $k_\mathrm{f}$ is determined by the comoving volume of the redshift bin, via equation\todo{insert right equation reference}. 
+In principle, the maximum wavelength probed by HI intensity surveys at redshift $z$ is $2\pi/k_\mathrm{f}(z)$, where the fundamental mode $k_\mathrm{f}$ is determined by the comoving volume of the redshift bin, via equation~\ref{eq:kfundamental}. 
 However, foreground cleaning imposes on both SD- and IF-mode surveys the  limiting minimum radial wavenumber $k_{\|\mathrm{fg}}$, given by~\eqref{kfgpar}. Since $k^2=k_\|^2+k_\perp^2$, this means that  
 \begin{equation} \label{eq:kmin}
 k>k_{\|\mathrm{fg}} \quad \mbox{which implies}\quad k >  k_\mathrm{min}= \mathrm{max}\,\left\{ k_\mathrm{f}(z), k_{\|\mathrm{fg}} \right\}\,.
@@ -769,7 +762,7 @@ Since $k>k_\perp$, we have
 k > k_\mathrm{min} = \mathrm{max}\,\left\{ k_{\perp \mathrm{min}}^\mathrm{IF}(z), k_\mathrm{f}(z), k_{\|\mathrm{fg}} \right\} \quad \mbox{for IF surveys}.
 \end{equation}
 The scales from foreground cleaning and the maximum and minimum scales are shown schematically in Figure \ref{kplane}. This does not include the effects of the beam in SD mode; 
-see Figure \todo[inline]{reference Pnoise figure} below. \todo[inline]{check the kmin labels, renamed one}
+see Figure~\ref{pnoise}.
 %
 %
 \subsection{Instrumental noise}\label{ssec:inoise}
@@ -819,12 +812,11 @@ SKA1-MID.
 IF\ mode: HIRAX,
 PUMA (Petite). 
 \end{itemize}
-The survey specifications are given in Table~\ref{tab:hisurveyspecs}, based on~\cite{Santos:2017qgq, Bacon:2018dui, Slosar:2019jwd,Karagiannis:2019jjx,Castorina:2020zhz}. Limiting wavenumbers for large wavelengths are shown for these surveys in Figure~\ref{figmin}: the fundamental wavenumber\todo{reference kf equation}, the minimum radial wavenumber~\eqref{kfgpar} from foreground cleaning and the IF-mode minimum wavenumber~\eqref{kifmin}.
-\todo[inline]{ref appendix in caption below}
+The survey specifications are given in Table~\ref{tab:hisurveyspecs}, based on~\cite{Santos:2017qgq, Bacon:2018dui, Slosar:2019jwd,Karagiannis:2019jjx,Castorina:2020zhz}. Limiting wavenumbers for large wavelengths are shown for these surveys in Figure~\ref{figmin}: the fundamental wavenumber~\ref{eq:kfundamental}, the minimum radial wavenumber~\eqref{kfgpar} from foreground cleaning and the IF-mode minimum wavenumber~\eqref{kifmin}.
 \begin{table}[ht]
 \centering
 \caption{\label{tab:hisurveyspecs} HI intensity mapping survey specifications. 
-(For *, see Appendix stuff.)} 
+(For *, see Table~\ref{tab:skasystemp}.)} 
 \vspace*{0.2cm}
 \begin{tabular}{|lccccccc|} \hline
 Survey & Redshift range & $f_\mathrm{sky}$ & $t_{\mathrm{tot}}$  & $T_{\mathrm{d}}$ & $D_\mathrm{d}$ & $N_\mathrm{d}$ & $D_\mathrm{max}$ \\

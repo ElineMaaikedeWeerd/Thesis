@@ -352,6 +352,17 @@ G.~J. {Hill}, K.~{Gebhardt}, E.~{Komatsu}, N.~{Drory}, P.~J. {MacQueen},
   Conference Series}, p.~115, Oct, 2008,
   \href{https://arxiv.org/abs/0806.0183}{{\ttfamily 0806.0183}}.
 
+\bibitem{Lesgourgues:2011}
+J.~Lesgourgues, \emph{The cosmic linear anisotropy solving system (class) i:
+  Overview},  2011.
+
+\bibitem{Lewis:1999bs}
+A.~Lewis, A.~Challinor and A.~Lasenby, \emph{{Efficient computation of CMB
+  anisotropies in closed FRW models}},
+  \href{https://doi.org/10.1086/309179}{\emph{Astrophys. J.} {\bfseries 538}
+  (2000) 473} [\href{https://arxiv.org/abs/astro-ph/9911177}{{\ttfamily
+  astro-ph/9911177}}].
+
 \bibitem{Lewis:2011}
 A.~Lewis, \emph{The real shape of non-gaussianities},
   \href{https://doi.org/10.1088/1475-7516/2011/10/026}{\emph{Journal of
@@ -449,19 +460,53 @@ V.~Desjacques, D.~Jeong and F.~Schmidt, \emph{{Large-Scale Galaxy Bias}},
   {\bfseries 733} (2018) 1} [\href{https://arxiv.org/abs/1611.09787}{{\ttfamily
   1611.09787}}].
 
-\bibitem{McDonald:2009dh}
-P.~McDonald, \emph{{Gravitational redshift and other redshift-space distortions
-  of the imaginary part of the power spectrum}},
-  \href{https://doi.org/10.1088/1475-7516/2009/11/026}{\emph{JCAP} {\bfseries
-  11} (2009) 026} [\href{https://arxiv.org/abs/0907.5220}{{\ttfamily
-  0907.5220}}].
-
 \bibitem{Challinor:2011bk}
 A.~Challinor and A.~Lewis, \emph{{The linear power spectrum of observed source
   number counts}},
   \href{https://doi.org/10.1103/PhysRevD.84.043516}{\emph{Phys. Rev. D}
   {\bfseries 84} (2011) 043516}
   [\href{https://arxiv.org/abs/1105.5292}{{\ttfamily 1105.5292}}].
+
+\bibitem{Bruni:2011ta}
+M.~Bruni, R.~Crittenden, K.~Koyama, R.~Maartens, C.~Pitrou and D.~Wands,
+  \emph{{Disentangling non-Gaussianity, bias and GR effects in the galaxy
+  distribution}}, \href{https://doi.org/10.1103/PhysRevD.85.041301}{\emph{Phys.
+  Rev. D} {\bfseries 85} (2012) 041301}
+  [\href{https://arxiv.org/abs/1106.3999}{{\ttfamily 1106.3999}}].
+
+\bibitem{Jeong:2011as}
+D.~Jeong, F.~Schmidt and C.~M. Hirata, \emph{Large-scale clustering of galaxies
+  in general relativity},
+  \href{https://doi.org/10.1103/physrevd.85.023504}{\emph{Physical Review D}
+  {\bfseries 85} (2012) }.
+
+\bibitem{Villa:2015ppa}
+E.~Villa and C.~Rampf, \emph{Relativistic perturbations in $\lambda$cdm:
+  Eulerian \& lagrangian approaches},
+  \href{https://doi.org/10.1088/1475-7516/2018/05/E01,
+  10.1088/1475-7516/2016/01/030}{\emph{JCAP} {\bfseries 1601} (2016) 030}
+  [\href{https://arxiv.org/abs/1505.04782}{{\ttfamily 1505.04782}}].
+
+\bibitem{Bertacca:2015mca}
+D.~Bertacca, N.~Bartolo, M.~Bruni, K.~Koyama, R.~Maartens, S.~Matarrese et~al.,
+  \emph{{Galaxy bias and gauges at second order in General Relativity}},
+  \href{https://doi.org/10.1088/0264-9381/32/17/175019}{\emph{Class. Quant.
+  Grav.} {\bfseries 32} (2015) 175019}
+  [\href{https://arxiv.org/abs/1501.03163}{{\ttfamily 1501.03163}}].
+
+\bibitem{Jolicoeur:2017nyt}
+S.~Jolicoeur, O.~Umeh, R.~Maartens and C.~Clarkson, \emph{{Imprints of local
+  lightcone \textbackslash{} projection effects on the galaxy bispectrum. Part
+  II}}, \href{https://doi.org/10.1088/1475-7516/2017/09/040}{\emph{JCAP}
+  {\bfseries 09} (2017) 040}
+  [\href{https://arxiv.org/abs/1703.09630}{{\ttfamily 1703.09630}}].
+
+\bibitem{McDonald:2009dh}
+P.~McDonald, \emph{{Gravitational redshift and other redshift-space distortions
+  of the imaginary part of the power spectrum}},
+  \href{https://doi.org/10.1088/1475-7516/2009/11/026}{\emph{JCAP} {\bfseries
+  11} (2009) 026} [\href{https://arxiv.org/abs/0907.5220}{{\ttfamily
+  0907.5220}}].
 
 \bibitem{Raccanelli:2016avd}
 A.~Raccanelli, D.~Bertacca, D.~Jeong, M.~C. Neyrinck and A.~S. Szalay,
@@ -538,13 +583,6 @@ E.~Di~Dio, R.~Durrer, G.~Marozzi and F.~Montanari, \emph{{Galaxy number counts
   12} (2014) 017} [\href{https://arxiv.org/abs/1407.0376}{{\ttfamily
   1407.0376}}].
 
-\bibitem{Jolicoeur:2017nyt}
-S.~Jolicoeur, O.~Umeh, R.~Maartens and C.~Clarkson, \emph{{Imprints of local
-  lightcone \textbackslash{} projection effects on the galaxy bispectrum. Part
-  II}}, \href{https://doi.org/10.1088/1475-7516/2017/09/040}{\emph{JCAP}
-  {\bfseries 09} (2017) 040}
-  [\href{https://arxiv.org/abs/1703.09630}{{\ttfamily 1703.09630}}].
-
 \bibitem{DiDio:2018unb}
 E.~Di~Dio, R.~Durrer, R.~Maartens, F.~Montanari and O.~Umeh, \emph{{The
   Full-Sky Angular Bispectrum in Redshift Space}},
@@ -565,13 +603,6 @@ L.~Verde, A.~F. Heavens, S.~Matarrese and L.~Moscardini, \emph{Large-scale bias
   in the universe - ii. redshift-space bispectrum},
   \href{https://doi.org/10.1046/j.1365-8711.1998.01937.x}{\emph{Monthly Notices
   of the Royal Astronomical Society} {\bfseries 300} (1998) 747–756}.
-
-\bibitem{Villa:2015ppa}
-E.~Villa and C.~Rampf, \emph{Relativistic perturbations in $\lambda$cdm:
-  Eulerian \& lagrangian approaches},
-  \href{https://doi.org/10.1088/1475-7516/2018/05/E01,
-  10.1088/1475-7516/2016/01/030}{\emph{JCAP} {\bfseries 1601} (2016) 030}
-  [\href{https://arxiv.org/abs/1505.04782}{{\ttfamily 1505.04782}}].
 
 \bibitem{Jolicoeur:2017eyi}
 S.~Jolicoeur, O.~Umeh, R.~Maartens and C.~Clarkson, \emph{{Imprints of local
@@ -618,13 +649,6 @@ S.~Camera, J.~Fonseca, R.~Maartens and M.~G. Santos, \emph{{Optimized angular
   Soc.} {\bfseries 481} (2018) 1251}
   [\href{https://arxiv.org/abs/1803.10773}{{\ttfamily 1803.10773}}].
 
-\bibitem{Lewis:1999bs}
-A.~Lewis, A.~Challinor and A.~Lasenby, \emph{{Efficient computation of CMB
-  anisotropies in closed FRW models}},
-  \href{https://doi.org/10.1086/309179}{\emph{Astrophys. J.} {\bfseries 538}
-  (2000) 473} [\href{https://arxiv.org/abs/astro-ph/9911177}{{\ttfamily
-  astro-ph/9911177}}].
-
 \bibitem{Clarkson:2018dwn}
 C.~Clarkson, E.~M. de~Weerd, S.~Jolicoeur, R.~Maartens and O.~Umeh, \emph{{The
   dipole of the galaxy bispectrum}},
@@ -637,12 +661,6 @@ D.~Jeong and F.~Schmidt, \emph{{Parity-odd galaxy bispectrum}},
   \href{https://doi.org/10.1103/PhysRevD.102.023530}{\emph{Phys. Rev. D}
   {\bfseries 102} (2020) 023530}
   [\href{https://arxiv.org/abs/1906.05198}{{\ttfamily 1906.05198}}].
-
-\bibitem{Jeong:2011as}
-D.~Jeong, F.~Schmidt and C.~M. Hirata, \emph{Large-scale clustering of galaxies
-  in general relativity},
-  \href{https://doi.org/10.1103/physrevd.85.023504}{\emph{Physical Review D}
-  {\bfseries 85} (2012) }.
 
 \bibitem{Bernardeau:2001qr}
 F.~Bernardeau, S.~Colombi, E.~Gaztañaga and R.~Scoccimarro, \emph{Large-scale
@@ -1136,19 +1154,10 @@ S.~Matarrese, S.~Mollerach and M.~Bruni, \emph{{Second order perturbations of
   [\href{https://arxiv.org/abs/astro-ph/9707278}{{\ttfamily
   astro-ph/9707278}}].
 
-\bibitem{Bruni:2011ta}
-M.~Bruni, R.~Crittenden, K.~Koyama, R.~Maartens, C.~Pitrou and D.~Wands,
-  \emph{{Disentangling non-Gaussianity, bias and GR effects in the galaxy
-  distribution}}, \href{https://doi.org/10.1103/PhysRevD.85.041301}{\emph{Phys.
-  Rev. D} {\bfseries 85} (2012) 041301}
-  [\href{https://arxiv.org/abs/1106.3999}{{\ttfamily 1106.3999}}].
-
-\bibitem{Bertacca:2015mca}
-D.~Bertacca, N.~Bartolo, M.~Bruni, K.~Koyama, R.~Maartens, S.~Matarrese et~al.,
-  \emph{{Galaxy bias and gauges at second order in General Relativity}},
-  \href{https://doi.org/10.1088/0264-9381/32/17/175019}{\emph{Class. Quant.
-  Grav.} {\bfseries 32} (2015) 175019}
-  [\href{https://arxiv.org/abs/1501.03163}{{\ttfamily 1501.03163}}].
+\bibitem{Fuentes:2020qby}
+J.~L. Fuentes, J.~C. Hidalgo and K.~A. Malik, \emph{{Galaxy number counts at
+  second order in perturbation theory: a leading-order term comparison}},
+  \href{https://arxiv.org/abs/2012.15326}{{\ttfamily 2012.15326}}.
 
 \bibitem{Verde:1999ij}
 L.~Verde, L.-M. Wang, A.~Heavens and M.~Kamionkowski, \emph{{Large scale

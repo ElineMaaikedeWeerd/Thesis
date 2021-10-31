@@ -10,12 +10,7 @@
 
 Galaxy number count fluctuations are distorted due to the fact that we observe on the past lightcone. A well-known effect is the Kaiser redshift-space distortion (RSD) effect~\citep{Verde:1998zr,Scoccimarro:1999ed}. Further distortions are due to lensing convergence, as well as due to Doppler, Sachs-Wolfe, Integrated Sachs-Wolfe (ISW), and time delay effects; all of which are suppressed on sub-equality scales. There are also couplings between these effects when one goes up to non-linear order. 
 
-The observed galaxy power spectrum at tree level involves only the projection effects at first order. However, the bispectrum, even at tree level, involves both first- and second-order relativistic projection effects. 
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-introduction to the full theory : sheeans papers
+The observed galaxy power spectrum at tree level involves only the projection effects at first order. However, the bispectrum, even at tree level, involves both first- and second-order relativistic projection effects. These have all been introduced in Chapter~\ref{chapter:ho}
 
 Above the equality scale the galaxy bispectrum will be  a key probe for measuring primordial non-Gaussianity which can help differentiate between different inflationary models and other theories of the early universe. On these scales a variety of relativistic effects come into play once the galaxy number-count fluctuation is projected onto our past lightcone. By decomposing the Fourier-space bispectrum into invariant multipoles about the observer's line of sight we examine in detail how the relativistic effects contribute to these. We show how to perform this decomposition analytically, which is significantly faster for subsequent computations.  While all multipoles receive a contribution from the relativistic part, odd multipoles arising from the imaginary part of the bispectrum have no Newtonian contribution, making the odd multipoles a smoking gun for a relativistic signature in the bispectrum for single tracers.  The dipole and the octopole are significant on equality scales and above where the Newtonian approximation breaks down. This breakdown is further signified by the fact that the even multipoles receive a significant correction on very large scales.
 
@@ -31,8 +26,7 @@ This has been done for the Newtonian bispectrum, which generates non-zero multip
 \(\ell\) (up to \(\ell = 8\)) due to redshift-space distortions~\cite{Scoccimarro:1999ed,Nan:2017oaq}. Contrary to the Newtonian bispectrum, the relativistic galaxy bispectrum generates non-zero multipoles for both even and odd \(\ell\) up to \(\ell = 8\) and \(m = 6\) where the odd multipoles are induced by the general relativistic effects only. This means that these multipoles are a crucial signature of relativistic projection effects. We provide, for the first time, a multipole decomposition of the Fourier space galaxy bispectrum with relativistic effects included. Additionally we show that the coefficients of this expansion can be worked out analytically. We provide an exact analytic formula for this multipole expansion of the galaxy bispectrum. Previously, we examined for the first time the dipole of the galaxy bispectrum in detail, showing that its amplitude can be more than 10\% of that of the monopole even at equality scales~\cite{Clarkson:2018dwn}. 
 In order to eliminate possible biases when analysing large scale structure data, it is important to include the relativistic effects. In addition to this, a variety of the effects that appear in the bispectrum are relativistic effects that have not been measured elsewhere and hence are interesting to study. By analysing the non-zero multipoles of the galaxy bispectrum both for a Euclid-like galaxy survey, and for an SKA-like HI intensity mapping survey, we show the behaviour of the higher multipoles and their corrections to the Newtonian bispectrum. In follow-up work, we are investigating possibilities of detecting the higher multipoles of the bispectrum. See for example~\cite{Maartens:2019yhx} for detection prospects of the leading order relativistic effects; the dipole is expected to have the strongest GR signature. 
 
-The paper is organised as follows. We introduce the relativistic Fourier space bispectrum in section~\ref{sec:relbisp}, and present the multipole expansion of the relativistic bispectrum in section~\ref{sec:extrmulti}. An analysis of the multipoles can be found in section~\ref{sec:anal}. Finally, we summarise our conclusions in section~\ref{sec:concl}.
-
+The chapter is organised as follows. We introduce the relativistic Fourier space bispectrum in section~\ref{sec:relbisp}, and present the multipole expansion of the relativistic bispectrum in section~\ref{sec:extrmulti}. An analysis of the multipoles can be found in section~\ref{sec:anal}. Finally, we summarise our conclusions in section~\ref{sec:concl}.
 
 In Fourier space, the observed galaxy bispectrum \(B_g\) at a fixed redshift \(z\) is given by~\cite{Jolicoeur:2017nyt,Jolicoeur:2017eyi}
 \begin{equation}
@@ -240,8 +234,7 @@ where
 \begin{equation} X_{\ell m}^{ab} = \int_0^{2\pi} \diff\varphi\, \int_{-1}^1 \diff\mu_1\, (\i \mu_1)^a (\i \mu_2)^b \,Y_{\ell m}^*(\mu_1,\varphi)\,.
 \end{equation}
 
-The derivation is as follows \todo{work on deriv here}
-Here we present a detailed derivation of the analytic result of the integration of
+The derivation is as follows. Our aim is analytic integration of, 
 \begin{equation} \label{eq:xabint}
 X_{\ell m}^{ab} = \int_0^{2\pi} \diff\varphi\, \int_{-1}^1 \diff\mu_1\, (\i \mu_1)^a (\i \mu_2)^b \,Y_{\ell m}^*(\mu_1,\varphi)\,.
 \end{equation}
@@ -339,11 +332,7 @@ The Kronecker $\delta$ picks out the term in the sum which satisfies $g - m -2n 
 \end{equation}
 where $n$ must be a positive integer (or zero), so $g \geq m$ and $g -m$ even.
 
-Putting together blah blah \todo[inline]{fix this derivation garbage and double check} leads to identity, done 
-%
-%
-%
-To do this we use the identity for $m \geq 0$,
+Putting together all these results leads to the identity for $m \geq 0$,
 \begin{align}\label{eq:sumformula} X_{\ell m}^{ab} &= 2^{\ell+m-1}\i^{a+b+m}\sqrt{\frac{\pi(2\ell+1)(\ell-m)!}{(\ell+m)!}}\nonumber\\
 &\times
 \sum_{p=m}^{\frac{1}{2}(b+m)}\sum_{q=m}^{\ell}
@@ -553,8 +542,7 @@ The remaining matrices are of the form
 \\  \circ &\circ &\circ &\circ &\circ &
 \circ \end {array} \right).
 \end{align}
-Their coefficients are extracted in similar fashion, and can be found in full in appendix  \todo{either ref appendix, or put coeffs here}REF APPENDIX Kab COEFF%~\ref{sec:kabappendix}. 
-
+Their coefficients are extracted in similar fashion, and can be found in full in appendix~\ref{app_kernelpres}.
 
 
 \section{Analysis of the multipoles}\label{sec:anal}

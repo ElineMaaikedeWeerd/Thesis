@@ -9,15 +9,14 @@ Previously, the GR effects on the angular bispectrum of galaxies arising from le
 
 
 \section{Local lightcone projection effects}\label{sec:localproj}
-\todo[inline]{first three papers}
 
 The observed galaxy bispectrum at tree level involves projection effects at both first and second order. These effects, which arise from observing on our past lightcone, include local contributions from Doppler and gravitational potential terms, integrated contributions such as lensing, and at nonlinear order there are also couplings between almost all of these projection effects. On ultra-large scales, the relativistic contributions mimic the effects of scale-dependent bias and hence they are crucial for a complete theoretical description. 
 
-Since we work in Fourier space, which is common with much of the literature on the galaxy bispectrum, we necessarily neglect terms involving lensing and other line-of-sight integrals, i.e. only local relativistic projection effects are included. Furthermore, another approximation which is a direct consequence of working in Fourier space is the plane-parallel approximation, neglecting wide-angle correlations. These are expected to be significant on what scales?\todo{check}, and need to be included for improved theoretical accuracy. When using an angular harmonic or three-point correlation function analysis, the wide-angle effects would be automatically included, but it poses further computational challenges\todo{cite Bertacca?}. 
+Since we work in Fourier space, which is common with much of the literature on the galaxy bispectrum, we necessarily neglect terms involving lensing and other line-of-sight integrals, i.e. only local relativistic projection effects are included. Furthermore, another approximation which is a direct consequence of working in Fourier space is the plane-parallel approximation, neglecting wide-angle correlations. These and need to be included for improved theoretical accuracy. When using an angular harmonic or three-point correlation function analysis, the wide-angle effects would be automatically included, but it poses further computational challenges~\cite{Bertacca:2017dzm}. 
 
 To be able to compute the observed tree-level bispectrum including local projection effects, we need the observed galaxy number count contrast $\Delta_g^\tw$. The full expression for $\Delta_g^\tw$~\cite{Bertacca:2014dra,Bertacca:2014wga,Bertacca:2014hwa,Yoo:2014sfa,DiDio:2014lka} is very long and complicated, even when integrated contributions are omitted. Conveniently, when neglecting integrated contributions, a fully general form of $\Delta_g^\on$ and $\Delta_g^\tw$ can be expressed in Poisson gauge. All terms at the observer are neglected too, since they do not contribute to the bispectrum. 
 
-Important to note is how the bispectrum is still dependent on the magnification bias, despite omitting integrated effects. This is because GR weak lensing convergence consists of both the standard integrated term and local non-integrated terms~\cite{Bonvin:2008ni}, and hence magnification bias still enters the bispectrum even when integrated terms are ignored. Previous sections have already illustrated the dependence of bispectrum power and detectability on the evolution and magnification biases, highlighting the importance of modelling these self-consistently from the same luminosity function.\todo{check with previous sections what's said exactly} 
+Important to note is how the bispectrum is still dependent on the magnification bias, despite omitting integrated effects. This is because GR weak lensing convergence consists of both the standard integrated term and local non-integrated terms~\cite{Bonvin:2008ni}, and hence magnification bias still enters the bispectrum even when integrated terms are ignored. Previous sections have already illustrated the dependence of bispectrum power and detectability on the evolution and magnification biases, highlighting the importance of modelling these self-consistently from the same luminosity function.
 
 The observed number density contrast $\Delta_g$ is defined through, 
 \begin{equation}
@@ -48,7 +47,6 @@ and the screen-space projected Laplacian is,
 \begin{equation}
 	\nabla^2_\perp = \nabla^2 - \partial_\parallel^2 - \frac{2}{\chi} \partial_\parallel\,.
 \end{equation}
-\todo{define screen space?}
 
 We are free to choose the most convenient gauge for our purpose to compute $\Delta_g$, as it is an observable quantity and hence gauge-independent. Since splitting the observed number density contrast into Newtonian and relativistic parts is convenient in Poisson gauge, it is our gauge of choice. The metric and the peculiar velocity of galaxies (which on the scales of interest is equal to the peculiar velocity of the underlying dark matter distribution) are, 
 \begin{align}
@@ -62,7 +60,7 @@ The comoving-synchronous gauge (C) overdensities of matter and galaxy counts are
 	&\nabla^2 \Phi^\on = \frac{3}{2} \Omega_m \cH^2 \delta_{m\cs}^\on \\
 	&\delta_{m\cs}^{\on'} = - \nabla^2 v^\on\,.
 \end{align}
-These lead to the following relations for the velocity and metric potentials\todo{wtf is it actually called?},
+These lead to the following relations for the velocity and metric potentials,
 \begin{equation}
 	\Phi^\on = \frac{3}{2} \Omega_m \frac{\cH^2}{k^2} \delta_{m\cs}^\on\,,
 \end{equation}
@@ -72,64 +70,6 @@ where $\Phi^\on(a,\k) = \frac{D(a)}{a} \Phi^\on(1,\k)$, and,
 \end{equation}
 where $f = \frac{\diff \ln D}{\diff \ln a}$ and $\delta^\on_{m\cs}(a,\k) = D(a) \delta^\on_{m\cs}(1,\k)$. 
 
-\section{Local model of galaxy bias}
-
-The Poisson-gauge number density contrast at first order, $\delta_g^\on$, is related to the dark matter density contrast $\delta_m^\on$ via the galaxy bias. For now we will use a local model of galaxy bias, and we need ot make sure that the definition of scale-independent bias is gauge-independent, and valid on ultra-large scales. The physical definition of scale-independent galaxy bias is in the matter rest-frame (corresponding to the comoving-synchronous C gauge), which since there is no velocity bias on large scales coincides with the galaxy rest-frame~\cite{Challinor:2011bk,Bruni:2011ta,Jeong:2011as}. It then follows that the correct definition between the galaxy and dark matter number density contrasts at first order is, 
-\begin{equation}\label{eq:deltagbiasdef}
-	\delta_{g\cs}^\on (a, \x) = b_1(a) \delta_{m,\cs}^\on(a,\x)\,.
-\end{equation}
-The Poisson gauge number density contrast $\delta_g^\on$ is related to the C-gauge number density contrast as~\cite{Challinor:2011bk}, 
-\begin{equation}\label{eq:deltagFOPgtoCg}
-	\delta_{g}^\on = \delta_{g\cs}^\on + (3 - b_e)\cH v^\on = b_1 \delta_{m\cs}^\on + (3 - b_e) \cH v^\on\,,
-\end{equation}
-where the velocity potential term ensures that this bias relation is gauge-independent on ultra-large scales. Because of the scale dependence of the velocity potential as given by equation~\eqref{eq:scdepvel}, this term is the relativistic part of the Poisson-gauge number density contrast-- it is suppressed on small scales, and growing on large scales. 
-
-In GR, the Lagrangian frame coincides with the C-gauge~\cite{Villa:2015ppa,Bertacca:2015mca}. There is no unique Eulerian frame, but the total-matter (T) gauge is a convenient choice, because it is related to the C gauge by a purely spatial transformation only such that at first order the galaxy and matter overdensities are the same,~\cite{Bertacca:2015mca}
-\begin{align}\label{eq:deltaFOCgtoTg}
-	&\delta^\on_{m\cs} = \delta^\on_{m\mathrm{T}}\,,\\
-	&\delta^\on_{g\cs} = \delta^\on_{g\mathrm{T}} = b_1 \delta^\on_{m\mathrm{T}}\,.
-\end{align}
-The second line above defines the Eulerian first-order bias parameter, from which follows that $b_1$ in equation~\eqref{eq:deltagbiasdef} is the Eulerian bias parameter.
-
-Since we require second order in perturbation theory in order to compute the galaxy bispectrum at tree level, we have to extend equation~\eqref{eq:deltagbiasdef} to highter order. To do this, we here use the so-called local-in-mass-density bias model~\cite{Desjacques:2016bnm}, which is the simplest possible model of scale-independent bias we can use. This model assumes that the galaxy number density contrast is a local function of only the matter density contrast.\todo{what are the limitations-- link to PNG where we use scale-dependent bias I think?} Again we need to ensure that the bias coefficients are scale-independent in the C-gauge, which is the galaxy rest frame-- this is to ensure validity of the physical definition of scale-independent bias on ultra-large scales. Starting from a simple expansion in powers of the matter density contrast,
-\begin{equation}
-	\delta_{g\cs} = b_1 \delta_{m\cs} + \frac{1}{2} b_2 (\delta_{m\cs})^2 + \ldots\,,
-\end{equation}
-where we suppress the dependence of $b_I \equiv b_I(a,\ln L)$ for brevity-- as done throughout the text. At first order in perturbation theory, the above expression recovers the first-order relation given by equation~\eqref{eq:deltagbiasdef} as expected. At second order we have, 
-\begin{equation}\label{eq:biasCgauge}
-	\delta^\tw_{m\cs} = b_1 \delta^\tw_{m\cs} + b_2 (\delta^\on_{m\cs})^2\,,
-\end{equation}
-where we have omitted the term $- b_2 \langle (\delta^\on_{m\cs})^2 \rangle$ on the right hand side for convenience\todo{why is this allowed}.
-At second order, the C-gauge and T-gauge matter overdensities are related as~\cite{Bertacca:2015mca,Villa:2015ppa}, 
-\begin{equation}
-	\delta_{m\mathrm{T}}^\tw = \delta_{m\cs}^\tw + 2 \left[ \partial_i \delta_{m\cs}^\on \right] \nabla^{-2} \partial^i \delta_{m\cs}^\on\,,
-\end{equation}
-where $-2\nabla^{-2} \partial^i \delta_{m\cs}^\on$ is a gauge generator. The gauge transformation from comoving-synchronous to total-matter gauge is purely spatial, which means that the above relation applies to the galaxy number counts too, 
-\begin{equation}
-	\delta_{g\mathrm{T}}^\tw = \delta_{g\cs}^\tw + 2 \left[ \partial_i \delta_{g\cs}^\on \right] \nabla^{-2} \partial^i \delta_{g\cs}^\on\,.
-\end{equation}
-From the above relations, we can obtain the T-gauge galaxy number count density in terms of T-gauge matter density, 
-\begin{align}
-	&\delta_{g\mathrm{T}}^\tw = b_1 \delta_{m\cs}^\tw + b_2 (\delta_{m\cs}^\on)^2 + 2 b_1 \left[\partial_i \delta_{m\cs}^\on \right] \nabla^{-2} \partial^i \delta_{m\cs}^\on \\
-	& \hphantom{\delta_{g\mathrm{T}}^\tw } = b_1 \left[ \delta_{m\cs}^\tw + 2 (\partial_i \delta_{m\mathrm{T}}^\on) \nabla^{-2} \partial^i \delta_{m\cs}^\on \right] + b_2 (\delta_{m\cs}^\on)^2 \\
-	& \Rightarrow \delta_{g\mathrm{T}}^\tw = b_1 \delta_{m\mathrm{T}}^\tw + b_2 (\delta_{m\mathrm{T}}^\on)^2 \label{eq:biasTgauge} \,.
-\end{align}
-\todo{check the gauges}
-Comparing equations~\eqref{eq:biasCgauge} and~\eqref{eq:biasTgauge}, it is clear that local-in-mass-density and scale-independent bias in C- and T-gauge are equivalent up to second order in perturbation theory and have the same Eulerian bias coefficients. 
-
-The Poisson gauge expression for overdensity can more conveniently be expressed in the T gauge than in the C gauge, and hence we will choose the total-matter gauge to express $\delta_g$. This expression is as follows~\cite{Jolicoeur:2017nyt},
-\begin{align}
-	\delta_g^\tw =& \delta_{g\mathrm{T}}^\tw + (3 - b_e)\cH v^\tw + 2 (3 - b_e) \cH v^\on \delta_{g\mathrm{T}}^\on - 2 v^\on \delta_{g\mathrm{T}}'^\on \nonumber \\
-	&+ \left[ (b_e - 3)\cH' + b_e \cH + (b_e -3)^2 \cH^2  \right] \left[ v^\on \right]^2 + (b_e - 3) \cH v^\on v^{\on\prime} \nonumber \\
-	& - (b_e - 3) \cH \nabla^{-2} \left[ v^\on \nabla^2 v^{\on\prime} - v^{\on\prime} \nabla^2 v^\on - 6 \partial_i \Phi^\on \partial^i v^\on - 6 \Phi^\on \nabla^2 v^\on \right] \,.
-\end{align}
-From this, using relations between the T-gauge galaxy density contrast and matter contrast, we obtain the final expression for the Poisson-gauge galaxy density contrast in the simple local-in-mass-density bias model, 
-\begin{align}
-	\delta_g^\tw =& b_1 \delta_{m\mathrm{T}}^\tw + b_2 (\delta_{m\mathrm{T}}^\on )^2 + \left[ (b_e - 3)\cH' + b_e \cH + (b_e -3)^2 \cH^2 \right] [v^\on]^2 \nonumber \\
-	&+ (b_e - 3) \cH v^\on v^{\on \prime} + 2 b_1 (3 - b_e) \cH v^\on \delta_{m\mathrm{T}}^\on - 2 v^\on \left[ b_1 \delta_{m\mathrm{T}}^{\on \prime} + b_1' \delta_{m\mathrm{T}}^\on \right] \nonumber \\
-	& + (3 - b_e) \cH \nabla^{-2} \left[ v^\on \nabla^2 v^{\on \prime} - v^{\on \prime} \nabla^2 v^\on - 6 \partial_i \Phi^2 \partial^i v^\on - 6 \Phi^\on \nabla^2 v^\on \right]\,.
-\end{align}
-In the above equation, the velocity and metric potentials ensure that there is gauge-independence on ultra-large scales. 
 
 \subsection{Observed galaxy number counts}
 Working in Poisson gauge, we can split the first-order observed galaxy number counts $\Delta_g^\on$ into Newtonian and relativistic parts as, 
@@ -140,9 +80,9 @@ Working in Poisson gauge, we can split the first-order observed galaxy number co
 \end{align}
 In the above equation, the Newtonian part concists of the T-gauge density contrast and the Kaiser RSD. The terms in the GR part are the Doppler term which is proportional to the line-of-sight velocity $\partial_\parallel v^\on$, and terms arising from the potential and the velocity potential. 
 
-At second order, the expression for $\Delta_g$ is a lot more involved, because it includes both the second-order generalisations of effects included at first order, as well as quadratic couplings between the first-order terms themselves. Various groups have computed the second order observed galaxy number counts, in different formalisms. A full comparison of the different results has yet to be done, see for example\todo{jorges papers, which compares the leading order corrections}
+At second order, the expression for $\Delta_g$ is a lot more involved, because it includes both the second-order generalisations of effects included at first order, as well as quadratic couplings between the first-order terms themselves. Various groups have computed the second order observed galaxy number counts, in different formalisms. A full comparison of the different results has yet to be done, see for example~\cite{Fuentes:2020qby} in which the leading order corrections are compared.
 
-Here we use the expression given by~\cite{Bertacca:2014hwa} \todo[inline]{erratum?}, which includes the evolution and magnification biases-- we neglect the integrated effects that are given, and we include our gauge-independent model of second-order galaxy bias. The resulting expression for $\Delta_g^\tw$ is, 
+Here we use the expression given by~\cite{Bertacca:2014hwa}, which includes the evolution and magnification biases-- we neglect the integrated effects that are given, and we include our gauge-independent model of second-order galaxy bias. The resulting expression for $\Delta_g^\tw$ is, 
 \begin{align} 
 \Delta_{g}^{(2)} &= b_1 \delta_{m{\mathrm{T}}}^\tw + b_2 \left[\delta_{m{\mathrm{T}}}^\on \right]^2 + \left[(b_e-3)^2 \cH^2 + b_e' \cH +(b_e-3) \cH' \right] \left[v^\on \right]^2 \nonumber \\
 & + (b_e - 3)\cH v^\on v^{\on \prime} + 2b_1 (3 - b_e) \cH v^\on \delta_{m\mathrm{T}}^{(1)} - 2v^\on \left[ b_1 \delta_{m\mathrm{T}}^{\on \prime} + b_1' \delta_{m\mathrm{T}}^\on \right] \nonumber \\
@@ -166,8 +106,7 @@ Here we use the expression given by~\cite{Bertacca:2014hwa} \todo[inline]{erratu
 & \left. + \frac{2}{\chi \cH} \left[ 1 - 2 b_e - \Q + 2 b_e \Q  - 4 \Q^2 + 4 \frac{\p \Q}{\p \ln \bar L} + 2 \frac{\p \Q}{\p \ln \bar a} \right] \right\} \left[\p_\| v^\on - \Phi^\on  \right]^2 \nonumber \\
 &+ 4\left[ \left( 1 - \frac{1}{\chi \cH} \right) \p_\parallel v^\on - \left(2 - \frac{1}{\chi \cH} \right) \Phi^\on \right] \frac{\p \delta_g^\on}{\p \ln{\bar{L}}}\, .\label{eq:fulldeltaso}
 \end{align}
-\todo[inline]{check the above equation for typos!}
-\todo[inline]{check above equationfor corrections that come in in paper III of the series}
+
 Similarly to the first-order observed galaxy number density contrast, $\Delta_g^\tw$ can be split into Newtonian and GR parts. The Newtonian part consists of the density contrast and the Kaiser RSD terms, plus couplings thereof, 
 \begin{align}\label{eq:DeltaSONewt}
 	\Delta_{g\nw}^\tw =& b_1 \delta_{m\mathrm{T}}^2 + b_2 [\delta_{m\mathrm{T}}^\on]^2 - \frac{1}{\cH}\partial_\parallel^2 v^\tw - 2 \frac{b_1}{\cH} \left[ \delta_{m\mathrm{T}}^\on \partial_\parallel^2 v^\on + \partial_\parallel v^\on \partial_\parallel \delta_{m\mathrm{T}}^\on \right] \nonumber \\
@@ -217,25 +156,23 @@ Then, $\delta_g^\on$ can be expressed in terms of $\delta_{m\mathrm{T}}^\on$ and
 \begin{equation}
 	\frac{\partial \delta_g^\on}{\partial\ln \bar{L}} = \frac{\partial b_1}{\partial\ln\bar{L}} \delta_{m\mathrm{T}}^\on - \frac{\partial b_e}{\partial\ln\bar{L}} \cH v^\on = \frac{\partial b_1}{\partial\ln\bar{L}} \delta_{m\mathrm{T}}^\on + \Q' v^\on \,.
 \end{equation}
-\todo{few more words on the how, and significance of this expression?}
 
 \section{The galaxy number density contrast in Fourier space}
 We only consider correlations at the same fixed observed redshift $z$. At this fixed redshift, the perturbative variables depend on the direction of observation $\n$, and are computed in Fourier space at fixed $\eta(z)$. At fixed redshift and fixed observed direction, we transform $\x = [\eta_0 - \eta(z)]\n + \x_0 \to \k$, which is equivalent to transforming over all observer positions $\x_0$\,. We denote the T-gauge matter density $\delta_{m\mathrm{T}} \equiv \delta$ and expand it in perturbation theory as, 
 \begin{equation}
 	\delta = \delta^\on + \frac{1}{2} \delta^\tw\,.
 \end{equation}
-The second-order matter density contrast is given by\todo{citation, also does this get any other corrections?},
+The second-order matter density contrast is given by,
 \begin{equation}
 	\delta^\tw(\k) = \int \frac{\diff^3 k_1}{(2\pi)^3} \frac{\diff^3 k_2}{(2\pi)^3} \delta^\on(\ka) \delta^\on(\kb) F_2(\ka,\kb)(2\pi)^3 \delta^D(\ka+\kb-\k)\,,
 \end{equation}
-where the kernel for the dark matter perturbations in a matter-dominated model is, 
-\todo[inline]{def of F2-- I want the generic version, plus citation, and then make the approximation. think its in chapter 3?}
+where $F_2$ is the kernel for the dark matter perturbations in a matter-dominated model.
 The velocity and metric potentials can be split into Newtonian and GR parts, $\v^\tw = v_\nw^\tw + v_\gr^\tw$ and similarly for $\Phi^\tw$ and $\Psi^\tw$. In a Newtonian approximation, these are given by~\cite{Bernardeau:2001qr}, 
 \begin{align}
 	v^\tw_\nw(\k) =& f \frac{\cH}{k^2} \int \frac{\diff^3 k_1}{(2\pi)^3} \frac{\diff^3 k_2}{(2\pi)^3} \delta^\on(\ka) \delta^\on(\kb) G_2(\ka,\kb) (2\pi)^3 \delta^D(\ka+\kb-\k)\,,\\
 	\Phi^\tw_\nw(\k) =& \Psi^\tw_\nw(\k) = - \frac{3}{2} \Omega_m \frac{\cH^2}{k^2} \delta^\tw(\k)\,.\label{eq:PsiSOnewtFT}
 \end{align}
-\todo{fix this eqn layout}
+
 The relativistic parts, assuming $\Lambda$CDM and Gaussian initial conditions, are given in real space and Poisson gauge by~\cite{Villa:2015ppa},
 \begin{align}
 	v^\tw_\gr(\x) =& \alpha D' g \left[ \left( 1 - \frac{10}{3} \frac{g_\mathrm{in}}{g} \right) \varphi_0^2(\x) - 12 \Theta_0(\x) \right]\,, \\
@@ -277,10 +214,7 @@ Combining all of the above expressions, the GR parts of second-order velocity an
 	&\left. \quad E_2(\ka,\kb,\kc) \right]\,,\\
 	\Psi_\gr^\tw(\kc) =& 3 \Omega_m \cH^4 \int \diff(\ka,\kb,\kc)\, \frac{1}{k_1^2 k_2^2} \left[ \frac{1}{2} (3 \Omega_m + f - f^2) + f E_2(\ka,\kb,\kc) \right]\,.\label{eq:PsiSOgrFT}
 \end{align}
-\todo[inline]{check these equations with png paper}
-\todo[inline]{change the d(k1k2k3) to be in line w rest of chapter}
 
-\todo[inline]{what's to come, needs shuffling with above}
 From equations~\eqref{eq:PsiSOnewtFT} and~\eqref{eq:PsiSOgrFT} we can get the time derivatives, 
 \begin{align}
 	\Phi_\nw^{\tw\prime}(\k) =& (2 f - 1) \cH \Phi^\tw\,,\\
@@ -332,7 +266,7 @@ Finally, the second-order relativistic kernel can be written as,
 \end{align}
 In the above expression, we have defined 19 redshift-dependent coefficients $\beta_I$-- not to be confused with the RSD parameter $\beta = f / b_1$. These coefficients are given in full in Appendix~\ref{app_betas}. 
 
-To demonstrate how the second-order relativistic kernel is obtained from~\eqref{eq:DeltaSOwBGcoeffs}, we shall include an example Fourier transform of one of the terms of the second-order observed galaxy overdensity here, and include a table in appendix \todo{put blah blah fourier table in}
+To demonstrate how the second-order relativistic kernel is obtained from~\eqref{eq:DeltaSOwBGcoeffs}, we shall include an example Fourier transform of one of the terms of the second-order observed galaxy overdensity here, and include a table in Appendix~\ref{app_betatables}.
 Taking, for example, $\mathcal{C} \Phi^\on v^\on$, where $\mathcal{C}$ is a background coefficient as defined in equation~\eqref{eq:bcC}. In our Fourier convention we have, 
 \begin{equation}
 	\left[ \Phi^\on v^\on \right](\x) = \int \frac{\diff^3 k}{(2\pi)^3}\, e^{\i \k\cdot\x} \left[ \Phi^\on v^\on \right] (\k)\,,
@@ -368,9 +302,6 @@ where we can identify the Fourier kernel,
 	&= \frac{-3 \Omega_m \cH^3 f}{2 k_1^2 k_2^2}\,,
 \end{align}
 with coefficient $\mathcal{C}$.
-\todo[inline]{check where relns come from -- is all defined?}
-\todo[inline]{needs more refs?}
-\todo[inline]{equation numbering and simplification, how does it work?} 
 In Appendix~\ref{app_betatables}, a table of terms and the corresponding Fourier space kernels and coefficients can be found. 
 
 \section{Construction of the galaxy bispectrum}
@@ -397,8 +328,11 @@ The galaxy bispectrum in terms of Fourier space then follows as,
  	B_g(\ka,\kb,\kc) = \cK^\on(\ka) \cK^\on(\kb) \cK^\tw(\ka,\kb,\kc) P(k_1) P(k_2) + \text{ 2 cyc. perm.}\,,
  \end{equation} 
 
-Estuans interius ira vehementi
-\todo[inline]{split into parts and explain which part where -- ties in with moving parts from here to chapter 2}
+The Fourier space kernels that appear on the right hand side in the above equation then can be split into Newtonian and relativistic parts, analogous to the split into Newtonian and Doppler parts as considered in the first part of this thesis. Hence, we can write, 
+\begin{equation}
+	\cK^{(1,2)} = \cK^{(1,2)}_\nw + \cK^{(1,2)}_\gr\,.
+\end{equation}
+The GR parts of the kernels here are composed of all relativistic corrections at all orders of $\cH/k$. From products between the first- and second-order Fourier space kernels, more suppressed contributions are generated also. All of these are considered henceforth.
 
 \section{Contributions from second-order vector and tensor modes}\label{sec:tensorvector}
 
@@ -435,11 +369,7 @@ where $\omega_\parallel = n^i \omega_i$ is the longitudinal component of the vec
 	\Delta_{g\mathrm{V}}^\tw(\kc) =& \int\diff(\ka,\kb,\kc)\, \cK^\tw_\mathrm{V}(\ka,\kb,\kc)\,,\\
 	\Delta_{g\mathrm{T}}^\tw(\kc) =& \int\diff(\ka,\kb,\kc)\, \cK^\tw_\mathrm{T}(\ka,\kb,\kc)\,.
 \end{align}
-\todo{move this operator definition}
-Operator, 
-\begin{equation}
-	\int\diff(\ka,\kb,\kc)= \int\frac{\diff^3k_1}{(2\pi)^3}\, \int \diff^3 k_2 \delta^\on(\ka) \delta^\on(\kb) \delta^D(\ka+\kb-\kc)\,.
-\end{equation}
+
 The explicit forms of the kernels are derived in~\cite{Jolicoeur:2018blf}. For the vector modes, it is, 
 \begin{align}
 	&\cK^\tw_\mathrm{V}(\ka,\kb,\kc) = 12 \Omega_m \cH^2 f \left( \frac{\mu_3}{k_3} - \i \frac{\cH}{k_3^2} \left[ -b_e + 2\Q + \frac{2(1-Q)}{\chi\cH} + \frac{\cH'}{\cH^2} \right]  \right) \nonumber \\
@@ -488,7 +418,7 @@ which includes all contributions discussed in this section. The result is shown 
 	&b_1 = \sqrt{1 + z}\,, \quad b_2 = -0.1 \sqrt{1 + z}\,,\nonumber \\
 	&b_e = \Q = 0\,,\quad b_s = - \frac{4}{7}(b_1 - 1)\,.
 \end{align}
-Cosmological parameters chosen are $\Omega_{m0} = 1 - \Omega_{\Lambda0} = 0.308\,,\, h = 0.678$.\todo{is this planck 2015, check and add citation} The bispectrum configuration is fixed to be a moderately squeezed trianle with $k_1 = k_2 = k$ and $k_3 \approx k/16$, with long mode $k_3$ plotted along the $x$-axis. The dashed lines indicate negative values (the sign of the bispectrum monopole indicates whether overdensities are more or less clustered relative to voids than in a Gaussian random field). 
+Cosmological parameters chosen here are $\Omega_{m0} = 1 - \Omega_{\Lambda0} = 0.308\,,\, h = 0.678$. The bispectrum configuration is fixed to be a moderately squeezed trianle with $k_1 = k_2 = k$ and $k_3 \approx k/16$, with long mode $k_3$ plotted along the $x$-axis. The dashed lines indicate negative values (the sign of the bispectrum monopole indicates whether overdensities are more or less clustered relative to voids than in a Gaussian random field). 
 
 \begin{figure}[ht]
 	\centering

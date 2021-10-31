@@ -3,19 +3,15 @@
 \chapter{The dipole of the galaxy bispectrum}
 \label{chapter:dipole}
 
+When carrying out large scale galaxy surveys, there is a variety of effects which distort the observed galaxy number counts, and for studies of galaxy clustering it is crucial for this to be accounted for properly. These effects arise from the fact that we observe on the past lightcone-- the galaxies' redshifts and the directions of the incoming photons all are distorted by inhomogeneities in our universe. In this chapter we examine the leading relativistic contributions in the galaxy bispectrum, which arise predominantly from RSD and other Doppler-type observational effects. These give rise to corrections at $\ord(\cH/k)$ in the galaxy bispectrum. Higher order $\cH/k$ contributions are, while being subdominant, still present in the galaxy bispectrum; and a full treatment of the bispectrum at all orders in $\ord(\cH/k)$ can be found from Chapter~\ref{chapter:ho} onwards.
+
 \section{The dipole of the power spectrum}
 
-\iffalse
-The bispectrum will be crucial in next-generation large scale structure surveys, as it contains information that is both complementary and additional to what is contained in the power spectrum. As a non-Gaussian statistic it is well-suited to detect and constrain primordial non-Gaussianity, a key goal of next-generation surveys, and hence can help discriminate between various theories of inflation and other theories of the early universe.
-
-On cosmological scales, observations on the past light-cone induce relativistic corrections to the observed bispectrum of galaxies. As theoretical accuracy must at least match experimental precision, it is crucial for these effects to be included in the analysis of the Fourier-space bispectrum. The inclusion of redshift-space distortions (RSD) in the bispectrum is therefore essential~\citep{Verde:1998zr,Scoccimarro:1999ed}. This will add complexity, but means that more information can potentially be extracted~\citep{Tellarini:2016sgp}.
-\fi
-
-In this chapter we examine the leading-order relativistic contributions in the galaxy bispectrum, which arise predominantly from RSD and other Doppler-type observational effects. These give rise to corrections at $\ord(\cH/k)$ in the galaxy bispectrum. Higher order $\cH/k$ contributions are, while being subdominant, still present in the galaxy bispectrum; and a full treatment of the bispectrum at all orders in $\ord(\cH/k)$ can be found from Chapter~\ref{chapter:ho} onwards.
-
-\todo{remove this fluff, move to intro} 
-
-The dominant RSD effect on galaxy number counts at first order is given by $\delta_g(z,\k) = (b_{1}(z) + f (z) \mu^{2})\delta(z,\k)$, where $\mu=\n\cdot\hat{\k}$, with $\n$ the line of sight direction, $f$ the growth rate, and $b_1$ is the linear bias. Henceforth the redshift dependence will be dropped for brevity as we are working at fixed redshift. At leading order, there is a Doppler type correction to this effect~\citep{Kaiser:1987qv,McDonald:2009dh,Challinor:2011bk} (see also \citep{Raccanelli:2016avd,Hall:2016bmm,Abramo:2017xnp}) proportional to $\bm{v}\cdot\n$, where $\bm{v}$ is the peculiar velocity:\footnote{\citep{Challinor:2011bk} provides the relativistic correction to the coefficient of  $\bm{v}\cdot\n$ given in \citep{Kaiser:1987qv,McDonald:2009dh}.}
+The dominant RSD effect on galaxy number counts at first order is given by, 
+\begin{equation}
+    \delta_g(z,\k) = (b_{1}(z) + f (z) \mu^{2})\delta(z,\k)\,,
+\end{equation}
+where $\mu=\n\cdot\hat{\k}$, with $\n$ the line of sight direction, $f$ the growth rate, and $b_1$ is the linear bias. Henceforth the redshift dependence will be dropped for brevity as we are working at fixed redshift. At leading order, there is a Doppler type correction to this effect~\citep{Kaiser:1987qv,McDonald:2009dh,Challinor:2011bk} (see also \citep{Raccanelli:2016avd,Hall:2016bmm,Abramo:2017xnp}) proportional to $\bm{v}\cdot\n$, where $\bm{v}$ is the peculiar velocity:\footnote{\citep{Challinor:2011bk} provides the relativistic correction to the coefficient of $\bm{v}\cdot\n$ given in \citep{Kaiser:1987qv,McDonald:2009dh}.}
 \begin{equation} \label{dopf}
 \delta_g(\x) = b_{1} \delta(\x)-{\frac{1}{\cH}}\partial_r(\bm{v}\cdot\n) +{A}\,\bm{v}\cdot\n ~~\to~~
 \end{equation}
@@ -26,7 +22,6 @@ where
 {A} = {b_{\textrm{e}}+{3}\Omega_m/2 -3 + (2-5s) (1-{1/ r\cH} )}\,.
 \end{equation}
 Here $b_{\textrm{e}}=\partial (a^3 \bar{n}_g)/\partial \ln a$ is the evolution of comoving galaxy number density, $s=-(2/5)\partial \ln \bar{n}_g/\partial \ln L$ is the magnification bias ($L$ is the threshold luminosity), $r$ is the comoving radial distance ($\partial_r=\bm n\cdot\bm\nabla$) and we have assumed a $\Lambda$CDM background ($\cH'/\cH^2=1-3\Omega_m/2$, where $\cH$ is the conformal Hubble rate, a prime is differentiation with respect to conformal time, $\Omega_m$ is the evolving density contrast). In the  Fourier space expression~\eqref{dopf2} we can read off the relative contribution of each term by how they scale with $k$: terms like $\cH/k$ are suppressed on small scales when $\cH/k\ll1$ but become important around and above the equality scale. 
-
 
 Although the galaxy density contrast~\eqref{dopf2} is complex, the power spectrum of a single tracer is real:
 \begin{equation}
@@ -43,10 +38,9 @@ P_{g \tilde g}(k)&= \Big\{\Big[ \big(b_{1} + f\mu^{2}\big)\big(\tilde b_{1} + f\
 While the Doppler contribution to $P_g$ is $\ord((\cH/k)^{2})$,  the Doppler contribution to $P_{g\tilde g}$ mixes with the density and RSD to give an additional less suppressed part, i.e. $\ord(\cH/k)$. The nonzero multipoles of $P_g$ are $\ell=0,2,4$, whereas  $P_{g \tilde g}$ has a nonzero dipole (as well as a smaller octupole).  There are also further relativistic corrections to this dipole part of the cross power spectrum~\citep{DiDio:2018zmk}.
 
 
-A natural question is: what about the galaxy bispectrum? In the standard `Newtonian' approximation, with only RSD, the galaxy bispectrum for a single tracer at fixed redshift has no dipole, and only has even multipoles~\citep{Scoccimarro:1999ed,Nan:2017oaq}. But
-with a lightcone corrected galaxy density contrast, the 3-point correlator, even for a {\em single} tracer, will no longer be an even function of $\k_a\!\cdot\n \,(a=1,2,3)$. In order to compute the consequent contribution to the galaxy bispectrum, \eqref{dopf} is not sufficient: we need its second-order generalisation, $\delta_g \to \delta_g+\delta^{(2)}_g/2$.
+\section{Leading order relativistic contributions to the bispectrum}
 
-% \section{Relativistic contributions to the galaxy bispectrum}
+A natural question is: what about the galaxy bispectrum? In the standard `Newtonian' approximation, with only RSD, the galaxy bispectrum for a single tracer at fixed redshift has no dipole, and only has even multipoles~\citep{Scoccimarro:1999ed,Nan:2017oaq}. But with a lightcone corrected galaxy density contrast, the 3-point correlator, even for a {\em single} tracer, will no longer be an even function of $\k_a\!\cdot\n \,(a=1,2,3)$. In order to compute the consequent contribution to the galaxy bispectrum, \eqref{dopf} is not sufficient: we need its second-order generalisation, $\delta_g \to \delta_g+\delta^{(2)}_g/2$.
 
 At second order, the Doppler correction in~\eqref{dopf} generalises to $A\, \bm{v}^{(2)}\!\cdot\n$, but there are also quadratic coupling terms. The couplings involve not only the Doppler effect, but also radial gradients of the potential (`gravitational redshift'), volume distortion effects, and second-order corrections to the density contrast. Most of these contributions are small, but those that scale as $(\cH/k)\delta^2$ are not, even on equality scales. Except on super-equality scales we can often neglect any terms $\ord((\cH/k)^{2})$ and higher, which makes the calculation considerably simpler. The treatment of higher-order terms is left to chapter~\ref{chapter:multipoles}.
 
@@ -69,7 +63,6 @@ This is in agreement with the independent re-derivation of the leading correctio
 All but one of the contributions to this leading term contain Doppler contributions, so we label these terms with a D subscript. In this sense, they can be thought of as the relativistic correction to redshift space distortions, but their origin is considerably more subtle than in the Newtonian picture~\citep{Bertacca:2014dra,DiDio:2018zmk}. These relativistic corrections all arise as projections along the line of sight $\n$. It is this projection that is responsible for the dipole in the observed bispectrum. Beyond these leading terms in~\eqref{dg2} there are a host of local coupled terms which appear on larger scales. 
 
 We follow most work on the Fourier bispectrum and neglect the effect of lensing magnification. This is reasonable for correlations at the same redshift and when using very thin redshift bins allowed by spectroscopic surveys~\citep{DiDio:2018unb}. We also use the standard plane-parallel approximation, which is reasonable on ultra-large scales. However, we note that wide-angle effects in the power spectrum can be of the same order of magnitude as the Doppler-type effects in certain circumstances~\citep{Tansella:2017rpi}, and these should be incorporated in a more complete treatment.
-
 
 The galaxy bispectrum is defined in Fourier space by,
 \begin{align}
@@ -97,7 +90,7 @@ where, since we use the Einstein-De Sitter approximation $F/D^2 = 3/7$ in $F_2$,
 \begin{equation}
     S_2(\ka,\kb) = (\hat{\k}_1 \cdot \hat{\k}_2)^2 - \frac{1}{3}\,, 
 \end{equation}
-with tidal bias $b_s$ \todo{check tidal bias + bias param}. Finally, the kernel $\mathcal{Z}_2(\ka,\kb)$ incorporates the non-linear Kaiser RSD contribution~\citep{Verde:1998zr,Scoccimarro:1999ed}, 
+with tidal bias $b_s$. Finally, the kernel $\mathcal{Z}_2(\ka,\kb)$ incorporates the non-linear Kaiser RSD contribution~\citep{Verde:1998zr,Scoccimarro:1999ed}, 
 \begin{equation}
     \mathcal{Z}_2(\ka,\kb) = b_1 f (\mu_1 k_1 + \mu_2 k_2) \left( \frac{\mu_1}{k_1} + \frac{\mu_2}{k_2} \right) + f^2 \frac{\mu_1 \mu_2}{k_1 k_2} \left( \mu_1 k_1 + \mu_2 k_2 \right)^2\,.
 \end{equation}
@@ -141,7 +134,7 @@ where $\theta=\theta_{12}$ (and we define $\mu=\cos\theta$~-- note that $\theta$
     \caption{Overview of the relevant vectors and angles for the Fourier-space bispectrum. \label{fig:geometry_overview1} }
 \end{figure}       
 Then we have $Y_{\ell m}(\mu_1,\varphi)$, so that we can write $B_g =\sum_{\ell m} B_{\ell m}Y_{\ell m}(\mu_1,\varphi)$. The leading relativistic terms we consider here generate odd-power multipoles up to $\ell=7$, and the full expression generates even and odd multipoles up to $\ell=8$-- see Chapter~\ref{chapter:multipoles}. 
-Different powers of $(\i\mu_1)$ and $(\i\mu_2)$ contribute to the dipole as follows, \todo{check this table}
+Different powers of $(\i\mu_1)$ and $(\i\mu_2)$ contribute to the dipole as follows,
 \begin{align}
 \arraycolsep=1.0pt\def\arraystretch{1}
 \int\mathrm{d}\Omega (\i\mu_1)^a  (\i \mu_2)^b Y^*_{1 m} & = 
@@ -202,17 +195,12 @@ $% \label{mu}
 % {\cal K}^{(2)}_{\mathrm{D}}(\k_{-S},\k_L,\k_S) &=&  {\cal K}^{(2)}_{\mathrm{D}}(\k_L,\k_S,\k_{-S})\Big|_{\mu_S\to \roy{\mu_{-S}}}  \label{k2d2}
 \end{align}
 and $ {\cal K}^{(2)}_{\mathrm{D}}(\k_{-S},\k_L,\k_S) =  {\cal K}^{(2)}_{\mathrm{D}}(\k_L,\k_S,\k_{-S})\big|_{\mu_S\to {\mu_{-S}}}$ while ${\cal K}^{(2)}_{\mathrm{D}}(\k_S,\k_{-S},\k_L) =0$. 
-In the squeezed limit of the cyclic sum~\eqref{eq:fsbispdef}, the terms $ {\cal K}^{(2)}(\k_L,\k_S,\k_{-S})$ and  ${\cal K}^{(2)}(\k_{-S},\k_L,\k_S)$ appear only in the form ${\cal K}^{(2)}(\k_L,\k_S,\k_{-S})+{\cal K}^{(2)}(\k_{-S},\k_L,\k_S)$. This sum regularises
-the divergent $k_S/k_L=(2\ep)^{-1}$ and $k_S/k_L^2=(2\ep k_L)^{-1}$ terms.  We obtain the bispectrum in the squeezed limit,
-
-
+In the squeezed limit of the cyclic sum~\eqref{eq:fsbispdef}, the terms $\cK^{(2)}(\k_L,\k_S,\k_{-S})$ and $\cK^{(2)}(\k_{-S},\k_L,\k_S)$ appear only in the form ${\cal K}^{(2)}(\k_L,\k_S,\k_{-S})+{\cal K}^{(2)}(\k_{-S},\k_L,\k_S)$. This sum regularises the divergent $k_S/k_L=(2\ep)^{-1}$ and $k_S/k_L^2=(2\ep k_L)^{-1}$ terms.  We obtain the bispectrum in the squeezed limit,
 \begin{align}
 &B_{g}^{\mathrm{sq}} = b_{1S}b_{1L}b_{SL}\, P_LP_S+\i b_{1S}\Big\{b_{SL}f A + {\frac{3}{2}} \Omega_m b_{1S}b_{1L} 
 \nonumber\\
 &+2b_{1L}f C+ b_{1L}\mu_S^2\Big[{\frac{3}{2}}\Omega_m- Ef \Big] \Big\}P_LP_S\,\mu_L \frac{\cH}{k_L} \,,\label{bgd}
 \end{align}
-
-
 where $P_{S,L}=P(k_{S,L})$, $b_{1S,L}\equiv  b_1+f\mu_{S,L}^2$ and
 \begin{align}
 % \,, \label{b1sl}~~
@@ -226,12 +214,9 @@ b_{SL} \equiv 2b_2+ \frac{43}{21}b_1 - \frac{4}{21}
 Note that only the first term in the squeezed bispectrum comes from the Newtonian limit. 
 
 The type of dipole extracted from this term is seen as follows. To this order we can write $\mu_{S}^2=\mu_{S}\mu_{-S}$. Then,  since $\mu_L=-2(\mu_S+\mu_{-S})/
-\varepsilon$, we see that the $m=0$ term is zero because $B_{g {\mathrm{D}}}^{\mathrm{sq}}$ is symmetric in $\mu_{S}^i\mu_{-S}^j$ under $i\leftrightarrow j$, while the $m=0$ term is antisymmetric in~\eqref{dkjsncdjcnsk}. This leaves just the $m=\pm1$ contribution in \eqref{dkjsncdjcnsk}.
+\varepsilon$, we see that the $m=0$ term is zero because $B_{g {\mathrm{D}}}^{\mathrm{sq}}$ is symmetric in $\mu_{S}^i\mu_{-S}^j$ under $i\leftrightarrow j$, while the $m=0$ term is antisymmetric in~\eqref{dkjsncdjcnsk}. This leaves just the $m=\pm1$ contribution in~\eqref{dkjsncdjcnsk}.
 
-
-
-
-\begin{figure}%[htbp]
+\begin{figure}[!ht]
 \begin{center}
 %\includegraphics[width=\columnwidth]{flattened-squeezed-02}
 \includegraphics[width=\columnwidth]{fig/figuresv2-02}
@@ -239,8 +224,7 @@ The type of dipole extracted from this term is seen as follows. To this order we
 \label{snakcjnsdlkcans}
 \end{center}
 \end{figure}
-
-\begin{figure}%[htbp]
+\begin{figure}[!ht]
 \begin{center}
 %\includegraphics[width=\columnwidth]{shapes-01}
 \includegraphics[width=\columnwidth]{fig/figuresv2-01}
@@ -249,20 +233,17 @@ The type of dipole extracted from this term is seen as follows. To this order we
 \end{center}
 \end{figure}
  
-
-
 \section{The dipole in intensity mapping and galaxy surveys}
 
 We now consider the amplitude of the dipole relevant for upcoming galaxy surveys, which have different bias parameters. We consider two different types of survey: an SKA intensity mapping of 21\,cm radio emission, as well as a Euclid-like optical/infrared spectroscopic survey.
-An intensity map of the 21cm emission of neutral hydrogen (HI) in the post-reionization Universe records the total emission in galaxies containing HI, without detecting individual galaxies. There is an equivalence between the brightness temperature contrast and number count contrast~\citep{Umeh:2015gza}. \todo{check the bias params, and provide expressions} For IM we use the bias parameters at $z=1$, 
-$b_1 = 0.856, b_2 = -0.321, b_1' = -0.5\times10^{-4}, b_e = -0.5, b_e'=0, s = 2/5$~\citep{Fonseca:2018hsu,Umeh:2015gza}
+An intensity map of the 21cm emission of neutral hydrogen (HI) in the post-reionization Universe records the total emission in galaxies containing HI, without detecting individual galaxies. There is an equivalence between the brightness temperature contrast and number count contrast~\cite{Umeh:2015gza}. For IM we use the bias parameters at $z=1$, 
+$b_1 = 0.856, b_2 = -0.321, b_1' = -0.5\times10^{-4}, b_e = -0.5, b_e'=0, s = 2/5$~\cite{Fonseca:2018hsu,Umeh:2015gza}
 while for the spectroscopic survey we use 
-$ b_1 = 1.3,b_2 = -0.74, b_1' = -1.6\times10^{-4},  b_e = -4, b_e' = 0, s = -0.95$~\citep{Camera:2018jys,Yankelevich:2018uaz}.
-For intensity mapping, $ \partial b_1/\partial \ln L =0$ and we assume it is zero for simplicity for the spectroscopic survey. We use a LCDM model with standard parameters $\Omega_m=0.314, h=0.67, f_\text{baryon}=0.157, n_s=0.968$. Plots are presented using linear power spectra generated using CAMB~\citep{Lewis:1999bs}.
+$ b_1 = 1.3,b_2 = -0.74, b_1' = -1.6\times10^{-4},  b_e = -4, b_e' = 0, s = -0.95$~\cite{Camera:2018jys,Yankelevich:2018uaz}.
+For intensity mapping, $ \partial b_1/\partial \ln L =0$ and we assume it is zero for simplicity for the spectroscopic survey. We use a LCDM model with standard parameters $\Omega_m=0.314, h=0.67, f_\text{baryon}=0.157, n_s=0.968$. Plots are presented using linear power spectra generated using CAMB~\cite{Lewis:1999bs}.
 
-In Fig.~\eqref{snakcjnsdlkcans} \todo{move figures into section} we show how changing the scale of a fixed triangle changes the amplitude of the dipole, with reference to the monopole. In the flattened case with $m=0$ we see the signal peaks for triangles below the equality scale, while for squeezed shapes, with $m=\pm1$, the signal is smaller, and peaks when the long mode approaches the Hubble scale. 
-In Fig.~\eqref{sankcjnakjdcs} we change the shape with fixed $k_1=k_2$ for both galaxy and IM surveys. We confirm our analytical results that the equilateral limit is zero, as well as the other limits. For triangles between right-angle and flattened the dipole is more than 10\% of the monopole, and the signal is largest in the flattened case~-- except in the extreme squeezed limit (not shown). 
-
+In Fig.~\eqref{snakcjnsdlkcans}, we show how changing the scale of a fixed triangle changes the amplitude of the dipole, with reference to the monopole. In the flattened case with $m=0$ we see the signal peaks for triangles below the equality scale, while for squeezed shapes, with $m=\pm1$, the signal is smaller, and peaks when the long mode approaches the Hubble scale. 
+In Fig.~\eqref{sankcjnakjdcs}, we change the shape with fixed $k_1=k_2$ for both galaxy and IM surveys. We confirm our analytical results that the equilateral limit is zero, as well as the other limits. For triangles between right-angle and flattened the dipole is more than 10\% of the monopole, and the signal is largest in the flattened case~-- except in the extreme squeezed limit (not shown). 
 
 \section{Conclusions}
 
