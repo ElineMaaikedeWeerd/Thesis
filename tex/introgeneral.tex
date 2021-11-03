@@ -211,6 +211,10 @@ The simplest example of a local bias expansion would be the LIMD bias in Lagrang
 
 In this simplified model, we assume dark matter halos to simply correspond to overdense regions (i.e. above some threshold density) in Lagrangian space. The observed galaxies reside in these dark matter halos. More specificially, this means that the initial matter density field, which is assumed to be Gaussian and often referred to as the linear density field $\delta^\on$, is extrapolated to some desired reference time using linear growth. 
 
+We will review how the local bias expression in the Newtonian case is derived, and will just quote the results for the more complicated relativistic case when appropriate later on in this thesis. 
+
+
+\iffalse
 The Poisson-gauge number density contrast at first order, $\delta_g^\on$, is related to the dark matter density contrast $\delta_m^\on$ via the galaxy bias. For now we will use a local model of galaxy bias, and we need ot make sure that the definition of scale-independent bias is gauge-independent, and valid on ultra-large scales. The physical definition of scale-independent galaxy bias is in the matter rest-frame (corresponding to the comoving-synchronous C gauge), which since there is no velocity bias on large scales coincides with the galaxy rest-frame~\cite{Challinor:2011bk,Bruni:2011ta,Jeong:2011as}. It then follows that the correct definition between the galaxy and dark matter number density contrasts at first order is, 
 \begin{equation}\label{eq:deltagbiasdef}
 	\delta_{g\cs}^\on (a, \x) = b_1(a) \delta_{m,\cs}^\on(a,\x)\,.
@@ -236,7 +240,8 @@ where we suppress the dependence of $b_I \equiv b_I(a,\ln L)$ for brevity-- as d
 \begin{equation}\label{eq:biasCgauge}
 	\delta^\tw_{m\cs} = b_1 \delta^\tw_{m\cs} + b_2 (\delta^\on_{m\cs})^2\,,
 \end{equation}
-where we have omitted the term $- b_2 \langle (\delta^\on_{m\cs})^2 \rangle$ on the right hand side for convenience\todo{why is this allowed}.
+where we have omitted the term $- b_2 \langle (\delta^\on_{m\cs})^2 \rangle$ on the right hand side for convenience.
+
 At second order, the C-gauge and T-gauge matter overdensities are related as~\cite{Bertacca:2015mca,Villa:2015ppa}, 
 \begin{equation}
 	\delta_{m\mathrm{T}}^\tw = \delta_{m\cs}^\tw + 2 \left[ \partial_i \delta_{m\cs}^\on \right] \nabla^{-2} \partial^i \delta_{m\cs}^\on\,,
@@ -251,7 +256,7 @@ From the above relations, we can obtain the T-gauge galaxy number count density 
 	& \hphantom{\delta_{g\mathrm{T}}^\tw } = b_1 \left[ \delta_{m\cs}^\tw + 2 (\partial_i \delta_{m\mathrm{T}}^\on) \nabla^{-2} \partial^i \delta_{m\cs}^\on \right] + b_2 (\delta_{m\cs}^\on)^2 \\
 	& \Rightarrow \delta_{g\mathrm{T}}^\tw = b_1 \delta_{m\mathrm{T}}^\tw + b_2 (\delta_{m\mathrm{T}}^\on)^2 \label{eq:biasTgauge} \,.
 \end{align}
-\todo{check the gauges}
+
 Comparing equations~\eqref{eq:biasCgauge} and~\eqref{eq:biasTgauge}, it is clear that local-in-mass-density and scale-independent bias in C- and T-gauge are equivalent up to second order in perturbation theory and have the same Eulerian bias coefficients. 
 
 The Poisson gauge expression for overdensity can more conveniently be expressed in the T gauge than in the C gauge, and hence we will choose the total-matter gauge to express $\delta_g$. This expression is as follows~\cite{Jolicoeur:2017nyt},
@@ -267,7 +272,7 @@ From this, using relations between the T-gauge galaxy density contrast and matte
 	& + (3 - b_e) \cH \nabla^{-2} \left[ v^\on \nabla^2 v^{\on \prime} - v^{\on \prime} \nabla^2 v^\on - 6 \partial_i \Phi^2 \partial^i v^\on - 6 \Phi^\on \nabla^2 v^\on \right]\,.
 \end{align}
 In the above equation, the velocity and metric potentials ensure that there is gauge-independence on ultra-large scales. 
-
+\fi
 
 \section{Non-Gaussianity}
 

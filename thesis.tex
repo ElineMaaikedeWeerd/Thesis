@@ -21,7 +21,6 @@ parskip= half % vertical space instead of indentation for paragr
 {icldt}
 
 \usepackage{graphicx}
-\usepackage{duckuments}
 
 %\usepackage[square, numbers, sort&compress]{natbib}
 \usepackage[square, numbers, sort&compress]{natbib}
@@ -45,13 +44,14 @@ parskip= half % vertical space instead of indentation for paragr
 \usepackage{slashbox}
 
 % \setlength {\marginparwidth }{2cm}
-\paperwidth=\dimexpr \paperwidth + 6cm\relax
-\oddsidemargin=\dimexpr\oddsidemargin + 3cm\relax
-\evensidemargin=\dimexpr\evensidemargin + 3cm\relax
-\marginparwidth=\dimexpr \marginparwidth + 3cm\relax
 
+% Following are to make margins wider for the todo notes in the margin 
+% \paperwidth=\dimexpr \paperwidth + 6cm\relax
+% \oddsidemargin=\dimexpr\oddsidemargin + 3cm\relax
+% \evensidemargin=\dimexpr\evensidemargin + 3cm\relax
+% \marginparwidth=\dimexpr \marginparwidth + 3cm\relax
 
-\usepackage[textsize=tiny,colorinlistoftodos]{todonotes}
+% \usepackage[textsize=tiny,colorinlistoftodos]{todonotes}
 
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %  %
@@ -202,8 +202,10 @@ parskip= half % vertical space instead of indentation for paragr
 
 \hypersetup{pageanchor=false}
 % Title page is input not included to remove extra page.
-\todototoc
-\listoftodos
+
+%To generate todolist and add it to table of contents:
+% \todototoc
+% \listoftodos
 
 \input{tex/title}
 
