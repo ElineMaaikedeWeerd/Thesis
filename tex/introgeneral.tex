@@ -7,13 +7,11 @@ Recent years have seen enormous advances in the field of cosmology. Thanks to te
 
 Next-generation large-scale surveys will be able to observe at unprecedented precision. The work in this thesis was undertaken in an effort to improve the theoretical description of the statistical models used to interpret these upcoming datasets in an as unbiased manner as possible. To start, in this chapter we introduce the standard cosmological model, $\Lambda$CDM, and briefly discuss the observational evidence supporting the standard model of cosmology. We also discuss structure formation in the universe, and introduce galaxy statistics, which has been the crucial tool for studying the clustering of galaxies in the universe. Up to now, the two-point correlation function, or power spectrum in Fourier space, has been a cosmologist's most reliable statistic describing the LSS and constraining cosmological parameters. We will give a brief overview of what has been achieved with the power spectrum, and introduce the galaxy bispectrum as the first of the higher-order correlation functions. 
 
-The rest of this thesis is organised as follows. In chapter~\ref{chapter:dipole}, we introduce the lowest order (i.e. least suppressed) relativistic corrections to the bispectrum and consider how they affect the amplitude of the bispectrum. In chapter~\ref{chapter:detect}, we make an estimate for the detectability of such a relativistic signal in next-generation spectroscopic and intensity mapping surveys. Then, chapter~\ref{chapter:ho} summarises past work on adding local relativistic corrections at all orders of $\cH/k$ to the bispectrum, and a fully analytic multipole expansion with relevant numerical analyses for future surveys is presented in chapter~\ref{chapter:multipoles}. Finally, we expand the theoretical description of the Fourier-space galaxy bispectrum by adding local primordial non-Gaussianity in chapter~\ref{chapter:localpng}.
-
 \section{The standard cosmological model}
 
-Over the past several decades, a consensus model for describing the evolution of the universe has emerged.  Evidence for this model is provided by a variety of observations, made possible due to technological advancements, such as the measurements of the cosmic microwave background (CMB), distance measurements using Type 1a Supernovae (SNe), and large-scale structure surveys. 
+Over the past several decades, a consensus model for describing the evolution of the universe has emerged.  Evidence for this model is provided by a variety of observations, made possible due to technological advancements, such as the measurements of the cosmic microwave background (CMB), distance measurements using Type 1a Supernovae (SNe) and the BAO, and large-scale structure surveys. 
 
-This standard model for the evolution of the universe predicts that approximately 13.8 billion years ago, the universe was in a hot and dense `Big Bang' state, from which it has continued to expand since. From Type 1a SNe measurements, it has been inferred that the late-time expansion of the universe is accelerating due to an energy component referred to as `dark energy', the physical origin of which has not yet been understood, but described by some cosmological constant $\Lambda$. Approximateley 70\% of the universe's energy budget at the present day is comprised of this dark energy. The remaining amount primarily consists of `cold dark matter' (CDM), a collisionless component which makes up about 25\% of the universe's energy content. The small remaining amount is comprised of roughly 4\% of the more familiar baryonic matter, which interacts electromagnetically, and a small relativistic radiation component (photons and neutrinos). See figure~\ref{fig:contentuniverse} for an illustration of the energy components of the universe at present day. It is from these dominant energy components that the colloquial name of the standard cosmological model is derived-- it is referred to as $\Lambda$CDM.
+This standard model for the evolution of the universe predicts that approximately 13.8 billion years ago, the universe was in a hot and dense `Big Bang' state, from which it has continued to expand since. From Type 1a SNe measurements, it has been inferred that the late-time expansion of the universe is accelerating due to an energy component referred to as `dark energy', the physical origin of which has not yet been understood, but described by the cosmological constant, $\Lambda$. Approximateley 70\% of the universe's energy budget at the present day is comprised of this dark energy. The remaining amount primarily consists of `cold dark matter' (CDM), a collisionless component which makes up about 25\% of the universe's energy content. The small remaining amount is comprised of roughly 4\% of the more familiar baryonic matter, which interacts electromagnetically, and a small relativistic radiation component (photons and neutrinos). See figure~\ref{fig:contentuniverse} for an illustration of the energy components of the universe at present day. It is from these dominant energy components that the colloquial name of the standard cosmological model is derived-- it is referred to as $\Lambda$CDM.
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=0.6\textwidth]{fig/placeholder_universecontent.png}
@@ -27,7 +25,7 @@ This standard model for the evolution of the universe predicts that approximatel
 	\caption{Picture of timeline of universe?}
 	\label{fig:timelineuniverse}
 \end{figure}
-In the 1980's, the theory of inflation was coined~\cite{Guth:1980zm,Linde:1981mu,Albrecht:1982wi}, which has since become the prevailing theory for the early universe and its initial conditions. As a theory, it successfully solves the horizon, flatness, homogeneity and isotropy problems. During inflation, the universe is expanding exponentially, rapidly increasing its scale by a factor of at least $\approx 10^{27}$. During this period of exponential expansion, quantum fluctuations are stretched to macroscopic level. These are the seeds of the cosmic structure we observe today. It is worth noting that while the properties of the universe (near homogeneous, isotropic, and spatially flat) as predicted by inflation have been confirmed observationally to very high precision, but as of yet there is no conclusive observational evidence for the inflationary model itself. 
+In the 1980's, the theory of inflation was coined~\cite{Guth:1980zm,Linde:1981mu,Albrecht:1982wi}, which has since become the prevailing theory for the early universe and its initial conditions. As a theory, it successfully solves the horizon, flatness, homogeneity and isotropy problems. During inflation, the universe is expanding exponentially, rapidly increasing its scale by a factor of at least $\approx 10^{27}$. During this period of exponential expansion, quantum fluctuations are stretched to macroscopic level. These are the seeds of the cosmic structure we observe today. It is worth noting that while the properties of the universe (near homogeneous, isotropic, and spatially flat) as predicted by inflation have been confirmed observationally, but as of yet there is no conclusive observational evidence for the inflationary model itself. 
 
 After inflation ends, the universe cooled down, and keeps expanding though at a much slower rate than it did before. The thermal evolution of the universe is defined by the `competition' between the interaction rates of the particles and the expansion rate of the universe itself. The baryonic mass of the universe consists of approximately 75\% hydrogen ions and 25\% helium ions, plus small amounts of deuterium and lithium, all of which are created through Big Bang nucleosynthesis. Electrons, protons, and neutrinos are also present, and the charged baryonic matter is tightly coupled by electromagnetic interaction. Furthermore, the free electrons are tightly coupled also, to the photons, via Thompson scattering. All of this results in the so-called photon-baryon fluid. The pressure of this fluid prevents the fluctuations from gravitationally collapsing, which leads instead to the generation of acoustic waves. These are known as the Baryon Acoustic Oscillations (BAO), propagating until the protons and baryons decouple. This occurs around the time of `recombination' around 400,000 years after the Big Bang. At recombination, the universe has cooled down sufficiently for neutral hydrogen to form, and the now decoupled photons can free stream from the `surface of last scattering' through the universe. This background radiation, the `first light' of the universe, can be observed today and has a temperature of about 2.7 K-- it is known as the Cosmic Microwave Background (CMB), and primordial fluctuation patterns are imprinted on the temperature fluctuations of the CMB. 
 
@@ -79,15 +77,18 @@ Accurate redshift measurements made possible by the rise of new multi-fiber spec
 Measurements of the BAO in galaxy clustering surveys can help optimise constraints on the expansion rate and on properties of dark energy. The Baryon Acoustic Oscillation Survey (BOSS)~\cite{Dawson:2012} has yielded a dataset with redshift measurements for more than 1.5 million galaxies, with redshifts ranging from $0.2 < z < 0.75$ which has resulted in percent-level constraints on the expansion rate in this redshift range~\cite{BOSS:2016wmc}. These constraints are complemented at lower redshift by results from the 6dF Redshift Survey~\cite{Beutler:2011} and at higher redshift by the WiggleZ survey~\cite{Blake:2011a,Blake:2011b}. 
 
 There remains a number of unanswered questions in cosmology and LSS, for example finding out more about the origin of cosmic acceleration, and studying the physics of the early universe, which includes detection of primordial non-Gaussianity. Such a detection could help discriminate between various theories of inflation and other models of the early universe. The current state-of-the-art surveys are the so-called Stage III surveys, and they include eBOSS~\cite{Dawson:2015wdb}, the Dark Energy Survey (DES)~\cite{DES:2014xto}, and the Hobby-Eberly Telescope Dark Energy Experiment (HETDEX)~\cite{Hill:2008}. 
-The next-generation surveys, which will provide us with a wealth of high precision cosmological information, are known as Stage IV surveys. These include e.g. the Dark Energy Spectroscopic Instrument (DESI\footnote{https://www.desi.lbl.gov}), the Subaru Prime Focus Spectrograph (PFS\footnote{https://pfs.ipmu.jp}), 4MOST\footnote{https://www.4most.eu/cms/}, and space-based instruments Nancy Grace Roman Space Telescope\footnote{https://roman.gsfc.nasa.gov} (formerly WFIRST) and Euclid\footnote{https://www.euclid-ec.org}.
+The next-generation surveys, which will provide us with a wealth of high precision cosmological information, are known as Stage IV surveys. These include e.g. the Dark Energy Spectroscopic Instrument (DESI\footnote{https://www.desi.lbl.gov}), the Subaru Prime Focus Spectrograph (PFS\footnote{https://pfs.ipmu.jp}), 4MOST\footnote{https://www.4most.eu/cms/}, the space-based instruments Nancy Grace Roman Space Telescope\footnote{https://roman.gsfc.nasa.gov} (formerly WFIRST) and Euclid\footnote{https://www.euclid-ec.org}, and 21cm intensity mapping surveys MeerKAT\footnote{www.sarao.ac.za/science/meerkat/}, the SKA\footnote{{www.skatelescope.org/}}, and HIRAX\footnote{hirax.ukzn.ac.za/}. 
 
-In this thesis, we treat two surveys with specific interest. The first is a Stage IV spectroscopic galaxy survey similar to what will be carried out by the Euclid satellite. Secondly, we consider in more detail the use of intensity mapping of 21cm emission as a tracer of the galaxy distribution in cosmology, such as the Square Kilometre Array (SKA), HIRAX and PUMA. These surveys are discussed in more detail in chapter~\ref{chapter:detect}. 
+In this thesis, we treat two surveys with specific interest. The first is a Stage IV spectroscopic galaxy survey similar to what will be carried out by the Euclid satellite. Secondly, we consider in more detail the use of intensity mapping of 21cm emission as a tracer of the galaxy distribution in cosmology, such as the SKA, HIRAX, and PUMA (the latter of which is still in proposal stage). These surveys are discussed in more detail in Chapter~\ref{chapter:detect}. 
 
 
 \section{Statistics of galaxy clustering}
 \label{section:introbisp} 
 
+
+\iffalse
 Tests of theories of the early universe that describe the primordial fluctuations are statistical in nature for a number of reasons. For one, there is no direct observational access to primordial fluctuations, and secondly, the timescales required to follow cosmological evolution of systems is much longer than that over which observations are realistically possible. In essence this means that observations on the past lightcone show different objects at different phases of their evolution, and as a result, tests of the evolution of large scale structure must be carried out statistically. 
+\fi
 
 A goal of theoretical cosmology is to make statistical predictions which depend on the statistical properties of primordial perturbations, which in turn lead to the formation of large scale structures in the universe. In these models, the observable universe is modelled simply as a stochastic realisation of a statistical ensemble of possibilities. The most widely considered models are based on the inflationary paradigm, and generically give rise to adiabatic Gaussian initial fluctuations. In this case, the origin of stochasticity lies in quantum fluctuations that were generated in the early universe. 
 
@@ -95,7 +96,7 @@ In a LSS galaxy survey, the fluctuations in the number of galaxies are measured 
 \begin{equation}
 	\delta(\n,z) = \frac{N(\n,z) - \bar{N}(z)}{\bar{N}(z)}\,.
 \end{equation}
-We will briefly review some of the results that have been obtained from studying the two-point correlation function of $\delta(\n,z)$, or the power spectrum in Fourier space. A purely Gaussian field would be fully described by the two-point correlation, which is the joint ensemble averate of the density fluctuation at two different points. Since one of the primary goals of the next-generation surveys is to detect primordial non-Gaussianity, increase in theoretical precision is required. This gives rise to the need for analysis of higher-order correlators, which will contain information that is both complementary and additional to what is contained in the power spectrum. The first of these higher-order correlation functions is the three-point function, or bispectrum in Fourier space. The bispectrum will be crucial for helping improve constraints in future surveys, and the remainder of this thesis is concerned with improving the theoretical description of the bispectrum of galaxies, as well as the feasability of detecting such a signal in upcoming surveys.
+We will briefly review some of the results that have been obtained from studying the two-point correlation function of $\delta(\n,z)$. A purely Gaussian field would be fully described by the two-point correlation, which is the joint ensemble average of the density fluctuation at two different points. However, one of the primary goals of next-generation surveys is to detect primordial non-Gaussianity, and for this to be possible, theoretical accuracy must match experimental precision. This gives rise to the need for analysis of higher-order correlators, which will contain information that is both complementary and additional to what is contained in the power spectrum. The first of these higher-order correlation functions is the three-point function, or bispectrum in Fourier space. The bispectrum will be crucial for helping improve constraints in future surveys, and the remainder of this thesis is concerned with improving the theoretical description of the bispectrum of galaxies, as well as the feasability of detecting such a signal in upcoming surveys.
 
 \subsection{The two-point function}
 
@@ -106,13 +107,13 @@ A purely Gaussian field is fully described by the two-point correlation function
 which is dependent on the distance $r$ between the two points only, due to statistical homogeneity and isotropy which are assumed throughout. Usually, the density contrast $\delta$ is expressed in terms of its Fourier space components, where our Fourier convention is 
 
 \begin{equation}
-	\delta({\x}) = \int \frac{\diff^3k}{(2\pi)^3} \, e^{\i \k \cdot \x } \delta(\x),
+	\delta({\x}) = \int \frac{\diff^3k}{(2\pi)^3} \, e^{\i \k \cdot \x } \delta(\k),
 \end{equation}
-where $\delta(\k)$ are complex random variables. Note that there are other Fourier conventions in use in literature, which differ as to where the factor of $2\pi$ goes.
+where $\delta(\k)$ are complex random variables. Note that there are other Fourier conventions in use in literature, which differ as to where the factors of $2\pi$ go.
 
 Since the density contrast is real, this means that we have
 \begin{equation}
-	\delta(k) = \delta^*(-\k).
+	\delta(\k) = \delta^*(-\k).
 \end{equation}
 
 Similarly, the correlators can also be computed in Fourier space, as follows, 
@@ -132,11 +133,11 @@ where $P(k)$ is by definition the (density) power spectrum. There are several co
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=0.7\textwidth]{fig/placeholder_pk.png}
-	\caption{Power spectrum}
+	\caption{Linear matter power spectrum as generated by CAMB.}
 	\label{fig:powerspectrum}
 \end{figure}
 
-The power spectrum is a measure of probability-- e.g. in the case of a power spectrum of galaxies, the probability of finding galaxies at some distance $r$ from one another. The galaxy power spectrum has been used extensively to extract cosmological information from large scale surveys. However, the observed distribution of galaxies has several more complex features, such as e.g. compact clusters, underdense regions, and other. These features are not captured by two-point statistics, which means that especially when more precise measurements are carried out such as will be the case for the next generation of surveys, information would be lost. This gives rise to the need for higher-order statistics and their Fourier transforms. 
+The galaxy power spectrum has been used extensively to extract cosmological information from large scale surveys. However, the observed distribution of galaxies has several more complex features, such as e.g. compact clusters, and underdense regions. These features are not captured by two-point statistics, which means that especially when more precise measurements are carried out such as will be the case for the next generation of surveys, information would be lost. This gives rise to the need for higher-order statistics and their Fourier transforms. 
 
 \subsection{The three-point function}
 
@@ -152,7 +153,11 @@ More concretely, this means that for a purely Gaussian field, $\langle \delta(\k
 \begin{equation}
 	\langle \delta(\ka) \delta(\kb) \delta(\kc) \rangle = (2 \pi )^3 \delta^\mathrm{D}(\ka + \kb + \kc) \left[ 2 F_2(\ka,\kb) P_\mathrm{L}(\ka) P_\mathrm{L}(\kb) + \text{ 2 c.p.} \right]
 \end{equation}
-where $F_2$ is the Fourier space density evolution kernel, $P_\mathrm{L}$ is the linear power spectrum from the previous discussion, and redshift dependence is suppressed for brevity. More generally, we can write, 
+where $F_2$ is the Fourier space density evolution kernel, which is given by, 
+\begin{equation}
+	F_2(\ka,\kb) = 1 + \frac{F}{D^2} + \left( \frac{k_1}{k_2} + \frac{k_2}{k_1} \right) \ka \cdot \kb + \left( 1 - \frac{F}{D^2} \right) \left( \ka \cdot \kb \right)^2\,,	
+\end{equation}
+where $F \equiv F(a)$ is the second-order growth factor, and the Einstein-De Sitter relation $F/D^2 = 3/7$ is a very good approximation for $\Lambda$CDM. Further, $P_\mathrm{L}$ is the linear power spectrum from the previous discussion, and redshift dependence is suppressed for brevity. More generally, we can write, 
 \begin{equation}
 	\langle \delta(\ka) \delta(\kb) \delta(\kc) \rangle = (2 \pi )^3 \delta^\mathrm{D}(\ka + \kb + \kc) B_g(\ka,\kb,\kc)\,,
 \end{equation}
@@ -170,37 +175,49 @@ Similar to how the power spectrum is a measure of probability of finding pairs o
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[width=0.8\textwidth]{fig/Equilateral.png}
-	\caption{An illustration of a Fourier-space triangle shape and the corresponding real space signature-- in this case the equilateral bispectrum. The field (denoted T here) can be decomposed into plane waves, and the three components that form an equilateral triangle can have different signs relative to each other. This gives an overall sign to bispectrum $b$, to be interpreted as an average probability of which sign is more likely. A positive sign corresponds to the combination of wavevectors being more likely to produce concentrated overdensities surrended by areas of milder underdensity. For a negative equilateral bispectrum, this is the other way round, and one would expect to see on average more concentrated underdensities surrounded by areas with mild overdensity. Please note that these are slices of 3D figures, which extend into the page-- meaning that a positive sign on the bispectrum corresponds to filaments of overdensities surrounded by areas of mild underdensity. Note also that this concerns a statistical quantity only, so while on average one would expect to see more of one type of signature, the observed distribution does not uniformly look like a given real space structure.~\cite{Lewis:2011}}
+	\caption{An illustration of a Fourier-space triangle shape and the corresponding real space signature-- in this case the equilateral bispectrum. The field (denoted T here) can be decomposed into plane waves, and the three components that form an equilateral triangle can have different signs relative to each other. This gives an overall sign to bispectrum $b$, to be interpreted as an average probability of which sign is more likely. A positive sign corresponds to the combination of wavevectors being more likely to produce concentrated overdensities surrended by areas of milder underdensity. For a negative equilateral bispectrum, this is the other way round, and one would expect to see on average more concentrated underdensities surrounded by areas with mild overdensity. Please note that these are slices of 3D figures, which extend into the page-- meaning that a positive sign on the bispectrum corresponds to filaments of overdensities surrounded by areas of mild underdensity. Note also that this concerns a statistical quantity only, so while on average one would expect to see more of one type of signature, the observed distribution does not uniformly look like a given real space structure. Figure taken from~\cite{Lewis:2011}}
 	\label{fig:realspacesignature}
 \end{figure}
 
+
+
 \subsubsection{Measurements of the bispectrum}
 
-Most measurements of higher-order correlation functions so far are rather noisy and imprecise, and there is a lack of dedicated analysis tools (e.g. theoretical predictions, estimators, likelihood models) for higher-order statistics compared to the analysis toolkit available for two-point statistics. Forecasts for constraints using the galaxy bispectrum usually assume that the main cosmological parameters are known exactly, and determine expected uncertainty on the bias and/or non-Gaussianity parameters~\cite{Scoccimarro:2003wn,Sefusatti:2007ih,Song:2015gca,Tellarini:2016sgp,Yamauchi:2016wuc,Karagiannis:2018jdt}, which recently got extended to theories of modified gravity~\cite{Yamauchi:2017ibz}. Fisher forecasts using joint galaxy clustering data and CMB data are presented in~\cite{Sefusatti:2006pa}, Other related work has focussed on developing optimal compression algorithms for three-point statistics~\cite{Byun:2017fkz,Gualdi:2018pyw}, and on detecting PNG due to massive spinning particles during the inflationary era~\cite{MoradinezhadDizgah:2018ssw}. Forecasts combining measurements of the galaxy power spectrum and bispectrum to constrain the standard cosmological parameters was done in~\cite{Yankelevich:2018uaz}, which uses the standard Newtonian contributions to the galaxy bispectrum only for signal-to-noise ratio calculations as well as Fisher forecasts. 
+Most measurements of higher-order correlation functions so far are rather noisy and imprecise, and there is a lack of dedicated analysis tools (e.g. theoretical predictions, estimators, likelihood models) for higher-order statistics compared to the analysis toolkit available for two-point statistics. Forecasts for constraints using the galaxy bispectrum usually assume that the main cosmological parameters are known exactly, and determine expected uncertainty on the bias and/or non-Gaussianity parameters~\cite{Scoccimarro:2003wn,Sefusatti:2007ih,Song:2015gca,Tellarini:2016sgp,Yamauchi:2016wuc,Karagiannis:2018jdt}, which recently got extended to theories of modified gravity~\cite{Yamauchi:2017ibz}. Fisher forecasts using joint galaxy clustering data and CMB data are presented in~\cite{Sefusatti:2006pa}, Other related work has focussed on developing optimal compression algorithms for three-point statistics~\cite{Byun:2017fkz,Gualdi:2018pyw}, and on detecting PNG due to massive spinning particles during the inflationary era~\cite{MoradinezhadDizgah:2018ssw}. Forecasts combining measurements of the galaxy power spectrum and bispectrum to constrain the standard cosmological parameters was done in~\cite{Yankelevich:2018uaz}, which uses the standard Newtonian contributions to the galaxy bispectrum only for signal-to-noise ratio calculations as well as Fisher forecasts. See Figure~\ref{fig:snr_yp} for an example of a forecast for the SNR using the bispectrum.
 
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=0.7\textwidth]{fig/ypsnr.png}
 	\caption{Signal-to-noise ratio for measurements of the galaxy power spectrum and bispectrum in a Euclid-like galaxy survey as a function of redshift $z$, as computed by~\cite{Yankelevich:2018uaz}. Displayed are the SNR for the power spectrum (dot-dashed), bispectrum (dashed). Solid line is the combined SNR, and the SNR computed by neglecting the cross-covariance between the power spectrum and bispectrum is denoted by a dotted line.}
+	\label{fig:snr_yp}
 \end{figure}
 
 \section{Galaxy bias}
 \label{section:galaxybias}
 
-Galaxy bias is the statistical relation between the observed distribution of galaxies and the underlying matter distribution. On scales where the cosmic density fields are quasi-linear, the clustering of galaxies can be described by a perturbative bias expansion. In this formalism, the complicated physics concerning formation of galaxies can be absorbed by a finite set of expanion coefficients known as the bias parameters. In this section we will briefly review the origin of the field and set out the relevant bias models for this thesis. For the majority of this thesis, that is, up to chapter~\ref{chapter:multipoles}, we use a simple local-in-mass-density model of galaxy bias. Primordial non-Gaussianity, which we include in chapter~\ref{chapter:localpng}, introduces a scale-dependence in galaxy bias and hence requires separate treatment. It is worth noting that we consider only PNG of the local type. For a full review of galaxy bias, see~\cite{Desjacques:2016bnm}.
+Galaxy bias is the statistical relation between the observed distribution of galaxies and the underlying matter distribution. On scales where the cosmic density fields are quasi-linear, the clustering of galaxies can be described by a perturbative bias expansion. In this formalism, the complicated physics concerning formation of galaxies can be absorbed by a finite set of expanion coefficients known as the bias parameters. In this section we will briefly review the origin of the field and set out the relevant bias models for this thesis. For the majority of this thesis, that is, up to Chapter~\ref{chapter:multipoles}, we use a simple local-in-mass-density model of galaxy bias. Primordial non-Gaussianity, which we include in Chapter~\ref{chapter:localpng}, introduces a scale-dependence in galaxy bias and hence requires separate treatment. It is worth noting that we consider only PNG of the local type. For a full review of galaxy bias, see~\cite{Desjacques:2016bnm}.
 
 All sorts of galaxy surveys and the resulting statistical studies of the distribution of galaxies ciritally rely on a robust description of the relation between the galaxies and the underlying dark matter. Of course galaxies are not the only tracers of this dark matter distribution, but the term galaxy bias is often used as a convenient term to encompass the biasing of all such tracers. Other examples include, but are not limited to, the Lyman-$\alpha$ forest, and HI intensity mapping-- the latter of which is considered in this thesis along with the more traditional spectroscopic galaxy surveys. 
 
-Roughly speaking, LSS can be divided into two regimes, small non-linear scales, which cannot be described with perturbation theory, and large quasi-linear scales, which can adequately be described by perturbation theory, provided if it is carried out to sufficiently high order. Here we will consider only quasi-linear scales, so that perturbation theory will not break down. On these scales, the complex process of galaxy formation, which is itself far from being understood in detail, can at each order in perturbations and at fixed time, be absorbed into a finite set of parameters called the bias parameters. This is a remarkable result, and relies on the fact that on large scales the formation of structure is entirely determined by gravity. 
+Roughly speaking, LSS can be divided into two regimes, small non-linear scales, which cannot be described with perturbation theory, and large quasi-linear scales, which can adequately be described by perturbation theory, provided if it is carried out to sufficiently high order. Here we will consider only quasi-linear scales, so that perturbation theory will not break down. On these scales, the complex process of galaxy formation, which is itself far from being understood in detail, can at each order in perturbations and at fixed time, be absorbed into a finite set of parameters called the bias parameters. This is a remarkable result, and relies on the fact that on large scales the formation of structure is almost entirely determined by gravity. 
 
 \subsection{Local-in-mass-density model of galaxy bias}
+
+The simplest example of a local model of galaxy bias is the local-in-mass-density (LIMD) model of galaxy bias. In this model, we assume that dark matter haloes simply correspond to overdensities (i.e. regions above some threshold density $\delta_\mathrm{cr}$).
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=0.8\textwidth]{fig/limdcartoon.png}
+	\caption{Illustration of the LIMD model of galaxy bias. The red line indicates a long wavelength perturbation, and the blue line denotes the density field $\delta_R$. The dashed horizontal magenta line shows the critical density $\delta_{\mathrm{cr}}$. Regions of overdensity $\delta_R$ that get pushed above this critical density threshold collapse to form halos in which galaxies are formed.}
+	\label{fig:limdcartoon}
+\end{figure}
 
 \iffalse
 The general form of the LIMD model of galaxy bias is expanding the galaxy overdensity $\delta_g$ in terms of dark matter overdensities with bias coefficients as, 
 \begin{equation}
 	\delta_g = b_1 \delta + \frac{b_2}{2} \delta^2 + \ldots\,.
 \end{equation}
-\fi
+
 The bias coefficients $b_O$ can be understood to be coefficients of some physical operators $O(\x,\eta)$ in an expansion of the galaxy overdensity, which has the general form,
 \begin{equation}
 	\delta_g(\x,\eta) = \sum_O b_O(\eta) O(\x,\eta)\,.
@@ -211,7 +228,24 @@ The simplest example of a local bias expansion would be the LIMD bias in Lagrang
 
 In this simplified model, we assume dark matter halos to simply correspond to overdense regions (i.e. above some threshold density) in Lagrangian space. The observed galaxies reside in these dark matter halos. More specificially, this means that the initial matter density field, which is assumed to be Gaussian and often referred to as the linear density field $\delta^\on$, is extrapolated to some desired reference time using linear growth. 
 
-We will review how the local bias expression in the Newtonian case is derived, and will just quote the results for the more complicated relativistic case when appropriate later on in this thesis. 
+We will review how the local bias expression in the Newtonian case is derived, and will just quote the results for the more complicated relativistic case when appropriate later on in this thesis. There are a few more things to consider along with the order of the perturbative expansion of the galaxy bias, since there are other factors that play a role in the formation of galaxies. To have a physically motivated definition of galaxy bias, one needs to introduce a physical scale, which denotes some spatial region associated with the process of galaxy formation. Intuitively this means that the number of galaxies formed in a certain region depends on the detailed distribution of the underlying matter-- as well as on other gravitational observables such as tidal fields, which enter our description of galaxy overdensity as tidal bias, as we shall see later on. A final thing to consider is that the naive relation between the galaxy density field $\delta$ and the operators $O$ is deterministic. In reality, one needs to account for some randomness, or stochasticity, since whether or not a galaxy forms in any given location depends on initial conditions on very small scales. The random phases of these scales are not covered by our perturbative bias expansion. Adding this stochasticity, we obtain, 
+\begin{equation}
+	\delta_g(\x, \eta) = \sum_O b_O(\eta) O(\x,\eta) + \epsilon(\x,\eta) + \sum_O \epsilon_O(\x,\eta) O(\x,\eta)\,, 
+\end{equation}
+where the random $\epsilon$ and $\epsilon_O$ are uncorrelated with the large-scale perturbations described by the operators $O$, as well as uncorrelated amongst themselves on large scales. Then, their contribution to the total galaxy statistics can be described by a finite set of parameters. 
+
+The LIMD model is based on the simple assumption that the dark matter halos in which galaxies reside simply correspond to overdense regions in Lagrangian space. In order to define the regions `above threshold' which end up collapsing to form halos, we filter the initial density field on a scale corresponding to the spatial region associated with galaxy formation $R$ and call this $\delta_R$. Figure~\ref{fig:limdcartoon} illustrates the density field $\delta_R$ in relation to the critical density threshold $\delta_\mathrm{cr}$.
+
+
+
+\fi
+
+\subsection{Scale-dependent bias in the presence of PNG}
+Scale-dependent bias in literature can refer to any non-trivial (i.e. $k$-dependent) Fourier-space relation between galaxy overdensity and the underlying dark matter density. Primordial non-Gaussianity generates such a leading non-local term in the bias relation. In this thesis we only consider PNG of the local type. This is defined as a simple form of non-linearity in the primordial curvature perturbation, which is local in configuration space. Usually, these perturbations are expressed in terms of the Bardeen potential $\varphi$. This in turn is directly related to the curvature perturbation in comoving gauge 
+
+
+\iffalse
+
 
 
 \iffalse
@@ -273,19 +307,11 @@ From this, using relations between the T-gauge galaxy density contrast and matte
 \end{align}
 In the above equation, the velocity and metric potentials ensure that there is gauge-independence on ultra-large scales. 
 \fi
-
-\section{Non-Gaussianity}
+\fi
+\section{Primordial non-Gaussianity}
 
 Types of primodial non-Gaussianity in the bispectrum, their signatures on various scales, scale dependence it introduces in the clustering bias etc. 
 
-Also gotta mention how formation of structure itself gives rise to non-Gaussianity in the universe which can mimic fnl on large scales, include some pictures from like sheean's papers etc
+Also gotta mention how formation of structure itself gives rise to non-Gaussianity in the universe which can mimic fnl on large scales, include some pictures from like sheean's papers etc-- showing the bias from a Gaussian treatment.
 
-
-cum sit enim proprium \\
-viro sapienti \\
-supra petram ponere \\
-sedem fundamenti \\
-stultus ego comparor \\
-fluvio labenti \\
-sub eodem tramite \\
-nunquam permanenti 
+The rest of this thesis is organised as follows. In Chapter~\ref{chapter:dipole}, we introduce the lowest order (i.e. least suppressed) relativistic corrections to the bispectrum and consider how they affect the amplitude of the bispectrum. These leading-order relativistic corrections give rise to a local dipole with respect to the observer's line-of-sight, which is absent in the purely Newtonian picture. The amplitude of this dipole, which if detected would be a smoking-gun signal for relativistic corrections, is even on equality scales about 10\% of that of the monopole (at redshift $z = 1$). This implies that the dipole of the bispectrum is a unique signature of GR on cosmological scales. In Chapter~\ref{chapter:detect}, we make an estimate for the detectability of such a relativistic signal in next-generation spectroscopic and intensity mapping surveys. For a Stage IV spectroscopic survey similar to \textit{Euclid}, we find that the signal-to-noise ratio for these leading order effects is of $\sim 17$, while the 21cm intensity mapping surveys suffer from foreground and beam effects-- we forecast a marginally detecable SNR of $\sim 6$ for SKA1 and $\sim 5$ for HIRAX. Then, Chapter~\ref{chapter:ho} summarises past work on adding local relativistic corrections at all orders of $\cH/k$ to the bispectrum, and a fully analytic multipole expansion with relevant numerical analyses for future surveys is presented in Chapter~\ref{chapter:multipoles}. The relativistic bispectrum generates non-zero multipoles for both even and odd multipole number $\ell$, where the odd multipoles are induced by relativistic effects only. Finally, we expand the theoretical description of the Fourier-space galaxy bispectrum by adding local primordial non-Gaussianity in Chapter~\ref{chapter:localpng}. This allows for better separation of the relativistic signature and biasing due to the presence of PNG-- we find that the bias from using a Newtonian analysis of the squeezed bispectrum could be as large as $\Delta f_\nl \sim 5$ for a Stage IV H$\alpha$ survey. 

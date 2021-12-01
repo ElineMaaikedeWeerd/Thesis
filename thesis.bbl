@@ -460,6 +460,13 @@ V.~Desjacques, D.~Jeong and F.~Schmidt, \emph{{Large-Scale Galaxy Bias}},
   {\bfseries 733} (2018) 1} [\href{https://arxiv.org/abs/1611.09787}{{\ttfamily
   1611.09787}}].
 
+\bibitem{Clarkson:2018dwn}
+C.~Clarkson, E.~M. de~Weerd, S.~Jolicoeur, R.~Maartens and O.~Umeh, \emph{{The
+  dipole of the galaxy bispectrum}},
+  \href{https://doi.org/10.1093/mnrasl/slz066}{\emph{Monthly Notices of the
+  Royal Astronomical Society} {\bfseries 486} (2019) L101}
+  [\href{https://arxiv.org/abs/1812.09512}{{\ttfamily 1812.09512}}].
+
 \bibitem{McDonald:2009dh}
 P.~McDonald, \emph{{Gravitational redshift and other redshift-space distortions
   of the imaginary part of the power spectrum}},
@@ -629,12 +636,16 @@ S.~Camera, J.~Fonseca, R.~Maartens and M.~G. Santos, \emph{{Optimized angular
   Soc.} {\bfseries 481} (2018) 1251}
   [\href{https://arxiv.org/abs/1803.10773}{{\ttfamily 1803.10773}}].
 
-\bibitem{Clarkson:2018dwn}
-C.~Clarkson, E.~M. de~Weerd, S.~Jolicoeur, R.~Maartens and O.~Umeh, \emph{{The
-  dipole of the galaxy bispectrum}},
-  \href{https://doi.org/10.1093/mnrasl/slz066}{\emph{Monthly Notices of the
-  Royal Astronomical Society} {\bfseries 486} (2019) L101}
-  [\href{https://arxiv.org/abs/1812.09512}{{\ttfamily 1812.09512}}].
+\bibitem{Jolicoeur:2020eup}
+S.~Jolicoeur, R.~Maartens, E.~M. De~Weerd, O.~Umeh, C.~Clarkson and S.~Camera,
+  \emph{{Detecting the relativistic bispectrum in 21cm intensity maps}},
+  \href{https://arxiv.org/abs/2009.06197}{{\ttfamily 2009.06197}}.
+
+\bibitem{Maartens:2019yhx}
+R.~Maartens, S.~Jolicoeur, O.~Umeh, E.~M. De~Weerd, C.~Clarkson and S.~Camera,
+  \emph{Detecting the relativistic galaxy bispectrum},
+  \href{https://doi.org/10.1088/1475-7516/2020/03/065}{\emph{JCAP} {\bfseries
+  2020} (2020) 065–065}.
 
 \bibitem{Jeong:2019igb}
 D.~Jeong and F.~Schmidt, \emph{{Parity-odd galaxy bispectrum}},
@@ -848,12 +859,6 @@ J.~Fonseca, S.~Camera, M.~Santos and R.~Maartens, \emph{{Hunting down
   \href{https://doi.org/10.1088/2041-8205/812/2/L22}{\emph{Astrophys. J. Lett.}
   {\bfseries 812} (2015) L22}
   [\href{https://arxiv.org/abs/1507.04605}{{\ttfamily 1507.04605}}].
-
-\bibitem{Maartens:2019yhx}
-R.~Maartens, S.~Jolicoeur, O.~Umeh, E.~M. De~Weerd, C.~Clarkson and S.~Camera,
-  \emph{Detecting the relativistic galaxy bispectrum},
-  \href{https://doi.org/10.1088/1475-7516/2020/03/065}{\emph{JCAP} {\bfseries
-  2020} (2020) 065–065}.
 
 \bibitem{Umeh:2016thy}
 O.~Umeh, \emph{{Imprint of non-linear effects on HI intensity mapping on large
@@ -1278,6 +1283,13 @@ C.~Rampf and A.~Wiegand, \emph{{Relativistic Lagrangian displacement field and
   {\bfseries 90} (2014) 123503}
   [\href{https://arxiv.org/abs/1409.2688}{{\ttfamily 1409.2688}}].
 
+\bibitem{deWeerd:2019cae}
+E.~M. de~Weerd, C.~Clarkson, S.~Jolicoeur, R.~Maartens and O.~Umeh,
+  \emph{{Multipoles of the relativistic galaxy bispectrum}},
+  \href{https://doi.org/10.1088/1475-7516/2020/05/018}{\emph{JCAP} {\bfseries
+  05} (2020) 018} [\href{https://arxiv.org/abs/1912.11016}{{\ttfamily
+  1912.11016}}].
+
 \bibitem{Jeong:2009vd}
 D.~Jeong and E.~Komatsu, \emph{{Primordial non-Gaussianity, scale-dependent
   bias, and the bispectrum of galaxies}},
@@ -1305,6 +1317,14 @@ O.~Umeh, K.~Koyama, R.~Maartens, F.~Schmidt and C.~Clarkson, \emph{{General
   1905} (2019) 020} [\href{https://arxiv.org/abs/1901.07460}{{\ttfamily
   1901.07460}}].
 
+\bibitem{Maartens:2020jzf}
+R.~Maartens, S.~Jolicoeur, O.~Umeh, E.~M. De~Weerd and C.~Clarkson,
+  \emph{{Local primordial non-Gaussianity in the relativistic galaxy
+  bispectrum}},
+  \href{https://doi.org/10.1088/1475-7516/2021/04/013}{\emph{JCAP} {\bfseries
+  04} (2021) 013} [\href{https://arxiv.org/abs/2011.13660}{{\ttfamily
+  2011.13660}}].
+
 \bibitem{Sargent:1977}
 W.~L.~W. {Sargent} and E.~L. {Turner}, \emph{{A statistical method for
   determining the cosmological density parameter from the redshifts of a
@@ -1330,11 +1350,6 @@ J.~Yoo, \emph{{General Relativistic Description of the Observed Galaxy Power
   \href{https://doi.org/10.1103/PhysRevD.82.083508}{\emph{Phys. Rev. D}
   {\bfseries 82} (2010) 083508}
   [\href{https://arxiv.org/abs/1009.3021}{{\ttfamily 1009.3021}}].
-
-\bibitem{Jolicoeur:2020eup}
-S.~Jolicoeur, R.~Maartens, E.~M. De~Weerd, O.~Umeh, C.~Clarkson and S.~Camera,
-  \emph{{Detecting the relativistic bispectrum in 21cm intensity maps}},
-  \href{https://arxiv.org/abs/2009.06197}{{\ttfamily 2009.06197}}.
 
 \bibitem{Bruni:2011ta}
 M.~Bruni, R.~Crittenden, K.~Koyama, R.~Maartens, C.~Pitrou and D.~Wands,
@@ -1511,13 +1526,6 @@ A.~Moradinezhad~Dizgah, M.~Biagetti, E.~Sefusatti, V.~Desjacques and
   J.~Nore\~na, \emph{{Primordial Non-Gaussianity from Biased Tracers:
   Likelihood Analysis of Real-Space Power Spectrum and Bispectrum}},
   \href{https://arxiv.org/abs/2010.14523}{{\ttfamily 2010.14523}}.
-
-\bibitem{deWeerd:2019cae}
-E.~M. de~Weerd, C.~Clarkson, S.~Jolicoeur, R.~Maartens and O.~Umeh,
-  \emph{{Multipoles of the relativistic galaxy bispectrum}},
-  \href{https://doi.org/10.1088/1475-7516/2020/05/018}{\emph{JCAP} {\bfseries
-  05} (2020) 018} [\href{https://arxiv.org/abs/1912.11016}{{\ttfamily
-  1912.11016}}].
 
 \bibitem{Umeh:2020cag}
 O.~Umeh, K.~Koyama and R.~Crittenden, \emph{{Testing the equivalence principle
