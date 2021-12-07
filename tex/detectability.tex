@@ -8,7 +8,6 @@ In this chapter, we investigate whether the next generation of high-precision co
 
 \section{Detecting the leading-order relativistic signature}
 
-
 Here we highlight a feature of the tree-level Fourier galaxy bispectrum which follows from the  leading-order relativistic contribution -- due to Doppler, gravitational redshift  and related line-of-sight effects -- that is omitted in the standard Newtonian analysis. These effects generate an imaginary part of the galaxy bispectrum, which can be understood as follows (see also~\cite{McDonald:2009dh,Clarkson:2018dwn,Jeong:2019igb} for a more general discussion).  
 The Doppler-type contributions to the galaxy density contrast involve one or three derivatives  of scalars along the fixed line of sight $\bm n$ [see \eqref{dg1}, \eqref{eq:dgsecond} below]. In Fourier space, with the plane-parallel approximation, we have  $\bm{n}\cdot\bm{\nabla} \to {\i}\, \bm{n}\cdot\bm{k}$, and this leads to imaginary corrections to the galaxy density contrast, which do not cancel in the bispectrum, unlike in the power spectrum. At first order, we have $\delta_g=\delta_{g\mathrm{N}}+ \delta_{g\mathrm{D}}$, where the Newtonian part $\delta_{g\mathrm{N}}$ is real and scales as the linear matter density contrast $\delta$. The 
 relativistic Doppler-type part $\delta_{g\mathrm{D}}$ scales as ${\i}\,(\cH/k) \delta$  (see \cite{McDonald:2009dh, Jeong:2011as, Abramo:2017xnp,Clarkson:2018dwn} and below). At second  order, the relativistic contribution $\delta_{g\mathrm{D}}^{(2)}$ scales as ${\i}(\cH/k) (\delta)^2$ (see \cite{Clarkson:2018dwn} and below). 
@@ -76,18 +75,15 @@ neglecting sub-leading $ \mathcal{O}(\cH^2/k^2)$ terms, we find from \eqref{eq:b
 \nonumber \\&  \quad 
 +\mathcal{K}^{(1)}_{\mathrm{N}}(\bm{k}_{1})\mathcal{K}^{(1)}_{\mathrm{N}}(\bm{k}_{2})\mathcal{K}^{(2)}_{\mathrm{D}}(\bm{k}_{1},\bm{k}_{2},\bm{k}_{3})\bigg\}P(k_{1})P(k_{2})+\text{2 cp}. \label{e21}
 \end{align}
-The relativistic kernels follow from \eqref{dg1} and \eqref{eq:dgsecond}; they are given in \cite{Clarkson:2018dwn} as
+The relativistic kernels follow from~\eqref{dg1} and~\eqref{eq:dgsecond}; they are given in~\cite{Clarkson:2018dwn} as
 \begin{align}
-\mathcal{K}^{(1)}_{\mathrm{D}}(\bm{k}_{1}) &= \mathrm{i}\,\cH f A\,\frac{\mu_{1}}{k_{1}}\,, \label{e23} \\
-\mathcal{K}^{(2)}_{\mathrm{D}}(\bm{k}_{1},\bm{k}_{2},\bm{k}_{3}) &= \mathrm{i}\,\cH f \bigg[
+\mathcal{K}^{(1)}_{\mathrm{D}}(\bm{k}_{1}) =& \mathrm{i}\,\cH f A\,\frac{\mu_{1}}{k_{1}}\,, \label{e23} \\
+\mathcal{K}^{(2)}_{\mathrm{D}}(\bm{k}_{1},\bm{k}_{2},\bm{k}_{3}) =& \mathrm{i}\,\cH f \left[
 A\,\frac{\mu_{3}}{k_{3}}G_{2}(\bm{k}_{1},\bm{k}_{2})
-+C\left(\frac{\mu_{1}}{k_{1}} + \frac{\mu_{2}}{k_{2}}\right)
- +\left(\frac{3}{2}\Omega_{m}-fE\right)\mu_{1}\mu_{2}\left(\frac{\mu_{1}}{k_{2}}+\frac{\mu_{2}}{k_{1}}\right)
-\nonumber \\
-&\hspace*{-1.5cm}  
-{} -\frac{3}{2}\Omega_{m}\left(\mu_{1}^{3}\frac{k_{1}}{k_{2}^{2}} + \mu_{2}^{3}\frac{k_{2}}{k_{1}^{2}}\right)
-+2f\,  {\hat{\bm{k}}_{1} \cdot \hat{\bm{k}}_2}\left(\frac{\mu_{1}}{k_{1}} + \frac{\mu_{2}}{k_{2}}\right) 
- -\frac{3\Omega_{m}b_1}{2f}\left(\mu_{1}\frac{k_{1}}{k_{2}^{2}} + \mu_{2}\frac{k_{2}}{k_{1}^{2}}\right)\!  \bigg]\! .~~~ \label{e24}
++C\left(\frac{\mu_{1}}{k_{1}} + \frac{\mu_{2}}{k_{2}}\right) \right. \nonumber \\
+&\left.  +\left(\frac{3}{2}\Omega_{m}-fE\right)\mu_{1}\mu_{2}\left(\frac{\mu_{1}}{k_{2}}+\frac{\mu_{2}}{k_{1}}\right)  -\frac{3}{2}\Omega_{m}\left(\mu_{1}^{3}\frac{k_{1}}{k_{2}^{2}} + \mu_{2}^{3}\frac{k_{2}}{k_{1}^{2}}\right) \right. \nonumber \\
+&\left. +2f\,  {\hat{\bm{k}}_{1} \cdot \hat{\bm{k}}_2}\left(\frac{\mu_{1}}{k_{1}} + \frac{\mu_{2}}{k_{2}}\right) 
+ -\frac{3\Omega_{m}b_1}{2f}\left(\mu_{1}\frac{k_{1}}{k_{2}^{2}} + \mu_{2}\frac{k_{2}}{k_{1}^{2}}\right)\!  \right]\! .~~~ \label{e24}
 \end{align}
 It is clear from \eqref{e21}--\eqref{e24} and from the general expressions given in {\cite{Umeh:2016nuh,Jolicoeur:2017nyt}}, that Doppler-type relativistic effects generate an imaginary correction to the Newtonian bispectrum: 
 \begin{equation}
@@ -110,6 +106,10 @@ b_e=  - \frac{\partial \ln n_g}{\partial\ln (1+z)}\,,~~~{ {\cal Q} =- \frac{\par
 Here and below,  $n_{g}$ is the {\em comoving} galaxy number density.  (Note that the alternative magnification bias parameter  $s=2{\cal Q}/5$ is often used.)
 
 {It is interesting to note that the magnification bias ${\cal Q}$ enters the relativistic bispectrum, even though we have not  included the effect of the integrated lensing magnification $\kappa$. The reason for this apparent inconsistency is that there is a (non-integrated) Doppler correction to $\kappa$ at leading order \cite{Bonvin:2008ni,Bolejko:2012uj}.} 
+
+{\pink{ In the discussion that follows here, which is taken directly from~\cite{Maartens:2019yhx}, the evolution and magnification bias parameters as derived in Model 1 in~\cite{Pozzetti:2016cch}. These bias parameters are, as obvious in equation~\eqref{bq}, defined as derivatives of the number density of galaxies. They are hence very sensitive to the form of the luminosity function. The impact of differently modelled luminosity functions on magnification and evolution bias is discussed in detail in~\cite{Maartens:2021dqy}. 
+
+Model 1 in ~\cite{Pozzetti:2016cch} is based on the pre-2019 luminosity function. An updated luminosity function is given by Model 3 in~\cite{Pozzetti:2016cch}, which, unlike Models 1 and 2, is based on observational data. The SNR computed using galaxy number density and bias parameters derived from this model is not presented in~\cite{Maartens:2019yhx}, but we present it in this thesis in Section~\ref{ssec:snrmodel3}.}}
 
 
 \section{Signal-to-Noise}
@@ -473,6 +473,27 @@ F_{\alpha\beta} =
 where the round brackets denote symmetrisation. The cumulative marginal errors $\sigma_\alpha = [(F^{-1})_{\alpha\alpha}]^{1/2}$  are shown in Fig.~\ref{sig}. The fact that $\sigma_{A_{\mathrm{D}}}\lesssim 0.1$  means that the relativistic effects remain detectable when the two additional cosmological parameters are marginalised over.
 %
 
+\subsection{SNR using the 2019 luminosity function model}\label{ssec:snrmodel3}
+
+Analytical models of luminosity functions are typically separable in both redshift and luminosity as, 
+\begin{equation}
+    \Phi(z)
+\end{equation}
+
+Model 3, as presented in~\cite{Pozzetti:2016cch}, has a luminosity function which is based on observational data-- unlike Model 1 (presented in the previous sections) and Model 2 (not discussed here). The updated luminosity function has a reduced redshift range of $0.9 \leq z \leq 1.8$. This luminosity function is separable, and the best-fit is given by a broken power law, 
+
+\begin{equation}
+    g(y) = \frac{y^\alpha}{1 + (\ee - 1)y^\nu}
+\end{equation}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.4\textwidth]{fig/model3_perzbin.pdf}
+    \includegraphics[width=0.4\textwidth]{fig/model3_cum.pdf}
+    \caption{SNR per $z$-bin (left) and cumulative SNR (right) for Model 3}
+\end{figure}
+
+
 \subsection{Conclusions}
 
 
@@ -492,18 +513,18 @@ Accurate modelling of nonlinear effects would allow us to increase the SNR
 The relativistic SNR also relies  on the largest available scales, but very little signal is lost if $k_{\mathrm{min}}/k_{\mathrm{f}}$ is increased by a factor up  to 5, and even a factor of 10 increase leaves a detectable SNR  [Fig. \ref{kmin}].
 
 By contrast, the SNR depends strongly on accurate modelling of the second-order part of the relativistic correction  [Fig.~\ref{fig4z}]. This includes both the theoretical form \eqref{dg2}, and the
- two astrophysical parameters that do not appear in the Newtonian approximation of the galaxy bispectrum: the evolution bias $b_e$ (measuring the deviation from comoving number conservation) and the magnification bias $\Q$ (which is brought into play by a Doppler correction to standard lensing magnification).  A key feature of our analysis is a physically self-consistent derivation of these quantities from the luminosity function [Fig.~\ref{fig2} and \eqref{q}, \eqref{be}].
-We showed that the SNR is very sensitive to these parameters [Fig. \ref{fig1x}], which underlines the need for accurate physical modelling. 
+ two astrophysical parameters that do not appear in the Newtonian approximation of the galaxy bispectrum: the evolution bias $b_e$ (measuring the deviation from comoving number conservation) and the magnification bias $\Q$ (which is brought into play by a Doppler correction to standard lensing magnification).  A key feature of our analysis is a physically self-consistent derivation of these quantities from the luminosity function [Fig.~\ref{fig2} and~\eqref{q}, \eqref{be}].
+We showed that the SNR is very sensitive to these parameters [Fig.~\ref{fig1x}], which underlines the need for accurate physical modelling. 
 
-We assumed a Gaussian covariance in our computations, but we used the approximation  of \cite{Chan:2016ehg} to include non-Gaussian corrections. 
+We assumed a Gaussian covariance in our computations, but we used the approximation  of~\cite{Chan:2016ehg} to include non-Gaussian corrections. 
 
 Further work should include the window function which we have  neglected.
-The imaginary part of the galaxy bispectrum generates a dipole, as shown in \cite{Clarkson:2018dwn}. This suggests a multipole analysis that uses the relativistic dipole in addition to the monopole and quadrupole, {which are unaffected by relativistic effects at leading order.} The
-window function can also have an imaginary part \cite{Beutler:2018vpe}, which will need to be corrected for. The dipole from the imaginary part of the bispectrum vanishes in equilateral configurations \cite{Clarkson:2018dwn}, which may help to disentangle the relativistic dipole from that of the window function.
+The imaginary part of the galaxy bispectrum generates a dipole, as shown in~\cite{Clarkson:2018dwn}. This suggests a multipole analysis that uses the relativistic dipole in addition to the monopole and quadrupole, {which are unaffected by relativistic effects at leading order.} The
+window function can also have an imaginary part~\cite{Beutler:2018vpe}, which will need to be corrected for. The dipole from the imaginary part of the bispectrum vanishes in equilateral configurations~\cite{Clarkson:2018dwn}, which may help to disentangle the relativistic dipole from that of the window function.
 
-{Our analysis, in common with other works on the Fourier bispectrum, implicitly uses the plane-parallel approximation, since the line-of-sight direction ${\bm{n}}$ is fixed. At the cost of significant complexity, the approximation can be avoided, for example by using a Fourier-Bessel analysis of bispectrum multipoles \cite{Castorina:2017inr}. Further work is needed to address this, but we note that errors from the approximation are mitigated in high redshift surveys such as the one considered here.}
+{Our analysis, in common with other works on the Fourier bispectrum, implicitly uses the plane-parallel approximation, since the line-of-sight direction ${\bm{n}}$ is fixed. At the cost of significant complexity, the approximation can be avoided, for example by using a Fourier-Bessel analysis of bispectrum multipoles~\cite{Castorina:2017inr}. Further work is needed to address this, but we note that errors from the approximation are mitigated in high redshift surveys such as the one considered here.}
 
-Finally, further work also needs to include the effects of lensing magnification, which are excluded in the standard Fourier analysis, but have been included in the galaxy angular bispectrum \cite{Kehagias:2015tda,DiDio:2015bua, DiDio:2016gpd, DiDio:2018unb} and in a spherical Bessel analysis \cite{Bertacca:2017dzm}. 
+Finally, further work also needs to include the effects of lensing magnification, which are excluded in the standard Fourier analysis, but have been included in the galaxy angular bispectrum~\cite{Kehagias:2015tda,DiDio:2015bua, DiDio:2016gpd, DiDio:2018unb} and in a spherical Bessel analysis~\cite{Bertacca:2017dzm}. 
 %
 %
 %

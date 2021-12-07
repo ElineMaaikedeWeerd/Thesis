@@ -691,6 +691,20 @@ K.~Bolejko, C.~Clarkson, R.~Maartens, D.~Bacon, N.~Meures and E.~Beynon,
   {\bfseries 110} (2013) 021302}
   [\href{https://arxiv.org/abs/1209.3142}{{\ttfamily 1209.3142}}].
 
+\bibitem{Pozzetti:2016cch}
+L.~Pozzetti, C.~M. Hirata, J.~E. Geach, A.~Cimatti, C.~Baugh, O.~Cucciati
+  et~al., \emph{{Modelling the number density of Hα emitters for future
+  spectroscopic near-IR space missions}},
+  \href{https://doi.org/10.1051/0004-6361/201527081}{\emph{Astron. Astrophys.}
+  {\bfseries 590} (2016) A3}
+  [\href{https://arxiv.org/abs/1603.01453}{{\ttfamily 1603.01453}}].
+
+\bibitem{Maartens:2021dqy}
+R.~Maartens, J.~Fonseca, S.~Camera, S.~Jolicoeur, J.-A. Viljoen and
+  C.~Clarkson, \emph{{Magnification and evolution biases in large-scale
+  structure surveys}},  \href{https://arxiv.org/abs/2107.13401}{{\ttfamily
+  2107.13401}}.
+
 \bibitem{Chan:2016ehg}
 K.~C. Chan and L.~Blot, \emph{{Assessment of the Information Content of the
   Power Spectrum and Bispectrum}},
@@ -722,14 +736,6 @@ A.~Oddo, E.~Sefusatti, C.~Porciani, P.~Monaco and A.~G. S\'anchez,
   \href{https://doi.org/10.1088/1475-7516/2020/03/056}{\emph{JCAP} {\bfseries
   03} (2020) 056} [\href{https://arxiv.org/abs/1908.01774}{{\ttfamily
   1908.01774}}].
-
-\bibitem{Pozzetti:2016cch}
-L.~Pozzetti, C.~M. Hirata, J.~E. Geach, A.~Cimatti, C.~Baugh, O.~Cucciati
-  et~al., \emph{{Modelling the number density of Hα emitters for future
-  spectroscopic near-IR space missions}},
-  \href{https://doi.org/10.1051/0004-6361/201527081}{\emph{Astron. Astrophys.}
-  {\bfseries 590} (2016) A3}
-  [\href{https://arxiv.org/abs/1603.01453}{{\ttfamily 1603.01453}}].
 
 \bibitem{Pan:2019dxa}
 H.~Pan, D.~Obreschkow, C.~Howlett, C.~d.~P. Lagos, P.~J. Elahi, C.~Baugh
