@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.7.12)  8 DEC 2021 13:01
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.7.12)  8 DEC 2021 16:24
  restricted system commands enabled.
 **thesis.tex
 (./thesis.tex
@@ -1137,27 +1137,28 @@ Package luatex.def Info: fig/limdcartoon.png  used on input line 217.
 
 (./tex/dipole.tex
 chapter 2.
-Random number generator initialized to 2254670
-<hats/realhats-santa.pdf, id=481, 567.29973pt x 407.78091pt>
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 14.
-(luatex.def)             Requested size: 10.344pt x 7.42934pt.
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 14.
-(luatex.def)             Requested size: 10.344pt x 7.42934pt.
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 14.
-(luatex.def)             Requested size: 10.344pt x 7.42934pt.
+Random number generator initialized to 2780846
+<hats/realhats-ash.pdf, id=481, 580.22975pt x 460.19052pt>
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+Package luatex.def Info: hats/realhats-ash.pdf  used on input line 14.
+(luatex.def)             Requested size: 9.3096pt x 7.38005pt.
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+Package luatex.def Info: hats/realhats-ash.pdf  used on input line 14.
+(luatex.def)             Requested size: 9.3096pt x 7.38005pt.
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+Package luatex.def Info: hats/realhats-ash.pdf  used on input line 14.
+(luatex.def)             Requested size: 9.3096pt x 7.38005pt.
 [27
 
 
 
 
-</usr/local/texlive/2021/texmf-dist/tex/latex/realhats/hats/realhats-santa.pdf>] [28] [29]
-<hats/realhats-sombrero.pdf, id=557, 578.87624pt x 388.37846pt>
+</usr/local/texlive/2021/texmf-dist/tex/latex/realhats/hats/realhats-ash.pdf>] 
+[28] [29]
+<hats/realhats-sombrero.pdf, id=552, 578.87624pt x 388.37846pt>
 File: hats/realhats-sombrero.pdf Graphic file (type pdf)
 <use hats/realhats-sombrero.pdf>
 Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 83.
@@ -1170,68 +1171,45 @@ File: hats/realhats-sombrero.pdf Graphic file (type pdf)
 <use hats/realhats-sombrero.pdf>
 Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 83.
 (luatex.def)             Requested size: 10.344pt x 6.93954pt.
-<hats/realhats-beret.pdf, id=558, 560.77449pt x 361.3459pt>
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-Package luatex.def Info: hats/realhats-beret.pdf  used on input line 83.
-(luatex.def)             Requested size: 10.344pt x 6.66052pt.
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-Package luatex.def Info: hats/realhats-beret.pdf  used on input line 83.
-(luatex.def)             Requested size: 10.344pt x 6.66052pt.
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-Package luatex.def Info: hats/realhats-beret.pdf  used on input line 83.
-(luatex.def)             Requested size: 10.344pt x 6.66052pt.
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 83.
-(luatex.def)             Requested size: 10.344pt x 6.93954pt.
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 83.
-(luatex.def)             Requested size: 10.344pt x 6.93954pt.
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 83.
-(luatex.def)             Requested size: 10.344pt x 6.93954pt.
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 83.
-(luatex.def)             Requested size: 10.344pt x 6.93954pt.
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 83.
-(luatex.def)             Requested size: 10.344pt x 6.93954pt.
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 83.
-(luatex.def)             Requested size: 10.344pt x 6.93954pt.
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-Package luatex.def Info: hats/realhats-beret.pdf  used on input line 87.
-(luatex.def)             Requested size: 10.344pt x 6.66052pt.
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-Package luatex.def Info: hats/realhats-beret.pdf  used on input line 87.
-(luatex.def)             Requested size: 10.344pt x 6.66052pt.
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-Package luatex.def Info: hats/realhats-beret.pdf  used on input line 87.
-(luatex.def)             Requested size: 10.344pt x 6.66052pt.
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-Package luatex.def Info: hats/realhats-beret.pdf  used on input line 87.
-(luatex.def)             Requested size: 10.344pt x 6.66052pt.
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-Package luatex.def Info: hats/realhats-beret.pdf  used on input line 87.
-(luatex.def)             Requested size: 10.344pt x 6.66052pt.
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-Package luatex.def Info: hats/realhats-beret.pdf  used on input line 87.
-(luatex.def)             Requested size: 10.344pt x 6.66052pt.
-<hats/realhats-ash.pdf, id=559, 580.22975pt x 460.19052pt>
+<hats/realhats-tophat.pdf, id=553, 580.41714pt x 495.22751pt>
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 83.
+(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 83.
+(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 83.
+(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
+<hats/realhats-witch.pdf, id=554, 584.6584pt x 293.94771pt>
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+Package luatex.def Info: hats/realhats-witch.pdf  used on input line 83.
+(luatex.def)             Requested size: 10.344pt x 5.19843pt.
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+Package luatex.def Info: hats/realhats-witch.pdf  used on input line 83.
+(luatex.def)             Requested size: 10.344pt x 5.19843pt.
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+Package luatex.def Info: hats/realhats-witch.pdf  used on input line 83.
+(luatex.def)             Requested size: 10.344pt x 5.19843pt.
+<hats/realhats-dunce.pdf, id=555, 244.86667pt x 409.88548pt>
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 83.
+(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 83.
+(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 83.
+(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
 File: hats/realhats-ash.pdf Graphic file (type pdf)
 <use hats/realhats-ash.pdf>
 Package luatex.def Info: hats/realhats-ash.pdf  used on input line 87.
@@ -1244,36 +1222,60 @@ File: hats/realhats-ash.pdf Graphic file (type pdf)
 <use hats/realhats-ash.pdf>
 Package luatex.def Info: hats/realhats-ash.pdf  used on input line 87.
 (luatex.def)             Requested size: 9.3096pt x 7.38005pt.
-<hats/realhats-cowboy.pdf, id=560, 561.01991pt x 314.04813pt>
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 87.
-(luatex.def)             Requested size: 10.344pt x 5.78871pt.
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 87.
-(luatex.def)             Requested size: 10.344pt x 5.78871pt.
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 87.
-(luatex.def)             Requested size: 10.344pt x 5.78871pt.
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+Package luatex.def Info: hats/realhats-witch.pdf  used on input line 87.
+(luatex.def)             Requested size: 10.344pt x 5.19843pt.
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+Package luatex.def Info: hats/realhats-witch.pdf  used on input line 87.
+(luatex.def)             Requested size: 10.344pt x 5.19843pt.
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+Package luatex.def Info: hats/realhats-witch.pdf  used on input line 87.
+(luatex.def)             Requested size: 10.344pt x 5.19843pt.
+File: hats/realhats-sombrero.pdf Graphic file (type pdf)
+<use hats/realhats-sombrero.pdf>
+Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 87.
+(luatex.def)             Requested size: 10.344pt x 6.93954pt.
+File: hats/realhats-sombrero.pdf Graphic file (type pdf)
+<use hats/realhats-sombrero.pdf>
+Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 87.
+(luatex.def)             Requested size: 10.344pt x 6.93954pt.
+File: hats/realhats-sombrero.pdf Graphic file (type pdf)
+<use hats/realhats-sombrero.pdf>
+Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 87.
+(luatex.def)             Requested size: 10.344pt x 6.93954pt.
+File: hats/realhats-sombrero.pdf Graphic file (type pdf)
+<use hats/realhats-sombrero.pdf>
+Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 87.
+(luatex.def)             Requested size: 10.344pt x 6.93954pt.
+File: hats/realhats-sombrero.pdf Graphic file (type pdf)
+<use hats/realhats-sombrero.pdf>
+Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 87.
+(luatex.def)             Requested size: 10.344pt x 6.93954pt.
+File: hats/realhats-sombrero.pdf Graphic file (type pdf)
+<use hats/realhats-sombrero.pdf>
+Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 87.
+(luatex.def)             Requested size: 10.344pt x 6.93954pt.
  [30</usr/local/texlive/2021/texmf-dist/tex/latex/realhats/hats/realhats-sombrer
-o.pdf></usr/local/texlive/2021/texmf-dist/tex/latex/realhats/hats/realhats-beret
-.pdf></usr/local/texlive/2021/texmf-dist/tex/latex/realhats/hats/realhats-ash.pd
-f></usr/local/texlive/2021/texmf-dist/tex/latex/realhats/hats/realhats-cowboy.pd
-f>]
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 91.
-(luatex.def)             Requested size: 10.344pt x 6.93954pt.
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 91.
-(luatex.def)             Requested size: 10.344pt x 6.93954pt.
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 91.
-(luatex.def)             Requested size: 10.344pt x 6.93954pt.
+o.pdf></usr/local/texlive/2021/texmf-dist/tex/latex/realhats/hats/realhats-topha
+t.pdf></usr/local/texlive/2021/texmf-dist/tex/latex/realhats/hats/realhats-witch
+.pdf></usr/local/texlive/2021/texmf-dist/tex/latex/realhats/hats/realhats-dunce.
+pdf>]
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+Package luatex.def Info: hats/realhats-ash.pdf  used on input line 91.
+(luatex.def)             Requested size: 9.3096pt x 7.38005pt.
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+Package luatex.def Info: hats/realhats-ash.pdf  used on input line 91.
+(luatex.def)             Requested size: 9.3096pt x 7.38005pt.
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+Package luatex.def Info: hats/realhats-ash.pdf  used on input line 91.
+(luatex.def)             Requested size: 9.3096pt x 7.38005pt.
+<hats/realhats-beret.pdf, id=590, 560.77449pt x 361.3459pt>
 File: hats/realhats-beret.pdf Graphic file (type pdf)
 <use hats/realhats-beret.pdf>
 Package luatex.def Info: hats/realhats-beret.pdf  used on input line 91.
@@ -1286,44 +1288,51 @@ File: hats/realhats-beret.pdf Graphic file (type pdf)
 <use hats/realhats-beret.pdf>
 Package luatex.def Info: hats/realhats-beret.pdf  used on input line 91.
 (luatex.def)             Requested size: 10.344pt x 6.66052pt.
-<hats/realhats-fez.pdf, id=580, 392.00018pt x 455.64552pt>
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-Package luatex.def Info: hats/realhats-fez.pdf  used on input line 105.
-(luatex.def)             Requested size: 5.172pt x 6.00702pt.
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-Package luatex.def Info: hats/realhats-fez.pdf  used on input line 105.
-(luatex.def)             Requested size: 5.172pt x 6.00702pt.
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-Package luatex.def Info: hats/realhats-fez.pdf  used on input line 105.
-(luatex.def)             Requested size: 5.172pt x 6.00702pt.
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-Package luatex.def Info: hats/realhats-fez.pdf  used on input line 105.
-(luatex.def)             Requested size: 5.172pt x 6.00702pt.
-<hats/realhats-tophat.pdf, id=581, 580.41714pt x 495.22751pt>
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 105.
-(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 105.
-(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 105.
-(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
-<fig/fig.pdf, id=594, 236.97232pt x 226.03044pt>
+<hats/realhats-crown.pdf, id=596, 426.25269pt x 262.81549pt>
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+Package luatex.def Info: hats/realhats-crown.pdf  used on input line 105.
+(luatex.def)             Requested size: 10.344pt x 6.37627pt.
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+Package luatex.def Info: hats/realhats-crown.pdf  used on input line 105.
+(luatex.def)             Requested size: 10.344pt x 6.37627pt.
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+Package luatex.def Info: hats/realhats-crown.pdf  used on input line 105.
+(luatex.def)             Requested size: 10.344pt x 6.37627pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 105.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 105.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 105.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 105.
+(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 105.
+(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 105.
+(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
+<fig/fig.pdf, id=609, 236.97232pt x 226.03044pt>
 File: fig/fig.pdf Graphic file (type pdf)
 <use fig/fig.pdf>
 Package luatex.def Info: fig/fig.pdf  used on input line 133.
 (luatex.def)             Requested size: 256.07741pt x 244.25407pt.
- [31</usr/local/texlive/2021/texmf-dist/tex/latex/realhats/hats/realhats-fez.pdf
-></usr/local/texlive/2021/texmf-dist/tex/latex/realhats/hats/realhats-tophat.pdf
->] [32<./fig/fig.pdf>]
+ [31</usr/local/texlive/2021/texmf-dist/tex/latex/realhats/hats/realhats-beret.p
+df></usr/local/texlive/2021/texmf-dist/tex/latex/realhats/hats/realhats-crown.pd
+f>] [32<./fig/fig.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 161--164
 
  []
@@ -1337,12 +1346,12 @@ d $\OMS/cmsy/m/n/12 K[]\OT1/cmr/m/n/12 (\OML/cmm/b/it/12 k[]\OML/cmm/m/it/12 ;
 \OML/cmm/b/it/12 k[]\OML/cmm/m/it/12 ; \OML/cmm/b/it/12 k[]\OT1/cmr/m/n/12 )$
  []
 
-<fig/figuresv2-02.png, id=684, 1236.0579pt x 673.0746pt>
+<fig/figuresv2-02.png, id=665, 1236.0579pt x 673.0746pt>
 File: fig/figuresv2-02.png Graphic file (type png)
 <use fig/figuresv2-02.png>
 Package luatex.def Info: fig/figuresv2-02.png  used on input line 222.
 (luatex.def)             Requested size: 426.79135pt x 232.40611pt.
-<fig/figuresv2-01.png, id=685, 1260.1479pt x 683.4333pt>
+<fig/figuresv2-01.png, id=666, 1260.1479pt x 683.4333pt>
 File: fig/figuresv2-01.png Graphic file (type png)
 <use fig/figuresv2-01.png>
 Package luatex.def Info: fig/figuresv2-01.png  used on input line 230.
@@ -1358,30 +1367,15 @@ chapter 3.
 
 
 ]
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 38.
-(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 38.
-(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 38.
-(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 38.
-(luatex.def)             Requested size: 10.344pt x 5.78871pt.
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 38.
-(luatex.def)             Requested size: 10.344pt x 5.78871pt.
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 38.
-(luatex.def)             Requested size: 10.344pt x 5.78871pt.
+<hats/realhats-fez.pdf, id=726, 392.00018pt x 455.64552pt>
+File: hats/realhats-fez.pdf Graphic file (type pdf)
+<use hats/realhats-fez.pdf>
+Package luatex.def Info: hats/realhats-fez.pdf  used on input line 38.
+(luatex.def)             Requested size: 5.172pt x 6.00702pt.
+File: hats/realhats-fez.pdf Graphic file (type pdf)
+<use hats/realhats-fez.pdf>
+Package luatex.def Info: hats/realhats-fez.pdf  used on input line 38.
+(luatex.def)             Requested size: 5.172pt x 6.00702pt.
 File: hats/realhats-beret.pdf Graphic file (type pdf)
 <use hats/realhats-beret.pdf>
 Package luatex.def Info: hats/realhats-beret.pdf  used on input line 38.
@@ -1394,7 +1388,22 @@ File: hats/realhats-beret.pdf Graphic file (type pdf)
 <use hats/realhats-beret.pdf>
 Package luatex.def Info: hats/realhats-beret.pdf  used on input line 38.
 (luatex.def)             Requested size: 10.344pt x 6.66052pt.
- [39]
+<hats/realhats-santa.pdf, id=727, 567.29973pt x 407.78091pt>
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+Package luatex.def Info: hats/realhats-santa.pdf  used on input line 38.
+(luatex.def)             Requested size: 10.344pt x 7.42934pt.
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+Package luatex.def Info: hats/realhats-santa.pdf  used on input line 38.
+(luatex.def)             Requested size: 10.344pt x 7.42934pt.
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+Package luatex.def Info: hats/realhats-santa.pdf  used on input line 38.
+(luatex.def)             Requested size: 10.344pt x 7.42934pt.
+ [39</usr/local/texlive/2021/texmf-dist/tex/latex/realhats/hats/realhats-fez.pdf
+></usr/local/texlive/2021/texmf-dist/tex/latex/realhats/hats/realhats-santa.pdf>
+]
 Overfull \hbox (0.45457pt too wide) detected at line 67
 []
  []
@@ -1404,19 +1413,6 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 67--67
 [] 
  []
 
-<hats/realhats-crown.pdf, id=768, 426.25269pt x 262.81549pt>
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-Package luatex.def Info: hats/realhats-crown.pdf  used on input line 85.
-(luatex.def)             Requested size: 10.344pt x 6.37627pt.
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-Package luatex.def Info: hats/realhats-crown.pdf  used on input line 85.
-(luatex.def)             Requested size: 10.344pt x 6.37627pt.
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-Package luatex.def Info: hats/realhats-crown.pdf  used on input line 85.
-(luatex.def)             Requested size: 10.344pt x 6.37627pt.
 File: hats/realhats-ash.pdf Graphic file (type pdf)
 <use hats/realhats-ash.pdf>
 Package luatex.def Info: hats/realhats-ash.pdf  used on input line 85.
@@ -1429,41 +1425,56 @@ File: hats/realhats-ash.pdf Graphic file (type pdf)
 <use hats/realhats-ash.pdf>
 Package luatex.def Info: hats/realhats-ash.pdf  used on input line 85.
 (luatex.def)             Requested size: 9.3096pt x 7.38005pt.
+<hats/realhats-cowboy.pdf, id=776, 561.01991pt x 314.04813pt>
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 85.
+(luatex.def)             Requested size: 10.344pt x 5.78871pt.
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 85.
+(luatex.def)             Requested size: 10.344pt x 5.78871pt.
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 85.
+(luatex.def)             Requested size: 10.344pt x 5.78871pt.
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+Package luatex.def Info: hats/realhats-witch.pdf  used on input line 85.
+(luatex.def)             Requested size: 10.344pt x 5.19843pt.
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+Package luatex.def Info: hats/realhats-witch.pdf  used on input line 85.
+(luatex.def)             Requested size: 10.344pt x 5.19843pt.
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+Package luatex.def Info: hats/realhats-witch.pdf  used on input line 85.
+(luatex.def)             Requested size: 10.344pt x 5.19843pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 85.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 85.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 85.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
+[40] [41]
 File: hats/realhats-santa.pdf Graphic file (type pdf)
 <use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 85.
+Package luatex.def Info: hats/realhats-santa.pdf  used on input line 123.
 (luatex.def)             Requested size: 10.344pt x 7.42934pt.
 File: hats/realhats-santa.pdf Graphic file (type pdf)
 <use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 85.
+Package luatex.def Info: hats/realhats-santa.pdf  used on input line 123.
 (luatex.def)             Requested size: 10.344pt x 7.42934pt.
 File: hats/realhats-santa.pdf Graphic file (type pdf)
 <use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 85.
+Package luatex.def Info: hats/realhats-santa.pdf  used on input line 123.
 (luatex.def)             Requested size: 10.344pt x 7.42934pt.
-<hats/realhats-dunce.pdf, id=769, 244.86667pt x 409.88548pt>
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 85.
-(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 85.
-(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 85.
-(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
-[40] [41</usr/local/texlive/2021/texmf-dist/tex/latex/realhats/hats/realhats-dun
-ce.pdf>]
-File: hats/realhats-ash.pdf Graphic file (type pdf)
-<use hats/realhats-ash.pdf>
-Package luatex.def Info: hats/realhats-ash.pdf  used on input line 123.
-(luatex.def)             Requested size: 9.3096pt x 7.38005pt.
-File: hats/realhats-ash.pdf Graphic file (type pdf)
-<use hats/realhats-ash.pdf>
-Package luatex.def Info: hats/realhats-ash.pdf  used on input line 123.
-(luatex.def)             Requested size: 9.3096pt x 7.38005pt.
 
 Overfull \hbox (21.25748pt too wide) detected at line 133
 [][][]\OT1/cmr/m/n/12 [[](\OML/cmm/m/it/12 z; k[]; []; '\OT1/cmr/m/n/12 )] = \
@@ -1473,7 +1484,7 @@ z; k[]; []\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 ;
  []
 
 [42] [43] [44]
-<fig/colournmu1nphi_Doppler-eps-converted-to.pdf, id=884, 867.24pt x 722.7pt>
+<fig/colournmu1nphi_Doppler-eps-converted-to.pdf, id=885, 867.24pt x 722.7pt>
 File: fig/colournmu1nphi_Doppler-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/colournmu1nphi_Doppler-eps-converted-to.pdf>
 Package luatex.def Info: fig/colournmu1nphi_Doppler-eps-converted-to.pdf  used 
@@ -1482,7 +1493,7 @@ on input line 225.
 
 warning  (file fig/b-eps-converted-to.pdf) (pdf inclusion): PDF inclusion: found
  PDF version '1.7', but at most version '1.5' allowed
-<fig/b-eps-converted-to.pdf, id=885, 722.7pt x 578.16pt>
+<fig/b-eps-converted-to.pdf, id=886, 722.7pt x 578.16pt>
 File: fig/b-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/b-eps-converted-to.pdf>
 Package luatex.def Info: fig/b-eps-converted-to.pdf  used on input line 241.
@@ -1490,7 +1501,7 @@ Package luatex.def Info: fig/b-eps-converted-to.pdf  used on input line 241.
 
 warning  (file fig/V_n-eps-converted-to.pdf) (pdf inclusion): PDF inclusion: fou
 nd PDF version '1.7', but at most version '1.5' allowed
-<fig/V_n-eps-converted-to.pdf, id=886, 722.7pt x 578.16pt>
+<fig/V_n-eps-converted-to.pdf, id=887, 722.7pt x 578.16pt>
 File: fig/V_n-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/V_n-eps-converted-to.pdf>
 Package luatex.def Info: fig/V_n-eps-converted-to.pdf  used on input line 242.
@@ -1498,7 +1509,7 @@ Package luatex.def Info: fig/V_n-eps-converted-to.pdf  used on input line 242.
 
 warning  (file fig/sigma-eps-converted-to.pdf) (pdf inclusion): PDF inclusion: f
 ound PDF version '1.7', but at most version '1.5' allowed
-<fig/sigma-eps-converted-to.pdf, id=887, 722.7pt x 578.16pt>
+<fig/sigma-eps-converted-to.pdf, id=888, 722.7pt x 578.16pt>
 File: fig/sigma-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/sigma-eps-converted-to.pdf>
 Package luatex.def Info: fig/sigma-eps-converted-to.pdf  used on input line 243
@@ -1509,7 +1520,7 @@ verted-to.pdf><./fig/V_n-eps-converted-to.pdf><./fig/sigma-eps-converted-to.pdf>
 ]
 warning  (file fig/beQ-eps-converted-to.pdf) (pdf inclusion): PDF inclusion: fou
 nd PDF version '1.7', but at most version '1.5' allowed
-<fig/beQ-eps-converted-to.pdf, id=993, 722.7pt x 578.16pt>
+<fig/beQ-eps-converted-to.pdf, id=994, 722.7pt x 578.16pt>
 File: fig/beQ-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/beQ-eps-converted-to.pdf>
 Package luatex.def Info: fig/beQ-eps-converted-to.pdf  used on input line 295.
@@ -1520,32 +1531,32 @@ Overfull \hbox (7.57774pt too wide) in paragraph at lines 357--361
 e bis-pec-trum, []--[],
  []
 
-<fig/snrDoppler-eps-converted-to.pdf, id=1052, 867.24pt x 722.7pt>
+<fig/snrDoppler-eps-converted-to.pdf, id=1053, 867.24pt x 722.7pt>
 File: fig/snrDoppler-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/snrDoppler-eps-converted-to.pdf>
 Package luatex.def Info: fig/snrDoppler-eps-converted-to.pdf  used on input lin
 e 370.
 (luatex.def)             Requested size: 341.43437pt x 284.53154pt.
-<fig/CumulativesnrDoppler-eps-converted-to.pdf, id=1053, 867.24pt x 722.7pt>
+<fig/CumulativesnrDoppler-eps-converted-to.pdf, id=1054, 867.24pt x 722.7pt>
 File: fig/CumulativesnrDoppler-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/CumulativesnrDoppler-eps-converted-to.pdf>
 Package luatex.def Info: fig/CumulativesnrDoppler-eps-converted-to.pdf  used on
  input line 371.
 (luatex.def)             Requested size: 341.43437pt x 284.53154pt.
-<fig/kmaxsnr-eps-converted-to.pdf, id=1054, 867.24pt x 722.7pt>
+<fig/kmaxsnr-eps-converted-to.pdf, id=1055, 867.24pt x 722.7pt>
 File: fig/kmaxsnr-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/kmaxsnr-eps-converted-to.pdf>
 Package luatex.def Info: fig/kmaxsnr-eps-converted-to.pdf  used on input line 3
 76.
 (luatex.def)             Requested size: 341.43437pt x 284.53154pt.
-<fig/kmaxcumsnr-eps-converted-to.pdf, id=1055, 867.24pt x 722.7pt>
+<fig/kmaxcumsnr-eps-converted-to.pdf, id=1056, 867.24pt x 722.7pt>
 File: fig/kmaxcumsnr-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/kmaxcumsnr-eps-converted-to.pdf>
 Package luatex.def Info: fig/kmaxcumsnr-eps-converted-to.pdf  used on input lin
 e 377.
 (luatex.def)             Requested size: 341.43437pt x 284.53154pt.
 [49] [50]
-<fig/cumulativeSnrdopplerQ0_0-eps-converted-to.pdf, id=1072, 867.24pt x 722.7pt
+<fig/cumulativeSnrdopplerQ0_0-eps-converted-to.pdf, id=1073, 867.24pt x 722.7pt
 >
 File: fig/cumulativeSnrdopplerQ0_0-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1553,7 +1564,7 @@ File: fig/cumulativeSnrdopplerQ0_0-eps-converted-to.pdf Graphic file (type pdf)
 Package luatex.def Info: fig/cumulativeSnrdopplerQ0_0-eps-converted-to.pdf  use
 d on input line 385.
 (luatex.def)             Requested size: 209.1301pt x 174.26758pt.
-<fig/cumulativeSnrdopplerQ0_5-eps-converted-to.pdf, id=1073, 867.24pt x 722.7pt
+<fig/cumulativeSnrdopplerQ0_5-eps-converted-to.pdf, id=1074, 867.24pt x 722.7pt
 >
 File: fig/cumulativeSnrdopplerQ0_5-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1561,7 +1572,7 @@ File: fig/cumulativeSnrdopplerQ0_5-eps-converted-to.pdf Graphic file (type pdf)
 Package luatex.def Info: fig/cumulativeSnrdopplerQ0_5-eps-converted-to.pdf  use
 d on input line 386.
 (luatex.def)             Requested size: 209.1301pt x 174.26758pt.
-<fig/cumulativeSnrdopplerQ1_5-eps-converted-to.pdf, id=1074, 867.24pt x 722.7pt
+<fig/cumulativeSnrdopplerQ1_5-eps-converted-to.pdf, id=1075, 867.24pt x 722.7pt
 >
 File: fig/cumulativeSnrdopplerQ1_5-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1569,7 +1580,7 @@ File: fig/cumulativeSnrdopplerQ1_5-eps-converted-to.pdf Graphic file (type pdf)
 Package luatex.def Info: fig/cumulativeSnrdopplerQ1_5-eps-converted-to.pdf  use
 d on input line 387.
 (luatex.def)             Requested size: 209.1301pt x 174.26758pt.
-<fig/cumulativeSnrdopplerQ2_0-eps-converted-to.pdf, id=1075, 867.24pt x 722.7pt
+<fig/cumulativeSnrdopplerQ2_0-eps-converted-to.pdf, id=1076, 867.24pt x 722.7pt
 >
 File: fig/cumulativeSnrdopplerQ2_0-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1577,19 +1588,19 @@ File: fig/cumulativeSnrdopplerQ2_0-eps-converted-to.pdf Graphic file (type pdf)
 Package luatex.def Info: fig/cumulativeSnrdopplerQ2_0-eps-converted-to.pdf  use
 d on input line 388.
 (luatex.def)             Requested size: 209.1301pt x 174.26758pt.
-<fig/cumDoppSnr_kmin-eps-converted-to.pdf, id=1078, 867.24pt x 722.7pt>
+<fig/cumDoppSnr_kmin-eps-converted-to.pdf, id=1079, 867.24pt x 722.7pt>
 File: fig/cumDoppSnr_kmin-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/cumDoppSnr_kmin-eps-converted-to.pdf>
 Package luatex.def Info: fig/cumDoppSnr_kmin-eps-converted-to.pdf  used on inpu
 t line 399.
 (luatex.def)             Requested size: 384.1096pt x 320.09523pt.
-<fig/DoppSnr_K2D-eps-converted-to.pdf, id=1083, 867.24pt x 722.7pt>
+<fig/DoppSnr_K2D-eps-converted-to.pdf, id=1084, 867.24pt x 722.7pt>
 File: fig/DoppSnr_K2D-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/DoppSnr_K2D-eps-converted-to.pdf>
 Package luatex.def Info: fig/DoppSnr_K2D-eps-converted-to.pdf  used on input li
 ne 415.
 (luatex.def)             Requested size: 341.43437pt x 284.53154pt.
-<fig/cumDoppSnr_K2D-eps-converted-to.pdf, id=1084, 867.24pt x 722.7pt>
+<fig/cumDoppSnr_K2D-eps-converted-to.pdf, id=1085, 867.24pt x 722.7pt>
 File: fig/cumDoppSnr_K2D-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/cumDoppSnr_K2D-eps-converted-to.pdf>
 Package luatex.def Info: fig/cumDoppSnr_K2D-eps-converted-to.pdf  used on input
@@ -1600,7 +1611,7 @@ converted-to.pdf>] [53<./fig/kmaxsnr-eps-converted-to.pdf><./fig/kmaxcumsnr-eps-
 converted-to.pdf>] [54<./fig/cumulativeSnrdopplerQ0_0-eps-converted-to.pdf><./fi
 g/cumulativeSnrdopplerQ0_5-eps-converted-to.pdf><./fig/cumulativeSnrdopplerQ1_5-
 eps-converted-to.pdf><./fig/cumulativeSnrdopplerQ2_0-eps-converted-to.pdf>]
-<fig/gamma_sigma8_AD-eps-converted-to.pdf, id=1235, 867.24pt x 722.7pt>
+<fig/gamma_sigma8_AD-eps-converted-to.pdf, id=1236, 867.24pt x 722.7pt>
 File: fig/gamma_sigma8_AD-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/gamma_sigma8_AD-eps-converted-to.pdf>
 Package luatex.def Info: fig/gamma_sigma8_AD-eps-converted-to.pdf  used on inpu
@@ -1609,12 +1620,12 @@ t line 443.
  [55<./fig/cumDoppSnr_kmin-eps-converted-to.pdf>] [56<./fig/DoppSnr_K2D-eps-conv
 erted-to.pdf><./fig/cumDoppSnr_K2D-eps-converted-to.pdf>] [57<./fig/gamma_sigma8
 _AD-eps-converted-to.pdf>]
-<fig/model3_perzbin.pdf, id=1306, 511.89336pt x 494.89627pt>
+<fig/model3_perzbin.pdf, id=1307, 511.89336pt x 494.89627pt>
 File: fig/model3_perzbin.pdf Graphic file (type pdf)
 <use fig/model3_perzbin.pdf>
 Package luatex.def Info: fig/model3_perzbin.pdf  used on input line 482.
 (luatex.def)             Requested size: 209.1301pt x 202.18384pt.
-<fig/model3_cum.pdf, id=1307, 507.81354pt x 494.89627pt>
+<fig/model3_cum.pdf, id=1308, 507.81354pt x 494.89627pt>
 File: fig/model3_cum.pdf Graphic file (type pdf)
 <use fig/model3_cum.pdf>
 Package luatex.def Info: fig/model3_cum.pdf  used on input line 483.
@@ -1624,84 +1635,84 @@ Overfull \hbox (48.65999pt too wide) detected at line 591
 []
  []
 
-<fig/HIBias.pdf, id=1437, 1084.05pt x 1084.05pt>
+<fig/HIBias.pdf, id=1438, 1084.05pt x 1084.05pt>
 File: fig/HIBias.pdf Graphic file (type pdf)
 <use fig/HIBias.pdf>
 Package luatex.def Info: fig/HIBias.pdf  used on input line 598.
 (luatex.def)             Requested size: 209.1301pt x 209.11447pt.
-<fig/THI.pdf, id=1438, 1084.05pt x 1084.05pt>
+<fig/THI.pdf, id=1439, 1084.05pt x 1084.05pt>
 File: fig/THI.pdf Graphic file (type pdf)
 <use fig/THI.pdf>
 Package luatex.def Info: fig/THI.pdf  used on input line 599.
 (luatex.def)             Requested size: 209.1301pt x 209.11447pt.
 [62] [63<./fig/HIBias.pdf><./fig/THI.pdf>]
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 638.
-(luatex.def)             Requested size: 10.344pt x 7.42934pt.
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 638.
-(luatex.def)             Requested size: 10.344pt x 7.42934pt.
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 638.
-(luatex.def)             Requested size: 10.344pt x 7.42934pt.
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 652.
-(luatex.def)             Requested size: 10.344pt x 7.42934pt.
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 652.
-(luatex.def)             Requested size: 10.344pt x 7.42934pt.
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 652.
-(luatex.def)             Requested size: 10.344pt x 7.42934pt.
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 652.
-(luatex.def)             Requested size: 10.344pt x 7.42934pt.
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 652.
-(luatex.def)             Requested size: 10.344pt x 7.42934pt.
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 652.
-(luatex.def)             Requested size: 10.344pt x 7.42934pt.
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-Package luatex.def Info: hats/realhats-beret.pdf  used on input line 652.
-(luatex.def)             Requested size: 10.344pt x 6.66052pt.
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-Package luatex.def Info: hats/realhats-beret.pdf  used on input line 652.
-(luatex.def)             Requested size: 10.344pt x 6.66052pt.
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-Package luatex.def Info: hats/realhats-beret.pdf  used on input line 652.
-(luatex.def)             Requested size: 10.344pt x 6.66052pt.
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-Package luatex.def Info: hats/realhats-beret.pdf  used on input line 652.
-(luatex.def)             Requested size: 10.344pt x 6.66052pt.
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-Package luatex.def Info: hats/realhats-beret.pdf  used on input line 652.
-(luatex.def)             Requested size: 10.344pt x 6.66052pt.
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-Package luatex.def Info: hats/realhats-beret.pdf  used on input line 652.
-(luatex.def)             Requested size: 10.344pt x 6.66052pt.
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+Package luatex.def Info: hats/realhats-witch.pdf  used on input line 638.
+(luatex.def)             Requested size: 10.344pt x 5.19843pt.
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+Package luatex.def Info: hats/realhats-witch.pdf  used on input line 638.
+(luatex.def)             Requested size: 10.344pt x 5.19843pt.
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+Package luatex.def Info: hats/realhats-witch.pdf  used on input line 638.
+(luatex.def)             Requested size: 10.344pt x 5.19843pt.
+File: hats/realhats-sombrero.pdf Graphic file (type pdf)
+<use hats/realhats-sombrero.pdf>
+Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 652.
+(luatex.def)             Requested size: 10.344pt x 6.93954pt.
+File: hats/realhats-sombrero.pdf Graphic file (type pdf)
+<use hats/realhats-sombrero.pdf>
+Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 652.
+(luatex.def)             Requested size: 10.344pt x 6.93954pt.
+File: hats/realhats-sombrero.pdf Graphic file (type pdf)
+<use hats/realhats-sombrero.pdf>
+Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 652.
+(luatex.def)             Requested size: 10.344pt x 6.93954pt.
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 652.
+(luatex.def)             Requested size: 10.344pt x 5.78871pt.
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 652.
+(luatex.def)             Requested size: 10.344pt x 5.78871pt.
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 652.
+(luatex.def)             Requested size: 10.344pt x 5.78871pt.
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 652.
+(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 652.
+(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 652.
+(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 652.
+(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 652.
+(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 652.
+(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
  [64]
 Overfull \hbox (0.56406pt too wide) detected at line 662
 []
  []
 
 [65] [66] [67]
-<fig/kplane.pdf, id=1627, 1084.05pt x 1084.05pt>
+<fig/kplane.pdf, id=1628, 1084.05pt x 1084.05pt>
 File: fig/kplane.pdf Graphic file (type pdf)
 <use fig/kplane.pdf>
 Package luatex.def Info: fig/kplane.pdf  used on input line 757.
@@ -1966,39 +1977,39 @@ Overfull \hbox (3.41365pt too wide) in paragraph at lines 857--858
 []|\TU/lmr/m/n/12 100| 
  []
 
-<fig/tSys.pdf, id=1729, 1084.05pt x 1084.05pt>
+<fig/tSys.pdf, id=1730, 1084.05pt x 1084.05pt>
 File: fig/tSys.pdf Graphic file (type pdf)
 <use fig/tSys.pdf>
 Package luatex.def Info: fig/tSys.pdf  used on input line 934.
 (luatex.def)             Requested size: 341.43437pt x 341.42793pt.
-<fig/k.pdf, id=1737, 1084.05pt x 1084.05pt>
+<fig/k.pdf, id=1738, 1084.05pt x 1084.05pt>
 File: fig/k.pdf Graphic file (type pdf)
 <use fig/k.pdf>
 Package luatex.def Info: fig/k.pdf  used on input line 947.
 (luatex.def)             Requested size: 341.43437pt x 341.42793pt.
-<fig/nbHIRAX.pdf, id=1742, 1084.05pt x 1084.05pt>
+<fig/nbHIRAX.pdf, id=1743, 1084.05pt x 1084.05pt>
 File: fig/nbHIRAX.pdf Graphic file (type pdf)
 <use fig/nbHIRAX.pdf>
 Package luatex.def Info: fig/nbHIRAX.pdf  used on input line 952.
 (luatex.def)             Requested size: 209.1301pt x 209.11447pt.
-<fig/nbPUMAPetite.pdf, id=1743, 1084.05pt x 1084.05pt>
+<fig/nbPUMAPetite.pdf, id=1744, 1084.05pt x 1084.05pt>
 File: fig/nbPUMAPetite.pdf Graphic file (type pdf)
 <use fig/nbPUMAPetite.pdf>
 Package luatex.def Info: fig/nbPUMAPetite.pdf  used on input line 953.
 (luatex.def)             Requested size: 209.1301pt x 209.11447pt.
-<fig/Pnoise.pdf, id=1744, 1084.05pt x 1084.05pt>
+<fig/Pnoise.pdf, id=1745, 1084.05pt x 1084.05pt>
 File: fig/Pnoise.pdf Graphic file (type pdf)
 <use fig/Pnoise.pdf>
 Package luatex.def Info: fig/Pnoise.pdf  used on input line 959.
 (luatex.def)             Requested size: 341.43437pt x 341.42793pt.
 [71] [72] [73<./fig/tSys.pdf>] [74<./fig/k.pdf>]
-<fig/snrSingleDishDopplerBg.pdf, id=1823, 1084.05pt x 1084.05pt>
+<fig/snrSingleDishDopplerBg.pdf, id=1824, 1084.05pt x 1084.05pt>
 File: fig/snrSingleDishDopplerBg.pdf Graphic file (type pdf)
 <use fig/snrSingleDishDopplerBg.pdf>
 Package luatex.def Info: fig/snrSingleDishDopplerBg.pdf  used on input line 978
 .
 (luatex.def)             Requested size: 209.1301pt x 209.11447pt.
-<fig/snrSingleDishCumDopplerBg.pdf, id=1824, 1084.05pt x 1084.05pt>
+<fig/snrSingleDishCumDopplerBg.pdf, id=1825, 1084.05pt x 1084.05pt>
 File: fig/snrSingleDishCumDopplerBg.pdf Graphic file (type pdf)
 <use fig/snrSingleDishCumDopplerBg.pdf>
 Package luatex.def Info: fig/snrSingleDishCumDopplerBg.pdf  used on input line 
@@ -2006,13 +2017,13 @@ Package luatex.def Info: fig/snrSingleDishCumDopplerBg.pdf  used on input line
 (luatex.def)             Requested size: 209.1301pt x 209.11447pt.
  [75<./fig/nbHIRAX.pdf><./fig/nbPUMAPetite.pdf><./fig/Pnoise.pdf>] [76<./fig/snr
 SingleDishDopplerBg.pdf><./fig/snrSingleDishCumDopplerBg.pdf>]
-<fig/snrInterferometerHIRAXCumDopplerBg.pdf, id=1932, 1084.05pt x 1084.05pt>
+<fig/snrInterferometerHIRAXCumDopplerBg.pdf, id=1933, 1084.05pt x 1084.05pt>
 File: fig/snrInterferometerHIRAXCumDopplerBg.pdf Graphic file (type pdf)
 <use fig/snrInterferometerHIRAXCumDopplerBg.pdf>
 Package luatex.def Info: fig/snrInterferometerHIRAXCumDopplerBg.pdf  used on in
 put line 1015.
 (luatex.def)             Requested size: 209.1301pt x 209.11447pt.
-<fig/snrInterferometerPUMAPetiteCumDopplerBg.pdf, id=1933, 1084.05pt x 1084.05p
+<fig/snrInterferometerPUMAPetiteCumDopplerBg.pdf, id=1934, 1084.05pt x 1084.05p
 t>
 File: fig/snrInterferometerPUMAPetiteCumDopplerBg.pdf Graphic file (type pdf)
 <use fig/snrInterferometerPUMAPetiteCumDopplerBg.pdf>
@@ -2051,29 +2062,27 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 217--217
  []
 
 [90] [91]
-<hats/realhats-witch.pdf, id=2181, 584.6584pt x 293.94771pt>
-File: hats/realhats-witch.pdf Graphic file (type pdf)
-<use hats/realhats-witch.pdf>
-Package luatex.def Info: hats/realhats-witch.pdf  used on input line 245.
-(luatex.def)             Requested size: 10.344pt x 5.19843pt.
-File: hats/realhats-witch.pdf Graphic file (type pdf)
-<use hats/realhats-witch.pdf>
-Package luatex.def Info: hats/realhats-witch.pdf  used on input line 245.
-(luatex.def)             Requested size: 10.344pt x 5.19843pt.
-File: hats/realhats-witch.pdf Graphic file (type pdf)
-<use hats/realhats-witch.pdf>
-Package luatex.def Info: hats/realhats-witch.pdf  used on input line 245.
-(luatex.def)             Requested size: 10.344pt x 5.19843pt.
-File: hats/realhats-witch.pdf Graphic file (type pdf)
-<use hats/realhats-witch.pdf>
-Package luatex.def Info: hats/realhats-witch.pdf  used on input line 256.
-(luatex.def)             Requested size: 10.344pt x 5.19843pt.
-File: hats/realhats-witch.pdf Graphic file (type pdf)
-<use hats/realhats-witch.pdf>
-Package luatex.def Info: hats/realhats-witch.pdf  used on input line 256.
-(luatex.def)             Requested size: 10.344pt x 5.19843pt.
- [92</usr/local/texlive/2021/texmf-dist/tex/latex/realhats/hats/realhats-witch.p
-df>] [93] [94] [95] [96] [97] [98]
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 245.
+(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 245.
+(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 245.
+(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
+File: hats/realhats-fez.pdf Graphic file (type pdf)
+<use hats/realhats-fez.pdf>
+Package luatex.def Info: hats/realhats-fez.pdf  used on input line 256.
+(luatex.def)             Requested size: 5.172pt x 6.00702pt.
+File: hats/realhats-fez.pdf Graphic file (type pdf)
+<use hats/realhats-fez.pdf>
+Package luatex.def Info: hats/realhats-fez.pdf  used on input line 256.
+(luatex.def)             Requested size: 5.172pt x 6.00702pt.
+ [92] [93] [94] [95] [96] [97] [98]
 <fig/vectortensor_monopole.pdf, id=2294, 578.16pt x 433.62pt>
 File: fig/vectortensor_monopole.pdf Graphic file (type pdf)
 <use fig/vectortensor_monopole.pdf>
@@ -2106,31 +2115,191 @@ File: hats/realhats-dunce.pdf Graphic file (type pdf)
 <use hats/realhats-dunce.pdf>
 Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 47.
 (luatex.def)             Requested size: 7.24075pt x 12.11465pt.
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 47.
-(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 47.
-(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 47.
-(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+Package luatex.def Info: hats/realhats-crown.pdf  used on input line 47.
+(luatex.def)             Requested size: 10.344pt x 6.37627pt.
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+Package luatex.def Info: hats/realhats-crown.pdf  used on input line 47.
+(luatex.def)             Requested size: 10.344pt x 6.37627pt.
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+Package luatex.def Info: hats/realhats-crown.pdf  used on input line 47.
+(luatex.def)             Requested size: 10.344pt x 6.37627pt.
 [104]
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+Package luatex.def Info: hats/realhats-santa.pdf  used on input line 67.
+(luatex.def)             Requested size: 10.344pt x 7.42934pt.
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+Package luatex.def Info: hats/realhats-santa.pdf  used on input line 67.
+(luatex.def)             Requested size: 10.344pt x 7.42934pt.
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+Package luatex.def Info: hats/realhats-santa.pdf  used on input line 67.
+(luatex.def)             Requested size: 10.344pt x 7.42934pt.
 File: hats/realhats-ash.pdf Graphic file (type pdf)
 <use hats/realhats-ash.pdf>
-Package luatex.def Info: hats/realhats-ash.pdf  used on input line 67.
+Package luatex.def Info: hats/realhats-ash.pdf  used on input line 71.
 (luatex.def)             Requested size: 9.3096pt x 7.38005pt.
 File: hats/realhats-ash.pdf Graphic file (type pdf)
 <use hats/realhats-ash.pdf>
-Package luatex.def Info: hats/realhats-ash.pdf  used on input line 67.
+Package luatex.def Info: hats/realhats-ash.pdf  used on input line 71.
 (luatex.def)             Requested size: 9.3096pt x 7.38005pt.
 File: hats/realhats-ash.pdf Graphic file (type pdf)
 <use hats/realhats-ash.pdf>
-Package luatex.def Info: hats/realhats-ash.pdf  used on input line 67.
+Package luatex.def Info: hats/realhats-ash.pdf  used on input line 71.
 (luatex.def)             Requested size: 9.3096pt x 7.38005pt.
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+Package luatex.def Info: hats/realhats-ash.pdf  used on input line 71.
+(luatex.def)             Requested size: 9.3096pt x 7.38005pt.
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+Package luatex.def Info: hats/realhats-ash.pdf  used on input line 71.
+(luatex.def)             Requested size: 9.3096pt x 7.38005pt.
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+Package luatex.def Info: hats/realhats-ash.pdf  used on input line 71.
+(luatex.def)             Requested size: 9.3096pt x 7.38005pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 71.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 71.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 71.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
+File: hats/realhats-sombrero.pdf Graphic file (type pdf)
+<use hats/realhats-sombrero.pdf>
+Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 71.
+(luatex.def)             Requested size: 10.344pt x 6.93954pt.
+File: hats/realhats-sombrero.pdf Graphic file (type pdf)
+<use hats/realhats-sombrero.pdf>
+Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 71.
+(luatex.def)             Requested size: 10.344pt x 6.93954pt.
+File: hats/realhats-sombrero.pdf Graphic file (type pdf)
+<use hats/realhats-sombrero.pdf>
+Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 71.
+(luatex.def)             Requested size: 10.344pt x 6.93954pt.
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 71.
+(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 71.
+(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 71.
+(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 71.
+(luatex.def)             Requested size: 10.344pt x 5.78871pt.
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 71.
+(luatex.def)             Requested size: 10.344pt x 5.78871pt.
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 71.
+(luatex.def)             Requested size: 10.344pt x 5.78871pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 71.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 71.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 71.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
+File: hats/realhats-fez.pdf Graphic file (type pdf)
+<use hats/realhats-fez.pdf>
+Package luatex.def Info: hats/realhats-fez.pdf  used on input line 71.
+(luatex.def)             Requested size: 5.172pt x 6.00702pt.
+File: hats/realhats-fez.pdf Graphic file (type pdf)
+<use hats/realhats-fez.pdf>
+Package luatex.def Info: hats/realhats-fez.pdf  used on input line 71.
+(luatex.def)             Requested size: 5.172pt x 6.00702pt.
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+Package luatex.def Info: hats/realhats-witch.pdf  used on input line 71.
+(luatex.def)             Requested size: 10.344pt x 5.19843pt.
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+Package luatex.def Info: hats/realhats-witch.pdf  used on input line 71.
+(luatex.def)             Requested size: 10.344pt x 5.19843pt.
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+Package luatex.def Info: hats/realhats-witch.pdf  used on input line 71.
+(luatex.def)             Requested size: 10.344pt x 5.19843pt.
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+Package luatex.def Info: hats/realhats-ash.pdf  used on input line 71.
+(luatex.def)             Requested size: 9.3096pt x 7.38005pt.
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+Package luatex.def Info: hats/realhats-ash.pdf  used on input line 71.
+(luatex.def)             Requested size: 9.3096pt x 7.38005pt.
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+Package luatex.def Info: hats/realhats-ash.pdf  used on input line 71.
+(luatex.def)             Requested size: 9.3096pt x 7.38005pt.
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 71.
+(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 71.
+(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 71.
+(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 71.
+(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 71.
+(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 71.
+(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
+File: hats/realhats-fez.pdf Graphic file (type pdf)
+<use hats/realhats-fez.pdf>
+Package luatex.def Info: hats/realhats-fez.pdf  used on input line 71.
+(luatex.def)             Requested size: 5.172pt x 6.00702pt.
+File: hats/realhats-fez.pdf Graphic file (type pdf)
+<use hats/realhats-fez.pdf>
+Package luatex.def Info: hats/realhats-fez.pdf  used on input line 71.
+(luatex.def)             Requested size: 5.172pt x 6.00702pt.
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 71.
+(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 71.
+(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 71.
+(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
 File: hats/realhats-sombrero.pdf Graphic file (type pdf)
 <use hats/realhats-sombrero.pdf>
 Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 71.
@@ -2155,188 +2324,27 @@ File: hats/realhats-crown.pdf Graphic file (type pdf)
 <use hats/realhats-crown.pdf>
 Package luatex.def Info: hats/realhats-crown.pdf  used on input line 71.
 (luatex.def)             Requested size: 10.344pt x 6.37627pt.
-File: hats/realhats-witch.pdf Graphic file (type pdf)
-<use hats/realhats-witch.pdf>
-Package luatex.def Info: hats/realhats-witch.pdf  used on input line 71.
-(luatex.def)             Requested size: 10.344pt x 5.19843pt.
-File: hats/realhats-witch.pdf Graphic file (type pdf)
-<use hats/realhats-witch.pdf>
-Package luatex.def Info: hats/realhats-witch.pdf  used on input line 71.
-(luatex.def)             Requested size: 10.344pt x 5.19843pt.
-File: hats/realhats-witch.pdf Graphic file (type pdf)
-<use hats/realhats-witch.pdf>
-Package luatex.def Info: hats/realhats-witch.pdf  used on input line 71.
-(luatex.def)             Requested size: 10.344pt x 5.19843pt.
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 71.
-(luatex.def)             Requested size: 10.344pt x 5.78871pt.
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 71.
-(luatex.def)             Requested size: 10.344pt x 5.78871pt.
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 71.
-(luatex.def)             Requested size: 10.344pt x 5.78871pt.
-File: hats/realhats-witch.pdf Graphic file (type pdf)
-<use hats/realhats-witch.pdf>
-Package luatex.def Info: hats/realhats-witch.pdf  used on input line 71.
-(luatex.def)             Requested size: 10.344pt x 5.19843pt.
-File: hats/realhats-witch.pdf Graphic file (type pdf)
-<use hats/realhats-witch.pdf>
-Package luatex.def Info: hats/realhats-witch.pdf  used on input line 71.
-(luatex.def)             Requested size: 10.344pt x 5.19843pt.
-File: hats/realhats-witch.pdf Graphic file (type pdf)
-<use hats/realhats-witch.pdf>
-Package luatex.def Info: hats/realhats-witch.pdf  used on input line 71.
-(luatex.def)             Requested size: 10.344pt x 5.19843pt.
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-Package luatex.def Info: hats/realhats-crown.pdf  used on input line 71.
-(luatex.def)             Requested size: 10.344pt x 6.37627pt.
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-Package luatex.def Info: hats/realhats-crown.pdf  used on input line 71.
-(luatex.def)             Requested size: 10.344pt x 6.37627pt.
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-Package luatex.def Info: hats/realhats-crown.pdf  used on input line 71.
-(luatex.def)             Requested size: 10.344pt x 6.37627pt.
+ [105]
 File: hats/realhats-fez.pdf Graphic file (type pdf)
 <use hats/realhats-fez.pdf>
-Package luatex.def Info: hats/realhats-fez.pdf  used on input line 71.
+Package luatex.def Info: hats/realhats-fez.pdf  used on input line 83.
 (luatex.def)             Requested size: 5.172pt x 6.00702pt.
 File: hats/realhats-fez.pdf Graphic file (type pdf)
 <use hats/realhats-fez.pdf>
-Package luatex.def Info: hats/realhats-fez.pdf  used on input line 71.
+Package luatex.def Info: hats/realhats-fez.pdf  used on input line 83.
 (luatex.def)             Requested size: 5.172pt x 6.00702pt.
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 71.
-(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 71.
-(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 71.
-(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
-File: hats/realhats-witch.pdf Graphic file (type pdf)
-<use hats/realhats-witch.pdf>
-Package luatex.def Info: hats/realhats-witch.pdf  used on input line 71.
-(luatex.def)             Requested size: 10.344pt x 5.19843pt.
-File: hats/realhats-witch.pdf Graphic file (type pdf)
-<use hats/realhats-witch.pdf>
-Package luatex.def Info: hats/realhats-witch.pdf  used on input line 71.
-(luatex.def)             Requested size: 10.344pt x 5.19843pt.
-File: hats/realhats-witch.pdf Graphic file (type pdf)
-<use hats/realhats-witch.pdf>
-Package luatex.def Info: hats/realhats-witch.pdf  used on input line 71.
-(luatex.def)             Requested size: 10.344pt x 5.19843pt.
 File: hats/realhats-crown.pdf Graphic file (type pdf)
 <use hats/realhats-crown.pdf>
-Package luatex.def Info: hats/realhats-crown.pdf  used on input line 71.
+Package luatex.def Info: hats/realhats-crown.pdf  used on input line 83.
 (luatex.def)             Requested size: 10.344pt x 6.37627pt.
 File: hats/realhats-crown.pdf Graphic file (type pdf)
 <use hats/realhats-crown.pdf>
-Package luatex.def Info: hats/realhats-crown.pdf  used on input line 71.
+Package luatex.def Info: hats/realhats-crown.pdf  used on input line 83.
 (luatex.def)             Requested size: 10.344pt x 6.37627pt.
 File: hats/realhats-crown.pdf Graphic file (type pdf)
 <use hats/realhats-crown.pdf>
-Package luatex.def Info: hats/realhats-crown.pdf  used on input line 71.
+Package luatex.def Info: hats/realhats-crown.pdf  used on input line 83.
 (luatex.def)             Requested size: 10.344pt x 6.37627pt.
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-Package luatex.def Info: hats/realhats-beret.pdf  used on input line 71.
-(luatex.def)             Requested size: 10.344pt x 6.66052pt.
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-Package luatex.def Info: hats/realhats-beret.pdf  used on input line 71.
-(luatex.def)             Requested size: 10.344pt x 6.66052pt.
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-Package luatex.def Info: hats/realhats-beret.pdf  used on input line 71.
-(luatex.def)             Requested size: 10.344pt x 6.66052pt.
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 71.
-(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 71.
-(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 71.
-(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 71.
-(luatex.def)             Requested size: 10.344pt x 5.78871pt.
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 71.
-(luatex.def)             Requested size: 10.344pt x 5.78871pt.
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 71.
-(luatex.def)             Requested size: 10.344pt x 5.78871pt.
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-Package luatex.def Info: hats/realhats-fez.pdf  used on input line 71.
-(luatex.def)             Requested size: 5.172pt x 6.00702pt.
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-Package luatex.def Info: hats/realhats-fez.pdf  used on input line 71.
-(luatex.def)             Requested size: 5.172pt x 6.00702pt.
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 71.
-(luatex.def)             Requested size: 10.344pt x 7.42934pt.
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 71.
-(luatex.def)             Requested size: 10.344pt x 7.42934pt.
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 71.
-(luatex.def)             Requested size: 10.344pt x 7.42934pt.
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-Package luatex.def Info: hats/realhats-fez.pdf  used on input line 71.
-(luatex.def)             Requested size: 5.172pt x 6.00702pt.
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-Package luatex.def Info: hats/realhats-fez.pdf  used on input line 71.
-(luatex.def)             Requested size: 5.172pt x 6.00702pt.
- [105</usr/local/texlive/2021/texmf-dist/tex/latex/realhats/hats/realhats-crown.
-pdf>]
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-Package luatex.def Info: hats/realhats-beret.pdf  used on input line 83.
-(luatex.def)             Requested size: 10.344pt x 6.66052pt.
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-Package luatex.def Info: hats/realhats-beret.pdf  used on input line 83.
-(luatex.def)             Requested size: 10.344pt x 6.66052pt.
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-Package luatex.def Info: hats/realhats-beret.pdf  used on input line 83.
-(luatex.def)             Requested size: 10.344pt x 6.66052pt.
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 83.
-(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 83.
-(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 83.
-(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
 
 Overfull \hbox (80.44954pt too wide) detected at line 100
 []
@@ -2347,34 +2355,18 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 100--100
 [] 
  []
 
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-Package luatex.def Info: hats/realhats-fez.pdf  used on input line 105.
-(luatex.def)             Requested size: 5.172pt x 6.00702pt.
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-Package luatex.def Info: hats/realhats-fez.pdf  used on input line 105.
-(luatex.def)             Requested size: 5.172pt x 6.00702pt.
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 105.
-(luatex.def)             Requested size: 10.344pt x 7.42934pt.
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 105.
-(luatex.def)             Requested size: 10.344pt x 7.42934pt.
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 105.
-(luatex.def)             Requested size: 10.344pt x 7.42934pt.
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-Package luatex.def Info: hats/realhats-fez.pdf  used on input line 105.
-(luatex.def)             Requested size: 5.172pt x 6.00702pt.
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-Package luatex.def Info: hats/realhats-fez.pdf  used on input line 105.
-(luatex.def)             Requested size: 5.172pt x 6.00702pt.
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+Package luatex.def Info: hats/realhats-ash.pdf  used on input line 105.
+(luatex.def)             Requested size: 9.3096pt x 7.38005pt.
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+Package luatex.def Info: hats/realhats-ash.pdf  used on input line 105.
+(luatex.def)             Requested size: 9.3096pt x 7.38005pt.
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+Package luatex.def Info: hats/realhats-ash.pdf  used on input line 105.
+(luatex.def)             Requested size: 9.3096pt x 7.38005pt.
 File: hats/realhats-sombrero.pdf Graphic file (type pdf)
 <use hats/realhats-sombrero.pdf>
 Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 105.
@@ -2387,6 +2379,30 @@ File: hats/realhats-sombrero.pdf Graphic file (type pdf)
 <use hats/realhats-sombrero.pdf>
 Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 105.
 (luatex.def)             Requested size: 10.344pt x 6.93954pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 105.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 105.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 105.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+Package luatex.def Info: hats/realhats-witch.pdf  used on input line 105.
+(luatex.def)             Requested size: 10.344pt x 5.19843pt.
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+Package luatex.def Info: hats/realhats-witch.pdf  used on input line 105.
+(luatex.def)             Requested size: 10.344pt x 5.19843pt.
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+Package luatex.def Info: hats/realhats-witch.pdf  used on input line 105.
+(luatex.def)             Requested size: 10.344pt x 5.19843pt.
 [106]
 Overfull \hbox (23.1548pt too wide) detected at line 121
 []
@@ -2398,30 +2414,30 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 121--121
  []
 
 [107]
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 140.
-(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 140.
-(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 140.
-(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 140.
-(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 140.
-(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 140.
-(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+Package luatex.def Info: hats/realhats-crown.pdf  used on input line 140.
+(luatex.def)             Requested size: 10.344pt x 6.37627pt.
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+Package luatex.def Info: hats/realhats-crown.pdf  used on input line 140.
+(luatex.def)             Requested size: 10.344pt x 6.37627pt.
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+Package luatex.def Info: hats/realhats-crown.pdf  used on input line 140.
+(luatex.def)             Requested size: 10.344pt x 6.37627pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 140.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 140.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 140.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
 File: fig/fig.pdf Graphic file (type pdf)
 <use fig/fig.pdf>
 Package luatex.def Info: fig/fig.pdf  used on input line 144.
@@ -2611,6 +2627,42 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 255--255
 [] 
  []
 
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+Package luatex.def Info: hats/realhats-santa.pdf  used on input line 260.
+(luatex.def)             Requested size: 10.344pt x 7.42934pt.
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+Package luatex.def Info: hats/realhats-santa.pdf  used on input line 260.
+(luatex.def)             Requested size: 10.344pt x 7.42934pt.
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+Package luatex.def Info: hats/realhats-santa.pdf  used on input line 260.
+(luatex.def)             Requested size: 10.344pt x 7.42934pt.
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+Package luatex.def Info: hats/realhats-ash.pdf  used on input line 260.
+(luatex.def)             Requested size: 9.3096pt x 7.38005pt.
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+Package luatex.def Info: hats/realhats-ash.pdf  used on input line 260.
+(luatex.def)             Requested size: 9.3096pt x 7.38005pt.
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+Package luatex.def Info: hats/realhats-ash.pdf  used on input line 260.
+(luatex.def)             Requested size: 9.3096pt x 7.38005pt.
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+Package luatex.def Info: hats/realhats-santa.pdf  used on input line 260.
+(luatex.def)             Requested size: 10.344pt x 7.42934pt.
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+Package luatex.def Info: hats/realhats-santa.pdf  used on input line 260.
+(luatex.def)             Requested size: 10.344pt x 7.42934pt.
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+Package luatex.def Info: hats/realhats-santa.pdf  used on input line 260.
+(luatex.def)             Requested size: 10.344pt x 7.42934pt.
 File: hats/realhats-crown.pdf Graphic file (type pdf)
 <use hats/realhats-crown.pdf>
 Package luatex.def Info: hats/realhats-crown.pdf  used on input line 260.
@@ -2623,38 +2675,6 @@ File: hats/realhats-crown.pdf Graphic file (type pdf)
 <use hats/realhats-crown.pdf>
 Package luatex.def Info: hats/realhats-crown.pdf  used on input line 260.
 (luatex.def)             Requested size: 10.344pt x 6.37627pt.
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 260.
-(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 260.
-(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 260.
-(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 260.
-(luatex.def)             Requested size: 10.344pt x 6.93954pt.
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 260.
-(luatex.def)             Requested size: 10.344pt x 6.93954pt.
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 260.
-(luatex.def)             Requested size: 10.344pt x 6.93954pt.
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-Package luatex.def Info: hats/realhats-fez.pdf  used on input line 260.
-(luatex.def)             Requested size: 5.172pt x 6.00702pt.
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-Package luatex.def Info: hats/realhats-fez.pdf  used on input line 260.
-(luatex.def)             Requested size: 5.172pt x 6.00702pt.
 [143] [144]
 Overfull \hbox (2.24052pt too wide) in paragraph at lines 305--308
 \TU/lmr/m/it/12 Relativistic cor-rec-tions to [] are needed to en-force gauge-in
@@ -2681,62 +2701,78 @@ File: hats/realhats-fez.pdf Graphic file (type pdf)
 <use hats/realhats-fez.pdf>
 Package luatex.def Info: hats/realhats-fez.pdf  used on input line 315.
 (luatex.def)             Requested size: 5.172pt x 6.00702pt.
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 315.
-(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 315.
-(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 315.
-(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 315.
-(luatex.def)             Requested size: 10.344pt x 6.93954pt.
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 315.
-(luatex.def)             Requested size: 10.344pt x 6.93954pt.
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 315.
-(luatex.def)             Requested size: 10.344pt x 6.93954pt.
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-Package luatex.def Info: hats/realhats-fez.pdf  used on input line 316.
-(luatex.def)             Requested size: 5.172pt x 6.00702pt.
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-Package luatex.def Info: hats/realhats-fez.pdf  used on input line 316.
-(luatex.def)             Requested size: 5.172pt x 6.00702pt.
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 318.
-(luatex.def)             Requested size: 10.344pt x 6.93954pt.
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 318.
-(luatex.def)             Requested size: 10.344pt x 6.93954pt.
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 318.
-(luatex.def)             Requested size: 10.344pt x 6.93954pt.
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 320.
-(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 320.
-(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 320.
-(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+Package luatex.def Info: hats/realhats-crown.pdf  used on input line 315.
+(luatex.def)             Requested size: 10.344pt x 6.37627pt.
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+Package luatex.def Info: hats/realhats-crown.pdf  used on input line 315.
+(luatex.def)             Requested size: 10.344pt x 6.37627pt.
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+Package luatex.def Info: hats/realhats-crown.pdf  used on input line 315.
+(luatex.def)             Requested size: 10.344pt x 6.37627pt.
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 315.
+(luatex.def)             Requested size: 10.344pt x 5.78871pt.
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 315.
+(luatex.def)             Requested size: 10.344pt x 5.78871pt.
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 315.
+(luatex.def)             Requested size: 10.344pt x 5.78871pt.
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+Package luatex.def Info: hats/realhats-witch.pdf  used on input line 316.
+(luatex.def)             Requested size: 10.344pt x 5.19843pt.
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+Package luatex.def Info: hats/realhats-witch.pdf  used on input line 316.
+(luatex.def)             Requested size: 10.344pt x 5.19843pt.
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+Package luatex.def Info: hats/realhats-witch.pdf  used on input line 316.
+(luatex.def)             Requested size: 10.344pt x 5.19843pt.
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 318.
+(luatex.def)             Requested size: 10.344pt x 5.78871pt.
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 318.
+(luatex.def)             Requested size: 10.344pt x 5.78871pt.
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 318.
+(luatex.def)             Requested size: 10.344pt x 5.78871pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 320.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 320.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 320.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 336.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 336.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 336.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
 File: hats/realhats-fez.pdf Graphic file (type pdf)
 <use hats/realhats-fez.pdf>
 Package luatex.def Info: hats/realhats-fez.pdf  used on input line 336.
@@ -2745,6 +2781,18 @@ File: hats/realhats-fez.pdf Graphic file (type pdf)
 <use hats/realhats-fez.pdf>
 Package luatex.def Info: hats/realhats-fez.pdf  used on input line 336.
 (luatex.def)             Requested size: 5.172pt x 6.00702pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 336.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 336.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 336.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
 File: hats/realhats-ash.pdf Graphic file (type pdf)
 <use hats/realhats-ash.pdf>
 Package luatex.def Info: hats/realhats-ash.pdf  used on input line 336.
@@ -2757,67 +2805,40 @@ File: hats/realhats-ash.pdf Graphic file (type pdf)
 <use hats/realhats-ash.pdf>
 Package luatex.def Info: hats/realhats-ash.pdf  used on input line 336.
 (luatex.def)             Requested size: 9.3096pt x 7.38005pt.
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 336.
-(luatex.def)             Requested size: 10.344pt x 5.78871pt.
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 336.
-(luatex.def)             Requested size: 10.344pt x 5.78871pt.
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 336.
-(luatex.def)             Requested size: 10.344pt x 5.78871pt.
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 336.
-(luatex.def)             Requested size: 10.344pt x 5.78871pt.
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 336.
-(luatex.def)             Requested size: 10.344pt x 5.78871pt.
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 336.
-(luatex.def)             Requested size: 10.344pt x 5.78871pt.
-[145] [146]
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 400.
-(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 400.
-(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 400.
-(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 415.
-(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 415.
-(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
-File: hats/realhats-tophat.pdf Graphic file (type pdf)
-<use hats/realhats-tophat.pdf>
-Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 415.
-(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-Package luatex.def Info: hats/realhats-crown.pdf  used on input line 415.
-(luatex.def)             Requested size: 10.344pt x 6.37627pt.
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-Package luatex.def Info: hats/realhats-crown.pdf  used on input line 415.
-(luatex.def)             Requested size: 10.344pt x 6.37627pt.
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-Package luatex.def Info: hats/realhats-crown.pdf  used on input line 415.
-(luatex.def)             Requested size: 10.344pt x 6.37627pt.
+[145</usr/local/texlive/2021/texmf-dist/tex/latex/realhats/hats/realhats-cowboy.
+pdf>] [146]
+File: hats/realhats-fez.pdf Graphic file (type pdf)
+<use hats/realhats-fez.pdf>
+Package luatex.def Info: hats/realhats-fez.pdf  used on input line 400.
+(luatex.def)             Requested size: 5.172pt x 6.00702pt.
+File: hats/realhats-fez.pdf Graphic file (type pdf)
+<use hats/realhats-fez.pdf>
+Package luatex.def Info: hats/realhats-fez.pdf  used on input line 400.
+(luatex.def)             Requested size: 5.172pt x 6.00702pt.
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+Package luatex.def Info: hats/realhats-witch.pdf  used on input line 415.
+(luatex.def)             Requested size: 10.344pt x 5.19843pt.
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+Package luatex.def Info: hats/realhats-witch.pdf  used on input line 415.
+(luatex.def)             Requested size: 10.344pt x 5.19843pt.
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+Package luatex.def Info: hats/realhats-witch.pdf  used on input line 415.
+(luatex.def)             Requested size: 10.344pt x 5.19843pt.
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+Package luatex.def Info: hats/realhats-witch.pdf  used on input line 415.
+(luatex.def)             Requested size: 10.344pt x 5.19843pt.
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+Package luatex.def Info: hats/realhats-witch.pdf  used on input line 415.
+(luatex.def)             Requested size: 10.344pt x 5.19843pt.
+File: hats/realhats-witch.pdf Graphic file (type pdf)
+<use hats/realhats-witch.pdf>
+Package luatex.def Info: hats/realhats-witch.pdf  used on input line 415.
+(luatex.def)             Requested size: 10.344pt x 5.19843pt.
  [147]
 File: hats/realhats-ash.pdf Graphic file (type pdf)
 <use hats/realhats-ash.pdf>
@@ -2831,14 +2852,18 @@ File: hats/realhats-ash.pdf Graphic file (type pdf)
 <use hats/realhats-ash.pdf>
 Package luatex.def Info: hats/realhats-ash.pdf  used on input line 419.
 (luatex.def)             Requested size: 9.3096pt x 7.38005pt.
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-Package luatex.def Info: hats/realhats-fez.pdf  used on input line 420.
-(luatex.def)             Requested size: 5.172pt x 6.00702pt.
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-Package luatex.def Info: hats/realhats-fez.pdf  used on input line 420.
-(luatex.def)             Requested size: 5.172pt x 6.00702pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 420.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 420.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 420.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
  [148]
 Overfull \hbox (6.06021pt too wide) detected at line 486
 []
@@ -2863,19 +2888,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 527--528
  []
 
 [150]
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 563.
-(luatex.def)             Requested size: 10.344pt x 5.78871pt.
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 563.
-(luatex.def)             Requested size: 10.344pt x 5.78871pt.
-File: hats/realhats-cowboy.pdf Graphic file (type pdf)
-<use hats/realhats-cowboy.pdf>
-Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 563.
-(luatex.def)             Requested size: 10.344pt x 5.78871pt.
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+Package luatex.def Info: hats/realhats-crown.pdf  used on input line 563.
+(luatex.def)             Requested size: 10.344pt x 6.37627pt.
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+Package luatex.def Info: hats/realhats-crown.pdf  used on input line 563.
+(luatex.def)             Requested size: 10.344pt x 6.37627pt.
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+Package luatex.def Info: hats/realhats-crown.pdf  used on input line 563.
+(luatex.def)             Requested size: 10.344pt x 6.37627pt.
  [151]
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+Package luatex.def Info: hats/realhats-santa.pdf  used on input line 584.
+(luatex.def)             Requested size: 10.344pt x 7.42934pt.
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+Package luatex.def Info: hats/realhats-santa.pdf  used on input line 584.
+(luatex.def)             Requested size: 10.344pt x 7.42934pt.
+File: hats/realhats-santa.pdf Graphic file (type pdf)
+<use hats/realhats-santa.pdf>
+Package luatex.def Info: hats/realhats-santa.pdf  used on input line 584.
+(luatex.def)             Requested size: 10.344pt x 7.42934pt.
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 584.
+(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 584.
+(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 584.
+(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 584.
+(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 584.
+(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 584.
+(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
 File: hats/realhats-fez.pdf Graphic file (type pdf)
 <use hats/realhats-fez.pdf>
 Package luatex.def Info: hats/realhats-fez.pdf  used on input line 584.
@@ -2884,66 +2945,6 @@ File: hats/realhats-fez.pdf Graphic file (type pdf)
 <use hats/realhats-fez.pdf>
 Package luatex.def Info: hats/realhats-fez.pdf  used on input line 584.
 (luatex.def)             Requested size: 5.172pt x 6.00702pt.
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 584.
-(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 584.
-(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 584.
-(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 584.
-(luatex.def)             Requested size: 10.344pt x 7.42934pt.
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 584.
-(luatex.def)             Requested size: 10.344pt x 7.42934pt.
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 584.
-(luatex.def)             Requested size: 10.344pt x 7.42934pt.
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 584.
-(luatex.def)             Requested size: 10.344pt x 6.93954pt.
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 584.
-(luatex.def)             Requested size: 10.344pt x 6.93954pt.
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 584.
-(luatex.def)             Requested size: 10.344pt x 6.93954pt.
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 584.
-(luatex.def)             Requested size: 10.344pt x 7.42934pt.
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 584.
-(luatex.def)             Requested size: 10.344pt x 7.42934pt.
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 584.
-(luatex.def)             Requested size: 10.344pt x 7.42934pt.
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-Package luatex.def Info: hats/realhats-crown.pdf  used on input line 584.
-(luatex.def)             Requested size: 10.344pt x 6.37627pt.
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-Package luatex.def Info: hats/realhats-crown.pdf  used on input line 584.
-(luatex.def)             Requested size: 10.344pt x 6.37627pt.
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-Package luatex.def Info: hats/realhats-crown.pdf  used on input line 584.
-(luatex.def)             Requested size: 10.344pt x 6.37627pt.
 File: hats/realhats-cowboy.pdf Graphic file (type pdf)
 <use hats/realhats-cowboy.pdf>
 Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 584.
@@ -2956,26 +2957,6 @@ File: hats/realhats-cowboy.pdf Graphic file (type pdf)
 <use hats/realhats-cowboy.pdf>
 Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 584.
 (luatex.def)             Requested size: 10.344pt x 5.78871pt.
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-Package luatex.def Info: hats/realhats-beret.pdf  used on input line 584.
-(luatex.def)             Requested size: 10.344pt x 6.66052pt.
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-Package luatex.def Info: hats/realhats-beret.pdf  used on input line 584.
-(luatex.def)             Requested size: 10.344pt x 6.66052pt.
-File: hats/realhats-beret.pdf Graphic file (type pdf)
-<use hats/realhats-beret.pdf>
-Package luatex.def Info: hats/realhats-beret.pdf  used on input line 584.
-(luatex.def)             Requested size: 10.344pt x 6.66052pt.
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-Package luatex.def Info: hats/realhats-fez.pdf  used on input line 584.
-(luatex.def)             Requested size: 5.172pt x 6.00702pt.
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-Package luatex.def Info: hats/realhats-fez.pdf  used on input line 584.
-(luatex.def)             Requested size: 5.172pt x 6.00702pt.
 File: hats/realhats-dunce.pdf Graphic file (type pdf)
 <use hats/realhats-dunce.pdf>
 Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 584.
@@ -2988,18 +2969,54 @@ File: hats/realhats-dunce.pdf Graphic file (type pdf)
 <use hats/realhats-dunce.pdf>
 Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 584.
 (luatex.def)             Requested size: 7.24075pt x 12.11465pt.
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 584.
-(luatex.def)             Requested size: 10.344pt x 6.93954pt.
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 584.
-(luatex.def)             Requested size: 10.344pt x 6.93954pt.
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 584.
-(luatex.def)             Requested size: 10.344pt x 6.93954pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 584.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 584.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 584.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+Package luatex.def Info: hats/realhats-ash.pdf  used on input line 584.
+(luatex.def)             Requested size: 9.3096pt x 7.38005pt.
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+Package luatex.def Info: hats/realhats-ash.pdf  used on input line 584.
+(luatex.def)             Requested size: 9.3096pt x 7.38005pt.
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+Package luatex.def Info: hats/realhats-ash.pdf  used on input line 584.
+(luatex.def)             Requested size: 9.3096pt x 7.38005pt.
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 584.
+(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 584.
+(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
+File: hats/realhats-dunce.pdf Graphic file (type pdf)
+<use hats/realhats-dunce.pdf>
+Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 584.
+(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+Package luatex.def Info: hats/realhats-crown.pdf  used on input line 584.
+(luatex.def)             Requested size: 10.344pt x 6.37627pt.
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+Package luatex.def Info: hats/realhats-crown.pdf  used on input line 584.
+(luatex.def)             Requested size: 10.344pt x 6.37627pt.
+File: hats/realhats-crown.pdf Graphic file (type pdf)
+<use hats/realhats-crown.pdf>
+Package luatex.def Info: hats/realhats-crown.pdf  used on input line 584.
+(luatex.def)             Requested size: 10.344pt x 6.37627pt.
 File: hats/realhats-santa.pdf Graphic file (type pdf)
 <use hats/realhats-santa.pdf>
 Package luatex.def Info: hats/realhats-santa.pdf  used on input line 584.
@@ -3012,84 +3029,100 @@ File: hats/realhats-santa.pdf Graphic file (type pdf)
 <use hats/realhats-santa.pdf>
 Package luatex.def Info: hats/realhats-santa.pdf  used on input line 584.
 (luatex.def)             Requested size: 10.344pt x 7.42934pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 584.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 584.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
+File: hats/realhats-beret.pdf Graphic file (type pdf)
+<use hats/realhats-beret.pdf>
+Package luatex.def Info: hats/realhats-beret.pdf  used on input line 584.
+(luatex.def)             Requested size: 10.344pt x 6.66052pt.
 
 Overfull \hbox (8.38782pt too wide) detected at line 613
 []
  []
 
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 617.
-(luatex.def)             Requested size: 10.344pt x 7.42934pt.
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 617.
-(luatex.def)             Requested size: 10.344pt x 7.42934pt.
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 617.
-(luatex.def)             Requested size: 10.344pt x 7.42934pt.
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 617.
-(luatex.def)             Requested size: 10.344pt x 7.42934pt.
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 617.
-(luatex.def)             Requested size: 10.344pt x 7.42934pt.
-File: hats/realhats-santa.pdf Graphic file (type pdf)
-<use hats/realhats-santa.pdf>
-Package luatex.def Info: hats/realhats-santa.pdf  used on input line 617.
-(luatex.def)             Requested size: 10.344pt x 7.42934pt.
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 617.
-(luatex.def)             Requested size: 10.344pt x 6.93954pt.
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 617.
-(luatex.def)             Requested size: 10.344pt x 6.93954pt.
-File: hats/realhats-sombrero.pdf Graphic file (type pdf)
-<use hats/realhats-sombrero.pdf>
-Package luatex.def Info: hats/realhats-sombrero.pdf  used on input line 617.
-(luatex.def)             Requested size: 10.344pt x 6.93954pt.
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 617.
-(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 617.
-(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
-File: hats/realhats-dunce.pdf Graphic file (type pdf)
-<use hats/realhats-dunce.pdf>
-Package luatex.def Info: hats/realhats-dunce.pdf  used on input line 617.
-(luatex.def)             Requested size: 7.24075pt x 12.11465pt.
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 617.
+(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 617.
+(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
+File: hats/realhats-tophat.pdf Graphic file (type pdf)
+<use hats/realhats-tophat.pdf>
+Package luatex.def Info: hats/realhats-tophat.pdf  used on input line 617.
+(luatex.def)             Requested size: 9.3096pt x 7.94193pt.
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+Package luatex.def Info: hats/realhats-ash.pdf  used on input line 617.
+(luatex.def)             Requested size: 9.3096pt x 7.38005pt.
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+Package luatex.def Info: hats/realhats-ash.pdf  used on input line 617.
+(luatex.def)             Requested size: 9.3096pt x 7.38005pt.
+File: hats/realhats-ash.pdf Graphic file (type pdf)
+<use hats/realhats-ash.pdf>
+Package luatex.def Info: hats/realhats-ash.pdf  used on input line 617.
+(luatex.def)             Requested size: 9.3096pt x 7.38005pt.
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 617.
+(luatex.def)             Requested size: 10.344pt x 5.78871pt.
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 617.
+(luatex.def)             Requested size: 10.344pt x 5.78871pt.
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 617.
+(luatex.def)             Requested size: 10.344pt x 5.78871pt.
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 617.
+(luatex.def)             Requested size: 10.344pt x 5.78871pt.
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 617.
+(luatex.def)             Requested size: 10.344pt x 5.78871pt.
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 617.
+(luatex.def)             Requested size: 10.344pt x 5.78871pt.
 [152]
 Overfull \hbox (23.97816pt too wide) detected at line 637
 []
  []
 
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-Package luatex.def Info: hats/realhats-fez.pdf  used on input line 640.
-(luatex.def)             Requested size: 5.172pt x 6.00702pt.
-File: hats/realhats-fez.pdf Graphic file (type pdf)
-<use hats/realhats-fez.pdf>
-Package luatex.def Info: hats/realhats-fez.pdf  used on input line 640.
-(luatex.def)             Requested size: 5.172pt x 6.00702pt.
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-Package luatex.def Info: hats/realhats-crown.pdf  used on input line 640.
-(luatex.def)             Requested size: 10.344pt x 6.37627pt.
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-Package luatex.def Info: hats/realhats-crown.pdf  used on input line 640.
-(luatex.def)             Requested size: 10.344pt x 6.37627pt.
-File: hats/realhats-crown.pdf Graphic file (type pdf)
-<use hats/realhats-crown.pdf>
-Package luatex.def Info: hats/realhats-crown.pdf  used on input line 640.
-(luatex.def)             Requested size: 10.344pt x 6.37627pt.
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 640.
+(luatex.def)             Requested size: 10.344pt x 5.78871pt.
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 640.
+(luatex.def)             Requested size: 10.344pt x 5.78871pt.
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 640.
+(luatex.def)             Requested size: 10.344pt x 5.78871pt.
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 640.
+(luatex.def)             Requested size: 10.344pt x 5.78871pt.
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 640.
+(luatex.def)             Requested size: 10.344pt x 5.78871pt.
+File: hats/realhats-cowboy.pdf Graphic file (type pdf)
+<use hats/realhats-cowboy.pdf>
+Package luatex.def Info: hats/realhats-cowboy.pdf  used on input line 640.
+(luatex.def)             Requested size: 10.344pt x 5.78871pt.
 [153]
 <fig/Q_k0_1_noShotnoise1.pdf, id=3450, 1084.05pt x 1084.05pt>
 File: fig/Q_k0_1_noShotnoise1.pdf Graphic file (type pdf)
@@ -3308,7 +3341,7 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 ### bottom level
 
 Here is how much of LuaTeX's memory you used:
- 25031 strings out of 478531
+ 25079 strings out of 478531
  156265,1144653 words of node,token memory allocated
  9500 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 20 glue, 4 kern, 42 sub_mlist, 1 glyph, 1981 attrib
@@ -3358,7 +3391,7 @@ pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
 ></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.
 pfb>
-Output written on thesis.pdf (205 pages, 14021711 bytes).
+Output written on thesis.pdf (205 pages, 14022087 bytes).
 
 PDF statistics: 5093 PDF objects out of 5155 (max. 8388607)
  4475 compressed objects within 45 object streams
