@@ -31,49 +31,47 @@ B_{g}(z, \bm{k}_{1}, \bm{k}_{2}, \bm{k}_{3}) = \mathcal{K}^{(1)}(z, \bm{k}_{1})\
 \end{equation}
 where $P$ is the linear matter power spectrum. 
 The $9-3=6$ degrees of freedom in the triangle condition $\bm{k}_{1}+ \bm{k}_{2}+ \bm{k}_{3}=\bm{0}$ at each $z$ are reduced to 5 by the fixed observer's line of sight direction $\bm{n}$.
-The bispectrum can be chosen at each $z$ to be a function  of the 3 magnitudes ${k_a}=\big({k}_{1}, {k}_{2},{k}_{3}\big)$ and 2 angles that define the orientation of the triangle (see Fig. \ref{fig0}):
+The bispectrum can be chosen at each $z$ to be a function  of the 3 magnitudes ${k_a}=\big({k}_{1}, {k}_{2},{k}_{3}\big)$ and 2 angles that define the orientation of the triangle (see Fig. \ref{fig:geometry_overview1}):
 \begin{equation}
 B_{g}(z, \bm{k}_{a}) =B_{g}(z, {k}_{a},  \mu_1,\varphi) \,.
 \end{equation}
 Here $\mu_a=\hat{\bm{k}}_a\cdot\bm{n}=\cos\theta_a$,  and $\varphi$ is the angle between the triangle plane and the $(\bm{n},\bm{k}_1)$-plane. The three angles $\theta_{ab}= \cos^{-1}\big(\hat{\bm{k}}_{a} \cdot \hat{\bm{k}}_b\big)$, are determined by $k_a$; then $\mu_2=\mu_1\cos\theta_{12}+ \sin\theta_1\,\sin\theta_{12}\cos\varphi$ is determined when $\varphi$ is given, and $\mu_3=-(\mu_1k_1+\mu_2k_2)/k_3$.
-\begin{figure}[ht]
-\centering
-\includegraphics[width=10.0cm]{fig/geometryAngles}
-\vspace*{-1cm}
-\caption{Relevant vectors and angles for the Fourier bispectrum.} \label{fig0}
-\end{figure}
+% \begin{figure}[ht]
+% \centering
+% \includegraphics[width=10.0cm]{fig/geometryAngles}
+% \vspace*{-1cm}
+% \caption{Relevant vectors and angles for the Fourier bispectrum.} \label{fig0}
+% \end{figure}
 
-In the standard Newtonian approximation, $B_g=B_{g{\mathrm{N}}}$, the kernels in \eqref{eq:bkern} contain the galaxy bias and the redshift-space distortions (RSD) at first and second order \cite{Bernardeau:2001qr, Karagiannis:2018jdt}:
+In the standard Newtonian approximation, $B_g=B_{g{\mathrm{N}}}$, the kernels in~\eqref{eq:bkern} contain the galaxy bias and the redshift-space distortions (RSD) at first and second order~\cite{Bernardeau:2001qr, Karagiannis:2018jdt},
 \begin{align}
 \mathcal{K}^{(1)}_{\mathrm{N}}(\bm{k}_{1}) &= b_{1}+f\mu_{1}^{2}\,,  \label{e15} \\ 
 {\mathcal{K}^{(2)}_{\mathrm{N}}}(\bm{k}_{1}, \bm{k}_{2},{\bm{k}_3}) &= b_{1}F_{2}(\bm{k}_{1}, \bm{k}_{2}) + b_{2} + f\mu_{3}^{2}G_{2}(\bm{k}_{1}, \bm{k}_{2}) +{fZ_2}(\bm{k}_{1}, \bm{k}_{2})
 + b_{s^{2}}S_{2}(\bm{k}_{1}, \bm{k}_{2}) , \label{k2n}
 \end{align}
-where we dropped the $z$-dependence for brevity. Here $f$ is the linear matter growth rate, $b_1,b_2$ are the linear and second-order clustering biases, and $b_{s^{2}}$ is the tidal bias. The kernel  $F_2$ is for second-order density, $G_2 , \mathcal{Z}_2$ are for RSD,  and $S_2$  is the kernel for tidal bias.
+where we dropped the $z$-dependence for brevity. Here $f$ is the linear matter growth rate, $b_1$, $b_2$ are the linear and second-order clustering biases, and $b_{s^{2}}$ is the tidal bias. The kernel $F_2$ is for second-order density, $G_2$, $\mathcal{Z}_2$ are for RSD, and $S_2$ is the kernel for tidal bias.
 
 
-The Doppler-type relativistic corrections to the Newtonian number count contrast in redshift space are  given {at first order by~\cite{Bonvin:2011bg}:}
+The Doppler-type relativistic corrections to the Newtonian number count contrast in redshift space are  given at first order by~\cite{Bonvin:2011bg},
 \begin{equation}
 \delta_{g\mathrm{D}} =  {A}\,\bm{v}\cdot\bm{n}\,,\label{dg1}
 \end{equation}
 {where $A(z)$ is given below in~\eqref{e25} and the momentum conservation equation has been used to  eliminate the gravitational redshift: $\bm{n}\cdot\bm{\nabla}\Phi\equiv \p_r \Phi = -\bm{v}'\!\cdot\bm{n}-\cH\,\bm{v}\cdot\bm{n} $.} Here $\Phi$ is the gravitational potential, $\bm{v}$ is the peculiar velocity,  $\cH$ is the comoving Hubble parameter, and $r$ is the line-of-sight comoving distance.
 Note that $\bm{v}\cdot\bm{n}=\partial_r V$, where $V$ is the velocity potential ($v_i=\partial_iV$). 
-At second order, and neglecting vector and tensor modes, it is shown in~\cite{Clarkson:2018dwn}  that (see also \cite{DiDio:2018zmk}) 
+At second order, and neglecting vector and tensor modes, it is shown in~\cite{Clarkson:2018dwn}  that (see also~\cite{DiDio:2018zmk}),
 \begin{align}
 \delta^{(2)}_{g{\mathrm{D}}}&= A\, \bm{v}^{(2)}\!\!\cdot\bm{n}+2{C}(\bm{v}\cdot\bm{n})\,\delta +2 \frac{{E}}{\cH}(\bm{v}\cdot\bm{n})\,\partial_r(\bm{v}\cdot\bm{n})
 + \frac{2}{\cH^2}\big[(\bm{v}\cdot\bm{n}) \,\partial_r^2\Phi-\Phi\, \partial_r^2 (\bm{v}\cdot\bm{n}) \big]
 \nonumber\\ \label{eq:dgsecond}
 & - \frac{2}{\cH}\,\partial_r (\bm{v}\cdot\bm{v}) + 2 \frac{b_1}{\cH}\,\Phi\, \partial_r\delta \,. 
 \end{align}
-The redshift-dependent coefficients $C,E$ are  given below  in \eqref{e26}, \eqref{e27}.
+The redshift-dependent coefficients $C,E$ are  given below in~\eqref{e26},~\eqref{e27}.
 
 
-In Fourier space, 
-neglecting sub-leading $ \mathcal{O}(\cH^2/k^2)$ terms, we find from \eqref{eq:bkern} that
+In Fourier space, neglecting sub-leading $ \mathcal{O}(\cH^2/k^2)$ terms, we find from~\eqref{eq:bkern} that
 \begin{align}
- B_{g\mathrm{D}}(\bm{k}_{1},\bm{k}_{2},\bm{k}_{3}) &=  \bigg\{\bigg[\mathcal{K}^{(1)}_{\mathrm{N}}(\bm{k}_{1})\mathcal{K}^{(1)}_{\mathrm{D}}(\bm{k}_{2}) + \mathcal{K}^{(1)}_{\mathrm{D}}(\bm{k}_{1})\mathcal{K}^{(1)}_{\mathrm{N}}(\bm{k}_{2})\bigg]\mathcal{K}^{(2)}_{\mathrm{N}}(\bm{k}_{1},\bm{k}_{2},\bm{k}_{3}) 
-\nonumber \\&  \quad 
-+\mathcal{K}^{(1)}_{\mathrm{N}}(\bm{k}_{1})\mathcal{K}^{(1)}_{\mathrm{N}}(\bm{k}_{2})\mathcal{K}^{(2)}_{\mathrm{D}}(\bm{k}_{1},\bm{k}_{2},\bm{k}_{3})\bigg\}P(k_{1})P(k_{2})+\text{2 cp}. \label{e21}
+ B_{g\mathrm{D}}(\bm{k}_{1},\bm{k}_{2},\bm{k}_{3}) &=  \left\{\left[\mathcal{K}^{(1)}_{\mathrm{N}}(\bm{k}_{1})\mathcal{K}^{(1)}_{\mathrm{D}}(\bm{k}_{2}) + \mathcal{K}^{(1)}_{\mathrm{D}}(\bm{k}_{1})\mathcal{K}^{(1)}_{\mathrm{N}}(\bm{k}_{2})\right]\mathcal{K}^{(2)}_{\mathrm{N}}(\bm{k}_{1},\bm{k}_{2},\bm{k}_{3}) \right. \nonumber \\
+& \left. +\mathcal{K}^{(1)}_{\mathrm{N}}(\bm{k}_{1})\mathcal{K}^{(1)}_{\mathrm{N}}(\bm{k}_{2})\mathcal{K}^{(2)}_{\mathrm{D}}(\bm{k}_{1},\bm{k}_{2},\bm{k}_{3})\right\}P(k_{1})P(k_{2})+\text{2 cp}. \label{e21}
 \end{align}
 The relativistic kernels follow from~\eqref{dg1} and~\eqref{eq:dgsecond}; they are given in~\cite{Clarkson:2018dwn} as
 \begin{align}
@@ -218,15 +216,15 @@ Then the $k_a$ sum is defined as~\cite{Liguori:2010hx,Oddo:2019run}
 
 The coordinates $(\mu_1=\cos\theta_{1},\varphi)$ describe all possible orientations of the triangle. 
 We follow~\cite{Karagiannis:2018jdt} and choose the ranges $N_{\mu_1}=2, N_{\varphi}=2\pi$.
-For a given $\mu_{1}$, a complete rotation in $\varphi$ about $\bm{k}_1$ double counts the  triangle falling onto the fixed $(\bm{n},\bm{k}_1)$-plane at $\varphi=0$ and $\varphi=2\pi$ (see~\ref{fig0}). Similarly, for a given $\varphi$,  the end-points $\theta_1=0$ and $\theta_1=\pi$  correspond to equivalent triangles, with $\bm{k}_a \to - \bm{k}_a$.
+For a given $\mu_{1}$, a complete rotation in $\varphi$ about $\bm{k}_1$ double counts the  triangle falling onto the fixed $(\bm{n},\bm{k}_1)$-plane at $\varphi=0$ and $\varphi=2\pi$ (see~\ref{fig:geometry_overview1}). Similarly, for a given $\varphi$,  the end-points $\theta_1=0$ and $\theta_1=\pi$  correspond to equivalent triangles, with $\bm{k}_a \to - \bm{k}_a$.
 This double-counting can be avoided by imposing suitable upper limits:
 $-1\leq \mu_1 <1$ and $0\leq \varphi < 2\pi$.
 The signal to noise is quite sensitive to the step-lengths $\Delta \mu_{1}, \Delta\varphi$. Figure~\ref{fig4x} shows the effect on the relativistic total SNR of changing the number of orientation bins, $n_{\mu_1}=N_{\mu_1}/\Delta{\mu_1}=2 /\Delta{\mu_1}$  and $n_\varphi=N_\varphi/\Delta\varphi =2\pi/\Delta\varphi$. It is apparent that reducing the number of bins increases the cumulative SNR. The cumulative SNR converges towards a minimum for $n_{\mu_{1}}\,, n_{\varphi} > 40$.
-\begin{figure}[ht]
+\begin{figure}[!ht]
 \centering
-\includegraphics[width=8.0cm]{fig/colournmu1nphi_Doppler-eps-converted-to} 
+\includegraphics[width=0.9\textwidth]{fig/colournmu1nphi_Doppler-eps-converted-to} 
 \caption{Effect on 
-{total} relativistic SNR of changing number of  $\varphi$ and $\mu_1$ bins. 
+total relativistic SNR of changing number of  $\varphi$ and $\mu_1$ bins. 
 } \label{fig4x}
 \end{figure} 
 %
@@ -238,11 +236,11 @@ or $n_{\mu_{1}}= n_{\varphi}=50$.
 
 \section{Next-generation galaxy surveys}
 %
-\begin{figure}[ht]
+\begin{figure}[!ht]
 \centering
-\includegraphics[width=5.cm]{fig/b-eps-converted-to}
-\includegraphics[width=5.cm]{fig/V_n-eps-converted-to} 
-\includegraphics[width=5.cm]{fig/sigma-eps-converted-to}
+\includegraphics[width=0.49\textwidth]{fig/b-eps-converted-to}
+\includegraphics[width=0.49\textwidth]{fig/V_n-eps-converted-to} 
+\includegraphics[width=0.49\textwidth]{fig/sigma-eps-converted-to}
 \caption{Clustering bias parameters ({\em left}), comoving volume and number density ({\em middle}) and RSD damping parameter ({\em right}). Points are the data from Table 1 in~\cite{Yankelevich:2018uaz}.}
 \label{fig1}
 \end{figure}
@@ -276,30 +274,26 @@ These parameters do {\em not} appear in the Newtonian approximation, but they ar
 \Phi( z,y) = \Phi_{*}(z) y^\alpha\,{\mathrm{e}}^{-y}\,, \quad y\equiv \frac{L}{L_{*}}\,.
 \label{e12_3}
 \end{equation}
-We have written $\Phi$ in terms of the redshift $z$ and the normalised dimensionless luminosity $y$, where $L_*=L_{*0}(1+z)^\delta$ and $L_{*0}$ is a characteristic luminosity.   Here
- $\alpha$ is the faint-end slope, 
-and $\Phi_{*}$ is a characteristic comoving density of $H\alpha$ emitters, modelled as 
+We have written $\Phi$ in terms of the redshift $z$ and the normalised dimensionless luminosity $y$, where $L_*=L_{*0}(1+z)^\delta$ and $L_{*0}$ is a characteristic luminosity. Here $\alpha$ is the faint-end slope, and $\Phi_{*}$ is a characteristic comoving density of $H\alpha$ emitters, modelled as 
 \begin{align}
 \frac{\Phi_{*}}{\Phi_{*0}}= \,
 \begin{cases} (1+z)^{\epsilon} &   z \leq z_{\mathrm{b}}\,,\\
 (1+z_{\mathrm{b}})^{2\epsilon}(1+z)^{-\epsilon} & z > z_{\mathrm{b}} \,.
 \end{cases}
 \end{align}
-The best-fit parameters for Model 1 are given by \cite{Pozzetti:2016cch} as 
+The best-fit parameters for Model 1 are given by~\cite{Pozzetti:2016cch} as 
 \begin{equation} \label{eucp}
 \alpha=-1.35\,, ~~\delta=2\,,~~ L_{*0}=10^{41.5}\,\mathrm{erg\,s}^{-1}\,,~~\Phi_{*0}=10^{-2.8}\,\mathrm{Mpc}^{-3}\,,~~\epsilon=1\,,~~z_{\mathrm{b}}=1.3  \,. 
 \end{equation}
-The flux cut  
- $F_{\mathrm{c}}$
- translates to a luminosity cut:
+The flux cut $F_{\mathrm{c}}$ translates to a luminosity cut:
  \begin{equation} \label{lc}
  L_{\mathrm{c}}(z)=4\pi F_{\mathrm{c}} \,d_L(z)^2\,,\quad F_{\mathrm{c}} =3\times10^{-16}\,\mathrm{erg\,cm^{-2}\,s^{-1}} \,,
  \end{equation}
-where $d_L$ is the background luminosity distance and the choice of $F_{\mathrm{c}}$ follows \cite{Yankelevich:2018uaz}. 
-\begin{figure}[ht]
+where $d_L$ is the background luminosity distance and the choice of $F_{\mathrm{c}}$ follows~\cite{Yankelevich:2018uaz}. 
+\begin{figure}[!ht]
 \centering
-\includegraphics[width=8.0cm]{fig/beQ-eps-converted-to}
-\caption{Magnification and evolution bias \eqref{q}, \eqref{be}.} 
+\includegraphics[width=0.9\textwidth]{fig/beQ-eps-converted-to}
+\caption{Magnification and evolution bias~\eqref{q}, \eqref{be}.} 
 \label{fig2}
 \end{figure}
 
@@ -313,19 +307,18 @@ y_c(z) = \frac{4\pi F_{\mathrm{c}}}{L_{*0}}\, {r}(z)^2  = \left[ \frac{{r}(z)}{2
 \end{equation}
 Using \eqref{ycz} and \eqref{e12_3}--\eqref{lc},  we confirm that the analytical form \eqref{ng} for $n_g$ recovers the points from Table~1 in \cite{Yankelevich:2018uaz}. 
 
-By \eqref{bq}, the magnification bias follows as
+By~\eqref{bq}, the magnification bias follows as
 \begin{equation} \label{q}
 {\cal Q}(z) ={\left( y\, \frac{\Phi}{n_g}\right)_{\mathrm{c}}}= \frac{ y_{\mathrm{c}}(z)^{{\alpha+1}}\exp\big[-y_{\mathrm{c}}(z) \big]}{\Gamma({\alpha+1}, y_c(z))}\,,
 \end{equation}
-since {$\partial/\partial \,{\ln L} = \partial/\partial\, {\ln y}$},  and the evolution bias is
+since {$\partial/\partial \,{\ln L} = \partial/\partial\, {\ln y}$}, and the evolution bias is
 \begin{equation} \label{be}
-b_e(z) = - \frac{\ud \ln  \Phi_*(z)}{\ud \ln (1+z)}+  \frac{ {\ud  \ln y}_{\mathrm{c}}(z)}{\ud \ln (1+z)}\,{\cal Q}(z)\,.
+b_e(z) = - \frac{\ud \ln  \Phi_*(z)}{\ud \ln (1+z)} - \frac{ {\ud \ln L_*}(z)}{\ud \ln (1+z)}\,{\cal Q}(z)\,.
 \end{equation}
-Figure \ref{fig2} shows the analytical forms \eqref{q} and \eqref{be}  for  $b_{e}$ and $\Q$.  
+Figure~\ref{fig2} shows the analytical forms~\eqref{q} and~\eqref{be} for $b_{e}$ and $\Q$.  
 %We checked  our analytical results using the code\footnote{{http://intensitymapping.physics.ox.ac.uk/codes.html}} in  \cite{Alonso:2015uua}.  
-
-Table \ref{tab1} collects the information in Figs. \ref{fig1} and \ref{fig2} to provide an extension of Table  1 in \cite{Yankelevich:2018uaz}.
-\begin{table}[!ht] 
+Table~\ref{tab1} collects the information in Figures~\ref{fig1} and~\ref{fig2} to provide an extension of Table 1 in~\cite{Yankelevich:2018uaz}.
+\begin{sidewaystable}[!ph] 
 \centering 
 \caption{Stage IV $H\alpha$ spectroscopic survey parameters.} \label{tab1} 
 \vspace*{0.2cm}
@@ -349,21 +342,20 @@ Table \ref{tab1} collects the information in Figs. \ref{fig1} and \ref{fig2} to 
 1.9 & 1.66 & -0.491 & -0.378 & -7.27 & 4.13 & 0.0900 & 5.85 & 3.49 \\
 2.0 & 1.70 & -0.449 & -0.401 & -7.64 & 4.32 & 0.0700 & 6.92 & 3.40 \\ \hline
 \end{tabular}
-\end{table}
-
-Finally, we need to deal with the luminosity derivative of the bias in \eqref{e26}. Simulations by \cite{Pan:2019dxa} indicate that the  clustering bias of $H\alpha$ galaxies does not vary appreciably with luminosity near the fiducial luminosity $L_{*0}$ in \eqref{eucp} and for $z\lesssim 2$ (see their Fig. 8). We therefore take
+\end{sidewaystable}
+Finally, we need to deal with the luminosity derivative of the bias in~\eqref{e26}. Simulations by \cite{Pan:2019dxa} indicate that the  clustering bias of $H\alpha$ galaxies does not vary appreciably with luminosity near the fiducial luminosity $L_{*0}$ in \eqref{eucp} and for $z\lesssim 2$ (see their Fig. 8). We therefore take,
 \begin{equation}\label{b1l}
 \frac{\partial b_1}{\partial \ln{L}}\bigg|_{\mathrm{c}}=0\,, 
 \end{equation}
-in \eqref{e26}. 
+in~\eqref{e26}. 
 
 
 
 \subsection{Relativistic signal-to-noise ratio}
 %
 %
-We can now evaluate the Doppler-type relativistic part of the bispectrum, \eqref{e21}--\eqref{e27}, using \eqref{q}--\eqref {b1l}. 
-Then the SNR is computed using  \eqref{csnr}  and \eqref{e3b} together with \eqref{e4x}.
+We can now evaluate the Doppler-type relativistic part of the bispectrum, \eqref{e21}--\eqref{e27}, using \eqref{q}--\eqref{b1l}. 
+Then the SNR is computed using~\eqref{csnr}  and \eqref{e3b} together with \eqref{e4x}.
 The results, for SNR in each $z$-bin, $S/N(z)$, and for the cumulative SNR, $S/N(\leq z)$, are shown in Fig.~\ref{fig4}.
 Our forecasts indicate that the total SNR, $S/N(\leq z_{\mathrm{max}})$, for a Stage IV $H\alpha$  survey could be ${\cal O}(10)$, which  is high enough for a detection in principle.
 
@@ -371,29 +363,29 @@ The relativistic SNR is sensitive in particular to two factors:
 \begin{itemize}
 \item 
 Changes in the nonperturbative scale  $k_{\mathrm{max}}(z)$: this sensitivity is due to the coupling of long-wavelength relativistic terms to short-wavelength Newtonian terms. 
-We use a conservative and redshift-dependent $k_{\mathrm{max}}$, given in \eqref{kmax}. In  Fig.~\ref{kmsnr}
-we show the comparison of SNR using \eqref{kmax} and using the redshift-independent $k_{\mathrm{max}}=0.15h/\,$Mpc. The redshift-independent model does not incorporate  the increase in the nonperturbative scale with growing $z$, and therefore produces a lower SNR; however, the difference is not large.
-\begin{figure}[ht]
+We use a conservative and redshift-dependent $k_{\mathrm{max}}$, given in~\eqref{kmax}. In  Fig.~\ref{kmsnr}
+we show the comparison of SNR using~\eqref{kmax} and using the redshift-independent $k_{\mathrm{max}}=0.15h/\,$Mpc. The redshift-independent model does not incorporate  the increase in the nonperturbative scale with growing $z$, and therefore produces a lower SNR; however, the difference is not large.
+\begin{figure}[!ht]
 \centering
-\includegraphics[width=7.5cm]{fig/snrDoppler-eps-converted-to}
-\includegraphics[width=7.5cm]{fig/CumulativesnrDoppler-eps-converted-to}
+\includegraphics[width=0.8\textwidth]{fig/snrDoppler-eps-converted-to}
+\includegraphics[width=0.8\textwidth]{fig/CumulativesnrDoppler-eps-converted-to}
 \caption{Relativistic SNR per $z$-bin  ({\em left}) and cumulative ({\em right}) for a Stage IV $H\alpha$ survey.} \label{fig4}
 \end{figure}
-\begin{figure}[ht]
+\begin{figure}[!ht]
 \centering
-\includegraphics[width=7.5cm]{fig/kmaxsnr-eps-converted-to}
-\includegraphics[width=7.5cm]{fig/kmaxcumsnr-eps-converted-to} 
+\includegraphics[width=0.8\textwidth]{fig/kmaxsnr-eps-converted-to}
+\includegraphics[width=0.8\textwidth]{fig/kmaxcumsnr-eps-converted-to} 
 \caption{Effect of changing $k_{\mathrm{max}}$ on SNR per bin ({\em left}) and cumulative SNR ({\em right}).} \label{kmsnr}
 \end{figure} 
 \item  
-Changes in $b_e(z),\Q(z)$: 
+Changes in $b_e(z)$, $\Q(z)$: 
 The effect on the relativistic SNR of changes in magnification bias and in evolution bias is illustrated in Fig.~\ref{fig1x}.
-\begin{figure}[ht]
+\begin{figure}[!ht]
 \centering
-\includegraphics[width=7cm]{fig/cumulativeSnrdopplerQ0_0-eps-converted-to} 
-\includegraphics[width=7cm]{fig/cumulativeSnrdopplerQ0_5-eps-converted-to} \\
-\includegraphics[width=7cm]{fig/cumulativeSnrdopplerQ1_5-eps-converted-to}
-\includegraphics[width=7cm]{fig/cumulativeSnrdopplerQ2_0-eps-converted-to} 
+\includegraphics[width=0.49\textwidth]{fig/cumulativeSnrdopplerQ0_0-eps-converted-to} 
+\includegraphics[width=0.49\textwidth]{fig/cumulativeSnrdopplerQ0_5-eps-converted-to} \\
+\includegraphics[width=0.49\textwidth]{fig/cumulativeSnrdopplerQ1_5-eps-converted-to}
+\includegraphics[width=0.49\textwidth]{fig/cumulativeSnrdopplerQ2_0-eps-converted-to} 
 \caption{Effect of changing ${\cal Q}$ and $b_e$ on relativistic cumulative SNR.} \label{fig1x}
 \end{figure}
 In Figure~\ref{fig1x}) we illustrate the significant impact on cumulative SNR of changing $b_e,\Q$. We use a range of constant choices for $b_e,\Q$ -- which are not physically motivated. This shows the importance of modelling $b_e,\Q$ self-consistently from the same  luminosity function that produces the number density, as we have done. 
@@ -402,33 +394,31 @@ In Figure~\ref{fig1x}) we illustrate the significant impact on cumulative SNR of
 {The sensitivity of the relativistic SNR to  $k_{\mathrm{max}}$ reflects the importance of the coupling of the relativistic signal to Newtonian terms on short scales. How sensitive is the SNR to the signal on the largest scales? We can answer this by increasing $k_{\mathrm{min}}$ from its fiducial value $k_{\mathrm{f}}$, which is the maximal observable scale. The result is that there is only a small reduction when $k_{\mathrm{min}}/k_{\mathrm{f}}$ is increased by a factor up to 5, as shown in Fig.~\ref{kmin}. 
 {Even with $k_{\mathrm{min}}=10 k_{\mathrm{f}}$, the total SNR is $\sim 10$.} 
 This means that the relativistic SNR does not depend critically on accessing the largest possible scales.}
-\begin{figure}[ht]
+\begin{figure}[!ht]
 \centering
-\includegraphics[width=8.0cm]{fig/cumDoppSnr_kmin-eps-converted-to}
+\includegraphics[width=0.9\textwidth]{fig/cumDoppSnr_kmin-eps-converted-to}
 \caption{{Effect of changing $k_{\mathrm{min}}$ on  total relativistic SNR.} 
 } \label{kmin}
 \end{figure} 
 
-It is also interesting to investigate how important for the SNR is the second-order relativistic contribution 
-in the bispectrum, i.e. from terms of the form
+It is also interesting to investigate how important for the SNR is the second-order relativistic contribution in the bispectrum, i.e. from terms of the form
 \begin{equation} \label{2oc}
 \mathcal{K}^{(1)}_{\mathrm{N}}(\bm{k}_{1})\mathcal{K}^{(1)}_{\mathrm{N}}(\bm{k}_{2})\mathcal{K}^{(2)}_{\mathrm{D}}(\bm{k}_{1},\bm{k}_{2},\bm{k}_{3})\,,
 \end{equation}
- in \eqref{e21},  compared to the first-order contribution, i.e. from terms of the form
+in~\eqref{e21},  compared to the first-order contribution, i.e. from terms of the form
  \begin{equation} \label{1oc}
  \Big[\mathcal{K}^{(1)}_{\mathrm{N}}(\bm{k}_{1})\mathcal{K}^{(1)}_{\mathrm{D}}(\bm{k}_{2}) + \mathcal{K}^{(1)}_{\mathrm{D}}(\bm{k}_{1})\mathcal{K}^{(1)}_{\mathrm{N}}(\bm{k}_{2})\Big]\mathcal{K}^{(2)}_{\mathrm{N}}(\bm{k}_{1},\bm{k}_{2},\bm{k}_{3}) \,.
  \end{equation}
- It is conceivable that the first-order Doppler-type contribution in \eqref{1oc} to $B_g$, which couples to first- and second-order Newtonian terms, dominates the SNR. However, we find that the first- and  second-order relativistic parts of the bispectrum make comparable contributions to the SNR -- see Fig.~\ref{fig4z}. We deduce that the second-order relativistic contribution in \eqref{2oc} cannot be neglected. Furthermore, this means that it must be accurately modelled, as we  have done. 
-\begin{figure}[ht]
+ It is conceivable that the first-order Doppler-type contribution in~\eqref{1oc} to $B_g$, which couples to first- and second-order Newtonian terms, dominates the SNR. However, we find that the first- and  second-order relativistic parts of the bispectrum make comparable contributions to the SNR -- see Fig.~\ref{fig4z}. We deduce that the second-order relativistic contribution in~\eqref{2oc} cannot be neglected. Furthermore, this means that it must be accurately modelled, as we  have done. 
+\begin{figure}[!ht]
 \centering
-\includegraphics[width=7.5cm]{fig/DoppSnr_K2D-eps-converted-to}
-\includegraphics[width=7.5cm]{fig/cumDoppSnr_K2D-eps-converted-to}
-\caption{As in Fig.~\ref{fig4}, but showing the effect of omitting the second-order relativistic contribution \eqref{2oc} to the bispectrum (dot-dashed curves).} \label{fig4z}
+\includegraphics[width=0.8\textwidth]{fig/DoppSnr_K2D-eps-converted-to}
+\includegraphics[width=0.8\textwidth]{fig/cumDoppSnr_K2D-eps-converted-to}
+\caption{As in Figure~\ref{fig4}, but showing the effect of omitting the second-order relativistic contribution~\eqref{2oc} to the bispectrum (dot-dashed curves).} \label{fig4z}
 \end{figure}
 
-Recently \cite{Jeong:2019igb} estimated the  SNR for the leading relativistic part of the bispectrum.  There are significant differences in their analysis compared to ours. In particular, they neglect most of the terms in $\delta_{g \mathrm{D}}^{(2)}$ [see our \eqref{dg2}] which defines ${\cal K}^{(2)}_{\mathrm{D}}$ 
-In \cite{Jeong:2019igb},  
-a significant number of terms is neglected in the relativistic second-order  galaxy number count contrast, $\delta_{g\mathrm{D}}^{(2)}$, given by our \eqref{dg2}. (Note that our  \eqref{dg2}, derived in \cite{Clarkson:2018dwn}, was independently confirmed by \cite{DiDio:2018zmk}). They have the first term, $A\, \bm{v}^{(2)}\!\!\cdot\bm{n}$, on the right of \eqref{dg2}.  In the second term, $2{C}(\bm{v}\cdot\bm{n})\,\delta$, they do not have the correct form of the coefficient $C$ -- they include only the first part, $b_1A$, of $C$ [see the right-hand side of eq 26?]. All terms after the second term in \eqref{dg2} are omitted by \cite{Jeong:2019igb}. Note that none of the omitted terms is suppressed by a higher power of $k^{-1}$;  they all have the same scaling, i.e., $\propto (\cH/k)\,{(\delta)^2}$. In detail, they omit the following
+Recently~\cite{Jeong:2019igb} estimated the  SNR for the leading relativistic part of the bispectrum.  There are significant differences in their analysis compared to ours. In particular, they neglect most of the terms in $\delta_{g \mathrm{D}}^{(2)}$ [see our~\eqref{dg2}] which defines ${\cal K}^{(2)}_{\mathrm{D}}$ 
+In~\cite{Jeong:2019igb}, a significant number of terms is neglected in the relativistic second-order  galaxy number count contrast, $\delta_{g\mathrm{D}}^{(2)}$, given by our~\eqref{dg2}. (Note that our~\eqref{dg2}, derived in~\cite{Clarkson:2018dwn}, was independently confirmed by~\cite{DiDio:2018zmk}). They have the first term, $A\, \bm{v}^{(2)}\!\!\cdot\bm{n}$, on the right of~\eqref{dg2}.  In the second term, $2{C}(\bm{v}\cdot\bm{n})\,\delta$, they do not have the correct form of the coefficient $C$ -- they include only the first part, $b_1A$, of $C$ [see the right-hand side of eq 26?]. All terms after the second term in~\eqref{dg2} are omitted by~\cite{Jeong:2019igb}. Note that none of the omitted terms is suppressed by a higher power of $k^{-1}$;  they all have the same scaling, i.e., $\propto (\cH/k)\,{(\delta)^2}$. In detail, they omit the following
 terms:
 \begin{align}
 \delta_{g\mathrm{D}}^{(2)}({\mathrm{us}})- \delta_{g\mathrm{D}}^{(2)}(\mbox{{\cite{Jeong:2019igb}}}) &= 2\left[b_{1}f + \frac{b_1'}{\cH} 
@@ -443,14 +433,14 @@ terms:
 \end{align} In addition they do not use self-consistent models for $b_{e}$ and $\mathcal{Q}$. These two differences could account for their conclusion that the relativistic signal is not detectable, in contrast to our result. 
 
 
-An interesting feature of the relativistic signal is that there is a significant contribution to the SNR from  flattened triangle shapes. This is consistent with the results of  \cite{Clarkson:2018dwn} for the dipole that is generated by the imaginary part of the bispectrum.
+An interesting feature of the relativistic signal is that there is a significant contribution to the SNR from  flattened triangle shapes. This is consistent with the results of~\cite{Clarkson:2018dwn} for the dipole that is generated by the imaginary part of the bispectrum.
 %
 %
 
 \subsection{Inclusion of cosmological parameters}
-\begin{figure}[ht]
+\begin{figure}[!ht]
 \centering
-\includegraphics[width=8.0cm]{fig/gamma_sigma8_AD-eps-converted-to}
+\includegraphics[width=0.9\textwidth]{fig/gamma_sigma8_AD-eps-converted-to}
 \caption{Marginal errors (cumulative) on the relativistic contribution, growth index and clustering amplitude, using the full bispectrum.} \label{sig}
 \end{figure}
 {A full treatment of cosmological constraints would marginalise over the standard cosmological parameters, together with the Alcock-Paczynski parameters and the clustering bias parameters. The constraints obtained would depend almost entirely on the Newtonian galaxy power spectrum and bispectrum (as analysed in \cite{Yankelevich:2018uaz}), given that the relativistic contribution to the power spectrum is below leading order, while in the bispectrum the relativistic SNR is  an order of magnitude smaller than the Newtonian SNR. 
@@ -477,8 +467,9 @@ where the round brackets denote symmetrisation. The cumulative marginal errors $
 
 Analytical models of luminosity functions are typically separable in both redshift and luminosity as, 
 \begin{equation}
-    \Phi(z)
+    \Phi(z) = \Phi_*(z) g(y)\,,
 \end{equation}
+see for example equation~\eqref{e12_3} for the relation for Model 1. 
 
 Model 3, as presented in~\cite{Pozzetti:2016cch}, has a luminosity function which is based on observational data-- unlike Model 1 (presented in the previous sections) and Model 2 (not discussed here). The updated luminosity function has a reduced redshift range of $0.9 \leq z \leq 1.8$. This luminosity function is separable, and the best-fit is given by a broken power law, 
 
@@ -486,10 +477,10 @@ Model 3, as presented in~\cite{Pozzetti:2016cch}, has a luminosity function whic
     g(y) = \frac{y^\alpha}{1 + (\ee - 1)y^\nu}
 \end{equation}
 
-\begin{figure}[ht]
+\begin{figure}[!ht]
     \centering
-    \includegraphics[width=0.4\textwidth]{fig/model3_perzbin.pdf}
-    \includegraphics[width=0.4\textwidth]{fig/model3_cum.pdf}
+    \includegraphics[width=0.49\textwidth]{fig/model3_perzbin.pdf}
+    \includegraphics[width=0.49\textwidth]{fig/model3_cum.pdf}
     \caption{SNR per $z$-bin (left) and cumulative SNR (right) for Model 3}
 \end{figure}
 
@@ -602,7 +593,7 @@ In~\eqref{d2n}, $b_{s^2}s^2$ is the tidal bias contribution and RSD$^{\tw}$ is t
 In~\eqref{e1.2}, we see the Doppler terms and the line-of-sight gradients that make up the dominant relativistic contribution.
  $\Phi$ is the gravitational potential and $\Omega_m =\Omega_{m 0}(1+z)H_0^2/\cH^2$. We  neglect sub-dominant relativistic effects in $\Delta^{\tw}$ that scale as  $(\cH/k)^2(\delta_m)^2$. 
 %
-\begin{figure}[ht]
+\begin{figure}[!ht]
 \centering
 \includegraphics[width=.49\textwidth]{fig/HIBias.pdf}
 \includegraphics[width=.49\textwidth]{fig/THI.pdf}
@@ -641,8 +632,8 @@ The bispectrum kernels are as follows:
 {\bfseries Standard (Newtonian) kernels:}
 \begin{align}
 \mathcal{K}^{(1)}_\mathrm{N}(\ka) &= b_1 + f\mu_{a}^{2}\,,  \label{e1.7} \\ 
-\mathcal{K}^{(2)}_\mathrm{N}(\ka,\kb,\kc) &= b_1 F_2(\ka,\kb) + b_2 + f\mu_{3}^{2} G_2(\ka,\kb) + f \cZ_2(\ka,\kb)
-+ b_{s^{2}}S_{2}(\ka,\kb)\,, \label{e1.8}
+\mathcal{K}^{(2)}_\mathrm{N}(\ka,\kb,\kc) &= b_1 F_2(\ka,\kb) + b_2 + f\mu_{3}^{2} G_2(\ka,\kb) + f \cZ_2(\ka,\kb) \nonumber \\
+& + b_{s^{2}}S_{2}(\ka,\kb)\,, \label{e1.8}
 \end{align}
 where $f$ is the linear matter growth rate, $\mu_a=\hat{\k}_a\cdot\n$ and the standard $F_2,G_2,\cZ_2,S_2$ kernels are given in \cite{Maartens:2019yhx}.
 
@@ -655,10 +646,9 @@ A\,\frac{\mu_{3}}{k_{3}} G_{2}(\ka,\kb)
 +{\left[ b_1\left( A+f \right) + \frac{b_1'}{\cH} \right]}\left(\frac{\mu_{1}}{k_{1}} + \frac{\mu_{2}}{k_{2}}\right) \right.
 \nonumber \\
 & \left. -\frac{3}{2}\Omega_m \left(\mu_{1}^{3} \frac{k_{1}}{k_{2}^{2}} + \mu_{2}^{3}\frac{k_{2}}{k_{1}^{2}}\right)
-+ \left[\frac{3}{2}\Omega_m \left(1+f \right)+2f\left(A-2\right) \right] \mu_{1}\mu_{2}\left(\frac{\mu_{1}}{k_{2}}+\frac{\mu_{2}}{k_{1}}\right) \right.
-\nonumber \\
-& \left. + 2 f \,  {\hat{\bm{k}}_{1} \cdot \hat{\bm{k}}_2}\left(\frac{\mu_{1}}{k_{1}} + \frac{\mu_{2}}{k_{2}}\right) 
--\frac{3\Omega_m b_1}{2f} \left(\mu_{1}\frac{k_{1}}{k_{2}^{2}} + \mu_{2}\frac{k_{2}}{k_{1}^{2}}\right)\!  \right\}\,,\label{e1.10}
++ \left[\frac{3}{2}\Omega_m \left(1+f \right)+2f\left(A-2\right) \right] \right. \times \\
+& \left. \mu_{1}\mu_{2}\left(\frac{\mu_{1}}{k_{2}}+\frac{\mu_{2}}{k_{1}}\right) + 2 f \,  {\hat{\bm{k}}_{1} \cdot \hat{\bm{k}}_2}\left(\frac{\mu_{1}}{k_{1}} + \frac{\mu_{2}}{k_{2}}\right) \right. \nonumber \\
+&\left. -\frac{3\Omega_m b_1}{2f} \left(\mu_{1}\frac{k_{1}}{k_{2}^{2}} + \mu_{2}\frac{k_{2}}{k_{1}^{2}}\right)\!  \right\}\,,\label{e1.10}
 \end{align}
 where $A$ is given by~\eqref{eq:AcoeffTrel}. These follow from~\eqref{dt1} and \eqref{e1.2}, and {agree with~\cite{Maartens:2019yhx} when we impose~\eqref{eq:AcoeffTrel}, \eqref{magb} and~\eqref{magb2}}.
 \item
@@ -762,9 +752,9 @@ However, in the case of IF-mode surveys, there is also a lower limit on angular 
 k_{\perp \mathrm{max}}^\mathrm{IF}(z) \approx \frac{2\pi D_\mathrm{max}}{r(z)\,\lambda(z)}\,.
 \end{equation}
 In our computations, we do not use this cut-off since it is effectively imposed by the baseline density factor (see Section~\ref{ssec:inoise}).
-\begin{figure}[ht]
+\begin{figure}[!ht]
 \centering
-\includegraphics[width=.49\textwidth]{fig/kplane}
+\includegraphics[width=.8\textwidth]{fig/kplane}
 %\vspace*{-0.5cm}
 \caption{Schematic of important scales in the $k_\|,k_\perp$-plane at fixed $z$. Shading indicates the included region for SD mode (light) and IF mode (dark).}\label{kplane}
 \end{figure}
@@ -788,7 +778,7 @@ see Figure~\ref{pnoise}.
 %
 \subsection{Instrumental noise}\label{ssec:inoise}
 %
-In HI intensity mapping for the scales and redshifts we consider, the shot noise is much smaller than the instrumental noise for next-generation surveys\footnote{{For the futuristic PUMA (Full) survey, the noise is low enough to be comparable to the shot noise \cite{Chen:2018qiu}.}} and can be safely neglected \cite{Castorina:2016bfm,Villaescusa-Navarro:2018vsg}. 
+In HI intensity mapping for the scales and redshifts we consider, the shot noise is much smaller than the instrumental noise for next-generation surveys\footnote{{For the futuristic PUMA (Full) survey, the noise is low enough to be comparable to the shot noise~\cite{Chen:2018qiu}.}} and can be safely neglected~\cite{Castorina:2016bfm,Villaescusa-Navarro:2018vsg}. 
 The noise power spectrum for the fractional temperature perturbation is then determined by instrumental noise and is given by~\cite{Bull:2014rha,Alonso:2017dgh}:\footnote{It is also possible to put the beam factor $\beta$ in the signal, rather than in the noise; see e.g. \cite{Bernal:2019jdo} for a discussion.}
 \begin{equation}
 {P}_{\mathrm{noise}}(z) = \frac{2\pi f_{\mathrm{sky}}}{\nu_{21} t_{\mathrm{tot}}} \, \frac{(1+z) r(z)^{2} }{\cH(z) }\,\left[\frac{T_{\mathrm{sys}}(z)}{\bar{T}_{\hi}(z)}\right]^2\, \frac{\alpha(z,k_\perp)}{\beta(z,k_\perp)^2}
@@ -842,8 +832,8 @@ The survey specifications are given in Table~\ref{tab:hisurveyspecs}, based on~\
 \caption{\label{tab:hisurveyspecs} HI intensity mapping survey specifications. 
 (For *, see Table~\ref{tab:skasystemp}.)} 
 \vspace*{0.2cm}
-\begin{tabular}{|lccccccc|} \hline
-Survey & Redshift range & $f_\mathrm{sky}$ & $t_{\mathrm{tot}}$  & $T_{\mathrm{d}}$ & $D_\mathrm{d}$ & $N_\mathrm{d}$ & $D_\mathrm{max}$ \\
+\begin{tabular}{| p{3.4cm} p{1.2cm} p{0.5cm} p{0.2cm} p{0.2cm} p{0.4cm} p{0.4cm} p{0.4cm} |} \hline
+Survey & $z$-range & $f_\mathrm{sky}$ & $t_{\mathrm{tot}}$  & $T_{\mathrm{d}}$ & $D_\mathrm{d}$ & $N_\mathrm{d}$ & $D_\mathrm{max}$ \\
 &  & & [$10^{3}$ hr] & [K]  & [m] & & {[m]} \\
 \hline\hline 
 MeerKAT L Band   & 0.10--0.58 & 0.10 & 4  & * & 13.5 & 64 & -- \\
@@ -861,7 +851,7 @@ PUMA (Petite)    & 2.00--6.00 & 0.50 & 40 & 50 & 6.0  & 5000 & 600 \\
 \centering
 \caption{\label{tab2} Parameters in~\eqref{e3.4} (from \cite{Ansari:2018ury}).} 
 \vspace*{0.2cm}
-\begin{tabular}{|lcccccl|} \hline
+\begin{tabular}{| p{3.4cm} p{0.7cm} p{0.7cm} p{0.7cm} p{0.7cm} p{0.7cm} p{0.5cm} |} \hline
 Survey & $a$ & $b$ & $c$  & $d$ & $e$ & $N_\mathrm{s}$  \\ \hline\hline 
 HIRAX & 0.4847 & $-0.3300$ & 1.3157 & 1.5974 & 6.8390 & 32  \\
 PUMA (Petite) & 0.5698 & $-0.5274$ & 0.8358 & 1.6635 & 7.3177 & {100} \\
@@ -872,7 +862,7 @@ PUMA (Petite) & 0.5698 & $-0.5274$ & 0.8358 & 1.6635 & 7.3177 & {100} \\
 For the system temperature, we use the results of measurements and simulations for MeerKAT and SKA1-MID, given below in Table~\ref{tab:skasystemp} and Figure~\ref{fig:Tsysforska}. For HIRAX and PUMA, we use the fit~\eqref{e2.25}. 
 
 \vspace*{-0.5cm}
-\begin{table}[! ht]
+\begin{sidewaystable}[!ph] 
 \centering
 \caption{\label{tab:skasystemp} System temperatures for MeerKAT and SKA1-MID, used in Figure~\ref{fig2} (from \cite{Fonseca:2019qek}).} 
 \vspace*{0.2cm}
@@ -937,11 +927,11 @@ For the system temperature, we use the results of measurements and simulations f
  %         &          &      &              &       &          &        &  \\
     \hline
   \end{tabular}
-\end{table}
+\end{sidewaystable}
 % \vspace*{-0.5cm}
  \begin{figure}[!ht]
 \centering
-\includegraphics[width=.49\textwidth]{fig/tSys}
+\includegraphics[width=.8\textwidth]{fig/tSys}
 % \vspace*{-0.5cm}
 \caption{$T_\mathrm{sys}$ for the different frequency bands of MeerKAT and SKA1 (from Table~\ref{tab:skasystemp}).} \label{fig:Tsysforska}
 \end{figure}  
@@ -954,10 +944,10 @@ where $L_\mathrm{s} = N_\mathrm{s} D_\mathrm{d}$ and $N_\mathrm{s}^2 = N_\mathrm
 The parameters in~\eqref{e3.4} are given in Table~\ref{tab2}, and $n_\mathrm{b}^\mathrm{phys}(L)$ is shown in Figure~\ref{nbphys}.
 \begin{figure}
 \centering
-\includegraphics[width=.49\textwidth]{fig/k}
+\includegraphics[width=.8\textwidth]{fig/k}
 \caption{Minimum wavenumbers for the surveys, where $k$ is subject to~\eqref{kmin} (SD) or~\eqref{kminif} (IF).}\label{figmin}
 \end{figure}
-\begin{figure}[ht]
+\begin{figure}[!ht]
 \centering
 \includegraphics[width=.49\textwidth]{fig/nbHIRAX}
 \includegraphics[width=.49\textwidth]{fig/nbPUMAPetite}
@@ -966,7 +956,7 @@ The parameters in~\eqref{e3.4} are given in Table~\ref{tab2}, and $n_\mathrm{b}^
 \end{figure}
 \begin{figure}[!ht]
 \centering
-\includegraphics[width=.49\textwidth]{fig/Pnoise}
+\includegraphics[width=.8\textwidth]{fig/Pnoise}
 \vspace*{-0.5cm}
 \caption{Noise power spectra of the SD-mode surveys (at $z=0.4$ for low-$z_\mathrm{max}$ bands and $z=1$ for high-$z_\mathrm{max}$ bands) and IF-mode surveys (HIRAX at $z=1$, PUMA at $z=2$).}\label{pnoise}
 \end{figure}
@@ -983,14 +973,14 @@ $n_\mathrm{b}\to 0$ as the baseline approaches its maximum $D_\mathrm{max}$ (see
 %
 %
 The SNR of the relativistic part of the bispectrum is shown in Figure~\ref{fig3}, per $z$-bin and cumulative.
-\begin{figure}[ht]
+\begin{figure}[!ht]
 \centering
 \includegraphics[width=.49\textwidth]{fig/snrSingleDishDopplerBg}
 \includegraphics[width=.49\textwidth]{fig/snrSingleDishCumDopplerBg} 
 \caption{SNR of the relativistic bispectrum per $z$-bin (\emph{left}) and cumulative (\emph{right}) for  SD-mode surveys. }
 \label{fig3}
 \end{figure}
-\begin{table}[ht]
+\begin{table}[!ht]
 \centering
 \caption{\label{tab3} Total SNR for single-dish mode surveys.} 
 \vspace*{0.2cm}
