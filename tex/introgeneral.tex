@@ -3,9 +3,9 @@
 \chapter{Introduction}
 \label{chapter:introgen}
 
-Recent years have seen enormous advances in the field of cosmology. Thanks to technological advancements, wide-field galaxy surveys have helped mapping the universe, and in particular have provided high-precision data on the distribution of galaxies. From the earliest realisations that these observed galaxies can be used to trace the underlying matter density fields, the field of LSS research has been transformed into a data-driven science. 
+Recent years have seen enormous advances in the field of cosmology. Thanks to technological advancements, wide-field galaxy surveys have helped mapping the universe, and in particular have provided high-precision data on the distribution of galaxies. From the earliest realisations that these observed galaxies can be used to trace the underlying matter density fields, the field of large-scale structure research has been transformed into a data-driven science. 
 
-Next-generation large-scale surveys will be able to observe at unprecedented precision. To make the most of this wealth of high-precision cosmological data, our theoretical description must match experimental precision. The work in this thesis was undertaken as an effort to extend the theoretical description of the galaxy bispectrum, which will be a key probe in future large scale surveys. On these scales a variety of relativistic effects come into play once the observed number-count fluctuation is projected onto the past lightcone. These effects need to be accounted for properly in order for them to not bias measurements of primordial non-Gaussianty and other cosmological parameters.
+Next-generation surveys will be able to observe the large scale structure of galaxies at unprecedented precision. To make the most of this wealth of high-precision cosmological data, our theoretical description must match experimental precision. The work in this thesis was undertaken as an effort to extend the theoretical description of the galaxy bispectrum, which will be a key probe in future large scale surveys. On these scales a variety of relativistic effects come into play once the observed number-count fluctuation is projected onto the past lightcone. These effects need to be accounted for properly in order for them to not bias measurements of primordial non-Gaussianty and other cosmological parameters.
 To start, in this chapter we will introduce the standard cosmological model, $\Lambda$CDM, and briefly discuss the observational evidence supporting the standard model of cosmology. We also discuss structure formation in the universe, and introduce galaxy statistics, which has been the crucial tool for studying the clustering of galaxies in the universe. Up to now, the two-point correlation function, or power spectrum in Fourier space, has been a cosmologist's most reliable statistic describing the LSS and constraining cosmological parameters. We will give a brief overview of what has been achieved with the power spectrum, and introduce the galaxy bispectrum as the first of the higher-order correlation functions. 
 
 \section{The standard cosmological model}
@@ -66,14 +66,14 @@ As described previously, the most natural explanation for the formation of the l
 
 Technological advancements, allowing for larger and more precise datasets, made further theoretical progress possible. Interpretations of clustering results gave rise to a new field of study known as galaxy bias, studying the relationship between the galaxies and the underlying dark matter\cite{Davis:1985,Rees:1985,Cole:1989vx,Kaiser:1984}-- a brief overview of the relevant local model of galaxy bias for the purpose of this thesis is given in section~\ref{section:galaxybias}. Peculiar velocities of galaxies were found to influence observations of clustering, which lead to several important publications on redshift-space distortions~\cite{Kaiser:1987qv,Davis:1983,Hamilton:1992zz}. These in turn were significant for the early redshift surveys~\cite{Cole:1994wf,Loveday:1995gk,Tadros:1999ky}. The early analyses also provided some of the earliest evidence for the $\Lambda$CDM model, by showing that the then-prevailing theory of a flat, matter-dominated universe did not explain the observed clustering data.
 
-\begin{figure}[ht]
+\begin{figure}[!ht]
 	\centering
-	\includegraphics[width=0.8\textwidth]{fig/placeholder_redshiftsurvey.png}
-	\caption{Cartoon of redshift survey, find one of eg sdss?}
+	\includegraphics[width=0.8\textwidth]{fig/sdss.png}
+	\caption{Example sky map of a redshift survey, with the cosmic web at increasing redshift. This figure is adapted from the SDSS Science Results~\cite{SDSS:2018ws}.}
 	\label{fig:redshiftsurveypicture}
 \end{figure}
 
-Accurate redshift measurements made possible by the rise of new multi-fiber spectrograph technology allowed for redshift-space mapping of hundreds of thousands of objects. Pioneering surveys in this field are the Two-degree Field Galaxy Redshift Survey (2dFGRS)~\cite{2DFGRS:2001zay} and the Sloan Digital Sky Survey~\cite{SDSS:2000hjo}-- see figure~\ref{fig:redshiftsurveypicture} for an example of the large scale structure as measured by these redshift surveys.
+Accurate redshift measurements made possible by the rise of new multi-fiber spectrograph technology allowed for redshift-space mapping of hundreds of thousands of objects. Pioneering surveys in this field are the Two-degree Field Galaxy Redshift Survey (2dFGRS)~\cite{2DFGRS:2001zay} and the Sloan Digital Sky Survey~\cite{SDSS:2000hjo}-- see Figure~\ref{fig:redshiftsurveypicture} for an example of the large scale structure as measured by these redshift surveys.
 
 Measurements of the BAO in galaxy clustering surveys can help optimise constraints on the expansion rate and on properties of dark energy. The Baryon Acoustic Oscillation Survey (BOSS)~\cite{Dawson:2012} has yielded a dataset with redshift measurements for more than 1.5 million galaxies, with redshifts ranging from $0.2 < z < 0.75$ which has resulted in percent-level constraints on the expansion rate in this redshift range~\cite{BOSS:2016wmc}. These constraints are complemented at lower redshift by results from the 6dF Redshift Survey~\cite{Beutler:2011} and at higher redshift by the WiggleZ survey~\cite{Blake:2011a,Blake:2011b}. 
 
@@ -139,8 +139,8 @@ and, performing one of the integrals,
 where $P(k)$ is by definition the (density) power spectrum. There are several cosmology codes available for simulation the evolution of linear perturbations in the universe and computing LSS observables-- most well known are Class (Cosmic Linear Anisotropy Solving System,~\cite{Lesgourgues:2011}) and CAMB (Code for Anisotropies in the Microwave Background,~\cite{Lewis:1999bs}), both of which are used to generate power spectra and other quantities used in numerical results in this thesis. An example of a power spectrum generated with CAMB is given in figure~\ref{fig:powerspectrum}.
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=0.7\textwidth]{fig/placeholder_pk.png}
-	\caption{Linear matter power spectrum as generated by CAMB - will re-generate in h/Mpc and add units of P}
+	\includegraphics[width=0.7\textwidth]{fig/matterpower_z1.pdf}
+	\caption{Example of a linear matter power spectrum as generated by CAMB, at redshift $z=1$.}
 	\label{fig:powerspectrum}
 \end{figure}
 

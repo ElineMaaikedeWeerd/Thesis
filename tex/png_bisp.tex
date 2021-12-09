@@ -106,8 +106,8 @@ Since local PNG affects the power spectrum and bispectrum differently, a Newtoni
 
 PNG in the galaxy bispectrum has been extensively investigated in the Newtonian approximation. Most work has used the Fourier bispectrum, implicitly incorporating a plane-parallel assumption (see e.g. 
 \cite{Verde:1999ij,Scoccimarro:2003wn,Sefusatti:2006pa,Sefusatti:2007ih,Giannantonio:2009,Baldauf:2010vn,Tellarini:2015faa,Tellarini:2016sgp,Desjacques:2016bnm,Watkinson:2017zbs,Majumdar:2017tdm,Karagiannis:2018jdt,Yankelevich:2018uaz,Sarkar:2019ojl,Karagiannis:2019jjx,Bharadwaj:2020wkc,Karagiannis:2020dpq, MoradinezhadDizgah:2020whw}) and we follow this approximation.
-Our previous work \cite{Umeh:2016nuh} included the local (non-integrated) relativistic effects in the Fourier bispectrum for the first time. This was extended by our work \cite{Jolicoeur:2017nyt, Jolicoeur:2017eyi, Jolicoeur:2018blf,Clarkson:2018dwn,Maartens:2019yhx,deWeerd:2019cae, Jolicoeur:2020eup, Umeh:2020cag}, all in the case of primordial Gaussianity. 
-Here we incorporate local PNG into the relativistic bispectrum. This involves applying the recent results of \cite{Umeh:2019qyd, Umeh:2019jqg} on relativistic corrections to the second-order galaxy bias model. {In addition, we derive the new local  PNG terms induced by  a coupling of first-order scale-dependent bias and first-order relativistic projection effects and by linearly evolved second-order relativistic projection effects.}
+Our previous work~\cite{Umeh:2016nuh} included the local (non-integrated) relativistic effects in the Fourier bispectrum for the first time. This was extended by our work~\cite{Jolicoeur:2017nyt, Jolicoeur:2017eyi, Jolicoeur:2018blf,Clarkson:2018dwn,Maartens:2019yhx,deWeerd:2019cae, Jolicoeur:2020eup, Umeh:2020cag}, all in the case of primordial Gaussianity. 
+Here we incorporate local PNG into the relativistic bispectrum. This involves applying the recent results of~\cite{Umeh:2019qyd, Umeh:2019jqg} on relativistic corrections to the second-order galaxy bias model. {In addition, we derive the new local  PNG terms induced by  a coupling of first-order scale-dependent bias and first-order relativistic projection effects and by linearly evolved second-order relativistic projection effects.}
 
 The chapter is structured as follows. Section~\ref{ss-mvp} reviews the relativistic correction to the 
 galaxy bias, including  the case of local PNG. In addition, we show how the linearly evolved second-order metric and velocity potentials carry a primordial non-Gaussian signal, which is imprinted in the bispectrum by relativistic projection effects. In Section~\ref{sec3}, after presenting the relativistic correction to the matter bispectrum, we discuss the number density contrast in redshift space, which brings into play the relativistic projection effects. We combine the various results to derive the relativistic galaxy bispectrum, including all local PNG effects, and we show examples of the galaxy bispectrum for a Stage IV H$\alpha$ spectroscopic survey. We summarise and conclude in Section~\ref{sec4}.
@@ -162,9 +162,9 @@ After equality, the potential evolves with the growth suppression factor, so tha
 \begin{equation}\label{pottp}
 {\varphi(a,\k) = \frac{g(a)}{g_{\in}}  \varphi_{\in}(\k) \quad \mbox{for}\quad a\geq a_{\in}> {a_{\mathrm{dec}}}\,.}
 \end{equation}
-\begin{figure}[ht]
+\begin{figure}[!ht]
 \centering
-\includegraphics[width=.49\textwidth, angle=0]{fig/Mplot.pdf}
+\includegraphics[width=.8\textwidth]{fig/Mplot.pdf}
 \caption{{${\cal M}^{-1}= \varphi_{\mathrm{p}}/\delta^{\on}_{\mathrm{C}}$ at $z=1$.}}
 \label{mplot}
 \end{figure}
@@ -479,8 +479,9 @@ The {\bfseries second-order Newtonian} part of the observed number density contr
   The {\bfseries second-order relativistic} part is  \cite{Jolicoeur:2017nyt,Jolicoeur:2017eyi}:\blue{
 \begin{align}
 \Delta_{g\mathrm{GR}}^{(2)} &= \delta^{\tw}_{g{\mathrm{T,GR}}} 
-- \frac{1}{\mathcal{H}}\partial_{\parallel}^{2}V_{\mathrm{GR}}^{(2)}+ \bigg[b_{e} - 2\mathcal{Q} +\frac{2(\mathcal{Q} -1)}{\chi\mathcal{H}}- \frac{\mathcal{H}'}{\mathcal{H}^{2}} \bigg]\left[\partial_{\parallel}V^{(2)}_{\mathrm{N+GR}} -\Phi^{(2)}_{\mathrm{N+GR}} \right] \notag \\
-& +2(\mathcal{Q}-1)\Psi^{(2)}_{\mathrm{N+GR}}  +\Phi^{(2)}_{\mathrm{N+GR}} + \frac{1}{\mathcal{H}}\Psi^{(2)\prime}_{\mathrm{N+GR}} +(3-b_e){\cal H}V^{\tw}_{\mathrm{N+GR}} \nonumber \\
+- \frac{1}{\mathcal{H}}\partial_{\parallel}^{2}V_{\mathrm{GR}}^{(2)}+ \bigg[b_{e} - 2\mathcal{Q} +\frac{2(\mathcal{Q} -1)}{\chi\mathcal{H}}- \frac{\mathcal{H}'}{\mathcal{H}^{2}} \bigg] \nonumber \\
+& \times \left[\partial_{\parallel}V^{(2)}_{\mathrm{N+GR}} -\Phi^{(2)}_{\mathrm{N+GR}} \right] + 2 (\mathcal{Q}-1)\Psi^{(2)}_{\mathrm{N+GR}}  +\Phi^{(2)}_{\mathrm{N+GR}} + \frac{1}{\mathcal{H}}\Psi^{(2)\prime}_{\mathrm{N+GR}} \nonumber \\
+&+(3-b_e){\cal H}V^{\tw}_{\mathrm{N+GR}} \nonumber \\
 \label{odg2}
 & +\mbox{very many terms quadratic in first-order  quantities,}
 \end{align}}
@@ -490,31 +491,31 @@ V_{\mathrm{N+GR}}^{(2)}\equiv V_{\mathrm{N}}^{(2)}+\blue{V_{\mathrm{GR}}^{(2)}}\
 \end{equation}
 and similarly for the metric potentials.
 
-The Newtonian parts of the metric potentials $\Psi^{\tw}, \Phi^{\tw}$ appear in the GR part of $\Delta_{g}^{(2)}$ because there is {\em no Newtonian projection effect involving these potentials}. For the velocity potential, the Newtonian part $V^{(2)}_{\mathrm{N}}$ is present only in the RSD term in \eqref{eq:SecondorderNewtonian}; the remaining velocity terms occur {\em only in the GR part} of $\Delta_{g}^{(2)}$ and therefore   $V^{(2)}_{\mathrm{N}}$ is included in the GR terms.
+The Newtonian parts of the metric potentials $\Psi^{\tw}, \Phi^{\tw}$ appear in the GR part of $\Delta_{g}^{(2)}$ because there is {\em no Newtonian projection effect involving these potentials}. For the velocity potential, the Newtonian part $V^{(2)}_{\mathrm{N}}$ is present only in the RSD term in~\eqref{eq:SecondorderNewtonian}; the remaining velocity terms occur {\em only in the GR part} of $\Delta_{g}^{(2)}$ and therefore   $V^{(2)}_{\mathrm{N}}$ is included in the GR terms.
 
-The  quadratic terms in \eqref{odg2} are given in full by \cite{Jolicoeur:2017nyt}. For convenience,  Appendix REFERENCE APPENDIX presents all of the terms in  \eqref{odg2}, correcting some errors in \cite{Jolicoeur:2017nyt}. 
+The  quadratic terms in~\eqref{odg2} are given in full by~\cite{Jolicoeur:2017nyt}. For convenience,  Appendix~\ref{app_betas} presents all of the terms in~\eqref{odg2}, correcting some errors in~\cite{Jolicoeur:2017nyt}. 
 
 \item
  The {\bfseries second-order local PNG} part is 
  \begin{align}
 \Delta_{g\mathrm{nG}}^{(2)} &= \delta^{\tw}_{g{\mathrm{T,nG}}} 
-- \frac{1}{\mathcal{H}}\partial_{\parallel}^{2}V_{\mathrm{nG}}^{(2)}\notag \\
-& + \blue{\bigg[b_{e} - 2\mathcal{Q} +\frac{2(\mathcal{Q}-1)}{\chi\mathcal{H}}- \frac{\mathcal{H}'}{\mathcal{H}^{2}} \bigg]\!\!\left[\partial_{\parallel}V^{(2)}_{\mathrm{nG}} -\Psi^{(2)}_{\mathrm{nG}} \right]
- +(2\mathcal{Q}-1)\Psi^{(2)}_{\mathrm{nG}} + \frac{1}{\mathcal{H}}\Psi^{(2)\prime}_{\mathrm{nG}} +(3-b_e){\cal H}V^{\tw}_{\mathrm{nG}}}
+- \frac{1}{\mathcal{H}}\partial_{\parallel}^{2}V_{\mathrm{nG}}^{(2)}\nonumber \\
+& + \pink{\left[b_{e} - 2\mathcal{Q} +\frac{2(\mathcal{Q}-1)}{\chi\mathcal{H}}- \frac{\mathcal{H}'}{\mathcal{H}^{2}} \right]\!\!\left[\partial_{\parallel}V^{(2)}_{\mathrm{nG}} -\Psi^{(2)}_{\mathrm{nG}} \right] + (2\mathcal{Q}-1) \Psi^{(2)}_{\mathrm{nG}}} \nonumber \\
+& \pink{+ \frac{1}{\mathcal{H}} \Psi^{(2)\prime}_{\mathrm{nG}} +(3-b_e){\cal H}V^{\tw}_{\mathrm{nG}}}
  \nonumber \\
 \label{ngdg2}
 &- 2\frac{b_{01}}{\mathcal{H}}\bigg(\varphi_{\mathrm{p}}\,\partial_{\parallel}^{2}V + \partial_{\parallel}V\,\partial_{\parallel}\varphi_{\mathrm{p}}\bigg) \notag\\
-& + \blue{b_{01} \Big(c_1 \Psi \varphi_{\mathrm{p}} + c_2 V \varphi_{\mathrm{p}}+c_3 \varphi_{\mathrm{p}} \partial_{\parallel}V + c_4 \Psi \partial_{\parallel}\varphi_{\mathrm{p}} \Big)}\,.
+& + \pink{b_{01} \Big(c_1 \Psi \varphi_{\mathrm{p}} + c_2 V \varphi_{\mathrm{p}}+c_3 \varphi_{\mathrm{p}} \partial_{\parallel}V + c_4 \Psi \partial_{\parallel}\varphi_{\mathrm{p}} \Big)}\,.
 \end{align}
-In this expression,  lines 1 and 2 contain the linearly evolved second-order terms  whose nonlinearity is purely primordial. Lines 3 and 4 contain the quadratic coupling terms. 
+In this expression, lines 1, 2, and 3 contain the linearly evolved second-order terms  whose nonlinearity is purely primordial. Lines 4 and 5 contain the quadratic coupling terms. 
 
 Line 1 is the Newtonian density + RSD  part, given by \eqref{dg2bn} and  \eqref{k2ng}. 
 
-Line 2 arises from {\em GR projection terms that are absent in the Newtonian approximation:} these terms are given by \eqref{potnng}--\eqref{k2ng}. 
+Line 2 and 3 arise from {\em GR projection terms that are absent in the Newtonian approximation:} these terms are given by \eqref{potnng}--\eqref{k2ng}. 
 
-Line 3 arises from the first quadratic RSD term  in line 2 of \eqref{eq:SecondorderNewtonian}, given by the coupling of $\delta_{\mathrm{T,nG}}$ to velocity gradients.
+Line 4 arises from the first quadratic RSD term  in line 2 of \eqref{eq:SecondorderNewtonian}, given by the coupling of $\delta_{\mathrm{T,nG}}$ to velocity gradients.
 
-Line 4 arises from the {\em coupling of $\delta_{\mathrm{T,nG}}$  to first-order GR projection terms.}  The  coefficients $c_I(a)$ are explicitly given below and in Appendix REFERENCE APPENDIX.
+Line 5 arises from the {\em coupling of $\delta_{\mathrm{T,nG}}$  to first-order GR projection terms.}  The  coefficients $c_I(a)$ are explicitly given below and in Appendix~\ref{app_pngb}.
 
 {Apart from the $b_{02}$ term in $\delta^{\tw}_{g{\mathrm{T,nG}}}$, the Newtonian terms in \eqref{ngdg2} scale as $(\cH^2/k^2)\,(\delta_{\mathrm{T}})^2$  and dominate the  GR correction terms, which scale as ${\mathrm{i}}(\cH^3/k^3)\,(\delta_{\mathrm{T}})^2$ or $(\cH^4/k^4)\,(\delta_{\mathrm{T}})^2$.}
 
@@ -568,7 +569,7 @@ where   $\mu_a=\hat{\k}_a\cdot\n$ and \blue{
 \end{align}}
 
 \item
-The  {\bfseries second-order Newtonian part} follows from \eqref{eq:SecondorderNewtonian}  and \eqref{k2} (see e.g. \cite{Tellarini:2016sgp}): 
+The  {\bfseries second-order Newtonian part} follows from~\eqref{eq:SecondorderNewtonian} and~\eqref{k2} (see e.g.~\cite{Tellarini:2016sgp}): 
 \begin{align}
 \mathcal{K}^{(2)}_{\mathrm{N}}(\bm{k}_{1}, \bm{k}_{2},\bm{k}_3) &= b_{10}F_{2}(\bm{k}_{1}, \bm{k}_{2}) + b_{20} + f\mu_{3}^{2}G_{2}(\bm{k}_{1}, \bm{k}_{2}) + b_{s}S_{2}(\bm{k}_{1}, \bm{k}_{2}) 
  \label{e2.15}\\ &
@@ -586,7 +587,7 @@ Since we use the approximation $F/D^2=3/7$ in $F_2$,  we have $F'/(DD')=6/7$ in 
 
 %--------------------------------------
 \item
-The {\bfseries second-order relativistic part} follows from \eqref{odg2} and \eqref{k2} (see \citep{Jolicoeur:2017eyi}, with some errors that are corrected here):\blue{ 
+The {\bfseries second-order relativistic part} follows from~\eqref{odg2} and~\eqref{k2} (see~\cite{Jolicoeur:2017eyi}, with some errors that are corrected here):\blue{ 
 \begin{align}
 \mathcal{K}^{(2)}_{\mathrm{GR}}(\bm{k}_{1}, \bm{k}_{2}, \bm{k}_{3}) &= \frac{1}{k_{1}^{2}k_{2}^{2}}\Bigg\{\beta_{1} {+ E_{2}(\bm{k}_{1}, \bm{k}_{2},\bm{k}_3)\,\beta_2}  
 \label{e2.23} \\
@@ -616,13 +617,13 @@ where
 E_{2}(\bm{k}_{1}, \bm{k}_{2},\bm{k}_3)=\frac{k_{1}^{2}k_{2}^{2}}{k_{3}^{4}}
 \bigg[3+2\bigg(\frac{k_{1}}{k_{2}} + \frac{k_{2}}{k_{1}}\bigg) \hat{\k}_1\cdot \hat{\k}_2 + \big( \hat{\k}_1\cdot \hat{\k}_2\big)^2\bigg]\,. %\label{e2.24}
 \end{equation}
-The kernel \eqref{e2.23} is derived from the many terms in $\Delta_g^{(2)}(\x)$, as given in  \cite{Bertacca:2014dra, Bertacca:2014hwa} (we neglect the integrated terms). For convenience, in Table \ref{tabc1},  Appendix~\ref{app_betatables},  we summarise  which terms in $\Delta_g^{(2)}(\x)$ contribute to which of the terms in  \eqref{e2.23}. The time-dependent functions $\beta_{I}$ are also given in Appendix~\ref{app_betas}
+The kernel~\eqref{e2.23} is derived from the many terms in $\Delta_g^{(2)}(\x)$, as given in~\cite{Bertacca:2014dra, Bertacca:2014hwa} (we neglect the integrated terms). For convenience, in Table~\ref{tabc1},  Appendix~\ref{app_betatables},  we summarise  which terms in $\Delta_g^{(2)}(\x)$ contribute to which of the terms in  \eqref{e2.23}. The time-dependent functions $\beta_{I}$ are also given in Appendix~\ref{app_betas}
  
 \item
-The {\bfseries second-order local PNG part}  follows from \eqref{ngdg2}:
+The {\bfseries second-order local PNG part}  follows from~\eqref{ngdg2}:
 \begin{align}
-\mathcal{K}^{(2)}_{\mathrm{nG}}(\bm{k}_{1},\bm{k}_{2},\bm{k}_{3}) &= {2}\,f_{\mathrm{NL}}\big(b_{10}+f\mu_{3}^{2}\big)\frac{{\cal M}_{3}}{{\cal M}_{1}{\cal M}_{2}} 
-+ fb_{01}\big(\mu_1k_1+\mu_2k_2\big) \bigg(\frac{\mu_1}{k_1{\cal M}_{2}} + \frac{\mu_2}{k_2 {\cal M}_{1}} \bigg)
+\mathcal{K}^{(2)}_{\mathrm{nG}}(\bm{k}_{1},\bm{k}_{2},\bm{k}_{3}) &= {2}\,f_{\mathrm{NL}}\left(b_{10} + f\mu_{3}^{2}\right) \frac{{\cal M}_{3}}{{\cal M}_{1}{\cal M}_{2}} \nonumber \\
++& f b_{01}\left(\mu_1k_1+\mu_2k_2\right) \left(\frac{\mu_1}{k_1{\cal M}_{2}} + \frac{\mu_2}{k_2 {\cal M}_{1}} \right)
 \notag 
 \\  &
 + b_{n}{N}_{2}(\bm{k}_{1},\bm{k}_{2})  + \frac{b_{11}}{2}\bigg(\frac{1}{{\cal M}_{1}} + \frac{1}{{\cal M}_{2}}\bigg) 
@@ -647,8 +648,8 @@ In the first line of \eqref{e2.35}, the first term is a sum of the  matter densi
 The second line gives the scale-dependent bias contribution from \eqref{dg2bn}. The first two lines recover the Newtonian approximation (see \cite{Tellarini:2015faa}). 
 
 Lines 3 and 4 in {magenta} are the PNG contributions that arise from relativistic projection effects, as explained in Section \ref{ss-ond}. 
-These projection terms in the non-Gaussian kernel involve new time-dependent functions $\Upsilon_I$, which are given in Appendix REFERENCE APPENDIX.
-{The terms in $\Delta_g^{(2)}(\x)$ corresponding to those in \eqref{e2.35}, lines 3 and 4, are summarised in Table \ref{tabc3}, Appendix REFERENCE APPENDIX.}
+These projection terms in the non-Gaussian kernel involve new time-dependent functions $\Upsilon_I$, which are given in Appendix~\ref{app_pngb}.
+{The terms in $\Delta_g^{(2)}(\x)$ corresponding to those in \eqref{e2.35}, lines 4 and 5, are summarised in Table~\ref{tabc3}, Appendix~\ref{app_pngb}.}
 
 {The Newtonian terms scale as $(\cH^2/k^2)\,(\delta_{\mathrm{T}})^2$ except for the $b_{02}$ term which scales as $(\cH^4/k^4)\,(\delta_{\mathrm{T}})^2$. The relativistic $\Upsilon_1, \Upsilon_3$ terms scale as $(\cH^4/k^4)\,(\delta_{\mathrm{T}})^2$, while the $\Upsilon_2, \Upsilon_4, \Upsilon_5$ terms are  ${\cal O}(\cH^3/k^3)$.}
 

@@ -10,7 +10,7 @@ In previous chapters, we have examined the leading-order relativistic effect in 
 
 Galaxy number count fluctuations are distorted due to the fact that we observe on the past lightcone. A well-known effect is the Kaiser redshift-space distortion (RSD) effect~\citep{Verde:1998zr,Scoccimarro:1999ed}. Further distortions are due to lensing convergence, as well as due to Doppler, Sachs-Wolfe, Integrated Sachs-Wolfe (ISW), and time delay effects; all of which are suppressed on sub-equality scales. There are also couplings between these effects when one goes up to non-linear order. 
 
-The observed galaxy power spectrum at tree level involves only the projection effects at first order. However, the bispectrum, even at tree level, involves both first- and second-order relativistic projection effects. These have all been introduced in Chapter~\ref{chapter:ho}
+The observed galaxy power spectrum at tree level involves only the projection effects at first order. However, the bispectrum, even at tree level, involves both first- and second-order relativistic projection effects. These have all been introduced in Chapter~\ref{chapter:ho}.
 
 Above the equality scale the galaxy bispectrum will be  a key probe for measuring primordial non-Gaussianity which can help differentiate between different inflationary models and other theories of the early universe. On these scales a variety of relativistic effects come into play once the galaxy number-count fluctuation is projected onto our past lightcone. By decomposing the Fourier-space bispectrum into invariant multipoles about the observer's line of sight we examine in detail how the relativistic effects contribute to these. We show how to perform this decomposition analytically, which is significantly faster for subsequent computations.  While all multipoles receive a contribution from the relativistic part, odd multipoles arising from the imaginary part of the bispectrum have no Newtonian contribution, making the odd multipoles a smoking gun for a relativistic signature in the bispectrum for single tracers.  The dipole and the octopole are significant on equality scales and above where the Newtonian approximation breaks down. This breakdown is further signified by the fact that the even multipoles receive a significant correction on very large scales.
 
@@ -34,11 +34,11 @@ In Fourier space, the observed galaxy bispectrum \(B_g\) at a fixed redshift \(z
 \end{equation}
 where \(\Delta_g(z, \ka)\) is the number count contrast at redshift \(z\) (see~\cite{Jolicoeur:2017nyt} for the full expression). Here we work in the Poisson gauge; note that \(\Delta_g = \delta_g + \text{RSD}+\text{GR}\) projection effects, where the RSD term is the Kaiser RSD up to second order, which is part of the Newtonian approximation. Since redshift is fixed, in what follows we drop redshift dependence for brevity. Furthermore, since the observed direction \(\n\) is fixed in what follows, the plane-parallel approximation is necessarily assumed. Then, at tree level, and for Gaussian initial conditions, the following combinations of terms contribute, 
 \begin{equation}
-\langle \Delta_g(\ka)\Delta_g(\kb)\Delta_g(\kc) \rangle = \frac{1}{2} \langle \Delta_g^{(1)}(\ka)\Delta_g^{(1)}(\kb)\Delta_g^{(2)}(\kc)\rangle \text{ + 2 cyclic permutations.}
+\langle \Delta_g(\ka)\Delta_g(\kb)\Delta_g(\kc) \rangle = \frac{1}{2} \langle \Delta_g^{(1)}(\ka)\Delta_g^{(1)}(\kb)\Delta_g^{(2)}(\kc)\rangle \text{ + 2 c.p.}
 \end{equation}
 Using Wick's theorem, this gives an expression for the galaxy bispectrum ~\cite{Jolicoeur:2017nyt}
 \begin{equation}
-B_g(\ka, \kb,\kc)= \ko^{(1)}(\ka) \ko^{(1)}(\kb) \ko^{(2)}(\ka,\kb,\kc)P(\ka) P(\kb)\text{ + 2 cyclic permutations},
+B_g(\ka, \kb,\kc)= \ko^{(1)}(\ka) \ko^{(1)}(\kb) \ko^{(2)}(\ka,\kb,\kc)P(\ka) P(\kb)\text{ + 2 c.p.},
 \end{equation}
 where \(P\) is the power spectrum of \(\delta_\mathrm{T}^{(1)}\), the first order dark matter density contrast in the total-matter gauge, which corresponds to an Eulerian frame. The first order kernel can be split into a Newtonian and a relativistic part as~\cite{Jeong:2011as}
 \begin{equation}
@@ -90,17 +90,18 @@ where \( s^2 = s_{ij}s^{ij}\), and \( s_{ij} = \Phi_{,ij} - \delta_{ij}\nabla^2 
 
 The relativistic part of the second order kernel was first derived in~\cite{Umeh:2016nuh} in the simplest case and extended in~\cite{Jolicoeur:2017nyt,Jolicoeur:2017eyi,Jolicoeur:2018blf}. Neglecting sub-dominant vector and tensor contributions, we have 
 \begin{align}\label{eq:soGRkernel}
-\ko_\mathrm{GR}^{(2)}(\ka,\kb,\kc) &= \frac{1}{k_1^2 k_2^2} \left\{ \vphantom{\frac{k_1^2 k_2^2}{k_3}} \beta_1 + E_2(\ka,\kb,\kc) \beta_2 
-+\i (\mu_1k_1+\mu_2k_2)\beta_3
-+ \i \mu_3 k_3\left[ \beta_{4} + E_2(\ka, \kb, \kc)\beta_{5}\right] \right. \nonumber \\
-&\left. +\frac{k_1^2 k_2^2}{k_3^2} \left[ F_2(\ka,\kb) \beta_{6} + G_2(\ka,\kb) \beta_{7} \right] + \left( \mu_1 k_1 \mu_2 k_2 \right)\beta_{8} + \mu_3^2 k_3^2 \left(\beta_{9} + E_2(\ka,\kb,\kc) \beta_{10} \right) \right. \nonumber \\
-&\left. + \left(\ka \cdot \kb \right)\beta_{11} + \left( k_1^2 + k_2^2 \right) \beta_{12} + \left( \mu_1^2 k_1^2 + \mu_2^2 k_2^2 \right) \beta_{13} \right. \nonumber \\
-&\left. + \i \left[\vphantom{\frac{k_1^2 k_2^2}{k_3}} \left( \mu_1 k_1^3 + \mu_2 k_2^3 \right)\beta_{14} + \left( \mu_1 k_1 + \mu_2 k_2 \right) \left(\ka\cdot\kb \right) \beta_{15} + k_1 k_2 \left(\mu_1 k_2 + \mu_2 k_1 \right) \beta_{16} \right. \right. \nonumber \\
-&\left. \left. + \left( \mu_1^3 k_1^3 + \mu_2^3 k_2^3 \right)\beta_{17} + \mu_1 \mu_2 k_1 k_2 \left( \mu_1 k_1 + \mu_2 k_2 \right) \beta_{18} + \mu_3 \frac{k_1^2 k_2^2}{k_3} G_2(\ka,\kb) \beta_{19} \right] \right\}.
+\ko_\mathrm{GR}^{(2)}(\ka,\kb,\kc) &= \frac{1}{k_1^2 k_2^2} \left\{ \vphantom{\frac{k_1^2 k_2^2}{k_3}} \beta_1 + E_2(\ka,\kb,\kc) \beta_2 +\i (\mu_1k_1+\mu_2k_2)\beta_3\right. \nonumber \\
+&\left. 
++ \i \mu_3 k_3\left[ \beta_{4} + E_2(\ka, \kb, \kc)\beta_{5}\right] +\frac{k_1^2 k_2^2}{k_3^2} \left[ F_2(\ka,\kb) \beta_{6} + G_2(\ka,\kb) \beta_{7} \right] \right. \nonumber \\
+&\left.   + \left( \mu_1 k_1 \mu_2 k_2 \right)\beta_{8}  + \mu_3^2 k_3^2 \left(\beta_{9} + E_2(\ka,\kb,\kc) \beta_{10} \right) + \left(\ka \cdot \kb \right)\beta_{11} \right. \nonumber \\
+&\left. + \left( k_1^2 + k_2^2 \right) \beta_{12} + \left( \mu_1^2 k_1^2 + \mu_2^2 k_2^2 \right) \beta_{13} + \i \left[\vphantom{\frac{k_1^2 k_2^2}{k_3}} \left( \mu_1 k_1^3 + \mu_2 k_2^3 \right)\beta_{14} \right. \right. \nonumber \\
+&\left. \left. + \left( \mu_1 k_1 + \mu_2 k_2 \right) \left(\ka\cdot\kb \right) \beta_{15} + k_1 k_2 \left(\mu_1 k_2 + \mu_2 k_1 \right) \beta_{16} \right. \right. \nonumber \\
+&\left. \left. + \left( \mu_1^3 k_1^3 + \mu_2^3 k_2^3 \right)\beta_{17} + \mu_1 \mu_2 k_1 k_2 \left( \mu_1 k_1 + \mu_2 k_2 \right) \beta_{18} \right. \right. \nonumber \\
+&\left. \left. + \mu_3 \frac{k_1^2 k_2^2}{k_3} G_2(\ka,\kb) \beta_{19} \right] \right\}.
 \end{align}
 We have collected terms according to the overall powers of $k$ involved.
-The \(\beta_i\) here are redshift- and bias-dependent coefficients, given in full in appendix~\ref{app_betas}, which updates expressions in previous papers.
-We have defined the kernel \(E_2\) which scales as \(k^0\) (like \(F_2\), \(G_2\), and \(Z_2\) do), 
+The \(\beta_i\) here are redshift- and bias-dependent coefficients, given in full in Appendix~\ref{app_betas}, which updates expressions in previous papers.
+We have defined the kernel \(E_2\) which scales as \(k^0\) (like \(F_2\), \(G_2\), and \(\mathcal{Z}_2\) do), 
 \begin{equation}
 E_2(\ka,\kb,\kc) = \frac{k_1^2 k_2^2}{k_3^4} \left[ 3 + 2 \left( \hat{\k}_1 \cdot\hat{\k}_2 \right) \left( \frac{k_1}{k_2} + \frac{k_2}{k_1} \right) + \left( \hat{\k}_1 \cdot \hat{\k}_2 \right)^2 \right],
 \end{equation}
@@ -116,8 +117,9 @@ where the last term maintains gauge invariance on ultra-large scales, and is giv
 \end{equation}
 The GR correction~\eqref{eq:grcorrdelta} to the Newtonian bias model is contained in the GR kernel~\eqref{eq:soGRkernel}. Then, we also need to transform \(\delta_{g\mathrm{T}}^{(2)}\) to the Poisson	 gauge \( \delta_g^{(2)} \), the expression for this is given in~\cite{Jolicoeur:2017nyt}, 
 \begin{align}
-\delta_{g}^{(2)}  &= \delta_{g{\mathrm{T}} }^{(2)} + (3-b_e) \cH v^{(2)} +\Big[ (b_e-3) \cH' + b_e' \cH + (b_e-3)^2 \cH^2 \Big]  \big[v^{(1)}\big]^2 + (b_e-3)\cH   v^{(1)}  v^{(1)\prime} \nonumber\\
-& +2(3-b_e)\cH  v^{(1)} \delta_{g{\mathrm{T}}}^{(1)}  - 2  v^{(1)} \delta_{g{\mathrm{T}}}^{(1)\prime} + 3 \left( b_e-3\right) \cH v^{(1)}\Phi^{(1)} \,.\label{dgpt}
+\delta_{g}^{(2)}  =& \delta_{g{\mathrm{T}} }^{(2)} + (3-b_e) \cH v^{(2)} +\left[ (b_e-3) \cH' + b_e' \cH + (b_e-3)^2 \cH^2 \right]  \left[v^{(1)}\right]^2 
+\nonumber \\
+& + (b_e-3)\cH   v^{(1)}  v^{(1)\prime}  +2(3-b_e)\cH  v^{(1)} \delta_{g{\mathrm{T}}}^{(1)}  - 2  v^{(1)} \delta_{g{\mathrm{T}}}^{(1)\prime} + 3 \left( b_e-3\right) \cH v^{(1)}\Phi^{(1)} \,.\label{dgpt}
 \end{align}
 All of the terms after $\delta_{g\mathrm{T}}^{(2)}$ on the right of equation~\eqref{dgpt} scale as $(\cH/k)^n \left[ \delta^{(1)}_\mathrm{T} \right]^2$, where $n = 2,4$. Therefore they are omitted in the Newtonian approximation. These GR correction terms maintain gauge-independence on ultra-large scales, and they are included in the GR kernel~\eqref{eq:soGRkernel}.
 
@@ -289,9 +291,9 @@ where we have used that $P_{\ell m}(-x) = (-1)^{\ell + m} P_{\ell m}(x)$, and re
 \end{equation}
 The associated Legendre polynomials can be written in closed form, using, 
 \begin{align}
-	P_{\ell m}(\mu) = (-1)^m P_\ell^m \nonumber \\
+	P_{\ell m}(\mu) &= (-1)^m P_\ell^m \nonumber \\
 	&= (-1)^m (-1)^m 2^\ell (1-\mu^2)^{m/2} \sum_{k = m}^\ell \frac{k!}{(k-m)!} \mu^{k-m} \binom{\ell}{k} \binom{\frac{1}{2}(\ell + k - 1)}{\ell} \nonumber \\
-	& 2^\ell (1-\mu^2)^{m/2} \sum_{k = m}^\ell \frac{k!}{(k-m)!} \mu^{k-m} \binom{\ell}{k} \binom{\frac{1}{2}(\ell + k - 1)}{\ell}\,,
+	& \times 2^\ell (1-\mu^2)^{m/2} \sum_{k = m}^\ell \frac{k!}{(k-m)!} \mu^{k-m} \binom{\ell}{k} \binom{\frac{1}{2}(\ell + k - 1)}{\ell}\,,
 \end{align}
 such that, 
 \begin{align}
@@ -336,10 +338,10 @@ Putting together all these results leads to the identity for $m \geq 0$,
 \begin{align}\label{eq:sumformula} X_{\ell m}^{ab} &= 2^{\ell+m-1}\i^{a+b+m}\sqrt{\frac{\pi(2\ell+1)(\ell-m)!}{(\ell+m)!}}\nonumber\\
 &\times
 \sum_{p=m}^{\frac{1}{2}(b+m)}\sum_{q=m}^{\ell}
-\frac{[1+(-1)^{a+b+q}]\,b!\,\cos^{b+m-2p}\theta\sin^{2p-m}\theta}{4^p(b+m-2p)!(\ell-q)!(p-m)!(q-m)!}
+\frac{[1+(-1)^{a+b+q}]\,b!\,\cos^{b+m-2p}\theta\sin^{2p-m}\theta}{4^p(b+m-2p)!(\ell-q)!(p-m)!(q-m)!}\\
 %\frac{[\frac{1}{2}(q+\ell-1)]!}{[\frac{1}{2}(q-\ell-1)]!}
 %\frac{[\frac{1}{2}(a+b +q-p-1)]!}{[\frac{1}{2}(a+b+q+1)]!}
-\frac{\Gamma[\frac{1}{2}(q+\ell+1)]}{\Gamma[\frac{1}{2}(q-\ell+1)]}
+&\times \frac{\Gamma[\frac{1}{2}(q+\ell+1)]}{\Gamma[\frac{1}{2}(q-\ell+1)]}
 \frac{\Gamma[\frac{1}{2}(a+b +q-2p+1)]}{\Gamma[\frac{1}{2}(a+b+q+3)]}
 \end{align}
 for $m\leq b$ and zero otherwise. For $m < 0$, the result follows a similar pattern, using the simple relation \(X_{\ell -m}^{ab} = (-1)^{a+b+m} X_{\ell m}^{ax`'b*}\).
@@ -371,9 +373,10 @@ In terms of $({\cal H}/k)$ powers, the highest that appear for each $\ell$ is $(
 \subsection*{Presentation of the matrix $\mathcal{B}_{ab}$}
 
 Here we describe in more detail how to calculate the matrix of coefficients $\mathcal{B}_{ab}$. These are far too large to write down, but most of the complexity comes from the $k_i$ permutations and the fact that they are made irreducible from substituting for $\mu_3$. However, the core part can be shown from which they can easily be calculated. First we note that once $\mu_3$ is substituted for, we can write the first cyclic permutation of the product of the kernels as  
-\begin{equation}
-	\ko_{123}=\ko^{(1)}(k_1,\mu_1)\ko^{(1)}(k_2,\mu_2)\ko^{(2)}(k_1,k_2,k_3,\mu_1,\mu_2)= \sum_{a=0}^5\sum_{b=0}^5 (\i \mu_1)^a (\i \mu_2)^b \ko_{ab}(k_1,k_2,k_3)\,,
-\end{equation}
+\begin{align}
+	\ko_{123} &= \ko^{(1)}(k_1,\mu_1)\ko^{(1)}(k_2,\mu_2)\ko^{(2)}(k_1,k_2,k_3,\mu_1,\mu_2)\nonumber \\
+	&= \sum_{a=0}^5\sum_{b=0}^5 (\i \mu_1)^a (\i \mu_2)^b \ko_{ab}(k_1,k_2,k_3)\,,
+\end{align}
 where \(\ko_{ab}(k_1,k_2,k_3)=\ko_{ab}(k_2,k_1,k_3)\) is a set of real \(\mu\)-independent coefficients which we give below, and here the maximum value of \(a,\,b = 5\). Given $\ko_{123}$ we can derive the permutations $\ko_{321}$ and $\ko_{312}$ as
 \begin{align}
 	&\ko_{321} = \sum_{a,b} \sum_{c=0}^a \binom{a}{c} \frac{k_1^{a-c} k_2^c}{k_3^a} (-1)^a (\i \mu_1)^{a-c} (\i \mu_2)^{b+c} \ko_{ab}(k_3,k_2,k_1)\label{eq:ko_321perm}, \\
@@ -382,7 +385,7 @@ where \(\ko_{ab}(k_1,k_2,k_3)=\ko_{ab}(k_2,k_1,k_3)\) is a set of real \(\mu\)-i
 where, as in general, the range of \(a,\,b = 0 \dots 6\).
 Given these, the full bispectrum is just $B_g=\ko_{123}P_1P_2+2\,$permutations, but now explicitly written in terms of sums over powers of $\mu_1,\mu_2$.  From this $\mathcal{B}_{ab}$ can be found by inspection. The difference in dimension between the permutations originates from the other cyclic permutations being added, where one substitutes \(\mu_3 = - \left( k_1 \mu_1 + k_2 \mu_2 \right)/k_3\). In~\eqref{eq:ko_321perm}  the largest power of $\mu_2$ is 6, and~\eqref{eq:ko_312perm} has the largest power of $\mu_1$ as 6.
 
-To present $\ko_{ab}(k_1,k_2,k_3)$ we will show powers of ${\cal H}/k$ separately, and write $\ko_{ab}(k_1,k_2,k_3)=\sum_{n=0}^8 \ko_{ab}^{(n)}(k_1,k_2,k_3)$ where $n$ represents the power of ${\cal H}/k$.  Then the Newtonian and leading GR correction  part look like (again, a bullet denotes a non-zero entry)
+To present $\ko_{ab}(k_1,k_2,k_3)$ we will show powers of ${\cal H}/k$ separately, and write \\$\ko_{ab}(k_1,k_2,k_3)=\sum_{n=0}^8 \ko_{ab}^{(n)}(k_1,k_2,k_3)$ where $n$ represents the power of ${\cal H}/k$.  Then the Newtonian and leading GR correction  part look like (again, a bullet denotes a non-zero entry)
 \begin{equation}         
   \ko_{ab}^{(0)} = \left( \begin {array}{cccccc} 
  \bullet&\circ &\bullet&\circ &\bullet&\circ \\ 
@@ -459,13 +462,15 @@ Similarly, the leading GR correction $\mathcal{O}(\cH/k)$  coefficients are,
   -b_{1}^{2}\left[\gamma_1 f\left(\frac{2}{k_{2}}+\frac{k_{2}}{k_{1}^{2}}\right) +\frac{\beta_{18}}{k_{2}}\right] \\
  &+b_1f\left\{\left[\left(-\frac{k_{1}^{2}}{k_{2} k_{3}^{2}}-\frac{2 k_{2}}{k_{3}^{2}}\right) \gamma_{1}+\frac{k_{2} \beta_{19}}{k_{3}^{2}}\right] G-\frac{F \gamma_{1}}{k_{2}}-\frac{\beta_{16}}{k_{2}}-\beta_{14}\left(\frac{ \mu}{k_{1}}+\frac{k_{2} }{k_{1}^{2}}\right)\right\}
  %%
- \\ \ko^{(1)}_{23}=&  b_{1}f\left[\left(\frac{4}{k_{2}}+\frac{2 k_{2}}{k_{1}^{2}}\right) \gamma_{1} f+\frac{\beta_{18}}{k_{2}}+\frac{\beta_{17} k_{2} }{k_{1}^{2}} \right]+f^{2}\left[G\left(3 \gamma_{1}-\beta_{19}\right) \frac{k_{2} }{k_{3}^{2}}+\frac{\beta_{16}}{k_{2}}+\frac{\beta_{15} \mu}{k_{1}}+\frac{\beta_{14} k_{2} }{k_{1}^{2}}\right]
+ \\ \ko^{(1)}_{23}=&  b_{1}f\left[\left(\frac{4}{k_{2}}+\frac{2 k_{2}}{k_{1}^{2}}\right) \gamma_{1} f+\frac{\beta_{18}}{k_{2}}+\frac{\beta_{17} k_{2} }{k_{1}^{2}} \right]+f^{2}\left[G\left(3 \gamma_{1}-\beta_{19}\right) \frac{k_{2} }{k_{3}^{2}}+\frac{\beta_{16}}{k_{2}} \right. \nonumber \\
+ &\left. + \frac{\beta_{15} \mu}{k_{1}}+\frac{\beta_{14} k_{2} }{k_{1}^{2}}\right]
  %%
  \\ \ko^{(1)}_{25}=& -f^2(\gamma_1f+\beta_{17})\frac{k_{2} }{k_{1}^{2}}
  %%
  \\ \ko^{(1)}_{30}=& - b_{1}^{2}\left(\frac{f \gamma_{1}}{k_{1}}+\frac{\beta_{17} k_{1} }{k_{2}^{2}}\right)+b_{1}f\left[G\left(- \gamma_{1}+\beta_{19}\right)  \frac{k_{1} }{k_{3}^{2}}-\frac{\beta_{14} k_{1}}{k_{2}^{2}}-\frac{\beta_{15} \mu}{k_{2}}-\frac{\beta_{16}}{k_{1}}\right] 
  %%
- \\ \ko^{(1)}_{32}=& b_{1}f\left[\left(\frac{2 k_{1}}{k_{2}^{2}}+\frac{4}{k_{1}}\right) \gamma_{1} f+\frac{ \beta_{17} k_{1}}{k_{2}^{2}}+\frac{\beta_{18}}{k_{1}}\right] +f^2\left[G\left(3 \gamma_{1}- \beta_{19}\right) \frac{k_{1} }{k_{3}^{2}}+\frac{\beta_{14} k_{1}}{k_{2}^{2}}+\frac{\beta_{15} \mu}{k_{2}}+\frac{\beta_{16}}{k_{1}}\right]
+ \\ \ko^{(1)}_{32}=& b_{1}f\left[\left(\frac{2 k_{1}}{k_{2}^{2}}+\frac{4}{k_{1}}\right) \gamma_{1} f+\frac{ \beta_{17} k_{1}}{k_{2}^{2}}+\frac{\beta_{18}}{k_{1}}\right] +f^2\left[G\left(3 \gamma_{1}- \beta_{19}\right) \frac{k_{1} }{k_{3}^{2}}+\frac{\beta_{14} k_{1}}{k_{2}^{2}} \right. \nonumber \\
+ &\left. + \frac{\beta_{15} \mu}{k_{2}}+\frac{\beta_{16}}{k_{1}}\right]
  %%
  \\ \ko^{(1)}_{34}=& -\frac{f^{2}\left(3 f \gamma_{1}+\beta_{18}\right)}{k_{1}}
  % %
@@ -476,7 +481,7 @@ Similarly, the leading GR correction $\mathcal{O}(\cH/k)$  coefficients are,
  \\ \ko^{(1)}_{50}=& \frac{b_1 \beta_{17} f k_1}{k_2^2}
  \\ \ko^{(1)}_{52}=&-\frac{f^{2} k_{1}\left(f \gamma_{1}+\beta_{17}\right)}{k_{2}^{2}}\,.
 \end{align}
-The remaining matrices are of the form 
+The remaining matrices are of the form,
 \begin{align}
  \ko^{(2)}_{ab}&= 
  \left( \begin {array}{cccccc} \bullet &\circ &\bullet &\circ 
@@ -495,8 +500,8 @@ The remaining matrices are of the form
 \bullet &\circ &\bullet &\circ &\circ &\circ 
 \\  \circ &\bullet &\circ &\circ &\circ &
 \circ \\  \bullet &\circ &\circ &\circ &
-\circ &\circ \end {array} \right) 
-~~~ \ko^{(4)}_{ab}= 
+\circ &\circ \end {array} \right) \nonumber \\
+\ko^{(4)}_{ab} &= 
  \left( \begin {array}{cccccc} \bullet &\circ &\bullet &\circ 
 &\bullet &\circ \\  \circ &\bullet &\circ &
 \bullet &\circ &\circ \\  \bullet &\circ &
@@ -531,8 +536,8 @@ The remaining matrices are of the form
 \circ &\circ &\circ &\circ &\circ \\  
 \circ &\circ &\circ &\circ &\circ &\circ 
 \\  \circ &\circ &\circ &\circ &\circ &
-\circ \end {array} \right) 
-~~~ \ko^{(8)}_{ab}= 
+\circ \end {array} \right) \nonumber \\
+\ko^{(8)}_{ab}&= 
  \left( \begin {array}{cccccc} \bullet &\circ &\circ &\circ &
 \circ &\circ \\  \circ &\circ &\circ &
 \circ &\circ &\circ \\  \circ &\circ &
@@ -542,7 +547,7 @@ The remaining matrices are of the form
 \\  \circ &\circ &\circ &\circ &\circ &
 \circ \end {array} \right).
 \end{align}
-Their coefficients are extracted in similar fashion, and can be found in full in appendix~\ref{app_kernelpres}.
+Their coefficients are extracted in similar fashion, and can be found in full in Appendix~\ref{app_kernelpres}.
 
 
 \section{Analysis of the multipoles}\label{sec:anal}
@@ -558,7 +563,7 @@ The equilateral case is significantly more complicated to evaluate.
 Non-zero equilateral multipoles exist for all even $m$, for any $\ell$, the one exception being the $m=0$ part of the dipole, for which the equilateral configuration is identically zero. These are summarised in Fig.~\ref{fig:blm_overview}, together with the powers of $k$ which appear in each multipole.
 \begin{figure}[ht]
 \centering
-\includegraphics[width=0.5\textwidth]{fig/overview.pdf}
+\includegraphics[width=0.7\textwidth]{fig/overview.pdf}
 \caption{Overview of all non-zero multipoles for the bispectrum, which includes $\ell$ from 0 to 8, and $m$ from $-\ell$ to $\ell$; the pattern here is the same for $m < 0$, so only $m \geq 0$ are displayed. Denoted in the figure are whether components are Newtonian+GR or GR only, triangle shapes indicating whether given components are non-vanishing in flattened (co-linear) or equilateral limits. Note how the dipole is unique in having the equilateral case vanish for every value of \(m\). Also given is which powers of $\cH/k$ appear in each of the multipoles. \label{fig:blm_overview}}
 \end{figure}
 
@@ -571,7 +576,7 @@ to write the wavenumber in terms of the short mode $k_S\gg k_L$, which implies
 \mu=-1+\frac{\epsilon^2}{2}\,.
 \end{equation}
 We then take the limit as $\epsilon\to0$ with the short mode $k_S$ fixed, and keep only the leading terms in $\cH/k_L$, neglecting factors of $\cH/k_S$ and $P(k_S)^2$.  For each multipole we are then left with the squeezed limit as a polynomial in $\cH/k_L$. The leading contributions are:
-\begin{equation}
+\begin{equation}\rotatebox{90}{$
 \underbrace{\left(\frac{\cH}{k_L}\right)^0 
  \left( \begin {array}{ccccccccc} \bullet &\cdot &\cdot &\cdot &\cdot &\cdot &\cdot &\cdot &\cdot 
 \\  \circ &\circ &\cdot &\cdot &\cdot &\cdot &\cdot &\cdot &\cdot \\  \bullet &\circ &\bullet &\cdot &\cdot &\cdot 
@@ -586,7 +591,7 @@ We then take the limit as $\epsilon\to0$ with the short mode $k_S$ fixed, and ke
  \left(\frac{\cH}{k_L}\right)^1\left( \begin {array}{ccccccccc} {\circ }&\cdot &\cdot &\cdot &\cdot &\cdot &\cdot &\cdot &\cdot \\ \circ &\bullet &\cdot &\cdot &\cdot &\cdot &\cdot &\cdot &\cdot \\ {\circ }&\circ &{\circ }&\cdot &\cdot &\cdot &\cdot &\cdot &\cdot \\ \circ &\bullet &\circ &\bullet &\cdot &\cdot &\cdot &\cdot &\cdot \\ {\circ }&\circ &{\circ }&\circ &\circ &\cdot &\cdot &\cdot &\cdot \\ \circ &\bullet &\circ &\bullet &\circ &\circ &\cdot &\cdot &\cdot \\ {\circ }&\circ &{\circ }&\circ &\circ &\circ &\circ &\cdot &\cdot \\ \circ &\bullet &\circ &\bullet &\circ &\circ &\circ &\circ &\cdot \\ \circ &\circ &\circ &\circ &\circ &\circ &\circ &\circ &\circ \end {array} \right) 
 +
 %%
-\left(\frac{\cH}{k_L}\right)^2 \left( \begin {array}{ccccccccc} \bullet &\cdot &\cdot &\cdot &\cdot &\cdot &\cdot &\cdot &\cdot \\ \circ &\circ &\cdot &\cdot &\cdot &\cdot &\cdot &\cdot &\cdot \\ \bullet &\circ &\bullet &\cdot &\cdot &\cdot &\cdot &\cdot &\cdot \\ \circ &\circ &\circ &\circ &\cdot &\cdot &\cdot &\cdot &\cdot \\ \bullet &\circ &\bullet &\circ &\circ &\cdot &\cdot &\cdot &\cdot \\ \circ &\circ &\circ &\circ &\circ &\circ &\cdot &\cdot &\cdot \\ \bullet &\circ &\bullet &\circ &\circ &\circ &\circ &\cdot &\cdot \\ \circ &\circ &\circ &\circ &\circ &\circ &\circ &\circ &\cdot \\ \circ &\circ &\circ &\circ &\circ &\circ &\circ &\circ &\circ \end {array} \right) }_\text{GR contributions}
+\left(\frac{\cH}{k_L}\right)^2 \left( \begin {array}{ccccccccc} \bullet &\cdot &\cdot &\cdot &\cdot &\cdot &\cdot &\cdot &\cdot \\ \circ &\circ &\cdot &\cdot &\cdot &\cdot &\cdot &\cdot &\cdot \\ \bullet &\circ &\bullet &\cdot &\cdot &\cdot &\cdot &\cdot &\cdot \\ \circ &\circ &\circ &\circ &\cdot &\cdot &\cdot &\cdot &\cdot \\ \bullet &\circ &\bullet &\circ &\circ &\cdot &\cdot &\cdot &\cdot \\ \circ &\circ &\circ &\circ &\circ &\circ &\cdot &\cdot &\cdot \\ \bullet &\circ &\bullet &\circ &\circ &\circ &\circ &\cdot &\cdot \\ \circ &\circ &\circ &\circ &\circ &\circ &\circ &\circ &\cdot \\ \circ &\circ &\circ &\circ &\circ &\circ &\circ &\circ &\circ \end {array} \right) }_\text{GR contributions}$}
 \end{equation}
 Here, the matrices represent the $\ell,m$ values from $\ell=0,m=0$ (top left entry). We see that the Newtonian part has non-zero squeezed limits for some even $m$, terminating at $m=4$. GR corrections come in up to $m=3$ for $\ell\leq 7$. For odd $m$ these contributions come in for the leading terms $\mathcal{O}(\mathcal{H}/k)$, while for $m$ even the order is lower, $\mathcal{O}((\mathcal{H}/k)^2)$. Note that we assume primordial Gaussianity. In the presence of primordial non-Gaussianity, the squeezed limit has higher powers of $\cH/k$. Current work investigates how primordial non-Gaussianity will change our results. The effect of local primordial non-Gaussianity on the Newtonian galaxy bispectrum is presented in~\cite{Umeh:2016nuh}.
 
@@ -757,7 +762,7 @@ Lastly, we fix triangle shape and size, and plot the relative total power (as de
 \caption{Total power contained in the relativistic bispectrum normalised by the Newtonian monopole as a function of redshift \(z\) ranging from 0.1 to 2. The three panels are the equilateral configuration (left, with \(\ell = 1\) vanishing), squeezed (middle) and co-linear flattened configuration (right). Solid lines for \(k = 0.1 \, \mathrm{Mpc^{-1}}\), and dash-dotted for \(k = 0.01 \, \mathrm{Mpc^{-1}}\).\label{fig:fnofz}}
 \end{figure}
 
-Figures~\ref{fig:totpowersq},\ref{fig:totpowerfl} and~\ref{fig:totpowereq} show the amplitude of the total power as defined in~\eqref{eq:totpower}. For each $\ell$ this contains all orientations per multipole divided by the amplitude of the Newtonian monopole. Values of \(\ell\) are labelled on the figure, with the dotted lines denoting the Newtonian contribution (for even \(\ell\) only). For small scales (larger wavenumber \(k\)), the Newtonian contributions are generally larger than the relativistic \(b_\ell\) (i.e. odd \(\ell\)), however at larger scales,  above equality, the relative power contained in relativistic contributions increases. This shows up in the even multipoles as a divergence between the dotted (purely Newtonian) lines and solid (GR-corrected) lines. In the odd multipoles, we see an increase in amplitude, which at the largest scales become larger than the purely Newtonian signal. This is dependent on bias model and triangular configuration.
+Figures~\ref{fig:totpowersq},~\ref{fig:totpowerfl} and~\ref{fig:totpowereq} show the amplitude of the total power as defined in~\eqref{eq:totpower}. For each $\ell$ this contains all orientations per multipole divided by the amplitude of the Newtonian monopole. Values of \(\ell\) are labelled on the figure, with the dotted lines denoting the Newtonian contribution (for even \(\ell\) only). For small scales (larger wavenumber \(k\)), the Newtonian contributions are generally larger than the relativistic \(b_\ell\) (i.e. odd \(\ell\)), however at larger scales,  above equality, the relative power contained in relativistic contributions increases. This shows up in the even multipoles as a divergence between the dotted (purely Newtonian) lines and solid (GR-corrected) lines. In the odd multipoles, we see an increase in amplitude, which at the largest scales become larger than the purely Newtonian signal. This is dependent on bias model and triangular configuration.
 
 The colour-intensity maps in figures~\ref{fig:euclidtriangle} and~\ref{fig:imtriangle} show the amplitude of the relativistic bispectrum over the \(k_3/k_1\), \(k_2/k_1\) plane. The amplitude of the bispectrum signal peaks in the squeezed limit where \(k_1=k_2\), \(k_3\to 0\) which is in the top left corner in these plots. For the odd multipoles \(\ell = 1\) and \(\ell = 3\),  the amplitude of the dipole is higher than the \(\ell=3\) case in most configurations. The amplitude of the relativistic bispectrum is also higher for larger scales (smaller \(k\)). For \(\ell = 1\), the equilateral configuration, which lies in the upper right corner of the plots, is vanishing as we established analytically. 
 We can also observe from these plots that there is a rough trend that more power is contained in the lower $m$ multipoles.
