@@ -179,7 +179,7 @@ The bispectrum in Fourier space forms a closed triangle correlating three differ
 
 Similar to how the power spectrum is a measure of probability of finding pairs of galaxies at a given separation from each other, the bispectrum analogously maps this to a probability in a three-dimensional equivalent. That is, it can correspond directly to the filamentary structure formed by matter and voids which we know as the cosmic web. The bispectrum has degrees of freedom in both modulus of the wavevector i.e. scales of correlation, as well as the shape of the triangle itself. See figure~\ref{fig:realspacesignature} for an example of how a given triangle shape in Fourier space translates to a real-space structure of overdensities and voids. 
 
-\begin{figure}[ht!]
+\begin{figure}[!ht]
 	\centering
 	\includegraphics[width=0.8\textwidth]{fig/Equilateral.png}
 	\caption{An illustration of a Fourier-space triangle shape and the corresponding real space signature-- in this case the equilateral bispectrum. The field (denoted T here) can be decomposed into plane waves, and the three components that form an equilateral triangle can have different signs relative to each other. This gives an overall sign to bispectrum $b$, to be interpreted as an average probability of which sign is more likely. A positive sign corresponds to the combination of wavevectors being more likely to produce concentrated overdensities surrended by areas of milder underdensity. For a negative equilateral bispectrum, this is the other way round, and one would expect to see on average more concentrated underdensities surrounded by areas with mild overdensity. Please note that these are slices of 3D figures, which extend into the page-- meaning that a positive sign on the bispectrum corresponds to filaments of overdensities surrounded by areas of mild underdensity. Note also that this concerns a statistical quantity only, so while on average one would expect to see more of one type of signature, the observed distribution does not uniformly look like a given real space structure. Figure taken from~\cite{Lewis:2011}}
@@ -208,9 +208,9 @@ All sorts of galaxy surveys and the resulting statistical studies of the distrib
 
 Roughly speaking, LSS can be divided into two regimes, small non-linear scales, which cannot be described with perturbation theory, and large quasi-linear scales, which can adequately be described by perturbation theory, provided if it is carried out to sufficiently high order. Here we will consider only quasi-linear scales, so that perturbation theory will not break down. On these scales, the complex process of galaxy formation, which is itself far from being understood in detail, can at each order in perturbations and at fixed time, be absorbed into a finite set of parameters called the bias parameters. This is a remarkable result, and relies on the fact that on large scales the formation of structure is almost entirely determined by gravity. 
 
-\subsection{Local-in-mass-density model of galaxy bias}
+\subsection{Local model of galaxy bias}
 
-The simplest example of a local model of galaxy bias is the local-in-mass-density (LIMD) model of galaxy bias. In this model, we assume that dark matter haloes simply correspond to overdensities (i.e. regions above some threshold density $\delta_\mathrm{cr}$).
+The simplest example of a local model of galaxy bias is the local-in-mass-density (LIMD) model of galaxy bias. In this model, we assume that dark matter haloes simply correspond to overdensities (i.e. regions above some threshold density $\delta_\mathrm{cr}$), see Figure~\ref{fig:limdcartoon} for an illustration. 
 
 \begin{figure}[!ht]
 	\centering
@@ -218,107 +218,22 @@ The simplest example of a local model of galaxy bias is the local-in-mass-densit
 	\caption{Illustration of the LIMD model of galaxy bias. The red line indicates a long wavelength perturbation, and the blue line denotes the density field $\delta_R$. The dashed horizontal magenta line shows the critical density $\delta_{\mathrm{cr}}$. Regions of overdensity $\delta_R$ that get pushed above this critical density threshold collapse to form halos in which galaxies are formed.}
 	\label{fig:limdcartoon}
 \end{figure}
-
-\iffalse
-The general form of the LIMD model of galaxy bias is expanding the galaxy overdensity $\delta_g$ in terms of dark matter overdensities with bias coefficients as, 
-\begin{equation}
-	\delta_g = b_1 \delta + \frac{b_2}{2} \delta^2 + \ldots\,.
-\end{equation}
-
-The bias coefficients $b_O$ can be understood to be coefficients of some physical operators $O(\x,\eta)$ in an expansion of the galaxy overdensity, which has the general form,
+A generic bias expansion in this simplest case can then be understood as just the coefficients of the expansion operators $O(\x,\eta)$ in an expansion of the galaxy number density, 
 \begin{equation}
 	\delta_g(\x,\eta) = \sum_O b_O(\eta) O(\x,\eta)\,.
 \end{equation}
-On the scales of interest-- quasi-linear scales,where perturbation theory remains valid, higher order terms in the expansion are successively suppressed, and the expansion converges. Whether such an expansion is performed at initial time (Lagrangian) or at final time (Eulerian) is a matter of choice.
-
-The simplest example of a local bias expansion would be the LIMD bias in Lagrangian space. This bias model is motivated by the spherical collapse approximation to halo formation. A local operator here means any leading local gravitational observable-- this includes but is not limited to the matter density and tidal field. LIMD bias, sometimes called simply `local bias', is a more restricted expansion only in powers of density perturbation $\delta$.
-
-In this simplified model, we assume dark matter halos to simply correspond to overdense regions (i.e. above some threshold density) in Lagrangian space. The observed galaxies reside in these dark matter halos. More specificially, this means that the initial matter density field, which is assumed to be Gaussian and often referred to as the linear density field $\delta^\on$, is extrapolated to some desired reference time using linear growth. 
-
-We will review how the local bias expression in the Newtonian case is derived, and will just quote the results for the more complicated relativistic case when appropriate later on in this thesis. There are a few more things to consider along with the order of the perturbative expansion of the galaxy bias, since there are other factors that play a role in the formation of galaxies. To have a physically motivated definition of galaxy bias, one needs to introduce a physical scale, which denotes some spatial region associated with the process of galaxy formation. Intuitively this means that the number of galaxies formed in a certain region depends on the detailed distribution of the underlying matter-- as well as on other gravitational observables such as tidal fields, which enter our description of galaxy overdensity as tidal bias, as we shall see later on. A final thing to consider is that the naive relation between the galaxy density field $\delta$ and the operators $O$ is deterministic. In reality, one needs to account for some randomness, or stochasticity, since whether or not a galaxy forms in any given location depends on initial conditions on very small scales. The random phases of these scales are not covered by our perturbative bias expansion. Adding this stochasticity, we obtain, 
+In the simplest LIMD model of galaxy bias, we expand in density only, leading to, 
 \begin{equation}
-	\delta_g(\x, \eta) = \sum_O b_O(\eta) O(\x,\eta) + \epsilon(\x,\eta) + \sum_O \epsilon_O(\x,\eta) O(\x,\eta)\,, 
+	\delta_g(\x) = b_1 \delta + \frac{b_2}{2} \delta^2 + \ldots\,.
 \end{equation}
-where the random $\epsilon$ and $\epsilon_O$ are uncorrelated with the large-scale perturbations described by the operators $O$, as well as uncorrelated amongst themselves on large scales. Then, their contribution to the total galaxy statistics can be described by a finite set of parameters. 
-
-The LIMD model is based on the simple assumption that the dark matter halos in which galaxies reside simply correspond to overdense regions in Lagrangian space. In order to define the regions `above threshold' which end up collapsing to form halos, we filter the initial density field on a scale corresponding to the spatial region associated with galaxy formation $R$ and call this $\delta_R$. Figure~\ref{fig:limdcartoon} illustrates the density field $\delta_R$ in relation to the critical density threshold $\delta_\mathrm{cr}$.
-
-
-
-\fi
+A general perturbative bias expansion however would contain all operators that are relevant at a given order in perturbation theory. For our purpose, we must make sure that the general definition of galaxy bias is gauge-independent and consistent on very large scales. The LIMD model of galaxy bias itself does not include tidal bias. In our local model of galaxy bias, we do include the tidal bias, since the tidal operator is part of the leading order gravitational observables of long-wavelength spacetime perturbations~\cite{Desjacques:2016bnm}. 
 
 \subsection{Scale-dependent bias in the presence of PNG}
-Scale-dependent bias in literature can refer to any non-trivial (i.e. $k$-dependent) Fourier-space relation between galaxy overdensity and the underlying dark matter density. Primordial non-Gaussianity generates such a leading non-local term in the bias relation. In this thesis we only consider PNG of the local type. This is defined as a simple form of non-linearity in the primordial curvature perturbation, which is local in configuration space. Usually, these perturbations are expressed in terms of the Bardeen potential $\varphi$. This in turn is directly related to the curvature perturbation in comoving gauge 
+Scale-dependent bias in literature can refer to any non-trivial (i.e. $k$-dependent) Fourier-space relation between galaxy overdensity and the underlying dark matter density. Primordial non-Gaussianity generates such a leading non-local term in the bias relation. In this thesis we only consider PNG of the local type. This is defined as a simple form of non-linearity in the primordial curvature perturbation, which is local in configuration space. Usually, these perturbations are expressed in terms of the Bardeen potential $\varphi$. This in turn is directly related to the curvature perturbation in comoving gauge. 
 
 
-\iffalse
-
-
-
-\iffalse
-The Poisson-gauge number density contrast at first order, $\delta_g^\on$, is related to the dark matter density contrast $\delta_m^\on$ via the galaxy bias. For now we will use a local model of galaxy bias, and we need ot make sure that the definition of scale-independent bias is gauge-independent, and valid on ultra-large scales. The physical definition of scale-independent galaxy bias is in the matter rest-frame (corresponding to the comoving-synchronous C gauge), which since there is no velocity bias on large scales coincides with the galaxy rest-frame~\cite{Challinor:2011bk,Bruni:2011ta,Jeong:2011as}. It then follows that the correct definition between the galaxy and dark matter number density contrasts at first order is, 
-\begin{equation}\label{eq:deltagbiasdef}
-	\delta_{g\cs}^\on (a, \x) = b_1(a) \delta_{m,\cs}^\on(a,\x)\,.
-\end{equation}
-The Poisson gauge number density contrast $\delta_g^\on$ is related to the C-gauge number density contrast as~\cite{Challinor:2011bk}, 
-\begin{equation}\label{eq:deltagFOPgtoCg}
-	\delta_{g}^\on = \delta_{g\cs}^\on + (3 - b_e)\cH v^\on = b_1 \delta_{m\cs}^\on + (3 - b_e) \cH v^\on\,,
-\end{equation}
-where the velocity potential term ensures that this bias relation is gauge-independent on ultra-large scales. Because of the scale dependence of the velocity potential as given by equation~\eqref{eq:scdepvel}, this term is the relativistic part of the Poisson-gauge number density contrast-- it is suppressed on small scales, and growing on large scales. 
-
-In GR, the Lagrangian frame coincides with the C-gauge~\cite{Villa:2015ppa,Bertacca:2015mca}. There is no unique Eulerian frame, but the total-matter (T) gauge is a convenient choice, because it is related to the C gauge by a purely spatial transformation only such that at first order the galaxy and matter overdensities are the same,~\cite{Bertacca:2015mca}
-\begin{align}\label{eq:deltaFOCgtoTg}
-	&\delta^\on_{m\cs} = \delta^\on_{m\mathrm{T}}\,,\\
-	&\delta^\on_{g\cs} = \delta^\on_{g\mathrm{T}} = b_1 \delta^\on_{m\mathrm{T}}\,.
-\end{align}
-The second line above defines the Eulerian first-order bias parameter, from which follows that $b_1$ in equation~\eqref{eq:deltagbiasdef} is the Eulerian bias parameter.
-
-Since we require second order in perturbation theory in order to compute the galaxy bispectrum at tree level, we have to extend equation~\eqref{eq:deltagbiasdef} to highter order. To do this, we here use the so-called local-in-mass-density bias model~\cite{Desjacques:2016bnm}, which is the simplest possible model of scale-independent bias we can use. This model assumes that the galaxy number density contrast is a local function of only the matter density contrast. (In chapter~\ref{chapter:localpng}, we introduce local PNG to the bispectrum, in which case we have scale-dependent bias.) Again we need to ensure that the bias coefficients are scale-independent in the C-gauge, which is the galaxy rest frame-- this is to ensure validity of the physical definition of scale-independent bias on ultra-large scales. Starting from a simple expansion in powers of the matter density contrast,
-\begin{equation}
-	\delta_{g\cs} = b_1 \delta_{m\cs} + \frac{1}{2} b_2 (\delta_{m\cs})^2 + \ldots\,,
-\end{equation}
-where we suppress the dependence of $b_I \equiv b_I(a,\ln L)$ for brevity-- as done throughout the text. At first order in perturbation theory, the above expression recovers the first-order relation given by equation~\eqref{eq:deltagbiasdef} as expected. At second order we have, 
-\begin{equation}\label{eq:biasCgauge}
-	\delta^\tw_{m\cs} = b_1 \delta^\tw_{m\cs} + b_2 (\delta^\on_{m\cs})^2\,,
-\end{equation}
-where we have omitted the term $- b_2 \langle (\delta^\on_{m\cs})^2 \rangle$ on the right hand side for convenience.
-
-At second order, the C-gauge and T-gauge matter overdensities are related as~\cite{Bertacca:2015mca,Villa:2015ppa}, 
-\begin{equation}
-	\delta_{m\mathrm{T}}^\tw = \delta_{m\cs}^\tw + 2 \left[ \partial_i \delta_{m\cs}^\on \right] \nabla^{-2} \partial^i \delta_{m\cs}^\on\,,
-\end{equation}
-where $-2\nabla^{-2} \partial^i \delta_{m\cs}^\on$ is a gauge generator. The gauge transformation from comoving-synchronous to total-matter gauge is purely spatial, which means that the above relation applies to the galaxy number counts too, 
-\begin{equation}
-	\delta_{g\mathrm{T}}^\tw = \delta_{g\cs}^\tw + 2 \left[ \partial_i \delta_{g\cs}^\on \right] \nabla^{-2} \partial^i \delta_{g\cs}^\on\,.
-\end{equation}
-From the above relations, we can obtain the T-gauge galaxy number count density in terms of T-gauge matter density, 
-\begin{align}
-	&\delta_{g\mathrm{T}}^\tw = b_1 \delta_{m\cs}^\tw + b_2 (\delta_{m\cs}^\on)^2 + 2 b_1 \left[\partial_i \delta_{m\cs}^\on \right] \nabla^{-2} \partial^i \delta_{m\cs}^\on \\
-	& \hphantom{\delta_{g\mathrm{T}}^\tw } = b_1 \left[ \delta_{m\cs}^\tw + 2 (\partial_i \delta_{m\mathrm{T}}^\on) \nabla^{-2} \partial^i \delta_{m\cs}^\on \right] + b_2 (\delta_{m\cs}^\on)^2 \\
-	& \Rightarrow \delta_{g\mathrm{T}}^\tw = b_1 \delta_{m\mathrm{T}}^\tw + b_2 (\delta_{m\mathrm{T}}^\on)^2 \label{eq:biasTgauge} \,.
-\end{align}
-
-Comparing equations~\eqref{eq:biasCgauge} and~\eqref{eq:biasTgauge}, it is clear that local-in-mass-density and scale-independent bias in C- and T-gauge are equivalent up to second order in perturbation theory and have the same Eulerian bias coefficients. 
-
-The Poisson gauge expression for overdensity can more conveniently be expressed in the T gauge than in the C gauge, and hence we will choose the total-matter gauge to express $\delta_g$. This expression is as follows~\cite{Jolicoeur:2017nyt},
-\begin{align}
-	\delta_g^\tw =& \delta_{g\mathrm{T}}^\tw + (3 - b_e)\cH v^\tw + 2 (3 - b_e) \cH v^\on \delta_{g\mathrm{T}}^\on - 2 v^\on \delta_{g\mathrm{T}}'^\on \nonumber \\
-	&+ \left[ (b_e - 3)\cH' + b_e \cH + (b_e -3)^2 \cH^2  \right] \left[ v^\on \right]^2 + (b_e - 3) \cH v^\on v^{\on\prime} \nonumber \\
-	& - (b_e - 3) \cH \nabla^{-2} \left[ v^\on \nabla^2 v^{\on\prime} - v^{\on\prime} \nabla^2 v^\on - 6 \partial_i \Phi^\on \partial^i v^\on - 6 \Phi^\on \nabla^2 v^\on \right] \,.
-\end{align}
-From this, using relations between the T-gauge galaxy density contrast and matter contrast, we obtain the final expression for the Poisson-gauge galaxy density contrast in the simple local-in-mass-density bias model, 
-\begin{align}
-	\delta_g^\tw =& b_1 \delta_{m\mathrm{T}}^\tw + b_2 (\delta_{m\mathrm{T}}^\on )^2 + \left[ (b_e - 3)\cH' + b_e \cH + (b_e -3)^2 \cH^2 \right] [v^\on]^2 \nonumber \\
-	&+ (b_e - 3) \cH v^\on v^{\on \prime} + 2 b_1 (3 - b_e) \cH v^\on \delta_{m\mathrm{T}}^\on - 2 v^\on \left[ b_1 \delta_{m\mathrm{T}}^{\on \prime} + b_1' \delta_{m\mathrm{T}}^\on \right] \nonumber \\
-	& + (3 - b_e) \cH \nabla^{-2} \left[ v^\on \nabla^2 v^{\on \prime} - v^{\on \prime} \nabla^2 v^\on - 6 \partial_i \Phi^2 \partial^i v^\on - 6 \Phi^\on \nabla^2 v^\on \right]\,.
-\end{align}
-In the above equation, the velocity and metric potentials ensure that there is gauge-independence on ultra-large scales. 
-\fi
-\fi
 \section{Primordial non-Gaussianity}
 
-Types of primodial non-Gaussianity in the bispectrum, their signatures on various scales, scale dependence it introduces in the clustering bias etc. 
-
-Also gotta mention how formation of structure itself gives rise to non-Gaussianity in the universe which can mimic fnl on large scales, include some pictures from like sheean's papers etc-- showing the bias from a Gaussian treatment.
+There exist 
 
 The rest of this thesis is organised as follows. In Chapter~\ref{chapter:dipole}, we introduce the lowest order (i.e. least suppressed) relativistic corrections to the bispectrum and consider how they affect the amplitude of the bispectrum. These leading-order relativistic corrections give rise to a local dipole with respect to the observer's line-of-sight, which is absent in the purely Newtonian picture. The amplitude of this dipole, which if detected would be a smoking-gun signal for relativistic corrections, is even on equality scales about 10\% of that of the monopole (at redshift $z = 1$). This implies that the dipole of the bispectrum is a unique signature of GR on cosmological scales. In Chapter~\ref{chapter:detect}, we make an estimate for the detectability of such a relativistic signal in next-generation spectroscopic and intensity mapping surveys. For a Stage IV spectroscopic survey similar to \textit{Euclid}, we find that the signal-to-noise ratio for these leading order effects is of $\sim 17$, while the 21cm intensity mapping surveys suffer from foreground and beam effects-- we forecast a marginally detecable SNR of $\sim 6$ for SKA1 and $\sim 5$ for HIRAX. Then, Chapter~\ref{chapter:ho} summarises past work on adding local relativistic corrections at all orders of $\cH/k$ to the bispectrum, and a fully analytic multipole expansion with relevant numerical analyses for future surveys is presented in Chapter~\ref{chapter:multipoles}. The relativistic bispectrum generates non-zero multipoles for both even and odd multipole number $\ell$, where the odd multipoles are induced by relativistic effects only. Finally, we expand the theoretical description of the Fourier-space galaxy bispectrum by adding local primordial non-Gaussianity in Chapter~\ref{chapter:localpng}. This allows for better separation of the relativistic signature and biasing due to the presence of PNG-- we find that the bias from using a Newtonian analysis of the squeezed bispectrum could be as large as $\Delta f_\nl \sim 5$ for a Stage IV H$\alpha$ survey. 
