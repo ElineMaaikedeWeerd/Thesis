@@ -463,6 +463,28 @@ V.~Desjacques, D.~Jeong and F.~Schmidt, \emph{{Large-Scale Galaxy Bias}},
   {\bfseries 733} (2018) 1} [\href{https://arxiv.org/abs/1611.09787}{{\ttfamily
   1611.09787}}].
 
+\bibitem{Liguori:2010hx}
+M.~Liguori, E.~Sefusatti, J.~R. Fergusson and E.~P.~S. Shellard,
+  \emph{{Primordial non-Gaussianity and Bispectrum Measurements in the Cosmic
+  Microwave Background and Large-Scale Structure}},
+  \href{https://doi.org/10.1155/2010/980523}{\emph{Adv. Astron.} {\bfseries
+  2010} (2010) 980523} [\href{https://arxiv.org/abs/1001.4707}{{\ttfamily
+  1001.4707}}].
+
+\bibitem{Planck:2019kim}
+{\scshape Planck} collaboration, Y.~Akrami et~al., \emph{{Planck 2018 results.
+  IX. Constraints on primordial non-Gaussianity}},
+  \href{https://doi.org/10.1051/0004-6361/201935891}{\emph{Astron. Astrophys.}
+  {\bfseries 641} (2020) A9}
+  [\href{https://arxiv.org/abs/1905.05697}{{\ttfamily 1905.05697}}].
+
+\bibitem{Fergusson:2008ra}
+J.~R. Fergusson and E.~P.~S. Shellard, \emph{{The shape of primordial
+  non-Gaussianity and the CMB bispectrum}},
+  \href{https://doi.org/10.1103/PhysRevD.80.043510}{\emph{Phys. Rev. D}
+  {\bfseries 80} (2009) 043510}
+  [\href{https://arxiv.org/abs/0812.3413}{{\ttfamily 0812.3413}}].
+
 \bibitem{Clarkson:2018dwn}
 C.~Clarkson, E.~M. de~Weerd, S.~Jolicoeur, R.~Maartens and O.~Umeh, \emph{{The
   dipole of the galaxy bispectrum}},
@@ -723,14 +745,6 @@ K.~C. Chan and L.~Blot, \emph{{Assessment of the Information Content of the
   Astron. Soc.} {\bfseries 341} (2003) 1311}
   [\href{https://arxiv.org/abs/astro-ph/0207664}{{\ttfamily
   astro-ph/0207664}}].
-
-\bibitem{Liguori:2010hx}
-M.~Liguori, E.~Sefusatti, J.~R. Fergusson and E.~P.~S. Shellard,
-  \emph{{Primordial non-Gaussianity and Bispectrum Measurements in the Cosmic
-  Microwave Background and Large-Scale Structure}},
-  \href{https://doi.org/10.1155/2010/980523}{\emph{Adv. Astron.} {\bfseries
-  2010} (2010) 980523} [\href{https://arxiv.org/abs/1001.4707}{{\ttfamily
-  1001.4707}}].
 
 \bibitem{Oddo:2019run}
 A.~Oddo, E.~Sefusatti, C.~Porciani, P.~Monaco and A.~G. S\'anchez,

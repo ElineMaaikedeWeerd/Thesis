@@ -234,6 +234,27 @@ Scale-dependent bias in literature can refer to any non-trivial (i.e. $k$-depend
 
 \section{Primordial non-Gaussianity}
 
-There exist 
+Every model of inflation is characterised by specific predictions for the primordial curvature perturbations. Studies of the bispectrum often involve constraining a single amplitude parameter $\fnl$, the non-Gaussian parameter. 
+
+Inflationary predictions for both amplitude $\fnl$ and the shape of the bispectrum are strongly model-dependent. Note subscript `NL' on the non-Gaussian parameter, to mean `non-linear', since a common phenomenological model for the non-Gaussianity of the initial conditions of the universe can be expressed simply as a non-linear transformation of a Gaussian field. In a more general sense, non-Gaussianity in the universe is associated with non-linearities, such as non-trivial dynamics during inflation or non-linear post-inflationary evolution. There are three types of shapes that are generally studied; these are the three limits, the squeezed shape (with one side $k_3 \ll k_1,\,k_2$), equilateral shapes (where $k_1 = k_2 = k_3$), and the co-linear or flattened shape ($k_1 = k_2 \approx \frac{1}{2} k_3$), see Figure~\ref{fig:triangleshapes} for an illustration of the triangle shapes. Often, the bispectrum dependence on the non-Gaussian parameter and the triangle shape is expressed as, 
+\begin{equation}
+	B \sim \fnl F(k_1,k_2,k_3)\,,
+\end{equation}
+where $F(k_1,k_2,k_3)$ is the shape function, which encodes the functional dependence of the bispectrum on the specific triangular configuration. 
+
+\begin{figure}[!ht]
+	\includegraphics[width=0.9\textwidth]{fig/triangleshapes.png}
+	\caption{The three limiting triangular configurations generally discussed in literature on the bispectrum and primordial non-Gaussianity. Figure taken from~\cite{Liguori:2010hx}.}\label{fig:triangleshapes}
+\end{figure}
+
+The most-studied primordial model is the so-called local model of primordial non-Gaussianity. In the local model, the contributions from the squeezed triangles are dominant. This model is well-motivated physically, since it encompasses superhorizon effects during inflation, when a large-scale mode ($k_3$, shortest wavevector corresponding to largest scale), which has exited the Hubble radius, exerts a non-linear influence on smaller scale modes $k_1$ and $k_2$. This effect is small in single-field slow-roll models, but can be much larger in multi-field models of inflation~\cite{Liguori:2010hx}. 
+
+The current tightest constraints on $\fnl$ come from CMB constraints~\cite{Planck:2019kim}. Constraints on $\fnl$ using LSS measurements in principle have huge potential for improvement over CMB constraints (at least for specific triangle shapes). This is because LSS provides us with a 3D map, covering a large volume and range of scales, have access to a much larger amount of modes than the 2D CMB maps. In this section we will briefly mention the main types of models in the literature for completeness, following discussions in~\cite{Liguori:2010hx,Fergusson:2008ra}. The work in this thesis however focusses on primordial non-Gaussianity of the local type only. 
+
+\subsection{Equilateral triangles}
+
+Bispectra that are dominated by (nearly) equilateral triangle shapes are easily characterised analytically, and are the most amenable to CMB analyses, which we do not focus on here. A drawback of equilateral non-Gaussianity is however that it requires amplification of non-linear effects around the time that the modes exit the horizon. This is not possible in slow-roll single-field models of inflation. 
+
+\section{Thesis outline}
 
 The rest of this thesis is organised as follows. In Chapter~\ref{chapter:dipole}, we introduce the lowest order (i.e. least suppressed) relativistic corrections to the bispectrum and consider how they affect the amplitude of the bispectrum. These leading-order relativistic corrections give rise to a local dipole with respect to the observer's line-of-sight, which is absent in the purely Newtonian picture. The amplitude of this dipole, which if detected would be a smoking-gun signal for relativistic corrections, is even on equality scales about 10\% of that of the monopole (at redshift $z = 1$). This implies that the dipole of the bispectrum is a unique signature of GR on cosmological scales. In Chapter~\ref{chapter:detect}, we make an estimate for the detectability of such a relativistic signal in next-generation spectroscopic and intensity mapping surveys. For a Stage IV spectroscopic survey similar to \textit{Euclid}, we find that the signal-to-noise ratio for these leading order effects is of $\sim 17$, while the 21cm intensity mapping surveys suffer from foreground and beam effects-- we forecast a marginally detecable SNR of $\sim 6$ for SKA1 and $\sim 5$ for HIRAX. Then, Chapter~\ref{chapter:ho} summarises past work on adding local relativistic corrections at all orders of $\cH/k$ to the bispectrum, and a fully analytic multipole expansion with relevant numerical analyses for future surveys is presented in Chapter~\ref{chapter:multipoles}. The relativistic bispectrum generates non-zero multipoles for both even and odd multipole number $\ell$, where the odd multipoles are induced by relativistic effects only. Finally, we expand the theoretical description of the Fourier-space galaxy bispectrum by adding local primordial non-Gaussianity in Chapter~\ref{chapter:localpng}. This allows for better separation of the relativistic signature and biasing due to the presence of PNG-- we find that the bias from using a Newtonian analysis of the squeezed bispectrum could be as large as $\Delta f_\nl \sim 5$ for a Stage IV H$\alpha$ survey. 
