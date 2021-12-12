@@ -2,6 +2,8 @@ todo:
 
 Ch. 1:
 
+- Needs bit more on bispectrum measurements - put in some figures from the papers cited
+
 - Galaxy bias: expand both sections
 
 - PNG: write section

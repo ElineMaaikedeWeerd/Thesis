@@ -156,7 +156,11 @@ Higher-order correlation functions are defined as the connected part of the join
 	&\langle \delta(\ka) \ldots \delta(\bm{k}_{2p})\rangle = \sum_{[\text{all distinct pairs}]} \prod_{[p \text{ pairs } (i,j)]} \langle \delta(\bm{k}_i) \delta(\bm{k}_j) \rangle.  
 \end{align}
 
-More concretely, this means that for a purely Gaussian field, $\langle \delta(\ka) \delta(\kb) \delta(\kc)\rangle = 0$. However, this changes in the presence of any sources of non-linearity. An important consequence of non-linear evolution of structure is that the statistics of odd-number density fields are no longer vanishing. The leading odd-number statistic which will be non-zero in the case of non-linear evolution if the three-point correlation function or the bispectrum in Fourier space, 
+More concretely, this means that for a purely Gaussian field, $\langle \delta(\ka) \delta(\kb) \delta(\kc)\rangle = 0$. However, this changes in the presence of any sources of non-linearity. An important consequence of non-linear evolution of structure is that the statistics of odd-number density fields are no longer vanishing. 
+
+\subsubsection{The Fourier-space bispectrum}
+
+The leading odd-number statistic which will be non-zero in the case of non-linear evolution if the three-point correlation function or the bispectrum in Fourier space, 
 \begin{equation}
 	\langle \delta(\ka) \delta(\kb) \delta(\kc) \rangle = (2 \pi )^3 \delta^\mathrm{D}(\ka + \kb + \kc) \left[ 2 F_2(\ka,\kb) P(\ka) P(\kb) + \text{ 2 c.p.} \right]
 \end{equation}
@@ -169,9 +173,6 @@ where $F \equiv F(a)$ is the second-order growth factor, and the Einstein-De Sit
 	\langle \delta(\ka) \delta(\kb) \delta(\kc) \rangle = (2 \pi )^3 \delta^\mathrm{D}(\ka + \kb + \kc) B_g(\ka,\kb,\kc)\,,
 \end{equation}
 where redshift dependence is suppressed once again, and $B_g$ is the galaxy bispectrum, dependent on direction and moduli of the three wavevectors, and roughly proportional to $P(k)^2$ in amplitude.
-
-
-\subsubsection{The Fourier-space bispectrum}
 
 As the bispectrum is a non-Gaussian statistic, and as such is especially sensitive to any forms of non-linearity in the universe. It is an essential probe for e.g. primordial non-Gaussianity in next-generation surveys. There are other sources of non-Gaussianity in the universe, for example gravitational instability on small scales. Primordial non-Gaussianity, which is often parametrised by the non-linear parameter $\fnl$, is predicted by different types of inflation and other theories of the early universe; meaning that improvement of constraints on $\fnl$ could help discriminate between these theories and help shed light on the very early universe and the seeds of structure formation. 
 
@@ -186,11 +187,11 @@ Similar to how the power spectrum is a measure of probability of finding pairs o
 	\label{fig:realspacesignature}
 \end{figure}
 
-
-
 \subsubsection{Measurements of the bispectrum}
 
-Most measurements of higher-order correlation functions so far are rather noisy and imprecise, and there is a lack of dedicated analysis tools (e.g. theoretical predictions, estimators, likelihood models) for higher-order statistics compared to the analysis toolkit available for two-point statistics. Forecasts for constraints using the galaxy bispectrum usually assume that the main cosmological parameters are known exactly, and determine expected uncertainty on the bias and/or non-Gaussianity parameters~\cite{Scoccimarro:2003wn,Sefusatti:2007ih,Song:2015gca,Tellarini:2016sgp,Yamauchi:2016wuc,Karagiannis:2018jdt}, which recently got extended to theories of modified gravity~\cite{Yamauchi:2017ibz}. Fisher forecasts using joint galaxy clustering data and CMB data are presented in~\cite{Sefusatti:2006pa}, Other related work has focussed on developing optimal compression algorithms for three-point statistics~\cite{Byun:2017fkz,Gualdi:2018pyw}, and on detecting PNG due to massive spinning particles during the inflationary era~\cite{MoradinezhadDizgah:2018ssw}. Forecasts combining measurements of the galaxy power spectrum and bispectrum to constrain the standard cosmological parameters was done in~\cite{Yankelevich:2018uaz}, which uses the standard Newtonian contributions to the galaxy bispectrum only for signal-to-noise ratio calculations as well as Fisher forecasts. See Figure~\ref{fig:snr_yp} for an example of a forecast for the SNR using the bispectrum.
+Most measurements of higher-order correlation functions so far are rather noisy and imprecise, and there is a lack of dedicated analysis tools (e.g. theoretical predictions, estimators, likelihood models) for higher-order statistics compared to the analysis toolkit available for two-point statistics. Forecasts for constraints using the galaxy bispectrum usually assume that the main cosmological parameters are known exactly, and determine expected uncertainty on the bias and/or non-Gaussianity parameters~\cite{Scoccimarro:2003wn,Sefusatti:2007ih,Song:2015gca,Tellarini:2016sgp,Yamauchi:2016wuc,Karagiannis:2018jdt}, which recently got extended to theories of modified gravity~\cite{Yamauchi:2017ibz}. Bispectrum measurements of LSS have already been obtained~\cite{Scoccimarro:2000sp,Feldman:2000vk,WiggleZ:2013kor,Gil-Marin:2014pva,Gil-Marin:2016wya,Verde:2001sf}.
+
+Fisher forecasts using joint galaxy clustering data and CMB data are presented in~\cite{Sefusatti:2006pa}, Other related work has focussed on developing optimal compression algorithms for three-point statistics~\cite{Byun:2017fkz,Gualdi:2018pyw}, and on detecting PNG due to massive spinning particles during the inflationary era~\cite{MoradinezhadDizgah:2018ssw}. Forecasts combining measurements of the galaxy power spectrum and bispectrum to constrain the standard cosmological parameters was done in~\cite{Yankelevich:2018uaz}, which uses the standard Newtonian contributions to the galaxy bispectrum only for signal-to-noise ratio calculations as well as Fisher forecasts. See Figure~\ref{fig:snr_yp} for an example of a forecast for the SNR using the bispectrum.
 
 \begin{figure}[!ht]
 	\centering
@@ -234,11 +235,16 @@ Scale-dependent bias in literature can refer to any non-trivial (i.e. $k$-depend
 
 \section{Primordial non-Gaussianity}
 
-Every model of inflation is characterised by specific predictions for the primordial curvature perturbations. Studies of the bispectrum often involve constraining a single amplitude parameter $\fnl$, the non-Gaussian parameter. 
+Every model of inflation is characterised by specific predictions for the primordial curvature perturbations. Studies of the bispectrum often involve constraining a single amplitude parameter $\fnl$, the non-Gaussian parameter. In linear theory, the leading, linearly-extrapolated non-Gaussian contribution to the matter bispectrum is, 
+\begin{equation}
+	B(k_1,k_2,k_3,z) =  \M(k_1,z) \M(k_2,z) \M(k_3,z) B_\varphi(k_1,k_2,k_3)\,,
+\end{equation}
+where $B_\varphi$ is the primordial gravitational potential bispectrum predicted by inflationary theories, and $\M$ is a scale-dependent function relating the late-time matter density contrast to the primordial potential, which will be defined later on in Chapter~\ref{chapter:localpng}.
+
 
 Inflationary predictions for both amplitude $\fnl$ and the shape of the bispectrum are strongly model-dependent. Note subscript `NL' on the non-Gaussian parameter, to mean `non-linear', since a common phenomenological model for the non-Gaussianity of the initial conditions of the universe can be expressed simply as a non-linear transformation of a Gaussian field. In a more general sense, non-Gaussianity in the universe is associated with non-linearities, such as non-trivial dynamics during inflation or non-linear post-inflationary evolution. There are three types of shapes that are generally studied; these are the three limits, the squeezed shape (with one side $k_3 \ll k_1,\,k_2$), equilateral shapes (where $k_1 = k_2 = k_3$), and the co-linear or flattened shape ($k_1 = k_2 \approx \frac{1}{2} k_3$), see Figure~\ref{fig:triangleshapes} for an illustration of the triangle shapes. Often, the bispectrum dependence on the non-Gaussian parameter and the triangle shape is expressed as, 
 \begin{equation}
-	B \sim \fnl F(k_1,k_2,k_3)\,,
+	B_\varphi \sim \fnl F(k_1,k_2,k_3)\,,
 \end{equation}
 where $F(k_1,k_2,k_3)$ is the shape function, which encodes the functional dependence of the bispectrum on the specific triangular configuration. 
 
@@ -249,22 +255,35 @@ where $F(k_1,k_2,k_3)$ is the shape function, which encodes the functional depen
 
 The most-studied primordial model is the so-called local model of primordial non-Gaussianity. In the local model, the contributions from the squeezed triangles are dominant. This model is well-motivated physically, since it encompasses superhorizon effects during inflation, when a large-scale mode ($k_3$, shortest wavevector corresponding to largest scale), which has exited the Hubble radius, exerts a non-linear influence on smaller scale modes $k_1$ and $k_2$. This effect is small in single-field slow-roll models, but can be much larger in multi-field models of inflation~\cite{Liguori:2010hx}. 
 
-The current tightest constraints on $\fnl$ come from CMB constraints~\cite{Planck:2019kim}. Constraints on $\fnl$ using LSS measurements in principle have huge potential for improvement over CMB constraints (at least for specific triangle shapes). This is because LSS provides us with a 3D map, covering a large volume and range of scales, have access to a much larger amount of modes than the 2D CMB maps. In this section we will briefly mention the main types of models in the literature for completeness, following discussions in~\cite{Liguori:2010hx,Fergusson:2008ra}. The work in this thesis however focusses on primordial non-Gaussianity of the local type only. 
+The current tightest constraints on $\fnl$ come from CMB constraints~\cite{Planck:2019kim}. Constraints on $\fnl$ using LSS measurements in principle have huge potential for improvement over CMB constraints (at least for specific triangle shapes). This is because LSS provides us with a 3D map, covering a large volume and range of scales, have access to a much larger amount of modes than the 2D CMB maps. In this section we will briefly mention the main types of models in the literature for completeness, following discussions in~\cite{Liguori:2010hx,Fergusson:2008ra}. The work in this thesis however focusses on primordial non-Gaussianity of the local type (corresponding to squeezed triangle shapes) only. 
 
 
+\subsection{Equilateral and co-linear triangles}
 
-\subsection{Equilateral triangles}
+Bispectra that are dominated by (nearly) equilateral triangle shapes are easily characterised analytically, and are the most amenable to CMB analyses, which we do not focus on here. A drawback of equilateral non-Gaussianity is however that it requires amplification of non-linear effects around the time that the modes exit the horizon. This is not possible in slow-roll single-field models of inflation. The equilateral model is defined as~\cite{Karagiannis:2018jdt}, 
+\begin{align}
+	B_\varphi^\mathrm{equil}(k_1,k_2,k_3) =& 6 \fnl^\mathrm{equil} \left\{ - \left[ P_\varphi(k_1) P_(\varphi)(k_2) + 2\text{ c.p.} \right] - \left[ P_\varphi(k_1) P_\varphi(k_2) P_\varphi(k_3) \right]^{2/3} \right. \nonumber \\
+	&\left. + \left[ P_\varphi^{1/3}(k_1) P_\varphi^{2/3}(k_2) P_\varphi(k_3) + 5\text{ c.p.} \right] \right\}\,.
+\end{align}
 
-Bispectra that are dominated by (nearly) equilateral triangle shapes are easily characterised analytically, and are the most amenable to CMB analyses, which we do not focus on here. A drawback of equilateral non-Gaussianity is however that it requires amplification of non-linear effects around the time that the modes exit the horizon. This is not possible in slow-roll single-field models of inflation. 
-
-\subsection{Flattened or co-linear triangles}
-
-It is possible to consider more general inflationary vacuum states (that is, more general than the Bunch-Davis vacuum)- such as an excited Gaussian and Hadamard state. Observations of the bispectrum in this case might provide insight into trans-Planckian physics, and the proposed bispectrum shapes correspond to flat triangles. 
+Co-linear triangles are often referred to also as folded or flattened triangles. It is possible to consider more general inflationary vacuum states (that is, more general than the Bunch-Davis vacuum)- such as an excited Gaussian and Hadamard state. Observations of the bispectrum in this case might provide insight into trans-Planckian physics, and the proposed bispectrum shapes correspond to flat triangles. 
 The bispectrum contribution from early times is dominated by flattened triangles, and for small sound speed ($c_s \ll 1$), this contribution can be large. Since analytic approximations break down at the boundary, cut-offs need to be imposed to deal with the divergent behaviour. Given the ill-defined asymptotics, along with lack of compelling physical motivation, the predictions for this model are uncertain.
+Orthogonal triangles?~\cite{Senatore:2009gt}
+Orthogonal triangles are defined as~\cite{Karagiannis:2018jdt}, 
+\begin{align}
+	B_\varphi^\mathrm{orth}(k_1,k_2,k_3) =& 6 \fnl^\mathrm{orth} \left\{ 3 \left[ P_\varphi^{1/3}(k_1) P_\varphi^{2/3}(k_2) P_\varphi(k_3) + 5\text{ c.p.} \right]  \right. \nonumber \\
+	&\left. - 3 \left[ P_\varphi(k_1) P_\varphi(k_2) + 2\text{ c.p.} \right] - 8 \left[ P_\varphi(k_1) P_\varphi(k_2) P_\varphi(k_3) \right]^{2/3} \right\}\,.
+\end{align}
+
 
 \subsection{Squeezed triangles}
 
-There exists a wide range of inflatonary models in which the non-Gaussianity is produced by local interactions. These signal of these models peaks in the squeezed limit, where one of the modes $k_i$ becomes much much smaller than the other two modes. This is because non-Gaussianity is typically produced on superhorizon scales.
+There exists a wide range of inflatonary models in which the non-Gaussianity is produced by local interactions. These signal of these models peaks in the squeezed limit, where one of the modes $k_i$ becomes much much smaller than the other two modes. This is because non-Gaussianity is typically produced on superhorizon scales. The equilateral bispectrum shapes are defined as, 
+\begin{equation}
+	B_\varphi^\mathrm{loc}(k_1,k_2,k_3) = 2 \fnl^\mathrm{loc} \left[ P_\varphi(k_1) P_\varphi(k_2) + 2\text{ c.p.} \right]\,.
+\end{equation}
+
+Single-field slow-roll inflation is dominated by the local type. Large local-type PNG can also be produced in multi-field scenarios. 
 
 \section{Thesis outline}
 

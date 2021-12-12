@@ -13,49 +13,49 @@ A level-1 auxiliary file: tex/multipoles.aux
 A level-1 auxiliary file: tex/png_bisp.aux
 A level-1 auxiliary file: tex/summary.aux
 A level-1 auxiliary file: tex/appendix.aux
-Reallocated field_info (elt_size=4) to 12200 items from 5000.
+Reallocated field_info (elt_size=4) to 12410 items from 5000.
 Database file #1: tex/bib/thesis_bib.bib
 Warning--empty publisher in Zwicky:1961
 Warning--empty publisher in Peebles:1980
-You've used 240 entries,
+You've used 247 entries,
             2269 wiz_defined-function locations,
-            2397 strings with 55989 characters,
-and the built_in function-call counts, 78250 in all, are:
-= -- 7923
-> -- 3626
+            2448 strings with 57757 characters,
+and the built_in function-call counts, 80571 in all, are:
+= -- 8151
+> -- 3748
 < -- 0
-+ -- 1033
-- -- 793
-* -- 6880
-:= -- 11212
-add.period$ -- 243
-call.type$ -- 240
-change.case$ -- 237
++ -- 1067
+- -- 820
+* -- 7105
+:= -- 11557
+add.period$ -- 250
+call.type$ -- 247
+change.case$ -- 244
 chr.to.int$ -- 0
-cite$ -- 242
-duplicate$ -- 4020
-empty$ -- 6274
-format.name$ -- 793
-if$ -- 20576
+cite$ -- 249
+duplicate$ -- 4133
+empty$ -- 6458
+format.name$ -- 820
+if$ -- 21180
 int.to.chr$ -- 0
-int.to.str$ -- 240
-missing$ -- 931
-newline$ -- 724
-num.names$ -- 242
-pop$ -- 534
+int.to.str$ -- 247
+missing$ -- 959
+newline$ -- 745
+num.names$ -- 249
+pop$ -- 547
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 3460
+skip$ -- 3549
 stack$ -- 0
-substring$ -- 2567
-swap$ -- 2137
+substring$ -- 2629
+swap$ -- 2194
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 526
-width$ -- 243
-write$ -- 2551
+while$ -- 541
+width$ -- 250
+write$ -- 2629
 (There were 2 warnings)

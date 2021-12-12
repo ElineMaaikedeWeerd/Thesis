@@ -421,6 +421,55 @@ D.~Yamauchi, S.~Yokoyama and H.~Tashiro, \emph{{Constraining modified theories
   {\bfseries 96} (2017) 123516}
   [\href{https://arxiv.org/abs/1709.03243}{{\ttfamily 1709.03243}}].
 
+\bibitem{Scoccimarro:2000sp}
+R.~Scoccimarro, H.~A. Feldman, J.~N. Fry and J.~A. Frieman, \emph{{The
+  Bispectrum of IRAS redshift catalogs}},
+  \href{https://doi.org/10.1086/318284}{\emph{Astrophys. J.} {\bfseries 546}
+  (2001) 652} [\href{https://arxiv.org/abs/astro-ph/0004087}{{\ttfamily
+  astro-ph/0004087}}].
+
+\bibitem{Feldman:2000vk}
+H.~A. Feldman, J.~A. Frieman, J.~N. Fry and R.~Scoccimarro, \emph{{Constraints
+  on galaxy bias, matter density, and primordial non-gausianity from the PSCz
+  galaxy redshift survey}},
+  \href{https://doi.org/10.1103/PhysRevLett.86.1434}{\emph{Phys. Rev. Lett.}
+  {\bfseries 86} (2001) 1434}
+  [\href{https://arxiv.org/abs/astro-ph/0010205}{{\ttfamily
+  astro-ph/0010205}}].
+
+\bibitem{WiggleZ:2013kor}
+{\scshape WiggleZ} collaboration, F.~A. Marin et~al., \emph{{The WiggleZ Dark
+  Energy Survey: constraining galaxy bias and cosmic growth with 3-point
+  correlation functions}},
+  \href{https://doi.org/10.1093/mnras/stt520}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 432} (2013) 2654}
+  [\href{https://arxiv.org/abs/1303.6644}{{\ttfamily 1303.6644}}].
+
+\bibitem{Gil-Marin:2014pva}
+H.~Gil-Mar\'\i{}n, C.~Wagner, J.~Nore\~na, L.~Verde and W.~Percival,
+  \emph{{Dark matter and halo bispectrum in redshift space: theory and
+  applications}},
+  \href{https://doi.org/10.1088/1475-7516/2014/12/029}{\emph{JCAP} {\bfseries
+  12} (2014) 029} [\href{https://arxiv.org/abs/1407.1836}{{\ttfamily
+  1407.1836}}].
+
+\bibitem{Gil-Marin:2016wya}
+H.~Gil-Marín, W.~J. Percival, L.~Verde, J.~R. Brownstein, C.-H. Chuang, F.-S.
+  Kitaura et~al., \emph{{The clustering of galaxies in the SDSS-III Baryon
+  Oscillation Spectroscopic Survey: RSD measurement from the power spectrum and
+  bispectrum of the DR12 BOSS galaxies}},
+  \href{https://doi.org/10.1093/mnras/stw2679}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 465} (2017) 1757}
+  [\href{https://arxiv.org/abs/1606.00439}{{\ttfamily 1606.00439}}].
+
+\bibitem{Verde:2001sf}
+L.~Verde et~al., \emph{{The 2dF Galaxy Redshift Survey: The Bias of galaxies
+  and the density of the Universe}},
+  \href{https://doi.org/10.1046/j.1365-8711.2002.05620.x}{\emph{Mon. Not. Roy.
+  Astron. Soc.} {\bfseries 335} (2002) 432}
+  [\href{https://arxiv.org/abs/astro-ph/0112161}{{\ttfamily
+  astro-ph/0112161}}].
+
 \bibitem{Sefusatti:2006pa}
 E.~Sefusatti, M.~Crocce, S.~Pueblas and R.~Scoccimarro, \emph{{Cosmology and
   the Bispectrum}},
@@ -484,6 +533,13 @@ J.~R. Fergusson and E.~P.~S. Shellard, \emph{{The shape of primordial
   \href{https://doi.org/10.1103/PhysRevD.80.043510}{\emph{Phys. Rev. D}
   {\bfseries 80} (2009) 043510}
   [\href{https://arxiv.org/abs/0812.3413}{{\ttfamily 0812.3413}}].
+
+\bibitem{Senatore:2009gt}
+L.~Senatore, K.~M. Smith and M.~Zaldarriaga, \emph{{Non-Gaussianities in Single
+  Field Inflation and their Optimal Limits from the WMAP 5-year Data}},
+  \href{https://doi.org/10.1088/1475-7516/2010/01/028}{\emph{JCAP} {\bfseries
+  01} (2010) 028} [\href{https://arxiv.org/abs/0905.3746}{{\ttfamily
+  0905.3746}}].
 
 \bibitem{Clarkson:2018dwn}
 C.~Clarkson, E.~M. de~Weerd, S.~Jolicoeur, R.~Maartens and O.~Umeh, \emph{{The
