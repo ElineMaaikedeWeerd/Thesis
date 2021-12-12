@@ -24,4 +24,7 @@ Summary and outlook:
 
 - Expand
 
+OVERALL:
 
+- Change weird Fourier space integral `operator' to proper integrals
+- Change the italic e in exponentials to roman e
