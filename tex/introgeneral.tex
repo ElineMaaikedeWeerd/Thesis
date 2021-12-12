@@ -230,7 +230,18 @@ In the simplest LIMD model of galaxy bias, we expand in density only, leading to
 A general perturbative bias expansion however would contain all operators that are relevant at a given order in perturbation theory. For our purpose, we must make sure that the general definition of galaxy bias is gauge-independent and consistent on very large scales. The LIMD model of galaxy bias itself does not include tidal bias. In our local model of galaxy bias, we do include the tidal bias, since the tidal operator is part of the leading order gravitational observables of long-wavelength spacetime perturbations~\cite{Desjacques:2016bnm}. 
 
 \subsection{Scale-dependent bias in the presence of PNG}
-Scale-dependent bias in literature can refer to any non-trivial (i.e. $k$-dependent) Fourier-space relation between galaxy overdensity and the underlying dark matter density. Primordial non-Gaussianity generates such a leading non-local term in the bias relation. In this thesis we only consider PNG of the local type. This is defined as a simple form of non-linearity in the primordial curvature perturbation, which is local in configuration space. Usually, these perturbations are expressed in terms of the Bardeen potential $\varphi$. This in turn is directly related to the curvature perturbation in comoving gauge. 
+Scale-dependent bias in literature can refer to any non-trivial (i.e. $k$-dependent) Fourier-space relation between galaxy overdensity and the underlying dark matter density. Primordial non-Gaussianity generates such a leading non-local term in the bias relation. In this thesis we only consider PNG of the local type. This is defined as a simple form of non-linearity in the primordial curvature perturbation, which is local in configuration space. Usually, these perturbations are expressed in terms of the Bardeen potential $\varphi$. This in turn is directly related to the curvature perturbation in comoving gauge. At first order, the galaxy number density contrast bias relation can be expressed as, 
+\begin{equation}
+	\delta_{g\mathrm{C}} = b_{10} \delta_C + b_{01} \varphi_\mathrm{p}\,,
+\end{equation}
+where $\varphi_\mathrm{p}$ is the linear primordial potential (which is related to the late-time matter density contrast via the Poisson equation). The bias coefficients $b_{10}$ and $b_{01}$ are the Gaussian and non-Gaussian bias coefficients respectively, where $b_{10} \equiv b_1$ from the previous section on the local model of galaxy bias, and $b_{01}$ is the non-Gaussian coefficient, which is dependent on non-Gaussian parameter $\fnl$.
+
+At second order, the standard Newtonian bias model, which includes tidal bias (in the Gaussian part) as well as all local PNG contributions is given by (see~\cite{Desjacques:2016bnm} for a complete review), 
+\begin{align}\label{eq:intro_newtNGbiasreln}
+	\delta^\tw_{g\mathrm{T,N}} + \delta^\tw_{g\mathrm{T,nG}} =& b_{10} \delta^\tw_\mathrm{T,N} + b_{20} \left( \delta_\mathrm{T} \right)^2 + b_s s^2 \nonumber \\
+	& b_{10} \delta^\tw_\mathrm{T,nG} + b_{11} \delta_\mathrm{T} \varphi_\mathrm{p} + b_n \xi^i \partial_i \varphi_\mathrm{p} + b_{02} \left( \varphi_\mathrm{p} \right)^2\,.
+\end{align}
+The second line above contains the local PNG contributions; scale-dependent terms with the three new bias parameters $b_{11}$, $b_{n}$, and $b_{02}$, which will be defined in Chapter~\ref{chapter:localpng}. The bias relation in equation~\eqref{eq:intro_newtNGbiasreln} is however only gauge-independent on small scales; to ensure gauge-independence on ultra-large scales, relativistic corrections are required to be added to this relation. These relativistic modes are super-Hubble and arive from non-linear GR corrections to the Newtonian Poisson equation.
 
 
 \section{Primordial non-Gaussianity}
@@ -262,8 +273,8 @@ The current tightest constraints on $\fnl$ come from CMB constraints~\cite{Planc
 
 Bispectra that are dominated by (nearly) equilateral triangle shapes are easily characterised analytically, and are the most amenable to CMB analyses, which we do not focus on here. A drawback of equilateral non-Gaussianity is however that it requires amplification of non-linear effects around the time that the modes exit the horizon. This is not possible in slow-roll single-field models of inflation. The equilateral model is defined as~\cite{Karagiannis:2018jdt}, 
 \begin{align}
-	B_\varphi^\mathrm{equil}(k_1,k_2,k_3) =& 6 \fnl^\mathrm{equil} \left\{ - \left[ P_\varphi(k_1) P_(\varphi)(k_2) + 2\text{ c.p.} \right] - \left[ P_\varphi(k_1) P_\varphi(k_2) P_\varphi(k_3) \right]^{2/3} \right. \nonumber \\
-	&\left. + \left[ P_\varphi^{1/3}(k_1) P_\varphi^{2/3}(k_2) P_\varphi(k_3) + 5\text{ c.p.} \right] \right\}\,.
+	B_\varphi^\mathrm{equil}(k_1,k_2,k_3) =& 6 \fnl^\mathrm{equil} \left\{ - \left[ P_\varphi(k_1) P(\varphi(k_2) + 2\text{ c.p.} \right] - \left[ P_\varphi(k_1) P_\varphi(k_2) P_\varphi(k_3) \right]^{2/3} \right. \nonumber \\
+	&\left. + \left[ P_\varphi^{1/3}(k_1) P_\varphi^{2/3}(k_2) P_\varphi(k_3) + 5\text{ c.p.} \right] \vphantom{\left[ P_\varphi \right]^{1/3}}\right\}\,.
 \end{align}
 
 Co-linear triangles are often referred to also as folded or flattened triangles. It is possible to consider more general inflationary vacuum states (that is, more general than the Bunch-Davis vacuum)- such as an excited Gaussian and Hadamard state. Observations of the bispectrum in this case might provide insight into trans-Planckian physics, and the proposed bispectrum shapes correspond to flat triangles. 
@@ -271,7 +282,7 @@ The bispectrum contribution from early times is dominated by flattened triangles
 Orthogonal triangles?~\cite{Senatore:2009gt}
 Orthogonal triangles are defined as~\cite{Karagiannis:2018jdt}, 
 \begin{align}
-	B_\varphi^\mathrm{orth}(k_1,k_2,k_3) =& 6 \fnl^\mathrm{orth} \left\{ 3 \left[ P_\varphi^{1/3}(k_1) P_\varphi^{2/3}(k_2) P_\varphi(k_3) + 5\text{ c.p.} \right]  \right. \nonumber \\
+	B_\varphi^\mathrm{orth}(k_1,k_2,k_3) =& 6 \fnl^\mathrm{orth} \left\{ \vphantom{\left[ P_\varphi \right]^{1/3}} 3 \left[ P_\varphi^{1/3}(k_1) P_\varphi^{2/3}(k_2) P_\varphi(k_3) + 5\text{ c.p.} \right]  \right. \nonumber \\
 	&\left. - 3 \left[ P_\varphi(k_1) P_\varphi(k_2) + 2\text{ c.p.} \right] - 8 \left[ P_\varphi(k_1) P_\varphi(k_2) P_\varphi(k_3) \right]^{2/3} \right\}\,.
 \end{align}
 
