@@ -475,13 +475,44 @@ Model 3, as presented in~\cite{Pozzetti:2016cch}, has a luminosity function whic
 \begin{equation}
     g(y) = \frac{y^\alpha}{1 + (\ee - 1)y^\nu}\,,
 \end{equation}
-where the factor $\ee - 1$ is chosen such that $L_*$ is the luminosity at which $\Phi$ falls to $1/\ee$ of the faint-end power law (as in the luminosity function of the Schechter type, which is used for Model 1). The number density, magnification bias, and evolution bias are given by 
+where the factor $\ee - 1$ is chosen such that $L_*$ is the luminosity at which $\Phi$ falls to $1/\ee$ of the faint-end power law (as in the luminosity function of the Schechter type, which is used for Model 1). The number density, magnification bias, and evolution bias are respectively given by, 
+\begin{align}
+    & n_g(z,y_c) = \phi_*(z) G(y_c)\,,\quad \text{where } G(y_c) = \int_{y_c}^\infty \diff y\, g(y) \, , \\
+    &\Q(z,y_c) = y_c \frac{g(y_c)}{G(y_c)}\,,\\
+    &b_e(z,y_c) = - \frac{\diff \ln \phi_*(z)}{\diff \ln (1+z)} - \frac{\diff \ln L_*(z)}{\diff \ln (1+z)} \Q(z,y_c)\,,
+\end{align}
+where $G(y_c)$ needs to be evaluated numerically, $\phi_*(z) = \phi_{*0} = 10^{-2.92}\,\mathrm{Mpc}^{-3}$, and $L_*(z)$ is defined through, 
+\begin{equation}
+    \log L_*(z) = \log L_{*\infty} + \left[ \frac{1.5}{(1 + z)} \right]^\beta \log \left[ \frac{L_*(0.5)}{L_{*\infty}} \right]\,. 
+\end{equation}
+Here, 
+\begin{align}
+    &\alpha = -1.587\,,\quad \beta = 1.615\,,\quad \nu = 2.288\,,\quad L_*(0.5) = 10^{41.733}\,\mathrm{erg}\,\mathrm{s}^{-1}\,,\nonumber \\
+    &L_{*\infty} = 10^{42.956}\,\mathrm{erg}\,\mathrm{s}^{-1}\,.
+\end{align}
+Fitting functions for the number density and evolution and magnification biases are given by, 
+\begin{align}
+    &n_g(z) = 0.00363 z^{-0.910} \ee^{0.402 z} - 0.00414\,h^3 \mathrm{Mpc}^{-3}\,,\\
+    & \Q(z) = 0.583 + 2.02 z - 0.568 z^2 + 0.0411 z^3\,,\\
+    &b_e(z) = -7.29 + 0.470 z + 1.17 z^2 - 0.290 z^3\,,
+\end{align}
+and figure~\ref{fig:model3ngbeq} shows the dependence of 
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{fig/model3ngbeq.png}
+    \caption{The number density (\emph{top}), magnification bias (\emph{bottom left}), and evolution bias (\emph{bottom right}) for a Euclid-like survey with the Model 3 luminosity function and flux cut $F_\mathrm{c} = 2 \times 10^{-16}\,\mathrm{erg}\,\mathrm{cm}^{-2}\,\mathrm{s}^{-1}$. Figure taken from~\cite{Maartens:2021dqy}.}
+    \label{fig:model3ngbeq}
+\end{figure}
+
+We already established earlier on that the value of the SNR is very sensitive to the magnification and evolution biases-- highlighting the importance of modelling these self-consistenly from the same luminosity function. The SNR is also dependent on the value of the flux cut-- we follow~\cite{Euclid:2019clj} with a flux cut of $F_\mathrm{c} = 2 \times 10^{-16}\,\mathrm{erg}\,\mathrm{cm}^{-2}\,\mathrm{s}^{-1}$. Then resulting SNR for a Euclid-like survey with the Model 3 luminosity function is shown in~\ref{fig:snrmodel3}. We still obtain a value of $\sim 18$ for the cumulative signal-to-noise ratio, which still points towards potential detectability despite the reduced redshift range.
 
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=0.49\textwidth]{fig/model3_perzbin.pdf}
     \includegraphics[width=0.49\textwidth]{fig/model3_cum.pdf}
-    \caption{SNR per $z$-bin (left) and cumulative SNR (right) for Model 3.}
+    \caption{SNR per $z$-bin (\emph{left}) and cumulative SNR (\emph{right}) for a Euclid-like survey with a Model 3 luminosity function. We obtain a cumulative SNR of $\sim 18$, which points towards potential detectability.}
+    \label{fig:snrmodel3}
 \end{figure}
 
 
