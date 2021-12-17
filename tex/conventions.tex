@@ -11,31 +11,53 @@
 	\textbf{Notation} & \textbf{Description} \\
 	\hline
 	BAO & Baryon Acoustic Oscillations \\
+	CDM & Cold Dark Matter \\
 	CMB & Cosmic Microwave Background \\
 	GR & General Relativity (Relativistic) \\
+	IM & Intensity Mapping \\
 	LIMD & Local-in-mass-density \\
 	LSS & Large scale structure \\
+	N & Newtonian \\
 	PNG & Primordial non-Gaussianity \\
 	RSD & Redshift-space distortion \\
 	SKA & Square Kilometre Array \\
-	SNR & Signal-to-noise ratio 
+	SNR & Signal-to-noise ratio \\
+	SN & Supernova(e)
 \end{tabular}
 \end{center}
 \section*{Conventions}
 
-\textbf{Fourier convention}
+We assume a flat $\Lambda$CDM model, based on GR and perturbed up to second order. 
 
+For numerical forecasts for future surveys, we use the Planck 2018 best-fit parameters.
+
+Our second-order perturbed metric is, 
+\begin{equation*}
+	a^{-2} \diff s^2 = - \left[ 1 + 2 \Psi^\on + \Phi^\tw \right] \diff \eta^2 + \left[ 1 - 2 \Psi^\on - \Psi^\tw \right] \diff \x^2\,.
+\end{equation*}
+(In $\Lambda$CDM, $\Phi^\on = \Psi^\on$.)
+
+We expand perturbed quantities as,
+\begin{equation*}
+	X = X^\on + \frac{1}{2} X^\tw\,.
+\end{equation*}
 
 Our Fourier convention is, 
 \begin{align*}
-	&f(\x) = \int \frac{\diff^3 k}{(2\pi)^3}\, e^{\i \k \cdot \x} f(\k)\,,\\
-	&f(\k) = \int \diff^3x\, e^{- \i \k\cdot\x} f(\x) = \int \frac{\diff^3 k'}{(2\pi)^3} (2\pi)^3 \delta^D(\k-\k') f(\k')
+	&f(\x) = \int \frac{\diff^3 k}{(2\pi)^3}\, \ee^{\i \k \cdot \x} f(\k)\,,\\
+	&f(\k) = \int \diff^3x\, \ee^{- \i \k\cdot\x} f(\x) = \int \frac{\diff^3 k'}{(2\pi)^3} (2\pi)^3 \delta^D(\k-\k') f(\k')\,.
 \end{align*}
 
-Convolution (FT of a product), 
+And the convolution is defined as, 
 \begin{equation*}
-	h(\k) = \int \frac{\diff^3k_1}{(2\pi)^3} \frac{\diff^3k_2}{(2\pi)^3} f(\k_1) g(\k_2) (2\pi)^3 \delta^D(\k_1 +\k_2 - \k)
+	h(\k) = \int \frac{\diff^3k_1}{(2\pi)^3} \frac{\diff^3k_2}{(2\pi)^3} f(\k_1) g(\k_2) (2\pi)^3 \delta^D(\k_1 +\k_2 - \k)\,.
 \end{equation*}
+
+We use standard orthonormal spherical harmonics,
+\begin{equation*}
+	Y_{\ell m}(\theta,\varphi) = \sqrt{\frac{2 \ell + 1}{4 \pi}} \sqrt{\frac{(\ell - m)!}{(\ell + m)!}} P_{\ell m}(\cos \theta) \ee^{\i m \varphi}\,.
+\end{equation*}
+
 
 
 

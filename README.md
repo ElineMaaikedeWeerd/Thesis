@@ -4,17 +4,19 @@ Ch. 1:
 
 - Needs bit more on bispectrum measurements - put in some figures from the papers cited
 
-- Galaxy bias: expand both sections
+- Galaxy bias: 
+ * define subscripts
+ * add tidal bias expression to local model of bias
 
-- PNG: write section
+- Mention of scales/GR effects?
 
-Ch. 3:
-
-- Expand magnfication/evolution bias discussion, Euclid model 3
+- PNG: 
+ * remove the irrelevant sections
+ * few more words on local 
 
 Ch. 4:
 
-- Rewrite
+- Put in some figures
 
 Ch. 5:
 
@@ -28,3 +30,7 @@ OVERALL:
 
 - Change weird Fourier space integral `operator' to proper integrals
 - Change the italic e in exponentials to roman e
+- Stupid cross to cdot
+- Check spelling consistencies of: nonlinear, tree-level, first/second-order, lightcone
+- Check notation of e.g. observed N, other notational changes?
+- Add metrix and expansion stuff to conventions

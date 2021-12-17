@@ -3,17 +3,15 @@
 \chapter{Higher order relativistic effects in the bispectrum}
 \label{chapter:ho}
 
-In this chapter, we summarise previous work on relativistic projection effects in the observed galaxy bispectrum~\cite{Umeh:2016nuh,Jolicoeur:2017nyt,Jolicoeur:2017eyi,Jolicoeur:2018blf} going beyond the $\ord(\cH/k)$ approximation used in the previous chapters. The leading order effects examined in the previous chapters are unique in a sense that they are less suppressed on small scales than the leading order relativistic corrections to the power spectrum of a single tracer, which scale as $\ord{\cH^2/k^2}$. The higher order effects in the bispectrum will become significant on larger scales, and need to be taken into account for a fully consistent theoretical analysis.
+In this chapter, we summarise previous work on relativistic projection effects in the observed galaxy bispectrum~\cite{Umeh:2016nuh,Jolicoeur:2017nyt,Jolicoeur:2017eyi,Jolicoeur:2018blf} going beyond the $\ord(\cH/k)$ approximation used in the previous chapters. The leading order effects examined in the previous chapters are unique in a sense that they are less suppressed on small scales than the leading order relativistic corrections to the power spectrum of a single tracer, which scale as $\ord(\cH^2/k^2)$. The higher order effects in the bispectrum will become significant on larger scales, and need to be taken into account for a fully consistent theoretical analysis.
 
-For the bispectrum, similar to the power spectrum, effects from observing on the past lightcone need to be taken into account, as they distord the information which is contained in the underlying distribution of dark matter. These lightcone projection effects themselves can also provide new information. The major difference between the power spectrum and bispectrum analyses however, is that for the bispectrum, projection effects up to second order in perturbation theory are required. 
+For the bispectrum, similar to the power spectrum, effects from observing on the past lightcone need to be taken into account, as they distort the information which is contained in the underlying distribution of dark matter. These lightcone projection effects themselves can also provide new information. The major difference between the power spectrum and bispectrum analyses however, is that for the bispectrum, projection effects up to second order in perturbation theory are required. 
 
 Previously, the GR effects on the angular bispectrum of galaxies arising from lensing convergence has been computed in~\cite{DiDio:2015bua}, which neglects other ultra-large scale GR corrections to the galaxy overdensity. In~\cite{Kehagias:2015tda}, a separate-universe approximation is used to compute the angular bispectrum of galaxies in the squeezed limit only, but including all GR lightcone effects. In Section~\ref{sec:localproj} we discuss the Fourier-space observed galaxy biscpectrum including corrections from local projection effects and relativistic corrections from nonlinear dynamical evolution on large scales, which contribute significantly. At second order in general relativity, scalar perturbations also generate second-order tensor and vector modes~\cite{Mollerach:1997up,Matarrese:1997ay}, and these modes enter the observed galaxy number density contrast at second order~\cite{Bertacca:2014hwa,Bertacca:2014wga,Bertacca:2014dra,Yoo:2014sfa,DiDio:2014lka}. However, the power in these second-order tensor and vector modes is much smaller than the power from the scalar modes, and is neglected in forthcoming chapters-- a brief discussion on the vector and tensor modes can be found in Section~\ref{sec:tensorvector}. 
-
 
 \section{Lightcone projection effects in the galaxy number density}\label{sec:localproj}
 
 In this section, we will discuss the observed galaxy bispectrum including relativistic corrections going beyond the leading $\cH/k$ approximation. These leading order corrections are introduced in Chapter~\ref{chapter:dipole} in more detail-- they give rise to a purely imaginary correction to the bispectrum of a single tracer, are potentially detectable (Chapter~\ref{chapter:detect}), and will be a smoking gun signal for relativistic effects. However, when one wants to carry out a more complete theoretical analysis, for example to include primordial non-Gaussianity (Chapter~\ref{chapter:localpng}), the leading-order approximation no longer is sufficient. Local PNG in the bispectrum and the scale-dependent bias it gives rise to have a scale dependence starting at $\ord(\cH^2/k^2)$ (and higher). As a result, on ultra-large scales, higher-order relativistic corrections in the bispectrum can mimic the effects due to PNG. Hence, they are crucial for a complete theoretical description.
-
 
 The observed galaxy bispectrum at tree level involves projection effects at both first and second order. These effects, which arise from observing on our past lightcone, include local contributions from Doppler and gravitational potential terms, integrated contributions such as lensing, and at nonlinear order there are also couplings between almost all of these projection effects. 
 
@@ -56,13 +54,22 @@ where $f = \frac{\diff \ln D}{\diff \ln a}$ and $\delta^\on_{m\cs}(a,\k) = D(a) 
 
 \subsubsection{Galaxy overdensity at first order in perturbation theory}
 
-The first-order observed galaxy number density contrast
+The first-order observed galaxy number density contrast $\Delta_g^\on$ is given by~\cite{Jolicoeur:2017eyi}, 
+\begin{align}
+	\Delta_g^\on &= b_1 \delta_{m\mathrm{T}} - \frac{1}{\cH} \partial_\parallel^2 v^\on + \left[ b_e - 2 \Q + \frac{2 (\Q - 1)}{\chi \cH} - \frac{\cH'}{\cH^2} \right] \left[ \partial_\parallel v^\on - \Phi^\on \right] + (2 \Q - 1) \Phi^\on \nonumber \\
+	&+ \frac{1}{\cH} \Phi^{\on \prime} + (3 - b_e) \cH v^\on\,,
+\end{align}
+where subscript T denotes the total matter gauge. This can be split into a Newtonian and a relaativistic part as, 
+\begin{align}
+	&\Delta_{g\nw}^\on = b_1 \delta_{m\mathrm{T}} - \frac{1}{\cH} \partial_\parallel^2 v^\on\,,\label{eq:DeltagNFO}\\
+	&\Delta_{g\gr}^\on = \left[ b_e - 2 \Q + \frac{2 (\Q - 1)}{\chi \cH} - \frac{\cH'}{\cH^2} \right] \left[ \partial_\parallel v^\on - \Phi^\on \right] _ (2 \Q - 1) \Phi^\on + \frac{1}{\cH} \Phi^{\on \prime} \nonumber \\
+	& \hphantom{\Delta_{g\gr}} + (3 - b_e) \cH v^\on\,\label{eq:DeltagGRFO}.
+\end{align}
+The Newtonian part in the above equation consists of the T-gauge density contrast term + Kaiser RSD. The GR part consists of Dopper + potential + velocity potential terms.
 
 \subsubsection{Galaxy overdensity at second order in perturbation theory}
 
-At second order, the expression for $\Delta_g$ is a lot more involved, because it includes both the second-order generalisations of effects included at first order, as well as quadratic couplings between the first-order terms themselves. Various groups have computed the second order observed galaxy number counts, in different formalisms. A full comparison of the different results has yet to be done, see for example~\cite{Fuentes:2020qby} in which the leading order corrections are compared.
-
-\pink{put equation with underbars}
+At second order, the expression for $\Delta_g$ is a lot more involved, because it includes both the second-order generalisations of effects included at first order, as well as quadratic couplings between the first-order terms themselves. Various groups have computed the second order observed galaxy number counts, in different formalisms~\cite{DiDio:2014lka,Fuentes:2019nel,Bertacca:2014dra,Bertacca:2014wga,Yoo:2014sfa}. A full comparison of the different results has yet to be done, see for example~\cite{Fuentes:2020qby} in which the leading order corrections are compared.
 
 Here we use the expression given by~\cite{Bertacca:2014hwa}, which includes the evolution and magnification biases-- we neglect the integrated effects that are given, and we include our gauge-independent model of second-order galaxy bias. The resulting expression for $\Delta_g^\tw$ is, 
 \begin{align} 
@@ -70,8 +77,8 @@ Here we use the expression given by~\cite{Bertacca:2014hwa}, which includes the 
 & + (b_e - 3)\cH v^\on v^{\on \prime} + 2b_1 (3 - b_e) \cH v^\on \delta_{m\mathrm{T}}^{(1)} - 2v^\on \left[ b_1 \delta_{m\mathrm{T}}^{\on \prime} + b_1' \delta_{m\mathrm{T}}^\on \right] \nonumber \\
 &+ (3-b_{e})\cH \nabla^{-2} \left[v^\on \nabla^2 v^{\on \prime} - v^{\on \prime} \, \nabla^2 v^\on  - 6 \partial_{i}\Phi^\on \partial^{i}v^\on - 6 \Phi^\on \nabla^2 v^\on \right] \nonumber \\
 &- \frac{1}{\cH} \partial_\parallel^2 v^\tw + (3-b_e) \cH v^\tw + \left[b_{e} - 2\mathcal{Q} -\frac{2(1-\mathcal{Q})}{\chi\mathcal{H}}- \frac{\mathcal{H}'}{\mathcal{H}^{2}} \right] \left[\partial_\parallel v^\tw - \Phi^\tw \right] \nonumber \\
-& + 2(\Q - 1) \Psi^\tw + \Phi^\tw + \frac{1}{\cH} \Psi^{\tw\prime} + \left[ b_e-2 \Q - \frac{\cH'}{\cH^2} - \left(1 - \Q\right) \frac{2}{\chi \cH} \right] \times \nonumber \\
-& \left[ 3 \left[{\Phi}^{(1)}\right]^2 - \left[ \p_\| v^\on \right]^2 + \p_{\perp i} v^\on \p^i_\perp v^\on - 2 \p_\| v^\on \Phi^\on - \frac{2}{\cH} \left( \Phi^\on - \p_\| v^\on \right) \right. \times \nonumber \\
+& + 2(\Q - 1) \Psi^\tw + \Phi^\tw + \frac{1}{\cH} \Psi^{\tw\prime} + \left[ b_e-2 \Q - \frac{\cH'}{\cH^2} - \left(1 - \Q\right) \frac{2}{\chi \cH} \right] \cdot \nonumber \\
+& \left[ 3 \left[{\Phi}^{(1)}\right]^2 - \left[ \p_\| v^\on \right]^2 + \p_{\perp i} v^\on \p^i_\perp v^\on - 2 \p_\| v^\on \Phi^\on - \frac{2}{\cH} \left( \Phi^\on - \p_\| v^\on \right) \right. \cdot \nonumber \\
 & \left. \vphantom{\frac{1}{\cH}} \left( \Phi^{(1)\prime} - \p_\|^2 v^\on  \right)\right] +2 \left(2 \Q-1 \right) \Phi^\on \delta_g^\on - \frac{2}{\cH} \delta_g^\on \p_\|^2 v^\on +\frac{2}{\cH}\delta_g^\on \Phi^{\on \prime} \nonumber \\
 & + \left( 4 \Q -5 + 4 \Q^2 - 4 \frac{\p \Q}{\p \ln \bar L} \right) \left[ \Phi^\on \right]^2 + \frac{2}{\cH} \left( 2\Q + \frac{\cH'}{\cH^2} \right) \Phi^\on \Phi^{\on \prime} \nonumber \\
 & - \frac{2}{\cH} \left( 1+ 2\Q  +\frac{\cH'}{\cH^2} \right) \Phi^\on \p_\|^2 v^\on + \frac{2}{\cH^2} \left[ \Phi^{\on \prime}  \right]^2 + \frac{2}{\cH^2}\left[\p_\|^2 v^\on  \right]^2  \nonumber \\
@@ -81,7 +88,7 @@ Here we use the expression given by~\cite{Bertacca:2014hwa}, which includes the 
 & + \frac{2}{\cH} \p_{\perp i} v^\on \p^i_\perp \Phi^\on -\frac{{4}}{\cH} \p_{\perp i} v^\on \p_{\perp}^i \p_\| v^\on + \left(\frac{4}{ \chi \cH } -1 \right) \p_{\perp i} v^\on \p_{\perp}^i v^\on \nonumber \\
 & + \frac{2}{\cH^2} \p_\| v^\on \p_\|^3 v^\on + \left\{ \left[ 4 b_e \Q - 2 b_e - 4 \Q - 8 \Q^2 + 8 \frac{\p \Q}{\p \ln \bar L} + 4 \frac{\p \Q}{\p \ln \bar a} \right. \right. \nonumber \\
 &\left. \left. + 2  \frac{\cH'}{\cH^2} \left(1 - {2\Q}\right)  + \frac{4}{\chi \cH} \left(\Q - 1 + 2 \Q^2 - 2 \frac{\p \Q}{\p \ln \bar L} \right) \right] \Phi^\on + 2 \left[ b_e - 2\Q \right. \right. \nonumber \\
-& \left. \left. -  \frac{\cH'}{\cH^2}  - \frac{2}{\chi \cH} \left(1 - \Q\right)  \right] \delta_g^\on - \frac{2}{\cH} \frac{\diff \delta_g^\on }{\diff \chi} + \frac{2}{\cH} \left[ 2 \Q - b_e + \frac{\cH'}{\cH^2} + \frac{2}{\chi \cH} \left(1 - \Q\right) \right]\times \right. \nonumber \\
+& \left. \left. -  \frac{\cH'}{\cH^2}  - \frac{2}{\chi \cH} \left(1 - \Q\right)  \right] \delta_g^\on - \frac{2}{\cH} \frac{\diff \delta_g^\on }{\diff \chi} + \frac{2}{\cH} \left[ 2 \Q - b_e + \frac{\cH'}{\cH^2} + \frac{2}{\chi \cH} \left(1 - \Q\right) \right]\cdot \right. \nonumber \\
 &\left. \p_\|^2 v^\on + \frac{2}{\cH} \left[ b_e - 2 - \frac{2}{\chi \cH} \left(1 - \Q \right) - \frac{\cH'}{\cH^2} \right]  \Phi^{(1)\prime} - \frac{4}{\cH} \Q \p_\| \Phi \right\} \left[\p_\| v^\on- \Phi^\on \right] \nonumber \\
 & + \left\{ b_e^2 - b_e + \frac{\p b_e}{\p \ln \bar a} +6 \Q -4 \Q b_e + 4 \Q^2 - 4\frac{\p \Q}{\p \ln \bar L} - 4 \frac{\p \Q}{\p \ln \bar a} + \frac{6}{\chi} \frac{\cH'}{\cH^3} \left(1 - \Q\right) \right. \nonumber \\
 & \left. + \left(1 - 2 b_e + 4\Q \right) \frac{\cH' }{\cH^2}  -\frac{\cH'' }{\cH^3} +3 \frac{\cH^{\prime 2} }{\cH^4} +  \frac{2}{\chi^2 \cH^2} \left( 1 - \Q + 2 \Q^2 - 2 \frac{\p \Q}{\p \ln \bar L} \right) \right. \nonumber \\
@@ -104,9 +111,9 @@ The GR part of $\Delta_g^\tw$ then is formed by all the remaining terms. For not
 	&+ \frac{2}{\cH}\left[ b_1 {\delta_{m\mathrm{T}}^{(1)\prime}} \, \p_\parallel v^\on + (f - 2 + 2\Q ) \Phi^\on \p_\parallel \Phi^\on + (2 - f - 2\Q) \p_\parallel v^\on \p_\parallel \Phi^\on \right. \nonumber \\
 	&\left. - b_1 \Phi^\on {\delta_{m\mathrm{T}}^{(1)\prime}} + b_1 \Phi^\on \p_\parallel \delta_{m\mathrm{T}}^\on - 2\p_i v^\on \p_\on \p^i v^\on + \p_i v^\on \p^i \Phi^\on \right] \nonumber \\
 	& + \frac{2}{\cH^2} \left[ \p_\parallel v^\on \p_\parallel^2 \Phi^\on - \Phi^\on \p_\parallel^2 \Phi^\on - \Phi^\on \p_\parallel^3 v^\on \right] - 2 (3-b_e) v^\on \p_\parallel^2 v^\on \nonumber \\
-	&+ 2\left[ b_1 \left(b_e - 2\Q - \frac{2 (1 - \Q)}{\chi\cH} - \frac{\cH'}{\cH^2} \right) + \frac{b_1'}{\cH} + 2\left(1 - \frac{1}{\chi\cH} \right) \frac{\p b_1}{\p \ln{\bar{L}}} \right] \times \nonumber \\
+	&+ 2\left[ b_1 \left(b_e - 2\Q - \frac{2 (1 - \Q)}{\chi\cH} - \frac{\cH'}{\cH^2} \right) + \frac{b_1'}{\cH} + 2\left(1 - \frac{1}{\chi\cH} \right) \frac{\p b_1}{\p \ln{\bar{L}}} \right] \cdot \nonumber \\
 	& \delta_{m\mathrm{T}}^\on \p_\parallel v^\on + \frac{2}{\cH} \left[ 3 - 2 b_e + 4 \Q + \frac{4 (1 - \Q)}{\cH\chi} + \frac{3\cH'}{\cH} \right] \p_\parallel v^\on \p_\parallel^2 v^\on \nonumber \\
-	& + 2\left[ b_1 \left( f - 2 - b_e + 4 \Q + \frac{2 (1 - \Q)}{\chi\cH} + \frac{\cH'}{\cH^2} \right) - \frac{b_1'}{\cH} - 2 \left( 2 - \frac{1}{\chi\cH} \right) \frac{\p b_1}{\p \ln{\bar{L}}} \right] \times \nonumber \\
+	& + 2\left[ b_1 \left( f - 2 - b_e + 4 \Q + \frac{2 (1 - \Q)}{\chi\cH} + \frac{\cH'}{\cH^2} \right) - \frac{b_1'}{\cH} - 2 \left( 2 - \frac{1}{\chi\cH} \right) \frac{\p b_1}{\p \ln{\bar{L}}} \right] \cdot \nonumber \\
 	& \Phi^\on \delta_{m\mathrm{T}}^\on + \left[b_e - 1 - 2\Q - \frac{2 (1 - \Q)}{\chi\cH} - \frac{\cH'}{\cH^{2}}\right] \p_i v^\on \p^i v^\on + \frac{2}{\cH} \left[1 - 2f + 2b_e \right. \nonumber \\
 	& \left. - 6\Q - \frac{4 (1 - \Q)}{\chi\cH} - \frac{3\cH'}{\cH^{2}} \right] \Phi^\on \p_\parallel^2 v^\on + \mathcal{A} \left[ \Phi^\on \right]^2 + \mathcal{B} v^\on \p_\parallel v^\on + \mathcal{C}\Phi^\on v^\on \nonumber \\
 	&+ \mathcal{D} \Phi^\on \p_\parallel v^\on + \mathcal{E} \left[ \p_\parallel v^\on \right]^{2}\,.
@@ -124,7 +131,7 @@ The coefficients $\mathcal{A},\,\mathcal{B},\,\mathcal{C},\,\mathcal{D},\,\mathc
 	\mathcal{D} =& 4 +2f\left[ -3 + f + 2b_e - 3\Q - \frac{4(1 - \Q)}{\chi\cH} - \frac{2\cH'}{\cH^2} \right] +\frac{2f'}{\cH} - 6b_e - 2 b_e^2 + 12 b_e\Q \nonumber \\
 	& - 8 \Q - 16\Q^2 + 16 \frac{\p \Q}{\p \ln{\bar{L}}} + 12 \frac{\Q'}{\cH} - 2\frac{b_e'}{\cH} - \frac{4}{\chi^2 \cH^2} \left(1 - \Q + 2\Q^2 - 2 \frac{\p \Q}{\p \ln{\bar{L}}} \right) \nonumber \\
 	& - \frac{4}{\chi \cH} \left[ -1 -2b_e + 2b_e\Q + \Q - 6\Q^2 + \frac{3\cH'}{\cH^2}(1 - \Q) + 6 \frac{\p \Q}{\p \ln{\bar{L}}} + 2\frac{\Q'}{\cH} \right] \nonumber \\
-	&+ \frac{2\cH'}{\cH^2} \left(3 + 2b_e - 6\Q - \frac{3\cH'}{\cH^2} \right) + \frac{2\cH''}{\cH^3} \\
+	&+ \frac{2\cH'}{\cH^2} \left(3 + 2b_e - 6\Q - \frac{3\cH'}{\cH^2} \right) + \frac{2\cH''}{\cH^3}\,, \\
 	\mathcal{E} =& -4 - b_e + b_e^2 - 4b_e\Q + 6 \Q + 4\Q^2 - 4\frac{\p \Q}{\p \ln{\bar{L}}} - 4\frac{\Q'}{\cH} + \frac{b_e'}{\cH} \nonumber \\
 	&+ \frac{2}{\chi^2\cH^2} \left(1 - \Q + 2\Q^2 - 2\frac{\p \Q}{\p \ln{\bar{L}}}\right) + \frac{2}{\chi\cH} \left[3 - 2b_e + 2b_e \Q - 3\Q - 4\Q^2 \right. \nonumber \\
 	&\left. + \frac{3\cH'}{\cH^2} (1 - \Q) + 4\frac{\p \Q}{\p \ln{\bar{L}}} + 2\frac{\Q'}{\cH} \right] + \frac{\cH'}{\cH^2} \left(3 - 2b_e + 4\Q + \frac{3\cH'}{\cH^2} \right) - \frac{\cH''}{\cH^3}\,.
@@ -184,7 +191,7 @@ We can then define a new Fourier kernel function which scales as $k^0$ (similarl
 Combining all of the above expressions, the GR parts of second-order velocity and metric potentials become, 
 \begin{align}
 	\cH v^\tw_\gr(\kc) =& 3 \Omega_m \cH^4 f \int \diff(\ka,\kb,\kc)\, \frac{1}{k_1 k_2} \left[ - \frac{1}{6} \left( 3 + \frac{4 f}{\Omega_m} \right) + E_2(\ka,\kb,\kc) \right]\,,\\
-	\Phi_\gr^\tw(\kc) =& 3 \Omega_m \cH^4 \int \diff(\ka,\kb,\kc)\, \frac{1}{k_1^2 k_2^2} \left[ \frac{1}{2} (3 \Omega_m - f + f^2)  - \frac{1}{2}(3 \Omega_m - 2f + 2 f^2)\times\right.\nonumber\\
+	\Phi_\gr^\tw(\kc) =& 3 \Omega_m \cH^4 \int \diff(\ka,\kb,\kc)\, \frac{1}{k_1^2 k_2^2} \left[ \frac{1}{2} (3 \Omega_m - f + f^2)  - \frac{1}{2}(3 \Omega_m - 2f + 2 f^2)\cdot\right.\nonumber\\
 	&\left. \quad E_2(\ka,\kb,\kc) \right]\,,\\
 	\Psi_\gr^\tw(\kc) =& 3 \Omega_m \cH^4 \int \diff(\ka,\kb,\kc)\, \frac{1}{k_1^2 k_2^2} \left[ \frac{1}{2} (3 \Omega_m + f - f^2) + f E_2(\ka,\kb,\kc) \right]\,.\label{eq:PsiSOgrFT}
 \end{align}
@@ -247,16 +254,16 @@ In the above expression, we have defined 19 redshift-dependent coefficients $\be
 To demonstrate how the second-order relativistic kernel is obtained from~\eqref{eq:DeltaSOwBGcoeffs}, we shall include an example Fourier transform of one of the terms of the second-order observed galaxy overdensity here, and include a table in Appendix~\ref{app_betatables}.
 Taking, for example, $\mathcal{C} \Phi^\on v^\on$, where $\mathcal{C}$ is a background coefficient as defined in equation~\eqref{eq:bcC}. In our Fourier convention we have, 
 \begin{equation}
-	\left[ \Phi^\on v^\on \right](\x) = \int \frac{\diff^3 k}{(2\pi)^3}\, e^{\i \k\cdot\x} \left[ \Phi^\on v^\on \right] (\k)\,,
+	\left[ \Phi^\on v^\on \right](\x) = \int \frac{\diff^3 k}{(2\pi)^3}\, \ee^{\i \k\cdot\x} \left[ \Phi^\on v^\on \right] (\k)\,,
 \end{equation}
 and, 
 \begin{equation}
-	\left[ \Phi^\on v^\on \right](\k) = \int \diff^3 x\, e^{- \i \k\cdot\x} \left[ \Phi^\on v^\on \right](\x)\,.
+	\left[ \Phi^\on v^\on \right](\k) = \int \diff^3 x\, \ee^{- \i \k\cdot\x} \left[ \Phi^\on v^\on \right](\x)\,.
 \end{equation}
 Symmetrising, we get, 
 \begin{align}
-	&\left[ \Phi^\on v^\on \right](\k) = \frac{1}{2} \int \diff^3 x\, \int \frac{\diff^3 k_1}{(2 \pi)^3}\, \int \frac{\diff^3 k_2}{(2\pi)^3}\, \left[ \Phi^\on(\ka) v^\on(\kb) + \Phi^\on(\kb) v^\on(\ka) \right] \times \nonumber \\
-	& \qquad\qquad\qquad e^{-\i \k\cdot\x} e^{\i \ka\cdot\x} e^{\i \kb\cdot\x} \\
+	&\left[ \Phi^\on v^\on \right](\k) = \frac{1}{2} \int \diff^3 x\, \int \frac{\diff^3 k_1}{(2 \pi)^3}\, \int \frac{\diff^3 k_2}{(2\pi)^3}\, \left[ \Phi^\on(\ka) v^\on(\kb) + \Phi^\on(\kb) v^\on(\ka) \right] \cdot \nonumber \\
+	& \qquad\qquad\qquad \ee^{-\i \k\cdot\x} \ee^{\i \ka\cdot\x} \ee^{\i \kb\cdot\x} \\
 	&\Rightarrow \frac{1}{2} \int\frac{\diff^3 k_1}{(2\pi)^3}\,\int \frac{\diff^3 k_2}{(2\pi)^3}\, \left[ \Phi^\on(\ka) v^\on(\kb) + \Phi^\on(\kb) v^\on(\ka)\right] (2\pi)^3 \delta^D(\ka+\kb-\k)\,,
 \end{align}
 where in the second line we have performed the integral over $x$ and the exponentials. Then, expand the perturbative variables in terms of $\delta^\on$ using the relations,
@@ -312,6 +319,35 @@ The Fourier space kernels that appear on the right hand side in the above equati
 \end{equation}
 The GR parts of the kernels here are composed of all relativistic corrections at all orders of $\cH/k$. From products between the first- and second-order Fourier space kernels, more suppressed contributions are generated also. All of these are considered henceforth.
 
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=0.8\textwidth]{fig/sj_monopole_bg.png}
+	\caption{Monopole of the bispectrum at $z = 1$, taken from~\cite{Umeh:2016nuh}. The different colours denote the different triangle shapes considered-- blue representing a squeezed shape (chosen such that $k_3 \approx k/16$), and red denotes the equilateral shape. The shape is held fixed, and the overall scale of the triangle is varied ($k$ along the $x$-axis). Dashed lines denote the Newtonian approximation, and the solid lines include local GR effects.}
+	\label{fig:sj_bgmono}
+\end{figure}
+
+Figure~\ref{fig:sj_bgmono} shows the monopole of the bispectrum including local GR effects for different triangular configurations, compared to the monopole in the Newtonian approximation. On large scales (small $k$), the departure of the GR monopole from the Newtonian approximation becomes large.
+
+A Newtonian analysis of the bispectrum, in the case where equality scales and larger are probed, could suffer from serious bias when GR projection effects are ignored. To illustrate this, a simple estimate for the effective $\fnl$ can be made, considering PNG in the Newtonian bispectrum (ignoring scale-dependent bias), taken directly from~\cite{Umeh:2016nuh}. Writing the Newtonian non-Gaussian bispectrum as, 
+\begin{align}
+	B_{g,\nw}^\mathrm{nG}(\ka,\kb,\kc) &= \cK_\nw^\on(\ka) \cK_\nw^\tw(\kb) \left[ \cK_\nw^\tw(\ka,\kb,\kc) \right. \nonumber \\
+	&\left. + 2 \fnl \cK_\nw^\on(\kc) \frac{\M(k_3)}{\M(k_1)\M(k_2)} \right] P(k_1) P(k_2) + 2 \text{ c.p.}\,.
+\end{align}
+Here, $\M$ is the scale-dependent function that relates the late-time matter density contrast to the primordial potential, which we briefly met before in Chapter~\ref{chapter:introgen}, and will be defined in Chapter~\ref{chapter:localpng}. Using this expression for the Newtonian PNG bispectrum, a rough estimate for the effective $\fnl$ from ignoring GR projection effects would be,
+\begin{align}
+	\fnl^\mathrm{eff} &= \left\{ \left[ \cK_\gr^\on(\ka) \cK^\on(\kb) \cK^\tw(\ka,\kb,\kc) + \cK_\nw^\on(\ka) \cK_\gr^\on(\kb) \cK^\tw(\ka,\kb,\kc) \right. \right. \nonumber \\
+	&\left. \left. \cK^\on_\nw(\ka) \cK^\on_\nw(\kb) \cK^\tw_\gr(\ka,\kb,\kc) \right] P(k_1) P(k_2)  + 2 \text{ c.p.} \right\} \nonumber \\
+	&\cdot \left\{ 2 \cK_\nw^\on(\ka) \cK^\on_\nw(\kb) \cK^\on_\nw(\kc) \frac{\M(k_3)}{\M(k_1)\M(k_2)} P(k_1) P(k_2) + 2 \text{ c.p.} \right\}^{-1}\,.
+\end{align}
+Figure~\ref{fig:sj_fnleff} shows the effective non-Gaussianity from neglecting local GR projection effects from comparison to a Newtonian analysis, as described above. At equality scales, this leads to an effective $\fnl$ of $\sim 1.4$ for equilateral shapes and $\sim 9$ for squeezed shapes. This means that when GR effects are neglected and a false Newtonian analysis is used, one would conclude that the primordial universe was significantly non-Gaussian (of course, this estimate neglects scale-dependent bias, the effects of which are similar to the lightcone effects, and we will discuss this properly in Chapter~\ref{chapter:localpng}).
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=0.8\textwidth]{fig/sj_fnleff.png}
+	\caption{Effective $\fnl$ due to neglecting GR projection effects, from comparison to a Newtonian bispectrum analysis but ignoring scale-dependent bias. The red solid line corresponds to the equilateral shape, and the blue solid line denotes the squeezed shape, as in Figure~\ref{fig:sj_bgmono}. This figure is taken from~\cite{Umeh:2016nuh}.}
+	\label{fig:sj_fnleff}
+\end{figure}
+
 \section{Contributions from second-order vector and tensor modes}\label{sec:tensorvector}
 
 Around and above the equality scale, the bispectrum receives local contributions from the generated vector and tensor background, which is generated by scalar modes~\cite{Tomita:2005et,Mollerach:2003nq,Ananda:2006af,Lu:2007cj,Baumann:2007zm,Hwang:2017oxa,Lu:2008ju}. In this section we will discuss these second-order vector and tensor contributions, which for the Fourier-space galaxy bispectrum were first derived in~\cite{Jolicoeur:2018blf}. These contributions are subdominant in the relativistic bispectrum, and will be neglected in subsequent chapters of this thesis. 
@@ -351,14 +387,14 @@ where $\omega_\parallel = n^i \omega_i$ is the longitudinal component of the vec
 The explicit forms of the kernels are derived in~\cite{Jolicoeur:2018blf}. For the vector modes, it is, 
 \begin{align}
 	&\cK^\tw_\mathrm{V}(\ka,\kb,\kc) = 12 \Omega_m \cH^2 f \left( \frac{\mu_3}{k_3} - \i \frac{\cH}{k_3^2} \left[ -b_e + 2\Q + \frac{2(1-Q)}{\chi\cH} + \frac{\cH'}{\cH^2} \right]  \right) \nonumber \\
-	&\quad\times \left[ \n \cdot \bm{e}(\kc) \left( \frac{\ka \cdot \bm{e}(\kc)}{k_1^2} + \frac{\kb \cdot \bm{e}(\kc)}{k_2^2} \right) + \n \cdot \bar{\bm{e}} \left( \frac{\ka \cdot \bar{\bm{e}}(\kc) }{k_1^2} +\frac{\kb \cdot \bar{\bm{e}}(\kc)}{k_2^2}  \right) \right]\,,
+	&\quad\cdot \left[ \n \cdot \bm{e}(\kc) \left( \frac{\ka \cdot \bm{e}(\kc)}{k_1^2} + \frac{\kb \cdot \bm{e}(\kc)}{k_2^2} \right) + \n \cdot \bar{\bm{e}} \left( \frac{\ka \cdot \bar{\bm{e}}(\kc) }{k_1^2} +\frac{\kb \cdot \bar{\bm{e}}(\kc)}{k_2^2}  \right) \right]\,,
 \end{align}
 where $\bm{e}$ and $\bar{\bm{e}}$ are the 2 polarisation vectors associated with the vector mode. The kernel is symmetric on $\ka \leftrightarrow \kb$, and complex, with the real part having a $k$-dependence of $\ord(k^{-2})$ and the imaginary part a $k$-dependence of $\ord(k^{-3})$. For an equilateral triangular configuration in which case $k_1 = k_2 = k_3= k$, it can easily be seen that the above kernel vanishes, since in this case $\ka \cdot \bm{e}(\kc) = - \kb \cdot \bm{e}(\kc)$. The physical reason behind it is that the equilateral configuration of the bispectrum probes vector modes that are generated by scalar modes at the same wavelength. However, as shown in~\cite{Lu:2007cj}, only when 2 scalar modes have different wavelengths they can generate vector modes, otherwise the interaction will not generate any angular momentum.
 For the tensor modes, the kernel is, 
 \begin{align}
 	\cK^\tw_\mathrm{T}(\ka,\kb,\kc) =& 3 \Omega_m \cH^4 \left\{ \left[ - 3 \Omega_m (1 + \Q) - 2 f^2 \Q - (3 \Omega_m - 2 f^2) \frac{\cH'}{\cH^2} + 4 \frac{f f'}{\cH} \right] \right. \nonumber \\
-	&\left. \times \mathcal{G}(\eta,k_3) + \frac{3 \Omega_m + 2 f^2}{\cH} \mathcal{G}'(\eta, k_3) \right\} \nonumber \\
-	&\times \frac{e^{ij}(\kc) k_{1i} k_{2j} n^{\ell} n^m e_{\ell m}(\kc) + \bar{e}^{ij}(\kc) k_{1i} k_{2j} n^{\ell} n^m \bar{e}_{\ell m}(\kc)  }{k_1^2 k_2^2 k_3^2}\,,
+	&\left. \cdot \mathcal{G}(\eta,k_3) + \frac{3 \Omega_m + 2 f^2}{\cH} \mathcal{G}'(\eta, k_3) \right\} \nonumber \\
+	&\cdot \frac{e^{ij}(\kc) k_{1i} k_{2j} n^{\ell} n^m e_{\ell m}(\kc) + \bar{e}^{ij}(\kc) k_{1i} k_{2j} n^{\ell} n^m \bar{e}_{\ell m}(\kc)  }{k_1^2 k_2^2 k_3^2}\,,
 \end{align}
 where $e_{ij}$ and $\bar{e}_{ij}$ are orthogonal polarisation tensors and function $\mathcal{G}(\eta,k)$ comes from solving the tensor wave equation, 
 \begin{equation}

@@ -24,16 +24,16 @@ where
 Here $b_{\textrm{e}}=\partial (a^3 \bar{n}_g)/\partial \ln a$ is the evolution of comoving galaxy number density, $s=-(2/5)\partial \ln \bar{n}_g/\partial \ln L$ is the magnification bias ($L$ is at the threshold luminosity), $r$ is the comoving radial distance ($\partial_r=\bm n\cdot\bm\nabla$) and we have assumed a $\Lambda$CDM background ($\cH'/\cH^2=1-3\Omega_m/2$, where $\cH$ is the conformal Hubble rate, a prime is differentiation with respect to conformal time, $\Omega_m$ is the evolving matter density parameter). In the  Fourier space expression~\eqref{dopf2} we can read off the relative contribution of each term by how they scale with $k$: terms like $\cH/k$ are suppressed on small scales when $\cH/k\ll1$ but become important around and above the equality scale. 
 
 Although the galaxy density contrast~\eqref{dopf2} is complex, the power spectrum of a single tracer is real:
-\begin{equation}
+\begin{equation}\label{eq:pksingletracer}
 \big\langle \delta_g(\k)\delta_g(-\k)\big\rangle
-=\Big[ \big(b_{1} + f\mu^{2}\big)^2+\Big(A\,f \mu \frac{\cH}{k}\Big)^2\Big] \big\langle \delta(\k)\delta(-\k)\big\rangle \,,\nonumber
+=\Big[ \big(b_{1} + f\mu^{2}\big)^2+\Big(A\,f \mu \frac{\cH}{k}\Big)^2\Big] \big\langle \delta(\k)\delta(-\k)\big\rangle \,,
 \end{equation}
 since $\mu_{-\k}=-\mu_{\k}$ enforces a cancellation of the imaginary part, and the RSD contribution is separate from the Doppler term.
 However, if we consider the cross-power spectrum for {\em two} matter tracers, this cancellation breaks down, and  there is an imaginary part in the cross-power~\citep{McDonald:2009dh,Bonvin:2014owa},
 \begin{align}
 P_{g \tilde g}(k)&= \Big\{\Big[ \big(b_{1} + f\mu^{2}\big)\big(\tilde b_{1} + f\mu^{2}\big)+A\tilde A f^2\mu^2 {\frac{\cH^2}{k^2}}\Big]\nonumber\\
 &
-+\i f\mu\Big[\big(\tilde b_{1} + f\mu^{2}\big)A-\big(b_{1} + f\mu^{2}\big)\tilde A\Big]{\frac{\cH}{k}} \Big\}P(k) \,.\nonumber
++\i f\mu\Big[\big(\tilde b_{1} + f\mu^{2}\big)A-\big(b_{1} + f\mu^{2}\big)\tilde A\Big]{\frac{\cH}{k}} \Big\}P(k) \,.
 \end{align}
 While the Doppler contribution to $P_g$ is $\ord((\cH/k)^{2})$,  the Doppler contribution to $P_{g\tilde g}$ mixes with the density and RSD to give an additional less suppressed part, i.e. $\ord(\cH/k)$. The nonzero multipoles of $P_g$ are $\ell=0,2,4$, whereas  $P_{g \tilde g}$ has a nonzero dipole (as well as a smaller octupole).  There are also further relativistic corrections to this dipole part of the cross power spectrum~\citep{DiDio:2018zmk}.
 
@@ -195,7 +195,7 @@ $% \label{mu}
 % {\cal K}^{(2)}_{\mathrm{D}}(\k_{-S},\k_L,\k_S) &=&  {\cal K}^{(2)}_{\mathrm{D}}(\k_L,\k_S,\k_{-S})\Big|_{\mu_S\to \roy{\mu_{-S}}}  \label{k2d2}
 \end{align}
 and $ {\cal K}^{(2)}_{\mathrm{D}}(\k_{-S},\k_L,\k_S) =  {\cal K}^{(2)}_{\mathrm{D}}(\k_L,\k_S,\k_{-S})\big|_{\mu_S\to {\mu_{-S}}}$ while ${\cal K}^{(2)}_{\mathrm{D}}(\k_S,\k_{-S},\k_L) =0$. 
-In the squeezed limit of the cyclic sum~\eqref{eq:fsbispdef}, the terms $\cK^{(2)}(\k_L,\k_S,\k_{-S})$ and $\cK^{(2)}(\k_{-S},\k_L,\k_S)$ appear only in the form ${\cal K}^{(2)}(\k_L,\k_S,\k_{-S})+{\cal K}^{(2)}(\k_{-S},\k_L,\k_S)$. This sum regularises the divergent $k_S/k_L=(2\ep)^{-1}$ and $k_S/k_L^2=(2\ep k_L)^{-1}$ terms.  We obtain the bispectrum in the squeezed limit,
+In the squeezed limit of the cyclic sum~\eqref{eq:fsbispdef}, the terms $\cK^{(2)}(\k_L,\k_S,\k_{-S})$ and \\ $\cK^{(2)}(\k_{-S},\k_L,\k_S)$ appear only in the form ${\cal K}^{(2)}(\k_L,\k_S,\k_{-S})+{\cal K}^{(2)}(\k_{-S},\k_L,\k_S)$. This sum regularises the divergent $k_S/k_L=(2\ep)^{-1}$ and $k_S/k_L^2=(2\ep k_L)^{-1}$ terms.  We obtain the bispectrum in the squeezed limit,
 \begin{align}
 &B_{g}^{\mathrm{sq}} = b_{1S}b_{1L}b_{SL}\, P_LP_S+\i b_{1S}\Big\{b_{SL}f A + {\frac{3}{2}} \Omega_m b_{1S}b_{1L} 
 \nonumber\\
@@ -208,7 +208,7 @@ b_{SL} \equiv 2b_2+ \frac{43}{21}b_1 - \frac{4}{21}
 %\nonumber\\&&
 +\Big(2b_1+ \frac{5}{7}\Big)f\mu_S^2%+b_1f\mu_L^2+{f^2}\mu_S^2\mu_L^2 
 +f\mu_L^2 b_{1S}
-\,. \nonumber\label{bsl}
+\,. \label{bsl}
 \end{align}
 %Note that we can neglect the $P(k_S)^2$ term relative to the $P(k_L)P(k_S)$ term in $B_{g {\mathrm{N}}}^{\rm sq}$.
 Note that only the first term in the squeezed bispectrum comes from the Newtonian limit. 
@@ -220,7 +220,7 @@ The type of dipole extracted from this term is seen as follows. To this order we
 \begin{center}
 %\includegraphics[width=\columnwidth]{flattened-squeezed-02}
 \includegraphics[width=\columnwidth]{fig/figuresv2-02}
-\caption{ The absolute value of the bispectrum dipole at $z=1$  as a function of triangle size, in the flattened (Left, $\theta=2^\circ$, for intensity mapping bias) and squeezed (Right, $\theta=178^\circ$, for Euclid-like bias) configurations, with $k_3$ as the horizontal axis. Red is the $m=0$ part and blue is $m=\pm1$. Dashed (and dotted) lines show up to the $\ord(\cH/k)$ terms considered analytically here, while solid lines indicate larger-scale contributions. For reference the monopole is in black, with the dotted line the Newtonian part.  (The zero-crossing in the monopole for the squeezed case is a result of the tidal bias.)}
+\caption{ The absolute value of the bispectrum dipole at $z=1$  as a function of triangle size, in the flattened (\emph{Left}, $\theta=2^\circ$, for intensity mapping bias) and squeezed (\emph{Right}, $\theta=178^\circ$, for Euclid-like bias) configurations, with $k_3$ as the horizontal axis. Red is the $m=0$ part and blue is $m=\pm1$. Dashed (and dotted) lines show up to the $\ord(\cH/k)$ terms considered analytically here, while solid lines indicate larger-scale contributions. For reference the monopole is in black, with the dotted line the Newtonian part.  (The zero-crossing in the monopole for the squeezed case is a result of the tidal bias.)}
 \label{snakcjnsdlkcans}
 \end{center}
 \end{figure}
@@ -228,7 +228,7 @@ The type of dipole extracted from this term is seen as follows. To this order we
 \begin{center}
 %\includegraphics[width=\columnwidth]{shapes-01}
 \includegraphics[width=\columnwidth]{fig/figuresv2-01}
-\caption{ (Left) We show the dipoles as a function of $\theta$ with a bias appropriate for a Euclid-like survey, for $k_1=k_2=0.01$\,Mpc$^{-1}$. The left of the plot corresponds to the flattened case where the $m=0$ (red) dipole reaches 10\% of the monopole.  (Right) We show the IM signal with $k_1=k_2=0.1$\,Mpc$^{-1}$ versus the long mode $k_3$. Except for very long modes $\theta\approx\pi$, our $\ord(\cH/k)$ truncation is a very good approximation in these examples. }
+\caption{ (\emph{Left}) We show the dipoles as a function of $\theta$ with a bias appropriate for a Euclid-like survey, for $k_1=k_2=0.01$\,Mpc$^{-1}$. The left of the plot corresponds to the flattened case where the $m=0$ (red) dipole reaches 10\% of the monopole.  (\emph{Right}) We show the IM signal with $k_1=k_2=0.1$\,Mpc$^{-1}$ versus the long mode $k_3$. Except for very long modes $\theta\approx\pi$, our $\ord(\cH/k)$ truncation is a very good approximation in these examples. }
 \label{sankcjnakjdcs}
 \end{center}
 \end{figure}
@@ -237,9 +237,9 @@ The type of dipole extracted from this term is seen as follows. To this order we
 
 We now consider the amplitude of the dipole relevant for upcoming galaxy surveys, which have different bias parameters. We consider two different types of survey: an SKA intensity mapping of 21\,cm radio emission, as well as a Euclid-like optical/infrared spectroscopic survey.
 An intensity map of the 21cm emission of neutral hydrogen (HI) in the post-reionization Universe records the total emission in galaxies containing HI, without detecting individual galaxies. There is an equivalence between the brightness temperature contrast and number count contrast~\cite{Umeh:2015gza}. For IM we use the bias parameters at $z=1$, 
-$b_1 = 0.856, b_2 = -0.321, b_1' = -0.5\times10^{-4}, b_e = -0.5, b_e'=0, s = 2/5$~\cite{Fonseca:2018hsu,Umeh:2015gza}
+$b_1 = 0.856, b_2 = -0.321, b_1' = -0.5\cdot10^{-4}, b_e = -0.5, b_e'=0, s = 2/5$~\cite{Fonseca:2018hsu,Umeh:2015gza}
 while for the spectroscopic survey we use 
-$ b_1 = 1.3,b_2 = -0.74, b_1' = -1.6\times10^{-4},  b_e = -4, b_e' = 0, s = -0.95$~\cite{Camera:2018jys,Yankelevich:2018uaz}.
+$ b_1 = 1.3,b_2 = -0.74, b_1' = -1.6\cdot10^{-4},  b_e = -4, b_e' = 0, s = -0.95$~\cite{Camera:2018jys,Yankelevich:2018uaz}.
 For intensity mapping, $ \partial b_1/\partial \ln L =0$ and we assume it is zero for simplicity for the spectroscopic survey. We use a LCDM model with standard parameters $\Omega_m=0.314, h=0.67, f_\text{baryon}=0.157, n_s=0.968$. Plots are presented using linear power spectra generated using CAMB~\cite{Lewis:1999bs}.
 
 In Figure~\ref{snakcjnsdlkcans}, we show how changing the scale of a fixed triangle changes the amplitude of the dipole, with reference to the monopole. In the flattened case with $m=0$ we see the signal peaks for triangles below the equality scale, while for squeezed shapes, with $m=\pm1$, the signal is smaller, and peaks when the long mode approaches the Hubble scale. 

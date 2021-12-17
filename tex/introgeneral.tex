@@ -17,14 +17,14 @@ This standard model for the evolution of the universe predicts that approximatel
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=0.6\textwidth]{fig/placeholer_energycontent_wmap.png}
-	\caption{An illustration (will replace with similar illustration I make myself) of the modern-day dominant energy components in the universe.}
+	\caption{An illustration of the modern-day dominant energy components in the universe, taken from~\cite{NASAWMAP:2014ec}.}
 	\label{fig:contentuniverse}
 \end{figure}
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=0.8\textwidth]{fig/timeline_of_the_universe.png}
-	\caption{Picture of timeline of universe - replace with serious one}
+	\includegraphics[width=0.95\textwidth]{fig/history_universe_inverted.png}
+	\caption{Illustration of the timeline of the universe, starting from the Big Bang (\emph{left side}) and including inflation, matter formation, recombination, and the formation of stars, galaxies, and larger structures observed today (\emph{right side}). Taken from~\cite{ESA:2013tl}.}
 	\label{fig:timelineuniverse}
 \end{figure}
 In the 1980's, the theory of inflation was proposed~\cite{Guth:1980zm,Linde:1981mu,Albrecht:1982wi}, which has since become the prevailing theory for the early universe and its initial conditions. As a theory, it aims to solve the horizon, flatness, homogeneity and isotropy problems. During inflation, the universe is expanding exponentially, rapidly increasing its scale by a factor of at least $\approx 10^{27}$. During this period of exponential expansion, quantum fluctuations are stretched to macroscopic level. These are the seeds of the cosmic structure we observe today. It is worth noting that while the properties of the universe (near homogeneous, isotropic, and spatially flat) as predicted by inflation have been confirmed observationally, but as of yet there is no conclusive observational evidence for the inflationary model itself. 
@@ -189,13 +189,20 @@ Similar to how the power spectrum is a measure of probability of finding pairs o
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=0.8\textwidth]{fig/Equilateral.png}
-	\caption{An illustration of a Fourier-space triangle shape and the corresponding real space signature-- in this case the equilateral bispectrum. The field (denoted T here) can be decomposed into plane waves, and the three components that form an equilateral triangle can have different signs relative to each other. This gives an overall sign to bispectrum $b$, to be interpreted as an average probability of which sign is more likely. A positive sign corresponds to the combination of wavevectors being more likely to produce concentrated overdensities surrended by areas of milder underdensity. For a negative equilateral bispectrum, this is the other way round, and one would expect to see on average more concentrated underdensities surrounded by areas with mild overdensity. Please note that these are slices of 3D figures, which extend into the page-- meaning that a positive sign on the bispectrum corresponds to filaments of overdensities surrounded by areas of mild underdensity. Note also that this concerns a statistical quantity only, so while on average one would expect to see more of one type of signature, the observed distribution does not uniformly look like a given real space structure. Figure taken from~\cite{Lewis:2011}}
+	\caption{An illustration of a Fourier-space triangle shape and the corresponding real space signature-- in this case the equilateral bispectrum. The field (denoted T here) can be decomposed into plane waves, and the three components that form an equilateral triangle can have different signs relative to each other. This gives an overall sign to bispectrum $b$, to be interpreted as an average probability of which sign is more likely. A positive sign corresponds to the combination of wavevectors being more likely to produce concentrated overdensities surrended by areas of milder underdensity. For a negative equilateral bispectrum, this is the other way round, and one would expect to see on average more concentrated underdensities surrounded by areas with mild overdensity. Please note that these are slices of 3D figures, which extend into the page-- meaning that a positive sign on the bispectrum corresponds to filaments of overdensities surrounded by areas of mild underdensity. Note also that this concerns a statistical quantity only, so while on average one would expect to see more of one type of signature, the observed distribution does not uniformly look like a given real space structure. Figure taken from~\cite{Lewis:2011}.}
 	\label{fig:realspacesignature}
 \end{figure}
 
 \subsubsection{Measurements of the bispectrum}
 
-Most measurements of higher-order correlation functions so far are rather noisy and imprecise, and there is a lack of dedicated analysis tools (e.g. theoretical predictions, estimators, likelihood models) for higher-order statistics compared to the analysis toolkit available for two-point statistics. Forecasts for constraints using the galaxy bispectrum usually assume that the main cosmological parameters are known exactly, and determine expected uncertainty on the bias and/or non-Gaussianity parameters~\cite{Scoccimarro:2003wn,Sefusatti:2007ih,Song:2015gca,Tellarini:2016sgp,Yamauchi:2016wuc,Karagiannis:2018jdt}, which recently got extended to theories of modified gravity~\cite{Yamauchi:2017ibz}. Bispectrum measurements of LSS have already been obtained~\cite{Scoccimarro:2000sp,Feldman:2000vk,WiggleZ:2013kor,Gil-Marin:2014pva,Gil-Marin:2016wya,Verde:2001sf}.
+Most measurements of higher-order correlation functions so far are rather noisy and imprecise, and there is a lack of dedicated analysis tools (e.g. theoretical predictions, estimators, likelihood models) for higher-order statistics compared to the analysis toolkit available for two-point statistics. Forecasts for constraints using the galaxy bispectrum usually assume that the main cosmological parameters are known exactly, and determine expected uncertainty on the bias and/or non-Gaussianity parameters~\cite{Scoccimarro:2003wn,Sefusatti:2007ih,Song:2015gca,Tellarini:2016sgp,Yamauchi:2016wuc,Karagiannis:2018jdt}, which recently got extended to theories of modified gravity~\cite{Yamauchi:2017ibz}. Bispectrum measurements of LSS have already been obtained~\cite{Scoccimarro:2000sp,Feldman:2000vk,WiggleZ:2013kor,Gil-Marin:2014pva,Gil-Marin:2016wya,Verde:2001sf}. See Figure~\ref{fig:example_measurementB} for an example of a measurement of the bispectrum in the BOSS DR12 galaxy sample. 
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=0.8\textwidth]{fig/boss_bispmeasurement.png}
+	\caption{Bispectrum monopole measurements in the LOWZ galaxy sample of BOSS DR12. The sample contains 361,762 galaxies with an effective redshift of $z = 0.32$. The wavevectors of the triangles are contained by $0.03~h\mathrm{Mpc}^{-1} \leq k \leq 0.18~h\mathrm{Mpc}^{-1}$, in 160 bins. The colours represent different triangle shapes as indicated-- equilateral (red), isosceles (blue), and scalene (green) triangles. The black solid line represents the best-fit model, and the middle and bottom panel show the deviation of the model from the data. The binned bispectrum is plotted such that the first value plotted is an equilateral triangle with sides $N_0 \Delta k$, where $\Delta k$ is the bin size used and $N_0$ is an integer corresponding to the first bin size used-- the `triangle index'. The plotting then loops sequentially through all possible values of $k_1,\,k_2,\,k_3$ up to a truncation value set by the scale constraints. Taken from~\cite{Gil-Marin:2016wya}-- see the reference for a detailed discussion.}
+	\label{fig:example_measurementB}
+\end{figure}
 
 Fisher forecasts using joint galaxy clustering data and CMB data are presented in~\cite{Sefusatti:2006pa}, Other related work has focussed on developing optimal compression algorithms for three-point statistics~\cite{Byun:2017fkz,Gualdi:2018pyw}, and on detecting PNG due to massive spinning particles during the inflationary era~\cite{MoradinezhadDizgah:2018ssw}. Forecasts combining measurements of the galaxy power spectrum and bispectrum to constrain the standard cosmological parameters was done in~\cite{Yankelevich:2018uaz}, which uses the standard Newtonian contributions to the galaxy bispectrum only for signal-to-noise ratio calculations as well as Fisher forecasts. See Figure~\ref{fig:snr_yp} for an example of a forecast for the SNR using the bispectrum.
 
@@ -205,50 +212,6 @@ Fisher forecasts using joint galaxy clustering data and CMB data are presented i
 	\caption{Signal-to-noise ratio for measurements of the galaxy power spectrum and bispectrum in a Euclid-like galaxy survey as a function of redshift $z$, as computed by~\cite{Yankelevich:2018uaz}. Displayed are the SNR for the power spectrum (dot-dashed), bispectrum (dashed). Solid line is the combined SNR, and the SNR computed by neglecting the cross-covariance between the power spectrum and bispectrum is denoted by a dotted line.}
 	\label{fig:snr_yp}
 \end{figure}
-
-\section{Galaxy bias}
-\label{section:galaxybias}
-
-Galaxy bias is the statistical relation between the observed distribution of galaxies and the underlying matter distribution. On scales where the cosmic density fields are quasi-linear, the clustering of galaxies can be described by a perturbative bias expansion. In this formalism, the complicated physics concerning formation of galaxies can be absorbed by a finite set of expansion coefficients known as the bias parameters. In this section we will briefly review the origin of the field and set out the relevant bias models for this thesis. For the majority of this thesis, that is, up to Chapter~\ref{chapter:multipoles}, we use a simple local Gaussian model of galaxy bias. Primordial non-Gaussianity, which we include in Chapter~\ref{chapter:localpng}, introduces a scale-dependence in galaxy bias and hence requires separate treatment. It is worth noting that we consider only PNG of the local type. For a full review of galaxy bias, see~\cite{Desjacques:2016bnm}.
-
-All sorts of galaxy surveys and the resulting statistical studies of the distribution of galaxies ciritally rely on a robust description of the relation between the galaxies and the underlying dark matter. Of course galaxies are not the only tracers of this dark matter distribution, but the term galaxy bias is often used as a convenient term to encompass the biasing of all such tracers. Other examples include, but are not limited to, the Lyman-$\alpha$ forest, and HI intensity mapping-- the latter of which is considered in this thesis along with the more traditional spectroscopic galaxy surveys. 
-
-Roughly speaking, LSS can be divided into two regimes, small non-linear scales, which cannot be described with perturbation theory, and large quasi-linear scales, which can adequately be described by perturbation theory, provided if it is carried out to sufficiently high order. Here we will consider only quasi-linear scales, so that perturbation theory will not break down. On these scales, the complex process of galaxy formation, which is itself far from being understood in detail, can at each order in perturbations and at fixed time, be absorbed into a finite set of parameters called the bias parameters. This is a remarkable result, and relies on the fact that on large scales the formation of structure is almost entirely determined by gravity. 
-
-\subsection{Local model of galaxy bias}
-
-The simplest example of a local model of galaxy bias is the local-in-mass-density (LIMD) model of galaxy bias. In this model, we assume that dark matter haloes simply correspond to overdensities (i.e. regions above some threshold density $\delta_\mathrm{cr}$), see Figure~\ref{fig:limdcartoon} for an illustration. 
-
-\begin{figure}[!ht]
-	\centering
-	\includegraphics[width=0.8\textwidth]{fig/limdcartoon.png}
-	\caption{Illustration of the LIMD model of galaxy bias. The red line indicates a long wavelength perturbation, and the blue line denotes the density field $\delta_R$. The dashed horizontal magenta line shows the critical density $\delta_{\mathrm{cr}}$. Regions of overdensity $\delta_R$ that get pushed above this critical density threshold collapse to form halos in which galaxies are formed.}
-	\label{fig:limdcartoon}
-\end{figure}
-A generic bias expansion in this simplest case can then be understood as just the coefficients of the expansion operators $O(\x,\eta)$ in an expansion of the galaxy number density, 
-\begin{equation}
-	\delta_g(\x,\eta) = \sum_O b_O(\eta) O(\x,\eta)\,.
-\end{equation}
-In the simplest LIMD model of galaxy bias, we expand in density only, leading to, 
-\begin{equation}
-	\delta_g(\x) = b_1 \delta + \frac{b_2}{2} \delta^2 + \ldots\,.
-\end{equation}
-A general perturbative bias expansion however would contain all operators that are relevant at a given order in perturbation theory. For our purpose, we must make sure that the general definition of galaxy bias is gauge-independent and consistent on very large scales. The LIMD model of galaxy bias itself does not include tidal bias. In our local model of galaxy bias, we do include the tidal bias, since the tidal operator is part of the leading order gravitational observables of long-wavelength spacetime perturbations~\cite{Desjacques:2016bnm}. 
-
-\subsection{Scale-dependent bias in the presence of PNG}
-Scale-dependent bias in literature can refer to any non-trivial (i.e. $k$-dependent) Fourier-space relation between galaxy overdensity and the underlying dark matter density. Primordial non-Gaussianity generates such a leading non-local term in the bias relation. In this thesis we only consider PNG of the local type. This is defined as a simple form of non-linearity in the primordial curvature perturbation, which is local in configuration space. Usually, these perturbations are expressed in terms of the Bardeen potential $\varphi$. This in turn is directly related to the curvature perturbation in comoving gauge. At first order, the galaxy number density contrast bias relation can be expressed as, 
-\begin{equation}
-	\delta_{g\mathrm{C}} = b_{10} \delta_C + b_{01} \varphi_\mathrm{p}\,,
-\end{equation}
-where $\varphi_\mathrm{p}$ is the linear primordial potential (which is related to the late-time matter density contrast via the Poisson equation). The bias coefficients $b_{10}$ and $b_{01}$ are the Gaussian and non-Gaussian bias coefficients respectively, where $b_{10} \equiv b_1$ from the previous section on the local model of galaxy bias, and $b_{01}$ is the non-Gaussian coefficient, which is dependent on non-Gaussian parameter $\fnl$.
-
-At second order, the standard Newtonian bias model, which includes tidal bias (in the Gaussian part) as well as all local PNG contributions is given by (see~\cite{Desjacques:2016bnm} for a complete review), 
-\begin{align}\label{eq:intro_newtNGbiasreln}
-	\delta^\tw_{g\mathrm{T,N}} + \delta^\tw_{g\mathrm{T,nG}} =& b_{10} \delta^\tw_\mathrm{T,N} + b_{20} \left( \delta_\mathrm{T} \right)^2 + b_s s^2 \nonumber \\
-	& b_{10} \delta^\tw_\mathrm{T,nG} + b_{11} \delta_\mathrm{T} \varphi_\mathrm{p} + b_n \xi^i \partial_i \varphi_\mathrm{p} + b_{02} \left( \varphi_\mathrm{p} \right)^2\,.
-\end{align}
-The second line above contains the local PNG contributions; scale-dependent terms with the three new bias parameters $b_{11}$, $b_{n}$, and $b_{02}$, which will be defined in Chapter~\ref{chapter:localpng}. The bias relation in equation~\eqref{eq:intro_newtNGbiasreln} is however only gauge-independent on small scales; to ensure gauge-independence on ultra-large scales, relativistic corrections are required to be added to this relation. These relativistic modes are super-Hubble and arive from non-linear GR corrections to the Newtonian Poisson equation.
-
 
 \section{Primordial non-Gaussianity}
 
@@ -267,14 +230,20 @@ where $F(k_1,k_2,k_3)$ is the shape function, which encodes the functional depen
 
 \begin{figure}[!ht]
 	\includegraphics[width=0.9\textwidth]{fig/triangleshapes.png}
-	\caption{The three limiting triangular configurations generally discussed in literature on the bispectrum and primordial non-Gaussianity. Figure taken from~\cite{Liguori:2010hx}.}\label{fig:triangleshapes}
+	\caption{The three triangular configurations generally discussed in literature on the bispectrum and primordial non-Gaussianity. \emph{Left}: squeezed shapes, where one side $k_3 \ll k_1,\,k_2$, \emph{middle}: equilateral shapes, where $k_1 = k_2 = k_3$, and \emph{right}: co-linear shapes, where $k_1 = k_2 \approx k_3/2$. Figure taken from~\cite{Liguori:2010hx}.}\label{fig:triangleshapes}
 \end{figure}
 
-The most-studied primordial model is the so-called local model of primordial non-Gaussianity. In the local model, the contributions from the squeezed triangles are dominant. This model is well-motivated physically, since it encompasses superhorizon effects during inflation, when a large-scale mode ($k_3$, shortest wavevector corresponding to largest scale), which has exited the Hubble radius, exerts a non-linear influence on smaller scale modes $k_1$ and $k_2$. This effect is small in single-field slow-roll models, but can be much larger in multi-field models of inflation~\cite{Liguori:2010hx}. 
+The current tightest constraints on $\fnl$ come from CMB constraints~\cite{Planck:2019kim}. Constraints on $\fnl$ using LSS measurements in principle have huge potential for improvement over CMB constraints (at least for specific triangle shapes). This is because LSS provides us with a 3D map, covering a large volume and range of scales, have access to a much larger amount of modes than the 2D CMB maps. In this section we will briefly discuss PNG of the local type, which is the most-studied primordial model, and the one that is relevant to the work presented in this thesis. We follow discussions in~\cite{Liguori:2010hx,Fergusson:2008ra}.
 
-The current tightest constraints on $\fnl$ come from CMB constraints~\cite{Planck:2019kim}. Constraints on $\fnl$ using LSS measurements in principle have huge potential for improvement over CMB constraints (at least for specific triangle shapes). This is because LSS provides us with a 3D map, covering a large volume and range of scales, have access to a much larger amount of modes than the 2D CMB maps. In this section we will briefly mention the main types of models in the literature for completeness, following discussions in~\cite{Liguori:2010hx,Fergusson:2008ra}. The work in this thesis however focusses on primordial non-Gaussianity of the local type (corresponding to squeezed triangle shapes) only. 
+There exists a wide range of inflationary models in which the non-Gaussianity is produced by local interactions. In the local model, the contributions from the squeezed triangles are dominant. This model is well-motivated physically, since it encompasses superhorizon effects during inflation, when a large-scale mode ($k_3$, shortest wavevector corresponding to largest scale), which has exited the Hubble radius, exerts a non-linear influence on smaller scale modes $k_1$ and $k_2$. This effect is small in single-field slow-roll models, but can be much larger in multi-field models of inflation~\cite{Liguori:2010hx}. 
+The squeezed/local bispectrum shapes are defined as, 
+\begin{equation}
+	B_\varphi^\mathrm{loc}(k_1,k_2,k_3) = 2 \fnl^\mathrm{loc} \left[ P_\varphi(k_1) P_\varphi(k_2) + 2\text{ c.p.} \right]\,.
+\end{equation}
 
+Single-field slow-roll inflation is dominated by the local type. Large local-type PNG can also be produced in multi-field scenarios. 
 
+\iffalse
 \subsection{Equilateral and co-linear triangles}
 
 Bispectra that are dominated by (nearly) equilateral triangle shapes are easily characterised analytically, and are the most amenable to CMB analyses, which we do not focus on here. A drawback of equilateral non-Gaussianity is however that it requires amplification of non-linear effects around the time that the modes exit the horizon. This is not possible in slow-roll single-field models of inflation. The equilateral model is defined as~\cite{Karagiannis:2018jdt}, 
@@ -291,17 +260,66 @@ Orthogonal triangles are defined as~\cite{Karagiannis:2018jdt},
 	B_\varphi^\mathrm{orth}(k_1,k_2,k_3) =& 6 \fnl^\mathrm{orth} \left\{ \vphantom{\left[ P_\varphi \right]^{1/3}} 3 \left[ P_\varphi^{1/3}(k_1) P_\varphi^{2/3}(k_2) P_\varphi(k_3) + 5\text{ c.p.} \right]  \right. \nonumber \\
 	&\left. - 3 \left[ P_\varphi(k_1) P_\varphi(k_2) + 2\text{ c.p.} \right] - 8 \left[ P_\varphi(k_1) P_\varphi(k_2) P_\varphi(k_3) \right]^{2/3} \right\}\,.
 \end{align}
+\fi
 
 
-\subsection{Squeezed triangles}
+\section{Galaxy bias}
+\label{section:galaxybias}
 
-There exists a wide range of inflatonary models in which the non-Gaussianity is produced by local interactions. These signal of these models peaks in the squeezed limit, where one of the modes $k_i$ becomes much much smaller than the other two modes. This is because non-Gaussianity is typically produced on superhorizon scales. The equilateral bispectrum shapes are defined as, 
+Galaxy bias is the statistical relation between the observed distribution of galaxies and the underlying matter distribution. On scales where the cosmic density fields are quasi-linear, the clustering of galaxies can be described by a perturbative bias expansion. In this formalism, the complicated physics concerning formation of galaxies can be absorbed by a finite set of expansion coefficients known as the bias parameters. In this section we will briefly review the origin of the field and set out the relevant bias models for this thesis. We will refrain from giving full expressions for bias models and parameters, as they are more technical than appropriate at an introductory stage, and they will be introduced in full in the relevant chapters. For the majority of this thesis, that is, up to Chapter~\ref{chapter:multipoles}, we use a simple local Gaussian model of galaxy bias. Primordial non-Gaussianity, which we include in Chapter~\ref{chapter:localpng}, introduces a scale-dependence in galaxy bias and hence requires separate treatment. It is worth noting that we consider only PNG of the local type. For a full review of galaxy bias, see~\cite{Desjacques:2016bnm}.
+
+All sorts of galaxy surveys and the resulting statistical studies of the distribution of galaxies ciritally rely on a robust description of the relation between the galaxies and the underlying dark matter. Of course galaxies are not the only tracers of this dark matter distribution, but the term galaxy bias is often used as a convenient term to encompass the biasing of all such tracers. Other examples include, but are not limited to, halo bias, the Lyman-$\alpha$ forest, and HI intensity mapping-- the latter of which is considered in this thesis along with the more traditional spectroscopic galaxy surveys. 
+
+Roughly speaking, LSS can be divided into two regimes, small non-linear scales, which cannot be described with perturbation theory, and large quasi-linear scales (of approximately $k \geq 0.1\,h\mathrm{Mpc}^{-1}$), which can adequately be described by perturbation theory, provided if it is carried out to sufficiently high order. Here we will consider only quasi-linear scales, so that perturbation theory will not break down. On these scales, the complex process of galaxy formation, which is itself far from being understood in detail, can at each order in perturbations and at fixed time, be absorbed into a finite set of parameters called the bias parameters. This is a remarkable result, and relies on the fact that on large scales the formation of structure is almost entirely determined by gravity. 
+
+\subsection{Local model of galaxy bias}
+
+The simplest example of a local model of galaxy bias is the local-in-mass-density (LIMD) model of galaxy bias. In this model, we assume that dark matter haloes form on top of regions of overdensity (i.e. regions above some threshold density $\delta_\mathrm{cr}$). These regions collapse to form haloes, in which galaxies are formed. See Figure~\ref{fig:limdcartoon} for an illustration. 
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=0.8\textwidth]{fig/limdcartoon.png}
+	\caption{Illustration of the LIMD model of galaxy bias. The red line indicates a long wavelength perturbation, and the blue line denotes the density field $\delta_R$. The dashed horizontal magenta line shows the critical density $\delta_{\mathrm{cr}}$. Regions of overdensity $\delta_R$ that get pushed above this critical density threshold collapse to form haloes in which galaxies are formed.}
+	\label{fig:limdcartoon}
+\end{figure}
+A generic bias expansion in this simplest case can then be understood as just the coefficients of the expansion operators $O(\x,\eta)$ in an expansion of the galaxy number density, 
 \begin{equation}
-	B_\varphi^\mathrm{loc}(k_1,k_2,k_3) = 2 \fnl^\mathrm{loc} \left[ P_\varphi(k_1) P_\varphi(k_2) + 2\text{ c.p.} \right]\,.
+	\delta_g(\x,\eta) = \sum_O b_O(\eta) O(\x,\eta)\,.
 \end{equation}
+In the simplest LIMD model of galaxy bias, we expand in density only, leading to, 
+\begin{equation}
+	\delta_g(\x) = b_1 \delta + \frac{b_2}{2} \delta^2 + \ldots\,.
+\end{equation}
+A general perturbative bias expansion however would contain all operators that are relevant at a given order in perturbation theory. For our purpose, we must make sure that the general definition of galaxy bias is gauge-independent and consistent on very large scales. The LIMD model of galaxy bias itself does not include tidal bias. In our local model of galaxy bias, we do include the tidal bias, since the tidal operator is part of the leading order gravitational observables of long-wavelength spacetime perturbations~\cite{Desjacques:2016bnm}. It is included as a term of the form, 
+\begin{equation}
+ 	b_{\mathrm{tidal}} \left[ K_{ij} \right]^2\,,
+\end{equation} 
+with a tidal bias coefficient $b_{\mathrm{tidal}}$ and tidal operator $K_{ij}$.
 
-Single-field slow-roll inflation is dominated by the local type. Large local-type PNG can also be produced in multi-field scenarios. 
+\subsection{Scale-dependent bias in the presence of PNG}
+Scale-dependent bias in literature can refer to any non-trivial (i.e. $k$-dependent) Fourier-space relation between galaxy overdensity and the underlying dark matter density. Primordial non-Gaussianity generates such a leading non-local term in the bias relation. In this thesis we only consider PNG of the local type. This is defined as a simple form of non-linearity in the primordial curvature perturbation, which is local in configuration space. Usually, these perturbations are expressed in terms of the Bardeen potential $\varphi$. This in turn is directly related to the curvature perturbation in comoving gauge. At first order, the galaxy number density contrast bias relation can be expressed as, 
+\begin{equation}
+	\delta_{g\mathrm{C}} = b_{10} \delta_\mathrm{C} + b_{01} \varphi_\mathrm{p}\,,
+\end{equation}
+where $\varphi_\mathrm{p}$ is the linear primordial potential (which is related to the late-time matter density contrast via the Poisson equation), and subscript C denotes the comoving gauge. The bias coefficients $b_{10}$ and $b_{01}$ are the Gaussian and non-Gaussian bias coefficients respectively, where $b_{10} \equiv b_1$ from the previous section on the local model of galaxy bias, and $b_{01}$ is the non-Gaussian coefficient, which is proportional to $\fnl$, 
+\begin{equation}
+	b_{01} \propto \fnl \frac{\cH^2}{k^2}\,.
+\end{equation}
+Note how the scale dependence of the non-Gaussian bias is at the same order as the relativistic corrections to the power spectrum of a single tracer (Equation~\ref{eq:pksingletracer} in Chapter~\ref{chapter:dipole}). The leading-order scale dependence of the bispectrum is less suppressed-- see Chapter~\ref{chapter:dipole}.
+
+At second order, the bias relation gets more complex, and is given in Chapter~\ref{chapter:localpng}. 
+
+\iffalse
+the standard Newtonian bias model, which includes tidal bias (in the Gaussian part) as well as all local PNG contributions is given by (see~\cite{Desjacques:2016bnm} for a complete review), 
+\begin{align}\label{eq:intro_newtNGbiasreln}
+	\delta^\tw_{g\mathrm{T,N}} + \delta^\tw_{g\mathrm{T,nG}} =& b_{10} \delta^\tw_\mathrm{T,N} + b_{20} \left( \delta_\mathrm{T} \right)^2 + b_s s^2 \nonumber \\
+	& b_{10} \delta^\tw_\mathrm{T,nG} + b_{11} \delta_\mathrm{T} \varphi_\mathrm{p} + b_n \xi^i \partial_i \varphi_\mathrm{p} + b_{02} \left( \varphi_\mathrm{p} \right)^2\,.
+\end{align}
+The second line above contains the local PNG contributions; scale-dependent terms with the three new bias parameters $b_{11}$, $b_{n}$, and $b_{02}$, which will be defined in Chapter~\ref{chapter:localpng}. The bias relation in equation~\eqref{eq:intro_newtNGbiasreln} is however only gauge-independent on small scales; to ensure gauge-independence on ultra-large scales, relativistic corrections are required to be added to this relation. These relativistic modes are super-Hubble and arive from non-linear GR corrections to the Newtonian Poisson equation.
+\fi
 
 \section{Thesis outline}
+
+So far, we have introduced the standard cosmological model $\Lambda$CDM, as well as the primary statistical tools used to study the LSS of the universe-- the power spectrum and bispectrum. Detecting primordial non-Gaussianity is a key goal of the next-generation LSS surveys. When observing LSS, there is a variety of relativistic effects that come into play once the number-count fluctuation is projected onto our past lightcone. These relativistic effects have a scale dependence starting at $\ord(\cH/k)$. On large scales, this means that the relativistic effects can mimic the scale dependence of PNG, which starts at $\ord(\cH^2/k^2)$. To avoid biasing future measurements of PNG, accurate theoretical modelling of relativistic effects is crucial. This motivates the work presented in this thesis-- an extension to the theoretical description of the bispectrum including relativistic corrections.
 
 The rest of this thesis is organised as follows. In Chapter~\ref{chapter:dipole}, we introduce the lowest order (i.e. least suppressed) relativistic corrections to the bispectrum and consider how they affect the amplitude of the bispectrum. These leading-order relativistic corrections give rise to a local dipole with respect to the observer's line-of-sight, which is absent in the purely Newtonian picture. The amplitude of this dipole, which if detected would be a smoking-gun signal for relativistic corrections, is even on equality scales about 10\% of that of the monopole (at redshift $z = 1$). This implies that the dipole of the bispectrum is a unique signature of GR on cosmological scales. In Chapter~\ref{chapter:detect}, we make an estimate for the detectability of such a relativistic signal in next-generation spectroscopic and intensity mapping surveys. For a Stage IV spectroscopic survey similar to \textit{Euclid}, we find that the signal-to-noise ratio for these leading order effects is of $\sim 17$, while the 21cm intensity mapping surveys suffer from foreground and beam effects-- we forecast a marginally detecable SNR of $\sim 6$ for SKA1 and $\sim 5$ for HIRAX. Then, Chapter~\ref{chapter:ho} summarises past work on adding local relativistic corrections at all orders of $\cH/k$ to the bispectrum, and a fully analytic multipole expansion with relevant numerical analyses for future surveys is presented in Chapter~\ref{chapter:multipoles}. The relativistic bispectrum generates non-zero multipoles for both even and odd multipole number $\ell$, where the odd multipoles are induced by relativistic effects only. Finally, we expand the theoretical description of the Fourier-space galaxy bispectrum by adding local primordial non-Gaussianity in Chapter~\ref{chapter:localpng}. This allows for better separation of the relativistic signature and biasing due to the presence of PNG-- we find that the bias from using a Newtonian analysis of the squeezed bispectrum could be as large as $\Delta f_\nl \sim 5$ for a Stage IV H$\alpha$ survey. 

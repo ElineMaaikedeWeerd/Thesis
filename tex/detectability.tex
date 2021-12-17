@@ -287,7 +287,7 @@ The best-fit parameters for Model 1 are given by~\cite{Pozzetti:2016cch} as
 \end{equation}
 The flux cut $F_{\mathrm{c}}$ translates to a luminosity cut:
  \begin{equation} \label{lc}
- L_{\mathrm{c}}(z)=4\pi F_{\mathrm{c}} \,d_L(z)^2\,,\quad F_{\mathrm{c}} =3\times10^{-16}\,\mathrm{erg\,cm^{-2}\,s^{-1}} \,,
+ L_{\mathrm{c}}(z)=4\pi F_{\mathrm{c}} \,d_L(z)^2\,,\quad F_{\mathrm{c}} =3\cdot10^{-16}\,\mathrm{erg\,cm^{-2}\,s^{-1}} \,,
  \end{equation}
 where $d_L$ is the background luminosity distance and the choice of $F_{\mathrm{c}}$ follows~\cite{Yankelevich:2018uaz}. 
 \begin{figure}[!ht]
@@ -303,7 +303,7 @@ n_g(z)=\int_{y_c(z)}^\infty {\ud  y}\, \Phi(z,y) = \Phi_*(z) \, \Gamma({\alpha+1
 \end{equation}
 where $\Gamma$ is the upper incomplete Gamma function and
 \begin{equation}  \label{ycz}
-y_c(z) = \frac{4\pi F_{\mathrm{c}}}{L_{*0}}\, {r}(z)^2  = \left[ \frac{{r}(z)}{2.97\,h\times 10^3~ ({\mathrm{Mpc}}/h)}\right]^2 \,.
+y_c(z) = \frac{4\pi F_{\mathrm{c}}}{L_{*0}}\, {r}(z)^2  = \left[ \frac{{r}(z)}{2.97\,h\cdot 10^3~ ({\mathrm{Mpc}}/h)}\right]^2 \,.
 \end{equation}
 Using \eqref{ycz} and \eqref{e12_3}--\eqref{lc},  we confirm that the analytical form~\eqref{ng} for $n_g$ recovers the points from Table~1 in \cite{Yankelevich:2018uaz}. 
 
@@ -369,13 +369,13 @@ we show the comparison of SNR using~\eqref{kmax} and using the redshift-independ
 \centering
 \includegraphics[width=0.8\textwidth]{fig/snrDoppler-eps-converted-to}
 \includegraphics[width=0.8\textwidth]{fig/CumulativesnrDoppler-eps-converted-to}
-\caption{Relativistic SNR per $z$-bin  ({\em left}) and cumulative ({\em right}) for a Stage IV $H\alpha$ survey.} \label{fig4}
+\caption{Relativistic SNR per $z$-bin  ({\em top}) and cumulative ({\em bottom}) for a Stage IV $H\alpha$ survey.} \label{fig4}
 \end{figure}
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=0.8\textwidth]{fig/kmaxsnr-eps-converted-to}
 \includegraphics[width=0.8\textwidth]{fig/kmaxcumsnr-eps-converted-to} 
-\caption{Effect of changing $k_{\mathrm{max}}$ on SNR per bin ({\em left}) and cumulative SNR ({\em right}).} \label{kmsnr}
+\caption{Effect of changing $k_{\mathrm{max}}$ on SNR per bin ({\em top}) and cumulative SNR ({\em bottom}).} \label{kmsnr}
 \end{figure} 
 \item  
 Changes in $b_e(z)$, $\Q(z)$: 
@@ -501,20 +501,18 @@ and Figure~\ref{fig:model3ngbeq} shows the dependence of
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=0.9\textwidth]{fig/model3ngbeq.png}
-    \caption{The number density (\emph{top}), magnification bias (\emph{bottom left}), and evolution bias (\emph{bottom right}) for a Euclid-like survey with the Model 3 luminosity function and flux cut $F_\mathrm{c} = 2 \times 10^{-16}\,\mathrm{erg}\,\mathrm{cm}^{-2}\,\mathrm{s}^{-1}$. Figure taken from~\cite{Maartens:2021dqy}.}
+    \caption{The number density (\emph{top}), magnification bias (\emph{bottom left}), and evolution bias (\emph{bottom right}) for a Euclid-like survey with the Model 3 luminosity function and flux cut $F_\mathrm{c} = 2 \cdot 10^{-16}\,\mathrm{erg}\,\mathrm{cm}^{-2}\,\mathrm{s}^{-1}$. Figure taken from~\cite{Maartens:2021dqy}.}
     \label{fig:model3ngbeq}
 \end{figure}
 
-We already established earlier on that the value of the SNR is very sensitive to the magnification and evolution biases-- highlighting the importance of modelling these self-consistenly from the same luminosity function. The SNR is also dependent on the value of the flux cut-- we follow~\cite{Euclid:2019clj} with a flux cut of $F_\mathrm{c} = 2 \times 10^{-16}\,\mathrm{erg}\,\mathrm{cm}^{-2}\,\mathrm{s}^{-1}$. Then resulting SNR for a Euclid-like survey with the Model 3 luminosity function is shown in~\ref{fig:snrmodel3}. We still obtain a value of $\sim 18$ for the cumulative signal-to-noise ratio, which still points towards potential detectability despite the reduced redshift range.
-
+We already established earlier on that the value of the SNR is very sensitive to the magnification and evolution biases-- highlighting the importance of modelling these self-consistenly from the same luminosity function. The SNR is also dependent on the value of the flux cut-- we follow~\cite{Euclid:2019clj} with a flux cut of $F_\mathrm{c} = 2 \cdot 10^{-16}\,\mathrm{erg}\,\mathrm{cm}^{-2}\,\mathrm{s}^{-1}$. Then resulting SNR for a Euclid-like survey with the Model 3 luminosity function is shown in~\ref{fig:snrmodel3}. We still obtain a value of $\sim 18$ for the cumulative signal-to-noise ratio, which still points towards potential detectability despite the reduced redshift range.
 \begin{figure}[!ht]
     \centering
-    \includegraphics[width=0.49\textwidth]{fig/model3_perzbin.pdf}
-    \includegraphics[width=0.49\textwidth]{fig/model3_cum.pdf}
+    \includegraphics[width=0.48\textwidth]{fig/model3_perzbin.pdf}
+    \includegraphics[width=0.48\textwidth]{fig/model3_cum.pdf}
     \caption{SNR per $z$-bin (\emph{left}) and cumulative SNR (\emph{right}) for a Euclid-like survey with a Model 3 luminosity function. We obtain a cumulative SNR of $\sim 18$, which points towards potential detectability.}
     \label{fig:snrmodel3}
 \end{figure}
-
 
 \subsection{Conclusions}
 
@@ -616,7 +614,7 @@ We omit sub-leading relativistic corrections that scale as $(\cH/k)^2\delta_m$.
 \Delta^{\tw}_\mathrm{N}&= b_1\delta_m^{\tw}+b_2 \left(\delta_m \right)^2+ b_{s^2}s^2 + \mathrm{RSD}^{\tw}\,,
 \label{d2n} \\
 \Delta^{\tw}_\mathrm{D} =& A\, (\v^{(2)}\!\!\cdot\n)+2\left[ b_{1} (A+f) + \frac{b_1'}{\cH}\right]\,(\v\cdot\n)\,\delta_m +\frac{1}{\cH}\left( 8 - 4 A-3 \Omega_m \right) \nonumber \\
-&\times  (\v\cdot\n)\,\partial_r(\v \cdot \n) + \frac{2}{\cH^2}\left[(\v\cdot\n) \,\partial_r^2\Phi-\Phi\, \partial_r^2 (\v\cdot\n) \right]
+&\cdot  (\v\cdot\n)\,\partial_r(\v \cdot \n) + \frac{2}{\cH^2}\left[(\v\cdot\n) \,\partial_r^2\Phi-\Phi\, \partial_r^2 (\v\cdot\n) \right]
  -\frac{2}{\cH}\,\partial_r (\v\cdot\v)\nonumber \\
  &+2 \frac{{b_{1}}}{\cH}\,\Phi\, \partial_r\delta_m \label{e1.2}\,.
 \end{align}
@@ -628,7 +626,7 @@ In~\eqref{e1.2}, we see the Doppler terms and the line-of-sight gradients that m
 \centering
 \includegraphics[width=.49\textwidth]{fig/HIBias.pdf}
 \includegraphics[width=.49\textwidth]{fig/THI.pdf}
-\caption{HI clustering and evolution bias parameters (left) and background temperature (right).}\label{fig:detectfigbiasparam}
+\caption{HI clustering and evolution bias parameters (\emph{left}) and background temperature (\emph{right}).}\label{fig:detectfigbiasparam}
 \end{figure}
 %
 %
@@ -677,7 +675,7 @@ A\,\frac{\mu_{3}}{k_{3}} G_{2}(\ka,\kb)
 +{\left[ b_1\left( A+f \right) + \frac{b_1'}{\cH} \right]}\left(\frac{\mu_{1}}{k_{1}} + \frac{\mu_{2}}{k_{2}}\right) \right.
 \nonumber \\
 & \left. -\frac{3}{2}\Omega_m \left(\mu_{1}^{3} \frac{k_{1}}{k_{2}^{2}} + \mu_{2}^{3}\frac{k_{2}}{k_{1}^{2}}\right)
-+ \left[\frac{3}{2}\Omega_m \left(1+f \right)+2f\left(A-2\right) \right] \right. \times \\
++ \left[\frac{3}{2}\Omega_m \left(1+f \right)+2f\left(A-2\right) \right] \right. \cdot \\
 & \left. \mu_{1}\mu_{2}\left(\frac{\mu_{1}}{k_{2}}+\frac{\mu_{2}}{k_{1}}\right) + 2 f \,  {\hat{\bm{k}}_{1} \cdot \hat{\bm{k}}_2}\left(\frac{\mu_{1}}{k_{1}} + \frac{\mu_{2}}{k_{2}}\right) \right. \nonumber \\
 &\left. -\frac{3\Omega_m b_1}{2f} \left(\mu_{1}\frac{k_{1}}{k_{2}^{2}} + \mu_{2}\frac{k_{2}}{k_{1}^{2}}\right)\!  \right\}\,,\label{e1.10}
 \end{align}
@@ -984,7 +982,7 @@ The parameters in~\eqref{e3.4} are given in Table~\ref{tab2}, and $n_\mathrm{b}^
 \includegraphics[width=.49\textwidth]{fig/nbHIRAX}
 \includegraphics[width=.49\textwidth]{fig/nbPUMAPetite}
 \vspace*{-0.5cm}
-\caption{Physical baseline density models for HIRAX (left) and PUMA (right).}\label{nbphys}
+\caption{Physical baseline density models for HIRAX (\emph{left}) and PUMA (\emph{right}).}\label{nbphys}
 \end{figure}
 \begin{figure}[!ht]
 \centering
@@ -993,7 +991,7 @@ The parameters in~\eqref{e3.4} are given in Table~\ref{tab2}, and $n_\mathrm{b}^
 \caption{Noise power spectra of the SD-mode surveys (at $z=0.4$ for low-$z_\mathrm{max}$ bands and $z=1$ for high-$z_\mathrm{max}$ bands) and IF-mode surveys (HIRAX at $z=1$, PUMA at $z=2$).}\label{pnoise}
 \end{figure}
 
-In the case of PUMA, we take account of the 50\% fill factor as follows. We use double the number of dishes to define $N_\mathrm{s}$ for the computation of~\eqref{e3.4}, i.e. $N_\mathrm{s}^2= 2\times 5000$. Then  we  remove half of the dishes without changing the baseline, i.e. without changing the shape and ground-area of the array.
+In the case of PUMA, we take account of the 50\% fill factor as follows. We use double the number of dishes to define $N_\mathrm{s}$ for the computation of~\eqref{e3.4}, i.e. $N_\mathrm{s}^2= 2\cdot 5000$. Then  we  remove half of the dishes without changing the baseline, i.e. without changing the shape and ground-area of the array.
 
 The noise power spectra of the surveys at fixed redshift are displayed in Figure~\ref{pnoise}. For SD-mode surveys, the poor angular resolution is reflected in the blow-up of noise due to the beam in~\eqref{sdn}.
 The minimum transverse scale for IF-mode surveys  is shown as a sharp cut-off, as in~\eqref{kifmin}, with effectively infinite noise.

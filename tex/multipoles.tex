@@ -144,7 +144,7 @@ That is, we fix $\k_1$ along the $z$-axis, and require the other triangle vector
 	\centering
 	\includegraphics[width=0.6
 	\linewidth]{fig/fig.pdf}
-	\caption{Overview of the relevant vectors and angles for the Fourier-space bispectrum. \label{fig:geometry_overview} }
+	\caption{Recap of the overview of the relevant vectors and angles for the Fourier-space bispectrum. \label{fig:geometry_overview} }
 \end{figure}
 
 The bispectrum can then be expressed in terms of five variables, \(\varphi\), \(\mu_1\), \(\theta\), \(k_1\) and \(k_2\), by using
@@ -257,7 +257,7 @@ Equation~\eqref{eq:xabint} is separable. We can make this explicit as follows. F
 \end{align}
 Using this, we have,
 \begin{align}
-	X_{\ell m}^{ab} =& \i^{a+b} \sum_{g=0}^b \sin^g\theta \cos^{b-g}\theta \binom{b}{g} \int_0^{2\pi}\diff\varphi\, \int_{-1}^1\diff\mu (1-\mu^2)^{g/2} \mu^{a+b-g} \times \nonumber \\
+	X_{\ell m}^{ab} =& \i^{a+b} \sum_{g=0}^b \sin^g\theta \cos^{b-g}\theta \binom{b}{g} \int_0^{2\pi}\diff\varphi\, \int_{-1}^1\diff\mu (1-\mu^2)^{g/2} \mu^{a+b-g} \cdot \nonumber \\
 	&\quad \sin^g\varphi Y^*_{\ell m}(\mu,\varphi)\,,
 \end{align}
 where we have dropped subscript on $\mu_1 \equiv \mu$ for brevity. Now using the definition of the complex-conjugated standard spherical harmonics, 
@@ -275,7 +275,7 @@ such that,
 \end{equation}
 This makes the separability of the integral~\eqref{eq:xabint} explicit, 
 \begin{align}
-	X_{\ell m}^{ab} =& \i^{a+b} \sum_{g=0}^b \binom{b}{g} \sin^g\theta \cos^{b-g}\theta \sqrt{\frac{2\ell + 1}{4\pi}} \sqrt{\frac{(\ell - m)!}{(\ell + m)!}} \int_0^{2\pi}\diff\varphi\, \sin^g\varphi e^{-\i m \varphi} \times \nonumber \\
+	X_{\ell m}^{ab} =& \i^{a+b} \sum_{g=0}^b \binom{b}{g} \sin^g\theta \cos^{b-g}\theta \sqrt{\frac{2\ell + 1}{4\pi}} \sqrt{\frac{(\ell - m)!}{(\ell + m)!}} \int_0^{2\pi}\diff\varphi\, \sin^g\varphi e^{-\i m \varphi} \cdot \nonumber \\
 	& \int_{-1}^1 \diff\mu\, (1-\mu^2)^{g/2} \mu^{a+b-g} P_{\ell m}(\mu)\,.
 \end{align}
 Now these two integrals can be solved independently. Starting with the integral over $\mu$, splitting the interval $\int_{-1}^1 = \int_{-1}^0 + \int_0^1$, the $\int_{-1}^1$ term can be rewritten using a change of variables and the parity of the associated Legendre polynomials as, 
@@ -293,11 +293,11 @@ The associated Legendre polynomials can be written in closed form, using,
 \begin{align}
 	P_{\ell m}(\mu) &= (-1)^m P_\ell^m \nonumber \\
 	&= (-1)^m (-1)^m 2^\ell (1-\mu^2)^{m/2} \sum_{k = m}^\ell \frac{k!}{(k-m)!} \mu^{k-m} \binom{\ell}{k} \binom{\frac{1}{2}(\ell + k - 1)}{\ell} \nonumber \\
-	& \times 2^\ell (1-\mu^2)^{m/2} \sum_{k = m}^\ell \frac{k!}{(k-m)!} \mu^{k-m} \binom{\ell}{k} \binom{\frac{1}{2}(\ell + k - 1)}{\ell}\,,
+	& \cdot 2^\ell (1-\mu^2)^{m/2} \sum_{k = m}^\ell \frac{k!}{(k-m)!} \mu^{k-m} \binom{\ell}{k} \binom{\frac{1}{2}(\ell + k - 1)}{\ell}\,,
 \end{align}
 such that, 
 \begin{align}
-	&\left[ 1 + (-1)^{\ell+m+a+b-g} \right] (-1)^m 2^\ell \sum_{k=m}^\ell \frac{k!}{(k-m)!} \binom{\ell}{k} \binom{\frac{1}{2}(\ell + k - 1)}{\ell} \times \nonumber \\
+	&\left[ 1 + (-1)^{\ell+m+a+b-g} \right] (-1)^m 2^\ell \sum_{k=m}^\ell \frac{k!}{(k-m)!} \binom{\ell}{k} \binom{\frac{1}{2}(\ell + k - 1)}{\ell} \cdot \nonumber \\
 	&\int_0^1 \diff\mu\, (1-\mu^2)^{\frac{1}{2}(m+g)} \mu^{a+b+k-g-m}\,.
 \end{align}
 Changing variables $\xi = \mu^2$, omitting the prefactor for brevity, we get, 
@@ -311,7 +311,7 @@ Comparing to the Beta function,
 we can identify $x = \frac{1}{2}(a+b+k-g-m+1)$ and $y = \frac{1}{2}(m+g+2)$. The Beta function can be expressed in terms of Gamma functions $B(x,y) = \frac{\Gamma(x)\Gamma(y)}{\Gamma(x+y)}$, which in turn can be written in terms of factorials, for any positive integer $n$ this relation is $\Gamma(n) = (n-1)!$. We will express the result in terms of Gamma functions as, 
 \begin{align}
 	&\int_{-1}^{1}\diff\mu\, (1-\mu^2)^{g/2} \mu^{a+b-g} P_{\ell m}(\mu) \nonumber \\
-	&= \left[ 1 + (-1)^{\ell+m+a+b-g} \right] (-1)^m 2^\ell \sum_{k=m}^\ell \frac{k!}{(k-m)!} \binom{\ell}{k} \binom{\frac{1}{2}(\ell + k - 1)}{\ell} \times \nonumber \\
+	&= \left[ 1 + (-1)^{\ell+m+a+b-g} \right] (-1)^m 2^\ell \sum_{k=m}^\ell \frac{k!}{(k-m)!} \binom{\ell}{k} \binom{\frac{1}{2}(\ell + k - 1)}{\ell} \cdot \nonumber \\
 	& \left\{ \Gamma\left[\frac{1}{2}(m+g+2)\right] \Gamma\left[\frac{1}{2}(a+b+k-g-m+1)\right] \right\}\cdot\left\{ \Gamma\left[\frac{1}{2}(a+b+k+3) \right]\right\}^{-1}\,.
 \end{align}
 Now to solve the integral over $\varphi$, 
@@ -336,12 +336,12 @@ where $n$ must be a positive integer (or zero), so $g \geq m$ and $g -m$ even.
 
 Putting together all these results leads to the identity for $m \geq 0$,
 \begin{align}\label{eq:sumformula} X_{\ell m}^{ab} &= 2^{\ell+m-1}\i^{a+b+m}\sqrt{\frac{\pi(2\ell+1)(\ell-m)!}{(\ell+m)!}}\nonumber\\
-&\times
+&\cdot
 \sum_{p=m}^{\frac{1}{2}(b+m)}\sum_{q=m}^{\ell}
 \frac{[1+(-1)^{a+b+q}]\,b!\,\cos^{b+m-2p}\theta\sin^{2p-m}\theta}{4^p(b+m-2p)!(\ell-q)!(p-m)!(q-m)!}\\
 %\frac{[\frac{1}{2}(q+\ell-1)]!}{[\frac{1}{2}(q-\ell-1)]!}
 %\frac{[\frac{1}{2}(a+b +q-p-1)]!}{[\frac{1}{2}(a+b+q+1)]!}
-&\times \frac{\Gamma[\frac{1}{2}(q+\ell+1)]}{\Gamma[\frac{1}{2}(q-\ell+1)]}
+&\cdot \frac{\Gamma[\frac{1}{2}(q+\ell+1)]}{\Gamma[\frac{1}{2}(q-\ell+1)]}
 \frac{\Gamma[\frac{1}{2}(a+b +q-2p+1)]}{\Gamma[\frac{1}{2}(a+b+q+3)]}
 \end{align}
 for $m\leq b$ and zero otherwise. For $m < 0$, the result follows a similar pattern, using the simple relation \(X_{\ell -m}^{ab} = (-1)^{a+b+m} X_{\ell m}^{ax`'b*}\).
@@ -626,7 +626,7 @@ The HI intensity mapping evolution bias is given by the background HI brightness
 \end{equation}
 where \(\mean{T}_{\mathrm{HI}}\) is given by the fitting formula, 
 \begin{equation}
-	\mean{T}_{\mathrm{HI}}(z) = (5.5919 + 23.242  z - 2.4136  z^2)\times 10^{-2} \, \mathrm{mK}.
+	\mean{T}_{\mathrm{HI}}(z) = (5.5919 + 23.242  z - 2.4136  z^2)\cdot 10^{-2} \, \mathrm{mK}.
 \end{equation}
 The effective magnification bias for HI intensity mapping is~\cite{Fonseca:2018hsu}
 \begin{equation}
@@ -648,7 +648,7 @@ The magnification bias and evolution bias are~\cite{Maartens:2019yhx},
 	\Q^{H\alpha}(z) &= \frac{ y_c(z)^{\alpha + 1} \exp\left[-y_c(z)\right] }{\Gamma(\alpha+1, y_c(z))},\\
 	b_e^{H\alpha}(z) &= - \frac{\diff \ln \Phi_\ast (z)}{\diff \ln(1+z)} + \frac{\diff \ln y_c(z)}{\diff \ln (1+z)}\Q^{H\alpha}(z)\,,
 \end{align}
-where \(\alpha = - 1.35\), \(\Gamma\) is the upper incomplete gamma function, \(\Phi_\ast\) is given in~\cite{Maartens:2019yhx} and \(y_c(z) = \left[ \chi(z) / \left( 2.97 h \times 10^3 \right) (\mathrm{Mpc}/h) \right]^2\). Table 1 in~\cite{Maartens:2019yhx} summarises the numerical values of the bias parameters discussed above. Finally, we follow~\cite{Maartens:2019yhx} and take
+where \(\alpha = - 1.35\), \(\Gamma\) is the upper incomplete gamma function, \(\Phi_\ast\) is given in~\cite{Maartens:2019yhx} and \(y_c(z) = \left[ \chi(z) / \left( 2.97 h \cdot 10^3 \right) (\mathrm{Mpc}/h) \right]^2\). Table 1 in~\cite{Maartens:2019yhx} summarises the numerical values of the bias parameters discussed above. Finally, we follow~\cite{Maartens:2019yhx} and take
 \begin{equation}
 	\evaluat*{\frac{\partial b_1^{H\alpha}}{\partial \ln L}}_\text{c} = 0\,.
 \end{equation}
@@ -671,9 +671,9 @@ Firstly, we consider the total amplitude of the different multipoles with respec
 \begin{equation}\label{eq:totpower}
 b_\ell(k_1,k_2,\theta) = \frac{1}{ B_{\mathrm{N},00}(k_1,k_2,\theta)}{\sqrt{\frac{1}{2 \ell + 1} \displaystyle\sum_{m=-\ell}^\ell |B_{\ell m}(k_1,k_2,\theta)|^2}}. 
 \end{equation}
-We present this for all multipoles \(\ell = 0 \ldots 8\) and separately for each of the triangle shapes introduced above (i.e. fixing triangle shape, and varying size by varying \(k\)), as well as for both bias models which are relevant for future surveys. The results can be viewed in figures~\ref{fig:totpowersq},~\ref{fig:totpowerfl} and~\ref{fig:totpowereq}.
+We present this for all multipoles \(\ell = 0 \ldots 8\) and separately for each of the triangle shapes introduced above (i.e. fixing triangle shape, and varying size by varying \(k\)), as well as for both bias models which are relevant for future surveys. The results can be viewed in Figures~\ref{fig:totpowersq},~\ref{fig:totpowerfl} and~\ref{fig:totpowereq}.
 
-We have created colour-intensity plots to give an overview of the relative amplitudes of the first few multipoles of the galaxy bispectrum, \(\ell = 0 \ldots 3\). Because of the simple relationship between \(B_{\ell,m}\) and \(B_{\ell, -m}\), we do not show plots for negative \(m\). These as well are done for both HI intensity mapping bias and \(H\alpha\) bias. The results are shown in figures~\ref{fig:euclidtriangle} and~\ref{fig:imtriangle} for the Euclid-like survey and for SKA intensity mapping respectively. 
+We have created colour-intensity plots to give an overview of the relative amplitudes of the first few multipoles of the galaxy bispectrum, \(\ell = 0 \ldots 3\). Because of the simple relationship between \(B_{\ell,m}\) and \(B_{\ell, -m}\), we do not show plots for negative \(m\). These as well are done for both HI intensity mapping bias and \(H\alpha\) bias. The results are shown in Figures~\ref{fig:euclidtriangle} and~\ref{fig:imtriangle} for the Euclid-like survey and for SKA intensity mapping respectively. 
 
 To further investigate the dependence on triangle shape we investigate the reduced bispectrum. We define the reduced bispectrum as
 \begin{equation}
@@ -687,46 +687,43 @@ where %\(\theta\) is the angle between \(\ka\) and \(\kb\) as before.
 with the galaxy power spectrum \(P_g(\k) = (b_1 + f \mu^2)^2 P\), \(P\) being the linear dark matter power spectrum. (An alternative definition would be to use the relativistic galaxy power spectrum which would induce small changes $O((\cH/k)^2)$ on Hubble scales.) The reduced bispectrum \(Q\) is hence dependent on magnitude of wavevectors \(\ka\) and \(\kb\), and the angle  between these (\(\pi-\theta\)). We fix \(k_1 = \SI{0.1}{\mega\parsec\tothe{-1}}\) and \(k_1 = \SI{0.01}{\mega\parsec\tothe{-1}}\), and use differently coloured lines to indicate the ratio of \(k_2/k_1\), which ranges from isosceles triangles in which \(k_1 = k_2\), to \(k_2/k_1 = 4.5\). The angle \(\theta\) ranges from \([0,\pi]\), except for the isosceles shape, for which we stop at \(\theta = \pi - 0.01\) (for \(k_1 = \SI{0.1}{\mega\parsec\tothe{-1}}\)), and at \(\theta = \pi - 0.02\) (for \(k_1 = \SI{0.01}{\mega\parsec\tothe{-1}}\)). The reason for this is the inclusion of relativistic \(\cH/k\) contributions, which cause unobservable divergences as \(k \to 0\), occurring here for the isosceles shape when the angle between \(\ka\) and \(\kb\) goes to \(\pi\) and \(k_3 \to 0\). 
 %The choice of size of \(\Delta\theta\) away from \(\pi\) is motivated purely by visualisation, as it is clear analytically that this is a divergent limit (for the isosceles triangles only). 
 
-The bias used is again that for the Euclid-like \(H\alpha\) spectroscopic survey. Results are in Figure~\ref{fig:Q_rb}. The layout is similar to figures~\ref{fig:euclidtriangle} and~\ref{fig:imtriangle}, with \(\ell = 0 \ldots 3\) plotted. Once again, negative \(m\) are not shown. 
+The bias used is again that for the Euclid-like \(H\alpha\) spectroscopic survey. Results are in Figure~\ref{fig:Q_rb}. The layout is similar to Figures~\ref{fig:euclidtriangle} and~\ref{fig:imtriangle}, with \(\ell = 0 \ldots 3\) plotted. Once again, negative \(m\) are not shown. 
 
 Lastly, we fix triangle shape and size, and plot the relative total power (as defined in ~\eqref{eq:totpower}) as a function of redshift, where redshift ranges from \( z = 0.1 \ldots 2.0\). This is done for the toy model for bias only. The three panels in Figure~\ref{fig:fnofz} show the results for \(\ell = 0 \ldots 3\), for each of the three wavevector triangles discussed earlier; equilateral, squeezed and flattened shapes. Solid and dashed lines indicate the relative total power for \(k_1 = \SI{0.1}{\mega\parsec\tothe{-1}}\) and \(k_1 = \SI{0.01}{\mega\parsec\tothe{-1}}\) respectively. 
 
 \clearpage
 \begin{figure}[ht]
 %\centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 %\centering	
 \includegraphics[width=0.85\linewidth]{fig/totP_Euclid_sq2.pdf}
 \end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 %\centering
 \includegraphics[width=0.85\linewidth]{fig/totP_IM_sq2.pdf}
 \end{subfigure}
-\caption{Normalised total power for squeezed configuration for Euclid-like (left) and SKA HI intensity mapping (right) surveys. Long mode \(k_3\) is plotted along the \(x\)-axis. \label{fig:totpowersq}}
-\end{figure}
-\begin{figure}[ht]
+\caption{Normalised total power for squeezed configuration for Euclid-like (\emph{left}) and SKA HI intensity mapping (\emph{right}) surveys. Long mode \(k_3\) is plotted along the \(x\)-axis. \label{fig:totpowersq}}
+
 %\centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 %\centering	
 \includegraphics[width=0.85\linewidth]{fig/totP_Euclid_flat2.pdf}
 \end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 %\centering
 \includegraphics[width=0.85\linewidth]{fig/totP_IM_flat2.pdf}
 \end{subfigure}
-\caption{Total power for flattened configuration for Euclid-like (left) and SKA HI intensity mapping (right) surveys. Long mode \(k_3\) is plotted along the \(x\)-axis. \label{fig:totpowerfl}}
-\end{figure}
-\begin{figure}[ht]
+\caption{Total power for flattened configuration for Euclid-like (\emph{left}) and SKA HI intensity mapping (\emph{right}) surveys. Long mode \(k_3\) is plotted along the \(x\)-axis. \label{fig:totpowerfl}}
 %\centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 %\centering	
 \includegraphics[width=0.85\linewidth]{fig/totP_euclid_equi2.pdf}
 \end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 %\centering
 \includegraphics[width=0.85\linewidth]{fig/totP_IM_equi2.pdf}
 \end{subfigure}
-\caption{Total power for equilateral configuration for Euclid-like (left) and SKA HI intensity mapping (right) surveys. Since the dipole vanishes in this limit, the \(\ell = 1\) line is absent.\label{fig:totpowereq}}
+\caption{Total power for equilateral configuration for Euclid-like (\emph{left}) and SKA HI intensity mapping (\emph{right}) surveys. Since the dipole vanishes in this limit, the \(\ell = 1\) line is absent.\label{fig:totpowereq}}
 \end{figure}
 
 
@@ -759,7 +756,7 @@ Lastly, we fix triangle shape and size, and plot the relative total power (as de
 \begin{figure}[ht]
 \centering
 \includegraphics[width=\linewidth]{fig/fnofz.pdf}
-\caption{Total power contained in the relativistic bispectrum normalised by the Newtonian monopole as a function of redshift \(z\) ranging from 0.1 to 2. The three panels are the equilateral configuration (left, with \(\ell = 1\) vanishing), squeezed (middle) and co-linear flattened configuration (right). Solid lines for \(k = 0.1 \, \mathrm{Mpc^{-1}}\), and dash-dotted for \(k = 0.01 \, \mathrm{Mpc^{-1}}\).\label{fig:fnofz}}
+\caption{Total power contained in the relativistic bispectrum normalised by the Newtonian monopole as a function of redshift \(z\) ranging from 0.1 to 2. The three panels are the equilateral configuration (\emph{left}, with \(\ell = 1\) vanishing), squeezed (\emph{middle}) and co-linear flattened configuration (\emph{right}). Solid lines for \(k = 0.1 \, \mathrm{Mpc^{-1}}\), and dash-dotted for \(k = 0.01 \, \mathrm{Mpc^{-1}}\).\label{fig:fnofz}}
 \end{figure}
 
 Figures~\ref{fig:totpowersq},~\ref{fig:totpowerfl} and~\ref{fig:totpowereq} show the amplitude of the total power as defined in~\eqref{eq:totpower}. For each $\ell$ this contains all orientations per multipole divided by the amplitude of the Newtonian monopole. Values of \(\ell\) are labelled on the figure, with the dotted lines denoting the Newtonian contribution (for even \(\ell\) only). For small scales (larger wavenumber \(k\)), the Newtonian contributions are generally larger than the relativistic \(b_\ell\) (i.e. odd \(\ell\)), however at larger scales,  above equality, the relative power contained in relativistic contributions increases. This shows up in the even multipoles as a divergence between the dotted (purely Newtonian) lines and solid (GR-corrected) lines. In the odd multipoles, we see an increase in amplitude, which at the largest scales become larger than the purely Newtonian signal. This is dependent on bias model and triangular configuration.
