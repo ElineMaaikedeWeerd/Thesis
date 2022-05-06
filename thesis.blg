@@ -4,7 +4,6 @@ The top-level auxiliary file: thesis.aux
 The style file: JHEP.bst
 A level-1 auxiliary file: tex/abstract.aux
 A level-1 auxiliary file: tex/conventions.aux
-A level-1 auxiliary file: tex/acknowledgements.aux
 A level-1 auxiliary file: tex/introgeneral.aux
 A level-1 auxiliary file: tex/dipole.aux
 A level-1 auxiliary file: tex/detectability.aux
@@ -13,49 +12,49 @@ A level-1 auxiliary file: tex/multipoles.aux
 A level-1 auxiliary file: tex/png_bisp.aux
 A level-1 auxiliary file: tex/summary.aux
 A level-1 auxiliary file: tex/appendix.aux
-Reallocated field_info (elt_size=4) to 12530 items from 5000.
+Reallocated field_info (elt_size=4) to 12710 items from 5000.
 Database file #1: tex/bib/thesis_bib.bib
 Warning--empty publisher in Zwicky:1961
 Warning--empty publisher in Peebles:1980
-You've used 251 entries,
+You've used 257 entries,
             2269 wiz_defined-function locations,
-            2473 strings with 58333 characters,
-and the built_in function-call counts, 81368 in all, are:
-= -- 8226
-> -- 3783
+            2517 strings with 59483 characters,
+and the built_in function-call counts, 83229 in all, are:
+= -- 8420
+> -- 3858
 < -- 0
-+ -- 1078
-- -- 827
-* -- 7151
-:= -- 11661
-add.period$ -- 254
-call.type$ -- 251
-change.case$ -- 248
++ -- 1100
+- -- 843
+* -- 7313
+:= -- 11930
+add.period$ -- 260
+call.type$ -- 257
+change.case$ -- 254
 chr.to.int$ -- 0
-cite$ -- 253
-duplicate$ -- 4171
-empty$ -- 6547
-format.name$ -- 827
-if$ -- 21392
+cite$ -- 259
+duplicate$ -- 4269
+empty$ -- 6701
+format.name$ -- 843
+if$ -- 21883
 int.to.chr$ -- 0
-int.to.str$ -- 251
-missing$ -- 963
-newline$ -- 757
-num.names$ -- 253
-pop$ -- 575
+int.to.str$ -- 257
+missing$ -- 987
+newline$ -- 775
+num.names$ -- 259
+pop$ -- 588
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 3583
+skip$ -- 3664
 stack$ -- 0
-substring$ -- 2643
-swap$ -- 2209
+substring$ -- 2702
+swap$ -- 2259
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 546
-width$ -- 254
-write$ -- 2662
+while$ -- 559
+width$ -- 260
+write$ -- 2726
 (There were 2 warnings)

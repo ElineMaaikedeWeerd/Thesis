@@ -4,7 +4,7 @@
 \label{chapter:detect}
 
 
-In this chapter, we investigate whether the next generation of high-precision cosmological surveys will be able to make such a detection. First, we consider a Stage IV spectroscopic $H\alpha$ survey similar to Euclid, and we find that the cumulative signal to noise of this relativistic signature  is $\ord(10)$. Secondly, we look at some future 21cm intensity mapping surveys; MeerKAT, SKA, PUMA, and HIRAX. Due to foreground and telescope beam effects, the signal-to-noise ratio for intensity mapping surveys is typically lower than for spectroscopic $H\alpha$ surveys, though also still detectable. This chapter is taken from~\cite{Jolicoeur:2020eup} and~\cite{Maartens:2019yhx}.
+In this Chapter, we investigate whether the next generation of high-precision cosmological surveys will be able to make such a detection. First, we consider a Stage IV spectroscopic H$\alpha$ survey similar to Euclid, and we find that the cumulative signal to noise of this relativistic signature  is $\ord(10)$. Secondly, we look at some future 21cm intensity mapping surveys; MeerKAT, SKA, PUMA, and HIRAX. Due to foreground and telescope beam effects, the signal-to-noise ratio for intensity mapping surveys is typically lower than for spectroscopic H$\alpha$ surveys, though also still detectable. This chapter is taken from~\cite{Jolicoeur:2020eup} and~\cite{Maartens:2019yhx}. As such, this chapter can roughly be divided into two parts. First, the leading-order relativistic bispectrum is introduced. Following that, we discuss how we estimate the SNR, and account for any nonlinear effects and introduce numerical details of our calculations. We then introduce a Stage IV H$\alpha$ spectroscopic survey similar to \emph{Euclid}, and present the corresponding numerical results This is followed by a short recap of this calculation before moving on to the next survey type: 21cm intensity mapping surveys. After discussing modifications to the SNR calculation for 21cm IM, we present our findings, and finish off with our conclusions.
 
 \section{Detecting the leading-order relativistic signature}
 
@@ -46,7 +46,7 @@ Here $\mu_a=\hat{\bm{k}}_a\cdot\bm{n}=\cos\theta_a$,  and $\varphi$ is the angle
 In the standard Newtonian approximation, $B_g=B_{g{\mathrm{N}}}$, the kernels in~\eqref{eq:bkern} contain the galaxy bias and the redshift-space distortions (RSD) at first and second order~\cite{Bernardeau:2001qr, Karagiannis:2018jdt},
 \begin{align}
 \mathcal{K}^{(1)}_{\mathrm{N}}(\bm{k}_{1}) &= b_{1}+f\mu_{1}^{2}\,,  \label{e15} \\ 
-{\mathcal{K}^{(2)}_{\mathrm{N}}}(\bm{k}_{1}, \bm{k}_{2},{\bm{k}_3}) &= b_{1}F_{2}(\bm{k}_{1}, \bm{k}_{2}) + b_{2} + f\mu_{3}^{2}G_{2}(\bm{k}_{1}, \bm{k}_{2}) +{fZ_2}(\bm{k}_{1}, \bm{k}_{2})
+{\mathcal{K}^{(2)}_{\mathrm{N}}}(\bm{k}_{1}, \bm{k}_{2},{\bm{k}_3}) &= b_{1}F_{2}(\bm{k}_{1}, \bm{k}_{2}) + b_{2} + f\mu_{3}^{2}G_{2}(\bm{k}_{1}, \bm{k}_{2}) +{f \mathcal{Z}_2}(\bm{k}_{1}, \bm{k}_{2})
 + b_{s^{2}}S_{2}(\bm{k}_{1}, \bm{k}_{2}) , \label{k2n}
 \end{align}
 where we dropped the $z$-dependence for brevity. Here $f$ is the linear matter growth rate, $b_1$, $b_2$ are the linear and second-order clustering biases, and $b_{s^{2}}$ is the tidal bias. The kernel $F_2$ is for second-order density, $G_2$, $\mathcal{Z}_2$ are for RSD, and $S_2$ is the kernel for tidal bias.
@@ -68,12 +68,12 @@ At second order, and neglecting vector and tensor modes, it is shown in~\cite{Cl
 The redshift-dependent coefficients $C,E$ are  given below in~\eqref{e26},~\eqref{e27}.
 
 
-In Fourier space, neglecting sub-leading $ \mathcal{O}(\cH^2/k^2)$ terms, we find from~\eqref{eq:bkern} that
+In Fourier space, neglecting sub-leading $ \mathcal{O}(\cH^2/k^2)$ terms, we find from~\eqref{eq:bkern} that,
 \begin{align}
  B_{g\mathrm{D}}(\bm{k}_{1},\bm{k}_{2},\bm{k}_{3}) &=  \left\{\left[\mathcal{K}^{(1)}_{\mathrm{N}}(\bm{k}_{1})\mathcal{K}^{(1)}_{\mathrm{D}}(\bm{k}_{2}) + \mathcal{K}^{(1)}_{\mathrm{D}}(\bm{k}_{1})\mathcal{K}^{(1)}_{\mathrm{N}}(\bm{k}_{2})\right]\mathcal{K}^{(2)}_{\mathrm{N}}(\bm{k}_{1},\bm{k}_{2},\bm{k}_{3}) \right. \nonumber \\
 & \left. +\mathcal{K}^{(1)}_{\mathrm{N}}(\bm{k}_{1})\mathcal{K}^{(1)}_{\mathrm{N}}(\bm{k}_{2})\mathcal{K}^{(2)}_{\mathrm{D}}(\bm{k}_{1},\bm{k}_{2},\bm{k}_{3})\right\}P(k_{1})P(k_{2})+\text{2 cp}. \label{e21}
 \end{align}
-The relativistic kernels follow from~\eqref{dg1} and~\eqref{eq:dgsecond}; they are given in~\cite{Clarkson:2018dwn} as
+The relativistic kernels follow from~\eqref{dg1} and~\eqref{eq:dgsecond}; they are given in~\cite{Clarkson:2018dwn} as,
 \begin{align}
 \mathcal{K}^{(1)}_{\mathrm{D}}(\bm{k}_{1}) =& \mathrm{i}\,\cH f A\,\frac{\mu_{1}}{k_{1}}\,, \label{e23} \\
 \mathcal{K}^{(2)}_{\mathrm{D}}(\bm{k}_{1},\bm{k}_{2},\bm{k}_{3}) =& \mathrm{i}\,\cH f \left[
@@ -88,7 +88,7 @@ It is clear from \eqref{e21}--\eqref{e24} and from the general expressions given
 {{\mathrm{Re}}\, B_g =B_{g\mathrm{N}} + \mathcal{O}(\cH^2/k^2)\,,~~ {\i}\, {\mathrm{Im}}\, B_g = B_{g\mathrm{D}}+ \mathcal{O}(\cH^3/k^3)}\,. \label{bgnd}
 \end{equation}
 
-The  coefficients in~\eqref{e23} and~\eqref{e24} are~\cite{Clarkson:2018dwn}
+The  coefficients in~\eqref{e23} and~\eqref{e24} are~\cite{Clarkson:2018dwn},
 \begin{align}
 A &= b_{e} - 2\mathcal{Q} + \frac{2(\mathcal{Q}-1)}{{r} \cH}
  - \frac{\cH'}{\cH^{2}} \label{e25} \,, \\
@@ -97,17 +97,21 @@ E &= 4-2A-\frac{3}{2}\Omega_{m} \label{e27} \,,
 \end{align}
 where a prime is a conformal time derivative, $\Omega_m=\Omega_{m0}(1+z)H_0^2/\cH^2$,  $L$ is the  luminosity, and $\,|_{\mathrm{c}}$ denotes evaluation at the flux cut. 
 
-In addition to the clustering bias  $b_1$, the relativistic bispectrum is sensitive to  the evolution bias and magnification bias, which  are defined as \cite{Alonso:2015uua}
+In addition to the clustering bias  $b_1$, the relativistic bispectrum is sensitive to the evolution bias and magnification bias, which  are defined as~\cite{Alonso:2015uua},
 \begin{equation} \label{bq}
 b_e=  - \frac{\partial \ln n_g}{\partial\ln (1+z)}\,,~~~{ {\cal Q} =- \frac{\partial \ln n_g}{\partial\ln L}\bigg|_{\mathrm{c}}}\,.
 \end{equation}
 Here and below,  $n_{g}$ is the {\em comoving} galaxy number density.  (Note that the alternative magnification bias parameter  $s=2{\cal Q}/5$ is often used.)
 
-{It is interesting to note that the magnification bias ${\cal Q}$ enters the relativistic bispectrum, even though we have not  included the effect of the integrated lensing magnification $\kappa$. The reason for this apparent inconsistency is that there is a (non-integrated) Doppler correction to $\kappa$ at leading order \cite{Bonvin:2008ni,Bolejko:2012uj}.} 
+{It is interesting to note that the magnification bias ${\cal Q}$ enters the relativistic bispectrum, even though we have not included the effect of the integrated lensing magnification $\kappa$. The reason for this apparent inconsistency is that there is a (non-integrated) Doppler correction to $\kappa$ at leading order \cite{Bonvin:2008ni,Bolejko:2012uj}.} 
 
-{\pink{ In the discussion that follows here, which is taken directly from~\cite{Maartens:2019yhx}, the evolution and magnification bias parameters as derived in Model 1 in~\cite{Pozzetti:2016cch}. These bias parameters are, as obvious in equation~\eqref{bq}, defined as derivatives of the number density of galaxies. They are hence very sensitive to the form of the luminosity function. The impact of differently modelled luminosity functions on magnification and evolution bias is discussed in detail in~\cite{Maartens:2021dqy}. 
+The effect of magnification, which is included through $\mathcal{Q}$ in the bispectrum, on the galaxy number density in the presence of a flux cut can be understood intuitively. Magnification can cause both increase and decrease of the observed number density of galaxies, which is dependent on the specifics of the situation. Of course, magnification can `magnify' less luminous objects, bumping them up to above the flux cut, when without magnification they would be too faint to be included. As a result, the observed number density would increase. However, a direct consequence of massive objects that cause magnification between source and observer is also that the paths of the light rays are affected (bent) by this. This causes a discrepancy between the observed and real-space positions of the objects, i.e. objects appear as coming from outside of the observed patch of space due to this distortion. This effect will cause a decrease in the observed galaxy number density.
 
-Model 1 in ~\cite{Pozzetti:2016cch} is based on the pre-2019 luminosity function. An updated luminosity function is given by Model 3 in~\cite{Pozzetti:2016cch}, which, unlike Models 1 and 2, is based on observational data. The SNR computed using galaxy number density and bias parameters derived from this model is not presented in~\cite{Maartens:2019yhx}, but we present it in this thesis in Section~\ref{ssec:snrmodel3}.}}
+The evolution bias in the expression for the bispectrum accounts for the evolution of the source population through time, i.e. any evolution that takes place between the emission of light at the sources at redshift $z = z$ and the observation by the observer at redshift $z = 0$. 
+
+In the discussion that follows here, which is taken directly from~\cite{Maartens:2019yhx}, the evolution and magnification bias parameters as derived in Model 1 in~\cite{Pozzetti:2016cch}. These bias parameters are, as obvious in equation~\eqref{bq}, defined as derivatives of the number density of galaxies. They are hence very sensitive to the form of the luminosity function. The impact of differently modelled luminosity functions on magnification and evolution bias is discussed in detail in~\cite{Maartens:2021dqy}. 
+
+Model 1 in ~\cite{Pozzetti:2016cch} is based on the pre-2019 luminosity function. An updated luminosity function is given by Model 3 in~\cite{Pozzetti:2016cch}, which, unlike Models 1 and 2, is based on observational data. The SNR computed using galaxy number density and bias parameters derived from this model is not presented in~\cite{Maartens:2019yhx}, but we present it in this thesis in Section~\ref{ssec:snrmodel3}.
 
 
 \section{Signal-to-Noise}
@@ -182,7 +186,7 @@ In order to avoid nonlinear effects of matter clustering, the maximum $k$ is cho
 k_\mathrm{max}(z) = {0.1h}\left(1+z\right)^{2/(2+n_{s})}\,.
 \end{equation}
 
-The cut-off $k\leq k_\mathrm{max}(z)$ avoids a breakdown of perturbative accuracy in the matter correlations, but nonlinearities in the galaxy correlations due to RSD can affect longer wavelength modes. The effect of RSD on these scales is to damp the power -- the `FoG' effect. In order to take account of this, we follow~\cite{Karagiannis:2018jdt,Yankelevich:2018uaz} and use the simple model of FoG damping,
+The cut-off $k\leq k_\mathrm{max}(z)$ avoids a breakdown of perturbative accuracy in the matter correlations, but nonlinearities in the galaxy correlations due to RSD can affect longer wavelength modes. The effect of RSD on these scales is to damp the power -- the `FoG' effect. In order to take account of this, we follow the conventions in~\cite{Karagiannis:2018jdt,Yankelevich:2018uaz} and use the simple model of FoG damping,
 \begin{align}
 &P_g \to  D_P\, P_g\,,\quad~ D_{P}(z, \bm{k}) = \exp\left\{-\frac{1}{2}{\left[k\mu\,\sigma(z)\right]^{2}}\right\}\,, \\
 &B_g \to  D_B\, B_g\,,  \quad D_{B}(z, \ka,\kb,\kc) = \exp\left\{-\frac{1}{2}{\left[k_{1}^{2}\mu_{1}^{2}+k_{2}^{2}\mu_{2}^{2}+k_{3}^{2}\mu_{3}^{2}\right]\sigma(z)^{2}}\right\}\,, \label{e13}
@@ -219,12 +223,11 @@ We follow~\cite{Karagiannis:2018jdt} and choose the ranges $N_{\mu_1}=2, N_{\var
 For a given $\mu_{1}$, a complete rotation in $\varphi$ about $\bm{k}_1$ double counts the  triangle falling onto the fixed $(\bm{n},\bm{k}_1)$-plane at $\varphi=0$ and $\varphi=2\pi$ (see~\ref{fig:geometry_overview1}). Similarly, for a given $\varphi$,  the end-points $\theta_1=0$ and $\theta_1=\pi$  correspond to equivalent triangles, with $\bm{k}_a \to - \bm{k}_a$.
 This double-counting can be avoided by imposing suitable upper limits:
 $-1\leq \mu_1 <1$ and $0\leq \varphi < 2\pi$.
-The signal to noise is quite sensitive to the step-lengths $\Delta \mu_{1}, \Delta\varphi$. Figure~\ref{fig4x} shows the effect on the relativistic total SNR of changing the number of orientation bins, $n_{\mu_1}=N_{\mu_1}/\Delta{\mu_1}=2 /\Delta{\mu_1}$  and $n_\varphi=N_\varphi/\Delta\varphi =2\pi/\Delta\varphi$. It is apparent that reducing the number of bins increases the cumulative SNR. The cumulative SNR converges towards a minimum for $n_{\mu_{1}}\,, n_{\varphi} > 40$.
+The signal to noise is quite sensitive to the step-lengths $\Delta \mu_{1}, \Delta\varphi$. Figure~\ref{fig4x} shows the effect on the relativistic total SNR of changing the number of orientation bins, $n_{\mu_1}=N_{\mu_1}/\Delta{\mu_1}=2 /\Delta{\mu_1}$  and $n_\varphi=N_\varphi/\Delta\varphi =2\pi/\Delta\varphi$. It is apparent that reducing the number of bins increases the cumulative SNR. This might seem counterintuitive, since coarser binning cannot add information, so one would not generally expect the cumulative SNR to increase with a lower number of bins in $\mu_1$ and $\varphi$. The reason for this apparent inconsistency is due to the approximations taken in our calculation for the SNR. We use the Gaussian approximation of uncorrelated triangles, with simple Gaussian variance. In this case, the signal $B_g$ is held constant across a given bin, and the variance decreases as the bin widths $\Delta \mu_1$ and $\Delta \varphi$ are increased. Combined, these approximations cause an apparent higher cumulative SNR in the case of coarser binning. To find appropriate bin widths that do not appear to increase the SNR as binning gets coarser, we choose our binning at the point where the SNR has converged to a constant minimum value. The cumulative SNR converges towards a minimum for $n_{\mu_{1}}\,, n_{\varphi} > 40$.
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=0.9\textwidth]{fig/colournmu1nphi_Doppler-eps-converted-to} 
-\caption{Effect on 
-total relativistic SNR of changing number of  $\varphi$ and $\mu_1$ bins. 
+\caption{Effect on total relativistic SNR of changing number of  $\varphi$ and $\mu_1$ bins. 
 } \label{fig4x}
 \end{figure} 
 %
@@ -245,7 +248,7 @@ or $n_{\mu_{1}}= n_{\varphi}=50$.
 \label{fig1}
 \end{figure}
 %
-We consider a Stage IV $H\alpha$ spectroscopic survey, with clustering bias, comoving volume, comoving number density and RSD damping parameter given by Table 1 in~\cite{Yankelevich:2018uaz}, over the redshift range $0.65\leq z\leq 2.05$, with $\Delta z=0.1$ bins. 
+We consider a Stage IV H$\alpha$ spectroscopic survey, with clustering bias, comoving volume, comoving number density and RSD damping parameter given by Table 1 in~\cite{Yankelevich:2018uaz}, over the redshift range $0.65\leq z\leq 2.05$, with $\Delta z=0.1$ bins. 
 Fitting formulas for these quantities are, 
 \begin{align}
 b_1(z) &= 0.9+0.4 z\,, \quad b_2(z) = -0.741 - 0.125\,z + 0.123\,z^{2} + 0.00637\,z^{3}\,, \label{e9}  \\
@@ -268,14 +271,14 @@ We checked that the SNR for the Newtonian bispectrum is consistent with Figure~4
 %
 \subsection{Evolution bias and magnification bias}
 
-The relativistic bispectrum depends  also on $b_e$  and ${\cal Q}$, as shown in \eqref{e24}--\eqref{e27}.
+The relativistic bispectrum depends also on $b_e$  and ${\cal Q}$, as shown in \eqref{e24}--\eqref{e27}.
 These parameters do {\em not} appear in the Newtonian approximation, but they are crucial for the relativistic correction, and we need to evaluate them in a physically consistent way. We compute these parameters from the same luminosity function that is  used to generate the number density shown in Figure~\ref{fig1}, i.e., Model~1 in \cite{Pozzetti:2016cch}:
 \begin{equation}
 \Phi( z,y) = \Phi_{*}(z) y^\alpha\,{\mathrm{e}}^{-y}\,, \quad y\equiv \frac{L}{L_{*}}\,.
 \label{e12_3}
 \end{equation}
-We have written $\Phi$ in terms of the redshift $z$ and the normalised dimensionless luminosity $y$, where $L_*=L_{*0}(1+z)^\delta$ and $L_{*0}$ is a characteristic luminosity. Here $\alpha$ is the faint-end slope, and $\Phi_{*}$ is a characteristic comoving density of $H\alpha$ emitters, modelled as 
-\begin{align}
+We have written $\Phi$ in terms of the redshift $z$ and the normalised dimensionless luminosity $y$, where $L_*=L_{*0}(1+z)^\delta$ and $L_{*0}$ is a characteristic luminosity. Here $\alpha$ is the faint-end slope, and $\Phi_{*}$ is a characteristic comoving density of H$\alpha$ emitters, modelled as 
+\begin{align}\label{eq:comovinghamodel1}
 \frac{\Phi_{*}}{\Phi_{*0}}= \,
 \begin{cases} (1+z)^{\epsilon} &   z \leq z_{\mathrm{b}}\,,\\
 (1+z_{\mathrm{b}})^{2\epsilon}(1+z)^{-\epsilon} & z > z_{\mathrm{b}} \,.
@@ -293,7 +296,7 @@ where $d_L$ is the background luminosity distance and the choice of $F_{\mathrm{
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=0.9\textwidth]{fig/beQ-eps-converted-to}
-\caption{Magnification and evolution bias~\eqref{q}, \eqref{be}.} 
+\caption{Magnification and evolution bias~\eqref{q}, \eqref{be}. The sharp discontinuity in evolution bias at redshift $z = 1.3$ is due to the discontinuity in modelling of the comoving density of H$\alpha$ emitters as in equation~\ref{eq:comovinghamodel1}.} 
 \label{fig2}
 \end{figure}
 
@@ -315,12 +318,12 @@ since {$\partial/\partial \,{\ln L} = \partial/\partial\, {\ln y}$}, and the evo
 \begin{equation} \label{be}
 b_e(z) = - \frac{\ud \ln  \Phi_*(z)}{\ud \ln (1+z)} - \frac{ {\ud \ln L_*}(z)}{\ud \ln (1+z)}\,{\cal Q}(z)\,.
 \end{equation}
-Figure~\ref{fig2} shows the analytical forms~\eqref{q} and~\eqref{be} for $b_{e}$ and $\Q$.  
+Figure~\ref{fig2} shows the analytical forms~\eqref{q} and~\eqref{be} for $b_{e}$ and $\Q$. There is a sharp discontinuity present in the evolution bias $b_e$ at redshift $z = z_\mathrm{b} = 1.3$. The origin of this discontinuity is not physical, but instead it is present because of the way the density H$\alpha$ emitters is modelled in Model 1 in~\cite{Pozzetti:2016cch}. There is a discontinuity in this density at $z_\mathrm{b}$, as the behaviour of the comoving density of H$\alpha$ emitters is modelled to be different below and above the redshift break $z_\mathrm{b}$. 
 %We checked  our analytical results using the code\footnote{{http://intensitymapping.physics.ox.ac.uk/codes.html}} in  \cite{Alonso:2015uua}.  
 Table~\ref{tab1} collects the information in Figures~\ref{fig1} and~\ref{fig2} to provide an extension of Table 1 in~\cite{Yankelevich:2018uaz}.
 \begin{sidewaystable}[!ph] 
 \centering 
-\caption{Stage IV $H\alpha$ spectroscopic survey parameters.} \label{tab1} 
+\caption{Stage IV H$\alpha$ spectroscopic survey parameters.} \label{tab1} 
 \vspace*{0.2cm}
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|} 
 \hline 
@@ -343,7 +346,7 @@ Table~\ref{tab1} collects the information in Figures~\ref{fig1} and~\ref{fig2} t
 2.0 & 1.70 & -0.449 & -0.401 & -7.64 & 4.32 & 0.0700 & 6.92 & 3.40 \\ \hline
 \end{tabular}
 \end{sidewaystable}
-Finally, we need to deal with the luminosity derivative of the bias in~\eqref{e26}. Simulations by \cite{Pan:2019dxa} indicate that the  clustering bias of $H\alpha$ galaxies does not vary appreciably with luminosity near the fiducial luminosity $L_{*0}$ in \eqref{eucp} and for $z\lesssim 2$ (see their Figure~8). We therefore take,
+Finally, we need to deal with the luminosity derivative of the bias in~\eqref{e26}. Simulations by \cite{Pan:2019dxa} indicate that the  clustering bias of H$\alpha$ galaxies does not vary appreciably with luminosity near the fiducial luminosity $L_{*0}$ in \eqref{eucp} and for $z\lesssim 2$ (see their Figure~8). We therefore take,
 \begin{equation}\label{b1l}
 \frac{\partial b_1}{\partial \ln{L}}\bigg|_{\mathrm{c}}=0\,, 
 \end{equation}
@@ -357,7 +360,7 @@ in~\eqref{e26}.
 We can now evaluate the Doppler-type relativistic part of the bispectrum, \eqref{e21}--\eqref{e27}, using \eqref{q}--\eqref{b1l}. 
 Then the SNR is computed using~\eqref{csnr}  and \eqref{e3b} together with \eqref{e4x}.
 The results, for SNR in each $z$-bin, $S/N(z)$, and for the cumulative SNR, $S/N(\leq z)$, are shown in Figure~\ref{fig4}.
-Our forecasts indicate that the total SNR, $S/N(\leq z_{\mathrm{max}})$, for a Stage IV $H\alpha$  survey could be ${\cal O}(10)$, which  is high enough for a detection in principle.
+Our forecasts indicate that the total SNR, $S/N(\leq z_{\mathrm{max}})$, for a Stage IV H$\alpha$  survey could be ${\cal O}(10)$, which  is high enough for a detection in principle.
 
 The relativistic SNR is sensitive in particular to two factors:
 \begin{itemize}
@@ -369,7 +372,7 @@ we show the comparison of SNR using~\eqref{kmax} and using the redshift-independ
 \centering
 \includegraphics[width=0.8\textwidth]{fig/snrDoppler-eps-converted-to}
 \includegraphics[width=0.8\textwidth]{fig/CumulativesnrDoppler-eps-converted-to}
-\caption{Relativistic SNR per $z$-bin  ({\em top}) and cumulative ({\em bottom}) for a Stage IV $H\alpha$ survey.} \label{fig4}
+\caption{Relativistic SNR per $z$-bin  ({\em top}) and cumulative ({\em bottom}) for a Stage IV H$\alpha$ survey.} \label{fig4}
 \end{figure}
 \begin{figure}[!ht]
 \centering
@@ -441,14 +444,13 @@ An interesting feature of the relativistic signal is that there is a significant
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=0.9\textwidth]{fig/gamma_sigma8_AD-eps-converted-to}
-\caption{Marginal errors (cumulative) on the relativistic contribution, growth index and clustering amplitude, using the full bispectrum.} \label{sig}
+\caption{Marginal errors (cumulative) on the relativistic contribution, growth index and clustering amplitude, using the full bispectrum. Bias parameters are held fixed at their theoretical values. Parameter $A_\mathrm{D}$ corresponds to the relativistic part of the bispectrum. The fact that  $\sigma_{A_{\mathrm{D}}}\lesssim 0.1$ indicates that the relativistic effects remain detectable when the two other parameters are marginalised over.} \label{sig}
 \end{figure}
 {A full treatment of cosmological constraints would marginalise over the standard cosmological parameters, together with the Alcock-Paczynski parameters and the clustering bias parameters. The constraints obtained would depend almost entirely on the Newtonian galaxy power spectrum and bispectrum (as analysed in \cite{Yankelevich:2018uaz}), given that the relativistic contribution to the power spectrum is below leading order, while in the bispectrum the relativistic SNR is  an order of magnitude smaller than the Newtonian SNR. 
 
 Our focus here is instead on the detectability of the relativistic signal in the bispectrum, {assuming that $P_{g\mathrm{N}}$ and $B_{g\mathrm{N}}$ have been used to constrain the standard parameters.}
 We now investigate the effect on this detectability when we include the parameters directly related to redshift-space effects, i.e.,  the growth index $\gamma=\ln f/ \ln\Omega_m$ (with fiducial value 0.545), and the clustering amplitude $\sigma_8$ (with Planck 2018 fiducial).} 
-{For forecasts we use the theoretical values of $b_e, \Q$. In a galaxy survey, they would be measured directly from the observed luminosity function, and their measurement uncertainties would need to be marginalised over.}
-
+For forecasts we use the theoretical values of $b_e, \Q$. In a galaxy survey, they would be measured directly from the observed luminosity function, and their measurement uncertainties would need to be marginalised over.
 
 For the relativistic part of the bispectrum, we introduce a parameter  $A_{\mathrm{D}}$, with fiducial value 1: 
 \begin{equation}
@@ -460,14 +462,16 @@ F_{\alpha\beta} =
 \sum_{z,k_a,\,\mu_{1},\,\varphi}\,\frac{1}{{\mathrm{Var}} [{B_{g}}]}
 \,\frac{\partial B_{g}}{\partial \vartheta_{(\alpha}}\,\frac{\partial B^*_{g}}{\partial \vartheta_{\beta)}}\,,\label{fm}
 \end{equation} 
-where the round brackets denote symmetrisation. The cumulative marginal errors $\sigma_\alpha = [(F^{-1})_{\alpha\alpha}]^{1/2}$  are shown in Figure~\ref{sig}. The fact that $\sigma_{A_{\mathrm{D}}}\lesssim 0.1$  means that the relativistic effects remain detectable when the two additional cosmological parameters are marginalised over.
+where the round brackets denote symmetrisation. The cumulative marginal errors $\sigma_\alpha = [(F^{-1})_{\alpha\alpha}]^{1/2}$  are shown in Figure~\ref{sig}. The fact that $\sigma_{A_{\mathrm{D}}}\lesssim 0.1$  means that the relativistic effects remain detectable when the two additional cosmological parameters are marginalised over. It is important to note that in this estimate, as mentioned before, we use theoretical fixed values for the bias parameters and other cosmological parameters. In a more realistic scenario, one would marginalise over the full set of cosmological parameters. Once the bias parameters are allowed to vary, the picture presented in Figure~\ref{sig} is likely to be subject to substantial change-- in particular, the error on $\sigma_8$ is expected to grow. A fully consistent analysis is left for future work. 
+
+
 %
 
 \subsection{SNR using the 2019 luminosity function model}\label{ssec:snrmodel3}
 
 Analytical models of luminosity functions are typically separable in both redshift and luminosity as, 
 \begin{equation}
-    \Phi(z) = \Phi_*(z) g(y)\,,
+    \Phi(z,y) = \Phi_*(z) g(y)\,,
 \end{equation}
 see for example equation~\eqref{e12_3} for the relation for Model 1. 
 
@@ -477,11 +481,11 @@ Model 3, as presented in~\cite{Pozzetti:2016cch}, has a luminosity function whic
 \end{equation}
 where the factor $\ee - 1$ is chosen such that $L_*$ is the luminosity at which $\Phi$ falls to $1/\ee$ of the faint-end power law (as in the luminosity function of the Schechter type, which is used for Model 1). The number density, magnification bias, and evolution bias are respectively given by, 
 \begin{align}
-    & n_g(z,y_c) = \phi_*(z) G(y_c)\,,\quad \text{where } G(y_c) = \int_{y_c}^\infty \diff y\, g(y) \, , \\
+    & n_g(z,y_c) = \Phi_*(z) G(y_c)\,,\quad \text{where } G(y_c) = \int_{y_c}^\infty \diff y\, g(y) \, , \\
     &\Q(z,y_c) = y_c \frac{g(y_c)}{G(y_c)}\,,\\
-    &b_e(z,y_c) = - \frac{\diff \ln \phi_*(z)}{\diff \ln (1+z)} - \frac{\diff \ln L_*(z)}{\diff \ln (1+z)} \Q(z,y_c)\,,
+    &b_e(z,y_c) = - \frac{\diff \ln \Phi_*(z)}{\diff \ln (1+z)} - \frac{\diff \ln L_*(z)}{\diff \ln (1+z)} \Q(z,y_c)\,,
 \end{align}
-where $G(y_c)$ needs to be evaluated numerically, $\phi_*(z) = \phi_{*0} = 10^{-2.92}\,\mathrm{Mpc}^{-3}$, and $L_*(z)$ is defined through, 
+where $G(y_c)$ needs to be evaluated numerically, $\Phi_*(z) = \Phi_{*0} = 10^{-2.92}\,\mathrm{Mpc}^{-3}$, and $L_*(z)$ is defined through, 
 \begin{equation}
     \log L_*(z) = \log L_{*\infty} + \left[ \frac{1.5}{(1 + z)} \right]^\beta \log \left[ \frac{L_*(0.5)}{L_{*\infty}} \right]\,. 
 \end{equation}
@@ -496,8 +500,7 @@ Fitting functions for the number density and evolution and magnification biases 
     & \Q(z) = 0.583 + 2.02 z - 0.568 z^2 + 0.0411 z^3\,,\\
     &b_e(z) = -7.29 + 0.470 z + 1.17 z^2 - 0.290 z^3\,,
 \end{align}
-and Figure~\ref{fig:model3ngbeq} shows the dependence of 
-
+and Figure~\ref{fig:model3ngbeq} shows the dependence of the number density and the evolution and magnification biases on redshift $z$.
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=0.9\textwidth]{fig/model3ngbeq.png}
@@ -514,8 +517,9 @@ We already established earlier on that the value of the SNR is very sensitive to
     \label{fig:snrmodel3}
 \end{figure}
 
-\subsection{Conclusions}
+\subsection{Recap of detectability in spectroscopic surveys}
 
+Before we move on to discuss detectability of the relativistic bispectrum in 21cm IM surveys, let us recap what we have found in the case of Stage IV H$\alpha$ spectroscopic surveys similar to \emph{Euclid}.
 
 As shown by \cite{Clarkson:2018dwn}, the tree-level galaxy bispectrum in Fourier space has an imaginary part which is a unique signal of the leading-order relativistic corrections in redshift space. These corrections arise from Doppler and other line-of-sight effects on the past lightcone [see \eqref{dg1}, \eqref{dg2}]. In the galaxy bispectrum, the corrections scale as ${\i}\,(\cH/k)P^2$, where $P$ is the linear matter power spectrum [see \eqref{e21}--\eqref{e24}]. By contrast,  at leading order in the galaxy power spectrum, the relativistic correction is real and scales as $(\cH/k)^2P$ -- i.e., it is suppressed by a further factor of  $\cH/k$. 
 Only the cross-power spectrum of two different tracers produces an imaginary contribution that scales as ${\i}(\cH/k)P$ \cite{McDonald:2009dh}.
@@ -523,7 +527,7 @@ Only the cross-power spectrum of two different tracers produces an imaginary con
 
 
 For a single tracer, the $(\cH/k)^{2}$ relativistic signal in the galaxy {\em power} spectrum is not detectable, even for a cosmic-variance limited survey \cite{Alonso:2015uua}.
-The galaxy bispectrum of a single tracer, with its ${\i}\,(\cH/k)$ relativistic contribution, improves the chances of detectability. In addition, the relativistic contribution in the bispectrum couples to short-scale Newtonian terms -- which means that the signal is not confined to very large scales, unlike the case of the power spectrum. We confirmed the expectations of detectability by showing that the signal to noise on the imaginary relativistic part is ${\cal O}(10)$ for a Stage IV $H\alpha$ spectroscopic survey similar to Euclid [see Figure~\ref{fig4}].  We checked that detectability is not compromised by including the uncertainties on two cosmological growth parameters, $\sigma_8$ and $\gamma$ [Figure~\ref{sig}], assuming that other cosmological  and nuisance parameters are determined by the Newtonian power spectrum and bispectrum. 
+The galaxy bispectrum of a single tracer, with its ${\i}\,(\cH/k)$ relativistic contribution, improves the chances of detectability. In addition, the relativistic contribution in the bispectrum couples to short-scale Newtonian terms -- which means that the signal is not confined to very large scales, unlike the case of the power spectrum. We confirmed the expectations of detectability by showing that the signal to noise on the imaginary relativistic part is ${\cal O}(10)$ for a Stage IV H$\alpha$ spectroscopic survey similar to Euclid [see Figure~\ref{fig4}].  We checked that detectability is not compromised by including the uncertainties on two cosmological growth parameters, $\sigma_8$ and $\gamma$ [Figure~\ref{sig}], assuming that other cosmological  and nuisance parameters are determined by the Newtonian power spectrum and bispectrum. 
 
 
 The relativistic SNR depends on the $k_{\mathrm{max}}(z)$ assumed, because of the coupling of relativistic effects to short-scale Newtonian terms [Figure~\ref{kmsnr}], and  we made a conservative choice \eqref{kmax}, which includes a redshift dependence to reflect the weakening of nonlinearity at higher $z$. 
@@ -533,12 +537,14 @@ Accurate modelling of nonlinear effects would allow us to increase the SNR
 The relativistic SNR also relies  on the largest available scales, but very little signal is lost if $k_{\mathrm{min}}/k_{\mathrm{f}}$ is increased by a factor up  to 5, and even a factor of 10 increase leaves a detectable SNR  [Figure~\ref{kmin}].
 
 By contrast, the SNR depends strongly on accurate modelling of the second-order part of the relativistic correction  [Figure~\ref{fig4z}]. This includes both the theoretical form \eqref{dg2}, and the
- two astrophysical parameters that do not appear in the Newtonian approximation of the galaxy bispectrum: the evolution bias $b_e$ (measuring the deviation from comoving number conservation) and the magnification bias $\Q$ (which is brought into play by a Doppler correction to standard lensing magnification).  A key feature of our analysis is a physically self-consistent derivation of these quantities from the luminosity function [Figure~\ref{fig2} and~\eqref{q},~\eqref{be}].
+two astrophysical parameters that do not appear in the Newtonian approximation of the galaxy bispectrum: the evolution bias $b_e$ (measuring the deviation from comoving number conservation) and the magnification bias $\Q$ (which is brought into play by a Doppler correction to standard lensing magnification).  A key feature of our analysis is a physically self-consistent derivation of these quantities from the luminosity function [Figure~\ref{fig2} and~\eqref{q},~\eqref{be}]. We do this for an observationally motivated luminosity function model too, the so-called Model 3 [Figure~\ref{fig:model3ngbeq}].
 We showed that the SNR is very sensitive to these parameters [Figure~\ref{fig1x}], which underlines the need for accurate physical modelling. 
 
 We assumed a Gaussian covariance in our computations, but we used the approximation  of~\cite{Chan:2016ehg} to include non-Gaussian corrections. 
 
-Further work should include the window function which we have  neglected.
+It is important to note that using Gaussian covariance and Fisher matrix analysis are approximations that are not necessarily trustworthy in the case of low SNRs, as larger signal strengths correspond to lower statistical errors~\cite{Vallisneri:2007ev}.
+
+Further work should include the window function which we have neglected.
 The imaginary part of the galaxy bispectrum generates a dipole, as shown in~\cite{Clarkson:2018dwn}. This suggests a multipole analysis that uses the relativistic dipole in addition to the monopole and quadrupole, {which are unaffected by relativistic effects at leading order.} The
 window function can also have an imaginary part~\cite{Beutler:2018vpe}, which will need to be corrected for. The dipole from the imaginary part of the bispectrum vanishes in equilateral configurations~\cite{Clarkson:2018dwn}, which may help to disentangle the relativistic dipole from that of the window function.
 
@@ -582,7 +588,7 @@ Here $h=H_0/(100\,$km/s), $\cH=(\ln a)'$ is the conformal Hubble rate, and $\Ome
 \bar{T}_{\hi}(z) = 0.0 56 +0.23\,z -0.024\, z^{2} ~~ \mathrm{mK}. \label{e1.24}
 \end{equation}
 
-The temperature fractional perturbation ism
+The temperature fractional perturbation is,
 \begin{equation}
 \Delta_{\hi}(z,\n) = \frac{T_{\hi}(z,\n) - \bar{T}_{\hi} (z)}{\bar{T}_{\hi} (z)}\,.\label{e1.1_02}
 \end{equation}
@@ -618,7 +624,7 @@ We omit sub-leading relativistic corrections that scale as $(\cH/k)^2\delta_m$.
  -\frac{2}{\cH}\,\partial_r (\v\cdot\v)\nonumber \\
  &+2 \frac{{b_{1}}}{\cH}\,\Phi\, \partial_r\delta_m \label{e1.2}\,.
 \end{align}
-In~\eqref{d2n}, $b_{s^2}s^2$ is the tidal bias contribution and RSD$^{\tw}$ is the standard second-order RSD contribution (see \cite{Maartens:2019yhx} for details). The bias parameters are computed via a halo model and are shown in Figure \ref{fig:detectfigbiasparam}, together with the evolution bias.
+In~\eqref{d2n}, $b_{s^2}s^2$ is the tidal bias contribution and RSD$^{\tw}$ is the standard second-order RSD contribution (see~\cite{Maartens:2019yhx} for details). The bias parameters are computed via a halo model and are shown in Figure~\ref{fig:detectfigbiasparam}, together with the evolution bias.
 In~\eqref{e1.2}, we see the Doppler terms and the line-of-sight gradients that make up the dominant relativistic contribution.
  $\Phi$ is the gravitational potential and $\Omega_m =\Omega_{m 0}(1+z)H_0^2/\cH^2$. We  neglect sub-dominant relativistic effects in $\Delta^{\tw}$ that scale as  $(\cH/k)^2(\delta_m)^2$. 
 %
@@ -644,6 +650,9 @@ At second order, \eqref{tobs} shows that there is also no contribution to $\Delt
 
 There remains however a lensing deflection contribution $\nabla_{\perp a}\Delta\,\nabla_\perp^a\phi$ to  $\Delta^{\tw}$,  where $\nabla_{\perp a}$ is a screen-space gradient and $\phi$ is the lensing potential~\cite{Umeh:2015gza,DiDio:2015bua,Jalivand:2018vfz}. In the bispectrum the contribution of this term is negligible for equal-redshift correlations~\cite{DiDio:2015bua,Durrer:2020orn}. Since we only consider the bispectrum at equal redshifts, we can safely neglect this term. 
 \end{itemize}
+
+In addition to this, recent work presented in~\cite{Schmit:2018rtf} derived the expected contribution from the lensing-ISW bispectrum to the 21cm bispectrum. This is due to the evolution of the density field along the line-of-sight. As it turns out, the lensing-ISW bispectrum introduces negligible bias to the parameter constraints, and hence can be safely ignored. 
+
 \vspace{0.2cm}
 %
 In Fourier space, the HI bispectrum at tree level is defined by,
@@ -725,7 +734,7 @@ b_{s^{2}} = \frac{4}{7}\left(1-b_{1}\right)\,.\label{e1.21}
 
 \subsection{Effects of foregrounds}
 %
-Foreground contamination is the major systematic confronting 21cm intensity mapping. 
+Foreground contamination is the major systematic confronting 21cm intensity mapping. All sources of radio emission within our observing band make up the contamination-- except of course the cosmological signal of interest. The main contaminant is the galactic synchrotron radiation. Other contaminants include free-free emission, bright radio point sources, and unresolved point sources~\cite{Liu:2019awk}. The effect of these other sources of foreground contamination is subdominant to that of synchrotron radiation, but may still dominate over the fainter cosmological signal, and hence are important to take into consideration. 
 Cleaning techniques are very efficient at recovering the cosmological signal in regions of $(k_\|,k_\perp)$ space (see e.g.~\cite{Pober:2013jna, Bull:2014rha, Alonso:2014dhk, Pober:2014lva, Wolz:2015sqa, Santos:2015gra, Shaw:2014khi, Obuljen:2017jiy, Ansari:2018ury, Witzemann:2018cdx, Bacon:2018dui, Asorey:2020mxs, Cunnington:2020mnn}). A realistic model of bispectrum measurements should include modelling of foreground removal. However, our focus is on the relativistic signal in the bispectrum and so we take a simpler approach -- by excising the regions of $(k_\|,k_\perp)$ space where foreground cleaning does not recover the signal efficiently.
 
 HI intensity mapping surveys are planned for next-generation radio dish arrays, including MeerKAT\footnote{www.sarao.ac.za/science/meerkat/}, SKA1-MID\footnote{{www.skatelescope.org/}}, and HIRAX\footnote{hirax.ukzn.ac.za/}. We will also consider surveys with

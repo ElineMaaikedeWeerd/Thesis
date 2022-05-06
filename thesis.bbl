@@ -40,6 +40,13 @@ V.~Springel et~al., \emph{{Simulating the joint evolution of quasars, galaxies
   VI. Cosmological parameters}},
   \href{https://arxiv.org/abs/1807.06209}{{\ttfamily 1807.06209}}.
 
+\bibitem{Planck:2019kim}
+{\scshape Planck} collaboration, Y.~Akrami et~al., \emph{{Planck 2018 results.
+  IX. Constraints on primordial non-Gaussianity}},
+  \href{https://doi.org/10.1051/0004-6361/201935891}{\emph{Astron. Astrophys.}
+  {\bfseries 641} (2020) A9}
+  [\href{https://arxiv.org/abs/1905.05697}{{\ttfamily 1905.05697}}].
+
 \bibitem{Bennett:2013}
 C.~L. Bennett, D.~Larson, J.~L. Weiland, N.~Jarosik, G.~Hinshaw, N.~Odegard
   et~al., \emph{Nine-year wilkinson microwave anisotropy probe ( wmap )
@@ -375,6 +382,25 @@ A.~Lewis, A.~Challinor and A.~Lasenby, \emph{{Efficient computation of CMB
   (2000) 473} [\href{https://arxiv.org/abs/astro-ph/9911177}{{\ttfamily
   astro-ph/9911177}}].
 
+\bibitem{Bernardeau:2001qr}
+F.~Bernardeau, S.~Colombi, E.~Gaztañaga and R.~Scoccimarro, \emph{Large-scale
+  structure of the universe and cosmological perturbation theory},
+  \href{https://doi.org/10.1016/s0370-1573(02)00135-7}{\emph{Physics Reports}
+  {\bfseries 367} (2002) 1–248}.
+
+\bibitem{Goroff:1986ep}
+M.~H. Goroff, B.~Grinstein, S.~J. Rey and M.~B. Wise, \emph{{Coupling of Modes
+  of Cosmological Mass Density Fluctuations}},
+  \href{https://doi.org/10.1086/164749}{\emph{Astrophys. J.} {\bfseries 311}
+  (1986) 6}.
+
+\bibitem{Jain:1993jh}
+B.~Jain and E.~Bertschinger, \emph{{Second order power spectrum and nonlinear
+  evolution at high redshift}},
+  \href{https://doi.org/10.1086/174502}{\emph{Astrophys. J.} {\bfseries 431}
+  (1994) 495} [\href{https://arxiv.org/abs/astro-ph/9311070}{{\ttfamily
+  astro-ph/9311070}}].
+
 \bibitem{Lewis:2011}
 A.~Lewis, \emph{The real shape of non-gaussianities},
   \href{https://doi.org/10.1088/1475-7516/2011/10/026}{\emph{Journal of
@@ -523,13 +549,6 @@ M.~Liguori, E.~Sefusatti, J.~R. Fergusson and E.~P.~S. Shellard,
   2010} (2010) 980523} [\href{https://arxiv.org/abs/1001.4707}{{\ttfamily
   1001.4707}}].
 
-\bibitem{Planck:2019kim}
-{\scshape Planck} collaboration, Y.~Akrami et~al., \emph{{Planck 2018 results.
-  IX. Constraints on primordial non-Gaussianity}},
-  \href{https://doi.org/10.1051/0004-6361/201935891}{\emph{Astron. Astrophys.}
-  {\bfseries 641} (2020) A9}
-  [\href{https://arxiv.org/abs/1905.05697}{{\ttfamily 1905.05697}}].
-
 \bibitem{Fergusson:2008ra}
 J.~R. Fergusson and E.~P.~S. Shellard, \emph{{The shape of primordial
   non-Gaussianity and the CMB bispectrum}},
@@ -542,6 +561,12 @@ V.~Desjacques, D.~Jeong and F.~Schmidt, \emph{{Large-Scale Galaxy Bias}},
   \href{https://doi.org/10.1016/j.physrep.2017.12.002}{\emph{Phys. Rept.}
   {\bfseries 733} (2018) 1} [\href{https://arxiv.org/abs/1611.09787}{{\ttfamily
   1611.09787}}].
+
+\bibitem{Baldauf:2012tb}
+T.~Baldauf, U.~Seljak, V.~Desjacques and P.~McDonald, \emph{Evidence for
+  quadratic tidal tensor bias from the halo bispectrum},
+  \href{https://doi.org/10.1103/physrevd.86.083540}{\emph{Physical Review D}
+  {\bfseries 86} (2012) }.
 
 \bibitem{Clarkson:2018dwn}
 C.~Clarkson, E.~M. de~Weerd, S.~Jolicoeur, R.~Maartens and O.~Umeh, \emph{{The
@@ -742,12 +767,6 @@ D.~Jeong, F.~Schmidt and C.~M. Hirata, \emph{Large-scale clustering of galaxies
   \href{https://doi.org/10.1103/physrevd.85.023504}{\emph{Physical Review D}
   {\bfseries 85} (2012) }.
 
-\bibitem{Bernardeau:2001qr}
-F.~Bernardeau, S.~Colombi, E.~Gaztañaga and R.~Scoccimarro, \emph{Large-scale
-  structure of the universe and cosmological perturbation theory},
-  \href{https://doi.org/10.1016/s0370-1573(02)00135-7}{\emph{Physics Reports}
-  {\bfseries 367} (2002) 1–248}.
-
 \bibitem{Bonvin:2011bg}
 C.~Bonvin and R.~Durrer, \emph{{What galaxy surveys really measure}},
   \href{https://doi.org/10.1103/PhysRevD.84.063505}{\emph{Phys. Rev. D}
@@ -879,6 +898,13 @@ C.~Okoli, M.~I. Scrimgeour, N.~Afshordi and M.~J. Hudson, \emph{{Dynamical
   Soc.} {\bfseries 468} (2017) 2164}
   [\href{https://arxiv.org/abs/1611.04589}{{\ttfamily 1611.04589}}].
 
+\bibitem{Vallisneri:2007ev}
+M.~Vallisneri, \emph{{Use and abuse of the Fisher information matrix in the
+  assessment of gravitational-wave parameter-estimation prospects}},
+  \href{https://doi.org/10.1103/PhysRevD.77.042001}{\emph{Phys. Rev. D}
+  {\bfseries 77} (2008) 042001}
+  [\href{https://arxiv.org/abs/gr-qc/0703086}{{\ttfamily gr-qc/0703086}}].
+
 \bibitem{Beutler:2018vpe}
 F.~Beutler, E.~Castorina and P.~Zhang, \emph{{Interpreting measurements of the
   anisotropic galaxy power spectrum}},
@@ -975,6 +1001,13 @@ R.~Durrer, M.~Jalilvand, R.~Kothari, R.~Maartens and F.~Montanari,
   12} (2020) 003} [\href{https://arxiv.org/abs/2008.02266}{{\ttfamily
   2008.02266}}].
 
+\bibitem{Schmit:2018rtf}
+C.~J. Schmit, A.~F. Heavens and J.~R. Pritchard, \emph{{The gravitational and
+  lensing-ISW bispectrum of 21 cm radiation}},
+  \href{https://doi.org/10.1093/mnras/sty3400}{\emph{Mon. Not. Roy. Astron.
+  Soc.} {\bfseries 483} (2019) 4259}
+  [\href{https://arxiv.org/abs/1810.00973}{{\ttfamily 1810.00973}}].
+
 \bibitem{Blas:2011rf}
 D.~Blas, J.~Lesgourgues and T.~Tram, \emph{{The Cosmic Linear Anisotropy
   Solving System (CLASS) II: Approximation schemes}},
@@ -1031,6 +1064,12 @@ M.~G. Santos et~al., \emph{{Cosmology from a SKA HI intensity mapping survey}},
   \href{https://doi.org/10.22323/1.215.0019}{\emph{PoS} {\bfseries AASKA14}
   (2015) 019} [\href{https://arxiv.org/abs/1501.03989}{{\ttfamily
   1501.03989}}].
+
+\bibitem{Liu:2019awk}
+A.~Liu and J.~R. Shaw, \emph{{Data Analysis for Precision 21 cm Cosmology}},
+  \href{https://doi.org/10.1088/1538-3873/ab5bfd}{\emph{Publ. Astron. Soc.
+  Pac.} {\bfseries 132} (2020) 062001}
+  [\href{https://arxiv.org/abs/1907.08211}{{\ttfamily 1907.08211}}].
 
 \bibitem{Pober:2013jna}
 J.~C. Pober et~al., \emph{{What Next-Generation 21 cm Power Spectrum

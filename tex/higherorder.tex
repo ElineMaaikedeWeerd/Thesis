@@ -5,6 +5,8 @@
 
 In this chapter, we summarise previous work on relativistic projection effects in the observed galaxy bispectrum~\cite{Umeh:2016nuh,Jolicoeur:2017nyt,Jolicoeur:2017eyi,Jolicoeur:2018blf} going beyond the $\ord(\cH/k)$ approximation used in the previous chapters. The leading order effects examined in the previous chapters are unique in a sense that they are less suppressed on small scales than the leading order relativistic corrections to the power spectrum of a single tracer, which scale as $\ord(\cH^2/k^2)$. The higher order effects in the bispectrum will become significant on larger scales, and need to be taken into account for a fully consistent theoretical analysis.
 
+Where appropriate, we define the gauges used, but a full and technical discussion on the different gauges used in cosmological perturbation theory is beyond the scope of this work.
+
 For the bispectrum, similar to the power spectrum, effects from observing on the past lightcone need to be taken into account, as they distort the information which is contained in the underlying distribution of dark matter. These lightcone projection effects themselves can also provide new information. The major difference between the power spectrum and bispectrum analyses however, is that for the bispectrum, projection effects up to second order in perturbation theory are required. 
 
 Previously, the GR effects on the angular bispectrum of galaxies arising from lensing convergence has been computed in~\cite{DiDio:2015bua}, which neglects other ultra-large scale GR corrections to the galaxy overdensity. In~\cite{Kehagias:2015tda}, a separate-universe approximation is used to compute the angular bispectrum of galaxies in the squeezed limit only, but including all GR lightcone effects. In Section~\ref{sec:localproj} we discuss the Fourier-space observed galaxy biscpectrum including corrections from local projection effects and relativistic corrections from nonlinear dynamical evolution on large scales, which contribute significantly. At second order in general relativity, scalar perturbations also generate second-order tensor and vector modes~\cite{Mollerach:1997up,Matarrese:1997ay}, and these modes enter the observed galaxy number density contrast at second order~\cite{Bertacca:2014hwa,Bertacca:2014wga,Bertacca:2014dra,Yoo:2014sfa,DiDio:2014lka}. However, the power in these second-order tensor and vector modes is much smaller than the power from the scalar modes, and is neglected in forthcoming chapters-- a brief discussion on the vector and tensor modes can be found in Section~\ref{sec:tensorvector}. 
@@ -37,14 +39,14 @@ The observed number density contrast can be split into Newtonian and relativisti
 \end{equation}
 which is convenient for our purpose here.
 
-The comoving-synchronous gauge (C) overdensities of matter and galaxy counts are denoted as $\delta_{m\cs}$ and $\delta_{g\cs}$. At first order, the Poisson and continuity equations are,
+The comoving-synchronous gauge (C) is the gauge that coincides with the matter rest frame, and is treated as the Lagrangian frame in GR. C-gauge overdensities of matter and galaxy counts are denoted as $\delta_{m\cs}$ and $\delta_{g\cs}$. At first order, the Poisson and continuity equations are,
 \begin{align}
 	&\nabla^2 \Phi^\on = \frac{3}{2} \Omega_m \cH^2 \delta_{m\cs}^\on \\
 	&\delta_{m\cs}^{\on'} = - \nabla^2 v^\on\,.
 \end{align}
 These lead to the following relations for the velocity and metric potentials,
 \begin{equation}
-	\Phi^\on = \frac{3}{2} \Omega_m \frac{\cH^2}{k^2} \delta_{m\cs}^\on\,,
+	\Phi^\on = - \frac{3}{2} \Omega_m \frac{\cH^2}{k^2} \delta_{m\cs}^\on\,,
 \end{equation}
 where $\Phi^\on(a,\k) = \frac{D(a)}{a} \Phi^\on(1,\k)$, and,
 \begin{equation}\label{eq:scdepvel}
@@ -59,10 +61,10 @@ The first-order observed galaxy number density contrast $\Delta_g^\on$ is given 
 	\Delta_g^\on &= b_1 \delta_{m\mathrm{T}} - \frac{1}{\cH} \partial_\parallel^2 v^\on + \left[ b_e - 2 \Q + \frac{2 (\Q - 1)}{\chi \cH} - \frac{\cH'}{\cH^2} \right] \left[ \partial_\parallel v^\on - \Phi^\on \right] + (2 \Q - 1) \Phi^\on \nonumber \\
 	&+ \frac{1}{\cH} \Phi^{\on \prime} + (3 - b_e) \cH v^\on\,,
 \end{align}
-where subscript T denotes the total matter gauge. This can be split into a Newtonian and a relaativistic part as, 
+where subscript T denotes the total matter gauge. There is no unique gauge defined in the Eulerian frame, but the T gauge is a convenient choice, as the transformation from C to T gauge is simply a purely spatial transformation. The first-order observed galaxy number density contrast can be split into a Newtonian and a relativistic part as, 
 \begin{align}
 	&\Delta_{g\nw}^\on = b_1 \delta_{m\mathrm{T}} - \frac{1}{\cH} \partial_\parallel^2 v^\on\,,\label{eq:DeltagNFO}\\
-	&\Delta_{g\gr}^\on = \left[ b_e - 2 \Q + \frac{2 (\Q - 1)}{\chi \cH} - \frac{\cH'}{\cH^2} \right] \left[ \partial_\parallel v^\on - \Phi^\on \right] _ (2 \Q - 1) \Phi^\on + \frac{1}{\cH} \Phi^{\on \prime} \nonumber \\
+	&\Delta_{g\gr}^\on = \left[ b_e - 2 \Q + \frac{2 (\Q - 1)}{\chi \cH} - \frac{\cH'}{\cH^2} \right] \left[ \partial_\parallel v^\on - \Phi^\on \right] - (2 \Q - 1) \Phi^\on + \frac{1}{\cH} \Phi^{\on \prime} \nonumber \\
 	& \hphantom{\Delta_{g\gr}} + (3 - b_e) \cH v^\on\,\label{eq:DeltagGRFO}.
 \end{align}
 The Newtonian part in the above equation consists of the T-gauge density contrast term + Kaiser RSD. The GR part consists of Dopper + potential + velocity potential terms.
@@ -136,7 +138,7 @@ The coefficients $\mathcal{A},\,\mathcal{B},\,\mathcal{C},\,\mathcal{D},\,\mathc
 	&+ \frac{2}{\chi^2\cH^2} \left(1 - \Q + 2\Q^2 - 2\frac{\p \Q}{\p \ln{\bar{L}}}\right) + \frac{2}{\chi\cH} \left[3 - 2b_e + 2b_e \Q - 3\Q - 4\Q^2 \right. \nonumber \\
 	&\left. + \frac{3\cH'}{\cH^2} (1 - \Q) + 4\frac{\p \Q}{\p \ln{\bar{L}}} + 2\frac{\Q'}{\cH} \right] + \frac{\cH'}{\cH^2} \left(3 - 2b_e + 4\Q + \frac{3\cH'}{\cH^2} \right) - \frac{\cH''}{\cH^3}\,.
 \end{align}
-The expressions for $\Delta^\tw_{g\nw}$ and $\Delta^\tw_{g\gr}$ as given in equations~\eqref{eq:DeltaSONewt} and~\eqref{eq:DeltaSOwBGcoeffs}, plus the background coefficients, are derived from equation~\eqref{eq:fulldeltaso}, which is the general formula for $\Delta_g^\tw$ in Poisson gauge neglecting terms with line-of-sight integrals. 
+The expressions for $\Delta^\tw_{g\nw}$ and $\Delta^\tw_{g\gr}$ as given in equations~\eqref{eq:DeltaSONewt} and~\eqref{eq:DeltaSOwBGcoeffs}, plus the background coefficients, are derived from equation~\eqref{eq:fulldeltaso}, which is the general formula for $\Delta_g^\tw$ in Poisson gauge neglecting terms with line-of-sight integrals. We choose Poisson gauge here, because at higher orders in perturbation theory, the choice of a gauge for the metric becomes important as the complexity of the calculations increases. 
 
 \subsection{The galaxy number density contrast in Fourier space}
 We only consider correlations at the same fixed observed redshift $z$. At this fixed redshift, the perturbative variables depend on the direction of observation $\n$, and are computed in Fourier space at fixed $\eta(z)$. At fixed redshift and fixed observed direction, we transform $\x = [\eta_0 - \eta(z)]\n + \x_0 \to \k$, which is equivalent to transforming over all observer positions $\x_0$\,. We denote the T-gauge matter density $\delta_{m\mathrm{T}} \equiv \delta$ and expand it in perturbation theory as, 
@@ -292,7 +294,7 @@ In Appendix~\ref{app_betatables}, a table of terms and the corresponding Fourier
 \section{Construction of the galaxy bispectrum}
 The Fourier space observed galaxy bispectrum at a fixed redshift is given by, 
 \begin{equation}
-	\langle \Delta_g(\ka) \Delta_g(\kb) \Delta_g(\kc) \rangle = (2\pi)^3 B_g(\ka,\kb,\kc) \delta^D(\ka+\kb+\kc)
+	\langle \Delta_g(\ka) \Delta_g(\kb) \Delta_g(\kc) \rangle = (2\pi)^3 B_g(\ka,\kb,\kc) \delta^D(\ka+\kb+\kc)\,.
 \end{equation}
 The only terms that contribute to the tree-level bispectrum at second order are, 
 \begin{equation}
@@ -306,7 +308,7 @@ where the factor of 2 on the left hand side originates from the factor of $1/2$ 
 	& + \left[ \langle \Delta_{g\nw}^\on(\ka) \Delta_{g\gr}^\on(\kb) \Delta_{g\nw}^\on(\kc) \rangle + \langle \Delta_{g\nw}^\on(\ka) \Delta_{g\gr}^\on(\kb) \Delta_{g\gr}^\tw(\kc) \rangle \right] \nonumber \\
 	&+ \text{ 2 cyc. perm. }
 \end{align}
-The expression above shows the separation of the bispectrum into the Newtonian and relavitistic observed galaxy number counts-- illustrating that there is a split into a purely Newtonian and a purely GR part (the first two terms on the right hand side of the equality sign), and cross-correlations between Newtonian and GR terms. 
+The expression above shows the separation of the bispectrum into the Newtonian and relativistic observed galaxy number counts-- illustrating that there is a split into a purely Newtonian and a purely GR part (the first two terms on the right hand side of the equality sign), and cross-correlations between Newtonian and GR terms. 
 
 The galaxy bispectrum in terms of Fourier space then follows as, 
 \begin{equation}
@@ -417,7 +419,7 @@ where in each of the above expressions we keep the full GR part in the first-ord
 \begin{equation}
 	B_{g\mathrm{S}}(\ka,\kb,\kc) = \cK^\on(\ka) \cK^\on(\kb) \cK^\tw_\mathrm{S}(\ka,\kb,\kc) P(k_1) P(k_2) + \text{ 2 c.p.}\,,
 \end{equation}
-where simly to above the full $\ord(1)$ GR kernel is included, and $\cK_\mathrm{S}^\tw = \cK_\nw^\tw + \cK_\gr^\tw$.
+where similarly to above the full $\ord(1)$ GR kernel is included, and $\cK_\mathrm{S}^\tw = \cK_\nw^\tw + \cK_\gr^\tw$.
 
 Taking the monopole of the bispectrum as, 
 \begin{equation}
@@ -437,7 +439,7 @@ Cosmological parameters chosen here are $\Omega_{m0} = 1 - \Omega_{\Lambda0} = 0
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=0.9\textwidth]{fig/vectortensor_monopole.pdf}
-	\caption{The separated vector, tensor, and scalar contributions to the monopole of the galaxy bispectrum, with the full GR bispectrum in black for reference. The vector and tensor modes are subdominant at a factor of about 3 smaller than the scalar contributions, except outside the Hubble radius (and where unobservable) where they grow due to their $k$-dependence and where the Newtonian contribution becomes negative as a result of the tidal bias. The tensor contributions (purple) oscillate at small scales as they pick up the BAO.}
+	\caption{The separated vector, tensor, and scalar contributions to the monopole of the galaxy bispectrum, with the full GR bispectrum in black for reference. The vector and tensor modes are subdominant at a factor of about 3 orders of magnitude smaller than the scalar contributions, except outside the Hubble radius (and where unobservable) where they grow due to their $k$-dependence and where the Newtonian contribution becomes negative as a result of the tidal bias. The tensor contributions (purple) oscillate at small scales as they pick up the BAO.}
 	\label{fig:monopolevectortensor}
 \end{figure}
 

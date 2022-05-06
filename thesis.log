@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.7.12)  17 DEC 2021 15:02
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.7.12)  6 MAY 2022 10:49
  restricted system commands enabled.
 **thesis.tex
 (./thesis.tex
@@ -787,9 +787,9 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 LaTeX Info: Redefining \tt on input line 121.
  (./thesis.aux (./tex/abstract.aux) (./tex/conventions.aux)
-(./tex/acknowledgements.aux) (./tex/introgeneral.aux) (./tex/dipole.aux)
-(./tex/detectability.aux) (./tex/higherorder.aux) (./tex/multipoles.aux)
-(./tex/png_bisp.aux) (./tex/summary.aux) (./tex/appendix.aux))
+(./tex/introgeneral.aux) (./tex/dipole.aux) (./tex/detectability.aux)
+(./tex/higherorder.aux) (./tex/multipoles.aux) (./tex/png_bisp.aux)
+(./tex/summary.aux) (./tex/appendix.aux))
 \openout1 = thesis.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 205.
@@ -1047,71 +1047,64 @@ Underfull \hbox (badness 10000) in paragraph at lines 214--214
 
 
 
-]) [6]
-\openout2 = tex/acknowledgements.aux
-
-(./tex/acknowledgements.tex [7
-
-
-
-
-]) [8] (./thesis.toc [9
+]) [6] (./thesis.toc
+[7
 
 
 
 ]
-Overfull \hbox (1.66795pt too wide) detected at line 57
- \TU/lmr/bx/n/12 111
+Overfull \hbox (1.66795pt too wide) detected at line 56
+ \TU/lmr/bx/n/12 112
  []
 
 
-Overfull \hbox (1.66795pt too wide) detected at line 64
+Overfull \hbox (1.66795pt too wide) detected at line 63
  \TU/lmr/bx/n/12 144
  []
 
 
-Overfull \hbox (1.66795pt too wide) detected at line 77
+Overfull \hbox (1.66795pt too wide) detected at line 76
  \TU/lmr/bx/n/12 171
  []
 
 
+Overfull \hbox (1.66795pt too wide) detected at line 77
+ \TU/lmr/bx/n/12 175
+ []
+
+
 Overfull \hbox (1.66795pt too wide) detected at line 78
- \TU/lmr/bx/n/12 173
+ \TU/lmr/bx/n/12 178
  []
 
 
 Overfull \hbox (1.66795pt too wide) detected at line 79
- \TU/lmr/bx/n/12 176
- []
-
-
-Overfull \hbox (1.66795pt too wide) detected at line 80
- \TU/lmr/bx/n/12 184
- []
-
-
-Overfull \hbox (1.66795pt too wide) detected at line 81
  \TU/lmr/bx/n/12 186
  []
 
 
-Overfull \hbox (1.66795pt too wide) detected at line 82
- \TU/lmr/bx/n/12 194
+Overfull \hbox (1.66795pt too wide) detected at line 80
+ \TU/lmr/bx/n/12 188
  []
 
-[10]
-Overfull \hbox (1.66795pt too wide) detected at line 83
+
+Overfull \hbox (1.66795pt too wide) detected at line 81
  \TU/lmr/bx/n/12 196
  []
 
 
-Overfull \hbox (1.66795pt too wide) detected at line 84
- \TU/lmr/bx/n/12 216
+Overfull \hbox (1.66795pt too wide) detected at line 82
+ \TU/lmr/bx/n/12 198
+ []
+
+[8]
+Overfull \hbox (1.66795pt too wide) detected at line 83
+ \TU/lmr/bx/n/12 218
  []
 
 
-Overfull \hbox (1.66795pt too wide) detected at line 85
- \TU/lmr/bx/n/12 223
+Overfull \hbox (1.66795pt too wide) detected at line 84
+ \TU/lmr/bx/n/12 225
  []
 
 )
@@ -1119,124 +1112,124 @@ Overfull \hbox (1.66795pt too wide) detected at line 85
 
 \openout4 = thesis.toc
 Package hyperref Info: Option `pageanchor' set `true' on input line 237.
- [11]
+ [9]
 \openout2 = tex/introgeneral.aux
  (./tex/introgeneral.tex
 chapter 1.
-[12
+[10
 
 
 ]
-<fig/placeholer_energycontent_wmap.png, id=223, 722.7pt x 504.88625pt>
+<fig/placeholer_energycontent_wmap.png, id=214, 722.7pt x 504.88625pt>
 File: fig/placeholer_energycontent_wmap.png Graphic file (type png)
 <use fig/placeholer_energycontent_wmap.png>
 Package luatex.def Info: fig/placeholer_energycontent_wmap.png  used on input l
 ine 19.
 (luatex.def)             Requested size: 256.07741pt x 178.90074pt.
-<fig/history_universe_inverted.png, id=226, 833.0322pt x 564.1878pt>
+<fig/history_universe_inverted.png, id=217, 833.0322pt x 564.1878pt>
 File: fig/history_universe_inverted.png Graphic file (type png)
 <use fig/history_universe_inverted.png>
 Package luatex.def Info: fig/history_universe_inverted.png  used on input line 
 26.
 (luatex.def)             Requested size: 405.45047pt x 274.60355pt.
- [13<./fig/placeholer_energycontent_wmap.png>]
-<fig/Planck_CMB.jpg, id=238, 1927.2pt x 963.6pt>
+ [11<./fig/placeholer_energycontent_wmap.png>]
+<fig/Planck_CMB.jpg, id=230, 1927.2pt x 963.6pt>
 File: fig/Planck_CMB.jpg Graphic file (type jpg)
 <use fig/Planck_CMB.jpg>
 Package luatex.def Info: fig/Planck_CMB.jpg  used on input line 35.
 (luatex.def)             Requested size: 384.1096pt x 192.05493pt.
- [14<./fig/history_universe_inverted.png>]
-<fig/Millennium.png, id=251, 544.10173pt x 309.01656pt>
+ [12<./fig/history_universe_inverted.png>]
+<fig/Millennium.png, id=243, 544.10173pt x 309.01656pt>
 File: fig/Millennium.png Graphic file (type png)
 <use fig/Millennium.png>
 Package luatex.def Info: fig/Millennium.png  used on input line 43.
 (luatex.def)             Requested size: 341.43437pt x 193.91286pt.
- [15<./fig/Planck_CMB.jpg>] [16<./fig/Millennium.png>] [17]
-<fig/sdss.png, id=326, 935.495pt x 915.42pt>
+ [13<./fig/Planck_CMB.jpg>] [14<./fig/Millennium.png>] [15]
+<fig/sdss.png, id=317, 935.495pt x 915.42pt>
 File: fig/sdss.png Graphic file (type png)
 <use fig/sdss.png>
 Package luatex.def Info: fig/sdss.png  used on input line 77.
 (luatex.def)             Requested size: 341.43437pt x 334.10457pt.
 
-[18<./fig/sdss.png>] [19] [20]
-<fig/matterpower_z1.pdf, id=402, 527.98384pt x 497.33932pt>
+[16] [17<./fig/sdss.png>] [18] [19]
+<fig/matterpower_z1.pdf, id=407, 527.98384pt x 497.33932pt>
 File: fig/matterpower_z1.pdf Graphic file (type pdf)
 <use fig/matterpower_z1.pdf>
-Package luatex.def Info: fig/matterpower_z1.pdf  used on input line 148.
+Package luatex.def Info: fig/matterpower_z1.pdf  used on input line 146.
 (luatex.def)             Requested size: 298.75264pt x 281.41461pt.
- [21] [22<./fig/matterpower_z1.pdf>] [23]
-<fig/Equilateral.png, id=461, 714.9912pt x 447.1104pt>
+ [20<./fig/matterpower_z1.pdf>] [21]
+[22]
+<fig/Equilateral.png, id=468, 714.9912pt x 447.1104pt>
 File: fig/Equilateral.png Graphic file (type png)
 <use fig/Equilateral.png>
-Package luatex.def Info: fig/Equilateral.png  used on input line 191.
+Package luatex.def Info: fig/Equilateral.png  used on input line 193.
 (luatex.def)             Requested size: 341.43437pt x 213.51215pt.
-
-[24] [25<./fig/Equilateral.png>]
-<fig/boss_bispmeasurement.png, id=488, 824.58063pt x 687.06688pt>
+ [23<./fig/Equilateral.png>]
+<fig/boss_bispmeasurement.png, id=484, 824.58063pt x 687.06688pt>
 File: fig/boss_bispmeasurement.png Graphic file (type png)
 <use fig/boss_bispmeasurement.png>
-Package luatex.def Info: fig/boss_bispmeasurement.png  used on input line 202.
+Package luatex.def Info: fig/boss_bispmeasurement.png  used on input line 204.
 (luatex.def)             Requested size: 341.43437pt x 284.49841pt.
- [26<./fig/boss_bispmeasurement.png>]
-<fig/ypsnr.png, id=512, 1445.4pt x 1084.05pt>
+<fig/ypsnr.png, id=493, 1445.4pt x 1084.05pt>
 File: fig/ypsnr.png Graphic file (type png)
 <use fig/ypsnr.png>
-Package luatex.def Info: fig/ypsnr.png  used on input line 211.
+Package luatex.def Info: fig/ypsnr.png  used on input line 213.
 (luatex.def)             Requested size: 298.75264pt x 224.06776pt.
- [27<./fig/ypsnr.png>]
+ [24] [25<./fig/boss_bispmeasurement.png>]
 <fig/triangleshapes.png, id=526, 918.93312pt x 206.27063pt>
 File: fig/triangleshapes.png Graphic file (type png)
 <use fig/triangleshapes.png>
-Package luatex.def Info: fig/triangleshapes.png  used on input line 232.
+Package luatex.def Info: fig/triangleshapes.png  used on input line 234.
 (luatex.def)             Requested size: 384.1096pt x 86.22075pt.
- [28<./fig/triangleshapes.png>] [29]
-<fig/limdcartoon.png, id=555, 438.63875pt x 287.0725pt>
+
+[26<./fig/ypsnr.png>] [27<./fig/triangleshapes.png>]
+<fig/limdcartoon.png, id=554, 438.63875pt x 287.0725pt>
 File: fig/limdcartoon.png Graphic file (type png)
 <use fig/limdcartoon.png>
-Package luatex.def Info: fig/limdcartoon.png  used on input line 281.
+Package luatex.def Info: fig/limdcartoon.png  used on input line 283.
 (luatex.def)             Requested size: 341.43437pt x 223.46008pt.
- [30] [31<./fig/limdcartoon.png>]) [32] [33]
+ [28] [29<./fig/limdcartoon.png>] [30]) [31] [32]
 \openout2 = tex/dipole.aux
  (./tex/dipole.tex
 chapter 2.
-[34
+[33
 
 
 
 
-] [35] [36] [37]
-<fig/fig.pdf, id=698, 236.97232pt x 226.03044pt>
+] [34] [35] [36]
+<fig/fig.pdf, id=704, 236.97232pt x 226.03044pt>
 File: fig/fig.pdf Graphic file (type pdf)
 <use fig/fig.pdf>
 Package luatex.def Info: fig/fig.pdf  used on input line 133.
 (luatex.def)             Requested size: 256.07741pt x 244.25407pt.
- [38] [39<./fig/fig.pdf>]
+ [37] [38<./fig/fig.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 161--164
 
  []
 
-[40]
-<fig/figuresv2-02.png, id=753, 1236.0579pt x 673.0746pt>
+[39]
+<fig/figuresv2-02.png, id=759, 1236.0579pt x 673.0746pt>
 File: fig/figuresv2-02.png Graphic file (type png)
 <use fig/figuresv2-02.png>
 Package luatex.def Info: fig/figuresv2-02.png  used on input line 222.
 (luatex.def)             Requested size: 426.79135pt x 232.40611pt.
-<fig/figuresv2-01.png, id=754, 1260.1479pt x 683.4333pt>
+<fig/figuresv2-01.png, id=760, 1260.1479pt x 683.4333pt>
 File: fig/figuresv2-01.png Graphic file (type png)
 <use fig/figuresv2-01.png>
 Package luatex.def Info: fig/figuresv2-01.png  used on input line 230.
 (luatex.def)             Requested size: 426.79135pt x 231.4674pt.
- [41] [42<./fig/figuresv2-02.png>] [43<./fig/figuresv2-01.png>]) [44]
+ [40] [41<./fig/figuresv2-02.png>] [42<./fig/figuresv2-01.png>]) [43]
 \openout2 = tex/detectability.aux
 
 (./tex/detectability.tex
 chapter 3.
-[45
+[44
 
 
 
 
-] [46]
+] [45]
 Overfull \hbox (0.45457pt too wide) detected at line 67
 []
  []
@@ -1246,44 +1239,44 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 67--67
 [] 
  []
 
-[47] [48]
-Overfull \hbox (22.24777pt too wide) detected at line 133
+[46] [47] [48]
+Overfull \hbox (22.24777pt too wide) detected at line 137
 [][][]\OT1/cmr/m/n/12 [[](\OML/cmm/m/it/12 z; k[]; []; '\OT1/cmr/m/n/12 )] = \
 OML/cmm/m/it/12 s[] [] [] []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 z; k[]; []\OT1/c
 mr/m/n/12 )[](\OML/cmm/m/it/12 z; k[]; []\OT1/cmr/m/n/12 )[](\OML/cmm/m/it/12 
 z; k[]; []\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 ;
  []
 
-[49] [50] [51]
-<fig/colournmu1nphi_Doppler-eps-converted-to.pdf, id=947, 867.24pt x 722.7pt>
+[49] [50]
+<fig/colournmu1nphi_Doppler-eps-converted-to.pdf, id=946, 867.24pt x 722.7pt>
 File: fig/colournmu1nphi_Doppler-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/colournmu1nphi_Doppler-eps-converted-to.pdf>
 Package luatex.def Info: fig/colournmu1nphi_Doppler-eps-converted-to.pdf  used 
-on input line 225.
+on input line 229.
 (luatex.def)             Requested size: 384.1096pt x 320.09523pt.
-
+ [51]
 warning  (file fig/b-eps-converted-to.pdf) (pdf inclusion): PDF inclusion: found
  PDF version '1.7', but at most version '1.5' allowed
-<fig/b-eps-converted-to.pdf, id=948, 722.7pt x 578.16pt>
+<fig/b-eps-converted-to.pdf, id=961, 722.7pt x 578.16pt>
 File: fig/b-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/b-eps-converted-to.pdf>
-Package luatex.def Info: fig/b-eps-converted-to.pdf  used on input line 241.
+Package luatex.def Info: fig/b-eps-converted-to.pdf  used on input line 244.
 (luatex.def)             Requested size: 209.1301pt x 167.3004pt.
 
 warning  (file fig/V_n-eps-converted-to.pdf) (pdf inclusion): PDF inclusion: fou
 nd PDF version '1.7', but at most version '1.5' allowed
-<fig/V_n-eps-converted-to.pdf, id=949, 722.7pt x 578.16pt>
+<fig/V_n-eps-converted-to.pdf, id=962, 722.7pt x 578.16pt>
 File: fig/V_n-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/V_n-eps-converted-to.pdf>
-Package luatex.def Info: fig/V_n-eps-converted-to.pdf  used on input line 242.
+Package luatex.def Info: fig/V_n-eps-converted-to.pdf  used on input line 245.
 (luatex.def)             Requested size: 209.1301pt x 167.3004pt.
 
 warning  (file fig/sigma-eps-converted-to.pdf) (pdf inclusion): PDF inclusion: f
 ound PDF version '1.7', but at most version '1.5' allowed
-<fig/sigma-eps-converted-to.pdf, id=950, 722.7pt x 578.16pt>
+<fig/sigma-eps-converted-to.pdf, id=963, 722.7pt x 578.16pt>
 File: fig/sigma-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/sigma-eps-converted-to.pdf>
-Package luatex.def Info: fig/sigma-eps-converted-to.pdf  used on input line 243
+Package luatex.def Info: fig/sigma-eps-converted-to.pdf  used on input line 246
 .
 (luatex.def)             Requested size: 209.1301pt x 167.3004pt.
 [52] [53<./fig/colournmu1nphi_Doppler-eps-converted-to.pdf>] [54<./fig/b-eps-con
@@ -1291,606 +1284,615 @@ verted-to.pdf><./fig/V_n-eps-converted-to.pdf><./fig/sigma-eps-converted-to.pdf>
 ]
 warning  (file fig/beQ-eps-converted-to.pdf) (pdf inclusion): PDF inclusion: fou
 nd PDF version '1.7', but at most version '1.5' allowed
-<fig/beQ-eps-converted-to.pdf, id=1055, 722.7pt x 578.16pt>
+<fig/beQ-eps-converted-to.pdf, id=1065, 722.7pt x 578.16pt>
 File: fig/beQ-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/beQ-eps-converted-to.pdf>
-Package luatex.def Info: fig/beQ-eps-converted-to.pdf  used on input line 295.
+Package luatex.def Info: fig/beQ-eps-converted-to.pdf  used on input line 298.
 (luatex.def)             Requested size: 384.1096pt x 307.28789pt.
 [55<./fig/beQ-eps-converted-to.pdf>]
-Overfull \hbox (7.57774pt too wide) in paragraph at lines 357--361
+Overfull \hbox (7.57774pt too wide) in paragraph at lines 360--364
 \TU/lmr/m/n/12 We can now eval-u-ate the Doppler-type rel-a-tivis-tic part of th
 e bis-pec-trum, []--[],
  []
 
-<fig/snrDoppler-eps-converted-to.pdf, id=1114, 867.24pt x 722.7pt>
+[56] [57]
+<fig/snrDoppler-eps-converted-to.pdf, id=1141, 867.24pt x 722.7pt>
 File: fig/snrDoppler-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/snrDoppler-eps-converted-to.pdf>
 Package luatex.def Info: fig/snrDoppler-eps-converted-to.pdf  used on input lin
-e 370.
+e 373.
 (luatex.def)             Requested size: 341.43437pt x 284.53154pt.
-<fig/CumulativesnrDoppler-eps-converted-to.pdf, id=1115, 867.24pt x 722.7pt>
+<fig/CumulativesnrDoppler-eps-converted-to.pdf, id=1142, 867.24pt x 722.7pt>
 File: fig/CumulativesnrDoppler-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/CumulativesnrDoppler-eps-converted-to.pdf>
 Package luatex.def Info: fig/CumulativesnrDoppler-eps-converted-to.pdf  used on
- input line 371.
+ input line 374.
 (luatex.def)             Requested size: 341.43437pt x 284.53154pt.
-<fig/kmaxsnr-eps-converted-to.pdf, id=1116, 867.24pt x 722.7pt>
+<fig/kmaxsnr-eps-converted-to.pdf, id=1143, 867.24pt x 722.7pt>
 File: fig/kmaxsnr-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/kmaxsnr-eps-converted-to.pdf>
 Package luatex.def Info: fig/kmaxsnr-eps-converted-to.pdf  used on input line 3
-76.
+79.
 (luatex.def)             Requested size: 341.43437pt x 284.53154pt.
-<fig/kmaxcumsnr-eps-converted-to.pdf, id=1117, 867.24pt x 722.7pt>
+<fig/kmaxcumsnr-eps-converted-to.pdf, id=1144, 867.24pt x 722.7pt>
 File: fig/kmaxcumsnr-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/kmaxcumsnr-eps-converted-to.pdf>
 Package luatex.def Info: fig/kmaxcumsnr-eps-converted-to.pdf  used on input lin
-e 377.
+e 380.
 (luatex.def)             Requested size: 341.43437pt x 284.53154pt.
-[56] [57]
-<fig/cumulativeSnrdopplerQ0_0-eps-converted-to.pdf, id=1135, 867.24pt x 722.7pt
+<fig/cumulativeSnrdopplerQ0_0-eps-converted-to.pdf, id=1146, 867.24pt x 722.7pt
 >
 File: fig/cumulativeSnrdopplerQ0_0-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/cumulativeSnrdopplerQ0_0-eps-converted-to.pdf>
 Package luatex.def Info: fig/cumulativeSnrdopplerQ0_0-eps-converted-to.pdf  use
-d on input line 385.
+d on input line 388.
 (luatex.def)             Requested size: 209.1301pt x 174.26758pt.
-<fig/cumulativeSnrdopplerQ0_5-eps-converted-to.pdf, id=1136, 867.24pt x 722.7pt
+<fig/cumulativeSnrdopplerQ0_5-eps-converted-to.pdf, id=1147, 867.24pt x 722.7pt
 >
 File: fig/cumulativeSnrdopplerQ0_5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/cumulativeSnrdopplerQ0_5-eps-converted-to.pdf>
 Package luatex.def Info: fig/cumulativeSnrdopplerQ0_5-eps-converted-to.pdf  use
-d on input line 386.
+d on input line 389.
 (luatex.def)             Requested size: 209.1301pt x 174.26758pt.
-<fig/cumulativeSnrdopplerQ1_5-eps-converted-to.pdf, id=1137, 867.24pt x 722.7pt
+<fig/cumulativeSnrdopplerQ1_5-eps-converted-to.pdf, id=1148, 867.24pt x 722.7pt
 >
 File: fig/cumulativeSnrdopplerQ1_5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/cumulativeSnrdopplerQ1_5-eps-converted-to.pdf>
 Package luatex.def Info: fig/cumulativeSnrdopplerQ1_5-eps-converted-to.pdf  use
-d on input line 387.
+d on input line 390.
 (luatex.def)             Requested size: 209.1301pt x 174.26758pt.
-<fig/cumulativeSnrdopplerQ2_0-eps-converted-to.pdf, id=1138, 867.24pt x 722.7pt
+<fig/cumulativeSnrdopplerQ2_0-eps-converted-to.pdf, id=1149, 867.24pt x 722.7pt
 >
 File: fig/cumulativeSnrdopplerQ2_0-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/cumulativeSnrdopplerQ2_0-eps-converted-to.pdf>
 Package luatex.def Info: fig/cumulativeSnrdopplerQ2_0-eps-converted-to.pdf  use
-d on input line 388.
+d on input line 391.
 (luatex.def)             Requested size: 209.1301pt x 174.26758pt.
-<fig/cumDoppSnr_kmin-eps-converted-to.pdf, id=1141, 867.24pt x 722.7pt>
+<fig/cumDoppSnr_kmin-eps-converted-to.pdf, id=1152, 867.24pt x 722.7pt>
 File: fig/cumDoppSnr_kmin-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/cumDoppSnr_kmin-eps-converted-to.pdf>
 Package luatex.def Info: fig/cumDoppSnr_kmin-eps-converted-to.pdf  used on inpu
-t line 399.
+t line 402.
 (luatex.def)             Requested size: 384.1096pt x 320.09523pt.
-<fig/DoppSnr_K2D-eps-converted-to.pdf, id=1146, 867.24pt x 722.7pt>
+ [58]
+Overfull \vbox (11.64566pt too high) has occurred while \output is active []
+
+
+[59<./fig/snrDoppler-eps-converted-to.pdf><./fig/CumulativesnrDoppler-eps-conver
+ted-to.pdf>]
+<fig/DoppSnr_K2D-eps-converted-to.pdf, id=1197, 867.24pt x 722.7pt>
 File: fig/DoppSnr_K2D-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/DoppSnr_K2D-eps-converted-to.pdf>
 Package luatex.def Info: fig/DoppSnr_K2D-eps-converted-to.pdf  used on input li
-ne 415.
+ne 418.
 (luatex.def)             Requested size: 341.43437pt x 284.53154pt.
-<fig/cumDoppSnr_K2D-eps-converted-to.pdf, id=1147, 867.24pt x 722.7pt>
+<fig/cumDoppSnr_K2D-eps-converted-to.pdf, id=1198, 867.24pt x 722.7pt>
 File: fig/cumDoppSnr_K2D-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/cumDoppSnr_K2D-eps-converted-to.pdf>
 Package luatex.def Info: fig/cumDoppSnr_K2D-eps-converted-to.pdf  used on input
- line 416.
+ line 419.
 (luatex.def)             Requested size: 341.43437pt x 284.53154pt.
- [58] [59<./fig/snrDoppler-eps-converted-to.pdf><./fig/CumulativesnrDoppler-eps-
-converted-to.pdf>] [60<./fig/kmaxsnr-eps-converted-to.pdf><./fig/kmaxcumsnr-eps-
-converted-to.pdf>] [61<./fig/cumulativeSnrdopplerQ0_0-eps-converted-to.pdf><./fi
-g/cumulativeSnrdopplerQ0_5-eps-converted-to.pdf><./fig/cumulativeSnrdopplerQ1_5-
-eps-converted-to.pdf><./fig/cumulativeSnrdopplerQ2_0-eps-converted-to.pdf>]
-<fig/gamma_sigma8_AD-eps-converted-to.pdf, id=1298, 867.24pt x 722.7pt>
+ [60<./fig/kmaxsnr-eps-converted-to.pdf><./fig/kmaxcumsnr-eps-converted-to.pdf>] [61<./fig/cumulativeSnrdopplerQ0_0-eps-converted-to.pdf><./fig/cumulativeSnrdopplerQ0_5-eps-converted-to.pdf><./fig/cumulativeSnrdopplerQ1_5-eps-converted-to.pdf><./fig/cumulativeSnrdopplerQ2_0-eps-converted-to.pdf>]
+<fig/gamma_sigma8_AD-eps-converted-to.pdf, id=1309, 867.24pt x 722.7pt>
 File: fig/gamma_sigma8_AD-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/gamma_sigma8_AD-eps-converted-to.pdf>
 Package luatex.def Info: fig/gamma_sigma8_AD-eps-converted-to.pdf  used on inpu
-t line 443.
+t line 446.
 (luatex.def)             Requested size: 384.1096pt x 320.09523pt.
- [62<./fig/cumDoppSnr_kmin-eps-converted-to.pdf>] [63<./fig/DoppSnr_K2D-eps-conv
-erted-to.pdf><./fig/cumDoppSnr_K2D-eps-converted-to.pdf>] [64<./fig/gamma_sigma8
-_AD-eps-converted-to.pdf>] [65]
-<fig/model3ngbeq.png, id=1381, 729.72626pt x 573.64313pt>
+
+[62<./fig/cumDoppSnr_kmin-eps-converted-to.pdf>] [63<./fig/DoppSnr_K2D-eps-conve
+rted-to.pdf><./fig/cumDoppSnr_K2D-eps-converted-to.pdf>] [64<./fig/gamma_sigma8_
+AD-eps-converted-to.pdf>] [65]
+<fig/model3ngbeq.png, id=1390, 729.72626pt x 573.64313pt>
 File: fig/model3ngbeq.png Graphic file (type png)
 <use fig/model3ngbeq.png>
-Package luatex.def Info: fig/model3ngbeq.png  used on input line 503.
+Package luatex.def Info: fig/model3ngbeq.png  used on input line 506.
 (luatex.def)             Requested size: 384.1096pt x 301.94617pt.
-<fig/model3_perzbin.pdf, id=1386, 511.89336pt x 494.89627pt>
+<fig/model3_perzbin.pdf, id=1395, 511.89336pt x 494.89627pt>
 File: fig/model3_perzbin.pdf Graphic file (type pdf)
 <use fig/model3_perzbin.pdf>
-Package luatex.def Info: fig/model3_perzbin.pdf  used on input line 511.
+Package luatex.def Info: fig/model3_perzbin.pdf  used on input line 514.
 (luatex.def)             Requested size: 204.85802pt x 198.05316pt.
-<fig/model3_cum.pdf, id=1387, 507.81354pt x 494.89627pt>
+<fig/model3_cum.pdf, id=1396, 507.81354pt x 494.89627pt>
 File: fig/model3_cum.pdf Graphic file (type pdf)
 <use fig/model3_cum.pdf>
-Package luatex.def Info: fig/model3_cum.pdf  used on input line 512.
+Package luatex.def Info: fig/model3_cum.pdf  used on input line 515.
 (luatex.def)             Requested size: 204.85802pt x 199.64653pt.
- [66<./fig/model3ngbeq.png>] [67<./fig/model3_perzbin.pdf><./fig/model3_cum.pdf>
-] [68] [69] [70]
-<fig/HIBias.pdf, id=1530, 1084.05pt x 1084.05pt>
+ [66] [67<./fig/model3ngbeq.png>] [68<./fig/model3_perzbin.pdf><./fig/model3_cum
+.pdf>] [69] [70] [71]
+<fig/HIBias.pdf, id=1556, 1084.05pt x 1084.05pt>
 File: fig/HIBias.pdf Graphic file (type pdf)
 <use fig/HIBias.pdf>
-Package luatex.def Info: fig/HIBias.pdf  used on input line 627.
+Package luatex.def Info: fig/HIBias.pdf  used on input line 633.
 (luatex.def)             Requested size: 209.1301pt x 209.11447pt.
-<fig/THI.pdf, id=1531, 1084.05pt x 1084.05pt>
+<fig/THI.pdf, id=1557, 1084.05pt x 1084.05pt>
 File: fig/THI.pdf Graphic file (type pdf)
 <use fig/THI.pdf>
-Package luatex.def Info: fig/THI.pdf  used on input line 628.
+Package luatex.def Info: fig/THI.pdf  used on input line 634.
 (luatex.def)             Requested size: 209.1301pt x 209.11447pt.
- [71<./fig/HIBias.pdf><./fig/THI.pdf>] [72]
-Overfull \hbox (0.559pt too wide) detected at line 691
+ [72<./fig/HIBias.pdf><./fig/THI.pdf>] [73]
+Overfull \hbox (0.559pt too wide) detected at line 700
 []
  []
 
-[73] [74] [75] [76]
-<fig/kplane.pdf, id=1719, 1084.05pt x 1084.05pt>
+[74]
+Overfull \hbox (24.85825pt too wide) in paragraph at lines 737--739
+\TU/lmr/m/n/12 ping. All sources of ra-dio emis-sion within our ob-serv-ing band
+ make up the contamination--
+ []
+
+[75] [76] [77]
+<fig/kplane.pdf, id=1747, 1084.05pt x 1084.05pt>
 File: fig/kplane.pdf Graphic file (type pdf)
 <use fig/kplane.pdf>
-Package luatex.def Info: fig/kplane.pdf  used on input line 786.
+Package luatex.def Info: fig/kplane.pdf  used on input line 795.
 (luatex.def)             Requested size: 341.43437pt x 341.42793pt.
- [77<./fig/kplane.pdf>] [78]
-Overfull \hbox (2.7405pt too wide) in paragraph at lines 865--865
+ [78<./fig/kplane.pdf>] [79]
+Overfull \hbox (2.7405pt too wide) in paragraph at lines 874--874
 []|$\OML/cmm/m/it/10 f[]$| 
  []
 
 
-Overfull \hbox (8.64764pt too wide) in paragraph at lines 865--865
+Overfull \hbox (8.64764pt too wide) in paragraph at lines 874--874
 []|$\OML/cmm/m/it/10 t[]$| 
  []
 
 
-Overfull \hbox (5.0703pt too wide) in paragraph at lines 865--865
+Overfull \hbox (5.0703pt too wide) in paragraph at lines 874--874
 []|$\OML/cmm/m/it/10 T[]$| 
  []
 
 
-Overfull \hbox (1.81525pt too wide) in paragraph at lines 865--865
+Overfull \hbox (1.81525pt too wide) in paragraph at lines 874--874
 []|$\OML/cmm/m/it/10 D[]$| 
  []
 
 
-Overfull \hbox (1.5708pt too wide) in paragraph at lines 865--865
+Overfull \hbox (1.5708pt too wide) in paragraph at lines 874--874
 []|$\OML/cmm/m/it/10 N[]$| 
  []
 
 
-Overfull \hbox (12.15424pt too wide) in paragraph at lines 865--866
+Overfull \hbox (12.15424pt too wide) in paragraph at lines 874--875
 []|$\OML/cmm/m/it/10 D[]$| 
  []
 
 
-Overfull \hbox (11.5757pt too wide) in paragraph at lines 866--866
+Overfull \hbox (11.5757pt too wide) in paragraph at lines 875--875
 []|\TU/lmr/m/n/10 [$\OT1/cmr/m/n/10 10[]$
  []
 
 
-Overfull \hbox (6.56953pt too wide) in paragraph at lines 866--866
+Overfull \hbox (6.56953pt too wide) in paragraph at lines 875--875
 \TU/lmr/m/n/10 hr]| 
  []
 
 
-Overfull \hbox (7.64954pt too wide) in paragraph at lines 866--866
+Overfull \hbox (7.64954pt too wide) in paragraph at lines 875--875
 []|\TU/lmr/m/n/10 [K]| 
  []
 
 
-Overfull \hbox (2.50908pt too wide) in paragraph at lines 866--866
+Overfull \hbox (2.50908pt too wide) in paragraph at lines 875--875
 []|\TU/lmr/m/n/10 [m]| 
  []
 
 
-Overfull \hbox (2.50908pt too wide) in paragraph at lines 866--867
+Overfull \hbox (2.50908pt too wide) in paragraph at lines 875--876
 []|\TU/lmr/m/n/10 [m]| 
  []
 
 
-Overfull \hbox (6.41678pt too wide) in paragraph at lines 868--868
+Overfull \hbox (6.41678pt too wide) in paragraph at lines 877--877
 []|\TU/lmr/m/n/10 0.10--0.58| 
  []
 
 
-Overfull \hbox (3.55363pt too wide) in paragraph at lines 868--868
+Overfull \hbox (3.55363pt too wide) in paragraph at lines 877--877
 []|\TU/lmr/m/n/10 0.10| 
  []
 
 
-Overfull \hbox (6.39908pt too wide) in paragraph at lines 868--868
+Overfull \hbox (6.39908pt too wide) in paragraph at lines 877--877
 []|\TU/lmr/m/n/10 13.5| 
  []
 
 
-Overfull \hbox (6.41678pt too wide) in paragraph at lines 869--869
+Overfull \hbox (6.41678pt too wide) in paragraph at lines 878--878
 []|\TU/lmr/m/n/10 0.40--1.45| 
  []
 
 
-Overfull \hbox (3.55363pt too wide) in paragraph at lines 869--869
+Overfull \hbox (3.55363pt too wide) in paragraph at lines 878--878
 []|\TU/lmr/m/n/10 0.10| 
  []
 
 
-Overfull \hbox (6.39908pt too wide) in paragraph at lines 869--869
+Overfull \hbox (6.39908pt too wide) in paragraph at lines 878--878
 []|\TU/lmr/m/n/10 13.5| 
  []
 
 
-Overfull \hbox (6.41678pt too wide) in paragraph at lines 870--870
+Overfull \hbox (6.41678pt too wide) in paragraph at lines 879--879
 []|\TU/lmr/m/n/10 0.35--3.05| 
  []
 
 
-Overfull \hbox (3.55363pt too wide) in paragraph at lines 870--870
+Overfull \hbox (3.55363pt too wide) in paragraph at lines 879--879
 []|\TU/lmr/m/n/10 0.48| 
  []
 
 
-Overfull \hbox (4.30954pt too wide) in paragraph at lines 870--870
+Overfull \hbox (4.30954pt too wide) in paragraph at lines 879--879
 []|\TU/lmr/m/n/10 10| 
  []
 
 
-Overfull \hbox (6.39908pt too wide) in paragraph at lines 870--870
+Overfull \hbox (6.39908pt too wide) in paragraph at lines 879--879
 []|\TU/lmr/m/n/10 15.0| 
  []
 
 
-Overfull \hbox (3.61908pt too wide) in paragraph at lines 870--870
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 879--879
 []|\TU/lmr/m/n/10 197| 
  []
 
 
-Overfull \hbox (6.41678pt too wide) in paragraph at lines 871--871
+Overfull \hbox (6.41678pt too wide) in paragraph at lines 880--880
 []|\TU/lmr/m/n/10 0.10--0.49| 
  []
 
 
-Overfull \hbox (3.55363pt too wide) in paragraph at lines 871--871
+Overfull \hbox (3.55363pt too wide) in paragraph at lines 880--880
 []|\TU/lmr/m/n/10 0.48| 
  []
 
 
-Overfull \hbox (4.30954pt too wide) in paragraph at lines 871--871
+Overfull \hbox (4.30954pt too wide) in paragraph at lines 880--880
 []|\TU/lmr/m/n/10 10| 
  []
 
 
-Overfull \hbox (6.39908pt too wide) in paragraph at lines 871--871
+Overfull \hbox (6.39908pt too wide) in paragraph at lines 880--880
 []|\TU/lmr/m/n/10 15.0| 
  []
 
 
-Overfull \hbox (3.61908pt too wide) in paragraph at lines 871--871
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 880--880
 []|\TU/lmr/m/n/10 197| 
  []
 
 
-Overfull \hbox (6.41678pt too wide) in paragraph at lines 872--872
+Overfull \hbox (6.41678pt too wide) in paragraph at lines 881--881
 []|\TU/lmr/m/n/10 0.75--2.00| 
  []
 
 
-Overfull \hbox (3.55363pt too wide) in paragraph at lines 872--872
+Overfull \hbox (3.55363pt too wide) in paragraph at lines 881--881
 []|\TU/lmr/m/n/10 0.36| 
  []
 
 
-Overfull \hbox (4.30954pt too wide) in paragraph at lines 872--872
+Overfull \hbox (4.30954pt too wide) in paragraph at lines 881--881
 []|\TU/lmr/m/n/10 10| 
  []
 
 
-Overfull \hbox (4.30954pt too wide) in paragraph at lines 872--872
+Overfull \hbox (4.30954pt too wide) in paragraph at lines 881--881
 []|\TU/lmr/m/n/10 50| 
  []
 
 
-Overfull \hbox (1.39908pt too wide) in paragraph at lines 872--872
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 881--881
 []|\TU/lmr/m/n/10 6.0| 
  []
 
 
-Overfull \hbox (8.61908pt too wide) in paragraph at lines 872--872
+Overfull \hbox (8.61908pt too wide) in paragraph at lines 881--881
 []|\TU/lmr/m/n/10 1024| 
  []
 
 
-Overfull \hbox (3.61908pt too wide) in paragraph at lines 872--873
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 881--882
 []|\TU/lmr/m/n/10 270| 
  []
 
 
-Overfull \hbox (6.41678pt too wide) in paragraph at lines 873--873
+Overfull \hbox (6.41678pt too wide) in paragraph at lines 882--882
 []|\TU/lmr/m/n/10 2.00--6.00| 
  []
 
 
-Overfull \hbox (3.55363pt too wide) in paragraph at lines 873--873
+Overfull \hbox (3.55363pt too wide) in paragraph at lines 882--882
 []|\TU/lmr/m/n/10 0.50| 
  []
 
 
-Overfull \hbox (4.30954pt too wide) in paragraph at lines 873--873
+Overfull \hbox (4.30954pt too wide) in paragraph at lines 882--882
 []|\TU/lmr/m/n/10 40| 
  []
 
 
-Overfull \hbox (4.30954pt too wide) in paragraph at lines 873--873
+Overfull \hbox (4.30954pt too wide) in paragraph at lines 882--882
 []|\TU/lmr/m/n/10 50| 
  []
 
 
-Overfull \hbox (1.39908pt too wide) in paragraph at lines 873--873
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 882--882
 []|\TU/lmr/m/n/10 6.0| 
  []
 
 
-Overfull \hbox (8.61908pt too wide) in paragraph at lines 873--873
+Overfull \hbox (8.61908pt too wide) in paragraph at lines 882--882
 []|\TU/lmr/m/n/10 5000| 
  []
 
 
-Overfull \hbox (3.61908pt too wide) in paragraph at lines 873--874
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 882--883
 []|\TU/lmr/m/n/10 600| 
  []
 
-
-Overfull \hbox (12.7472pt too wide) in paragraph at lines 885--885
+[80]
+Overfull \hbox (12.7472pt too wide) in paragraph at lines 894--894
 []|\TU/lmr/m/n/12 0.4847| 
  []
 
 
-Overfull \hbox (22.05507pt too wide) in paragraph at lines 885--885
+Overfull \hbox (22.05507pt too wide) in paragraph at lines 894--894
 []|$\OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 3300$| 
  []
 
 
-Overfull \hbox (12.7472pt too wide) in paragraph at lines 885--885
+Overfull \hbox (12.7472pt too wide) in paragraph at lines 894--894
 []|\TU/lmr/m/n/12 1.3157| 
  []
 
 
-Overfull \hbox (12.7472pt too wide) in paragraph at lines 885--885
+Overfull \hbox (12.7472pt too wide) in paragraph at lines 894--894
 []|\TU/lmr/m/n/12 1.5974| 
  []
 
 
-Overfull \hbox (12.7472pt too wide) in paragraph at lines 885--885
+Overfull \hbox (12.7472pt too wide) in paragraph at lines 894--894
 []|\TU/lmr/m/n/12 6.8390| 
  []
 
 
-Overfull \hbox (12.7472pt too wide) in paragraph at lines 886--886
+Overfull \hbox (12.7472pt too wide) in paragraph at lines 895--895
 []|\TU/lmr/m/n/12 0.5698| 
  []
 
 
-Overfull \hbox (22.05507pt too wide) in paragraph at lines 886--886
+Overfull \hbox (22.05507pt too wide) in paragraph at lines 895--895
 []|$\OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 5274$| 
  []
 
 
-Overfull \hbox (12.7472pt too wide) in paragraph at lines 886--886
+Overfull \hbox (12.7472pt too wide) in paragraph at lines 895--895
 []|\TU/lmr/m/n/12 0.8358| 
  []
 
 
-Overfull \hbox (12.7472pt too wide) in paragraph at lines 886--886
+Overfull \hbox (12.7472pt too wide) in paragraph at lines 895--895
 []|\TU/lmr/m/n/12 1.6635| 
  []
 
 
-Overfull \hbox (12.7472pt too wide) in paragraph at lines 886--886
+Overfull \hbox (12.7472pt too wide) in paragraph at lines 895--895
 []|\TU/lmr/m/n/12 7.3177| 
  []
 
 
-Overfull \hbox (3.41365pt too wide) in paragraph at lines 886--887
+Overfull \hbox (3.41365pt too wide) in paragraph at lines 895--896
 []|\TU/lmr/m/n/12 100| 
  []
 
-<fig/tSys.pdf, id=1809, 1084.05pt x 1084.05pt>
+<fig/tSys.pdf, id=1851, 1084.05pt x 1084.05pt>
 File: fig/tSys.pdf Graphic file (type pdf)
 <use fig/tSys.pdf>
-Package luatex.def Info: fig/tSys.pdf  used on input line 964.
+Package luatex.def Info: fig/tSys.pdf  used on input line 973.
 (luatex.def)             Requested size: 341.43437pt x 341.42793pt.
-[79]
-<fig/k.pdf, id=1835, 1084.05pt x 1084.05pt>
+<fig/k.pdf, id=1859, 1084.05pt x 1084.05pt>
 File: fig/k.pdf Graphic file (type pdf)
 <use fig/k.pdf>
-Package luatex.def Info: fig/k.pdf  used on input line 977.
+Package luatex.def Info: fig/k.pdf  used on input line 986.
 (luatex.def)             Requested size: 341.43437pt x 341.42793pt.
-<fig/nbHIRAX.pdf, id=1840, 1084.05pt x 1084.05pt>
+<fig/nbHIRAX.pdf, id=1864, 1084.05pt x 1084.05pt>
 File: fig/nbHIRAX.pdf Graphic file (type pdf)
 <use fig/nbHIRAX.pdf>
-Package luatex.def Info: fig/nbHIRAX.pdf  used on input line 982.
+Package luatex.def Info: fig/nbHIRAX.pdf  used on input line 991.
 (luatex.def)             Requested size: 209.1301pt x 209.11447pt.
-<fig/nbPUMAPetite.pdf, id=1841, 1084.05pt x 1084.05pt>
+<fig/nbPUMAPetite.pdf, id=1865, 1084.05pt x 1084.05pt>
 File: fig/nbPUMAPetite.pdf Graphic file (type pdf)
 <use fig/nbPUMAPetite.pdf>
-Package luatex.def Info: fig/nbPUMAPetite.pdf  used on input line 983.
+Package luatex.def Info: fig/nbPUMAPetite.pdf  used on input line 992.
 (luatex.def)             Requested size: 209.1301pt x 209.11447pt.
-<fig/Pnoise.pdf, id=1842, 1084.05pt x 1084.05pt>
+<fig/Pnoise.pdf, id=1866, 1084.05pt x 1084.05pt>
 File: fig/Pnoise.pdf Graphic file (type pdf)
 <use fig/Pnoise.pdf>
-Package luatex.def Info: fig/Pnoise.pdf  used on input line 989.
+Package luatex.def Info: fig/Pnoise.pdf  used on input line 998.
 (luatex.def)             Requested size: 341.43437pt x 341.42793pt.
-<fig/snrSingleDishDopplerBg.pdf, id=1851, 1084.05pt x 1084.05pt>
+[81] [82]
+<fig/snrSingleDishDopplerBg.pdf, id=1896, 1084.05pt x 1084.05pt>
 File: fig/snrSingleDishDopplerBg.pdf Graphic file (type pdf)
 <use fig/snrSingleDishDopplerBg.pdf>
-Package luatex.def Info: fig/snrSingleDishDopplerBg.pdf  used on input line 100
-8.
+Package luatex.def Info: fig/snrSingleDishDopplerBg.pdf  used on input line 101
+7.
 (luatex.def)             Requested size: 209.1301pt x 209.11447pt.
-<fig/snrSingleDishCumDopplerBg.pdf, id=1852, 1084.05pt x 1084.05pt>
+<fig/snrSingleDishCumDopplerBg.pdf, id=1897, 1084.05pt x 1084.05pt>
 File: fig/snrSingleDishCumDopplerBg.pdf Graphic file (type pdf)
 <use fig/snrSingleDishCumDopplerBg.pdf>
 Package luatex.def Info: fig/snrSingleDishCumDopplerBg.pdf  used on input line 
-1009.
+1018.
 (luatex.def)             Requested size: 209.1301pt x 209.11447pt.
- [80] [81] [82<./fig/tSys.pdf>] [83<./fig/k.pdf>] [84<./fig/nbHIRAX.pdf><./fig/n
-bPUMAPetite.pdf><./fig/Pnoise.pdf>]
-<fig/snrInterferometerHIRAXCumDopplerBg.pdf, id=1977, 1084.05pt x 1084.05pt>
+ [83<./fig/tSys.pdf>] [84<./fig/k.pdf>] [85<./fig/nbHIRAX.pdf><./fig/nbPUMAPetit
+e.pdf><./fig/Pnoise.pdf>]
+<fig/snrInterferometerHIRAXCumDopplerBg.pdf, id=2005, 1084.05pt x 1084.05pt>
 File: fig/snrInterferometerHIRAXCumDopplerBg.pdf Graphic file (type pdf)
 <use fig/snrInterferometerHIRAXCumDopplerBg.pdf>
 Package luatex.def Info: fig/snrInterferometerHIRAXCumDopplerBg.pdf  used on in
-put line 1045.
+put line 1054.
 (luatex.def)             Requested size: 209.1301pt x 209.11447pt.
-<fig/snrInterferometerPUMAPetiteCumDopplerBg.pdf, id=1978, 1084.05pt x 1084.05p
+<fig/snrInterferometerPUMAPetiteCumDopplerBg.pdf, id=2006, 1084.05pt x 1084.05p
 t>
 File: fig/snrInterferometerPUMAPetiteCumDopplerBg.pdf Graphic file (type pdf)
 <use fig/snrInterferometerPUMAPetiteCumDopplerBg.pdf>
 Package luatex.def Info: fig/snrInterferometerPUMAPetiteCumDopplerBg.pdf  used 
-on input line 1046.
+on input line 1055.
 (luatex.def)             Requested size: 209.1301pt x 209.11447pt.
- [85<./fig/snrSingleDishDopplerBg.pdf><./fig/snrSingleDishCumDopplerBg.pdf>] [8
-6<./fig/snrInterferometerHIRAXCumDopplerBg.pdf><./fig/snrInterferometerPUMAPetit
-eCumDopplerBg.pdf>] [87] [88])
-[89]
+ [86<./fig/snrSingleDishDopplerBg.pdf><./fig/snrSingleDishCumDopplerBg.pdf>] [8
+7<./fig/snrInterferometerHIRAXCumDopplerBg.pdf><./fig/snrInterferometerPUMAPetit
+eCumDopplerBg.pdf>] [88] [89]) [90]
 \openout2 = tex/higherorder.aux
- (./tex/higherorder.tex
+
+(./tex/higherorder.tex
 chapter 4.
-[90
+[91
 
 
 
 
-] [91] [92]
-Overfull \hbox (11.49275pt too wide) detected at line 61
+] [92] [93]
+Overfull \hbox (11.49275pt too wide) detected at line 63
 []
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 61--61
+Overfull \hbox (12.0pt too wide) in paragraph at lines 63--63
 [] 
  []
 
-[93] [94]
-Overfull \hbox (12.0pt too wide) in paragraph at lines 120--120
+[94] [95]
+Overfull \hbox (12.0pt too wide) in paragraph at lines 122--122
 [] 
  []
 
-[95] [96] [97] [98] [99] [100] [101] [102]
-<fig/sj_monopole_bg.png, id=2306, 802.49812pt x 617.30624pt>
+[96] [97] [98] [99] [100] [101] [102] [103]
+<fig/sj_monopole_bg.png, id=2333, 802.49812pt x 617.30624pt>
 File: fig/sj_monopole_bg.png Graphic file (type png)
 <use fig/sj_monopole_bg.png>
-Package luatex.def Info: fig/sj_monopole_bg.png  used on input line 324.
+Package luatex.def Info: fig/sj_monopole_bg.png  used on input line 326.
 (luatex.def)             Requested size: 341.43437pt x 262.64839pt.
- [103<./fig/sj_monopole_bg.png>]
-<fig/sj_fnleff.png, id=2324, 798.985pt x 617.30624pt>
+ [104]
+<fig/sj_fnleff.png, id=2351, 798.985pt x 617.30624pt>
 File: fig/sj_fnleff.png Graphic file (type png)
 <use fig/sj_fnleff.png>
-Package luatex.def Info: fig/sj_fnleff.png  used on input line 346.
+Package luatex.def Info: fig/sj_fnleff.png  used on input line 348.
 (luatex.def)             Requested size: 341.43437pt x 263.79755pt.
-
-[104] [105<./fig/sj_fnleff.png>] [106] [107] [108]
-<fig/vectortensor_monopole.pdf, id=2406, 578.16pt x 433.62pt>
+ [105<./fig/sj_monopole_bg.png>] [106<./fig/sj_fnleff.png>] [107] [108] [109]
+<fig/vectortensor_monopole.pdf, id=2431, 578.16pt x 433.62pt>
 File: fig/vectortensor_monopole.pdf Graphic file (type pdf)
 <use fig/vectortensor_monopole.pdf>
-Package luatex.def Info: fig/vectortensor_monopole.pdf  used on input line 439.
+Package luatex.def Info: fig/vectortensor_monopole.pdf  used on input line 441.
 
 (luatex.def)             Requested size: 384.1096pt x 288.0824pt.
- [109<./fig/vectortensor_monopole.pdf>]) [110]
+ [110<./fig/vectortensor_monopole.pdf>]) [111]
 \openout2 = tex/multipoles.aux
  (./tex/multipoles.tex
 chapter 5.
-[111
+[112
 
 
 
 
-] [112] [113] [114] [115] [116] [117]
+] [113] [114] [115] [116] [117]
 File: fig/fig.pdf Graphic file (type pdf)
 <use fig/fig.pdf>
-Package luatex.def Info: fig/fig.pdf  used on input line 146.
+Package luatex.def Info: fig/fig.pdf  used on input line 144.
 (luatex.def)             Requested size: 256.07741pt x 244.25407pt.
- [118] [119] [120] [121] [122]
-[123] [124] [125] [126] [127] [128]
-<fig/overview.pdf, id=2701, 752.8125pt x 883.3pt>
+ [118] [119] [120] [121] [122] [123]
+[124] [125] [126] [127] [128] [129]
+<fig/overview.pdf, id=2728, 752.8125pt x 883.3pt>
 File: fig/overview.pdf Graphic file (type pdf)
 <use fig/overview.pdf>
-Package luatex.def Info: fig/overview.pdf  used on input line 566.
-(luatex.def)             Requested size: 298.75264pt x 350.53726pt.
- [129] [130] [131] [132] [133]
-Overfull \hbox (19.87552pt too wide) in paragraph at lines 666--667
+Package luatex.def Info: fig/overview.pdf  used on input line 564.
+(luatex.def)             Requested size: 256.07741pt x 300.4663pt.
+ [130] [131<./fig/overview.pdf>] [132]
+[133]
+Overfull \hbox (19.87552pt too wide) in paragraph at lines 664--665
 [] \OML/cmm/m/it/12 f\OT1/cmr/m/n/12 / [] 
 [] = 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 545$\TU/lmr/m/n/12 . The lin-ear mat-ter
  power spec-trum is cal-cu-lated us-ing CAMB [[]]. 
  []
 
-[134] [135] [136<./fig/overview.pdf>]
-<fig/totP_Euclid_sq2.pdf, id=2820, 660.97467pt x 516.15562pt>
+[134] [135] [136]
+<fig/totP_Euclid_sq2.pdf, id=2843, 660.97467pt x 516.15562pt>
 File: fig/totP_Euclid_sq2.pdf Graphic file (type pdf)
 <use fig/totP_Euclid_sq2.pdf>
-Package luatex.def Info: fig/totP_Euclid_sq2.pdf  used on input line 699.
+Package luatex.def Info: fig/totP_Euclid_sq2.pdf  used on input line 697.
 (luatex.def)             Requested size: 163.24774pt x 127.47916pt.
-<fig/totP_IM_sq2.pdf, id=2821, 660.97467pt x 513.41876pt>
+<fig/totP_IM_sq2.pdf, id=2844, 660.97467pt x 513.41876pt>
 File: fig/totP_IM_sq2.pdf Graphic file (type pdf)
 <use fig/totP_IM_sq2.pdf>
-Package luatex.def Info: fig/totP_IM_sq2.pdf  used on input line 703.
+Package luatex.def Info: fig/totP_IM_sq2.pdf  used on input line 701.
 (luatex.def)             Requested size: 163.24774pt x 126.8032pt.
-<fig/totP_Euclid_flat2.pdf, id=2822, 660.97467pt x 516.15562pt>
+<fig/totP_Euclid_flat2.pdf, id=2845, 660.97467pt x 516.15562pt>
 File: fig/totP_Euclid_flat2.pdf Graphic file (type pdf)
 <use fig/totP_Euclid_flat2.pdf>
-Package luatex.def Info: fig/totP_Euclid_flat2.pdf  used on input line 710.
+Package luatex.def Info: fig/totP_Euclid_flat2.pdf  used on input line 708.
 (luatex.def)             Requested size: 163.24774pt x 127.47916pt.
-<fig/totP_IM_flat2.pdf, id=2823, 660.97467pt x 513.41876pt>
+<fig/totP_IM_flat2.pdf, id=2846, 660.97467pt x 513.41876pt>
 File: fig/totP_IM_flat2.pdf Graphic file (type pdf)
 <use fig/totP_IM_flat2.pdf>
-Package luatex.def Info: fig/totP_IM_flat2.pdf  used on input line 714.
+Package luatex.def Info: fig/totP_IM_flat2.pdf  used on input line 712.
 (luatex.def)             Requested size: 163.24774pt x 126.8032pt.
-<fig/totP_euclid_equi2.pdf, id=2824, 652.12347pt x 509.86201pt>
+<fig/totP_euclid_equi2.pdf, id=2847, 652.12347pt x 509.86201pt>
 File: fig/totP_euclid_equi2.pdf Graphic file (type pdf)
 <use fig/totP_euclid_equi2.pdf>
-Package luatex.def Info: fig/totP_euclid_equi2.pdf  used on input line 720.
+Package luatex.def Info: fig/totP_euclid_equi2.pdf  used on input line 718.
 (luatex.def)             Requested size: 163.24774pt x 127.63634pt.
-<fig/totP_IM_equi2.pdf, id=2825, 660.97467pt x 516.15562pt>
+<fig/totP_IM_equi2.pdf, id=2848, 660.97467pt x 516.15562pt>
 File: fig/totP_IM_equi2.pdf Graphic file (type pdf)
 <use fig/totP_IM_equi2.pdf>
-Package luatex.def Info: fig/totP_IM_equi2.pdf  used on input line 724.
+Package luatex.def Info: fig/totP_IM_equi2.pdf  used on input line 722.
 (luatex.def)             Requested size: 163.24774pt x 127.47916pt.
  [137<./fig/totP_Euclid_sq2.pdf><./fig/totP_IM_sq2.pdf><./fig/totP_Euclid_flat2.
 pdf><./fig/totP_IM_flat2.pdf><./fig/totP_euclid_equi2.pdf><./fig/totP_IM_equi2.p
 df>]
-<fig/triangles_all_k001_Euclid.png, id=2965, 1025.9931pt x 834.4776pt>
+<fig/triangles_all_k001_Euclid.png, id=2988, 1025.9931pt x 834.4776pt>
 File: fig/triangles_all_k001_Euclid.png Graphic file (type png)
 <use fig/triangles_all_k001_Euclid.png>
 Package luatex.def Info: fig/triangles_all_k001_Euclid.png  used on input line 
-733.
+731.
 (luatex.def)             Requested size: 298.75264pt x 242.98549pt.
-<fig/triangles_all_k01_Euclid.png, id=2966, 1025.9931pt x 834.4776pt>
+<fig/triangles_all_k01_Euclid.png, id=2989, 1025.9931pt x 834.4776pt>
 File: fig/triangles_all_k01_Euclid.png Graphic file (type png)
 <use fig/triangles_all_k01_Euclid.png>
 Package luatex.def Info: fig/triangles_all_k01_Euclid.png  used on input line 7
-34.
+32.
 (luatex.def)             Requested size: 298.75264pt x 242.98549pt.
  [138<./fig/triangles_all_k001_Euclid.png><./fig/triangles_all_k01_Euclid.png>]
-<fig/triangles_all_k001_IM.png, id=2973, 1025.9931pt x 834.4776pt>
+<fig/triangles_all_k001_IM.png, id=2996, 1025.9931pt x 834.4776pt>
 File: fig/triangles_all_k001_IM.png Graphic file (type png)
 <use fig/triangles_all_k001_IM.png>
-Package luatex.def Info: fig/triangles_all_k001_IM.png  used on input line 742.
+Package luatex.def Info: fig/triangles_all_k001_IM.png  used on input line 740.
 
 (luatex.def)             Requested size: 341.43437pt x 277.69588pt.
-<fig/triangles_all_k01_IM.png, id=2974, 1025.9931pt x 834.4776pt>
+<fig/triangles_all_k01_IM.png, id=2997, 1025.9931pt x 834.4776pt>
 File: fig/triangles_all_k01_IM.png Graphic file (type png)
 <use fig/triangles_all_k01_IM.png>
-Package luatex.def Info: fig/triangles_all_k01_IM.png  used on input line 743.
+Package luatex.def Info: fig/triangles_all_k01_IM.png  used on input line 741.
 (luatex.def)             Requested size: 341.43437pt x 277.69588pt.
  [139<./fig/triangles_all_k001_IM.png><./fig/triangles_all_k01_IM.png>]
-<fig/redB_k01.pdf, id=2984, 1041.39919pt x 761.67902pt>
+<fig/redB_k01.pdf, id=3007, 1041.39919pt x 761.67902pt>
 File: fig/redB_k01.pdf Graphic file (type pdf)
 <use fig/redB_k01.pdf>
-Package luatex.def Info: fig/redB_k01.pdf  used on input line 750.
+Package luatex.def Info: fig/redB_k01.pdf  used on input line 748.
 (luatex.def)             Requested size: 362.77525pt x 265.33644pt.
-<fig/redB_k001.pdf, id=2985, 1041.39919pt x 761.67902pt>
+<fig/redB_k001.pdf, id=3008, 1041.39919pt x 761.67902pt>
 File: fig/redB_k001.pdf Graphic file (type pdf)
 <use fig/redB_k001.pdf>
-Package luatex.def Info: fig/redB_k001.pdf  used on input line 751.
+Package luatex.def Info: fig/redB_k001.pdf  used on input line 749.
 (luatex.def)             Requested size: 362.77525pt x 265.33644pt.
  [140<./fig/redB_k01.pdf><./fig/redB_k001.pdf>]
-<fig/fnofz.pdf, id=3036, 1546.18831pt x 394.44337pt>
+<fig/fnofz.pdf, id=3059, 1546.18831pt x 394.44337pt>
 File: fig/fnofz.pdf Graphic file (type pdf)
 <use fig/fnofz.pdf>
-Package luatex.def Info: fig/fnofz.pdf  used on input line 758.
+Package luatex.def Info: fig/fnofz.pdf  used on input line 756.
 (luatex.def)             Requested size: 426.79135pt x 108.87852pt.
  [141
 
@@ -1908,29 +1910,29 @@ chapter 6.
 
 
 ] [145] [146] [147] [148] [149]
-<fig/Mplot.pdf, id=3254, 1011.78pt x 1011.78pt>
+<fig/Mplot.pdf, id=3276, 1011.78pt x 1011.78pt>
 File: fig/Mplot.pdf Graphic file (type pdf)
 <use fig/Mplot.pdf>
-Package luatex.def Info: fig/Mplot.pdf  used on input line 167.
+Package luatex.def Info: fig/Mplot.pdf  used on input line 166.
 (luatex.def)             Requested size: 341.43437pt x 341.43785pt.
  [150] [151<./fig/Mplot.pdf>] [152]
-Overfull \hbox (5.6442pt too wide) detected at line 255
+Overfull \hbox (5.6442pt too wide) detected at line 254
 []
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 255--255
+Overfull \hbox (12.0pt too wide) in paragraph at lines 254--254
 [] 
  []
 
 [153] [154]
-Overfull \hbox (2.24052pt too wide) in paragraph at lines 305--308
+Overfull \hbox (2.24052pt too wide) in paragraph at lines 304--307
 \TU/lmr/m/it/12 Relativistic cor-rec-tions to [] are needed to en-force gauge-in
 dependence
  []
 
 [155] [156] [157] [158] [159]
-Overfull \hbox (19.02162pt too wide) in paragraph at lines 520--521
+Overfull \hbox (19.02162pt too wide) in paragraph at lines 519--520
 \OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12 H[]\OT1/cmr/m/n/12 /\OML/cmm/m/it/12 k[]\OT1/
 cmr/m/n/12 ) (\OML/cmm/m/it/12 []\OT1/cmr/m/n/12 )[]$ \TU/lmr/m/n/12 and dom-i-
 nate the GR cor-rec-tion terms, which scale as $i\OT1/cmr/m/n/12 (\OMS/cmsy/m/n
@@ -1939,61 +1941,60 @@ nate the GR cor-rec-tion terms, which scale as $i\OT1/cmr/m/n/12 (\OMS/cmsy/m/n
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 528--529
+Underfull \hbox (badness 10000) in paragraph at lines 527--528
 
  []
 
 [160] [161]
-Overfull \hbox (8.39479pt too wide) detected at line 614
+Overfull \hbox (8.39479pt too wide) detected at line 613
 []
  []
 
 [162] [163]
-<fig/Q_k0_1_noShotnoise1.pdf, id=3564, 1084.05pt x 1084.05pt>
+<fig/Q_k0_1_noShotnoise1.pdf, id=3586, 1084.05pt x 1084.05pt>
 File: fig/Q_k0_1_noShotnoise1.pdf Graphic file (type pdf)
 <use fig/Q_k0_1_noShotnoise1.pdf>
-Package luatex.def Info: fig/Q_k0_1_noShotnoise1.pdf  used on input line 689.
+Package luatex.def Info: fig/Q_k0_1_noShotnoise1.pdf  used on input line 688.
 (luatex.def)             Requested size: 209.1301pt x 209.11447pt.
-<fig/Q_k0_1_noShotnoise2.pdf, id=3565, 1084.05pt x 1084.05pt>
+<fig/Q_k0_1_noShotnoise2.pdf, id=3587, 1084.05pt x 1084.05pt>
 File: fig/Q_k0_1_noShotnoise2.pdf Graphic file (type pdf)
 <use fig/Q_k0_1_noShotnoise2.pdf>
-Package luatex.def Info: fig/Q_k0_1_noShotnoise2.pdf  used on input line 690.
+Package luatex.def Info: fig/Q_k0_1_noShotnoise2.pdf  used on input line 689.
 (luatex.def)             Requested size: 209.1301pt x 209.11447pt.
- [164]
-<fig/redB_lineandlake_v3.pdf, id=3583, 1567.78375pt x 809.54445pt>
+ [164] [165<./fig/Q_k0_1_noShotnoise1.pdf><./fig/Q_k0_1_noShotnoise2.pdf>]
+<fig/redB_lineandlake_v3.pdf, id=3650, 1567.78375pt x 809.54445pt>
 File: fig/redB_lineandlake_v3.pdf Graphic file (type pdf)
 <use fig/redB_lineandlake_v3.pdf>
-Package luatex.def Info: fig/redB_lineandlake_v3.pdf  used on input line 715.
+Package luatex.def Info: fig/redB_lineandlake_v3.pdf  used on input line 716.
 (luatex.def)             Requested size: 426.79135pt x 220.37105pt.
-<fig/multipoles_allpanels_v3.pdf, id=3586, 1582.713pt x 801.25348pt>
+<fig/multipoles_allpanels_v3.pdf, id=3653, 1582.713pt x 801.25348pt>
 File: fig/multipoles_allpanels_v3.pdf Graphic file (type pdf)
 <use fig/multipoles_allpanels_v3.pdf>
 Package luatex.def Info: fig/multipoles_allpanels_v3.pdf  used on input line 72
-0.
+1.
 (luatex.def)             Requested size: 426.79135pt x 216.06012pt.
- [165<./fig/Q_k0_1_noShotnoise1.pdf><./fig/Q_k0_1_noShotnoise2.pdf>] [166<./fig/
-redB_lineandlake_v3.pdf>] [167<./fig/multipoles_allpanels_v3.pdf>] [168]) [169]
- [170]
+ [166<./fig/redB_lineandlake_v3.pdf>] [167<./fig/multipoles_allpanels_v3.pdf>] 
+[168]) [169] [170]
 \openout2 = tex/summary.aux
  (./tex/summary.tex
 chapter 7.
-) [171
+[171
 
 
 
 
-] [172]
+] [172] [173]) [174]
 \openout2 = tex/appendix.aux
  (./tex/appendix.tex
 chapter A.
-(./tex/app_betacoeff.tex [173
+(./tex/app_betacoeff.tex [175
 
 
 
 
-] [174]) [175]
+] [176]) [177]
 chapter B.
-(./tex/app_betatables.tex [176
+(./tex/app_betatables.tex [178
 
 ]
 Overfull \hbox (19.14409pt too wide) in alignment at lines 24--57
@@ -2010,39 +2011,39 @@ Overfull \hbox (19.14409pt too wide) in alignment at lines 90--122
  [][][][] 
  []
 
-[177
+[179
 
 ]
 Overfull \hbox (19.14409pt too wide) in alignment at lines 122--155
  [][][][] 
  []
 
-[178]
+[180]
 Overfull \hbox (19.14409pt too wide) in alignment at lines 155--186
  [][][][] 
  []
 
-[179]
+[181]
 Overfull \hbox (19.14409pt too wide) in alignment at lines 186--192
  [][][][] 
  []
 
-[180] [181] [182
+[182] [183] [184
 
-]) [183]
+]) [185]
 chapter C.
 (./tex/app_upsiloncoeff.tex
 Overfull \hbox (61.70424pt too wide) in paragraph at lines 40--99
 [][] 
  []
 
-) [184
-
-] [185]
-chapter D.
-(./tex/app_kabpres.tex [186
+) [186
 
 ] [187]
+chapter D.
+(./tex/app_kabpres.tex [188
+
+] [189]
 Overfull \hbox (1.59782pt too wide) detected at line 88
 []
  []
@@ -2052,68 +2053,67 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 88--88
 [] 
  []
 
-[188] [189] [190] [191] [192]) [193]
+[190] [191] [192] [193] [194]) [195]
 chapter E.
-(./tex/app_sqlim.tex [194
+(./tex/app_sqlim.tex [196
 
-])) [195] (./thesis.bbl
+])) [197] (./thesis.bbl
 chapter without number
-[196
+[198
 
 
 
-] [197] [198] [199] [200] [201] [202] [203] [204] [205
+] [199] [200] [201] [202] [203] [204] [205] [206] [207
 Missing character: There is no α (U+03B1) in font [lmroman12-italic]:+tlig;!
-] [206] [207]
-[208] [209] [210] [211] [212] [213] [214]) [215] (./thesis.lof
+] [208] [209]
+[210] [211] [212] [213] [214] [215] [216]) [217] (./thesis.lof
 Overfull \hbox (1.68892pt too wide) in paragraph at lines 5--5
  [][] [][]\TU/lmr/m/n/12 Snap-shot of Mil-len-nium sim-u-la-tions [[]] show-ing non-linear LSS. There 
  []
 
-[216
+[218
 
-] [217] [218] [219]
+] [219] [220] [221]
 Overfull \hbox (4.03854pt too wide) in paragraph at lines 40--40
  [][] [][]\TU/lmr/m/n/12 The sep-a-rated vec-tor, ten-sor, and scalar con-tri-bu
 -tions to the monopole 
  []
 
-[220] [221])
+[222] [223])
 \tf@lof=\write5
 
 \openout5 = thesis.lof
- [222] (./thesis.lot)
+ [224] (./thesis.lot)
 \tf@lot=\write6
 
 \openout6 = thesis.lot
- [223
+ [225
 
 ] (./thesis.aux (./tex/abstract.aux)
-(./tex/conventions.aux) (./tex/acknowledgements.aux) (./tex/introgeneral.aux)
-(./tex/dipole.aux) (./tex/detectability.aux) (./tex/higherorder.aux)
-(./tex/multipoles.aux) (./tex/png_bisp.aux) (./tex/summary.aux)
-(./tex/appendix.aux))
+(./tex/conventions.aux) (./tex/introgeneral.aux) (./tex/dipole.aux)
+(./tex/detectability.aux) (./tex/higherorder.aux) (./tex/multipoles.aux)
+(./tex/png_bisp.aux) (./tex/summary.aux) (./tex/appendix.aux))
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
 (\end occurred inside a group at level 4)
 
-### simple group (level 4) entered at line 340 ({)
-### simple group (level 3) entered at line 290 ({)
-### simple group (level 2) entered at line 210 ({)
-### simple group (level 1) entered at line 570 ({)
+### simple group (level 4) entered at line 339 ({)
+### simple group (level 3) entered at line 289 ({)
+### simple group (level 2) entered at line 209 ({)
+### simple group (level 1) entered at line 568 ({)
 ### bottom level
 
 Here is how much of LuaTeX's memory you used:
- 25006 strings out of 478531
+ 24999 strings out of 478531
  125007,1373583 words of node,token memory allocated
- 9880 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 20 glue, 4 kern, 50 sub_mlist, 1 glyph, 2049 attrib
-ute, 85 glue_spec, 2049 attribute_list, 1 write, 129 pdf_action nodes
-   avail lists: 2:1436,3:847,4:142,5:902,6:104,7:8283,8:117,9:3941,10:26,11:621
- 42215 multiletter control sequences out of 65536+600000
- 135 fonts using 12338327 bytes
- 125i,19n,123p,10601b,2324s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 9938 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 20 glue, 4 kern, 50 sub_mlist, 1 glyph, 2056 attrib
+ute, 85 glue_spec, 2056 attribute_list, 1 write, 134 pdf_action nodes
+   avail lists: 2:1426,3:856,4:134,5:902,6:100,7:8492,8:118,9:3941,10:26,11:674
+ 42228 multiletter control sequences out of 65536+600000
+ 134 fonts using 12206639 bytes
+ 125i,19n,123p,10601b,2332s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regul
 ar.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmmono12-reg
 ular.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman8-i
@@ -2124,35 +2124,34 @@ man6-regular.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lm
 roman10-regular.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm
 /lmroman7-regular.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/
 lm/lmromanslant12-regular.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype
-/public/lm/lmroman10-italic.otf></usr/local/texlive/2021/texmf-dist/fonts/openty
-pe/public/lm/lmroman8-regular.otf></usr/local/texlive/2021/texmf-dist/fonts/open
-type/public/lm/lmroman12-italic.otf></usr/local/texlive/2021/texmf-dist/fonts/op
-entype/public/lm/lmroman17-regular.otf></usr/local/texlive/2021/texmf-dist/fonts
-/opentype/public/lm/lmroman12-bold.otf></usr/local/texlive/2021/texmf-dist/fonts
-/opentype/public/lm/lmroman12-regular.otf></usr/local/texlive/2021/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2021/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
-/amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.p
-fb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam1
-0.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/ms
-bm10.pfb>
-Output written on thesis.pdf (223 pages, 20400921 bytes).
+/public/lm/lmroman8-regular.otf></usr/local/texlive/2021/texmf-dist/fonts/openty
+pe/public/lm/lmroman12-italic.otf></usr/local/texlive/2021/texmf-dist/fonts/open
+type/public/lm/lmroman17-regular.otf></usr/local/texlive/2021/texmf-dist/fonts/o
+pentype/public/lm/lmroman12-bold.otf></usr/local/texlive/2021/texmf-dist/fonts/o
+pentype/public/lm/lmroman12-regular.otf></usr/local/texlive/2021/texmf-dist/font
+s/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmib10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/a
+msfonts/cmextra/cmmib8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.
+pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.
+pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm
+10.pfb>
+Output written on thesis.pdf (225 pages, 20421224 bytes).
 
-PDF statistics: 5311 PDF objects out of 6186 (max. 8388607)
- 4672 compressed objects within 47 object streams
- 1133 named destinations out of 1200 (max. 131072)
- 609 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 5369 PDF objects out of 6186 (max. 8388607)
+ 4729 compressed objects within 48 object streams
+ 1143 named destinations out of 1200 (max. 131072)
+ 601 words of extra memory for PDF output out of 10000 (max. 100000000)
 
